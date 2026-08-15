@@ -7,6 +7,7 @@
 - 패치 사용 안내: `README.md`, `PATCH_GUIDE.md`
 - 라이선스/권리 고지: `LICENSE`, `NOTICE.md`, `docs/LEGAL_NOTICE.md`
 - 공개 검토를 마친 개발 문서: `docs/*.md`
+- README 소개용 한글패치 적용 화면 캡처: `docs/images/title_screen_ko.png`처럼 소수의 선별 스크린샷만 허용
 - 패치 빌드/검증 도구: `tools/*.py`
 - 재현 가능한 빌드에 필요한 활성 번역/구조 사양: `data/`
 - 배포용 xdelta: `out/dist/monoeye_ko_expanded.xdelta`
@@ -22,7 +23,7 @@
 - 패치 완료 ROM 및 모든 candidate/probe/test ROM
 - SaveRAM, savestate, emulator profile
 - BizHawk/Oswan 등 emulator 실행 파일
-- 임시 screenshot, VRAM dump, 디버그 PNG
+- 임시 screenshot, VRAM dump, 디버그 PNG (README 소개용으로 선별한 최소 스크린샷은 예외)
 - `out/patch/`의 후보/감사/실험 산출물
 - `out/script/`, `outputs/`의 대규모 작업 캐시
 - 빌드 재현에 필요하지 않은 독립적인 원문 덤프·대규모 검수 worklist·ROM 추출 중간물
