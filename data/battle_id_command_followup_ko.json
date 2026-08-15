@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "description": "Screen-proven battle dialogue and ID-command duplicate records still untranslated in the promoted main TIP. Record starts and body starts are bound to the current main ROM; only body bytes are replaced.",
+  "parent_rom": "out/patch/monoeye_ko_expanded.wsc",
+  "records": [
+    {
+      "record_start": "5CAB9E",
+      "body_start": "5CABA1",
+      "prefix_hex": "173418",
+      "body_hex": "F19141F4678AF0BB",
+      "jp": "……私には見える",
+      "ko": "……내게는　보인다",
+      "category": "battle_dialogue_duplicate",
+      "evidence": "uploaded battle screenshot and exact raw duplicate search"
+    },
+    {
+      "record_start": "5C88DE",
+      "body_start": "5C88E1",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5C9C42",
+      "body_start": "5C9C45",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5C9EB7",
+      "body_start": "5C9EBA",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CA339",
+      "body_start": "5CA33C",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CA502",
+      "body_start": "5CA505",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CA74D",
+      "body_start": "5CA750",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CA79E",
+      "body_start": "5CA7A1",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CAAF9",
+      "body_start": "5CAAFC",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CADF6",
+      "body_start": "5CADF9",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CAEA1",
+      "body_start": "5CAEA4",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB278",
+      "body_start": "5CB27B",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB301",
+      "body_start": "5CB304",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB363",
+      "body_start": "5CB366",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB3E2",
+      "body_start": "5CB3E5",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB510",
+      "body_start": "5CB513",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB566",
+      "body_start": "5CB569",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "5CB590",
+      "body_start": "5CB593",
+      "prefix_hex": "173418",
+      "body_hex": "FD35F9B203",
+      "jp": "ミノフスキ－粒子散布！",
+      "ko": "미노프스키　입자　살포！",
+      "category": "id_command_activation_duplicate"
+    },
+    {
+      "record_start": "59020C",
+      "body_start": "59020C",
+      "prefix_hex": "",
+      "body_hex": "F191F78C2AF7ABF044",
+      "jp": "……ジ－ク・ジオン！！",
+      "ko": "……지크・지온！！",
+      "category": "battle_dialogue_duplicate",
+      "evidence": "uploaded battle screenshot and exact raw duplicate search"
+    }
+  ],
+  "already_translated_verified": [
+    {
+      "abs": "75E277",
+      "current": "……내게는　보인다"
+    },
+    {
+      "abs": "75D5A9",
+      "current": "미노프스키　입자　산포！"
+    },
+    {
+      "abs": "63EB33",
+      "current": "으악！"
+    },
+    {
+      "abs": "5D4D88",
+      "current": "큭、맞았다！！"
+    },
+    {
+      "abs": "5D5082",
+      "current": "큭、맞았다！！"
+    }
+  ]
+}

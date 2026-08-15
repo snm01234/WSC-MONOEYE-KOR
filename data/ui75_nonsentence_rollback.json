@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "description": "Rollback the UI75 walker-noise fragment that the bank59/name75 stack rewrote as 이동. The original 5-byte payload is restored and its private ext3 slot is returned to empty. Sentence-like bank59/name75 records are kept.",
+  "parent_tip_sha256": "3eb5b66d0ba5b0d22ff39275039b95ab720e39743ebc61aedc544c066908de21",
+  "backup_tip_sha256": "5d3cb79f7d4b5f2674f6a28c2c8033f31d52e5b88b6ca579b033fe6701905229",
+  "reason": "75B2DD was classified walker_noise (　ウ　移動). Rewriting it to an ext3 portal made the map-select grab/move label render as Japanese hiragana.",
+  "record": {
+    "abs": "75B2DD",
+    "region": "ui75",
+    "payload_len": 5,
+    "current_payload_hex": "E51833F801",
+    "restore_payload_hex": "017701F1C2",
+    "jp": "　ウ　移動",
+    "rolled_back_ko": "이동",
+    "ext3_slot": "043F8",
+    "restore_ext3_pointer": "2000"
+  }
+}

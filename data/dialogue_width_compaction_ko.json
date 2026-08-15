@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "purpose": "Meaning-preserving compaction of the seven highest-risk dialogue rows from the current screen-width audit.",
+  "parent_tip_sha256": "59dd896c6bf415c24f12b179beb5fa2794ec1c80c8de0591dfc5579047e01375",
+  "max_visual_cells": 24,
+  "records": [
+    {
+      "abs": "592700",
+      "scope": "bank59_event",
+      "source_jp": "キサマごときにあのお方が倒せるものか！",
+      "before": "네놈　따위가　그분을　쓰러뜨릴　수　있을　것　같으냐！",
+      "after": "네놈　따위가　그분을　쓰러뜨릴　수　있겠느냐！",
+      "reason": "Remove redundant Korean periphrasis while preserving the contemptuous rhetorical challenge."
+    },
+    {
+      "abs": "594E49",
+      "scope": "bank59_event",
+      "source_jp": "怨恨のみで戦いを支える者に私は倒せぬ！",
+      "before": "원한만으로　싸우는　자가　나를　쓰러뜨릴　수는　없다！",
+      "after": "원한만으론　나를　쓰러뜨릴　수　없다！",
+      "reason": "The omitted explicit subject 'one who fights' is already entailed by the sentence; the key claim that resentment alone cannot defeat the speaker remains intact."
+    },
+    {
+      "abs": "5964E1",
+      "scope": "bank59_event",
+      "source_jp": "私は貴様を倒し、己の甘さを清算する！",
+      "before": "나는　네놈을　쓰러뜨리고、　스스로의　나약함을　청산한다！",
+      "after": "네놈을　쓰러뜨려、　내　나약함을　청산한다！",
+      "reason": "Drop the context-redundant first-person pronoun and shorten the connective; both defeating the opponent and settling one's weakness remain explicit."
+    },
+    {
+      "abs": "5968FB",
+      "scope": "bank59_event",
+      "source_jp": "そのためには命を失ってもよい覚悟なのです",
+      "before": "그러기　위해서라면　목숨을　잃어도　좋다는　각오입니다",
+      "after": "그러기　위해선　목숨을　잃을　각오입니다",
+      "reason": "Compress the willingness construction to the natural Korean expression 'prepared to lose my life' without changing the resolve."
+    },
+    {
+      "abs": "597098",
+      "scope": "bank59_event",
+      "source_jp": "我らの力を認め、屈するに違いあるまい……",
+      "before": "우리의　힘을　인정하고、　굴복할　것이　틀림없다……",
+      "after": "우리　힘을　인정해、　틀림없이　굴복할　거다……",
+      "reason": "Use a shorter colloquial connective while preserving recognition of our strength and certainty of surrender."
+    },
+    {
+      "abs": "5971D8",
+      "scope": "bank59_event",
+      "source_jp": "主義や主張ではなく平和を望む心です！",
+      "before": "주의나　주장이　아니라　평화를　바라는　마음입니다！",
+      "after": "주의나　주장보다　평화를　바라는　마음입니다！",
+      "reason": "Render the contrast as 'rather than ideology or assertions'; the central meaning, a wish for peace rather than doctrine, is retained."
+    },
+    {
+      "abs": "5E5D48",
+      "scope": "battle_voice",
+      "source_jp": "持ちながら評価を受けぬものの苦しみは！！",
+      "context_before": "인간을　넘어선　힘을",
+      "before": "가지고　있으면서　평가를　받지　못하는　자의　괴로움은！！",
+      "after": "지니고도　인정받지　못하는　자의　괴로움은！！",
+      "reason": "The preceding partner line already supplies the object 'power beyond humans'; '지니고도' naturally continues it and preserves the suffering of possessing it without recognition."
+    }
+  ]
+}

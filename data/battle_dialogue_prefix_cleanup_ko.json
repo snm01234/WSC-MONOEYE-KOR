@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "description": "Runtime-proven false aux prefix cleanup for the second battle-dialogue line",
+  "parent_sha256": "70f53cbc34559366e856aedcd793fb5fde33c0c2199fd7166aa055fc89d5e677",
+  "record": {
+    "abs": "5EBD90",
+    "payload_capacity": 10,
+    "expected_before_hex": "14E518D5290101010101",
+    "expected_original_hex": "1431F3C4F1FBF1910903",
+    "expected_original_text": "うわあぁぁぁ……っ！",
+    "expected_before_text": "う우와아아아……！",
+    "ext3_token_hex": "E518D529",
+    "ko": "우와아아아……！",
+    "reason": "0x14 is the printable kana う, not a speaker/control prefix. The conservative one-code-unit aux rule preserved it before the Korean ext3 token. The supplied runtime screenshot proves that byte is rendered."
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "description": "Bank59 mission-title/dialogue leftovers plus name75 data-tail on term_unify_round2_candidate. Encyclopedia 5C glyph-table noise, UI75 kana chart, and walker fragments are skipped. The UI75 walker-noise row 75B2DD was rolled back.",
+  "parent_tip_sha256": "3d8701a7d43cc551155d9eddaa692886ea763ead8b65a293520c78e0e2be41c3",
+  "provenance": {
+    "translation_source": "llm",
+    "model": "Cursor Grok 4.6",
+    "review_status": "promoted",
+    "legacy_machine_translation_used": false
+  },
+  "records": [
+    {
+      "abs": "591D2E",
+      "region": "bank59",
+      "prefix_hex": "1719",
+      "jp": "ばってくれれば……",
+      "ko": "힘내준다면……",
+      "payload_len": 9,
+      "current_payload_hex": "171949FA3EF03EF191"
+    },
+    {
+      "abs": "59960C",
+      "region": "bank59",
+      "prefix_hex": "171D18",
+      "jp": "いけっ！　ファンネルっ！！",
+      "ko": "가라！　판넬！！",
+      "payload_len": 12,
+      "current_payload_hex": "171D18F8130301FBD209F044"
+    },
+    {
+      "abs": "599A07",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "オレの、敵が！！",
+      "ko": "나의、　적이다！！",
+      "payload_len": 8,
+      "current_payload_hex": "F43005077F17F044"
+    },
+    {
+      "abs": "59AB9C",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "プレイヤ－部隊登場",
+      "ko": "플레이어　부대등장",
+      "payload_len": 9,
+      "current_payload_hex": "6CF1389C10F428F096"
+    },
+    {
+      "abs": "59B54D",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "バ－トン財団の襲撃",
+      "ko": "바톤　재단의　습격",
+      "payload_len": 8,
+      "current_payload_hex": "FB38F3A805E2CF7B"
+    },
+    {
+      "abs": "59B55B",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ロンド・べル出撃",
+      "ko": "론도・벨　출격",
+      "payload_len": 7,
+      "current_payload_hex": "F88F2AF003F164"
+    },
+    {
+      "abs": "59B564",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "バ－トンの思惑",
+      "ko": "바톤의　속셈",
+      "payload_len": 6,
+      "current_payload_hex": "FB380594E18C"
+    },
+    {
+      "abs": "59C0F9",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ノインとゼクス",
+      "ko": "노인과　젝스",
+      "payload_len": 5,
+      "current_payload_hex": "F7DF13F6A9"
+    },
+    {
+      "abs": "59C100",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "リリ－ナの決意",
+      "ko": "리리나의　결의",
+      "payload_len": 6,
+      "current_payload_hex": "FB8405E019DD"
+    },
+    {
+      "abs": "59C10C",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "戦いが終わって",
+      "ko": "싸움이　끝나고",
+      "payload_len": 8,
+      "current_payload_hex": "39F25AE010F2210B"
+    },
+    {
+      "abs": "59CAC6",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ザビ－ネの裏切り",
+      "ko": "자비네의　배신",
+      "payload_len": 6,
+      "current_payload_hex": "FB2205F28827"
+    },
+    {
+      "abs": "59D6E1",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "マザ－バンガ－ド撃破",
+      "ko": "마더　뱅가드　격파",
+      "payload_len": 4,
+      "current_payload_hex": "FE7AF162"
+    },
+    {
+      "abs": "59D6E7",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "マザ－バンガ－ド離脱",
+      "ko": "마더　뱅가드　이탈",
+      "payload_len": 4,
+      "current_payload_hex": "FE7AF509"
+    },
+    {
+      "abs": "59D6ED",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "マザ－バンガ－ド奪還",
+      "ko": "마더　뱅가드　탈환",
+      "payload_len": 4,
+      "current_payload_hex": "FE7AF3CE"
+    },
+    {
+      "abs": "59D6FD",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "マザ－バンガ－ド奪還成功",
+      "ko": "마더　뱅가드　탈환　성공",
+      "payload_len": 6,
+      "current_payload_hex": "FE7AF3CEF2C8"
+    },
+    {
+      "abs": "59D709",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "戦いが終わって",
+      "ko": "싸움이　끝나고",
+      "payload_len": 8,
+      "current_payload_hex": "39F25AE010F2210B"
+    },
+    {
+      "abs": "59DF25",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ユウとアムロ交信",
+      "ko": "유우와　아무로　교신",
+      "payload_len": 7,
+      "current_payload_hex": "F32513F847F29D"
+    },
+    {
+      "abs": "59DF2E",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ユウとヒイロ交信",
+      "ko": "유우와　히이로　교신",
+      "payload_len": 7,
+      "current_payload_hex": "F32513F5AFF29D"
+    },
+    {
+      "abs": "59ECA1",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ゼロとレイラ交信",
+      "ko": "제로와　레이라　교신",
+      "payload_len": 7,
+      "current_payload_hex": "F06513F74FF29D"
+    },
+    {
+      "abs": "59ECAA",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "テラ・スオ－ノ登場",
+      "ko": "테라・스오노　등장",
+      "payload_len": 7,
+      "current_payload_hex": "F4D62AFB68F096"
+    },
+    {
+      "abs": "59ECBA",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "シグｖｓテラ・スオ－ノ戦闘前",
+      "ko": "시그ｖｓ테라・스오노　전투전",
+      "payload_len": 14,
+      "current_payload_hex": "F50BE5B5E5B2F4D62AFB68F33796"
+    },
+    {
+      "abs": "59ECCA",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "セラｖｓテラ・スオ－ノ戦闘前",
+      "ko": "세라ｖｓ테라・스오노　전투전",
+      "payload_len": 14,
+      "current_payload_hex": "F429E5B5E5B2F4D62AFB68F33796"
+    },
+    {
+      "abs": "59ECDA",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "ミアンｖｓテラ・スオ－ノ戦闘前",
+      "ko": "미안ｖｓ테라・스오노　전투전",
+      "payload_len": 14,
+      "current_payload_hex": "F6DBE5B5E5B2F4D62AFB68F33796"
+    },
+    {
+      "abs": "59ECEA",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "テラ・スオ－ノ撃破",
+      "ko": "테라・스오노　격파",
+      "payload_len": 7,
+      "current_payload_hex": "F4D62AFB68F162"
+    },
+    {
+      "abs": "59ECF7",
+      "region": "bank59",
+      "prefix_hex": "",
+      "jp": "戦いが終わって",
+      "ko": "싸움이　끝나고",
+      "payload_len": 8,
+      "current_payload_hex": "39F25AE010F2210B"
+    },
+    {
+      "abs": "75E630",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "　　　い　はる　るいは",
+      "ko": "　　　이　하루　루이하는",
+      "payload_len": 11,
+      "current_payload_hex": "0101010401080F010F0408"
+    },
+    {
+      "abs": "75E720",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "邦きラふ　だったね……",
+      "ko": "나라였지……",
+      "payload_len": 9,
+      "current_payload_hex": "AC322E5B01FB050202"
+    },
+    {
+      "abs": "75E72D",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "合きラふ　だったね……",
+      "ko": "함께였지……",
+      "payload_len": 9,
+      "current_payload_hex": "B4322E5B01FB050202"
+    },
+    {
+      "abs": "75E73A",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "時きラふ…いない！！",
+      "ko": "시간은…없어！！",
+      "payload_len": 9,
+      "current_payload_hex": "B7322E5B02F60A0303"
+    },
+    {
+      "abs": "75E747",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "ぉきラふ",
+      "ko": "였어",
+      "payload_len": 5,
+      "current_payload_hex": "BA322E5B01"
+    },
+    {
+      "abs": "75E754",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "場きラふ　だったね……",
+      "ko": "그곳이었지……",
+      "payload_len": 9,
+      "current_payload_hex": "BD322E5B01FB050202"
+    },
+    {
+      "abs": "75E761",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "ォきラふ　だったね……",
+      "ko": "였지……",
+      "payload_len": 9,
+      "current_payload_hex": "C0322E5B01FB050202"
+    },
+    {
+      "abs": "75E76E",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "知きラふ　だったね……",
+      "ko": "알고있었지……",
+      "payload_len": 9,
+      "current_payload_hex": "C8322E5B01FB050202"
+    },
+    {
+      "abs": "75E77B",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "ぬきラふ　だったね……",
+      "ko": "빠졌지……",
+      "payload_len": 9,
+      "current_payload_hex": "CB322E5B01FB050202"
+    },
+    {
+      "abs": "75E788",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "同きラふ！だったら………　…　ごきラふ！だったね………　…　待きラふな",
+      "ko": "같다면……　…　였지……　…　기다려",
+      "payload_len": 31,
+      "current_payload_hex": "D0322E5B03FB0A020202010201D3322E5B03FB05020202010201D7322E5B06"
+    },
+    {
+      "abs": "75E7A8",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "の　…　　…　意きラふな",
+      "ko": "의　…　　…　뜻인가",
+      "payload_len": 12,
+      "current_payload_hex": "05010201010201DD322E5B06"
+    },
+    {
+      "abs": "75E7CF",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "の………　…　풰ラふか",
+      "ko": "의………　…　인가",
+      "payload_len": 12,
+      "current_payload_hex": "05020202010201EB322E5B0E"
+    },
+    {
+      "abs": "75E7F0",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "ダメッラふいだったら……",
+      "ko": "안　되면……",
+      "payload_len": 9,
+      "current_payload_hex": "F6322E5B04FB0A0202"
+    },
+    {
+      "abs": "75E7FE",
+      "region": "name75",
+      "prefix_hex": "",
+      "jp": "きラふなだったね…",
+      "ko": "였지…",
+      "payload_len": 7,
+      "current_payload_hex": "322E5B06FB0502"
+    }
+  ],
+  "skipped": [
+    {"region": "encyclopedia_5C", "reason": "glyph_table_or_binary_not_encyclopedia_prose", "count": 15},
+    {"region": "ui75", "reason": "kana_input_chart_75B889", "count": 8},
+    {"region": "ui75", "reason": "walker_fragment_75B000_B2DD", "count": 11},
+    {"region": "name75", "reason": "structured_index_bytes_se_ko_nisu", "addresses": ["75E6B0", "75E6BC", "75E6C8", "75E6D4", "75E6E0"]},
+    {"region": "name75", "reason": "baddict_untranslated", "addresses": ["75E6A6", "75E6B8", "75E6C4", "75E6D0", "75E6DC", "75E6E8", "75E6F8", "75E700"]},
+    {"region": "name75", "reason": "incoherent_mixed_or_interior_nul", "addresses": ["75E6EC", "75E7E3"]},
+    {"region": "bank59", "reason": "control_walker_baddict_not_dialogue_or_title"}
+  ]
+}

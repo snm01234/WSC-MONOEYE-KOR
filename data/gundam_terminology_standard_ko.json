@@ -1,0 +1,479 @@
+{
+  "description": "건담 관련 한국어 명칭 표준. 사용자 확정 표기를 최우선으로 하며, 활성 번역 소스와 현재 TIP의 재발 감사를 위한 단일 기준으로 사용한다.",
+  "policy": {
+    "priority": [
+      "user_confirmed",
+      "current_korean_official_or_current_reference",
+      "project_existing_consensus"
+    ],
+    "historical_inputs": "과거 번역/감사 스냅샷은 증거 보존을 위해 수정하지 않을 수 있으나, 활성 소스와 현재 TIP에는 forbidden_ko 표기가 없어야 한다.",
+    "spacing": "화면 데이터의 전각 공백은 표시 폭 제약에 따라 유지할 수 있으며, 감사 시 일반/전각 공백을 동등하게 취급한다."
+  },
+  "entries": [
+    {
+      "id": "gaplant",
+      "category": "unit",
+      "jp": ["ギャプラン"],
+      "canonical_ko": "갸프랑",
+      "forbidden_ko": ["갸프란"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "quattro",
+      "category": "character",
+      "jp": ["クワトロ", "クワトロ・バジ－ナ", "クワトロ・バジーナ"],
+      "canonical_ko": "크와트로",
+      "forbidden_ko": ["콰트로"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "hizack",
+      "category": "unit",
+      "jp": ["ハイザック", "ハイザック・カスタム"],
+      "canonical_ko": "하이잭",
+      "forbidden_ko": ["하이자크"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "siskude",
+      "category": "unit",
+      "jp": ["シスク－ド", "シスクード"],
+      "canonical_ko": "시스쿠드",
+      "forbidden_ko": ["시스크드"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "gp02a_physalis",
+      "category": "unit",
+      "jp": ["ＧＰ０２Ａサイサリス", "GP02Aサイサリス"],
+      "canonical_ko": "GP02A 사이살리스",
+      "forbidden_ko": ["GP02A 사이사리스", "ＧＰ０２Ａ 사이사리스", "ＧＰ０２Ａ　사이사리스", "사이사리스"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "atomic_bazooka",
+      "category": "in_game_weapon_name",
+      "jp": ["アトミックバズ－カ", "アトミックバズーカ"],
+      "canonical_ko": "아토믹 바주카",
+      "forbidden_ko": ["핵 바주카", "핵　바주카", "원자 바주카", "원자　바주카"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "kampfer",
+      "category": "unit",
+      "jp": ["ケンプファ－", "ケンプファー"],
+      "canonical_ko": "캠퍼",
+      "forbidden_ko": ["켐퍼"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "aiguille_delaz",
+      "category": "character",
+      "jp": ["エギ－ユ・デラ－ズ", "エギーユ・デラーズ"],
+      "canonical_ko": "에규 데라즈",
+      "forbidden_ko": ["에기유 델라즈", "에기유　델라즈", "에기유", "델라즈"],
+      "component_ko": {
+        "エギ－ユ": "에규",
+        "デラ－ズ": "데라즈"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "blex_forer",
+      "category": "character",
+      "jp": ["ブレックス・フォ－ラ", "ブレックス・フォーラ"],
+      "canonical_ko": "블랙스 포라",
+      "forbidden_ko": ["브렉스 포라", "브렉스・포라", "브렉스", "블렉스"],
+      "component_ko": {
+        "ブレックス": "블랙스",
+        "フォ－ラ": "포라"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "olba_frost",
+      "category": "character",
+      "jp": ["オルバ・フロスト"],
+      "canonical_ko": "올바 프로스트",
+      "forbidden_ko": ["오르바 프로스트", "오르바・프로스트", "오르바"],
+      "component_ko": {
+        "オルバ": "올바",
+        "フロスト": "프로스트"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "monsha",
+      "category": "character",
+      "jp": ["モンシア", "ベルナルド・モンシア"],
+      "canonical_ko": "몬시아",
+      "forbidden_ko": ["몬샤", "몽시아"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "funnel",
+      "category": "weapon_term",
+      "jp": ["ファンネル"],
+      "canonical_ko": "판넬",
+      "forbidden_ko": ["퍼널"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "guin_sard_lineford",
+      "category": "character",
+      "jp": ["グエン・サ－ド・ラインフォ－ド", "グエン・サード・ラインフォード", "グエン"],
+      "canonical_ko": "구엔 서드 라인포드",
+      "forbidden_ko": ["응우엔 서드 라인포드", "응우엔 사드 라인포드", "응우옌 서드 라인포드", "응우옌 사드 라인포드", "응우엔", "응우옌"],
+      "component_ko": {
+        "グエン": "구엔",
+        "サ－ド": "서드",
+        "ラインフォ－ド": "라인포드"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "willgame",
+      "category": "unit",
+      "jp": ["ウィルゲム"],
+      "canonical_ko": "윌게임",
+      "forbidden_ko": ["윌겜"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "kelly_layzner",
+      "category": "character",
+      "jp": ["ケリィ・レズナ－", "ケリィ・レズナー"],
+      "canonical_ko": "케리 레즈너",
+      "forbidden_ko": ["켈리 레즈너", "켈리・레즈너", "켈리"],
+      "component_ko": {
+        "ケリィ": "케리",
+        "レズナ－": "레즈너"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "chara_soon",
+      "category": "character",
+      "jp": ["キャラ・ス－ン", "キャラ・スーン", "キャラ"],
+      "canonical_ko": "캐라 슨",
+      "forbidden_ko": ["캬라 순", "캬라・순", "캬라 슨", "캬라・슨", "캬라"],
+      "component_ko": {
+        "キャラ": "캐라",
+        "ス－ン": "슨"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "ple_two",
+      "category": "character",
+      "jp": ["プルツ－", "プルツー"],
+      "canonical_ko": "플투",
+      "forbidden_ko": ["풀투"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "juni_oh_hopai_daisharin",
+      "category": "weapon_technique",
+      "jp": ["十二王方牌大車輪"],
+      "canonical_ko": "십이왕방패대차병",
+      "forbidden_ko": ["십이왕방패대회전"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "daisharin_term",
+      "category": "battle_technique_term",
+      "jp": ["大車輪", "大車りぃぃぃぃんっ"],
+      "canonical_ko": "대차병",
+      "forbidden_ko": ["거대 바퀴", "거대　바퀴", "대차린"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "apolly_bay",
+      "category": "character",
+      "jp": ["アポリー", "アポリ－"],
+      "canonical_ko": "아폴리",
+      "forbidden_ko": ["아볼리"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "maua_pharaoh",
+      "category": "character",
+      "jp": ["マウアー", "マウア－", "マウアー・ファラオ", "マウア－・ファラオ"],
+      "canonical_ko": "마우아",
+      "forbidden_ko": ["마우어"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "serein",
+      "category": "character",
+      "jp": ["セレイン", "セレイン・イクスペリ", "セレイン・イク스ぺリ"],
+      "canonical_ko": "세레인",
+      "forbidden_ko": ["셀레인"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "gundam_w_zechs_merquise",
+      "category": "character",
+      "jp": ["ゼクス", "ゼクス・マ－キス", "ゼクス・マキス"],
+      "canonical_ko": "젝스 마키스",
+      "forbidden_ko": ["제크스", "제크스 마키스", "메키스", "젝스・메키스"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "gundam_w_relena",
+      "category": "character",
+      "jp": ["リリ－ナ", "リリ－ナ・ドリアン", "クイ－ン・リリ－ナ"],
+      "canonical_ko": "리리나",
+      "forbidden_ko": ["릴리나"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "gundam_w_tallgeese",
+      "category": "unit",
+      "jp": ["ト－ルギス", "ト－ルギスⅢ"],
+      "canonical_ko": "톨기스",
+      "forbidden_ko": ["토르기스", "토르기스Ⅲ"],
+      "decision": "project_existing_consensus"
+    },
+    {
+      "id": "gundam_w_endless_waltz",
+      "category": "title",
+      "jp": ["エンドレスワルツ"],
+      "canonical_ko": "엔드리스 월츠",
+      "forbidden_ko": ["엔들리스월츠", "엔들리스 왈츠"],
+      "decision": "official_current_reference",
+      "notes": "일반 표기는 엔드리스 월츠. bank 1C의 고정 길이 도감 문구는 음역을 유지한 압축형 엔드리스월츠를 허용한다."
+    },
+    {
+      "id": "gundam_w_treize",
+      "category": "character",
+      "jp": ["トレ－ズ・クシュリナ－ダ"],
+      "canonical_ko": "트레즈 크슈리나다",
+      "forbidden_ko": ["트레즈・크슈리나다"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "gundam_w_wing_zero_custom",
+      "category": "unit",
+      "jp": ["ウイングゼロカスタム"],
+      "canonical_ko": "윙 제로 커스텀",
+      "official_ko": "윙 건담 0(EW)",
+      "forbidden_ko": [],
+      "decision": "user_confirmed",
+      "notes": "인게임은 공백 단문. 공식 장문 윙 건담 0(EW)는 시트/문서만. 도감 윙제로커스텀는 레코드 본문 고정으로 잔존할 수 있다."
+    },
+    {
+      "id": "militia",
+      "category": "org",
+      "jp": ["ミリシャ"],
+      "canonical_ko": "밀리샤",
+      "forbidden_ko": ["미리샤"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "zabine_chareux",
+      "category": "character",
+      "jp": ["ザビ－ネ", "ザビーネ", "ザビ－ネ・シャル", "ザビーネ・シャル"],
+      "canonical_ko": "자비네 샤르",
+      "forbidden_ko": ["자빈느", "자빈느 샤르", "자빈느　샤르"],
+      "component_ko": {
+        "ザビ－ネ": "자비네",
+        "シャル": "샤르"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "the_o",
+      "category": "unit",
+      "jp": ["ジ・オ", "ジ・O"],
+      "canonical_ko": "디・오",
+      "dialogue_ko": "디　오",
+      "forbidden_ko": ["지・오", "지 오", "지　오"],
+      "decision": "user_confirmed",
+      "notes": "유닛/도감은 디・오, 대사는 전각 공백 디　오를 유지한다."
+    },
+    {
+      "id": "leila_raymond",
+      "category": "character",
+      "jp": ["レイラ・レイモンド", "レイラ"],
+      "canonical_ko": "레이라 레이몬드",
+      "forbidden_ko": ["레일라", "레이먼드"],
+      "component_ko": {
+        "レイラ": "레이라",
+        "レイモンド": "레이몬드"
+      },
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "god_gundam",
+      "category": "unit",
+      "jp": ["ゴッドガンダム"],
+      "canonical_ko": "갓 건담",
+      "forbidden_ko": [],
+      "decision": "user_confirmed",
+      "notes": "name75/대사는 갓　건담. 도감 갓건담는 레코드 본문 고정·inplace 성장 거부로 잔존할 수 있다."
+    },
+    {
+      "id": "tera_suono",
+      "category": "unit",
+      "jp": ["テラ・スオーノ", "テラ・スオ－ノ"],
+      "canonical_ko": "테라・스오노",
+      "dialogue_ko": "테라　스오노",
+      "forbidden_ko": ["수오노"],
+      "decision": "user_confirmed",
+      "notes": "첨자는 스오노. 유닛/도감은 ・, 대사는 전각 공백을 유지한다. 나무위키 표제 테라스오노는 붙여 쓰기."
+    },
+    {
+      "id": "sayla_component",
+      "category": "character",
+      "jp": ["セイラ", "セイラ・マス"],
+      "canonical_ko": "세이라",
+      "forbidden_ko": ["세일러"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "artesia_component",
+      "category": "character",
+      "jp": ["アルテイシア", "アルテイシア・ソム・ダイクン"],
+      "canonical_ko": "아르테이시아",
+      "forbidden_ko": ["아르테시아"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "banning_component",
+      "category": "character",
+      "jp": ["バニング", "サウス・バニング"],
+      "canonical_ko": "버닝",
+      "forbidden_ko": ["배닝"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "radish",
+      "category": "ship",
+      "jp": ["ラ－ディッシュ", "ラーディッシュ"],
+      "canonical_ko": "래디시",
+      "forbidden_ko": ["라디시", "라　디슈", "라 디슈"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "ginganamu_component",
+      "category": "character",
+      "jp": ["ギンガナム", "ギム・ギンガナム"],
+      "canonical_ko": "깅가남",
+      "forbidden_ko": ["긴가남"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "turn_x_spacing",
+      "category": "unit",
+      "jp": ["タ－ンＸ", "ターンX"],
+      "canonical_ko": "턴X",
+      "forbidden_ko": ["턴 X", "턴　X"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "peacecraft_component",
+      "category": "character_name_component",
+      "jp": ["ピ－スクラフト", "ピースクラフト"],
+      "canonical_ko": "피스크래프트",
+      "forbidden_ko": ["피스 크래프트", "피스　크래프트"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "zenna_zabi",
+      "category": "character",
+      "jp": ["ゼナ・ザビ"],
+      "canonical_ko": "제나 자비",
+      "forbidden_ko": ["제나 미아", "제나　미아"],
+      "decision": "official_current_reference"
+    },
+    {
+      "id": "astonaige_medoz",
+      "category": "character",
+      "jp": ["アストナ－ジ", "アストナージ", "アストナ－ジ・メドッソ", "アストナージ・メドッソ"],
+      "canonical_ko": "아스토나지",
+      "forbidden_ko": ["아스트나지", "아스트레이지"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "audhumla",
+      "category": "ship",
+      "jp": ["アウドムラ"],
+      "canonical_ko": "아우도무라",
+      "forbidden_ko": ["아우둠라"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "garuda_transport",
+      "category": "unit",
+      "jp": ["ガルダ"],
+      "canonical_ko": "가루다",
+      "forbidden_ko": ["갈다"],
+      "decision": "user_confirmed",
+      "notes": "일반 동사와 구분해 현재 TIP의 가루다 수송기 문맥 및 명칭 데이터에서 감사한다."
+    },
+    {
+      "id": "flanagan",
+      "category": "proper_noun",
+      "jp": ["フラナガン", "フラナガン機関"],
+      "canonical_ko": "플라나간",
+      "forbidden_ko": ["프라나간", "플래나간", "플래너간", "플래너건", "프래나간", "플라너간", "플라너건"],
+      "decision": "user_confirmed",
+      "notes": "인명과 플라나간 기관 문맥 모두 같은 첨자를 사용한다."
+    },
+    {
+      "id": "blard_fahren",
+      "category": "character",
+      "jp": ["ブラード・ファーレン", "ブラ－ド・ファ－レン", "ブラード", "ブラ－ド"],
+      "canonical_ko": "브라드 파렌",
+      "forbidden_ko": ["주인공이며브래드전대의ＭＳ", "브래드 파렌", "브래드・파렌", "브래드전대", "브래드 전대", "브래드　전대", "브래드"],
+      "component_ko": {
+        "ブラード": "브라드",
+        "ブラ－ド": "브라드",
+        "ファーレン": "파렌",
+        "ファ－レン": "파렌"
+      },
+      "decision": "user_confirmed",
+      "notes": "전체 이름은 브라드 파렌, 대사에서 성/이름 단독 표기 ブラード는 브라드로 쓴다."
+    },
+    {
+      "id": "sig_wedner",
+      "category": "character",
+      "jp": ["シグ・ウェドナ－", "シグ・ウェドナー", "ウェドナ－", "ウェドナー"],
+      "canonical_ko": "시그 웨드너",
+      "forbidden_ko": ["시그 웨드나", "시그・웨드나", "시그　웨드나", "시그웨드나", "웨드나", "베드너"],
+      "component_ko": {
+        "ウェドナ－": "웨드너",
+        "ウェドナー": "웨드너"
+      },
+      "decision": "user_confirmed",
+      "notes": "시그의 성 웨드너를 게임, 도감, 대사, 이름 파츠와 번역 소스에서 동일하게 사용한다."
+    },
+    {
+      "id": "lalah_sune",
+      "category": "character",
+      "jp": ["ララァ・スン", "ララァ・スン少尉"],
+      "canonical_ko": "라라아 슨",
+      "forbidden_ko": ["라라아 순", "라라아・순", "라라아　순", "라라아순", "라라 슨", "라라・슨", "라라　슨"],
+      "component_ko": {
+        "ララァ": "라라아",
+        "スン": "슨"
+      },
+      "decision": "user_confirmed",
+      "notes": "전체 이름은 라라아 슨으로 통일하고, 단독 호칭 ララァ는 라라아로 유지한다."
+    },
+    {
+      "id": "chap_adel",
+      "category": "character",
+      "jp": ["チャップ・アデル", "チャップアデル", "アデル"],
+      "canonical_ko": "챕 아델",
+      "forbidden_ko": ["채프 아델", "채프・아델", "채프"],
+      "component_ko": {
+        "チャップ": "챕",
+        "アデル": "아델"
+      },
+      "decision": "official_current_reference",
+      "notes": "메인 번역 용어집의 현행 한국 공식 표기와 도감 표기를 일치시킨다."
+    }
+  ]
+}

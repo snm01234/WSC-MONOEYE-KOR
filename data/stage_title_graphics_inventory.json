@@ -1,0 +1,1773 @@
+{
+  "schema_version": 1,
+  "source_rom": "D:\\monoeye\\SD Gundam G Generation Mono-Eye Gundams.wsc",
+  "read_only_analysis": true,
+  "package_count": 3,
+  "descriptor_count": 43,
+  "raw_graphics_tiles": 1330,
+  "referenced_nonblank_tiles": 1319,
+  "packages": [
+    {
+      "header": "4ABD0C",
+      "title_count": 15,
+      "descriptor_table": "4AC126",
+      "graphics_range": "4AC146-4AF965",
+      "graphics_tiles": 449,
+      "referenced_nonblank_tiles": 446,
+      "titles": [
+        {
+          "index": 0,
+          "descriptor": "4ABD14-4ABD59",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 0,
+              "count": 20
+            }
+          ],
+          "local_tiles": 20,
+          "nonblank_tiles_used": 19,
+          "new_nonblank_tiles": 19,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "001-013",
+              "logical_rom": "4AC166-4AC3C5",
+              "tiles": 19
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 0,
+          "stage_id": "STAGE01",
+          "rendered_title": "出会い"
+        },
+        {
+          "index": 1,
+          "descriptor": "4ABD5A-4ABD9D",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "single",
+              "tile": 2
+            },
+            {
+              "kind": "run",
+              "start": 20,
+              "count": 5
+            },
+            {
+              "kind": "single",
+              "tile": 1
+            },
+            {
+              "kind": "run",
+              "start": 25,
+              "count": 34
+            }
+          ],
+          "local_tiles": 42,
+          "nonblank_tiles_used": 41,
+          "new_nonblank_tiles": 39,
+          "reused_nonblank_tiles": 2,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "014-03A",
+              "logical_rom": "4AC3C6-4AC8A5",
+              "tiles": 39
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "001-002",
+              "logical_rom": "4AC166-4AC1A5",
+              "tiles": 2
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE02",
+          "rendered_title": "ホワイトベース追撃"
+        },
+        {
+          "index": 2,
+          "descriptor": "4ABD9E-4ABDE3",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 59,
+              "count": 14
+            }
+          ],
+          "local_tiles": 15,
+          "nonblank_tiles_used": 14,
+          "new_nonblank_tiles": 14,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "03B-048",
+              "logical_rom": "4AC8A6-4ACA65",
+              "tiles": 14
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 0,
+          "stage_id": "STAGE03",
+          "rendered_title": "覚醒"
+        },
+        {
+          "index": 3,
+          "descriptor": "4ABDE4-4ABE17",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 73,
+              "count": 33
+            }
+          ],
+          "local_tiles": 34,
+          "nonblank_tiles_used": 33,
+          "new_nonblank_tiles": 33,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "049-069",
+              "logical_rom": "4ACA66-4ACE85",
+              "tiles": 33
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 0,
+          "stage_id": "STAGE04",
+          "rendered_title": "ソロモン撤退戦"
+        },
+        {
+          "index": 4,
+          "descriptor": "4ABE18-4ABE77",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 106,
+              "count": 22
+            },
+            {
+              "kind": "single",
+              "tile": 2
+            },
+            {
+              "kind": "run",
+              "start": 128,
+              "count": 34
+            }
+          ],
+          "local_tiles": 58,
+          "nonblank_tiles_used": 57,
+          "new_nonblank_tiles": 56,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "06A-0A1",
+              "logical_rom": "4ACE86-4AD585",
+              "tiles": 56
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "002",
+              "logical_rom": "4AC186-4AC1A5",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE EX01",
+          "rendered_title": "ポケットの中の戦争 / 前編"
+        },
+        {
+          "index": 5,
+          "descriptor": "4ABE78-4ABEE3",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 106,
+              "count": 22
+            },
+            {
+              "kind": "single",
+              "tile": 2
+            },
+            {
+              "kind": "run",
+              "start": 128,
+              "count": 19
+            },
+            {
+              "kind": "single",
+              "tile": 1
+            },
+            {
+              "kind": "run",
+              "start": 162,
+              "count": 3
+            },
+            {
+              "kind": "single",
+              "tile": 150
+            },
+            {
+              "kind": "single",
+              "tile": 8
+            },
+            {
+              "kind": "run",
+              "start": 165,
+              "count": 11
+            }
+          ],
+          "local_tiles": 60,
+          "nonblank_tiles_used": 59,
+          "new_nonblank_tiles": 14,
+          "reused_nonblank_tiles": 45,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0A2-0AF",
+              "logical_rom": "4AD586-4AD745",
+              "tiles": 14
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "001-002",
+              "logical_rom": "4AC166-4AC1A5",
+              "tiles": 2
+            },
+            {
+              "global_tiles": "008",
+              "logical_rom": "4AC246-4AC265",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "06A-092",
+              "logical_rom": "4ACE86-4AD3A5",
+              "tiles": 41
+            },
+            {
+              "global_tiles": "096",
+              "logical_rom": "4AD406-4AD425",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE EX02",
+          "rendered_title": "ポケットの中の戦争 / 後編"
+        },
+        {
+          "index": 6,
+          "descriptor": "4ABEE4-4ABF1F",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 176,
+              "count": 19
+            },
+            {
+              "kind": "single",
+              "tile": 14
+            },
+            {
+              "kind": "run",
+              "start": 195,
+              "count": 2
+            }
+          ],
+          "local_tiles": 23,
+          "nonblank_tiles_used": 22,
+          "new_nonblank_tiles": 21,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0B0-0C4",
+              "logical_rom": "4AD746-4AD9E5",
+              "tiles": 21
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "00E",
+              "logical_rom": "4AC306-4AC325",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE05",
+          "rendered_title": "光る宇宙"
+        },
+        {
+          "index": 7,
+          "descriptor": "4ABF20-4ABF7D",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 197,
+              "count": 19
+            },
+            {
+              "kind": "single",
+              "tile": 1
+            },
+            {
+              "kind": "run",
+              "start": 216,
+              "count": 13
+            },
+            {
+              "kind": "single",
+              "tile": 133
+            },
+            {
+              "kind": "run",
+              "start": 229,
+              "count": 16
+            }
+          ],
+          "local_tiles": 51,
+          "nonblank_tiles_used": 50,
+          "new_nonblank_tiles": 48,
+          "reused_nonblank_tiles": 2,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0C5-0F4",
+              "logical_rom": "4AD9E6-4ADFE5",
+              "tiles": 48
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "001",
+              "logical_rom": "4AC166-4AC185",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "085",
+              "logical_rom": "4AD1E6-4AD205",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE06",
+          "rendered_title": "宇宙要塞ア・バオア・クー"
+        },
+        {
+          "index": 8,
+          "descriptor": "4ABF7E-4ABFC5",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 245,
+              "count": 29
+            },
+            {
+              "kind": "single",
+              "tile": 195
+            },
+            {
+              "kind": "run",
+              "start": 274,
+              "count": 2
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 31,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0F5-113",
+              "logical_rom": "4ADFE6-4AE3C5",
+              "tiles": 31
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "0C3",
+              "logical_rom": "4AD9A6-4AD9C5",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE07",
+          "rendered_title": "裏切りの宇宙"
+        },
+        {
+          "index": 9,
+          "descriptor": "4ABFC6-4ABFF7",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 276,
+              "count": 28
+            }
+          ],
+          "local_tiles": 28,
+          "nonblank_tiles_used": 27,
+          "new_nonblank_tiles": 27,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "115-12F",
+              "logical_rom": "4AE3E6-4AE745",
+              "tiles": 27
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 276,
+          "stage_id": "STAGE08",
+          "rendered_title": "ジオンの残光"
+        },
+        {
+          "index": 10,
+          "descriptor": "4ABFF8-4AC025",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 276
+            },
+            {
+              "kind": "run",
+              "start": 304,
+              "count": 28
+            }
+          ],
+          "local_tiles": 29,
+          "nonblank_tiles_used": 28,
+          "new_nonblank_tiles": 28,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "130-14B",
+              "logical_rom": "4AE746-4AEAC5",
+              "tiles": 28
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 276,
+          "stage_id": "STAGE09",
+          "rendered_title": "駆け抜ける嵐"
+        },
+        {
+          "index": 11,
+          "descriptor": "4AC026-4AC05D",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 332,
+              "count": 30
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "14D-169",
+              "logical_rom": "4AEAE6-4AEE85",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 332,
+          "stage_id": "STAGE10",
+          "rendered_title": "黒いガンダム"
+        },
+        {
+          "index": 12,
+          "descriptor": "4AC05E-4AC0A1",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 332
+            },
+            {
+              "kind": "run",
+              "start": 362,
+              "count": 12
+            }
+          ],
+          "local_tiles": 13,
+          "nonblank_tiles_used": 12,
+          "new_nonblank_tiles": 12,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "16A-175",
+              "logical_rom": "4AEE86-4AF005",
+              "tiles": 12
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 332,
+          "stage_id": "STAGE11",
+          "rendered_title": "再会"
+        },
+        {
+          "index": 13,
+          "descriptor": "4AC0A2-4AC0E7",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 332
+            },
+            {
+              "kind": "run",
+              "start": 374,
+              "count": 43
+            }
+          ],
+          "local_tiles": 44,
+          "nonblank_tiles_used": 43,
+          "new_nonblank_tiles": 43,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "176-1A0",
+              "logical_rom": "4AF006-4AF565",
+              "tiles": 43
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 332,
+          "stage_id": "STAGE12",
+          "rendered_title": "アクシズからの使者"
+        },
+        {
+          "index": 14,
+          "descriptor": "4AC0E8-4AC125",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 332
+            },
+            {
+              "kind": "run",
+              "start": 417,
+              "count": 32
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 32,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "1A1-1C0",
+              "logical_rom": "4AF566-4AF965",
+              "tiles": 32
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 332,
+          "stage_id": "STAGE13t",
+          "rendered_title": "ホンコン・シティ"
+        }
+      ]
+    },
+    {
+      "header": "4DB4B8",
+      "title_count": 15,
+      "descriptor_table": "4DB90A",
+      "graphics_range": "4DB92A-4DF629",
+      "graphics_tiles": 488,
+      "referenced_nonblank_tiles": 483,
+      "titles": [
+        {
+          "index": 0,
+          "descriptor": "4DB4C0-4DB4FF",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 0,
+              "count": 39
+            }
+          ],
+          "local_tiles": 39,
+          "nonblank_tiles_used": 38,
+          "new_nonblank_tiles": 38,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "001-026",
+              "logical_rom": "4DB94A-4DBE09",
+              "tiles": 38
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 0,
+          "stage_id": "STAGE13n",
+          "rendered_title": "プルとアクシズと"
+        },
+        {
+          "index": 1,
+          "descriptor": "4DB500-4DB553",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 39,
+              "count": 41
+            }
+          ],
+          "local_tiles": 41,
+          "nonblank_tiles_used": 40,
+          "new_nonblank_tiles": 40,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "028-04F",
+              "logical_rom": "4DBE2A-4DC329",
+              "tiles": 40
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 39,
+          "stage_id": "STAGE EX03",
+          "rendered_title": "「ガンダムX起動！」"
+        },
+        {
+          "index": 2,
+          "descriptor": "4DB554-4DB587",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 80,
+              "count": 32
+            }
+          ],
+          "local_tiles": 32,
+          "nonblank_tiles_used": 31,
+          "new_nonblank_tiles": 31,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "051-06F",
+              "logical_rom": "4DC34A-4DC729",
+              "tiles": 31
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 80,
+          "stage_id": "STAGE14t",
+          "rendered_title": "永遠のフォウ"
+        },
+        {
+          "index": 3,
+          "descriptor": "4DB588-4DB5CF",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 0
+            },
+            {
+              "kind": "run",
+              "start": 112,
+              "count": 2
+            },
+            {
+              "kind": "single",
+              "tile": 3
+            },
+            {
+              "kind": "run",
+              "start": 114,
+              "count": 20
+            },
+            {
+              "kind": "single",
+              "tile": 28
+            },
+            {
+              "kind": "run",
+              "start": 134,
+              "count": 7
+            }
+          ],
+          "local_tiles": 32,
+          "nonblank_tiles_used": 31,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 2,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "070-08C",
+              "logical_rom": "4DC72A-4DCAC9",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "003",
+              "logical_rom": "4DB98A-4DB9A9",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "01C",
+              "logical_rom": "4DBCAA-4DBCC9",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 0,
+          "stage_id": "STAGE14n",
+          "rendered_title": "落ちてきた空"
+        },
+        {
+          "index": 4,
+          "descriptor": "4DB5D0-4DB603",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 39
+            },
+            {
+              "kind": "run",
+              "start": 141,
+              "count": 29
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "08D-0A9",
+              "logical_rom": "4DCACA-4DCE69",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 39,
+          "stage_id": "STAGE15t",
+          "rendered_title": "ガラスの王国"
+        },
+        {
+          "index": 5,
+          "descriptor": "4DB604-4DB683",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 170,
+              "count": 90
+            }
+          ],
+          "local_tiles": 90,
+          "nonblank_tiles_used": 89,
+          "new_nonblank_tiles": 89,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0AB-103",
+              "logical_rom": "4DCE8A-4DD9A9",
+              "tiles": 89
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 170,
+          "stage_id": "STAGE15n",
+          "rendered_title": "石破天驚拳！ / 決闘マスター・アジア"
+        },
+        {
+          "index": 6,
+          "descriptor": "4DB684-4DB6C7",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 80
+            },
+            {
+              "kind": "run",
+              "start": 260,
+              "count": 26
+            },
+            {
+              "kind": "single",
+              "tile": 109
+            },
+            {
+              "kind": "run",
+              "start": 286,
+              "count": 2
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 28,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "104-11F",
+              "logical_rom": "4DD9AA-4DDD29",
+              "tiles": 28
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "06D",
+              "logical_rom": "4DC6CA-4DC6E9",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 80,
+          "stage_id": "STAGE16t",
+          "rendered_title": "ダカールの日"
+        },
+        {
+          "index": 7,
+          "descriptor": "4DB6C8-4DB727",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 80
+            },
+            {
+              "kind": "run",
+              "start": 288,
+              "count": 6
+            },
+            {
+              "kind": "run",
+              "start": 265,
+              "count": 4
+            },
+            {
+              "kind": "run",
+              "start": 294,
+              "count": 10
+            },
+            {
+              "kind": "run",
+              "start": 277,
+              "count": 6
+            },
+            {
+              "kind": "run",
+              "start": 304,
+              "count": 5
+            },
+            {
+              "kind": "single",
+              "tile": 109
+            },
+            {
+              "kind": "run",
+              "start": 309,
+              "count": 2
+            }
+          ],
+          "local_tiles": 35,
+          "nonblank_tiles_used": 34,
+          "new_nonblank_tiles": 23,
+          "reused_nonblank_tiles": 11,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "120-136",
+              "logical_rom": "4DDD2A-4DE009",
+              "tiles": 23
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "06D",
+              "logical_rom": "4DC6CA-4DC6E9",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "109-10C",
+              "logical_rom": "4DDA4A-4DDAC9",
+              "tiles": 4
+            },
+            {
+              "global_tiles": "115-11A",
+              "logical_rom": "4DDBCA-4DDC89",
+              "tiles": 6
+            }
+          ],
+          "background_global_tile": 80,
+          "stage_id": "STAGE16n",
+          "rendered_title": "ダカールの灯火"
+        },
+        {
+          "index": 8,
+          "descriptor": "4DB728-4DB76D",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 39
+            },
+            {
+              "kind": "run",
+              "start": 311,
+              "count": 34
+            }
+          ],
+          "local_tiles": 35,
+          "nonblank_tiles_used": 34,
+          "new_nonblank_tiles": 34,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "137-158",
+              "logical_rom": "4DE00A-4DE449",
+              "tiles": 34
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 39,
+          "stage_id": "STAGE EX04t",
+          "rendered_title": "最後の勝利者"
+        },
+        {
+          "index": 9,
+          "descriptor": "4DB76E-4DB7B9",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 170
+            },
+            {
+              "kind": "run",
+              "start": 345,
+              "count": 2
+            },
+            {
+              "kind": "single",
+              "tile": 175
+            },
+            {
+              "kind": "run",
+              "start": 347,
+              "count": 17
+            },
+            {
+              "kind": "single",
+              "tile": 237
+            },
+            {
+              "kind": "run",
+              "start": 364,
+              "count": 17
+            }
+          ],
+          "local_tiles": 39,
+          "nonblank_tiles_used": 38,
+          "new_nonblank_tiles": 36,
+          "reused_nonblank_tiles": 2,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "159-17C",
+              "logical_rom": "4DE44A-4DE8C9",
+              "tiles": 36
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "0AF",
+              "logical_rom": "4DCF0A-4DCF29",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "0ED",
+              "logical_rom": "4DD6CA-4DD6E9",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 170,
+          "stage_id": "STAGE EX04n",
+          "rendered_title": "東方不敗暁に死す"
+        },
+        {
+          "index": 10,
+          "descriptor": "4DB7BA-4DB7F3",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 381,
+              "count": 30
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "17E-19A",
+              "logical_rom": "4DE8EA-4DEC89",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 381,
+          "stage_id": "STAGE17t·17n",
+          "rendered_title": "敵、新たなり"
+        },
+        {
+          "index": 11,
+          "descriptor": "4DB7F4-4DB83F",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 381
+            },
+            {
+              "kind": "run",
+              "start": 411,
+              "count": 17
+            }
+          ],
+          "local_tiles": 18,
+          "nonblank_tiles_used": 17,
+          "new_nonblank_tiles": 17,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "19B-1AB",
+              "logical_rom": "4DEC8A-4DEEA9",
+              "tiles": 17
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 381,
+          "stage_id": "STAGE18t·18n",
+          "rendered_title": "月光蝶"
+        },
+        {
+          "index": 12,
+          "descriptor": "4DB840-4DB87D",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 80
+            },
+            {
+              "kind": "single",
+              "tile": 428
+            },
+            {
+              "kind": "single",
+              "tile": 274
+            },
+            {
+              "kind": "run",
+              "start": 429,
+              "count": 21
+            }
+          ],
+          "local_tiles": 24,
+          "nonblank_tiles_used": 23,
+          "new_nonblank_tiles": 22,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "1AC-1C1",
+              "logical_rom": "4DEEAA-4DF169",
+              "tiles": 22
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "112",
+              "logical_rom": "4DDB6A-4DDB89",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 80,
+          "stage_id": "STAGE19n",
+          "rendered_title": "宇宙の渦"
+        },
+        {
+          "index": 13,
+          "descriptor": "4DB87E-4DB8BF",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 80
+            },
+            {
+              "kind": "single",
+              "tile": 450
+            },
+            {
+              "kind": "single",
+              "tile": 428
+            },
+            {
+              "kind": "run",
+              "start": 451,
+              "count": 31
+            }
+          ],
+          "local_tiles": 34,
+          "nonblank_tiles_used": 33,
+          "new_nonblank_tiles": 32,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "1C2-1E1",
+              "logical_rom": "4DF16A-4DF569",
+              "tiles": 32
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "1AC",
+              "logical_rom": "4DEEAA-4DEEC9",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 80,
+          "stage_id": "STAGE19t",
+          "rendered_title": "宇宙の渦（前）"
+        },
+        {
+          "index": 14,
+          "descriptor": "4DB8C0-4DB909",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 80
+            },
+            {
+              "kind": "single",
+              "tile": 450
+            },
+            {
+              "kind": "single",
+              "tile": 428
+            },
+            {
+              "kind": "run",
+              "start": 452,
+              "count": 11
+            },
+            {
+              "kind": "run",
+              "start": 482,
+              "count": 3
+            },
+            {
+              "kind": "run",
+              "start": 466,
+              "count": 12
+            },
+            {
+              "kind": "run",
+              "start": 485,
+              "count": 3
+            },
+            {
+              "kind": "single",
+              "tile": 481
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 6,
+          "reused_nonblank_tiles": 26,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "1E2-1E7",
+              "logical_rom": "4DF56A-4DF629",
+              "tiles": 6
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "1AC",
+              "logical_rom": "4DEEAA-4DEEC9",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "1C2",
+              "logical_rom": "4DF16A-4DF189",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "1C4-1CE",
+              "logical_rom": "4DF1AA-4DF309",
+              "tiles": 11
+            },
+            {
+              "global_tiles": "1D2-1DD",
+              "logical_rom": "4DF36A-4DF4E9",
+              "tiles": 12
+            },
+            {
+              "global_tiles": "1E1",
+              "logical_rom": "4DF54A-4DF569",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 80,
+          "stage_id": "STAGE20t",
+          "rendered_title": "宇宙の渦（後）"
+        }
+      ]
+    },
+    {
+      "header": "53B9F4",
+      "title_count": 13,
+      "descriptor_table": "53BD72",
+      "graphics_range": "53BD8E-53EEAD",
+      "graphics_tiles": 393,
+      "referenced_nonblank_tiles": 390,
+      "titles": [
+        {
+          "index": 0,
+          "descriptor": "53B9FC-53BA37",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 0,
+              "count": 33
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 32,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "001-020",
+              "logical_rom": "53BDAE-53C1AD",
+              "tiles": 32
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 0,
+          "stage_id": "STAGE21t",
+          "rendered_title": "宇宙を駆ける"
+        },
+        {
+          "index": 1,
+          "descriptor": "53BA38-53BA7D",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 33,
+              "count": 50
+            }
+          ],
+          "local_tiles": 50,
+          "nonblank_tiles_used": 49,
+          "new_nonblank_tiles": 49,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "022-052",
+              "logical_rom": "53C1CE-53C7ED",
+              "tiles": 49
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 33,
+          "stage_id": "STAGE20n",
+          "rendered_title": "バイブレーション（前）"
+        },
+        {
+          "index": 2,
+          "descriptor": "53BA7E-53BACD",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 33,
+              "count": 2
+            },
+            {
+              "kind": "run",
+              "start": 37,
+              "count": 20
+            },
+            {
+              "kind": "run",
+              "start": 83,
+              "count": 3
+            },
+            {
+              "kind": "run",
+              "start": 60,
+              "count": 19
+            },
+            {
+              "kind": "run",
+              "start": 86,
+              "count": 3
+            },
+            {
+              "kind": "single",
+              "tile": 82
+            }
+          ],
+          "local_tiles": 48,
+          "nonblank_tiles_used": 47,
+          "new_nonblank_tiles": 6,
+          "reused_nonblank_tiles": 41,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "053-058",
+              "logical_rom": "53C7EE-53C8AD",
+              "tiles": 6
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "022",
+              "logical_rom": "53C1CE-53C1ED",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "025-038",
+              "logical_rom": "53C22E-53C4AD",
+              "tiles": 20
+            },
+            {
+              "global_tiles": "03C-04E",
+              "logical_rom": "53C50E-53C76D",
+              "tiles": 19
+            },
+            {
+              "global_tiles": "052",
+              "logical_rom": "53C7CE-53C7ED",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 33,
+          "stage_id": "STAGE21n",
+          "rendered_title": "バイブレーション（後）"
+        },
+        {
+          "index": 3,
+          "descriptor": "53BACE-53BB0B",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 89,
+              "count": 33
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 32,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "05A-079",
+              "logical_rom": "53C8CE-53CCCD",
+              "tiles": 32
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 89,
+          "stage_id": "STAGE22t",
+          "rendered_title": "終末への序曲"
+        },
+        {
+          "index": 4,
+          "descriptor": "53BB0C-53BB49",
+          "source_commands": [
+            {
+              "kind": "run",
+              "start": 89,
+              "count": 33
+            }
+          ],
+          "local_tiles": 33,
+          "nonblank_tiles_used": 32,
+          "new_nonblank_tiles": 0,
+          "reused_nonblank_tiles": 32,
+          "new_tile_ranges": [],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "05A-079",
+              "logical_rom": "53C8CE-53CCCD",
+              "tiles": 32
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "STAGE22n",
+          "rendered_title": "終末への序曲"
+        },
+        {
+          "index": 5,
+          "descriptor": "53BB4A-53BB99",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 122,
+              "count": 48
+            }
+          ],
+          "local_tiles": 49,
+          "nonblank_tiles_used": 48,
+          "new_nonblank_tiles": 48,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "07A-0A9",
+              "logical_rom": "53CCCE-53D2CD",
+              "tiles": 48
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 89,
+          "stage_id": "STAGE23",
+          "rendered_title": "そして、悲劇は終わる……"
+        },
+        {
+          "index": 6,
+          "descriptor": "53BB9A-53BBD5",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 170,
+              "count": 29
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0AA-0C6",
+              "logical_rom": "53D2CE-53D66D",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL01",
+          "rendered_title": "ラストリゾート"
+        },
+        {
+          "index": 7,
+          "descriptor": "53BBD6-53BC19",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 199,
+              "count": 33
+            }
+          ],
+          "local_tiles": 34,
+          "nonblank_tiles_used": 33,
+          "new_nonblank_tiles": 33,
+          "reused_nonblank_tiles": 0,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0C7-0E7",
+              "logical_rom": "53D66E-53DA8D",
+              "tiles": 33
+            }
+          ],
+          "reused_tile_ranges": [],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL04",
+          "rendered_title": "静かなる軌跡"
+        },
+        {
+          "index": 8,
+          "descriptor": "53BC1A-53BC59",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 232,
+              "count": 20
+            },
+            {
+              "kind": "single",
+              "tile": 231
+            },
+            {
+              "kind": "run",
+              "start": 252,
+              "count": 13
+            }
+          ],
+          "local_tiles": 35,
+          "nonblank_tiles_used": 34,
+          "new_nonblank_tiles": 33,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "0E8-108",
+              "logical_rom": "53DA8E-53DEAD",
+              "tiles": 33
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "0E7",
+              "logical_rom": "53DA6E-53DA8D",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL05",
+          "rendered_title": "エンドレスワルツ"
+        },
+        {
+          "index": 9,
+          "descriptor": "53BC5A-53BC95",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 265,
+              "count": 25
+            },
+            {
+              "kind": "single",
+              "tile": 128
+            },
+            {
+              "kind": "run",
+              "start": 290,
+              "count": 8
+            }
+          ],
+          "local_tiles": 35,
+          "nonblank_tiles_used": 34,
+          "new_nonblank_tiles": 33,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "109-129",
+              "logical_rom": "53DEAE-53E2CD",
+              "tiles": 33
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "080",
+              "logical_rom": "53CD8E-53CDAD",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL06",
+          "rendered_title": "碧き惑星に沈む"
+        },
+        {
+          "index": 10,
+          "descriptor": "53BC96-53BCDB",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "run",
+              "start": 298,
+              "count": 20
+            },
+            {
+              "kind": "single",
+              "tile": 125
+            },
+            {
+              "kind": "run",
+              "start": 318,
+              "count": 10
+            },
+            {
+              "kind": "single",
+              "tile": 194
+            },
+            {
+              "kind": "run",
+              "start": 328,
+              "count": 11
+            }
+          ],
+          "local_tiles": 44,
+          "nonblank_tiles_used": 43,
+          "new_nonblank_tiles": 41,
+          "reused_nonblank_tiles": 2,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "12A-152",
+              "logical_rom": "53E2CE-53E7ED",
+              "tiles": 41
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "07D",
+              "logical_rom": "53CD2E-53CD4D",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "0C2",
+              "logical_rom": "53D5CE-53D5ED",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL07",
+          "rendered_title": "敵意という名の隣人"
+        },
+        {
+          "index": 11,
+          "descriptor": "53BCDC-53BD29",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "single",
+              "tile": 339
+            },
+            {
+              "kind": "single",
+              "tile": 92
+            },
+            {
+              "kind": "single",
+              "tile": 299
+            },
+            {
+              "kind": "single",
+              "tile": 124
+            },
+            {
+              "kind": "single",
+              "tile": 298
+            },
+            {
+              "kind": "run",
+              "start": 340,
+              "count": 24
+            }
+          ],
+          "local_tiles": 30,
+          "nonblank_tiles_used": 29,
+          "new_nonblank_tiles": 25,
+          "reused_nonblank_tiles": 4,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "153-16B",
+              "logical_rom": "53E7EE-53EB0D",
+              "tiles": 25
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "05C",
+              "logical_rom": "53C90E-53C92D",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "07C",
+              "logical_rom": "53CD0E-53CD2D",
+              "tiles": 1
+            },
+            {
+              "global_tiles": "12A-12B",
+              "logical_rom": "53E2CE-53E30D",
+              "tiles": 2
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL03",
+          "rendered_title": "蒼を継ぐ者"
+        },
+        {
+          "index": 12,
+          "descriptor": "53BD2A-53BD71",
+          "source_commands": [
+            {
+              "kind": "single",
+              "tile": 89
+            },
+            {
+              "kind": "single",
+              "tile": 299
+            },
+            {
+              "kind": "run",
+              "start": 364,
+              "count": 29
+            }
+          ],
+          "local_tiles": 31,
+          "nonblank_tiles_used": 30,
+          "new_nonblank_tiles": 29,
+          "reused_nonblank_tiles": 1,
+          "new_tile_ranges": [
+            {
+              "global_tiles": "16C-188",
+              "logical_rom": "53EB0E-53EEAD",
+              "tiles": 29
+            }
+          ],
+          "reused_tile_ranges": [
+            {
+              "global_tiles": "12B",
+              "logical_rom": "53E2EE-53E30D",
+              "tiles": 1
+            }
+          ],
+          "background_global_tile": 89,
+          "stage_id": "SPECIAL02",
+          "rendered_title": "二人の強化人間"
+        }
+      ]
+    }
+  ]
+}

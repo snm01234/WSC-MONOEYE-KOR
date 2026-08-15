@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "translation_source": "exact_clean_duplicate_payload",
+  "review_status": "approved",
+  "entries": [
+    {
+      "abs": "5D1E3E",
+      "jp": "るしょせん、価値観が違うようだな……",
+      "ko": "결국、가치관이　다른　듯하군……",
+      "peer_abs": "5D1C02",
+      "evidence": "same original sentence body and exact clean Korean duplicate payload"
+    },
+    {
+      "abs": "5E6586",
+      "jp": "連すみません、ライデン少佐！",
+      "ko": "죄송합니다、라이덴　소령！",
+      "peer_abs": "5E66D6",
+      "evidence": "same original sentence body and exact clean Korean duplicate payload"
+    },
+    {
+      "abs": "5E65A7",
+      "jp": "連やられてたまるか！",
+      "ko": "당할　수　있겠나！",
+      "peer_abs": "5EC13F",
+      "evidence": "same original sentence body and exact clean Korean duplicate payload"
+    }
+  ]
+}

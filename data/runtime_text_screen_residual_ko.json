@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "description": "2026-08-06 screen-proven residual Japanese across ID-command bundles, scenario/event dialogue, and voice-tagged battle lines",
+  "parent_rom_sha256": "29d096e6462194e226b0895a43016d30b38056c1088bffe925571ac8e466b9ea",
+  "records": [
+    {
+      "record_start": "5C977F",
+      "prefix_hex": "173418",
+      "expected_payload_hex": "173418F3BEF865F855E1D0E09E08F081F260F191",
+      "body_capacity": 17,
+      "jp": "祖国のためなんて格好はつけねぇ……",
+      "ko": "조국을　위해서라며　멋부리진　않아……",
+      "family": "id_command_bundle",
+      "bundle_start": "5C9779",
+      "line_role": "first",
+      "translation_source": "screen_context_review_2026-08-06",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5C9794",
+      "prefix_hex": "",
+      "expected_payload_hex": "F4300807F43005E26FF22C11F4003914F044",
+      "body_capacity": 18,
+      "jp": "オレは、オレの誇りのために戦う！！",
+      "ko": "난、내　긍지를　위해　싸운다！！",
+      "family": "id_command_bundle",
+      "bundle_start": "5C9779",
+      "line_role": "continuation",
+      "translation_source": "screen_context_review_2026-08-06",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5C97AE",
+      "prefix_hex": "173418",
+      "expected_payload_hex": "173418F31E15E19EF4A2E20D04F247F191",
+      "body_capacity": 14,
+      "jp": "戦場を駆ける紅い稲妻……",
+      "ko": "전장을　누비는　붉은　번개……",
+      "family": "id_command_bundle",
+      "bundle_start": "5C97A8",
+      "line_role": "first",
+      "translation_source": "screen_context_review_2026-08-06",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5C97C0",
+      "prefix_hex": "",
+      "expected_payload_hex": "F42603F43017FB5B2AFB9F0D03",
+      "body_capacity": 13,
+      "jp": "そう！オレがジョニ－・ライデンだ！",
+      "ko": "그래！　내가　조니・라이덴이다！",
+      "family": "id_command_bundle",
+      "bundle_start": "5C97A8",
+      "line_role": "continuation",
+      "translation_source": "screen_context_review_2026-08-06",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5960E4",
+      "prefix_hex": "173418",
+      "expected_payload_hex": "173418911D01E4ABE2B505F191F9031D",
+      "body_capacity": 13,
+      "jp": "へ？　昆虫の……ですかい？",
+      "ko": "네？　곤충　말입니까？",
+      "family": "prefixed_dialogue",
+      "line_role": "first",
+      "translation_source": "screen_context_review_2026-08-06",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5D014E",
+      "prefix_hex": "02F191",
+      "expected_payload_hex": "02F191F07B0D03",
+      "body_capacity": 4,
+      "jp": "ムダだ！",
+      "ko": "소용없다！",
+      "family": "voice_tagged_run",
+      "line_role": "battle_voice",
+      "translation_source": "current_main_unanimous_duplicate",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5D0211",
+      "prefix_hex": "02F191",
+      "expected_payload_hex": "02F191F07B0D03",
+      "body_capacity": 4,
+      "jp": "ムダだ！",
+      "ko": "소용없다！",
+      "family": "voice_tagged_run",
+      "line_role": "battle_voice",
+      "translation_source": "current_main_unanimous_duplicate",
+      "review_status": "approved"
+    },
+    {
+      "record_start": "5D03ED",
+      "prefix_hex": "02F191",
+      "expected_payload_hex": "02F191F07B0D03",
+      "body_capacity": 4,
+      "jp": "ムダだ！",
+      "ko": "소용없다！",
+      "family": "voice_tagged_run",
+      "line_role": "battle_voice",
+      "translation_source": "current_main_unanimous_duplicate",
+      "review_status": "approved"
+    }
+  ],
+  "policy": {
+    "preserve_prefix": true,
+    "preserve_payload_capacity": true,
+    "preserve_terminator": true,
+    "private_ext3_only": true,
+    "forbid_shared_dictionary_slot_rewrite": true,
+    "forbid_raw_token_pair_rewrite": true,
+    "promotion_requires_user_runtime_validation": true
+  }
+}

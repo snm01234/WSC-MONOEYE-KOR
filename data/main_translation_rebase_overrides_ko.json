@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "purpose": "Final encodability/terminology adjustments for the 2026-08-12 main translation LLM rebase. All values remain <=20 display cells.",
+  "translation_source": "llm_postreview_constraint_fix",
+  "review_status": "approved_for_candidate_build",
+  "targets": {
+    "60AE34": "시그　앞에서는　엉엉　우는군。",
+    "613A0C": "이런　일반　부대와　얽혀선",
+    "61E272": "그렇게　요란하게　설친　이상、",
+    "6215D8": "그　빚은　확실히　갚아　줘야겠어！！",
+    "621668": "확실히　갚아　주겠어！",
+    "621734": "젠장！　이　빚은　제대로　갚아　주마！！",
+    "6260A3": "십이왕방패대차병！！",
+    "6301C4": "더　이상　그녀와　상관하면　위험해！",
+    "63B3C6": "언제까지고　고민하다니、",
+    "63D15B": "네오　지온　기함　사다란을　포함해",
+    "63DF13": "오리지널　모빌슈트를　포함해……"
+  },
+  "deferred": {
+    "60A777": {
+      "proposed_ko": "찹　아델、　준비됐습니다。",
+      "reason": "canonical glossary spelling 찹 아델 requires Hangul glyph 찹, which is absent from the current font/TBL repertoire; do not silently change the canonical name"
+    },
+    "626509": {
+      "proposed_ko": "이、　이　멍청한　놈아！！",
+      "reason": "runtime-proven special scenario continuation; direct-marker re-encoding raises physical width to 24 cells, so preserve the current user-validated native/ext3 wording instead of regressing the recent control-code fix"
+    }
+  }
+}

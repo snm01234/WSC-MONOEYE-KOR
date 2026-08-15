@@ -1,0 +1,263 @@
+{
+  "description": "2026-08-02 UI/menu/terminology and confirmed second-line dialogue follow-up",
+  "parent_sha256": "1161d11c5286d353f7bc9db1ba879284641c5ea3ed8c8101383761f7b97ed77a",
+  "shared_dictionary": [
+    {
+      "index": "0177",
+      "jp": "友軍",
+      "before": "아군",
+      "ko": "우군",
+      "reason": "友軍/味方 계열을 우군으로 통일"
+    },
+    {
+      "index": "054F",
+      "jp": "ＩＤ",
+      "before": "아이디",
+      "ko": "ID",
+      "reason": "아이디 표기를 ID로 통일"
+    }
+  ],
+  "records": [
+    {
+      "abs": "75B3CA",
+      "ko": "범용",
+      "category": "terrain_fit",
+      "reason": "3바이트 필드를 compact3로 채워 후행 공백 제거"
+    },
+    {
+      "abs": "75B390",
+      "ko": "아군",
+      "category": "terminology"
+    },
+    {
+      "abs": "75B2F8",
+      "ko": "발진",
+      "category": "menu"
+    },
+    {
+      "abs": "5F3990",
+      "ko": "발진",
+      "category": "menu"
+    },
+    {
+      "abs": "75B321",
+      "ko": "불러오기",
+      "category": "menu"
+    },
+    {
+      "abs": "75B325",
+      "ko": "저장",
+      "category": "menu"
+    },
+    {
+      "abs": "5F2787",
+      "ko": "저장",
+      "category": "menu"
+    },
+    {
+      "abs": "5F2793",
+      "ko": "불러오기",
+      "category": "menu"
+    },
+    {
+      "abs": "5F2DD1",
+      "ko": "저장",
+      "category": "menu"
+    },
+    {
+      "abs": "5F2DE4",
+      "ko": "불러오기",
+      "category": "menu"
+    },
+    {
+      "abs": "75B43A",
+      "ko": "조종계",
+      "category": "menu"
+    },
+    {
+      "abs": "75B4E3",
+      "ko": "조종 타입",
+      "category": "menu"
+    },
+    {
+      "abs": "75B32E",
+      "ko": "부대 목록",
+      "category": "menu"
+    },
+    {
+      "abs": "75B6FF",
+      "ko": "노멀",
+      "category": "menu"
+    },
+    {
+      "abs": "75B52D",
+      "ko": "불러옵니다。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75B534",
+      "ko": "불러왔습니다。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75B53B",
+      "ko": "저장했습니다。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75B542",
+      "ko": "저장 실패。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75B54C",
+      "ko": "불러오기 실패。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75B5A2",
+      "ko": "저장하시겠습니까。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75BE89",
+      "ko": "저장 데이터만 사용할 수 있습니다。",
+      "category": "save_load"
+    },
+    {
+      "abs": "75BE9A",
+      "ko": "저장 중입니다",
+      "category": "save_load"
+    },
+    {
+      "abs": "75BEAC",
+      "ko": "저장하시겠습니까？",
+      "category": "save_load"
+    },
+    {
+      "abs": "5F2DD9",
+      "ko": "저장을 확인합니다",
+      "category": "save_load"
+    },
+    {
+      "abs": "5F2DE8",
+      "ko": "불러오기를 확인합니다",
+      "category": "save_load"
+    },
+    {
+      "abs": "5F2F89",
+      "ko": "저장 데이터를 선택합니다",
+      "category": "save_load"
+    },
+    {
+      "abs": "5F2FA1",
+      "ko": "저장 데이터를 선택합니다",
+      "category": "save_load"
+    },
+    {
+      "abs": "5F253F",
+      "ko": "아군 턴",
+      "category": "terminology"
+    },
+    {
+      "abs": "75D566",
+      "ko": "아군 완전 회복입니다？",
+      "category": "terminology"
+    },
+    {
+      "abs": "75D56F",
+      "ko": "아군 ＨＰ 전회복",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CC34A",
+      "ko": "격파된 아군 ＭＳ를 부활시킵니다",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CC8FF",
+      "ko": "３Ｔ 동안、아군 전체의 반응이 상승합니다",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CCD3C",
+      "ko": "아군 전 유닛의 전투력이 상승합니다",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CCD4D",
+      "ko": "모든 ID효과를 소거하고、아군의 ＨＰ를 회복",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CCD7E",
+      "ko": "모든 ID효과를 소거하고、아군의 ＨＰ를 회복",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CBD63",
+      "ko": "공격한 상대의 이동과 ID커맨드를 봉인",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CC00D",
+      "ko": "공격한 상대의 이동과 ID커맨드를 봉인",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CD655",
+      "ko": "공격한 상대의 이동과 ID커맨드를 봉인",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CC802",
+      "ko": "공격한 상대의 ID커맨드를 봉인합니다",
+      "category": "terminology"
+    },
+    {
+      "abs": "5CD080",
+      "ko": "공격한 상대의 ID커맨드를 봉인합니다",
+      "category": "terminology"
+    },
+    {
+      "abs": "600E66",
+      "ko": "하하하핫！",
+      "category": "dialogue_second_line",
+      "preserve_dialogue_prefix": true
+    },
+    {
+      "abs": "600EA6",
+      "ko": "하하하핫！",
+      "category": "dialogue_second_line",
+      "preserve_dialogue_prefix": true
+    },
+    {
+      "abs": "6028A4",
+      "ko": "감사히 받아두겠습니다。",
+      "category": "dialogue_second_line",
+      "preserve_dialogue_prefix": true
+    }
+  ],
+  "deferred": [
+    {
+      "term": "分",
+      "reason": "확인된 UI 소비 레코드가 1바이트라 2바이트 stock/3바이트 compact3 토큰을 길이 보존으로 넣을 수 없음"
+    },
+    {
+      "term": "認定",
+      "reason": "현재 메인 TIP에서 안전한 소비 주소를 특정하지 못함"
+    },
+    {
+      "term": "ヤーブ",
+      "reason": "원문 및 안전한 소비 주소를 특정하지 못함"
+    },
+    {
+      "term": "主…",
+      "reason": "스크린샷 상단 항목의 전체 원문 및 안전한 소비 주소를 특정하지 못함"
+    },
+    {
+      "term": "2행 잔여 후보 6건",
+      "reason": "깨진 소스/제어 태그/단편 문자열이라 자동 적용에서 제외"
+    }
+  ]
+}

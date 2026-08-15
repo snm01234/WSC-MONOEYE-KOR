@@ -1,0 +1,846 @@
+{
+  "description": "Follow-up on ui_onebyte_and_map_padding_candidate: weapon 배부→복부, encyclopedia name 갈바르디β→가르발디β, and MS encyclopedia lines that exceed the 13-cell description window.",
+  "parent": "out/patch/ui_onebyte_and_map_padding_candidate.wsc",
+  "encyclopedia_line_limit": 13,
+  "weapon": {
+    "index": "0FF3E",
+    "before": "배부　빔　캐논",
+    "after": "복부　빔　캐논",
+    "note": "JP 背部ビームカノン (dorsal). User-requested 복부; 腹部メガ粒子砲 is already 복부　메가　입자포."
+  },
+  "names": [
+    {
+      "index": "0C3F8",
+      "abs": "5C47C7",
+      "before": "갈바르디β",
+      "after": "가르발디β"
+    },
+    {
+      "index": "0FF82",
+      "abs": "75C549",
+      "before": "갈바르디β",
+      "after": "가르발디β"
+    },
+    {
+      "index": "0FE80",
+      "abs": "75CEE1",
+      "before": "갈바르디β█",
+      "after": "가르발디β█"
+    }
+  ],
+  "encyclopedia": [
+    {
+      "abs": "5C47DE",
+      "index": "0F0DC",
+      "before": "기체로、전후　연방군이　소규모　개수",
+      "after": "기체。전후　연방이　개수",
+      "before_cells": 18,
+      "after_cells": 12,
+      "jp": "機体で、戦後連邦軍が小改修"
+    },
+    {
+      "abs": "5C4821",
+      "index": "0C049",
+      "before": "기와도　대등하게　맞설　수　있다。",
+      "after": "기와　대등히　맞선다。",
+      "before_cells": 17,
+      "after_cells": 11,
+      "jp": "機とも対等に渡り合える。"
+    },
+    {
+      "abs": "5C5625",
+      "index": "0C059",
+      "before": "의　등장으로、단숨에　당하는　메카",
+      "after": "의　등장에　당하는　메카",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "ムの登場で、ー躍やられメカ"
+    },
+    {
+      "abs": "5C56D0",
+      "index": "0F0FC",
+      "before": "이미　자쿠와는　다른　물건인　기체",
+      "after": "이미　자쿠와　다른　기체",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "もはやザクとは別モノの機体"
+    },
+    {
+      "abs": "5C5D77",
+      "index": "0C05A",
+      "before": "와　미묘하게　다른　타입이　존재한",
+      "after": "와　다른　타입이　존재한",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "と微妙に違うタイプが存在す"
+    },
+    {
+      "abs": "5C628A",
+      "index": "10F3A",
+      "before": "잡졸이지만　항상　대군으로　출현해",
+      "after": "잡졸이나　대군으로　출현해",
+      "before_cells": 17,
+      "after_cells": 13,
+      "jp": "ザコだが、常に大群で出現し"
+    },
+    {
+      "abs": "5C65DA",
+      "index": "0C065",
+      "before": "지상용으로　개수되어　있기　때문에",
+      "after": "지상용　개수이기　때문에",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "地上用に改修されているため"
+    },
+    {
+      "abs": "5C6644",
+      "index": "0F108",
+      "before": "폭넓은　전투　레인지를　자랑한다。",
+      "after": "폭넓은　전투범위를　자랑。",
+      "before_cells": 17,
+      "after_cells": 13,
+      "jp": "幅広い戦闘レンジをほこる。"
+    },
+    {
+      "abs": "5C6885",
+      "index": "0C068",
+      "before": "를　장비하고　있어　화력은　높다。",
+      "after": "를　장비、화력은　높다。",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "を装備しており火力は高い。"
+    },
+    {
+      "abs": "5C6893",
+      "index": "10F36",
+      "before": "또한　본작에서는　ＭＡ　형태는　생",
+      "after": "또한　본작에선　ＭＡ는　생",
+      "before_cells": 17,
+      "after_cells": 13,
+      "jp": "なお、本作ではＭＡ形態は割"
+    },
+    {
+      "abs": "5C68E3",
+      "index": "10F33",
+      "before": "변형　기구는　상당히　억지스럽다。",
+      "after": "변형기구는　꽤　억지다。",
+      "before_cells": 17,
+      "after_cells": 12,
+      "jp": "変形機構はかなり強引。"
+    },
+    {
+      "abs": "5C7296",
+      "index": "0C4B2",
+      "before": "었던　가변　ＭＳ。화력・장갑　모두",
+      "after": "던　가변ＭＳ。화력장갑모두",
+      "before_cells": 17,
+      "after_cells": 13,
+      "jp": "た可変ＭＳ。火力・装甲とも"
+    },
+    {
+      "abs": "5C7702",
+      "index": "0C072",
+      "before": "로、자쿠Ⅱ를　대신하는　우주용　주",
+      "after": "로、자쿠Ⅱ대신　우주용　주",
+      "before_cells": 17,
+      "after_cells": 13,
+      "jp": "で、ザクⅡに代わる宇宙用主"
+    },
+    {
+      "abs": "5C3550",
+      "index": "0F0C9",
+      "before": "세계를　멸망시켰을　때의　모습。",
+      "after": "세계를　멸망시킨　모습。",
+      "before_cells": 16,
+      "after_cells": 12,
+      "jp": "世界を滅亡させた時の姿。"
+    },
+    {
+      "abs": "5C35A7",
+      "index": "0C036",
+      "before": "의　주력……이라기보다、거의　유",
+      "after": "의　주력……거의　유",
+      "before_cells": 16,
+      "after_cells": 10,
+      "jp": "の主力……というか、ほぼ唯"
+    },
+    {
+      "abs": "5C4813",
+      "index": "0F0DD",
+      "before": "파일럿의　솜씨에　따라서는　신예",
+      "after": "파일럿　솜씨면　신예",
+      "before_cells": 16,
+      "after_cells": 10,
+      "jp": "パイロットの腕次第では新鋭"
+    },
+    {
+      "abs": "5C4AB6",
+      "index": "0C04B",
+      "before": "만한　곳이　없는　평범한　기체。",
+      "after": "만한　곳없는　평범한기체。",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "きところが無い凡庸な機体。"
+    },
+    {
+      "abs": "5C4AF7",
+      "index": "0F0E1",
+      "before": "으로는　그저　그렇지만、그리프스",
+      "after": "으론　그저지만、그리프스",
+      "before_cells": 16,
+      "after_cells": 12,
+      "jp": "には今ひとつだが、グリプス"
+    },
+    {
+      "abs": "5C4B29",
+      "index": "0F0E4",
+      "before": "신　연방군이　전후에　개발한　건",
+      "after": "신연방이　전후　개발한　건",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "新連邦軍が戦後に開発したガ"
+    },
+    {
+      "abs": "5C4B5D",
+      "index": "10F43",
+      "before": "대조적으로　격투전에　뛰어나다。",
+      "after": "반면　격투전에　뛰어나다。",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "照的に格闘戦に優れる。"
+    },
+    {
+      "abs": "5C4D5A",
+      "index": "10F41",
+      "before": "흑색　계통으로　도장되어　있다。",
+      "after": "흑색으로　도장되어　있다。",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "黒系統に塗装されている。"
+    },
+    {
+      "abs": "5C4DB8",
+      "index": "0C052",
+      "before": "뮤를　사용해、기체　밖에서　원격",
+      "after": "뮤로　기체　밖에서　원격",
+      "before_cells": 16,
+      "after_cells": 12,
+      "jp": "ミュを用い、機体外から遠隔"
+    },
+    {
+      "abs": "5C6232",
+      "index": "0C062",
+      "before": "담과　교전　끝에　서로　치게　되",
+      "after": "담과　싸워　서로　치게　되",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "ダムと交戦の末に相討ちにな"
+    },
+    {
+      "abs": "5C668D",
+      "index": "10F39",
+      "before": "시작　운용함이었기　때문에　같은",
+      "after": "시작함이라　같은",
+      "before_cells": 16,
+      "after_cells": 8,
+      "jp": "試作運用艦だったため、同じ"
+    },
+    {
+      "abs": "5C72A9",
+      "index": "0F114",
+      "before": "빈약하지만、기동성이　뛰어나다。",
+      "after": "약하나　기동성　뛰어나다。",
+      "before_cells": 16,
+      "after_cells": 13,
+      "jp": "貧弱だが、機動性に優れる。"
+    },
+    {
+      "abs": "5C72B9",
+      "index": "0F115",
+      "before": "아가마에서는　주로　여성　파일로",
+      "after": "아가마에선　여성　파일로",
+      "before_cells": 16,
+      "after_cells": 12,
+      "jp": "ア－ガマでは主に女性パイロ"
+    },
+    {
+      "abs": "5C355D",
+      "index": "0F0CA",
+      "before": "턴Ｘ와의　최종　결전에서　서로",
+      "after": "턴Ｘ와　결전에서　서로",
+      "before_cells": 15,
+      "after_cells": 11,
+      "jp": "タ－ンＸとの最終決戦で相打"
+    },
+    {
+      "abs": "5C35B5",
+      "index": "0C037",
+      "before": "일한　유효　전력으로서　디아나",
+      "after": "일한　전력으로서　디아나",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "ーの有効戦力としてディアナ"
+    },
+    {
+      "abs": "5C371E",
+      "index": "0C7C4",
+      "before": "아토믹　바주카를　장비했으며、",
+      "after": "아토믹포를　장비했으며、",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "核バズ－カを装備しており、"
+    },
+    {
+      "abs": "5C39E3",
+      "index": "0F0D0",
+      "before": "연방군이　개발한　ＮＴ용　ＭＳ",
+      "after": "연방이　개발한　ＮＴ용ＭＳ",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "連邦軍が開発したＮＴ用ＭＳ"
+    },
+    {
+      "abs": "5C3B46",
+      "index": "0C03C",
+      "before": "트의　탑재로　인해、공격・방어",
+      "after": "트　탑재로、공격・방어",
+      "before_cells": 15,
+      "after_cells": 11,
+      "jp": "トの搭載により、攻撃・防御"
+    },
+    {
+      "abs": "5C3B95",
+      "index": "0F0D4",
+      "before": "강력한　기체가　더욱　파워　어",
+      "after": "강한　기체가　더　파워　어",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "強力な機体がさらにパワ－ア"
+    },
+    {
+      "abs": "5C3E4C",
+      "index": "0C040",
+      "before": "히　높은　탑재능력을　지닌다。",
+      "after": "히　높은　탑재력　지닌다。",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "に高い搭載能力を持つ。"
+    },
+    {
+      "abs": "5C3E9A",
+      "index": "10F48",
+      "before": "좌현의　탄막이　얇은　듯하다。",
+      "after": "좌현　탄막이　얇다。",
+      "before_cells": 15,
+      "after_cells": 10,
+      "jp": "左舷の弾幕が薄いらしい。"
+    },
+    {
+      "abs": "5C41A3",
+      "index": "0F0D8",
+      "before": "여　탑승자의　전투능력이　극한",
+      "after": "여　탑승자　능력이　극한",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "って搭乗者の戦闘能力が極限"
+    },
+    {
+      "abs": "5C47EE",
+      "index": "0C047",
+      "before": "를　거쳐　정식　채용했다。구식",
+      "after": "를　거쳐　정식채용。구식",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "を施して正式採用した。旧式"
+    },
+    {
+      "abs": "5C4CC4",
+      "index": "0C04F",
+      "before": "남는　출력으로　억지로　비행을",
+      "after": "남는　출력으로　억지비행을",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "あまる出力で無理矢理飛行を"
+    },
+    {
+      "abs": "5C4CEB",
+      "index": "0C050",
+      "before": "용　ＭＳ。ＭＳ로서는　처음으로",
+      "after": "용ＭＳ。ＭＳ로　처음으로",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "用ＭＳ。ＭＳとしては初めて"
+    },
+    {
+      "abs": "5C4D69",
+      "index": "0F0EA",
+      "before": "성능　자체는　하만이　타는　큐",
+      "after": "성능은　하만이　타는　큐",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "性能自体はハマ－ンの乗るキ"
+    },
+    {
+      "abs": "5C4D9C",
+      "index": "0F0EC",
+      "before": "큐베레이　３호기로、붉은　계열",
+      "after": "큐베레이３호기、붉은　계열",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "キュべレイの３号機で、赤系"
+    },
+    {
+      "abs": "5C4DAA",
+      "index": "10F40",
+      "before": "통으로　도장되어　있다。사이코",
+      "after": "통　도장이다。사이코",
+      "before_cells": 15,
+      "after_cells": 10,
+      "jp": "統に塗装されている。サイコ"
+    },
+    {
+      "abs": "5C4F7C",
+      "index": "0F0F4",
+      "before": "덧붙여、이　상태는　게임용으로",
+      "after": "또、이　상태는　게임용으로",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "なお、この状態はゲ－ム用に"
+    },
+    {
+      "abs": "5C55F9",
+      "index": "0C056",
+      "before": "바　「자쿠」라고　하면　이것을",
+      "after": "바　「자쿠」라면　이것을",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "る「ザク」といえばこれのこ"
+    },
+    {
+      "abs": "5C5616",
+      "index": "0C058",
+      "before": "방을　압도한　명ＭＳ이지만、짐",
+      "after": "방을　압도한　명기지만、짐",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "邦を圧倒した名ＭＳだが、ジ"
+    },
+    {
+      "abs": "5C5D94",
+      "index": "0C05C",
+      "before": "도　호각으로　싸웠다고　한다。",
+      "after": "도　호각으로　싸웠다。",
+      "before_cells": 15,
+      "after_cells": 11,
+      "jp": "も互角に戦えたらしい。"
+    },
+    {
+      "abs": "5C5DA6",
+      "index": "0C05D",
+      "before": "군용、민간　등　폭넓게　쓰이고",
+      "after": "군용、민간등　널리　쓰이고",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "軍用、民間など幅広く使われ"
+    },
+    {
+      "abs": "5C6243",
+      "index": "0C063",
+      "before": "어、나노　머신의　고치에　싸여",
+      "after": "어、나노머신　고치에　싸여",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "り、ナノマシンのまゆに包み"
+    },
+    {
+      "abs": "5C65E7",
+      "index": "0F106",
+      "before": "대기권　내　비행도　가능하다。",
+      "after": "대기권　비행도　가능하다。",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "大気圏内飛行も可能である。"
+    },
+    {
+      "abs": "5C6631",
+      "index": "0C066",
+      "before": "를　장비하고、근～원거리까지의",
+      "after": "를　장비、근～원거리까지",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "を装備し、近～遠距離までの"
+    },
+    {
+      "abs": "5C666F",
+      "index": "0F10A",
+      "before": "전함　１척。작중에서는　그레이",
+      "after": "전함　１척。작중　그레이",
+      "before_cells": 15,
+      "after_cells": 12,
+      "jp": "戦艦の１隻。作中ではグレイ"
+    },
+    {
+      "abs": "5C68C0",
+      "index": "10F34",
+      "before": "ＮＴ용　가변　ＭＳ。타고　있던",
+      "after": "ＮＴ용　가변ＭＳ。타던",
+      "before_cells": 15,
+      "after_cells": 11,
+      "jp": "ＮＴ用可変ＭＳ。乗っていた"
+    },
+    {
+      "abs": "5C7285",
+      "index": "0F113",
+      "before": "「Ｚ계획」의　과정에서　개발되",
+      "after": "「Ｚ계획」과정에서　개발되",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "「Ｚ計画」の過程で開発され"
+    },
+    {
+      "abs": "5C76F4",
+      "index": "0C071",
+      "before": "돔을　우주용으로　개조한　기체",
+      "after": "돔을　우주용　개조한　기체",
+      "before_cells": 15,
+      "after_cells": 13,
+      "jp": "ドムを宇宙用に改造した機体"
+    },
+    {
+      "abs": "5C39D7",
+      "index": "0F0CF",
+      "before": "아무로・레이　전용　기체로서",
+      "after": "아무로・레이　전용기로서",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "アムロ・レイ用の機体として"
+    },
+    {
+      "abs": "5C39FB",
+      "index": "0C039",
+      "before": "있지　않다。건담　역사상　단",
+      "after": "있지　않다。건담사　단",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "ていない。ガンダム史上でた"
+    },
+    {
+      "abs": "5C3A07",
+      "index": "0C03A",
+      "before": "１기、자쿠와　서로　치고받은",
+      "after": "１기、자쿠와　치고받은",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "だ１機、ザクと相打ちになっ"
+    },
+    {
+      "abs": "5C3B53",
+      "index": "0C03D",
+      "before": "・기동　모든　면에　걸쳐　초",
+      "after": "・기동　전면에　걸쳐　초",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "・機動の全ての面に渡って超"
+    },
+    {
+      "abs": "5C3B7A",
+      "index": "0F0D3",
+      "before": "웃소의　능력에　의해　하이퍼",
+      "after": "웃소　능력으로　하이퍼",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "ウッソの能力によってハイパ"
+    },
+    {
+      "abs": "5C3B85",
+      "index": "0C03E",
+      "before": "화한　상태의　Ｖ２。원래부터",
+      "after": "화한　Ｖ２。원래부터",
+      "before_cells": 14,
+      "after_cells": 10,
+      "jp": "－化した状態のＶ２。元から"
+    },
+    {
+      "abs": "5C3E36",
+      "index": "10F49",
+      "before": "카라바가　운용하고　있었다。",
+      "after": "카라바가　운용했다。",
+      "before_cells": 14,
+      "after_cells": 10,
+      "jp": "カラバが運用していた。"
+    },
+    {
+      "abs": "5C3E40",
+      "index": "0F0D5",
+      "before": "전투능력은　전무하지만、비상",
+      "after": "전투력은　없으나、비상",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "戦闘能力は皆無だが、非常"
+    },
+    {
+      "abs": "5C3E6C",
+      "index": "0C4A8",
+      "before": "전함。왕년의　명전함　페가사",
+      "after": "전함。왕년　명함　페가사",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "た戦艦。往年の名戦艦ぺガサ"
+    },
+    {
+      "abs": "5C41B1",
+      "index": "0F0D9",
+      "before": "까지　높아지는　반면、제어할",
+      "after": "까지　높아지나、제어할",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "まで高められる反面、制御で"
+    },
+    {
+      "abs": "5C41C0",
+      "index": "0C042",
+      "before": "수　없이　폭주한다는　위험을",
+      "after": "수　없이　폭주할　위험을",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "きずに暴走するという危険を"
+    },
+    {
+      "abs": "5C41F2",
+      "index": "0C043",
+      "before": "일・게임의　이름을　따서　명",
+      "after": "일・게임　이름에서　명",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "ィル・ゲイムの名を取って名"
+    },
+    {
+      "abs": "5C478F",
+      "index": "0C045",
+      "before": "길이라면　５００미터를　넘는",
+      "after": "길이면　５００ｍ를　넘는",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "長なら５００メ－トルを越え"
+    },
+    {
+      "abs": "5C47D1",
+      "index": "0F0DB",
+      "before": "본래는　구　지온군이　개발한",
+      "after": "본래　구지온이　개발한",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "もとは旧ジオン軍が開発した"
+    },
+    {
+      "abs": "5C4A8D",
+      "index": "0F0DE",
+      "before": "개발자　자신도　인정했지만、",
+      "after": "개발자도　인정했지만、",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "開発者自身も認めていたが、"
+    },
+    {
+      "abs": "5C4A9C",
+      "index": "0F0DF",
+      "before": "ＭＳ로서는　기존　기술을　모",
+      "after": "ＭＳ론　기존　기술을　모",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "ＭＳとしては既存の技術をま"
+    },
+    {
+      "abs": "5C4B02",
+      "index": "0F0E2",
+      "before": "전쟁부터　네오・지온　항쟁까",
+      "after": "전쟁부터　네오지온　항쟁까",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "戦争からネオ・ジオン抗争ま"
+    },
+    {
+      "abs": "5C4B11",
+      "index": "0C04D",
+      "before": "지　줄곧　현역으로　쓰였다。",
+      "after": "지　줄곧　현역으로　썼다。",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "でずっと現役で使われた。"
+    },
+    {
+      "abs": "5C4CAA",
+      "index": "0F0E6",
+      "before": "본래　대기권　내　비행은　상",
+      "after": "본래　대기권　비행은　상",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "もともと大気圏内の飛行は想"
+    },
+    {
+      "abs": "5C4E21",
+      "index": "0C054",
+      "before": "히　뛰어넘는　힘을　보였다。",
+      "after": "히　넘는　힘을　보였다。",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "るかに超えた力を見せた。"
+    },
+    {
+      "abs": "5C55B7",
+      "index": "0F0F8",
+      "before": "산성에서　릭・돔에　뒤져　극",
+      "after": "산에서　릭・돔에　뒤져　극",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "産性でリック・ドムに劣りご"
+    },
+    {
+      "abs": "5C55C7",
+      "index": "0C4AD",
+      "before": "히　소수가　에이스　파일럿용",
+      "after": "히　소수　에이스　파일럿용",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "く少数がエ－スパイロット用"
+    },
+    {
+      "abs": "5C55D3",
+      "index": "0C055",
+      "before": "으로　배치되는　데　그쳤다。",
+      "after": "으로　배치에　그쳤다。",
+      "before_cells": 14,
+      "after_cells": 11,
+      "jp": "に配備されるに止まった。"
+    },
+    {
+      "abs": "5C5609",
+      "index": "0C057",
+      "before": "말한다。일년전쟁　초기에　연",
+      "after": "말한다。일년전쟁　초　연",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "とである。ー年戦争初期に連"
+    },
+    {
+      "abs": "5C56AF",
+      "index": "0F0FA",
+      "before": "Ｓ。이름은　「자쿠」이지만、",
+      "after": "Ｓ。이름은　「자쿠」지만、",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "Ｓ。名前こそ「ザク」だが、"
+    },
+    {
+      "abs": "5C56C0",
+      "index": "0F0FB",
+      "before": "「입에서　빔이　나온다」　등",
+      "after": "「입에서　빔이　나온다」등",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "「口からビ－ムが出る」など"
+    },
+    {
+      "abs": "5C5DC4",
+      "index": "0C05F",
+      "before": "형이　있지만、게임　중에　등",
+      "after": "형이　있으나、게임에　등",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "な型があるが、ゲ－ム中に登"
+    },
+    {
+      "abs": "5C626C",
+      "index": "0F104",
+      "before": "ＭＳ。다양한　기체　바리에이",
+      "after": "ＭＳ。여러　기체　바리에이",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "ＭＳ。様々な機体バリエ－シ"
+    },
+    {
+      "abs": "5C627A",
+      "index": "0F105",
+      "before": "션이　존재한다。성능적으로는",
+      "after": "션이　있다。성능적으로는",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "ョンが存在する。性能的には"
+    },
+    {
+      "abs": "5C65FB",
+      "index": "0F107",
+      "before": "토르기스의　강화형으로、한때",
+      "after": "톨기스　강화형으로、한때",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "ト－ルギスの強化型で、かつ"
+    },
+    {
+      "abs": "5C665E",
+      "index": "0F109",
+      "before": "연방군이　건조한　페가수스급",
+      "after": "연방이　건조한　페가수스급",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "連邦軍が建造したぺガサス級",
+      "also_abs": [
+        "5C6F9E"
+      ]
+    },
+    {
+      "abs": "5C68B6",
+      "index": "0F10B",
+      "before": "무라사메　연구소에서　개발된",
+      "after": "무라사메　연구소가　개발한",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "ムラサメ研究所で開発された"
+    },
+    {
+      "abs": "5C6F57",
+      "index": "0F10D",
+      "before": "한　ＭＳ。색적성능을　중시해",
+      "after": "한ＭＳ。색적성능을　중시해",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "したＭＳ。索敵性能を重視し"
+    },
+    {
+      "abs": "5C6FC0",
+      "index": "0F10F",
+      "before": "지온에서는　「목마」라　불렸",
+      "after": "지온에선　「목마」라　불렸",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "ジオンでは「木馬」と呼ばれ"
+    },
+    {
+      "abs": "5C6FD0",
+      "index": "0C06C",
+      "before": "다。수많은　무훈을　세우고、",
+      "after": "다。많은　무훈을　세우고、",
+      "before_cells": 14,
+      "after_cells": 13,
+      "jp": "ていた。数々の武勲を上げ、"
+    },
+    {
+      "abs": "5C771F",
+      "index": "10F31",
+      "before": "란　병사　중에는　신형기　겔",
+      "after": "란　병사　중엔　신형　겔",
+      "before_cells": 14,
+      "after_cells": 12,
+      "jp": "ラン兵の中には新型機のゲル"
+    },
+    {
+      "abs": "5C7739",
+      "index": "10F30",
+      "before": "쓰는　자도　많았다고　한다。",
+      "after": "쓰는　자도　많았다。",
+      "before_cells": 14,
+      "after_cells": 10,
+      "jp": "使う者も多かったという。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_note": "Korean labels for the bank-72 button plates. Plate indices come from out/title_menu_capture/bank72_atlas.json. Each plate is 80x16 packed 4bpp; glyphs are rendered with Galmuri11Bitmap Regular at native 16 px (the ending-credit face) so ㅖ in 계속 keeps a 1 px gap. Advance = glyph width + 1, so a plate holds about 6 syllables. 'drawn_at_boot' is the plate the initial menu actually draws (measured by zeroing one plate at a time); labels that never appear on the initial menu omit it.",
+  "labels": [
+    {
+      "jp": "ニューゲーム",
+      "ko": "새 게임",
+      "plates": [0, 1, 2],
+      "drawn_at_boot": 1
+    },
+    {
+      "jp": "コンティニュー",
+      "ko": "계속",
+      "plates": [3, 4, 5, 6],
+      "drawn_at_boot": 6
+    },
+    {
+      "jp": "オプション",
+      "ko": "설정",
+      "plates": [7, 8, 9, 10],
+      "drawn_at_boot": 7
+    },
+    {
+      "jp": "ノーマル",
+      "ko": "노멀",
+      "plates": [11, 12, 13]
+    },
+    {
+      "jp": "スペシャル",
+      "ko": "스페셜",
+      "plates": [14, 15, 16]
+    },
+    {
+      "jp": "通信モード",
+      "ko": "통신 모드",
+      "plates": [17, 18, 19]
+    },
+    {
+      "_reading": "first glyph is 金-left with a 皿 base, second is ⺌ over 貝 -> 鑑賞",
+      "jp": "鑑賞モード",
+      "ko": "감상 모드",
+      "plates": [20, 21, 22]
+    },
+    {
+      "jp": "対戦モード",
+      "ko": "대전 모드",
+      "plates": [23, 24, 25]
+    },
+    {
+      "jp": "ユニット交換",
+      "ko": "유닛 교환",
+      "plates": [26, 27, 28]
+    }
+  ]
+}

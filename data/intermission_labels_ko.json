@@ -1,0 +1,129 @@
+{
+  "_note": "Intermission menu labels (bank 54 overlay tile atlas). A label is a strip of 8x8 tiles: block columns 'from'..'to' over block rows 'row'..'row+1' (16 px tall). The Korean text is rendered into the whole strip and every tile in it is rewritten.",
+  "_why_strip": "Per-character 2x2 cells do not work. The Japanese characters are 16 px wide but are not placed on the 8 px tile grid - 作戦 for instance spans five block columns for two characters - so no pair of columns covers one character and a per-character rewrite always leaves a sliver of the original glyph on one side. Treating the label as one strip sidesteps alignment entirely.",
+  "_safety": "Every tile in a strip must be resolved by out/title_menu_capture/intermission_overlay_resolved.json, must match the native capture, and must be a pure overlay glyph tile (mostly transparent, at most the label's two colours). A strip containing plate artwork is rejected whole rather than half-written.",
+  "labels": [
+    {
+      "jp": "任務／戦況",
+      "ko": "임무/전황",
+      "row": 1,
+      "from": 7,
+      "to": 16
+    },
+    {
+      "jp": "索敵",
+      "ko": "색적",
+      "row": 1,
+      "from": 18,
+      "to": 21
+    },
+    {
+      "jp": "進撃",
+      "ko": "진격",
+      "row": 1,
+      "from": 22,
+      "to": 26
+    },
+    {
+      "jp": "作戦",
+      "ko": "작전",
+      "row": 3,
+      "from": 1,
+      "to": 5
+    },
+    {
+      "jp": "補給",
+      "ko": "보급",
+      "row": 5,
+      "from": 13,
+      "to": 16
+    },
+    {
+      "jp": "一覧",
+      "ko": "목록",
+      "row": 5,
+      "from": 18,
+      "to": 21
+    },
+    {
+      "jp": "配属",
+      "ko": "배속",
+      "row": 5,
+      "from": 23,
+      "to": 26
+    },
+    {
+      "jp": "編成",
+      "ko": "편성",
+      "row": 7,
+      "from": 7,
+      "to": 11
+    },
+    {
+      "jp": "開発",
+      "ko": "개발",
+      "row": 11,
+      "from": 1,
+      "to": 5,
+      "wipe": false
+    },
+    {
+      "jp": "開発プラン",
+      "ko": "개발 플랜",
+      "row": 12,
+      "from": 7,
+      "to": 16
+    },
+    {
+      "jp": "改造",
+      "ko": "개조",
+      "row": 12,
+      "from": 18,
+      "to": 21
+    },
+    {
+      "jp": "分解",
+      "ko": "분해",
+      "row": 12,
+      "from": 23,
+      "to": 26
+    },
+    {
+      "jp": "システム",
+      "ko": "시스템",
+      "row": 16,
+      "from": 1,
+      "to": 9
+    },
+    {
+      "jp": "セーブ",
+      "ko": "세이브",
+      "row": 16,
+      "from": 12,
+      "to": 17
+    },
+    {
+      "jp": "ロード",
+      "ko": "로드",
+      "row": 16,
+      "from": 18,
+      "to": 22
+    },
+    {
+      "jp": "図鑑",
+      "ko": "도감",
+      "row": 16,
+      "from": 24,
+      "to": 27
+    },
+    {
+      "_skip": "MS is Latin and reads the same in Korean; left untouched.",
+      "jp": "MS",
+      "ko": null,
+      "row": 9,
+      "from": 1,
+      "to": 5
+    }
+  ],
+  "_wipe": "After drawing, the label ink in the surrounding one-tile ring is cleared, because the Japanese glyphs are not aligned to the tile grid in either axis and leave slivers outside the strip. Set 'wipe' to false where a neighbouring label shares the strip border: 開発 sits directly under MS, and wiping its ring eats the S."
+}

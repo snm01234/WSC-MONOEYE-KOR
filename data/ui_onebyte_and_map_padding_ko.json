@@ -1,0 +1,27 @@
+{
+  "description": "Standalone 1-byte UI labels 攻/分 and long trailing space padding on map location names.",
+  "unit_attack_label": {
+    "abs": "75B3EF",
+    "jp": "攻",
+    "ko": "공",
+    "method": "remap_stock_1byte_glyph_C6",
+    "also_covers": ["5C83AF", "5C83B1"]
+  },
+  "save_minute_label": {
+    "abs": "75B559",
+    "jp": "分",
+    "ko": "분",
+    "method": "steal_unused_1byte_code_DF_了",
+    "keep_A3_as_分": ["001EC 気分", "009F8 五分五分"]
+  },
+  "map_location_long_padding": [
+    {"abs": "75BD4E", "text": "우주 경계 구역"},
+    {"abs": "75BD77", "text": "아・바오아・쿠"},
+    {"abs": "75BD8C", "text": "그린・노아２"},
+    {"abs": "75BDBB", "text": "구 지온 광산 기지"},
+    {"abs": "75BDD0", "text": "지구 궤도 항로"},
+    {"abs": "75BE03", "text": "월면 도시 주변"}
+  ],
+  "location_table_range": ["75BD4E", "75BE35"],
+  "max_visible_trailing_01_after": 2
+}

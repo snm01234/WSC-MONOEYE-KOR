@@ -1,0 +1,336 @@
+{
+  "description": "Menu/battle noun dictionary terms outside dialogue sheet (exact 5F slot → spill). Avoids pronouns/particles.",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "entries": [
+    {
+      "jp": "各機",
+      "ko": "각기",
+      "cat": "battle"
+    },
+    {
+      "jp": "侵入",
+      "ko": "침입",
+      "cat": "battle"
+    },
+    {
+      "jp": "撃破",
+      "ko": "격파",
+      "cat": "battle"
+    },
+    {
+      "jp": "散開",
+      "ko": "산개",
+      "cat": "battle"
+    },
+    {
+      "jp": "相手",
+      "ko": "상대",
+      "cat": "battle"
+    },
+    {
+      "jp": "追跡",
+      "ko": "추적",
+      "cat": "battle"
+    },
+    {
+      "jp": "能力",
+      "ko": "능력",
+      "cat": "battle"
+    },
+    {
+      "jp": "連邦軍",
+      "ko": "연방군",
+      "cat": "org"
+    },
+    {
+      "jp": "指揮",
+      "ko": "지휘",
+      "cat": "battle"
+    },
+    {
+      "jp": "戦争",
+      "ko": "전쟁",
+      "cat": "battle"
+    },
+    {
+      "jp": "連邦",
+      "ko": "연방",
+      "cat": "org"
+    },
+    {
+      "jp": "回復",
+      "ko": "회복",
+      "cat": "battle"
+    },
+    {
+      "jp": "範囲",
+      "ko": "범위",
+      "cat": "battle"
+    },
+    {
+      "jp": "邪魔",
+      "ko": "방해",
+      "cat": "battle"
+    },
+    {
+      "jp": "直撃",
+      "ko": "직격",
+      "cat": "battle"
+    },
+    {
+      "jp": "以上",
+      "ko": "이상",
+      "cat": "ui"
+    },
+    {
+      "jp": "性能",
+      "ko": "성능",
+      "cat": "battle"
+    },
+    {
+      "jp": "専用",
+      "ko": "전용",
+      "cat": "battle"
+    },
+    {
+      "jp": "敵軍",
+      "ko": "적군",
+      "cat": "battle"
+    },
+    {
+      "jp": "号機",
+      "ko": "호기",
+      "cat": "battle"
+    },
+    {
+      "jp": "兵器",
+      "ko": "병기",
+      "cat": "battle"
+    },
+    {
+      "jp": "登場",
+      "ko": "등장",
+      "cat": "ui"
+    },
+    {
+      "jp": "特殊",
+      "ko": "특수",
+      "cat": "battle"
+    },
+    {
+      "jp": "反応",
+      "ko": "반응",
+      "cat": "battle"
+    },
+    {
+      "jp": "兵士",
+      "ko": "병사",
+      "cat": "battle"
+    },
+    {
+      "jp": "封印",
+      "ko": "봉인",
+      "cat": "battle"
+    },
+    {
+      "jp": "世界",
+      "ko": "세계",
+      "cat": "ui"
+    },
+    {
+      "jp": "失敗",
+      "ko": "실패",
+      "cat": "ui"
+    },
+    {
+      "jp": "完全",
+      "ko": "완전",
+      "cat": "ui"
+    },
+    {
+      "jp": "人間",
+      "ko": "인간",
+      "cat": "ui"
+    },
+    {
+      "jp": "抵抗",
+      "ko": "저항",
+      "cat": "battle"
+    },
+    {
+      "jp": "ー年戦争",
+      "ko": "일년전쟁",
+      "cat": "lore"
+    },
+    {
+      "jp": "可能",
+      "ko": "가능",
+      "cat": "ui"
+    },
+    {
+      "jp": "大佐",
+      "ko": "대령",
+      "cat": "rank"
+    },
+    {
+      "jp": "友軍",
+      "ko": "우군",
+      "cat": "battle"
+    },
+    {
+      "jp": "パワ－",
+      "ko": "파워",
+      "cat": "battle"
+    },
+    {
+      "jp": "装備",
+      "ko": "장비",
+      "cat": "battle"
+    },
+    {
+      "jp": "程度",
+      "ko": "정도",
+      "cat": "ui"
+    },
+    {
+      "jp": "歌姫",
+      "ko": "가희",
+      "cat": "name"
+    },
+    {
+      "jp": "出番",
+      "ko": "차례",
+      "cat": "ui"
+    },
+    {
+      "jp": "処分",
+      "ko": "처분",
+      "cat": "ui"
+    },
+    {
+      "jp": "分解",
+      "ko": "분해",
+      "cat": "ui"
+    },
+    {
+      "jp": "登録",
+      "ko": "등록",
+      "cat": "ui"
+    },
+    {
+      "jp": "済み",
+      "ko": "완료",
+      "cat": "ui"
+    },
+    {
+      "jp": "作品",
+      "ko": "작품",
+      "cat": "ui"
+    },
+    {
+      "jp": "画面",
+      "ko": "화면",
+      "cat": "ui"
+    },
+    {
+      "jp": "表示",
+      "ko": "표시",
+      "cat": "ui"
+    },
+    {
+      "jp": "変更",
+      "ko": "변경",
+      "cat": "ui"
+    },
+    {
+      "jp": "モ－ド",
+      "ko": "모드",
+      "cat": "ui"
+    },
+    {
+      "jp": "プロフィ－ル",
+      "ko": "프로필",
+      "cat": "ui"
+    },
+    {
+      "jp": "ソ－ト",
+      "ko": "정렬",
+      "cat": "ui"
+    },
+    {
+      "jp": "ステ－タス",
+      "ko": "스테이터스",
+      "cat": "ui"
+    },
+    {
+      "jp": "オ－バ－",
+      "ko": "오버",
+      "cat": "ui"
+    },
+    {
+      "jp": "ゲ－ム",
+      "ko": "게임",
+      "cat": "ui"
+    },
+    {
+      "jp": "所有",
+      "ko": "소유",
+      "cat": "ui"
+    },
+    {
+      "jp": "オリジナル",
+      "ko": "오리지널",
+      "cat": "ui"
+    },
+    {
+      "jp": "激突",
+      "ko": "격돌",
+      "cat": "title"
+    },
+    {
+      "jp": "決戦",
+      "ko": "결전",
+      "cat": "title"
+    },
+    {
+      "jp": "戦略",
+      "ko": "전략",
+      "cat": "title"
+    },
+    {
+      "jp": "闘志",
+      "ko": "투지",
+      "cat": "title"
+    },
+    {
+      "jp": "恐怖",
+      "ko": "공포",
+      "cat": "title"
+    },
+    {
+      "jp": "戦い",
+      "ko": "싸움",
+      "cat": "title"
+    },
+    {
+      "jp": "彗星",
+      "ko": "혜성",
+      "cat": "title"
+    },
+    {
+      "jp": "赤い",
+      "ko": "붉은",
+      "cat": "title"
+    },
+    {
+      "jp": "バ－ニィ",
+      "ko": "버니",
+      "cat": "name"
+    },
+    {
+      "jp": "アイン",
+      "ko": "아인",
+      "cat": "name"
+    }
+  ]
+}

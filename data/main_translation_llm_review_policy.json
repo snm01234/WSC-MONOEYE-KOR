@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "active_planning_only",
+  "effective_date": "2026-08-12",
+  "scope": {
+    "source_sheet": "out/script/translation_sheet.csv",
+    "runtime_authority": "out/patch/monoeye_ko_expanded.wsc",
+    "runtime_contract": "out/script/dialogue_runtime_contracts.json",
+    "scenario_banks": ["60", "61", "62", "63"],
+    "fixed_data_or_non_dialogue_banks": ["64", "65", "66", "67", "68", "69", "6A", "6B", "6C", "6D", "6E", "6F"]
+  },
+  "selection_rule": {
+    "operator": "OR",
+    "requires_llm_rereview_if": [
+      "the exact current Korean wording has no explicit LLM-generation provenance",
+      "the exact current Korean wording has no evidence of at least one completed review",
+      "the wording has a legacy-machine-translation or quality-risk flag even if provenance exists"
+    ],
+    "exemption_requires_all": [
+      "exact current wording match",
+      "translation_source explicitly identifies an LLM",
+      "review_status proves at least one completed review",
+      "no quality-risk flag"
+    ]
+  },
+  "review_status": {
+    "completed_prefixes": ["approved", "user_verified", "reviewed", "promoted"],
+    "pending_output_status": "queued_llm_rereview",
+    "structural_output_status": "structural_preclear_required"
+  },
+  "batching": {
+    "preserve_runtime_bundle": true,
+    "sort_by_runtime_address": true,
+    "max_rows": 60,
+    "max_source_and_current_characters": 6000,
+    "waves": [
+      "W1_quality_and_legacy_risk",
+      "W2_missing_llm_or_review_evidence",
+      "W3_reviewed_but_quality_flagged",
+      "W0_structural_preclear"
+    ]
+  },
+  "hard_guards": {
+    "planning_only": true,
+    "do_not_generate_or_edit_translation": true,
+    "proposed_ko_must_be_blank": true,
+    "do_not_modify_rom_or_saveram": true,
+    "contract_quarantine_may_be_reviewed_in_context_but_not_applied": true,
+    "contract_gap_requires_structural_preclear_before_semantic_work": true,
+    "legacy_korean_is_forensic_evidence_only": true,
+    "future_translation_source_is_japanese_original_plus_runtime_bundle_context": true
+  }
+}

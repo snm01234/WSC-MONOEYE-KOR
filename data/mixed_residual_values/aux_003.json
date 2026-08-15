@@ -1,0 +1,751 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual aux targets, batch 003 (bank 5C encyclopedia lines). Fixed-width pages wrap one sentence across records, so fragments are translated to keep the reading order.",
+  "region": "aux",
+  "batch": "aux_003",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:5C1A1A": {
+      "ko": "가　특징。"
+    },
+    "aux:5C1C6D": {
+      "ko": "「여성이　세계를　이끌어야　한다」고",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 を가 한국어 세계 주변에 붙어 있었다. 인용절 전체를 교체했다."
+    },
+    "aux:5C1C7E": {
+      "ko": "하는　지론을　갖고　있던　탓인지、"
+    },
+    "aux:5C1CAF": {
+      "ko": "미네바・자비의　섭정을　맡은",
+      "terms": {
+        "ザビ": "자비"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ザビ가 중점 건너 한국어 미네바와 이어져 있었다. 이름과 뒤의 조사를 함께 교체했다."
+    },
+    "aux:5C1CBF": {
+      "ko": "액시즈의　실질적　지도자。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 な가 한국어 액시즈·지도자 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1CCD": {
+      "ko": "높은　ＮＴ능력과　냉철한　성격을",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 능력 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1CFB": {
+      "ko": "아무도　모른다……。"
+    },
+    "aux:5C1FFA": {
+      "ko": "있었다。카미유와　만나",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 카미유 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C2006": {
+      "ko": "잠깐의　안식을　얻지만、"
+    },
+    "aux:5C2037": {
+      "ko": "포우・무라사메（동료）"
+    },
+    "aux:5C2053": {
+      "ko": "유에게　구출된　포우。"
+    },
+    "aux:5C206E": {
+      "ko": "않았던　듯하지만、성격의　공"
+    },
+    "aux:5C207C": {
+      "ko": "격적인　면이　사라져　본래의　모습으로"
+    },
+    "aux:5C27D3": {
+      "ko": "물로서　오랫동안　건담　애호가",
+      "terms": {
+        "ファン": "애호가"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: ファン이 한국어 건담과 맞닿아 있었다. 줄 전체를 교체했다. 설치된 한글 글리프 집합에 '팬'이 없어 같은 뜻의 '애호가'로 표기했다."
+    },
+    "aux:5C27DF": {
+      "ko": "의　기억에　남아　있다（？）。"
+    },
+    "aux:5C27EE": {
+      "ko": "훗날、개그　캐릭터로　화려",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: へと가 한국어 캬라 뒤에 붙어 있었다. お笑いキャラ 전체를 개그　캐릭터로 옮겼다."
+    },
+    "aux:5C27FE": {
+      "ko": "한　전신을　이루었다。",
+      "review_notes": "설치된 한글 글리프 집합에 '뤘'이 없어 같은 뜻의 '이루었다'로 풀어 썼다."
+    },
+    "aux:5C280C": {
+      "ko": "야잔・게이블（ＦＧ）",
+      "terms": {
+        "ブル": "블"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ゲ－ブル이 중점 건너 한국어 야잔과 이어져 있었다. 이름 전체를 야잔・게이블로 교체했다."
+    },
+    "aux:5C281E": {
+      "ko": "본래는　Ｚ건담에　등장한",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 した가 한국어 건담·등장을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C282B": {
+      "ko": "파일럿。일단은　연방군"
+    },
+    "aux:5C2833": {
+      "ko": "소속이라、일년전쟁　편에서　자"
+    },
+    "aux:5C2840": {
+      "ko": "미토프의　부하로　등장。",
+      "terms": {
+        "ャミトフ": "미토프"
+      }
+    },
+    "aux:5C284E": {
+      "ko": "훗날　티탄즈에　들어가지만、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 티탄즈 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C29CD": {
+      "ko": "일류　솜씨를　지닌　호담한　ＭＳ　탑승"
+    },
+    "aux:5C29E1": {
+      "ko": "자이지만、비도한　작전이나　배신",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: や가 한국어 작전 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C29EE": {
+      "ko": "도　태연히　하기　때문에、그다지"
+    },
+    "aux:5C29FC": {
+      "ko": "인기가　따르지　않는다。역시　강한"
+    },
+    "aux:5C2A13": {
+      "ko": "라라아・슨",
+      "terms": {
+        "スン": "슨"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound: スン이 중점 건너 한국어 라라아와 이어져 있었다. 이름 전체를 교체했다."
+    },
+    "aux:5C2A1A": {
+      "ko": "플라나간　기관에서　육성된",
+      "terms": {
+        "フラナガン": "플라나간"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: フラナガン이 한국어 기관과 맞닿고 で가 뒤에 붙어 있었다. 표현 전체를 교체했다."
+    },
+    "aux:5C2A26": {
+      "ko": "뉴타입으로、어떤　의미로는",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で가 한국어 뉴타입 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C2A3F": {
+      "ko": "했다。샤아의　어머니가　되는　여성",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름 샤아 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3550": {
+      "ko": "세계를　멸망시킨　모습。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 세계 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C355D": {
+      "ko": "턴Ｘ와　결전에서　서로",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: との와 で가 한국어 턴Ｘ·결전 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C356D": {
+      "ko": "치고、다시　잠에　든다。"
+    },
+    "aux:5C358F": {
+      "ko": "본래의　성능을　발휘하게",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 するように가 한국어 성능을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C359C": {
+      "ko": "된　∀건담。밀리샤",
+      "terms": {
+        "ミリシャ": "밀리샤"
+      }
+    },
+    "aux:5C35A7": {
+      "ko": "의　주력……거의　유"
+    },
+    "aux:5C35B5": {
+      "ko": "일한　전력으로서　디아나"
+    },
+    "aux:5C35C2": {
+      "ko": "카운터와　싸웠다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 카운터 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C39C3": {
+      "ko": "션에　들어가는　하나。"
+    },
+    "aux:5C39CE": {
+      "ko": "ＮＴ－１　알렉스"
+    },
+    "aux:5C39D7": {
+      "ko": "아무로・레이　전용기로서",
+      "terms": {
+        "レイ": "레이"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound와 japanese_particle: レイ가 중점 건너 한국어 아무로와 이어지고 用の가 뒤에 붙어 있었다. 이름과 조사를 함께 교체했다."
+    },
+    "aux:5C39E3": {
+      "ko": "연방이　개발한　ＮＴ용ＭＳ",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 した가 한국어 연방군·개발을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C39F0": {
+      "ko": "지만、사이코뮤는　장비되어",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 され가 한국어 사이코뮤를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C39FB": {
+      "ko": "있지　않다。건담사　단"
+    },
+    "aux:5C3A07": {
+      "ko": "１기、자쿠와　치고받은",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 자쿠 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3A15": {
+      "ko": "건담이기도　하다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: でもある가 한국어 건담 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3B46": {
+      "ko": "트　탑재로、공격・방어",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 により가 한국어 탑재 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3B53": {
+      "ko": "・기동　전면에　걸쳐　초"
+    },
+    "aux:5C3B64": {
+      "ko": "고성능을　발휘한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 する가 한국어 성능을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3B7A": {
+      "ko": "웃소　능력으로　하이퍼",
+      "terms": {
+        "ハイパ": "하이퍼"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 によって가 한국어 웃소·능력 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3B85": {
+      "ko": "화한　Ｖ２。원래부터",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 상태 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3B95": {
+      "ko": "강한　기체가　더　파워　어",
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: な와 が가 한국어 강력·기체 주변에 붙고 파워アップ이 두 줄로 갈려 있었다. 다음 줄의 업으로 이어지도록 어로 끝냈다."
+    },
+    "aux:5C3BA2": {
+      "ko": "업되어、이제는　무적。",
+      "terms": {
+        "ップ": "업"
+      }
+    },
+    "aux:5C3E40": {
+      "ko": "전투력은　없으나、비상",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 だが가 한국어 전투능력 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3E4C": {
+      "ko": "히　높은　탑재력　지닌다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 を持つ가 한국어 탑재능력을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3E5F": {
+      "ko": "에우고가　기함으로　건조한",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 として가 한국어 에우고 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C3E6C": {
+      "ko": "전함。왕년　명함　페가사",
+      "terms": {
+        "ガサ": "가사"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 전함 주변에 붙어 있었다. 함급명 페가사스가 다음 줄로 이어지도록 교체했다."
+    },
+    "aux:5C3E7E": {
+      "ko": "스급을　참고했으며、ＭＳ"
+    },
+    "aux:5C3E8E": {
+      "ko": "운용능력이　뛰어나다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 優れる가 한국어 운용능력을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C41A3": {
+      "ko": "여　탑승자　능력이　극한",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が가 한국어 탑승자·전투능력 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C41B1": {
+      "ko": "까지　높아지나、제어할",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で가 한국어 제어 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C41C0": {
+      "ko": "수　없이　폭주할　위험을",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: という와 を가 한국어 위험 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C41E5": {
+      "ko": "된　전함으로、발견자인　우",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で가 한국어 전함 뒤에 붙어 있었다. 인명이 다음 줄로 이어지도록 우로 끝냈다."
+    },
+    "aux:5C41F2": {
+      "ko": "일・게임　이름에서　명",
+      "terms": {
+        "ィル": "일",
+        "ゲイム": "게임"
+      }
+    },
+    "aux:5C420C": {
+      "ko": "잉그레사　밀리샤의　기함",
+      "terms": {
+        "イングレッサミリシャ": "잉그레사　밀리샤"
+      }
+    },
+    "aux:5C4218": {
+      "ko": "이　되어、달로　건너갔다。"
+    },
+    "aux:5C478F": {
+      "ko": "길이면　５００ｍ를　넘는",
+      "terms": {
+        "トル": "터"
+      }
+    },
+    "aux:5C47A1": {
+      "ko": "거인기이다。아우도무라"
+    },
+    "aux:5C47AC": {
+      "ko": "스도리、메로우드　등、전",
+      "terms": {
+        "ドリ": "도리",
+        "メロウド": "메로우드"
+      }
+    },
+    "aux:5C47C7": {
+      "ko": "가르발디β",
+      "terms": {
+        "ガルバルディ": "가르발디"
+      }
+    },
+    "aux:5C47D1": {
+      "ko": "본래　구지온이　개발한",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 した가 한국어 지온·개발을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C47DE": {
+      "ko": "기체。전후　연방이　개수",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で와 が가 한국어 기체·연방군 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C47EE": {
+      "ko": "를　거쳐　정식채용。구식"
+    },
+    "aux:5C4802": {
+      "ko": "기이지만　운동성은　높아、"
+    },
+    "aux:5C4813": {
+      "ko": "파일럿　솜씨면　신예",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 파일럿 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4821": {
+      "ko": "기와　대등히　맞선다。"
+    },
+    "aux:5C4A8D": {
+      "ko": "개발자도　인정했지만、"
+    },
+    "aux:5C4A9C": {
+      "ko": "ＭＳ론　기존　기술을　모",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 기술 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4AAA": {
+      "ko": "은　것뿐이라、그다지　볼"
+    },
+    "aux:5C4AB6": {
+      "ko": "만한　곳없는　평범한기체。"
+    },
+    "aux:5C4ACF": {
+      "ko": "티탄즈에서　탈취한　건",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: から와 した가 한국어 티탄즈 뒤에 붙어 있었다. 기체명이 다음 줄로 이어지도록 건으로 끝냈다."
+    },
+    "aux:5C4AD9": {
+      "ko": "담ｍｋⅡ를　에우고　컬러",
+      "terms": {
+        "ンダム": "담",
+        "カラ": "컬러"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: ンダム이 이전 줄의 ガ와 한 이름이고 カラ가 한국어 에우고와 맞닿아 있었다. 두 줄을 함께 검토해 건＋담, 에우고　컬러로 교체했다."
+    },
+    "aux:5C4AE6": {
+      "ko": "로　다시　칠한　것。성능적"
+    },
+    "aux:5C4AF7": {
+      "ko": "으론　그저지만、그리프스"
+    },
+    "aux:5C4B02": {
+      "ko": "전쟁부터　네오지온　항쟁까",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: から가 한국어 전쟁 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4B11": {
+      "ko": "지　줄곧　현역으로　썼다。"
+    },
+    "aux:5C4B1F": {
+      "ko": "건담　아슈타론　ＨＣ",
+      "terms": {
+        "アシュタロン": "아슈타론"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: アシュタロン이 한국어 건담과 맞닿아 있었다. 기체명 전체를 교체했다."
+    },
+    "aux:5C4B29": {
+      "ko": "신연방이　전후　개발한　건",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 に가 한국어 연방군·전후 뒤에 붙어 있었다. 기체명이 다음 줄로 이어지도록 건으로 끝냈다."
+    },
+    "aux:5C4B37": {
+      "ko": "담　타입　１기。올바",
+      "terms": {
+        "ンダムタイプ": "담　타입"
+      }
+    },
+    "aux:5C4B44": {
+      "ko": "・프로스트가　탑승한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 する가 한국어 프로스트·탑승을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4B4E": {
+      "ko": "형　샤기아의　바사고와　대",
+      "terms": {
+        "ヴァサ": "바사"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 と가 한국어 샤기아 주변에 붙어 있었다. 기체명 바사고까지 포함해 교체했다."
+    },
+    "aux:5C4CAA": {
+      "ko": "본래　대기권　비행은　상"
+    },
+    "aux:5C4CC4": {
+      "ko": "남는　출력으로　억지비행을"
+    },
+    "aux:5C4CD4": {
+      "ko": "실현하고　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: している가 한국어 실현 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4CDF": {
+      "ko": "액시즈에서　개발된　ＮＴ전",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で와 された가 한국어 액시즈·개발을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4CEB": {
+      "ko": "용ＭＳ。ＭＳ로　처음으로"
+    },
+    "aux:5C4D4E": {
+      "ko": "된　큐베레이　２호기로、",
+      "terms": {
+        "キュ": "큐",
+        "レイ": "레이"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 호기 주변에 붙어 있었다. 기체명 큐베레이까지 포함해 교체했다."
+    },
+    "aux:5C4D69": {
+      "ko": "성능은　하만이　타는　큐",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 の乗る가 한국어 성능·하만 뒤에 붙어 있었다. 기체명이 다음 줄로 이어지도록 큐로 끝냈다."
+    },
+    "aux:5C4D76": {
+      "ko": "베레이와　큰　차이　없다。",
+      "terms": {
+        "レイ": "레이"
+      }
+    },
+    "aux:5C4D83": {
+      "ko": "큐베레이ｍｋⅡ（적）",
+      "terms": {
+        "キュ": "큐",
+        "レイ": "레이"
+      }
+    },
+    "aux:5C4D91": {
+      "ko": "플투　탑승용으로　조정된",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 用に와 された가 한국어 풀투탑승·조정을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4D9C": {
+      "ko": "큐베레이３호기、붉은　계열",
+      "terms": {
+        "キュ": "큐",
+        "レイ": "레이"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 호기 주변에 붙어 있었다. 기체명까지 포함해 교체했다."
+    },
+    "aux:5C4DB8": {
+      "ko": "뮤로　기체　밖에서　원격",
+      "terms": {
+        "ミュ": "뮤"
+      }
+    },
+    "aux:5C4DC9": {
+      "ko": "조작할　수　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: することができる가 한국어 조작 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4DD0": {
+      "ko": "큐베레이（하이퍼）",
+      "terms": {
+        "キュ": "큐",
+        "レイ": "레이",
+        "ハイパ": "하이퍼"
+      }
+    },
+    "aux:5C4DDC": {
+      "ko": "하만의　힘을　받아　하이퍼",
+      "terms": {
+        "ハイパ": "하이퍼"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を受けて가 한국어 하만·힘 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4DE9": {
+      "ko": "화한　상태의　큐베레이。",
+      "terms": {
+        "キュ": "큐",
+        "レイ": "레이"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 상태 뒤에 붙어 있었다. 기체명까지 포함해 교체했다."
+    },
+    "aux:5C4DF5": {
+      "ko": "ＺＺ건담에서　하이메",
+      "terms": {
+        "ハイメ": "하이메"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: において가 한국어 건담 뒤에 붙어 있었다. 무장명이 다음 줄로 이어지도록 교체했다."
+    },
+    "aux:5C4E01": {
+      "ko": "가　캐논의　직격을　받아냈",
+      "terms": {
+        "ガキャノン": "가　캐논"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 직격 주변에 붙어 있었다. 무장명까지 포함해 교체했다."
+    },
+    "aux:5C4E21": {
+      "ko": "히　넘는　힘을　보였다。"
+    },
+    "aux:5C4F4D": {
+      "ko": "크로스본Ｇ<E62F>Ｘ１개<E62F>Ｈ"
+    },
+    "aux:5C4F5D": {
+      "ko": "킨케두의　능력을　받아",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を受けて가 한국어 킨케두·능력 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4F68": {
+      "ko": "건담Ｘ１이　능력의　전부를",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 の가 한국어 건담Ｘ１·능력 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4F74": {
+      "ko": "발휘한　상태。"
+    },
+    "aux:5C4F7C": {
+      "ko": "또、이　상태는　게임용으로",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 상태 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C4F9B": {
+      "ko": "등장하지　않는다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: していない가 한국어 등장 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C559D": {
+      "ko": "성을　향상시킨　기체。"
+    },
+    "aux:5C55A8": {
+      "ko": "기체　포텐셜은　높지만　생",
+      "terms": {
+        "ポテンシャル": "포텐셜"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: ポテンシャル이 한국어 기체와 맞닿아 있었다. 기체　포텐셜로 전체 표현을 교체했다."
+    },
+    "aux:5C55B7": {
+      "ko": "산에서　릭・돔에　뒤져　극",
+      "terms": {
+        "ドム": "돔"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ドム가 중점 건너 한국어 릭과 이어져 있었다. 기체명 릭・돔으로 교체했다."
+    },
+    "aux:5C55C7": {
+      "ko": "히　소수　에이스　파일럿용",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: エ－ス가 한국어 파일럿과 맞닿아 있었다. 에이스　파일럿으로 전체 표현을 교체했다."
+    },
+    "aux:5C55D3": {
+      "ko": "으로　배치에　그쳤다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 されるに止まった가 한국어 배치를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C55E9": {
+      "ko": "지온군의　양산　ＭＳ。이른"
+    },
+    "aux:5C55F9": {
+      "ko": "바　「자쿠」라면　이것을"
+    },
+    "aux:5C5609": {
+      "ko": "말한다。일년전쟁　초　연"
+    },
+    "aux:5C5616": {
+      "ko": "방을　압도한　명기지만、짐"
+    },
+    "aux:5C5625": {
+      "ko": "의　등장에　당하는　메카",
+      "terms": {
+        "メカ": "메카"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 등장 주변에 붙어 있었다. やられメカ를 당하는　메카로 교체했다."
+    },
+    "aux:5C56AF": {
+      "ko": "Ｓ。이름은　「자쿠」지만、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: こそ와 だが가 한국어 이름·자쿠 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C56C0": {
+      "ko": "「입에서　빔이　나온다」등",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 など가 한국어 빔 주변에 붙어 있었다. 인용절 전체를 교체했다."
+    },
+    "aux:5C56D0": {
+      "ko": "이미　자쿠와　다른　기체",
+      "terms": {
+        "モノ": "물건"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: とは와 の가 한국어 자쿠·기체 주변에 붙어 있었다. 別モノ를 다른　물건으로 교체했다."
+    },
+    "aux:5C56DE": {
+      "ko": "역시　네오・지온、제법"
+    },
+    "aux:5C56F1": {
+      "ko": "자쿠Ⅲ개"
+    },
+    "aux:5C56F9": {
+      "ko": "자쿠Ⅲ를　개수한　기체。"
+    },
+    "aux:5C5708": {
+      "ko": "입의　빔이　폐지되고、대신",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が가 한국어 빔 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C5729": {
+      "ko": "추가되어　있다。강화인간이",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 강화인간 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C5734": {
+      "ko": "된　마슈마가　탑승했다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 した가 한국어 마슈마·탑승을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C5D77": {
+      "ko": "와　다른　타입이　존재한",
+      "terms": {
+        "タイプ": "타입"
+      }
+    },
+    "aux:5C5D87": {
+      "ko": "다。성능은　높아、겔구그와",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 と가 한국어 성능·겔구그 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C5D94": {
+      "ko": "도　호각으로　싸웠다。"
+    },
+    "aux:5C5DA6": {
+      "ko": "군용、민간등　널리　쓰이고"
+    },
+    "aux:5C5DB8": {
+      "ko": "있는　셔틀。본래는　여러"
+    },
+    "aux:5C5DC4": {
+      "ko": "형이　있으나、게임에　등"
+    },
+    "aux:5C5DD4": {
+      "ko": "장하는　것은　이것뿐。"
+    },
+    "aux:5C6224": {
+      "ko": "킨　턴Ｘ이다。∀건",
+      "terms": {
+        "ガン": "건"
+      }
+    },
+    "aux:5C6232": {
+      "ko": "담과　싸워　서로　치게　되",
+      "terms": {
+        "ダム": "담"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と와 の末に가 한국어 교전 주변에 붙어 있었다. 이전 줄의 ∀건과 이어지도록 담으로 시작했다."
+    },
+    "aux:5C6243": {
+      "ko": "어、나노머신　고치에　싸여",
+      "terms": {
+        "ナノ": "나노"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: ナノ가 한국어 머신과 맞닿고 の가 뒤에 붙어 있었다. 나노　머신으로 전체 표현을 교체했다."
+    },
+    "aux:5C625B": {
+      "ko": "데스　아미",
+      "terms": {
+        "デスア": "데스　아"
+      }
+    },
+    "aux:5C6263": {
+      "ko": "데빌　건담이　만들어　낸",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 건담 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C626C": {
+      "ko": "ＭＳ。여러　기체　바리에이",
+      "terms": {
+        "バリエ": "바리에"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: バリエ－シ가 한국어 기체와 맞닿아 있었다. 기체　바리에이션으로 두 줄에 걸쳐 교체했다."
+    },
+    "aux:5C627A": {
+      "ko": "션이　있다。성능적으로는",
+      "terms": {
+        "ョン": "션"
+      }
+    }
+  }
+}

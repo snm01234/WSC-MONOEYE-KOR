@@ -1,0 +1,4143 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/build_stage2_dialogue_catalog.py",
+  "description": "Reviewed Korean for 288 proven aux/script dialogue and voice records after stage 2A UI promotion.",
+  "source_audit": "out/patch/broad_stage2_ui_system_postpromotion_residual_audit.json",
+  "counts": {
+    "selected": 288,
+    "unique_korean": 220,
+    "excluded_placeholders_or_data": 192
+  },
+  "lines": [
+    {
+      "abs": "5904C9",
+      "record_id": "aux:5904C9",
+      "region": "aux",
+      "jp_full": "って、おいっ……！！",
+      "jp_body": "って、おいっ……！！",
+      "ko": "잠깐、이봐……！！",
+      "body_capacity": 8,
+      "prefix_hex": "173418",
+      "body_hex": "F15607F798F60C03"
+    },
+    {
+      "abs": "590991",
+      "record_id": "aux:590991",
+      "region": "aux",
+      "jp_full": "総帥！",
+      "jp_body": "総帥！",
+      "ko": "총수！",
+      "body_capacity": 3,
+      "prefix_hex": "173418",
+      "body_hex": "F0C603"
+    },
+    {
+      "abs": "596BC3",
+      "record_id": "aux:596BC3",
+      "region": "aux",
+      "jp_full": "すみました。",
+      "jp_body": "すみました。",
+      "ko": "끝났습니다。",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "1E69F7A70A"
+    },
+    {
+      "abs": "5977A5",
+      "record_id": "aux:5977A5",
+      "region": "aux",
+      "jp_full": "はいっ！",
+      "jp_body": "예っ！",
+      "ko": "예！",
+      "body_capacity": 3,
+      "prefix_hex": "173418",
+      "body_hex": "F81E03"
+    },
+    {
+      "abs": "597AE4",
+      "record_id": "aux:597AE4",
+      "region": "aux",
+      "jp_full": "違いますよ。",
+      "jp_body": "違いますよ。",
+      "ko": "아닙니다。",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "DAFB590A"
+    },
+    {
+      "abs": "597FD3",
+      "record_id": "aux:597FD3",
+      "region": "aux",
+      "jp_full": "すみません。",
+      "jp_body": "すみません。",
+      "ko": "죄송합니다。",
+      "body_capacity": 3,
+      "prefix_hex": "173418",
+      "body_hex": "FCED0A"
+    },
+    {
+      "abs": "5C5634",
+      "record_id": "aux:5C5634",
+      "region": "aux",
+      "jp_full": "に転落した。",
+      "jp_body": "に転落した。",
+      "ko": "로 추락했다。",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "0CE2CEE033F41B0A"
+    },
+    {
+      "abs": "5C56E9",
+      "record_id": "aux:5C56E9",
+      "region": "aux",
+      "jp_full": "とが違う。",
+      "jp_body": "とが違う。",
+      "ko": "와는 다르다。",
+      "body_capacity": 5,
+      "prefix_hex": "18",
+      "body_hex": "1317DA140A"
+    },
+    {
+      "abs": "5D0BA2",
+      "record_id": "aux:5D0BA2",
+      "region": "aux",
+      "jp_full": "な……行けっ！！",
+      "jp_body": "……行けっ！！",
+      "ko": "……가라！！",
+      "body_capacity": 7,
+      "prefix_hex": "06",
+      "body_hex": "F1916BF492F044"
+    },
+    {
+      "abs": "5D0CFE",
+      "record_id": "aux:5D0CFE",
+      "region": "aux",
+      "jp_full": "、……甘いんだよ！！",
+      "jp_body": "……甘いんだよ！！",
+      "ko": "……어림없어！！",
+      "body_capacity": 9,
+      "prefix_hex": "07",
+      "body_hex": "F191E171F77F23F044"
+    },
+    {
+      "abs": "5D0D88",
+      "record_id": "aux:5D0D88",
+      "region": "aux",
+      "jp_full": "、……ムリだね。",
+      "jp_body": "……ムリだね。",
+      "ko": "……무리야。",
+      "body_capacity": 7,
+      "prefix_hex": "07",
+      "body_hex": "F191F00DF54B0A"
+    },
+    {
+      "abs": "5D0DBF",
+      "record_id": "aux:5D0DBF",
+      "region": "aux",
+      "jp_full": "、こ、これは……！！",
+      "jp_body": "こ、これは……！！",
+      "ko": "이、이건……！！",
+      "body_capacity": 7,
+      "prefix_hex": "07",
+      "body_hex": "1807F630F60C03"
+    },
+    {
+      "abs": "5D12C1",
+      "record_id": "aux:5D12C1",
+      "region": "aux",
+      "jp_full": "全父さん……",
+      "jp_body": "父さん……",
+      "ko": "아버지……",
+      "body_capacity": 6,
+      "prefix_hex": "86",
+      "body_hex": "E0BCF366F191"
+    },
+    {
+      "abs": "5D160D",
+      "record_id": "aux:5D160D",
+      "region": "aux",
+      "jp_full": "て……ムダです！",
+      "jp_body": "……ムダです！",
+      "ko": "……소용없습니다！",
+      "body_capacity": 7,
+      "prefix_hex": "0B",
+      "body_hex": "F191F07BF27D03"
+    },
+    {
+      "abs": "5D1648",
+      "record_id": "aux:5D1648",
+      "region": "aux",
+      "jp_full": "て撃ちます……！！",
+      "jp_body": "撃ちます……！！",
+      "ko": "쏘겠습니다……！！",
+      "body_capacity": 7,
+      "prefix_hex": "0B",
+      "body_hex": "7B3B211EF60C03"
+    },
+    {
+      "abs": "5D1653",
+      "record_id": "aux:5D1653",
+      "region": "aux",
+      "jp_full": "て……そこです！！",
+      "jp_body": "……そこです！！",
+      "ko": "……거기입니다！！",
+      "body_capacity": 7,
+      "prefix_hex": "0B",
+      "body_hex": "F191F6161EF044"
+    },
+    {
+      "abs": "5D1675",
+      "record_id": "aux:5D1675",
+      "region": "aux",
+      "jp_full": "て行きます……！！",
+      "jp_body": "行きます……！！",
+      "ko": "갑니다……！！",
+      "body_capacity": 6,
+      "prefix_hex": "0B",
+      "body_hex": "6BF5B9F60C03"
+    },
+    {
+      "abs": "5D16AF",
+      "record_id": "aux:5D16AF",
+      "region": "aux",
+      "jp_full": "て……まだです！！",
+      "jp_body": "……まだです！！",
+      "ko": "……아직입니다！！",
+      "body_capacity": 8,
+      "prefix_hex": "0B",
+      "body_hex": "F191F195F27DF044"
+    },
+    {
+      "abs": "5D170D",
+      "record_id": "aux:5D170D",
+      "region": "aux",
+      "jp_full": "て来たっ！？",
+      "jp_body": "来たっ！？",
+      "ko": "왔다！？",
+      "body_capacity": 5,
+      "prefix_hex": "0B",
+      "body_hex": "9BF376F040"
+    },
+    {
+      "abs": "5D19DA",
+      "record_id": "aux:5D19DA",
+      "region": "aux",
+      "jp_full": "か……くらった！？",
+      "jp_body": "……くらった！？",
+      "ko": "……맞았어！？",
+      "body_capacity": 8,
+      "prefix_hex": "0E",
+      "body_hex": "F191241CF150F040"
+    },
+    {
+      "abs": "5D1B32",
+      "record_id": "aux:5D1B32",
+      "region": "aux",
+      "jp_full": "る情けない……！",
+      "jp_body": "情けない……！",
+      "ko": "한심하군……！",
+      "body_capacity": 6,
+      "prefix_hex": "0F",
+      "body_hex": "E020F891F60C"
+    },
+    {
+      "abs": "5D1B4F",
+      "record_id": "aux:5D1B4F",
+      "region": "aux",
+      "jp_full": "るこれは……",
+      "jp_body": "これは……",
+      "ko": "이건……",
+      "body_capacity": 4,
+      "prefix_hex": "0F",
+      "body_hex": "F630F191"
+    },
+    {
+      "abs": "5D1B69",
+      "record_id": "aux:5D1B69",
+      "region": "aux",
+      "jp_full": "る……南無三っ！！",
+      "jp_body": "……南無三っ！！",
+      "ko": "……이런！！",
+      "body_capacity": 10,
+      "prefix_hex": "0F",
+      "body_hex": "F191E34DA4E3F209F044"
+    },
+    {
+      "abs": "5D1D81",
+      "record_id": "aux:5D1D81",
+      "region": "aux",
+      "jp_full": "る情けない……！",
+      "jp_body": "情けない……！",
+      "ko": "한심하군……！",
+      "body_capacity": 6,
+      "prefix_hex": "0F",
+      "body_hex": "E020F891F60C"
+    },
+    {
+      "abs": "5D1E52",
+      "record_id": "aux:5D1E52",
+      "region": "aux",
+      "jp_full": "るええい！",
+      "jp_body": "ええい！",
+      "ko": "에잇！",
+      "body_capacity": 3,
+      "prefix_hex": "0F",
+      "body_hex": "F73A03"
+    },
+    {
+      "abs": "5D1E67",
+      "record_id": "aux:5D1E67",
+      "region": "aux",
+      "jp_full": "るなるほど！",
+      "jp_body": "なるほど！",
+      "ko": "그렇군！",
+      "body_capacity": 3,
+      "prefix_hex": "0F",
+      "body_hex": "FB0B03"
+    },
+    {
+      "abs": "5D1E7A",
+      "record_id": "aux:5D1E7A",
+      "region": "aux",
+      "jp_full": "るこれは……！！",
+      "jp_body": "これは……！！",
+      "ko": "이건……！！",
+      "body_capacity": 5,
+      "prefix_hex": "0F",
+      "body_hex": "F630F60C03"
+    },
+    {
+      "abs": "5D1EC0",
+      "record_id": "aux:5D1EC0",
+      "region": "aux",
+      "jp_full": "るまだだ！",
+      "jp_body": "まだだ！",
+      "ko": "아직이다！",
+      "body_capacity": 3,
+      "prefix_hex": "0F",
+      "body_hex": "F6EF03"
+    },
+    {
+      "abs": "5D210C",
+      "record_id": "aux:5D210C",
+      "region": "aux",
+      "jp_full": "た……当たれっ！",
+      "jp_body": "……当たれっ！",
+      "ko": "……맞아라！",
+      "body_capacity": 8,
+      "prefix_hex": "11",
+      "body_hex": "F191E01411F03103"
+    },
+    {
+      "abs": "5D22AC",
+      "record_id": "aux:5D22AC",
+      "region": "aux",
+      "jp_full": "し……落ちろっ！",
+      "jp_body": "……落ちろっ！",
+      "ko": "……떨어져라！",
+      "body_capacity": 8,
+      "prefix_hex": "12",
+      "body_hex": "F191E033F2120903"
+    },
+    {
+      "abs": "5D22C5",
+      "record_id": "aux:5D22C5",
+      "region": "aux",
+      "jp_full": "し当たれっ！！",
+      "jp_body": "当たれっ！！",
+      "ko": "맞아라！！",
+      "body_capacity": 7,
+      "prefix_hex": "12",
+      "body_hex": "E01411F031F044"
+    },
+    {
+      "abs": "5D2302",
+      "record_id": "aux:5D2302",
+      "region": "aux",
+      "jp_full": "しちぃぃッ！！",
+      "jp_body": "ちぃぃッ！！",
+      "ko": "칫！！",
+      "body_capacity": 8,
+      "prefix_hex": "12",
+      "body_hex": "3BE0B5E0B551F044"
+    },
+    {
+      "abs": "5D2805",
+      "record_id": "aux:5D2805",
+      "region": "aux",
+      "jp_full": "を無念……！",
+      "jp_body": "無念……！",
+      "ko": "원통하다……！",
+      "body_capacity": 4,
+      "prefix_hex": "15",
+      "body_hex": "F1AEF60C"
+    },
+    {
+      "abs": "5D281A",
+      "record_id": "aux:5D281A",
+      "region": "aux",
+      "jp_full": "を愚かな……！",
+      "jp_body": "愚かな……！",
+      "ko": "어리석군……！",
+      "body_capacity": 6,
+      "prefix_hex": "15",
+      "body_hex": "E179F135F60C"
+    },
+    {
+      "abs": "5D2863",
+      "record_id": "aux:5D2863",
+      "region": "aux",
+      "jp_full": "で……しまった！",
+      "jp_body": "……しまった！",
+      "ko": "……당했다！",
+      "body_capacity": 5,
+      "prefix_hex": "16",
+      "body_hex": "F191FAEB03"
+    },
+    {
+      "abs": "5D2909",
+      "record_id": "aux:5D2909",
+      "region": "aux",
+      "jp_full": "で強い……！？",
+      "jp_body": "強い……！？",
+      "ko": "강해……！？",
+      "body_capacity": 6,
+      "prefix_hex": "16",
+      "body_hex": "E05504F60C1D"
+    },
+    {
+      "abs": "5D2AA4",
+      "record_id": "aux:5D2AA4",
+      "region": "aux",
+      "jp_full": "コイツ……やる！！",
+      "jp_body": "……やる！！",
+      "ko": "……제법이군！！",
+      "body_capacity": 6,
+      "prefix_hex": "F5C2",
+      "body_hex": "F1913A0FF044"
+    },
+    {
+      "abs": "5D2ABC",
+      "record_id": "aux:5D2ABC",
+      "region": "aux",
+      "jp_full": "がま、まさか……！？",
+      "jp_body": "ま、まさか……！？",
+      "ko": "서、설마……！？",
+      "body_capacity": 7,
+      "prefix_hex": "17",
+      "body_hex": "2107F845F60C1D"
+    },
+    {
+      "abs": "5D2BA5",
+      "record_id": "aux:5D2BA5",
+      "region": "aux",
+      "jp_full": "……徹底的にな！！",
+      "jp_body": "徹底的にな！！",
+      "ko": "철저하게 해 주마！！",
+      "body_capacity": 10,
+      "prefix_hex": "F191",
+      "body_hex": "E40EE360E0480C06F044"
+    },
+    {
+      "abs": "5D2BDB",
+      "record_id": "aux:5D2BDB",
+      "region": "aux",
+      "jp_full": "……ったく！",
+      "jp_body": "……ったく！",
+      "ko": "……정말！",
+      "body_capacity": 5,
+      "prefix_hex": "18",
+      "body_hex": "F191F6F903"
+    },
+    {
+      "abs": "5D3877",
+      "record_id": "aux:5D3877",
+      "region": "aux",
+      "jp_full": "す分かった！！",
+      "jp_body": "分かった！！",
+      "ko": "알았다！！",
+      "body_capacity": 5,
+      "prefix_hex": "1E",
+      "body_hex": "A3F6AEF044"
+    },
+    {
+      "abs": "5D39DC",
+      "record_id": "aux:5D39DC",
+      "region": "aux",
+      "jp_full": "あへへっ！",
+      "jp_body": "へへっ！",
+      "ko": "헤헤！",
+      "body_capacity": 4,
+      "prefix_hex": "1F",
+      "body_hex": "91F57B03"
+    },
+    {
+      "abs": "5D39EC",
+      "record_id": "aux:5D39EC",
+      "region": "aux",
+      "jp_full": "あへっへ～！",
+      "jp_body": "へっへ～！",
+      "ko": "헤헤！",
+      "body_capacity": 6,
+      "prefix_hex": "1F",
+      "body_hex": "F57B91E0F503"
+    },
+    {
+      "abs": "5D3BDC",
+      "record_id": "aux:5D3BDC",
+      "region": "aux",
+      "jp_full": "もくっ、来る……！！",
+      "jp_body": "くっ、来る……！！",
+      "ko": "크윽、온다……！！",
+      "body_capacity": 8,
+      "prefix_hex": "20",
+      "body_hex": "F0EE079B0FF60C03"
+    },
+    {
+      "abs": "5D3E5C",
+      "record_id": "aux:5D3E5C",
+      "region": "aux",
+      "jp_full": "へひるむな！",
+      "jp_body": "ひるむな！",
+      "ko": "물러서지 마！",
+      "body_capacity": 6,
+      "prefix_hex": "91",
+      "body_hex": "E0390F8C0603"
+    },
+    {
+      "abs": "5D3E9D",
+      "record_id": "aux:5D3E9D",
+      "region": "aux",
+      "jp_full": "ま……結構。",
+      "jp_body": "……結構。",
+      "ko": "……좋아。",
+      "body_capacity": 5,
+      "prefix_hex": "21",
+      "body_hex": "F191F4FB0A"
+    },
+    {
+      "abs": "5D3EF5",
+      "record_id": "aux:5D3EF5",
+      "region": "aux",
+      "jp_full": "そあっ、コラ！",
+      "jp_body": "あっ、コラ！",
+      "ko": "앗、이봐！",
+      "body_capacity": 6,
+      "prefix_hex": "22",
+      "body_hex": "F3D6075E2E03"
+    },
+    {
+      "abs": "5D3F0D",
+      "record_id": "aux:5D3F0D",
+      "region": "aux",
+      "jp_full": "そへんっ！",
+      "jp_body": "へんっ！",
+      "ko": "흥！",
+      "body_capacity": 4,
+      "prefix_hex": "22",
+      "body_hex": "91F22603"
+    },
+    {
+      "abs": "5D3F1F",
+      "record_id": "aux:5D3F1F",
+      "region": "aux",
+      "jp_full": "そそれそれ！！",
+      "jp_body": "それそれ！！",
+      "ko": "자、받아라！！",
+      "body_capacity": 6,
+      "prefix_hex": "22",
+      "body_hex": "F422F422F044"
+    },
+    {
+      "abs": "5D3F4D",
+      "record_id": "aux:5D3F4D",
+      "region": "aux",
+      "jp_full": "いけェ－ッ！！",
+      "jp_body": "けェ－ッ！！",
+      "ko": "가라！！",
+      "body_capacity": 6,
+      "prefix_hex": "04",
+      "body_hex": "28DC1051F044"
+    },
+    {
+      "abs": "5D4020",
+      "record_id": "aux:5D4020",
+      "region": "aux",
+      "jp_full": "そあぁぁっ！！",
+      "jp_body": "あぁぁっ！！",
+      "ko": "아아악！！",
+      "body_capacity": 6,
+      "prefix_hex": "22",
+      "body_hex": "F3C4F20BF044"
+    },
+    {
+      "abs": "5D443B",
+      "record_id": "aux:5D443B",
+      "region": "aux",
+      "jp_full": "へ敵発見！！",
+      "jp_body": "敵発見！！",
+      "ko": "적 발견！！",
+      "body_capacity": 5,
+      "prefix_hex": "91",
+      "body_hex": "7FDB8AF044"
+    },
+    {
+      "abs": "5D4560",
+      "record_id": "aux:5D4560",
+      "region": "aux",
+      "jp_full": "さ……おのれ！",
+      "jp_body": "……おのれ！",
+      "ko": "……이놈！",
+      "body_capacity": 5,
+      "prefix_hex": "25",
+      "body_hex": "F191F87103"
+    },
+    {
+      "abs": "5D459F",
+      "record_id": "aux:5D459F",
+      "region": "aux",
+      "jp_full": "さ……回頭せよ！",
+      "jp_body": "……回頭せよ！",
+      "ko": "……방향을 돌려라！",
+      "body_capacity": 9,
+      "prefix_hex": "25",
+      "body_hex": "F191E025E106F55703"
+    },
+    {
+      "abs": "5D45C4",
+      "record_id": "aux:5D45C4",
+      "region": "aux",
+      "jp_full": "さ……うむ。",
+      "jp_body": "……うむ。",
+      "ko": "……음。",
+      "body_capacity": 5,
+      "prefix_hex": "25",
+      "body_hex": "F191F2050A"
+    },
+    {
+      "abs": "5D47FA",
+      "record_id": "aux:5D47FA",
+      "region": "aux",
+      "jp_full": "ア……バカなっ！！",
+      "jp_body": "……バカなっ！！",
+      "ko": "……말도 안 돼！！",
+      "body_capacity": 8,
+      "prefix_hex": "26",
+      "body_hex": "F191F3B7F520F044"
+    },
+    {
+      "abs": "5D4962",
+      "record_id": "aux:5D4962",
+      "region": "aux",
+      "jp_full": "アぬかるな……！",
+      "jp_body": "ぬかるな……！",
+      "ko": "방심하지 마……！",
+      "body_capacity": 6,
+      "prefix_hex": "26",
+      "body_hex": "CBF12306F60C"
+    },
+    {
+      "abs": "5D4A0E",
+      "record_id": "aux:5D4A0E",
+      "region": "aux",
+      "jp_full": "り……くらえっ！！",
+      "jp_body": "……くらえっ！！",
+      "ko": "……받아라！！",
+      "body_capacity": 8,
+      "prefix_hex": "27",
+      "body_hex": "F191241CF120F044"
+    },
+    {
+      "abs": "5D4A6C",
+      "record_id": "aux:5D4A6C",
+      "region": "aux",
+      "jp_full": "りやれるか……？",
+      "jp_body": "やれるか……？",
+      "ko": "할 수 있겠나……？",
+      "body_capacity": 7,
+      "prefix_hex": "27",
+      "body_hex": "F2970F0EF1911D"
+    },
+    {
+      "abs": "5D4A80",
+      "record_id": "aux:5D4A80",
+      "region": "aux",
+      "jp_full": "り……ダメだっ！",
+      "jp_body": "……ダメだっ！",
+      "ko": "……안 돼！",
+      "body_capacity": 7,
+      "prefix_hex": "27",
+      "body_hex": "F191F36AF54503"
+    },
+    {
+      "abs": "5D4C14",
+      "record_id": "aux:5D4C14",
+      "region": "aux",
+      "jp_full": "けロ－ラっ！",
+      "jp_body": "ロ－ラっ！",
+      "ko": "로라！",
+      "body_capacity": 4,
+      "prefix_hex": "28",
+      "body_hex": "F61F0903"
+    },
+    {
+      "abs": "5D4C6B",
+      "record_id": "aux:5D4C6B",
+      "region": "aux",
+      "jp_full": "け……なるほど。",
+      "jp_body": "……なるほど。",
+      "ko": "……그렇군。",
+      "body_capacity": 5,
+      "prefix_hex": "28",
+      "body_hex": "F191FB0B0A"
+    },
+    {
+      "abs": "5D4CCB",
+      "record_id": "aux:5D4CCB",
+      "region": "aux",
+      "jp_full": "けロ…ロ－ラ……！",
+      "jp_body": "ロ…ロ－ラ……！",
+      "ko": "로…로라……！",
+      "body_capacity": 6,
+      "prefix_hex": "28",
+      "body_hex": "3C02F61FF60C"
+    },
+    {
+      "abs": "5D4D50",
+      "record_id": "aux:5D4D50",
+      "region": "aux",
+      "jp_full": "バ御曹司！！",
+      "jp_body": "御曹司！！",
+      "ko": "도련님！！",
+      "body_capacity": 4,
+      "prefix_hex": "70",
+      "body_hex": "F5F7F044"
+    },
+    {
+      "abs": "5D4DD1",
+      "record_id": "aux:5D4DD1",
+      "region": "aux",
+      "jp_full": "デうわぁっ！！",
+      "jp_body": "うわぁっ！！",
+      "ko": "우아악！！",
+      "body_capacity": 4,
+      "prefix_hex": "73",
+      "body_hex": "F93FF044"
+    },
+    {
+      "abs": "5D4E4F",
+      "record_id": "aux:5D4E4F",
+      "region": "aux",
+      "jp_full": "けなにっ！？",
+      "jp_body": "なにっ！？",
+      "ko": "뭐라고！？",
+      "body_capacity": 4,
+      "prefix_hex": "28",
+      "body_hex": "F643F040"
+    },
+    {
+      "abs": "5D4E6F",
+      "record_id": "aux:5D4E6F",
+      "region": "aux",
+      "jp_full": "け……ひるむな！",
+      "jp_body": "……ひるむな！",
+      "ko": "……물러서지 마！",
+      "body_capacity": 8,
+      "prefix_hex": "28",
+      "body_hex": "F191E0390F8C0603"
+    },
+    {
+      "abs": "5D4F0E",
+      "record_id": "aux:5D4F0E",
+      "region": "aux",
+      "jp_full": "けロ－ラっ！",
+      "jp_body": "ロ－ラっ！",
+      "ko": "로라！",
+      "body_capacity": 4,
+      "prefix_hex": "28",
+      "body_hex": "F61F0903"
+    },
+    {
+      "abs": "5D4F65",
+      "record_id": "aux:5D4F65",
+      "region": "aux",
+      "jp_full": "け……なるほど。",
+      "jp_body": "……なるほど。",
+      "ko": "……그렇군。",
+      "body_capacity": 5,
+      "prefix_hex": "28",
+      "body_hex": "F191FB0B0A"
+    },
+    {
+      "abs": "5D4FC5",
+      "record_id": "aux:5D4FC5",
+      "region": "aux",
+      "jp_full": "けロ…ロ－ラ……！",
+      "jp_body": "ロ…ロ－ラ……！",
+      "ko": "로…로라……！",
+      "body_capacity": 6,
+      "prefix_hex": "28",
+      "body_hex": "3C02F61FF60C"
+    },
+    {
+      "abs": "5D504A",
+      "record_id": "aux:5D504A",
+      "region": "aux",
+      "jp_full": "バ御曹司！！",
+      "jp_body": "御曹司！！",
+      "ko": "도련님！！",
+      "body_capacity": 4,
+      "prefix_hex": "70",
+      "body_hex": "F5F7F044"
+    },
+    {
+      "abs": "5D50CB",
+      "record_id": "aux:5D50CB",
+      "region": "aux",
+      "jp_full": "デうわぁっ！！",
+      "jp_body": "うわぁっ！！",
+      "ko": "우아악！！",
+      "body_capacity": 4,
+      "prefix_hex": "73",
+      "body_hex": "F93FF044"
+    },
+    {
+      "abs": "5D5159",
+      "record_id": "aux:5D5159",
+      "region": "aux",
+      "jp_full": "け……ひるむな！",
+      "jp_body": "……ひるむな！",
+      "ko": "……물러서지 마！",
+      "body_capacity": 8,
+      "prefix_hex": "28",
+      "body_hex": "F191E0390F8C0603"
+    },
+    {
+      "abs": "5D51C8",
+      "record_id": "aux:5D51C8",
+      "region": "aux",
+      "jp_full": "イ……当たって！！",
+      "jp_body": "……当たって！！",
+      "ko": "……맞아 줘！！",
+      "body_capacity": 9,
+      "prefix_hex": "29",
+      "body_hex": "F191E014F3760BF044"
+    },
+    {
+      "abs": "5D59A7",
+      "record_id": "aux:5D59A7",
+      "region": "aux",
+      "jp_full": "えそこかっ！！",
+      "jp_body": "そこかっ！！",
+      "ko": "거기냐！！",
+      "body_capacity": 6,
+      "prefix_hex": "2B",
+      "body_hex": "2218F139F044"
+    },
+    {
+      "abs": "5D59F1",
+      "record_id": "aux:5D59F1",
+      "region": "aux",
+      "jp_full": "えくっ……！",
+      "jp_body": "くっ……！",
+      "ko": "크윽……！",
+      "body_capacity": 4,
+      "prefix_hex": "2B",
+      "body_hex": "F0EEF60C"
+    },
+    {
+      "abs": "5D5B44",
+      "record_id": "aux:5D5B44",
+      "region": "aux",
+      "jp_full": "えそこかっ！！",
+      "jp_body": "そこかっ！！",
+      "ko": "거기냐！！",
+      "body_capacity": 6,
+      "prefix_hex": "2B",
+      "body_hex": "2218F139F044"
+    },
+    {
+      "abs": "5D5B8E",
+      "record_id": "aux:5D5B8E",
+      "region": "aux",
+      "jp_full": "えくっ……！",
+      "jp_body": "くっ……！",
+      "ko": "크윽……！",
+      "body_capacity": 4,
+      "prefix_hex": "2B",
+      "body_hex": "F0EEF60C"
+    },
+    {
+      "abs": "5D5D0F",
+      "record_id": "aux:5D5D0F",
+      "region": "aux",
+      "jp_full": "オもらった！！",
+      "jp_body": "もらった！！",
+      "ko": "잡았다！！",
+      "body_capacity": 6,
+      "prefix_hex": "2C",
+      "body_hex": "201CF150F044"
+    },
+    {
+      "abs": "5D5E59",
+      "record_id": "aux:5D5E59",
+      "region": "aux",
+      "jp_full": "シしまった！",
+      "jp_body": "しまった！",
+      "ko": "당했다！",
+      "body_capacity": 3,
+      "prefix_hex": "2D",
+      "body_hex": "FAEB03"
+    },
+    {
+      "abs": "5D5F09",
+      "record_id": "aux:5D5F09",
+      "region": "aux",
+      "jp_full": "シ……クソッ！",
+      "jp_body": "……クソッ！",
+      "ko": "……젠장！",
+      "body_capacity": 5,
+      "prefix_hex": "2D",
+      "body_hex": "F191F66A03"
+    },
+    {
+      "abs": "5D626B",
+      "record_id": "aux:5D626B",
+      "region": "aux",
+      "jp_full": "タ……なにっ！？",
+      "jp_body": "……なにっ！？",
+      "ko": "……뭐라고！？",
+      "body_capacity": 6,
+      "prefix_hex": "30",
+      "body_hex": "F191F643F040"
+    },
+    {
+      "abs": "5D6275",
+      "record_id": "aux:5D6275",
+      "region": "aux",
+      "jp_full": "タくくくく……！！",
+      "jp_body": "くくくく……！！",
+      "ko": "크크크크……！！",
+      "body_capacity": 5,
+      "prefix_hex": "30",
+      "body_hex": "FAB4F60C03"
+    },
+    {
+      "abs": "5D641A",
+      "record_id": "aux:5D641A",
+      "region": "aux",
+      "jp_full": "わまだよっ！",
+      "jp_body": "まだよっ！",
+      "ko": "아직이야！",
+      "body_capacity": 5,
+      "prefix_hex": "31",
+      "body_hex": "F195F48E03"
+    },
+    {
+      "abs": "5D6AA0",
+      "record_id": "aux:5D6AA0",
+      "region": "aux",
+      "jp_full": "行うものだ……！",
+      "jp_body": "うものだ……！",
+      "ko": "행하는 것이다……！",
+      "body_capacity": 6,
+      "prefix_hex": "6B",
+      "body_hex": "1420050DF60C"
+    },
+    {
+      "abs": "5D6AE4",
+      "record_id": "aux:5D6AE4",
+      "region": "aux",
+      "jp_full": "せ……なめるな！",
+      "jp_body": "……なめるな！",
+      "ko": "……얕보지 마！",
+      "body_capacity": 7,
+      "prefix_hex": "34",
+      "body_hex": "F19106F4190603"
+    },
+    {
+      "abs": "5D6B16",
+      "record_id": "aux:5D6B16",
+      "region": "aux",
+      "jp_full": "せ……落ちろ！！",
+      "jp_body": "……落ちろ！！",
+      "ko": "……떨어져라！！",
+      "body_capacity": 8,
+      "prefix_hex": "34",
+      "body_hex": "F191E033F212F044"
+    },
+    {
+      "abs": "5D6B61",
+      "record_id": "aux:5D6B61",
+      "region": "aux",
+      "jp_full": "せ……そこだ！！",
+      "jp_body": "……そこだ！！",
+      "ko": "……거기다！！",
+      "body_capacity": 7,
+      "prefix_hex": "34",
+      "body_hex": "F19122180DF044"
+    },
+    {
+      "abs": "5D6DEA",
+      "record_id": "aux:5D6DEA",
+      "region": "aux",
+      "jp_full": "せ……見える！",
+      "jp_body": "……見える！",
+      "ko": "……보인다！",
+      "body_capacity": 6,
+      "prefix_hex": "34",
+      "body_hex": "F1918AF0BB03"
+    },
+    {
+      "abs": "5D6E95",
+      "record_id": "aux:5D6E95",
+      "region": "aux",
+      "jp_full": "……だが！！",
+      "jp_body": "だが！！",
+      "ko": "하지만！！",
+      "body_capacity": 4,
+      "prefix_hex": "F191",
+      "body_hex": "F538F044"
+    },
+    {
+      "abs": "5D75E2",
+      "record_id": "aux:5D75E2",
+      "region": "aux",
+      "jp_full": "……そこだ！",
+      "jp_body": "そこだ！",
+      "ko": "거기다！",
+      "body_capacity": 4,
+      "prefix_hex": "F191",
+      "body_hex": "22180D03"
+    },
+    {
+      "abs": "5D7926",
+      "record_id": "aux:5D7926",
+      "region": "aux",
+      "jp_full": "……わかれ！！",
+      "jp_body": "わかれ！！",
+      "ko": "흩어져라！！",
+      "body_capacity": 5,
+      "prefix_hex": "F191",
+      "body_hex": "310E1BF044"
+    },
+    {
+      "abs": "5D7B08",
+      "record_id": "aux:5D7B08",
+      "region": "aux",
+      "jp_full": "……わかれ！！",
+      "jp_body": "わかれ！！",
+      "ko": "흩어져라！！",
+      "body_capacity": 5,
+      "prefix_hex": "F191",
+      "body_hex": "310E1BF044"
+    },
+    {
+      "abs": "5D7CA4",
+      "record_id": "aux:5D7CA4",
+      "region": "aux",
+      "jp_full": "ロさ－てと……",
+      "jp_body": "さ－てと……",
+      "ko": "자、그럼……",
+      "body_capacity": 6,
+      "prefix_hex": "3C",
+      "body_hex": "25100B13F191"
+    },
+    {
+      "abs": "5D806A",
+      "record_id": "aux:5D806A",
+      "region": "aux",
+      "jp_full": "トふふふ……",
+      "jp_body": "ふふふ……",
+      "ko": "후후후……",
+      "body_capacity": 4,
+      "prefix_hex": "3E",
+      "body_hex": "F87FF191"
+    },
+    {
+      "abs": "5D8080",
+      "record_id": "aux:5D8080",
+      "region": "aux",
+      "jp_full": "トふっ……",
+      "jp_body": "ふっ……",
+      "ko": "훗……",
+      "body_capacity": 4,
+      "prefix_hex": "3E",
+      "body_hex": "F319F191"
+    },
+    {
+      "abs": "5D828D",
+      "record_id": "aux:5D828D",
+      "region": "aux",
+      "jp_full": "ム無念だ……！",
+      "jp_body": "無念だ……！",
+      "ko": "원통하다……！",
+      "body_capacity": 5,
+      "prefix_hex": "3F",
+      "body_hex": "F1AE0DF60C"
+    },
+    {
+      "abs": "5D82FC",
+      "record_id": "aux:5D82FC",
+      "region": "aux",
+      "jp_full": "……行くぞ！！",
+      "jp_body": "行くぞ！！",
+      "ko": "간다！！",
+      "body_capacity": 5,
+      "prefix_hex": "F191",
+      "body_hex": "6BF0EAF044"
+    },
+    {
+      "abs": "5D8358",
+      "record_id": "aux:5D8358",
+      "region": "aux",
+      "jp_full": "ムほお！",
+      "jp_body": "ほお！",
+      "ko": "호오！",
+      "body_capacity": 3,
+      "prefix_hex": "3F",
+      "body_hex": "F15703"
+    },
+    {
+      "abs": "5D836F",
+      "record_id": "aux:5D836F",
+      "region": "aux",
+      "jp_full": "ムくっ……不覚！",
+      "jp_body": "くっ……不覚！",
+      "ko": "크윽……실수했다！",
+      "body_capacity": 7,
+      "prefix_hex": "3F",
+      "body_hex": "F0EEF191F39B03"
+    },
+    {
+      "abs": "5D838B",
+      "record_id": "aux:5D838B",
+      "region": "aux",
+      "jp_full": "ムつ、強い！！",
+      "jp_body": "つ、強い！！",
+      "ko": "가、강해！！",
+      "body_capacity": 7,
+      "prefix_hex": "3F",
+      "body_hex": "4007E05504F044"
+    },
+    {
+      "abs": "5D83A8",
+      "record_id": "aux:5D83A8",
+      "region": "aux",
+      "jp_full": "ム……笑止！",
+      "jp_body": "……笑止！",
+      "ko": "……가소롭군！",
+      "body_capacity": 7,
+      "prefix_hex": "3F",
+      "body_hex": "F191E1ADE02703"
+    },
+    {
+      "abs": "5D8666",
+      "record_id": "aux:5D8666",
+      "region": "aux",
+      "jp_full": "私あぁっ……！？",
+      "jp_body": "あぁっ……！？",
+      "ko": "아앗……！？",
+      "body_capacity": 5,
+      "prefix_hex": "41",
+      "body_hex": "F7FCF60C1D"
+    },
+    {
+      "abs": "5D867E",
+      "record_id": "aux:5D867E",
+      "region": "aux",
+      "jp_full": "私そこ……っ！",
+      "jp_body": "そこ……っ！",
+      "ko": "거기……！",
+      "body_capacity": 6,
+      "prefix_hex": "41",
+      "body_hex": "2218F1910903"
+    },
+    {
+      "abs": "5D8695",
+      "record_id": "aux:5D8695",
+      "region": "aux",
+      "jp_full": "私見えた！",
+      "jp_body": "見えた！",
+      "ko": "보였다！",
+      "body_capacity": 4,
+      "prefix_hex": "41",
+      "body_hex": "8AF13603"
+    },
+    {
+      "abs": "5D871B",
+      "record_id": "aux:5D871B",
+      "region": "aux",
+      "jp_full": "私あぁっ！！",
+      "jp_body": "あぁっ！！",
+      "ko": "아앗！！",
+      "body_capacity": 4,
+      "prefix_hex": "41",
+      "body_hex": "F7FCF044"
+    },
+    {
+      "abs": "5D8739",
+      "record_id": "aux:5D8739",
+      "region": "aux",
+      "jp_full": "私なにも……",
+      "jp_body": "なにも……",
+      "ko": "아무것도……",
+      "body_capacity": 5,
+      "prefix_hex": "41",
+      "body_hex": "F51C20F191"
+    },
+    {
+      "abs": "5D874B",
+      "record_id": "aux:5D874B",
+      "region": "aux",
+      "jp_full": "私うまい……！",
+      "jp_body": "うまい……！",
+      "ko": "훌륭해……！",
+      "body_capacity": 5,
+      "prefix_hex": "41",
+      "body_hex": "142104F60C"
+    },
+    {
+      "abs": "5D8754",
+      "record_id": "aux:5D8754",
+      "region": "aux",
+      "jp_full": "私見えた……！？",
+      "jp_body": "見えた……！？",
+      "ko": "보였어……！？",
+      "body_capacity": 6,
+      "prefix_hex": "41",
+      "body_hex": "8AF136F60C1D"
+    },
+    {
+      "abs": "5D875E",
+      "record_id": "aux:5D875E",
+      "region": "aux",
+      "jp_full": "私……来るっ！？",
+      "jp_body": "……来るっ！？",
+      "ko": "……온다！？",
+      "body_capacity": 7,
+      "prefix_hex": "41",
+      "body_hex": "F1919B0F09F040"
+    },
+    {
+      "abs": "5D8892",
+      "record_id": "aux:5D8892",
+      "region": "aux",
+      "jp_full": "ろ……あぁっ！？",
+      "jp_body": "……あぁっ！？",
+      "ko": "……아앗！？",
+      "body_capacity": 6,
+      "prefix_hex": "42",
+      "body_hex": "F191F7FCF040"
+    },
+    {
+      "abs": "5D88E0",
+      "record_id": "aux:5D88E0",
+      "region": "aux",
+      "jp_full": "ろ……来たっ！！",
+      "jp_body": "……来たっ！！",
+      "ko": "……왔다！！",
+      "body_capacity": 7,
+      "prefix_hex": "42",
+      "body_hex": "F1919BF376F044"
+    },
+    {
+      "abs": "5D8AA1",
+      "record_id": "aux:5D8AA1",
+      "region": "aux",
+      "jp_full": "ナっ！！",
+      "jp_body": "っ！！",
+      "ko": "읏！！",
+      "body_capacity": 3,
+      "prefix_hex": "43",
+      "body_hex": "09F044"
+    },
+    {
+      "abs": "5D8B9F",
+      "record_id": "aux:5D8B9F",
+      "region": "aux",
+      "jp_full": "ド……見えるっ！！",
+      "jp_body": "……見えるっ！！",
+      "ko": "……보인다！！",
+      "body_capacity": 7,
+      "prefix_hex": "44",
+      "body_hex": "F1918AF7ADF044"
+    },
+    {
+      "abs": "5D8BAA",
+      "record_id": "aux:5D8BAA",
+      "region": "aux",
+      "jp_full": "ド……ムダだっ！！",
+      "jp_body": "……ムダだっ！！",
+      "ko": "……소용없다！！",
+      "body_capacity": 8,
+      "prefix_hex": "44",
+      "body_hex": "F191F07BF545F044"
+    },
+    {
+      "abs": "5D8C3B",
+      "record_id": "aux:5D8C3B",
+      "region": "aux",
+      "jp_full": "ド見えた……！！",
+      "jp_body": "見えた……！！",
+      "ko": "보였다……！！",
+      "body_capacity": 6,
+      "prefix_hex": "44",
+      "body_hex": "8AF136F60C03"
+    },
+    {
+      "abs": "5D8E78",
+      "record_id": "aux:5D8E78",
+      "region": "aux",
+      "jp_full": "ジ……よしなに。",
+      "jp_body": "……よしなに。",
+      "ko": "……잘 부탁해。",
+      "body_capacity": 7,
+      "prefix_hex": "45",
+      "body_hex": "F191F490F51C0A"
+    },
+    {
+      "abs": "5D8E83",
+      "record_id": "aux:5D8E83",
+      "region": "aux",
+      "jp_full": "ジ……よしなに。",
+      "jp_body": "……よしなに。",
+      "ko": "……잘 부탁해。",
+      "body_capacity": 7,
+      "prefix_hex": "45",
+      "body_hex": "F191F490F51C0A"
+    },
+    {
+      "abs": "5D8E8D",
+      "record_id": "aux:5D8E8D",
+      "region": "aux",
+      "jp_full": "ヤはっ！",
+      "jp_body": "はっ！",
+      "ko": "핫！",
+      "body_capacity": 3,
+      "prefix_hex": "9C",
+      "body_hex": "F09803"
+    },
+    {
+      "abs": "5D8EAF",
+      "record_id": "aux:5D8EAF",
+      "region": "aux",
+      "jp_full": "ジ……よしなに。",
+      "jp_body": "……よしなに。",
+      "ko": "……잘 부탁해。",
+      "body_capacity": 7,
+      "prefix_hex": "45",
+      "body_hex": "F191F490F51C0A"
+    },
+    {
+      "abs": "5D8ED0",
+      "record_id": "aux:5D8ED0",
+      "region": "aux",
+      "jp_full": "ジ……よしなに。",
+      "jp_body": "……よしなに。",
+      "ko": "……잘 부탁해。",
+      "body_capacity": 7,
+      "prefix_hex": "45",
+      "body_hex": "F191F490F51C0A"
+    },
+    {
+      "abs": "5D8EDB",
+      "record_id": "aux:5D8EDB",
+      "region": "aux",
+      "jp_full": "ヤ……クッ！",
+      "jp_body": "……クッ！",
+      "ko": "……크윽！",
+      "body_capacity": 5,
+      "prefix_hex": "9C",
+      "body_hex": "F191F4A303"
+    },
+    {
+      "abs": "5D8EFE",
+      "record_id": "aux:5D8EFE",
+      "region": "aux",
+      "jp_full": "ジ……無礼な！！",
+      "jp_body": "……無礼な！！",
+      "ko": "……무례하군！！",
+      "body_capacity": 8,
+      "prefix_hex": "45",
+      "body_hex": "F191A4E1F106F044"
+    },
+    {
+      "abs": "5D949E",
+      "record_id": "aux:5D949E",
+      "region": "aux",
+      "jp_full": "へ……うぉっ！！",
+      "jp_body": "……うぉっ！！",
+      "ko": "……우옷！！",
+      "body_capacity": 7,
+      "prefix_hex": "91",
+      "body_hex": "F19114F353F044"
+    },
+    {
+      "abs": "5D9606",
+      "record_id": "aux:5D9606",
+      "region": "aux",
+      "jp_full": "テふんっ！",
+      "jp_body": "ふんっ！",
+      "ko": "흥！",
+      "body_capacity": 3,
+      "prefix_hex": "4A",
+      "body_hex": "F8B503"
+    },
+    {
+      "abs": "5D969A",
+      "record_id": "aux:5D969A",
+      "region": "aux",
+      "jp_full": "テ……殺気！",
+      "jp_body": "……殺気！",
+      "ko": "……살기！",
+      "body_capacity": 6,
+      "prefix_hex": "4A",
+      "body_hex": "F191E00CA003"
+    },
+    {
+      "abs": "5D97E1",
+      "record_id": "aux:5D97E1",
+      "region": "aux",
+      "jp_full": "テふんっ！",
+      "jp_body": "ふんっ！",
+      "ko": "흥！",
+      "body_capacity": 3,
+      "prefix_hex": "4A",
+      "body_hex": "F8B503"
+    },
+    {
+      "abs": "5D9875",
+      "record_id": "aux:5D9875",
+      "region": "aux",
+      "jp_full": "テ……殺気！",
+      "jp_body": "……殺気！",
+      "ko": "……살기！",
+      "body_capacity": 6,
+      "prefix_hex": "4A",
+      "body_hex": "F191E00CA003"
+    },
+    {
+      "abs": "5D99E1",
+      "record_id": "aux:5D99E1",
+      "region": "aux",
+      "jp_full": "ツうわわっ！？",
+      "jp_body": "うわわっ！？",
+      "ko": "우와앗！？",
+      "body_capacity": 6,
+      "prefix_hex": "4B",
+      "body_hex": "1431F221F040"
+    },
+    {
+      "abs": "5D9B9D",
+      "record_id": "aux:5D9B9D",
+      "region": "aux",
+      "jp_full": "ねさぁ、来い！",
+      "jp_body": "さぁ、来い！",
+      "ko": "자、덤벼！",
+      "body_capacity": 6,
+      "prefix_hex": "4D",
+      "body_hex": "F32A079B0403"
+    },
+    {
+      "abs": "5D9BEC",
+      "record_id": "aux:5D9BEC",
+      "region": "aux",
+      "jp_full": "ねくらった！？",
+      "jp_body": "くらった！？",
+      "ko": "맞았어！？",
+      "body_capacity": 6,
+      "prefix_hex": "4D",
+      "body_hex": "241CF150F040"
+    },
+    {
+      "abs": "5D9DAD",
+      "record_id": "aux:5D9DAD",
+      "region": "aux",
+      "jp_full": "つ、強い……ッ！",
+      "jp_body": "、強い……ッ！",
+      "ko": "가、강해……！",
+      "body_capacity": 8,
+      "prefix_hex": "40",
+      "body_hex": "07E05504F1915103"
+    },
+    {
+      "abs": "5D9EF8",
+      "record_id": "aux:5D9EF8",
+      "region": "aux",
+      "jp_full": "グ……見えたっ！！",
+      "jp_body": "……見えたっ！！",
+      "ko": "……보였다！！",
+      "body_capacity": 8,
+      "prefix_hex": "4F",
+      "body_hex": "F1918AF13609F044"
+    },
+    {
+      "abs": "5DA0D8",
+      "record_id": "aux:5DA0D8",
+      "region": "aux",
+      "jp_full": "つ、強い……ッ！",
+      "jp_body": "、強い……ッ！",
+      "ko": "가、강해……！",
+      "body_capacity": 8,
+      "prefix_hex": "40",
+      "body_hex": "07E05504F1915103"
+    },
+    {
+      "abs": "5DA223",
+      "record_id": "aux:5DA223",
+      "region": "aux",
+      "jp_full": "グ……見えたっ！！",
+      "jp_body": "……見えたっ！！",
+      "ko": "……보였다！！",
+      "body_capacity": 8,
+      "prefix_hex": "4F",
+      "body_hex": "F1918AF13609F044"
+    },
+    {
+      "abs": "5DA403",
+      "record_id": "aux:5DA403",
+      "region": "aux",
+      "jp_full": "つ、強い……ッ！",
+      "jp_body": "、強い……ッ！",
+      "ko": "가、강해……！",
+      "body_capacity": 8,
+      "prefix_hex": "40",
+      "body_hex": "07E05504F1915103"
+    },
+    {
+      "abs": "5DA54E",
+      "record_id": "aux:5DA54E",
+      "region": "aux",
+      "jp_full": "グ……見えたっ！！",
+      "jp_body": "……見えたっ！！",
+      "ko": "……보였다！！",
+      "body_capacity": 8,
+      "prefix_hex": "4F",
+      "body_hex": "F1918AF13609F044"
+    },
+    {
+      "abs": "5DAA7A",
+      "record_id": "aux:5DAA7A",
+      "region": "aux",
+      "jp_full": "中うわぁっ……！",
+      "jp_body": "うわぁっ……！",
+      "ko": "우아악……！",
+      "body_capacity": 4,
+      "prefix_hex": "52",
+      "body_hex": "F93FF60C"
+    },
+    {
+      "abs": "5DAE39",
+      "record_id": "aux:5DAE39",
+      "region": "aux",
+      "jp_full": "リおのれっ！！",
+      "jp_body": "おのれっ！！",
+      "ko": "이놈！！",
+      "body_capacity": 4,
+      "prefix_hex": "53",
+      "body_hex": "F9A9F044"
+    },
+    {
+      "abs": "5DB02B",
+      "record_id": "aux:5DB02B",
+      "region": "aux",
+      "jp_full": "ダ……おっと！",
+      "jp_body": "……おっと！",
+      "ko": "……이런！",
+      "body_capacity": 5,
+      "prefix_hex": "55",
+      "body_hex": "F191F89703"
+    },
+    {
+      "abs": "5DB20A",
+      "record_id": "aux:5DB20A",
+      "region": "aux",
+      "jp_full": "ビ……そこよっ！",
+      "jp_body": "……そこよっ！",
+      "ko": "……거기야！",
+      "body_capacity": 7,
+      "prefix_hex": "56",
+      "body_hex": "F1912218F48E03"
+    },
+    {
+      "abs": "5DB21D",
+      "record_id": "aux:5DB21D",
+      "region": "aux",
+      "jp_full": "ビ行けっ！！",
+      "jp_body": "行けっ！！",
+      "ko": "가라！！",
+      "body_capacity": 5,
+      "prefix_hex": "56",
+      "body_hex": "6BF492F044"
+    },
+    {
+      "abs": "5DB254",
+      "record_id": "aux:5DB254",
+      "region": "aux",
+      "jp_full": "ビ……あぁっ！！",
+      "jp_body": "……あぁっ！！",
+      "ko": "……아아악！！",
+      "body_capacity": 6,
+      "prefix_hex": "56",
+      "body_hex": "F191F7FCF044"
+    },
+    {
+      "abs": "5DB320",
+      "record_id": "aux:5DB320",
+      "region": "aux",
+      "jp_full": "力こ、これは……！？",
+      "jp_body": "こ、これは……！？",
+      "ko": "이、이건……！？",
+      "body_capacity": 7,
+      "prefix_hex": "57",
+      "body_hex": "1807F630F60C1D"
+    },
+    {
+      "abs": "5DB410",
+      "record_id": "aux:5DB410",
+      "region": "aux",
+      "jp_full": "力なんだと……！？",
+      "jp_body": "なんだと……！？",
+      "ko": "뭐라고……！？",
+      "body_capacity": 5,
+      "prefix_hex": "57",
+      "body_hex": "FAC7F60C1D"
+    },
+    {
+      "abs": "5DB467",
+      "record_id": "aux:5DB467",
+      "region": "aux",
+      "jp_full": "力我らの力、",
+      "jp_body": "我らの力、",
+      "ko": "우리의 힘을、",
+      "body_capacity": 5,
+      "prefix_hex": "57",
+      "body_hex": "6AF0595707"
+    },
+    {
+      "abs": "5DB4F3",
+      "record_id": "aux:5DB4F3",
+      "region": "aux",
+      "jp_full": "力無用だ！",
+      "jp_body": "無用だ！",
+      "ko": "소용없다！",
+      "body_capacity": 4,
+      "prefix_hex": "57",
+      "body_hex": "F1A10D03"
+    },
+    {
+      "abs": "5DB544",
+      "record_id": "aux:5DB544",
+      "region": "aux",
+      "jp_full": "力こ、これは……！？",
+      "jp_body": "こ、これは……！？",
+      "ko": "이、이건……！？",
+      "body_capacity": 7,
+      "prefix_hex": "57",
+      "body_hex": "1807F630F60C1D"
+    },
+    {
+      "abs": "5DB636",
+      "record_id": "aux:5DB636",
+      "region": "aux",
+      "jp_full": "力なんだと……！？",
+      "jp_body": "なんだと……！？",
+      "ko": "뭐라고……！？",
+      "body_capacity": 5,
+      "prefix_hex": "57",
+      "body_hex": "FAC7F60C1D"
+    },
+    {
+      "abs": "5DBB78",
+      "record_id": "aux:5DBB78",
+      "region": "aux",
+      "jp_full": "エぬかるな！",
+      "jp_body": "ぬかるな！",
+      "ko": "방심하지 마！",
+      "body_capacity": 5,
+      "prefix_hex": "58",
+      "body_hex": "CBF1230603"
+    },
+    {
+      "abs": "5DBB9A",
+      "record_id": "aux:5DBB9A",
+      "region": "aux",
+      "jp_full": "見はっ！",
+      "jp_body": "はっ！",
+      "ko": "핫！",
+      "body_capacity": 3,
+      "prefix_hex": "8A",
+      "body_hex": "F09803"
+    },
+    {
+      "abs": "5DBD4E",
+      "record_id": "aux:5DBD4E",
+      "region": "aux",
+      "jp_full": "ビ……しまった！！",
+      "jp_body": "……しまった！！",
+      "ko": "……당했다！！",
+      "body_capacity": 6,
+      "prefix_hex": "56",
+      "body_hex": "F191FAEBF044"
+    },
+    {
+      "abs": "5DBEF2",
+      "record_id": "aux:5DBEF2",
+      "region": "aux",
+      "jp_full": "ビ……しまった！！",
+      "jp_body": "……しまった！！",
+      "ko": "……당했다！！",
+      "body_capacity": 6,
+      "prefix_hex": "56",
+      "body_hex": "F191FAEBF044"
+    },
+    {
+      "abs": "5DC0A8",
+      "record_id": "aux:5DC0A8",
+      "region": "aux",
+      "jp_full": "尉く、くそっ！",
+      "jp_body": "く、くそっ！",
+      "ko": "제、젠장！",
+      "body_capacity": 5,
+      "prefix_hex": "59",
+      "body_hex": "2407F64703"
+    },
+    {
+      "abs": "5DC0DF",
+      "record_id": "aux:5DC0DF",
+      "region": "aux",
+      "jp_full": "尉く、来る……！",
+      "jp_body": "く、来る……！",
+      "ko": "크、온다……！",
+      "body_capacity": 6,
+      "prefix_hex": "59",
+      "body_hex": "24079B0FF60C"
+    },
+    {
+      "abs": "5DC23D",
+      "record_id": "aux:5DC23D",
+      "region": "aux",
+      "jp_full": "全砲門開け！！",
+      "jp_body": "砲門開け！！",
+      "ko": "포문을 열어라！！",
+      "body_capacity": 8,
+      "prefix_hex": "86",
+      "body_hex": "E227E1E8CD28F044"
+    },
+    {
+      "abs": "5DC275",
+      "record_id": "aux:5DC275",
+      "region": "aux",
+      "jp_full": "出力全開！",
+      "jp_body": "力全開！",
+      "ko": "출력 전개！",
+      "body_capacity": 4,
+      "prefix_hex": "6F",
+      "body_hex": "5786CD03"
+    },
+    {
+      "abs": "5DC291",
+      "record_id": "aux:5DC291",
+      "region": "aux",
+      "jp_full": "カ対空砲！",
+      "jp_body": "対空砲！",
+      "ko": "대공포！",
+      "body_capacity": 7,
+      "prefix_hex": "5A",
+      "body_hex": "E01BE1C2E22703"
+    },
+    {
+      "abs": "5DC31B",
+      "record_id": "aux:5DC31B",
+      "region": "aux",
+      "jp_full": "ふ……やらせん！！",
+      "jp_body": "……やらせん！！",
+      "ko": "……그렇게 두지 않겠다！！",
+      "body_capacity": 8,
+      "prefix_hex": "5B",
+      "body_hex": "F1913A1CF551F044"
+    },
+    {
+      "abs": "5DC327",
+      "record_id": "aux:5DC327",
+      "region": "aux",
+      "jp_full": "ふ……単純なっ！",
+      "jp_body": "……単純なっ！",
+      "ko": "……단순하군！",
+      "body_capacity": 9,
+      "prefix_hex": "5B",
+      "body_hex": "F191E172E392F52003"
+    },
+    {
+      "abs": "5DC341",
+      "record_id": "aux:5DC341",
+      "region": "aux",
+      "jp_full": "ふええい……！",
+      "jp_body": "ええい……！",
+      "ko": "에잇……！",
+      "body_capacity": 4,
+      "prefix_hex": "5B",
+      "body_hex": "F73AF60C"
+    },
+    {
+      "abs": "5DC403",
+      "record_id": "aux:5DC403",
+      "region": "aux",
+      "jp_full": "ふ……ほう。",
+      "jp_body": "……ほう。",
+      "ko": "……호오。",
+      "body_capacity": 5,
+      "prefix_hex": "5B",
+      "body_hex": "F191F1540A"
+    },
+    {
+      "abs": "5DC466",
+      "record_id": "aux:5DC466",
+      "region": "aux",
+      "jp_full": "ふ……単純な！！",
+      "jp_body": "……単純な！！",
+      "ko": "……단순하군！！",
+      "body_capacity": 9,
+      "prefix_hex": "5B",
+      "body_hex": "F191E172E39206F044"
+    },
+    {
+      "abs": "5E03E7",
+      "record_id": "aux:5E03E7",
+      "region": "aux",
+      "jp_full": "……くらえっ！",
+      "jp_body": "くらえっ！",
+      "ko": "받아라！",
+      "body_capacity": 5,
+      "prefix_hex": "F191",
+      "body_hex": "241CF12003"
+    },
+    {
+      "abs": "5E0622",
+      "record_id": "aux:5E0622",
+      "region": "aux",
+      "jp_full": "ズは、離れろ！",
+      "jp_body": "は、離れろ！",
+      "ko": "비、비켜！",
+      "body_capacity": 7,
+      "prefix_hex": "5F",
+      "body_hex": "0807E0651B4203"
+    },
+    {
+      "abs": "5E06CA",
+      "record_id": "aux:5E06CA",
+      "region": "aux",
+      "jp_full": "ズ……うぅっ！",
+      "jp_body": "……うぅっ！",
+      "ko": "……으윽！",
+      "body_capacity": 5,
+      "prefix_hex": "5F",
+      "body_hex": "F191F71803"
+    },
+    {
+      "abs": "5E0736",
+      "record_id": "aux:5E0736",
+      "region": "aux",
+      "jp_full": "ズああ……頭が……！",
+      "jp_body": "ああ……頭が……！",
+      "ko": "아아……머리가……！",
+      "body_capacity": 9,
+      "prefix_hex": "5F",
+      "body_hex": "F3C6F191E10617F60C"
+    },
+    {
+      "abs": "5E0743",
+      "record_id": "aux:5E0743",
+      "region": "aux",
+      "jp_full": "ズ……あぁっ！？",
+      "jp_body": "……あぁっ！？",
+      "ko": "……아앗！？",
+      "body_capacity": 6,
+      "prefix_hex": "5F",
+      "body_hex": "F191F7FCF040"
+    },
+    {
+      "abs": "5E0868",
+      "record_id": "aux:5E0868",
+      "region": "aux",
+      "jp_full": "ズ……行けっ！！",
+      "jp_body": "……行けっ！！",
+      "ko": "……가라！！",
+      "body_capacity": 7,
+      "prefix_hex": "5F",
+      "body_hex": "F1916BF492F044"
+    },
+    {
+      "abs": "5E0873",
+      "record_id": "aux:5E0873",
+      "region": "aux",
+      "jp_full": "ズ……あうっ！！",
+      "jp_body": "……あうっ！！",
+      "ko": "……아윽！！",
+      "body_capacity": 7,
+      "prefix_hex": "5F",
+      "body_hex": "F1911FF1EBF044"
+    },
+    {
+      "abs": "5E08A8",
+      "record_id": "aux:5E08A8",
+      "region": "aux",
+      "jp_full": "ズま、まだ……",
+      "jp_body": "ま、まだ……",
+      "ko": "아、아직……",
+      "body_capacity": 6,
+      "prefix_hex": "5F",
+      "body_hex": "2107F195F191"
+    },
+    {
+      "abs": "5E0A9D",
+      "record_id": "aux:5E0A9D",
+      "region": "aux",
+      "jp_full": "ニ……よし！",
+      "jp_body": "……よし！",
+      "ko": "……좋아！",
+      "body_capacity": 5,
+      "prefix_hex": "60",
+      "body_hex": "F191F49003"
+    },
+    {
+      "abs": "5E0AB6",
+      "record_id": "aux:5E0AB6",
+      "region": "aux",
+      "jp_full": "ニまだだっ！",
+      "jp_body": "まだだっ！",
+      "ko": "아직이다！",
+      "body_capacity": 3,
+      "prefix_hex": "60",
+      "body_hex": "FB0903"
+    },
+    {
+      "abs": "5E0E3B",
+      "record_id": "aux:5E0E3B",
+      "region": "aux",
+      "jp_full": "フ……ベぇ－だ！",
+      "jp_body": "……ベぇ－だ！",
+      "ko": "……메롱！",
+      "body_capacity": 7,
+      "prefix_hex": "63",
+      "body_hex": "F191DEB8100D03"
+    },
+    {
+      "abs": "5E0EFC",
+      "record_id": "aux:5E0EFC",
+      "region": "aux",
+      "jp_full": "フあぁっ！？",
+      "jp_body": "あぁっ！？",
+      "ko": "아앗！？",
+      "body_capacity": 4,
+      "prefix_hex": "63",
+      "body_hex": "F7FCF040"
+    },
+    {
+      "abs": "5E10F8",
+      "record_id": "aux:5E10F8",
+      "region": "aux",
+      "jp_full": "ミあぅっ！！",
+      "jp_body": "あぅっ！！",
+      "ko": "아윽！！",
+      "body_capacity": 6,
+      "prefix_hex": "64",
+      "body_hex": "1FE03409F044"
+    },
+    {
+      "abs": "5E12C8",
+      "record_id": "aux:5E12C8",
+      "region": "aux",
+      "jp_full": "ミう、うぅぅ……",
+      "jp_body": "う、うぅぅ……",
+      "ko": "으、으으윽……",
+      "body_capacity": 8,
+      "prefix_hex": "64",
+      "body_hex": "1407F1CFE034F191"
+    },
+    {
+      "abs": "5E12D4",
+      "record_id": "aux:5E12D4",
+      "region": "aux",
+      "jp_full": "・おのれっ！",
+      "jp_body": "おのれっ！",
+      "ko": "이놈！",
+      "body_capacity": 3,
+      "prefix_hex": "2A",
+      "body_hex": "F9A903"
+    },
+    {
+      "abs": "5E1549",
+      "record_id": "aux:5E1549",
+      "region": "aux",
+      "jp_full": "』この野郎……",
+      "jp_body": "この野郎……",
+      "ko": "이 자식……",
+      "body_capacity": 6,
+      "prefix_hex": "66",
+      "body_hex": "F362F2F0F191"
+    },
+    {
+      "abs": "5E15F9",
+      "record_id": "aux:5E15F9",
+      "region": "aux",
+      "jp_full": "』ったれ！！",
+      "jp_body": "ったれ！！",
+      "ko": "망할 놈！！",
+      "body_capacity": 5,
+      "prefix_hex": "66",
+      "body_hex": "F1501BF044"
+    },
+    {
+      "abs": "5E1615",
+      "record_id": "aux:5E1615",
+      "region": "aux",
+      "jp_full": "』くそっ……！",
+      "jp_body": "くそっ……！",
+      "ko": "젠장……！",
+      "body_capacity": 4,
+      "prefix_hex": "66",
+      "body_hex": "F647F60C"
+    },
+    {
+      "abs": "5E19E6",
+      "record_id": "aux:5E19E6",
+      "region": "aux",
+      "jp_full": "『うぉぉっ！！",
+      "jp_body": "うぉぉっ！！",
+      "ko": "우오오！！",
+      "body_capacity": 4,
+      "prefix_hex": "68",
+      "body_hex": "F91FF044"
+    },
+    {
+      "abs": "5E1A7E",
+      "record_id": "aux:5E1A7E",
+      "region": "aux",
+      "jp_full": "み野蛮人が……",
+      "jp_body": "野蛮人が……",
+      "ko": "야만인 놈……",
+      "body_capacity": 8,
+      "prefix_hex": "69",
+      "body_hex": "E2A1E4335017F191"
+    },
+    {
+      "abs": "5E1DA1",
+      "record_id": "aux:5E1DA1",
+      "region": "aux",
+      "jp_full": "行ぬぬぬぬ……！",
+      "jp_body": "ぬぬぬぬ……！",
+      "ko": "으으으윽……！",
+      "body_capacity": 6,
+      "prefix_hex": "6B",
+      "body_hex": "CBCBCBCBF60C"
+    },
+    {
+      "abs": "5E2168",
+      "record_id": "aux:5E2168",
+      "region": "aux",
+      "jp_full": "艦………っ！",
+      "jp_body": "………っ！",
+      "ko": "………윽！",
+      "body_capacity": 4,
+      "prefix_hex": "6D",
+      "body_hex": "F6170903"
+    },
+    {
+      "abs": "5E2320",
+      "record_id": "aux:5E2320",
+      "region": "aux",
+      "jp_full": "ぞへっ！",
+      "jp_body": "へっ！",
+      "ko": "흥！",
+      "body_capacity": 3,
+      "prefix_hex": "6E",
+      "body_hex": "F57B03"
+    },
+    {
+      "abs": "5E25D9",
+      "record_id": "aux:5E25D9",
+      "region": "aux",
+      "jp_full": "バ……うぉぉっ！！",
+      "jp_body": "……うぉぉっ！！",
+      "ko": "……우오오！！",
+      "body_capacity": 6,
+      "prefix_hex": "70",
+      "body_hex": "F191F91FF044"
+    },
+    {
+      "abs": "5E2607",
+      "record_id": "aux:5E2607",
+      "region": "aux",
+      "jp_full": "バええい……！",
+      "jp_body": "ええい……！",
+      "ko": "에잇……！",
+      "body_capacity": 4,
+      "prefix_hex": "70",
+      "body_hex": "F73AF60C"
+    },
+    {
+      "abs": "5E291D",
+      "record_id": "aux:5E291D",
+      "region": "aux",
+      "jp_full": "死んじゃえ！",
+      "jp_body": "んじゃえ！",
+      "ko": "죽어버려！",
+      "body_capacity": 5,
+      "prefix_hex": "AD",
+      "body_hex": "19F2D22B03"
+    },
+    {
+      "abs": "5E2975",
+      "record_id": "aux:5E2975",
+      "region": "aux",
+      "jp_full": "覚悟しな！！",
+      "jp_body": "しな！！",
+      "ko": "각오해라！！",
+      "body_capacity": 4,
+      "prefix_hex": "F37E",
+      "body_hex": "F410F044"
+    },
+    {
+      "abs": "5E2B93",
+      "record_id": "aux:5E2B93",
+      "region": "aux",
+      "jp_full": "手くそっ！！",
+      "jp_body": "くそっ！！",
+      "ko": "젠장！！",
+      "body_capacity": 4,
+      "prefix_hex": "72",
+      "body_hex": "F647F044"
+    },
+    {
+      "abs": "5E2C0B",
+      "record_id": "aux:5E2C0B",
+      "region": "aux",
+      "jp_full": "手……どうした？",
+      "jp_body": "……どうした？",
+      "ko": "……왜 그러지？",
+      "body_capacity": 5,
+      "prefix_hex": "72",
+      "body_hex": "F191F8FF1D"
+    },
+    {
+      "abs": "5E2D71",
+      "record_id": "aux:5E2D71",
+      "region": "aux",
+      "jp_full": "ず……ったれが！",
+      "jp_body": "……ったれが！",
+      "ko": "……망할 놈！",
+      "body_capacity": 7,
+      "prefix_hex": "74",
+      "body_hex": "F191F1501B1703"
+    },
+    {
+      "abs": "5E2DEA",
+      "record_id": "aux:5E2DEA",
+      "region": "aux",
+      "jp_full": "……消えな！！",
+      "jp_body": "消えな！！",
+      "ko": "사라져！！",
+      "body_capacity": 6,
+      "prefix_hex": "F191",
+      "body_hex": "E05C2B06F044"
+    },
+    {
+      "abs": "5E2E4F",
+      "record_id": "aux:5E2E4F",
+      "region": "aux",
+      "jp_full": "ずチィ……っ！！",
+      "jp_body": "チィ……っ！！",
+      "ko": "칫……！！",
+      "body_capacity": 8,
+      "prefix_hex": "74",
+      "body_hex": "E03F46F19109F044"
+    },
+    {
+      "abs": "5E2F17",
+      "record_id": "aux:5E2F17",
+      "region": "aux",
+      "jp_full": "ず……ったれが！",
+      "jp_body": "……ったれが！",
+      "ko": "……망할 놈！",
+      "body_capacity": 7,
+      "prefix_hex": "74",
+      "body_hex": "F191F1501B1703"
+    },
+    {
+      "abs": "5E2F90",
+      "record_id": "aux:5E2F90",
+      "region": "aux",
+      "jp_full": "……消えな！！",
+      "jp_body": "消えな！！",
+      "ko": "사라져！！",
+      "body_capacity": 6,
+      "prefix_hex": "F191",
+      "body_hex": "E05C2B06F044"
+    },
+    {
+      "abs": "5E2FF5",
+      "record_id": "aux:5E2FF5",
+      "region": "aux",
+      "jp_full": "ずチィ……っ！！",
+      "jp_body": "チィ……っ！！",
+      "ko": "칫……！！",
+      "body_capacity": 8,
+      "prefix_hex": "74",
+      "body_hex": "E03F46F19109F044"
+    },
+    {
+      "abs": "5E32A2",
+      "record_id": "aux:5E32A2",
+      "region": "aux",
+      "jp_full": "今まだだ！",
+      "jp_body": "まだだ！",
+      "ko": "아직이다！",
+      "body_capacity": 3,
+      "prefix_hex": "76",
+      "body_hex": "F6EF03"
+    },
+    {
+      "abs": "5E330B",
+      "record_id": "aux:5E330B",
+      "region": "aux",
+      "jp_full": "今ぬぅっ……！！",
+      "jp_body": "ぬぅっ……！！",
+      "ko": "으윽……！！",
+      "body_capacity": 5,
+      "prefix_hex": "76",
+      "body_hex": "F77CF60C03"
+    },
+    {
+      "abs": "5E3707",
+      "record_id": "aux:5E3707",
+      "region": "aux",
+      "jp_full": "不……っ！？",
+      "jp_body": "……っ！？",
+      "ko": "……윽！？",
+      "body_capacity": 5,
+      "prefix_hex": "79",
+      "body_hex": "F19109F040"
+    },
+    {
+      "abs": "5E3728",
+      "record_id": "aux:5E3728",
+      "region": "aux",
+      "jp_full": "不この力は……！",
+      "jp_body": "この力は……！",
+      "ko": "이 힘은……！",
+      "body_capacity": 6,
+      "prefix_hex": "79",
+      "body_hex": "F3625708F60C"
+    },
+    {
+      "abs": "5E3732",
+      "record_id": "aux:5E3732",
+      "region": "aux",
+      "jp_full": "不………っ！？",
+      "jp_body": "………っ！？",
+      "ko": "………윽！？",
+      "body_capacity": 5,
+      "prefix_hex": "79",
+      "body_hex": "F61709F040"
+    },
+    {
+      "abs": "5E3961",
+      "record_id": "aux:5E3961",
+      "region": "aux",
+      "jp_full": "セ……そこねっ！！",
+      "jp_body": "……そこねっ！！",
+      "ko": "……거기구나！！",
+      "body_capacity": 8,
+      "prefix_hex": "7C",
+      "body_hex": "F1912218F26BF044"
+    },
+    {
+      "abs": "5E3A47",
+      "record_id": "aux:5E3A47",
+      "region": "aux",
+      "jp_full": "セ……いやっ！",
+      "jp_body": "……いやっ！",
+      "ko": "……싫어！",
+      "body_capacity": 5,
+      "prefix_hex": "7C",
+      "body_hex": "F191F74B03"
+    },
+    {
+      "abs": "5E3FB4",
+      "record_id": "aux:5E3FB4",
+      "region": "aux",
+      "jp_full": "機……さすがは！！",
+      "jp_body": "……さすがは！！",
+      "ko": "……역시！！",
+      "body_capacity": 6,
+      "prefix_hex": "80",
+      "body_hex": "F191F98AF044"
+    },
+    {
+      "abs": "5E3FFA",
+      "record_id": "aux:5E3FFA",
+      "region": "aux",
+      "jp_full": "機……ああっ！！",
+      "jp_body": "……ああっ！！",
+      "ko": "……아앗！！",
+      "body_capacity": 6,
+      "prefix_hex": "80",
+      "body_hex": "F191F595F044"
+    },
+    {
+      "abs": "5E4D01",
+      "record_id": "aux:5E4D01",
+      "region": "aux",
+      "jp_full": "気……動けない！？",
+      "jp_body": "……動けない！？",
+      "ko": "……움직일 수 없어！？",
+      "body_capacity": 7,
+      "prefix_hex": "A0",
+      "body_hex": "F191AAF891F040"
+    },
+    {
+      "abs": "5E4D23",
+      "record_id": "aux:5E4D23",
+      "region": "aux",
+      "jp_full": "気当たれ……っ！！",
+      "jp_body": "当たれ……っ！！",
+      "ko": "맞아라……！！",
+      "body_capacity": 9,
+      "prefix_hex": "A0",
+      "body_hex": "E014111BF19109F044"
+    },
+    {
+      "abs": "5E4DF5",
+      "record_id": "aux:5E4DF5",
+      "region": "aux",
+      "jp_full": "気……来る！！",
+      "jp_body": "……来る！！",
+      "ko": "……온다！！",
+      "body_capacity": 6,
+      "prefix_hex": "A0",
+      "body_hex": "F1919B0FF044"
+    },
+    {
+      "abs": "5E52BE",
+      "record_id": "aux:5E52BE",
+      "region": "aux",
+      "jp_full": "す分かった！！",
+      "jp_body": "分かった！！",
+      "ko": "알았다！！",
+      "body_capacity": 5,
+      "prefix_hex": "1E",
+      "body_hex": "A3F6AEF044"
+    },
+    {
+      "abs": "5E549A",
+      "record_id": "aux:5E549A",
+      "region": "aux",
+      "jp_full": "ミいけっ！！",
+      "jp_body": "いけっ！！",
+      "ko": "가라！！",
+      "body_capacity": 4,
+      "prefix_hex": "64",
+      "body_hex": "F813F044"
+    },
+    {
+      "abs": "5E54D5",
+      "record_id": "aux:5E54D5",
+      "region": "aux",
+      "jp_full": "ミあぅっ！！",
+      "jp_body": "あぅっ！！",
+      "ko": "아윽！！",
+      "body_capacity": 6,
+      "prefix_hex": "64",
+      "body_hex": "1FE03409F044"
+    },
+    {
+      "abs": "5E5BC7",
+      "record_id": "aux:5E5BC7",
+      "region": "aux",
+      "jp_full": "コイツ……やる！！",
+      "jp_body": "……やる！！",
+      "ko": "……제법이군！！",
+      "body_capacity": 6,
+      "prefix_hex": "F5C2",
+      "body_hex": "F1913A0FF044"
+    },
+    {
+      "abs": "5E5CA9",
+      "record_id": "aux:5E5CA9",
+      "region": "aux",
+      "jp_full": "お愚かな……",
+      "jp_body": "愚かな……",
+      "ko": "어리석군……",
+      "body_capacity": 6,
+      "prefix_hex": "35",
+      "body_hex": "E179F135F191"
+    },
+    {
+      "abs": "5E5CF5",
+      "record_id": "aux:5E5CF5",
+      "region": "aux",
+      "jp_full": "お……死ね！",
+      "jp_body": "……死ね！",
+      "ko": "……죽어！",
+      "body_capacity": 5,
+      "prefix_hex": "35",
+      "body_hex": "F191AD4D03"
+    },
+    {
+      "abs": "5E6005",
+      "record_id": "aux:5E6005",
+      "region": "aux",
+      "jp_full": "セな、なんで！？",
+      "jp_body": "な、なんで！？",
+      "ko": "왜、왜！？",
+      "body_capacity": 6,
+      "prefix_hex": "7C",
+      "body_hex": "0607F856F040"
+    },
+    {
+      "abs": "5E61F0",
+      "record_id": "aux:5E61F0",
+      "region": "aux",
+      "jp_full": "ド……ムダだね！！",
+      "jp_body": "……ムダだね！！",
+      "ko": "……소용없어！！",
+      "body_capacity": 8,
+      "prefix_hex": "44",
+      "body_hex": "F191F07BF54BF044"
+    },
+    {
+      "abs": "5E62FE",
+      "record_id": "aux:5E62FE",
+      "region": "aux",
+      "jp_full": "ドそ、空が……！",
+      "jp_body": "そ、空が……！",
+      "ko": "하、하늘이……！",
+      "body_capacity": 7,
+      "prefix_hex": "44",
+      "body_hex": "2207E1C217F60C"
+    },
+    {
+      "abs": "5E9477",
+      "record_id": "aux:5E9477",
+      "region": "aux",
+      "jp_full": "むなぜだ！？",
+      "jp_body": "なぜだ！？",
+      "ko": "왜냐！？",
+      "body_capacity": 4,
+      "prefix_hex": "8C",
+      "body_hex": "F610F040"
+    },
+    {
+      "abs": "5E965D",
+      "record_id": "aux:5E965D",
+      "region": "aux",
+      "jp_full": "部雁行の陣！",
+      "jp_body": "雁行の陣！",
+      "ko": "안행진！",
+      "body_capacity": 7,
+      "prefix_hex": "8D",
+      "body_hex": "E6D66B05E23F03"
+    },
+    {
+      "abs": "5E98D5",
+      "record_id": "aux:5E98D5",
+      "region": "aux",
+      "jp_full": "見くそっ！",
+      "jp_body": "くそっ！",
+      "ko": "젠장！",
+      "body_capacity": 3,
+      "prefix_hex": "8A",
+      "body_hex": "F64703"
+    },
+    {
+      "abs": "5E98FA",
+      "record_id": "aux:5E98FA",
+      "region": "aux",
+      "jp_full": "見いかんっ！",
+      "jp_body": "いかんっ！",
+      "ko": "안 돼！",
+      "body_capacity": 3,
+      "prefix_hex": "8A",
+      "body_hex": "FA1B03"
+    },
+    {
+      "abs": "5E9980",
+      "record_id": "aux:5E9980",
+      "region": "aux",
+      "jp_full": "様手柄さえ",
+      "jp_body": "手柄さえ",
+      "ko": "공적만이라도",
+      "body_capacity": 5,
+      "prefix_hex": "8B",
+      "body_hex": "72E35FF332"
+    },
+    {
+      "abs": "5E9C63",
+      "record_id": "aux:5E9C63",
+      "region": "aux",
+      "jp_full": "軍おのれ！",
+      "jp_body": "おのれ！",
+      "ko": "이놈！",
+      "body_capacity": 3,
+      "prefix_hex": "8F",
+      "body_hex": "F87103"
+    },
+    {
+      "abs": "5E9CA2",
+      "record_id": "aux:5E9CA2",
+      "region": "aux",
+      "jp_full": "軍い、いかん！",
+      "jp_body": "い、いかん！",
+      "ko": "아、안 돼！",
+      "body_capacity": 5,
+      "prefix_hex": "8F",
+      "body_hex": "0407F7E503"
+    },
+    {
+      "abs": "5E9F8B",
+      "record_id": "aux:5E9F8B",
+      "region": "aux",
+      "jp_full": "へまだだっ！！",
+      "jp_body": "まだだっ！！",
+      "ko": "아직이다！！",
+      "body_capacity": 4,
+      "prefix_hex": "91",
+      "body_hex": "FB09F044"
+    },
+    {
+      "abs": "5EA193",
+      "record_id": "aux:5EA193",
+      "region": "aux",
+      "jp_full": "連くらえっ！！",
+      "jp_body": "くらえっ！！",
+      "ko": "받아라！！",
+      "body_capacity": 6,
+      "prefix_hex": "90",
+      "body_hex": "241CF120F044"
+    },
+    {
+      "abs": "5EA19D",
+      "record_id": "aux:5EA19D",
+      "region": "aux",
+      "jp_full": "連……そこだっ！",
+      "jp_body": "……そこだっ！",
+      "ko": "……거기다！",
+      "body_capacity": 7,
+      "prefix_hex": "90",
+      "body_hex": "F1912218F54503"
+    },
+    {
+      "abs": "5EA1C2",
+      "record_id": "aux:5EA1C2",
+      "region": "aux",
+      "jp_full": "連……もらった！！",
+      "jp_body": "……もらった！！",
+      "ko": "……잡았다！！",
+      "body_capacity": 8,
+      "prefix_hex": "90",
+      "body_hex": "F191201CF150F044"
+    },
+    {
+      "abs": "5EA3ED",
+      "record_id": "aux:5EA3ED",
+      "region": "aux",
+      "jp_full": "ゴ見える……！！",
+      "jp_body": "見える……！！",
+      "ko": "보인다……！！",
+      "body_capacity": 6,
+      "prefix_hex": "93",
+      "body_hex": "8AF0BBF60C03"
+    },
+    {
+      "abs": "5EA47C",
+      "record_id": "aux:5EA47C",
+      "region": "aux",
+      "jp_full": "ゴバ、バカな……！",
+      "jp_body": "バ、バカな……！",
+      "ko": "마、말도 안 돼……！",
+      "body_capacity": 7,
+      "prefix_hex": "93",
+      "body_hex": "7007F3B706F60C"
+    },
+    {
+      "abs": "5EA63B",
+      "record_id": "aux:5EA63B",
+      "region": "aux",
+      "jp_full": "思おのれ……！！",
+      "jp_body": "おのれ……！！",
+      "ko": "이놈……！！",
+      "body_capacity": 5,
+      "prefix_hex": "94",
+      "body_hex": "F871F60C03"
+    },
+    {
+      "abs": "5EA664",
+      "record_id": "aux:5EA664",
+      "region": "aux",
+      "jp_full": "思バ、バカな……",
+      "jp_body": "バ、バカな……",
+      "ko": "마、말도 안 돼……",
+      "body_capacity": 7,
+      "prefix_hex": "94",
+      "body_hex": "7007F3B706F191"
+    },
+    {
+      "abs": "5EA862",
+      "record_id": "aux:5EA862",
+      "region": "aux",
+      "jp_full": "思くそっ！",
+      "jp_body": "くそっ！",
+      "ko": "젠장！",
+      "body_capacity": 3,
+      "prefix_hex": "94",
+      "body_hex": "F64703"
+    },
+    {
+      "abs": "5EA88E",
+      "record_id": "aux:5EA88E",
+      "region": "aux",
+      "jp_full": "思くっ！",
+      "jp_body": "くっ！",
+      "ko": "크윽！",
+      "body_capacity": 3,
+      "prefix_hex": "94",
+      "body_hex": "F0EE03"
+    },
+    {
+      "abs": "5EA8A4",
+      "record_id": "aux:5EA8A4",
+      "region": "aux",
+      "jp_full": "思バカな！！",
+      "jp_body": "バカな！！",
+      "ko": "말도 안 돼！！",
+      "body_capacity": 5,
+      "prefix_hex": "94",
+      "body_hex": "F3B706F044"
+    },
+    {
+      "abs": "5EA8B9",
+      "record_id": "aux:5EA8B9",
+      "region": "aux",
+      "jp_full": "思いかんっ！",
+      "jp_body": "いかんっ！",
+      "ko": "안 돼！",
+      "body_capacity": 3,
+      "prefix_hex": "94",
+      "body_hex": "FA1B03"
+    },
+    {
+      "abs": "5EA96D",
+      "record_id": "aux:5EA96D",
+      "region": "aux",
+      "jp_full": "彼はははっ！",
+      "jp_body": "はははっ！",
+      "ko": "하하핫！",
+      "body_capacity": 3,
+      "prefix_hex": "95",
+      "body_hex": "FA5603"
+    },
+    {
+      "abs": "5EADEF",
+      "record_id": "aux:5EADEF",
+      "region": "aux",
+      "jp_full": "へひるむな！",
+      "jp_body": "ひるむな！",
+      "ko": "물러서지 마！",
+      "body_capacity": 6,
+      "prefix_hex": "91",
+      "body_hex": "E0390F8C0603"
+    },
+    {
+      "abs": "5EAE06",
+      "record_id": "aux:5EAE06",
+      "region": "aux",
+      "jp_full": "へくっ！",
+      "jp_body": "くっ！",
+      "ko": "크윽！",
+      "body_capacity": 3,
+      "prefix_hex": "91",
+      "body_hex": "F0EE03"
+    },
+    {
+      "abs": "5EB098",
+      "record_id": "aux:5EB098",
+      "region": "aux",
+      "jp_full": "連まだだっ！",
+      "jp_body": "まだだっ！",
+      "ko": "아직이다！",
+      "body_capacity": 3,
+      "prefix_hex": "90",
+      "body_hex": "FB0903"
+    },
+    {
+      "abs": "5EB0C0",
+      "record_id": "aux:5EB0C0",
+      "region": "aux",
+      "jp_full": "連つ、強い……！",
+      "jp_body": "つ、強い……！",
+      "ko": "가、강해……！",
+      "body_capacity": 7,
+      "prefix_hex": "90",
+      "body_hex": "4007E05504F60C"
+    },
+    {
+      "abs": "5EB383",
+      "record_id": "aux:5EB383",
+      "region": "aux",
+      "jp_full": "見撃てっ！",
+      "jp_body": "撃てっ！",
+      "ko": "쏴라！",
+      "body_capacity": 4,
+      "prefix_hex": "8A",
+      "body_hex": "7B0B0903"
+    },
+    {
+      "abs": "5EB4A6",
+      "record_id": "aux:5EB4A6",
+      "region": "aux",
+      "jp_full": "様……当たれっ！！",
+      "jp_body": "……当たれっ！！",
+      "ko": "……맞아라！！",
+      "body_capacity": 9,
+      "prefix_hex": "8B",
+      "body_hex": "F191E01411F031F044"
+    },
+    {
+      "abs": "5EB4B3",
+      "record_id": "aux:5EB4B3",
+      "region": "aux",
+      "jp_full": "様……落ちろ！！",
+      "jp_body": "……落ちろ！！",
+      "ko": "……떨어져라！！",
+      "body_capacity": 8,
+      "prefix_hex": "8B",
+      "body_hex": "F191E033F212F044"
+    },
+    {
+      "abs": "5EB84C",
+      "record_id": "aux:5EB84C",
+      "region": "aux",
+      "jp_full": "女いかんっ！",
+      "jp_body": "いかんっ！",
+      "ko": "안 돼！",
+      "body_capacity": 3,
+      "prefix_hex": "97",
+      "body_hex": "FA1B03"
+    },
+    {
+      "abs": "5EB871",
+      "record_id": "aux:5EB871",
+      "region": "aux",
+      "jp_full": "女なんのっ！",
+      "jp_body": "なんのっ！",
+      "ko": "어림없다！",
+      "body_capacity": 4,
+      "prefix_hex": "97",
+      "body_hex": "F8580903"
+    },
+    {
+      "abs": "5EB8B5",
+      "record_id": "aux:5EB8B5",
+      "region": "aux",
+      "jp_full": "消えろ！！",
+      "jp_body": "えろ！！",
+      "ko": "사라져！！",
+      "body_capacity": 4,
+      "prefix_hex": "E05C",
+      "body_hex": "F090F044"
+    },
+    {
+      "abs": "5EB951",
+      "record_id": "aux:5EB951",
+      "region": "aux",
+      "jp_full": "女はははっ！",
+      "jp_body": "はははっ！",
+      "ko": "하하핫！",
+      "body_capacity": 3,
+      "prefix_hex": "97",
+      "body_hex": "FA5603"
+    },
+    {
+      "abs": "5EB9B2",
+      "record_id": "aux:5EB9B2",
+      "region": "aux",
+      "jp_full": "ボ行けっ……！！",
+      "jp_body": "行けっ……！！",
+      "ko": "가라……！！",
+      "body_capacity": 6,
+      "prefix_hex": "98",
+      "body_hex": "6BF492F60C03"
+    },
+    {
+      "abs": "5EBC9A",
+      "record_id": "aux:5EBC9A",
+      "region": "aux",
+      "jp_full": "ボ……うわぁっ！",
+      "jp_body": "……うわぁっ！",
+      "ko": "……우아악！",
+      "body_capacity": 5,
+      "prefix_hex": "98",
+      "body_hex": "F191F93F03"
+    },
+    {
+      "abs": "60034E",
+      "record_id": "script:60034E",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "60051F",
+      "record_id": "script:60051F",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "600B3C",
+      "record_id": "script:600B3C",
+      "region": "script",
+      "jp_full": "……はっ！！",
+      "jp_body": "……はっ！！",
+      "ko": "……핫！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F098F044"
+    },
+    {
+      "abs": "600E39",
+      "record_id": "script:600E39",
+      "region": "script",
+      "jp_full": "いかんっ！",
+      "jp_body": "いかんっ！",
+      "ko": "안 돼！",
+      "body_capacity": 3,
+      "prefix_hex": "173418",
+      "body_hex": "FA1B03"
+    },
+    {
+      "abs": "601083",
+      "record_id": "script:601083",
+      "region": "script",
+      "jp_full": "企んだなッ！！",
+      "jp_body": "企んだなッ！！",
+      "ko": "꾸몄구나！！",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "E315F22E0651F044"
+    },
+    {
+      "abs": "6010B8",
+      "record_id": "script:6010B8",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "601110",
+      "record_id": "script:601110",
+      "region": "script",
+      "jp_full": "もうこの船はおしまいだ－！",
+      "jp_body": "もうこの船はおしまいだ－！",
+      "ko": "이제 이 배는 끝장이야！",
+      "body_capacity": 14,
+      "prefix_hex": "173418",
+      "body_hex": "F29BF362E17CF08C1221040D1003"
+    },
+    {
+      "abs": "601122",
+      "record_id": "script:601122",
+      "region": "script",
+      "jp_full": "逃げろ、逃げろ－－！！",
+      "jp_body": "逃げろ、逃げろ－－！！",
+      "ko": "도망쳐、도망쳐！！",
+      "body_capacity": 13,
+      "prefix_hex": "",
+      "body_hex": "E015F11007E015F110F206F044"
+    },
+    {
+      "abs": "60115C",
+      "record_id": "script:60115C",
+      "region": "script",
+      "jp_full": "ははははは……",
+      "jp_body": "ははははは……",
+      "ko": "하하하하하……",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "FADC08F191"
+    },
+    {
+      "abs": "601281",
+      "record_id": "script:601281",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "171C18",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "6016A3",
+      "record_id": "script:6016A3",
+      "region": "script",
+      "jp_full": "くっ……！",
+      "jp_body": "くっ……！",
+      "ko": "크윽……！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F0EEF60C"
+    },
+    {
+      "abs": "6019A2",
+      "record_id": "script:6019A2",
+      "region": "script",
+      "jp_full": "……はっ！！",
+      "jp_body": "……はっ！！",
+      "ko": "……핫！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F098F044"
+    },
+    {
+      "abs": "601A1C",
+      "record_id": "script:601A1C",
+      "region": "script",
+      "jp_full": "……はいっ！！",
+      "jp_body": "……예っ！！",
+      "ko": "……예！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F81EF044"
+    },
+    {
+      "abs": "601A42",
+      "record_id": "script:601A42",
+      "region": "script",
+      "jp_full": "いっけぇぇぇ－－っ！！",
+      "jp_body": "いっけぇぇぇ－－っ！！",
+      "ko": "가라아아！！",
+      "body_capacity": 8,
+      "prefix_hex": "173418",
+      "body_hex": "FC69B8F20609F044"
+    },
+    {
+      "abs": "601A69",
+      "record_id": "script:601A69",
+      "region": "script",
+      "jp_full": "させるかぁぁぁ－－っ！！",
+      "jp_body": "させるかぁぁぁ－－っ！！",
+      "ko": "그렇게 둘까 보냐아아！！",
+      "body_capacity": 10,
+      "prefix_hex": "173418",
+      "body_hex": "F82C0EF75FF20609F044"
+    },
+    {
+      "abs": "601A80",
+      "record_id": "script:601A80",
+      "region": "script",
+      "jp_full": "うわぁぁぁぁ－－っ！！",
+      "jp_body": "うわぁぁぁぁ－－っ！！",
+      "ko": "우아아아악！！",
+      "body_capacity": 10,
+      "prefix_hex": "173418",
+      "body_hex": "1431F75F83F20609F044"
+    },
+    {
+      "abs": "601ADE",
+      "record_id": "script:601ADE",
+      "region": "script",
+      "jp_full": "人を救ってみせろぉ－－－っ！！",
+      "jp_body": "人を救ってみせろぉ－－－っ！！",
+      "ko": "사람을 구해 내 봐라아아！！",
+      "body_capacity": 15,
+      "prefix_hex": "171C18",
+      "body_hex": "5015E086F15669F554BAF7A109F044"
+    },
+    {
+      "abs": "601DE7",
+      "record_id": "script:601DE7",
+      "region": "script",
+      "jp_full": "……웡・リ－！",
+      "jp_body": "……웡・リ－！",
+      "ko": "……웡・리！",
+      "body_capacity": 8,
+      "prefix_hex": "173418",
+      "body_hex": "F191F58A2AF4D903"
+    },
+    {
+      "abs": "601E51",
+      "record_id": "script:601E51",
+      "region": "script",
+      "jp_full": "웡・リ－！！",
+      "jp_body": "웡・リ－！！",
+      "ko": "웡・리！！",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F58A2AF4D9F044"
+    },
+    {
+      "abs": "6023BB",
+      "record_id": "script:6023BB",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "6023CA",
+      "record_id": "script:6023CA",
+      "region": "script",
+      "jp_full": "……っ！",
+      "jp_body": "……っ！",
+      "ko": "……윽！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F1910903"
+    },
+    {
+      "abs": "602451",
+      "record_id": "script:602451",
+      "region": "script",
+      "jp_full": "う……うん。",
+      "jp_body": "う……うん。",
+      "ko": "으……응。",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "14F191F2190A"
+    },
+    {
+      "abs": "60250F",
+      "record_id": "script:60250F",
+      "region": "script",
+      "jp_full": "………っ！",
+      "jp_body": "………っ！",
+      "ko": "………윽！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F6170903"
+    },
+    {
+      "abs": "6026D7",
+      "record_id": "script:6026D7",
+      "region": "script",
+      "jp_full": "は、はいっ！！",
+      "jp_body": "は、예っ！！",
+      "ko": "네、예！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "0807F81EF044"
+    },
+    {
+      "abs": "602799",
+      "record_id": "script:602799",
+      "region": "script",
+      "jp_full": "は、はいっ！！",
+      "jp_body": "は、예っ！！",
+      "ko": "네、예！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "0807F81EF044"
+    },
+    {
+      "abs": "602B33",
+      "record_id": "script:602B33",
+      "region": "script",
+      "jp_full": "……はっ！！",
+      "jp_body": "……はっ！！",
+      "ko": "……핫！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F098F044"
+    },
+    {
+      "abs": "602BC8",
+      "record_id": "script:602BC8",
+      "region": "script",
+      "jp_full": "……くっ！！",
+      "jp_body": "……くっ！！",
+      "ko": "……크윽！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F0EEF044"
+    },
+    {
+      "abs": "602FA0",
+      "record_id": "script:602FA0",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "171C18",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "602FE2",
+      "record_id": "script:602FE2",
+      "region": "script",
+      "jp_full": "……っ！",
+      "jp_body": "……っ！",
+      "ko": "……윽！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F1910903"
+    },
+    {
+      "abs": "60300E",
+      "record_id": "script:60300E",
+      "region": "script",
+      "jp_full": "……っ！",
+      "jp_body": "……っ！",
+      "ko": "……윽！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F1910903"
+    },
+    {
+      "abs": "6031FF",
+      "record_id": "script:6031FF",
+      "region": "script",
+      "jp_full": "……っ！！",
+      "jp_body": "……っ！！",
+      "ko": "……윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "18",
+      "body_hex": "F19109F044"
+    },
+    {
+      "abs": "603298",
+      "record_id": "script:603298",
+      "region": "script",
+      "jp_full": "くっ……！",
+      "jp_body": "くっ……！",
+      "ko": "크윽……！",
+      "body_capacity": 4,
+      "prefix_hex": "173418",
+      "body_hex": "F0EEF60C"
+    },
+    {
+      "abs": "60336E",
+      "record_id": "script:60336E",
+      "region": "script",
+      "jp_full": "……くっ！！",
+      "jp_body": "……くっ！！",
+      "ko": "……크윽！！",
+      "body_capacity": 6,
+      "prefix_hex": "173418",
+      "body_hex": "F191F0EEF044"
+    },
+    {
+      "abs": "6033E5",
+      "record_id": "script:6033E5",
+      "region": "script",
+      "jp_full": "くっ……！！",
+      "jp_body": "くっ……！！",
+      "ko": "크윽……！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F0EEF60C03"
+    },
+    {
+      "abs": "6034AA",
+      "record_id": "script:6034AA",
+      "region": "script",
+      "jp_full": "いかんっ！",
+      "jp_body": "いかんっ！",
+      "ko": "안 돼！",
+      "body_capacity": 3,
+      "prefix_hex": "173418",
+      "body_hex": "FA1B03"
+    },
+    {
+      "abs": "60393D",
+      "record_id": "script:60393D",
+      "region": "script",
+      "jp_full": "………っ！！",
+      "jp_body": "………っ！！",
+      "ko": "………윽！！",
+      "body_capacity": 5,
+      "prefix_hex": "173418",
+      "body_hex": "F61709F044"
+    }
+  ],
+  "excluded": [
+    {
+      "abs": "5CBBDC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBC0A",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBC33",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBCC1",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBD28",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBD4C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBDAA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBE31",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBE54",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBE7D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBEA2",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBF01",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBFCE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CBFF9",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC059",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC081",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC0A4",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC119",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC17C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC1A7",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC2FC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC321",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC456",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC50C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC533",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC58E",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC5BA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC61F",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC682",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC6E1",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC70D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC7AA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC7D4",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC7FF",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC825",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC93D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CC96A",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCA89",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCAEB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCB50",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCB79",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCBFE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCC29",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCC55",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCC7E",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCCD6",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCD24",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCD4A",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCDA6",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCDCC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCEB5",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCEDA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCEFE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCF27",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCFC7",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CCFEE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD041",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD068",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD0CC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD15F",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD186",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD1AC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD1D5",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD256",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD2BB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD2E2",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD30C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD338",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD35D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD383",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD3AC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD3D6",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD400",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD42B",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD489",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD4B0",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD4DB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD508",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD56D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD592",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD6E4",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD709",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5CD735",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D168D",
+      "reason": "unused_placeholder",
+      "text": "不用"
+    },
+    {
+      "abs": "5D19D4",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D1E38",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D1FDA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D275B",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D28D8",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D2A64",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D32AC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D3FBE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D5816",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D5963",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D5B00",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D6557",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D6792",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D696E",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D7021",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D75AB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D7D5B",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D81AE",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D8504",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D8A5C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D91DD",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D9566",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D95DC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D97B7",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5D9F04",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DA22F",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DA55A",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DAA74",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DAE28",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DAF86",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DB0C7",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DB482",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DC070",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5DC3DD",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E0455",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E0AF8",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E0BC8",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E0D35",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E15E1",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E196C",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E1AEA",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E22F8",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E298D",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E2B55",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E2D6B",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E2DFF",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E2F11",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E2FA5",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E3585",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E3EEB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E3F95",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E425E",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E43CC",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E4575",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E4CFB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E5B87",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E6686",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E94EB",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E9965",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5E9F2A",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5EA5F0",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5EB083",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5EBC94",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5EC037",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "5EC0BD",
+      "reason": "unused_placeholder",
+      "text": "不要"
+    },
+    {
+      "abs": "600000",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "603BE4",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "603C20",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "603C2A",
+      "reason": "script_data_or_fragment",
+      "text": "しは"
+    },
+    {
+      "abs": "603C2E",
+      "reason": "script_data_or_fragment",
+      "text": "をん戦ロ助の隊ロ助は"
+    },
+    {
+      "abs": "603C3C",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "603C4A",
+      "reason": "script_data_or_fragment",
+      "text": "ては"
+    },
+    {
+      "abs": "603C61",
+      "reason": "script_data_or_fragment",
+      "text": "っ、…"
+    },
+    {
+      "abs": "603C6A",
+      "reason": "script_data_or_fragment",
+      "text": "。は"
+    },
+    {
+      "abs": "603C76",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "603C79",
+      "reason": "script_data_or_fragment",
+      "text": "をんブロ助の入ロ助、"
+    },
+    {
+      "abs": "603C9B",
+      "reason": "script_data_or_fragment",
+      "text": "うは"
+    },
+    {
+      "abs": "603C9F",
+      "reason": "script_data_or_fragment",
+      "text": "をん動ロ助の後ロ助、"
+    },
+    {
+      "abs": "603CB5",
+      "reason": "script_data_or_fragment",
+      "text": "には"
+    },
+    {
+      "abs": "603E31",
+      "reason": "script_data_or_fragment",
+      "text": "！れ"
+    },
+    {
+      "abs": "603E3A",
+      "reason": "script_data_or_fragment",
+      "text": "うは"
+    },
+    {
+      "abs": "603E3E",
+      "reason": "script_data_or_fragment",
+      "text": "をんばト助のばト助は"
+    },
+    {
+      "abs": "603E4C",
+      "reason": "script_data_or_fragment",
+      "text": "をん力ト助の機ト助は"
+    },
+    {
+      "abs": "603E9C",
+      "reason": "script_data_or_fragment",
+      "text": "！れ"
+    },
+    {
+      "abs": "603EA5",
+      "reason": "script_data_or_fragment",
+      "text": "うは"
+    },
+    {
+      "abs": "603EA9",
+      "reason": "script_data_or_fragment",
+      "text": "をん合ト助の合ト助は"
+    },
+    {
+      "abs": "603EB7",
+      "reason": "script_data_or_fragment",
+      "text": "をん球ト助の곱助は"
+    },
+    {
+      "abs": "603F25",
+      "reason": "script_data_or_fragment",
+      "text": "をんタム助の大ム助は…"
+    },
+    {
+      "abs": "603F64",
+      "reason": "script_data_or_fragment",
+      "text": "をん出ム助の来ム助は…"
+    },
+    {
+      "abs": "60403B",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "604068",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "60F3A6",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "610000",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "61055C",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "6106EF",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "61165D",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "61632D",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    },
+    {
+      "abs": "61CE96",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    },
+    {
+      "abs": "61F480",
+      "reason": "script_data_or_fragment",
+      "text": "　　な"
+    },
+    {
+      "abs": "620000",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "62584B",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    },
+    {
+      "abs": "6268C7",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "62C73C",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    },
+    {
+      "abs": "62C73F",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    },
+    {
+      "abs": "630000",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "6360EF",
+      "reason": "script_data_or_fragment",
+      "text": "は"
+    },
+    {
+      "abs": "638F52",
+      "reason": "script_data_or_fragment",
+      "text": "な"
+    },
+    {
+      "abs": "63C08B",
+      "reason": "script_data_or_fragment",
+      "text": "　な"
+    }
+  ]
+}

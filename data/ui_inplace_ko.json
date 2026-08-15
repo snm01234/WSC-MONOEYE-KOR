@@ -1,0 +1,61 @@
+{
+  "description": "Fixed-address UI string inplace patches (bank 5F option/gallery + bank 75 battle/title UI). Size-preserving only (KO bytes <= JP nbytes). Marker E3DB sticky.",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "lines": [
+    {
+      "abs": "5F2E7B",
+      "jp": "オプションメニュ－",
+      "ko": "옵션메뉴"
+    },
+    {
+      "abs": "5F2E06",
+      "jp": "デ－タが破損した可能性があります",
+      "ko": "데이터손상"
+    },
+    {
+      "abs": "5F2E48",
+      "jp": "<E62F>Ｙ１：ソ－ト順変更",
+      "ko": "정렬변경"
+    },
+    {
+      "abs": "5F2E59",
+      "jp": "<E62F>Ｙ３：ステ－タス表示",
+      "ko": "스테이터스"
+    },
+    {
+      "abs": "5F2F1C",
+      "jp": "プロフィ－ルを表示します",
+      "ko": "프로필표시"
+    },
+    {
+      "abs": "75B6D3",
+      "jp": "ＢＧＭ",
+      "ko": "ＢＧＭ"
+    },
+    {
+      "abs": "75B7C5",
+      "jp": "ニュ－ゲ－ム",
+      "ko": "뉴겜"
+    },
+    {
+      "abs": "75B7CD",
+      "jp": "コンティニュ－",
+      "ko": "계속"
+    },
+    {
+      "abs": "75B7D5",
+      "jp": "オプション",
+      "ko": "옵션"
+    },
+    {
+      "abs": "75B6A6",
+      "jp": "登録済み",
+      "ko": "등록"
+    },
+    {
+      "abs": "75BA40",
+      "jp": "ゲ－ムオ－バ－",
+      "ko": "종료"
+    }
+  ]
+}

@@ -1,0 +1,9060 @@
+{
+  "description": "Auto-translated short UI strings using UI Label context trick",
+  "lines": [
+    {
+      "jp": "以ド、",
+      "ko": "이후,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "上　ザ",
+      "ko": "위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "私。",
+      "ko": "나.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気。違死気。",
+      "ko": "죽음. 위사.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！合",
+      "ko": "! 합",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "今人",
+      "ko": "지금 사람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ン私、",
+      "ko": "N 나,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "手",
+      "ko": "손",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動向…",
+      "ko": "동향…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ベ",
+      "ko": "베",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ",
+      "ko": "우소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サ、サラ……",
+      "ko": "사, 사라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キリング",
+      "ko": "킬링",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "人隊解隊プ思",
+      "ko": "인대 해대 푸사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ－ラシステムＢ",
+      "ko": "솔라 시스템 B",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン！",
+      "ko": "하만!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……セラ？",
+      "ko": "……세라?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……大佐。",
+      "ko": "… … 대령.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　。！……",
+      "ko": "아니요. ! ……",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カュ",
+      "ko": "Cu",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "出",
+      "ko": "출",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴",
+      "ko": "귀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不ベ<FF>",
+      "ko": "불베<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ？",
+      "ko": "......시그?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハ",
+      "ko": "하",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ－トナ－撃破",
+      "ko": "파트나-격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中ドーラ",
+      "ko": "중간 도라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レコア２",
+      "ko": "레코아 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミハエル",
+      "ko": "마이클",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東方不敗１",
+      "ko": "동방불패 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……中尉！",
+      "ko": "......중위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル２",
+      "ko": "라이벌 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガコ",
+      "ko": "가코",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "返事・",
+      "ko": "답변 ·",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウ",
+      "ko": "우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "軍－オ",
+      "ko": "군-오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "回復",
+      "ko": "복구",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地ュ",
+      "ko": "지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "校",
+      "ko": "학교",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "νガンダム１",
+      "ko": "ν건담1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギンガナム隊大名",
+      "ko": "깅가남대 다이묘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ハマ－ン！！",
+      "ko": "……하만! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－派遣",
+      "ko": "그레미－파견",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間間間間",
+      "ko": "간간간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キサマ……！？",
+      "ko": "키사마… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フェイス",
+      "ko": "페이스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト艦長！",
+      "ko": "밝은 함장!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン……！",
+      "ko": "도몬…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ジュド－！？",
+      "ko": "… …쥬드－! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『アガ何",
+      "ko": "'아가 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現　　　！",
+      "ko": "현재!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "生体ユニット",
+      "ko": "생체 단위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－……！！",
+      "ko": "쥬드－… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ２",
+      "ko": "히이로 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ中尉……！",
+      "ko": "시그 중위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "良ィ…",
+      "ko": "좋은…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ<FF>手",
+      "ko": "y<FF>손",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解",
+      "ko": "솔루션",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザ",
+      "ko": "더",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、闘",
+      "ko": ", 투쟁",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邂逅",
+      "ko": "邂逅",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…………",
+      "ko": "…………",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "回避アップ",
+      "ko": "회피 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キシリア",
+      "ko": "자일리아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ライラ？",
+      "ko": "......라일라?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ－ニィ２",
+      "ko": "바니2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……師匠？",
+      "ko": "… … 스승?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来ィ…",
+      "ko": "오...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少信念",
+      "ko": "소신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死。違",
+      "ko": "죽음. 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ…ニ",
+      "ko": "후…니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "要択",
+      "ko": "요청",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…機…",
+      "ko": "... 기계 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不ガ…",
+      "ko": "불가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キキ",
+      "ko": "키키",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゥド！",
+      "ko": "두드!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－……",
+      "ko": "플루츠－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－少佐。",
+      "ko": "가토-소령.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カテジナ撃破",
+      "ko": "카테지나 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ中尉！！",
+      "ko": "시그 중위! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ現現タソソ",
+      "ko": "레현현 타소소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン３",
+      "ko": "여 주인공 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『カツ……』",
+      "ko": "『카츠……』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ",
+      "ko": "우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意意意意ャ",
+      "ko": "의의의 의자",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ－シャ",
+      "ko": "미샤",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エマ・シ－ン。",
+      "ko": "엠마 신.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "増援１登場",
+      "ko": "증원 1 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スォ…機！",
+      "ko": "슈...기!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "妄<E750>、",
+      "ko": "망 <E750>,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ２",
+      "ko": "아무로 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "最終奥義",
+      "ko": "최종 비밀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "汎用オ－ラ",
+      "ko": "범용 오라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ』ドド",
+      "ko": "미'도도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－マ……！",
+      "ko": "시마…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－２",
+      "ko": "플루츠－2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドドド",
+      "ko": "도도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力ュ人",
+      "ko": "힘투인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "背",
+      "ko": "등",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵",
+      "ko": "적",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方通",
+      "ko": "방통",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機、",
+      "ko": "기계,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クッ……！",
+      "ko": "쿡…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グエン２",
+      "ko": "구엔2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＩＤ消去",
+      "ko": "ID 삭제",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゥ　ゴ　<EF>",
+      "ko": "고　<EF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "命中アップ",
+      "ko": "명중 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ中尉♪",
+      "ko": "시그 중위♪",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドニ",
+      "ko": "드니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "取ウ",
+      "ko": "취우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウネレ",
+      "ko": "우넬레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ド！",
+      "ko": ", 드!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "出番　　！",
+      "ko": "차례 !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ－ラ！",
+      "ko": "로라!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "月光蝶対決",
+      "ko": "달빛 나비 대결",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……フォウ！！",
+      "ko": "……포우! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ、グ……",
+      "ko": "시, 구…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……フォウ！？",
+      "ko": "……포우! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "接近",
+      "ko": "접근",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレレ",
+      "ko": "레렐레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "面子・",
+      "ko": "면자・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体ニ",
+      "ko": "체니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動動",
+      "ko": "동동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ機邦",
+      "ko": "이 기방",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐用",
+      "ko": "사용",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "私…",
+      "ko": "나...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆音",
+      "ko": "폭음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "入",
+      "ko": "입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "助",
+      "ko": "조",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ナ",
+      "ko": "나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解機",
+      "ko": "해기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ララァ",
+      "ko": "라라아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……承知。",
+      "ko": "……인지.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……本気？",
+      "ko": "...... 진심?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サダラ－ン後退",
+      "ko": "사다란 후퇴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "天破侠乱……！！",
+      "ko": "천파 혼란… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト中尉……",
+      "ko": "브라이트 중위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フェイスチェック",
+      "ko": "페이스 체크",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サラ……！？",
+      "ko": "사라… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！死",
+      "ko": "! 죽음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少少",
+      "ko": "약간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体体長",
+      "ko": "체체 길이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……グレミ－！？",
+      "ko": "……그레미－! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フィンファンネル",
+      "ko": "핀 깔때기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザビ－ネ……！",
+      "ko": "자비네…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ファ－レン……",
+      "ko": "파렌…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－１",
+      "ko": "가토-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シ、グ。",
+      "ko": "......시, 구.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ！！",
+      "ko": "카미유! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－……！！",
+      "ko": "시로－… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア？",
+      "ko": "......샤아?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発特殊",
+      "ko": "폭발 특수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヘンケン中佐！",
+      "ko": "헨켄 중령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウ",
+      "ko": ", 우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "再出発",
+      "ko": "재출발",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "トガ！",
+      "ko": "토가!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モ勅",
+      "ko": "모장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ベボ",
+      "ko": "베보",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…ォ計",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不場<FF>",
+      "ko": "불장<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何現",
+      "ko": "무엇현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？　　　！",
+      "ko": "?　　　!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "手…ガ",
+      "ko": "손…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼクス",
+      "ko": "Zex",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事",
+      "ko": "일",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "政府高官Ａ",
+      "ko": "정부 고관 A",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル１",
+      "ko": "라이벌 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　－。……",
+      "ko": "다름-. ……",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ　　…",
+      "ko": "타…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セイラ２",
+      "ko": "세이라 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ撃破",
+      "ko": "제로 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……新手！？",
+      "ko": "……신수! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戦艦１脱出成功",
+      "ko": "전함 1 탈출 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ガロ－ド！！",
+      "ko": "……갈로-도! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マシンガン",
+      "ko": "머신건",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミリシャ兵",
+      "ko": "밀리샤 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "者",
+      "ko": "사람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、少",
+      "ko": ", 소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、来",
+      "ko": ", 오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来長",
+      "ko": "내장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵ガ…",
+      "ko": "적가 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "言了<FF>",
+      "ko": "말 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガンダム発見",
+      "ko": "건담 발견",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゴッド！！",
+      "ko": "신! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼクス出奔",
+      "ko": "젝스 출분",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "人身御供",
+      "ko": "인신 공공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "要　　　！…！",
+      "ko": "요 　 　! …!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クワトロ大尉！",
+      "ko": "크와트로 대위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミアン密航",
+      "ko": "미안 밀항",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロラン２",
+      "ko": "로랑 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "攻ガ…",
+      "ko": "공가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギ　全",
+      "ko": "기전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "行ミ",
+      "ko": "행미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "西",
+      "ko": "West",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼ総員",
+      "ko": "제 총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シルエット",
+      "ko": "실루엣",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クッ……",
+      "ko": "쿠…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レコア少尉、",
+      "ko": "레코어 소위,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－３",
+      "ko": "플루츠－3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現ロタ！",
+      "ko": "현재 로타!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド<EF>",
+      "ko": "드<EF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ力",
+      "ko": "다 힘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タュ知",
+      "ko": "투지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネダ機",
+      "ko": "네다 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤ－ニ",
+      "ko": "야-니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機プ",
+      "ko": "기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機密",
+      "ko": "기밀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！リ",
+      "ko": "! 리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』ォ…機…",
+      "ko": "'o ... 기계 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シロッコ！？",
+      "ko": "......시로코! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モビルス－ツ！？",
+      "ko": "모빌스-츠! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公２",
+      "ko": "주인공 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "防御アップ",
+      "ko": "방어 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－！！",
+      "ko": "시로-! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "様ィ…",
+      "ko": "님...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ム　。",
+      "ko": "무.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ』",
+      "ko": "미」",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、死<FF>",
+      "ko": ", 죽음 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "音",
+      "ko": "소리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レタ",
+      "ko": "레터",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ２",
+      "ko": "제로 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガ",
+      "ko": "가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "目",
+      "ko": "눈",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "テ手",
+      "ko": "태수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力",
+      "ko": "힘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ネダ",
+      "ko": ", 네다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ見長",
+      "ko": "레 감독",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウ機",
+      "ko": "우 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……任務完了。",
+      "ko": "......임무 완료.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シロッコ！",
+      "ko": "......시로코!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ登場",
+      "ko": "카미유 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グ、グレミ－……",
+      "ko": "그, 그레미－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！来",
+      "ko": "! 오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギ上コフ<EB>",
+      "ko": "기상 코프 <EB>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハイメガビ－ム",
+      "ko": "하이 메가빔",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイン１",
+      "ko": "레인 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カテジナ登場",
+      "ko": "카테지나 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "決戦前夜",
+      "ko": "결전 전야",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト撃破",
+      "ko": "밝은 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "議事堂制圧",
+      "ko": "의사당 제압",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダカ－ル解放",
+      "ko": "다카르 해방",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディアナ女王！",
+      "ko": "디아나 여왕!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ、シグ……",
+      "ko": "시, 시그…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼクス登場",
+      "ko": "젝스 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル登場",
+      "ko": "라이벌 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "強制散開",
+      "ko": "강제 산개",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スタック？",
+      "ko": "스택?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－！",
+      "ko": "플루츠－!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "有線兵器",
+      "ko": "유선 무기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公突破成功",
+      "ko": "주인공 돌파 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ－トナ－１",
+      "ko": "파트너-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、コイツ……！！",
+      "ko": ", 코이츠… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゴ",
+      "ko": "고",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グ",
+      "ko": "구",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クワトロ大尉！？",
+      "ko": "크와트로 대위! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "Ｖ２ガンダム",
+      "ko": "V2 건담",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……エマ中尉！",
+      "ko": "… … 엠마 중위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ……！！",
+      "ko": "카미유… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイナ……",
+      "ko": "아이나…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "良了背場妻",
+      "ko": "양료 등장 아내",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "会",
+      "ko": "모임",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ！",
+      "ko": "세라!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "待総員",
+      "ko": "대기 총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ彼ォ",
+      "ko": "타조",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邦現<FF>",
+      "ko": "방현<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？？？",
+      "ko": "? ? ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "封印",
+      "ko": "봉인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドジエ",
+      "ko": "도지에",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "私",
+      "ko": "나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来惹",
+      "ko": "방문",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ全…",
+      "ko": "이전…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "子総員",
+      "ko": "어린이 총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タロタ",
+      "ko": "타로타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…機。",
+      "ko": "... 기계.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "前長",
+      "ko": "전장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "脳…",
+      "ko": "뇌...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意",
+      "ko": "의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何",
+      "ko": "무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気。違",
+      "ko": "마음. 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴動ウ",
+      "ko": "귀동 우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロｖｓシャア",
+      "ko": "아무로 vs 샤아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グワジン脱出成功",
+      "ko": "구와진 탈출 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公単独戦闘",
+      "ko": "주인공 단독 전투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ－ラァァッ！！",
+      "ko": "로라! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "チクショウ",
+      "ko": "치쿠쇼",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ！",
+      "ko": "카미유!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン６",
+      "ko": "도몬 6",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビ－ム中",
+      "ko": "빔중",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何自動ャ",
+      "ko": "무슨 자동화",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ……！！",
+      "ko": "시그… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "突破成功チェック",
+      "ko": "돌파 성공 체크",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……殺ス！！",
+      "ko": "……살수! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレレレ意意意意",
+      "ko": "레렐레레의의의의의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ンン",
+      "ko": "응",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ルィ…",
+      "ko": "루...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…レレ",
+      "ko": "... 렐레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "艦長！",
+      "ko": "함장!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任』",
+      "ko": "임;",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事　！",
+      "ko": "일!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パガ…",
+      "ko": "Paga…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間連",
+      "ko": "간련",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "要ガ…",
+      "ko": "요가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『ジュド－……』",
+      "ko": "『쥬드-……』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スエッソン死亡",
+      "ko": "스에손 사망",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "下未確認",
+      "ko": "아래 미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デキム・バ－トン",
+      "ko": "데킴 바톤",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド１",
+      "ko": "제리드 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ…以ィ…",
+      "ko": "보…이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドエ－",
+      "ko": "도에－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "語ド",
+      "ko": "단어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ気",
+      "ko": "후키",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！　！",
+      "ko": "!　!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ソ",
+      "ko": "! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "攻撃アップ",
+      "ko": "공격 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハヤト１",
+      "ko": "하야토 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ティファ君？",
+      "ko": "… … 티파군?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ中尉！",
+      "ko": "시그 중위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ１",
+      "ko": "카미유 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "完全回避",
+      "ko": "완전 회피",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゾンビ兵",
+      "ko": "좀비 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……セラ。",
+      "ko": "......세라.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何長",
+      "ko": "몇 길이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ン－",
+      "ko": "UI 레이블: N-",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "行ィ…",
+      "ko": "행…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事ィ…",
+      "ko": "사…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ』",
+      "ko": "イ」",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダウバ",
+      "ko": "다우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "<E742>！",
+      "ko": "<E742>!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間全パ",
+      "ko": "간전파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワ",
+      "ko": "와",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "開",
+      "ko": "열림",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意全",
+      "ko": "의전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイン・レヴィ！",
+      "ko": "아인 레비!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＭＳアウト",
+      "ko": "MS 아웃",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キサマ……",
+      "ko": "키사마…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン１",
+      "ko": "여 주인공 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レコア・ロンド！",
+      "ko": "레코아 론드!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ミアン！！",
+      "ko": "...... 미안! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プル登場",
+      "ko": "풀 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！隊",
+      "ko": "! 대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……中佐！！",
+      "ko": "… … 중령! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－２",
+      "ko": "시로-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティファ参入",
+      "ko": "티파 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴待買手辿",
+      "ko": "귀요매수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ３",
+      "ko": "카미유 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　－！！…",
+      "ko": "다르다-! ! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……リィナ！！",
+      "ko": "… …리나! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "様ガ…",
+      "ko": "님 가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。連",
+      "ko": ". 련",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ　ュ",
+      "ko": "아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解長",
+      "ko": "해장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "展開",
+      "ko": "배포",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダダ－",
+      "ko": "다다－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "備計",
+      "ko": "비계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボウ",
+      "ko": "Bow",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ私…",
+      "ko": "라 나...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中",
+      "ko": "중간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタ",
+      "ko": "로타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体",
+      "ko": "몸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方ィ…",
+      "ko": "쪽…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…何　待",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ君！！",
+      "ko": "우소군! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－……",
+      "ko": "가토－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間ボウバボ少バ",
+      "ko": "사이보보보소바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラル……？",
+      "ko": "랄......?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "発　－、！",
+      "ko": "발　－,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ現現タ",
+      "ko": "레현현타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ－ラ……",
+      "ko": "로라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ１",
+      "ko": "아무로 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……カミ－ユ！！",
+      "ko": "… … 카미유! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発連続",
+      "ko": "폭발 연속",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ、バ－ニィ……",
+      "ko": "바, 바니…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン６",
+      "ko": "하만 6",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了　－、！",
+      "ko": "료-,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ機…",
+      "ko": "미기...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少ナ",
+      "ko": "소나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発小",
+      "ko": "폭발소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゴガ…",
+      "ko": "고가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キ－ス",
+      "ko": "키스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "下ガ…",
+      "ko": "하가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機－",
+      "ko": "기－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "イ謙",
+      "ko": "이 겸손",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ２",
+      "ko": "카미유2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガ、ガト－……",
+      "ko": "가, 가토－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全攻前。",
+      "ko": "전공 전.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キャラ１",
+      "ko": "캐릭터 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ　　　！",
+      "ko": "우　　！",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユウ……？",
+      "ko": "유우…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ララァ少尉。",
+      "ko": "… …라라아 소위.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "道具……",
+      "ko": "도구…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……了解！",
+      "ko": "… … 이해!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザンジバル撃沈",
+      "ko": "잔지바르 격침",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ２",
+      "ko": "포우2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ５",
+      "ko": "카미유 5",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ア－ガマ！",
+      "ko": "아-가마!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "盾",
+      "ko": "방패",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自ミ",
+      "ko": "자미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間動動",
+      "ko": "간동동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ュ少",
+      "ko": "유소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "－惹",
+      "ko": "－매료",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サテライトＣ",
+      "ko": "위성 C",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロッコ……",
+      "ko": "시로코…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵軍全滅",
+      "ko": "적군 전멸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ティファ！？",
+      "ko": "......티파! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戦",
+      "ko": "전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了。！",
+      "ko": "OK. !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意全』",
+      "ko": "의전」",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レジ連",
+      "ko": "계산대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダダ力",
+      "ko": "다다 힘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。－！…",
+      "ko": ". -! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "勇…",
+      "ko": "용...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドダ軍",
+      "ko": "도다 군",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現タ",
+      "ko": "현타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ々タ",
+      "ko": "레조타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "突進",
+      "ko": "돌진",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユ！ガ",
+      "ko": "유! 가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動間間",
+      "ko": "동간간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダビ",
+      "ko": "다비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "通未確認",
+      "ko": "미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "νガンダム３",
+      "ko": "ν건담3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エネルギ－集中",
+      "ko": "에너지 - 집중",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ォ本買撃辿",
+      "ko": "오모토 매입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ミ",
+      "ko": "! 미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現々レ",
+      "ko": "현재",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "子",
+      "ko": "아이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネ",
+      "ko": "네",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃ィ…",
+      "ko": "슛…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "向計",
+      "ko": "방향계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブド",
+      "ko": "포드",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ惹",
+      "ko": "보 참",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意意",
+      "ko": "의의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レビル",
+      "ko": "레빌",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "Ｚ発動",
+      "ko": "Z 발동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死…",
+      "ko": "죽음…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブキ",
+      "ko": "부키",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連ュア",
+      "ko": "연속",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機！",
+      "ko": "기계!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネダダ",
+      "ko": "네다다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レコ……",
+      "ko": "레코…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動意意気",
+      "ko": "동의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……進路クリア！",
+      "ko": "……진로 클리어!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方－合人…",
+      "ko": "분-합인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！攻",
+      "ko": "! 공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気未確認",
+      "ko": "미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アイン。",
+      "ko": "… … 아인.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ撃破",
+      "ko": "우소 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……プルツ－！！",
+      "ko": "……프르츠－! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……大尉！！",
+      "ko": "……대위! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…………？",
+      "ko": "…………?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア！！",
+      "ko": "......샤아! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "笑顔、笑顔！",
+      "ko": "미소, 미소!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "拡散ビ－ム",
+      "ko": "확산 빔",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ",
+      "ko": "미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "通任<FF>",
+      "ko": "통임 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "要",
+      "ko": "요",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気違",
+      "ko": "죽음의 차이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ニ",
+      "ko": "니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クッ！……",
+      "ko": "쿠! ……",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デレ",
+      "ko": "델레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エマ",
+      "ko": "엠마",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ何闘",
+      "ko": "아무투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意気",
+      "ko": "의기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－撃破",
+      "ko": "가토-격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "システム解除",
+      "ko": "시스템 해제",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クワトロ大尉……",
+      "ko": "크와트로 대위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ作トビ",
+      "ko": "미작 토비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任待買軍辿",
+      "ko": "임대매 군 추적",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "秘密基地発見",
+      "ko": "비밀 기지 발견",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ……。",
+      "ko": "세라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラチ",
+      "ko": "래치",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セ現",
+      "ko": "세현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死！ル",
+      "ko": "죽음! 르",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全マ",
+      "ko": "모든 마",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "以　・",
+      "ko": "이・・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゥ柵",
+      "ko": "울타리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "前体",
+      "ko": "전체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！動",
+      "ko": "! 움직임",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゴィ…",
+      "ko": "고...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邦",
+      "ko": "일본",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キリング逃亡",
+      "ko": "킬링 도망",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロＮＴ覚醒",
+      "ko": "아무로 NT 각성",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アクシズ士官",
+      "ko": "액시즈 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "以上……",
+      "ko": "이상…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "対決",
+      "ko": "대결",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－タ",
+      "ko": "시타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃。！",
+      "ko": "촬영. !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事　ビ",
+      "ko": "일",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マ　…",
+      "ko": "마...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギレン",
+      "ko": "길렌",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "突進大",
+      "ko": "돌진대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－２",
+      "ko": "쥬드-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撒退成功",
+      "ko": "철수 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハ、ハマ－ン様！",
+      "ko": "하, 하만님!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－マ！！",
+      "ko": "시마! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シュタイナ－",
+      "ko": "슈타이나－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "覚醒（制御用）",
+      "ko": "각성(제어용)",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア大佐……",
+      "ko": "샤아 대령…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……エマ中尉？",
+      "ko": "… … 엠마 중위?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "通気ルー",
+      "ko": "환기 루",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ意",
+      "ko": "시의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "・",
+      "ko": "·",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "俵<E8>",
+      "ko": "俵 <E8>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "健勝…",
+      "ko": "켄승…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソソ",
+      "ko": "소소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "１ォ…機…",
+      "ko": "1o…기…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン出撃",
+      "ko": "도몬 출격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュ、ド……？",
+      "ko": "주, 드......?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "分　　　！",
+      "ko": "분 　　!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ……。",
+      "ko": "카미유…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライラ隊登場",
+      "ko": "라일라대 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "屋俵体ヨ",
+      "ko": "야마타체 요",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "今』ダ",
+      "ko": "지금」다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "後ォ…",
+      "ko": "후…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不了<FF>",
+      "ko": "불완전<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミドニ",
+      "ko": "미드니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違違",
+      "ko": "불일치",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ…",
+      "ko": "로…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "見闘",
+      "ko": "견투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機<FF>生",
+      "ko": "기계 <FF> 원시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！前",
+      "ko": "! 이전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？。－",
+      "ko": "? . －",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了。力",
+      "ko": "OK. 힘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディ…",
+      "ko": "디…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ン",
+      "ko": "N",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "発",
+      "ko": "출발",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "場ラチ",
+      "ko": "장 라치",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタソ",
+      "ko": "로타소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デラ－ズ撒退",
+      "ko": "데라-즈 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア。",
+      "ko": "......샤아.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミリシャ？",
+      "ko": "밀리샤?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロラン１",
+      "ko": "로랑 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マシュマ－２",
+      "ko": "마시마-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中ヤゥ<EE>",
+      "ko": "중야 <EE>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連大キ<FF>少",
+      "ko": "연대키<FF>소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミリアルド",
+      "ko": "Milliard",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……レコア少尉。",
+      "ko": "……레코어 소위.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ガロ－ド。",
+      "ko": "......갈로-드.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＮＴ部隊登場",
+      "ko": "NT부대 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東方不敗最終奥義",
+      "ko": "동방 불패 최종 비밀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト中佐！",
+      "ko": "밝은 중령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……白旗？",
+      "ko": "……백기?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ　　　！…",
+      "ko": "우　　！ …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラコ・",
+      "ko": "라코",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了　。、！",
+      "ko": "OK. ,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダウ今",
+      "ko": "다우 지금",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アムロ！！",
+      "ko": "......아무로! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アルビオン隊登場",
+      "ko": "알비온대 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア大佐。",
+      "ko": "……샤아 대령.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プ地連・",
+      "ko": "프지연・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……基地？",
+      "ko": "......기지?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "運動ダウン",
+      "ko": "운동 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "部",
+      "ko": "부품",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ自ニ",
+      "ko": "보자니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "展開大",
+      "ko": "전개 대형",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダダ",
+      "ko": "다다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ",
+      "ko": "타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ！ソ",
+      "ko": "서! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイラ",
+      "ko": "레이라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "知ガ…",
+      "ko": "치가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ー西",
+      "ko": "- 서쪽",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解<EE>体",
+      "ko": "해<EE>몸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動長",
+      "ko": "동장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、機…",
+      "ko": ", 기계…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "知ィ…",
+      "ko": "지…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タクタ",
+      "ko": "택터",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…機",
+      "ko": "... 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ意意",
+      "ko": "시의의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "知ド…",
+      "ko": "지식…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リィナ",
+      "ko": "리나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミネバ",
+      "ko": "미네바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カツ",
+      "ko": "커틀릿",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "良",
+      "ko": "좋은",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "作",
+      "ko": "작",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ３",
+      "ko": "히이로 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "友軍ムサイ撃沈",
+      "ko": "우군 무사이 격침",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ル動闘闘ゥ",
+      "ko": "르동투투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユ－リ・ハスラ－",
+      "ko": "유리 하슬라－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "核攻撃……",
+      "ko": "핵 공격......",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ス　　　！",
+      "ko": "스　　!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレレレレレレレ",
+      "ko": "레렐 레렐 레렐 레렐",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ロラン君！！",
+      "ko": "… … 로랑군! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "用了背用了背場妻",
+      "ko": "용 양배용 양배장 아내",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ……？",
+      "ko": "카미유…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ……！",
+      "ko": "시그…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？……",
+      "ko": "? ……",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！以",
+      "ko": "! 이후",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来了<FF>",
+      "ko": "내승 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全",
+      "ko": "전체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気",
+      "ko": "죽음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』ッ",
+      "ko": "』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ツド…",
+      "ko": "트드…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォィ",
+      "ko": "Foi",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事ガ…",
+      "ko": "사가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ",
+      "ko": "바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "球人",
+      "ko": "구인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タレ",
+      "ko": "소스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動君機",
+      "ko": "동군기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クリス１",
+      "ko": "크리스 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴『合ド",
+      "ko": "귀 『합도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＮＴ研所員",
+      "ko": "NT연소원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "Ｖ２ガンダム。",
+      "ko": "V2 건담.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ１",
+      "ko": "히이로 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クッ……！！",
+      "ko": "쿡… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セイラ１",
+      "ko": "세이라 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト艦長……",
+      "ko": "브라이트 함장…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン３",
+      "ko": "도몬 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ……！！",
+      "ko": "세라… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン７",
+      "ko": "하만 7",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウウ",
+      "ko": "우우우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連射通常ダメ－ジ",
+      "ko": "연사 통상 데미지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！紹",
+      "ko": "! 소오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　。、！…",
+      "ko": "아니요. ,! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『………………』",
+      "ko": "『………………』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ……",
+      "ko": "제로…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ出撃",
+      "ko": "시그 출격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動意意気違違",
+      "ko": "동의의 위기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現ソ",
+      "ko": "현재",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ",
+      "ko": "파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダウウ",
+      "ko": "다우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ』機",
+      "ko": "다」기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "本",
+      "ko": "도서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全攻ガ",
+      "ko": "전공가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機？",
+      "ko": "기계?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "脱出",
+      "ko": "탈출",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "合未確認",
+      "ko": "미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アグリッパ！？",
+      "ko": "아그리파! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－……",
+      "ko": "쥬드－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セイラ参入",
+      "ko": "세이라 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "捕獲成功",
+      "ko": "포획 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン登場",
+      "ko": "여 주인공 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方ガ…",
+      "ko": "방가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…<E9>肖",
+      "ko": "...<E9>초",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ッレタ",
+      "ko": "렐레타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ、ァ",
+      "ko": "바, 아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ララァッ！！",
+      "ko": "......라라! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "汎用オ－ラ終了",
+      "ko": "범용 오라 종료",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵部隊、消滅！",
+      "ko": "적 부대, 소멸!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ララァ……クッ！",
+      "ko": "라라아…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン５",
+      "ko": "하만 5",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。ドン",
+      "ko": ". 동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マシュマ－１",
+      "ko": "마시마-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デトロ－フ撒退",
+      "ko": "디트로-후 철퇴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン明鏡止水",
+      "ko": "도몬 명경 지수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戦艦アウト",
+      "ko": "전함 아웃",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デビル細胞",
+      "ko": "악마 세포",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼ囮",
+      "ko": "제미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "用",
+      "ko": "용",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビ",
+      "ko": "비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドジ",
+      "ko": "도지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "女人",
+      "ko": "여인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギ",
+      "ko": "기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "銃声",
+      "ko": "총성",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ紹",
+      "ko": "레소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ジュド－！！",
+      "ko": "… …쥬드－! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ユ！",
+      "ko": "! 유!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……左様。",
+      "ko": "……왼쪽.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドエ",
+      "ko": "도에",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ女",
+      "ko": "파녀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了　　　！",
+      "ko": "료 　 　!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……力？",
+      "ko": "......힘?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ク…ト…ム",
+      "ko": "쿠…토…무",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガギ前現ブ",
+      "ko": "가기 전현부",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "部ガ…",
+      "ko": "부가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ",
+      "ko": "레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビット",
+      "ko": "비트",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任』ャ",
+      "ko": "임'야",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "知",
+      "ko": "지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐",
+      "ko": "사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プ知ニ",
+      "ko": "푸치니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "軍ィ…",
+      "ko": "군이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐西",
+      "ko": "사니시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…行",
+      "ko": "...행",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "同計",
+      "ko": "동계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "隊ガ",
+      "ko": "대가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何体",
+      "ko": "무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ュ",
+      "ko": ", u",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解長<EB>",
+      "ko": "해장 <EB>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "コウ",
+      "ko": "코우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動パ女ウウウウウ",
+      "ko": "동 파녀 우우우우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了　－　！…",
+      "ko": "료-　! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気　機",
+      "ko": "기기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ズ現",
+      "ko": "즈현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "月光蝶",
+      "ko": "달빛 나비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "－自",
+      "ko": "－자체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵ィ…",
+      "ko": "적…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動意違",
+      "ko": "동의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ズド…",
+      "ko": "즈드…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "下",
+      "ko": "아래",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ",
+      "ko": "제로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガ王家",
+      "ko": "가왕가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少西",
+      "ko": "소서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "小ダメ－ジ",
+      "ko": "소대미지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キンケドゥ……",
+      "ko": "킨케두…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……レコア少尉！",
+      "ko": "……레코어 소위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……全軍！",
+      "ko": "……전군!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィォ…機…",
+      "ko": "YO…기…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……オトリ？",
+      "ko": "……오토리?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連邦士官",
+      "ko": "연방 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全新、系列……！",
+      "ko": "전신, 계열…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シナプス",
+      "ko": "시냅스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユウ・カジマ",
+      "ko": "유 카지마",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵増援登場２",
+      "ko": "적 증원 등장 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラカン",
+      "ko": "라칸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地<E7E2>",
+      "ko": "지 <E7E2>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キサマ……！",
+      "ko": "키사마…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。、！",
+      "ko": ". ,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ……！",
+      "ko": "세라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル撃破",
+      "ko": "라이벌 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ現ソロ！ソ",
+      "ko": "로현 솔로! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウウウバ",
+      "ko": "우우우우우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ　　　！",
+      "ko": "로　　！",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラルウム",
+      "ko": "Ralum",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間間",
+      "ko": "사이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連",
+      "ko": "연",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ",
+      "ko": "시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラチ・",
+      "ko": "라치・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザバ",
+      "ko": "자바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モンシア",
+      "ko": "몬시아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミリシャ登場",
+      "ko": "밀리샤 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－……？",
+      "ko": "시로－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ア－ガマ撃破",
+      "ko": "아-가마 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン１",
+      "ko": "하마-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……閣下。",
+      "ko": "……각하.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東方不敗逃走",
+      "ko": "동방 불패 도주",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "月光蝶解除",
+      "ko": "달빛 나비 해제",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "集中攻撃",
+      "ko": "집중 공격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "無　　　！…",
+      "ko": "무　　！ …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラスボス始動",
+      "ko": "라스보스 시동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クリス２",
+      "ko": "크리스 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユ！人",
+      "ko": "유! 사람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……大佐！！",
+      "ko": "… … 대령! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "１校攻デギン",
+      "ko": "1교공 데긴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キンケドゥ！？",
+      "ko": "킨케두! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン撒退",
+      "ko": "여 주인공 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ト－レス！",
+      "ko": "트레스!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ザク！？",
+      "ko": "......자쿠! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間間間ウバ",
+      "ko": "간간간 우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ム",
+      "ko": "무",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "舷！",
+      "ko": "현!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ備ダ",
+      "ko": "다비다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＣＶ兵士",
+      "ko": "CV 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デトロ－フ撃破",
+      "ko": "데트로-후 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……デギン閣下。",
+      "ko": "… …데긴각하.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラスボスシステム",
+      "ko": "라스보스 시스템",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……カミ－ユ！？",
+      "ko": "… … 카미유! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ト－レス！！",
+      "ko": "트레스! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体体ォ",
+      "ko": "체체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "時",
+      "ko": "시간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カイ２",
+      "ko": "카이 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！タ",
+      "ko": "! 타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ事現",
+      "ko": "보현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "我王家",
+      "ko": "가왕가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ンル",
+      "ko": "Null",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地ニ",
+      "ko": "지니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ出",
+      "ko": "우출",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現ド",
+      "ko": "현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "備総員",
+      "ko": "비총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ人",
+      "ko": "레인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "向",
+      "ko": "향",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…機、",
+      "ko": "... 기계,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイナ",
+      "ko": "아이나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ッ－",
+      "ko": "ー－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ人",
+      "ko": "다인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ……",
+      "ko": "히이로…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……デキム閣下！",
+      "ko": "… …데킴 각하!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "人ニ作ニ",
+      "ko": "인니작니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "運動アップ",
+      "ko": "운동 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウバ",
+      "ko": "우우우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フロスト兄弟参戦",
+      "ko": "서리 형제 참전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ホエ－ルズ発進",
+      "ko": "고엘스 발진",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "出番　　！…",
+      "ko": "차례 ! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マウア－……！！",
+      "ko": "마우아-……! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレレレレレ体体",
+      "ko": "레렐레레레레체체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャマイカン２",
+      "ko": "자메이칸 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マップクリア",
+      "ko": "맵 클리어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "軍ォ…機…",
+      "ko": "군오…기…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド　…！！…",
+      "ko": "드… ! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "闘作ル機思ン",
+      "ko": "투작 루기 생각",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マシュマ－復活",
+      "ko": "마시마 - 부활",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼクス……",
+      "ko": "젝스…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……クリス！？",
+      "ko": "......크리스! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイン……！！",
+      "ko": "아인… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アポリ－",
+      "ko": "아폴리－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ－ゲット",
+      "ko": "타겟",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シン・マツナガ",
+      "ko": "신 마츠나가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハンゲルク",
+      "ko": "한겔크",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カテジナ１",
+      "ko": "카테지나 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイン……！！",
+      "ko": "레인… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア１",
+      "ko": "샤아 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザ待買ミ辿",
+      "ko": "더 대매 미타루",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……………",
+      "ko": "……………",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵援軍登場",
+      "ko": "적원군 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ撒退",
+      "ko": "제로 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何ワパ",
+      "ko": "무슨 와파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何動",
+      "ko": "얼마나 많은",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間何",
+      "ko": "사이 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…意意",
+      "ko": "...의의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "助、",
+      "ko": "조,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来ガ…",
+      "ko": "와가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロロ",
+      "ko": "로로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ！！",
+      "ko": "시그! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キサマ……！！",
+      "ko": "키사마… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブレックス撃破",
+      "ko": "블랙스 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャミトフ准将！",
+      "ko": "자미토프 준장!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "・練",
+      "ko": "· 반죽",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダリミ",
+      "ko": "달리미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミ。！",
+      "ko": "미. !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド！ボ",
+      "ko": "드! 보",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "覚醒",
+      "ko": "각성",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気<FF>",
+      "ko": "기<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "後。艦",
+      "ko": "나중에. 함",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ……",
+      "ko": "포우…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？御",
+      "ko": "? 어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……了解！！",
+      "ko": "… … 이해! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。間",
+      "ko": ". 사이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力ダダ",
+      "ko": "힘 다다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解解",
+      "ko": "해해",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダャュ",
+      "ko": "Dhau",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力女",
+      "ko": "힘 여자",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モド…",
+      "ko": "모드...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デラ－ズ兵士",
+      "ko": "델라-즈 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アストナ－ジ",
+      "ko": "아스토나지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アムロッ！？",
+      "ko": "… … 암롯! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "メガ粒子砲Ｂ",
+      "ko": "메가 입자포 B",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＨＰ回復",
+      "ko": "HP 회복",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－覚醒",
+      "ko": "쥬도 - 각성",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル撃退",
+      "ko": "라이벌 격퇴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネオ・",
+      "ko": "네오 ·",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シ…グ。",
+      "ko": "......시...그.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ－ラシステムＡ",
+      "ko": "솔라 시스템 A",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "防御ダウン",
+      "ko": "방어 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ス　　　！…",
+      "ko": "스　　! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "思　軍隊　　！",
+      "ko": "생각 군대 !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ゼクス！",
+      "ko": "…… 젝스!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミサイル",
+      "ko": "미사일",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワッケイン司令！",
+      "ko": "와케인 사령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギンガナム",
+      "ko": "깅가남",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…撃",
+      "ko": "... 촬영",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プ柵",
+      "ko": "푸 가로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体現",
+      "ko": "구현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ　・",
+      "ko": "소・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "良ガ…",
+      "ko": "좋은 가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタ！ソロタ！",
+      "ko": "로타! 솔로타!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動",
+      "ko": "동작",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャギア",
+      "ko": "샤기아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ逆ギレ",
+      "ko": "카미유 역길레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……リィナ。",
+      "ko": "......리나.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デギン・ザビ",
+      "ko": "데긴 자비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼　』　　　　…",
+      "ko": "그'』　　　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レコア１",
+      "ko": "레코아 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自ニ",
+      "ko": "자니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…作",
+      "ko": "…작",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウド",
+      "ko": "우우드",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "目信念",
+      "ko": "눈신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "１ォ…",
+      "ko": "1o…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…球計",
+      "ko": "... 구계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！レ！",
+      "ko": "! 레!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビ－ム強",
+      "ko": "빔 강",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……失礼。",
+      "ko": "...... 무례.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ－トナ－登場",
+      "ko": "파트나-등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パプテマス……？",
+      "ko": "파프테마스…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "味方……？",
+      "ko": "아군…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ－・カイラム",
+      "ko": "라-카이람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ……",
+      "ko": "세라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "νガンダム２",
+      "ko": "ν건담2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "量",
+      "ko": "양",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ　エ",
+      "ko": "아　에",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "テ、！",
+      "ko": "태,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』サ人",
+      "ko": "』사인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動パ",
+      "ko": "동파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "試",
+      "ko": "시험",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ……！？",
+      "ko": "시그… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……リィナ！？",
+      "ko": "… …리나! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギ　全　　　　…",
+      "ko": "기 　전　　　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……クッ！！",
+      "ko": "……쿡! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アルテイシア……",
+      "ko": "아르테이시아…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ、レイン……",
+      "ko": "레, 레인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オ－ラ放射",
+      "ko": "오라 방사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "以計",
+      "ko": "이상",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』『機",
+      "ko": "』『기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザガ…",
+      "ko": "Zaga…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジィ…",
+      "ko": "지…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "俵",
+      "ko": "俵",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アデル",
+      "ko": "아델",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "上",
+      "ko": "위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "通",
+      "ko": "통",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "脳",
+      "ko": "뇌",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ柵",
+      "ko": "柵",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少<EA>備",
+      "ko": "소 <EA>비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来",
+      "ko": "오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "要ィ…",
+      "ko": "요…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "待夫",
+      "ko": "대기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ参入",
+      "ko": "히이로 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビ－ム弱",
+      "ko": "빔 약",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プル救助",
+      "ko": "풀 구조",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バスク１",
+      "ko": "바스크 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "入デビルガンダム",
+      "ko": "입 악마 건담",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……クリス！！",
+      "ko": "......크리스! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ォィ",
+      "ko": "! 와이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴　敵",
+      "ko": "귀 적",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドレン",
+      "ko": "드레인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』ォ…",
+      "ko": "'o…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "行ガ…",
+      "ko": "행가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロラン！",
+      "ko": "로랑!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セイラ撃破",
+      "ko": "세이라 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドゴスギア撃沈",
+      "ko": "도고스 기어 격침",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死意意死",
+      "ko": "사의의사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－３",
+      "ko": "쥬드-3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自ドド",
+      "ko": "자도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ア　。",
+      "ko": "아.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ネ",
+      "ko": "! 네",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイン……！",
+      "ko": "레인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ－・カイラム、",
+      "ko": "라-카이람,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "私兵……",
+      "ko": "사병…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ゼロ？",
+      "ko": "…… 제로?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公４",
+      "ko": "주인공 4",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モニタ－",
+      "ko": "모니터－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……無念！！",
+      "ko": "… …무념! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア３",
+      "ko": "샤아 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン４",
+      "ko": "하마-4",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デトロ－フ",
+      "ko": "디트로프",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『シグ』？",
+      "ko": "『시그』?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。違",
+      "ko": ". 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東",
+      "ko": "East",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "尊",
+      "ko": "존",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "肥",
+      "ko": "비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼロ！",
+      "ko": "제로!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機…",
+      "ko": "기계…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐ガ…",
+      "ko": "사가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何バ",
+      "ko": "무슨 바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死意違",
+      "ko": "사의위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "決着２",
+      "ko": "결착 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不ィ…",
+      "ko": "불…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタ現ソロタソ",
+      "ko": "로타현 솔로타소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ト－レス、",
+      "ko": "트레스,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガンダムタ",
+      "ko": "건담 타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了任買彼辿",
+      "ko": "양임 매수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ、イラ……？",
+      "ko": "레, 이라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤザン１",
+      "ko": "야잔 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "隊。！",
+      "ko": "부대. !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違。違",
+      "ko": "아니요. 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力ッタ",
+      "ko": "힘타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ！",
+      "ko": "레!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…レ",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全機！！",
+      "ko": "전기! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死動違",
+      "ko": "사동 차이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…知",
+      "ko": "... 지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "１ド、",
+      "ko": "1도,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザウウ",
+      "ko": "자우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "女",
+      "ko": "여자",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃信念",
+      "ko": "격신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "生無",
+      "ko": "생무",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レド",
+      "ko": "레드",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解体<EB>",
+      "ko": "해체<EB>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネ邦",
+      "ko": "네방",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "人",
+      "ko": "사람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "備",
+      "ko": "비",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "行",
+      "ko": "행",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "輩エ",
+      "ko": "배",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザ機",
+      "ko": "더 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－……！",
+      "ko": "가토-……!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ト－レス。",
+      "ko": "......토레스.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "防御無視",
+      "ko": "방어 무시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵戦力、沈黙！",
+      "ko": "적 전력, 침묵!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クワトロ１",
+      "ko": "크와트로 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『プルツ－……",
+      "ko": "『플루츠－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リ、リィナ……",
+      "ko": "리, 리나…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "反応ダウン",
+      "ko": "반응 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キャラ２",
+      "ko": "캐릭터 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "命中ダウン",
+      "ko": "명중 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロッコ！",
+      "ko": "시로코!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ステ－ジクリア",
+      "ko": "스테이지 클리어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "共感オ－ラ",
+      "ko": "공감 오라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "君タ",
+      "ko": "군타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "見闘気",
+      "ko": "투투기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ！ソ",
+      "ko": "로! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゴ－",
+      "ko": "고－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ェメバ",
+      "ko": "에메바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、機",
+      "ko": ", 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スラチ",
+      "ko": "슬래치",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動無",
+      "ko": "동무",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "開　。、！…",
+      "ko": "열림. ,! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ",
+      "ko": "F",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ事",
+      "ko": "아사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アムロ！？",
+      "ko": "......아무로! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "………………",
+      "ko": "………………",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……味方？",
+      "ko": "… … 아군?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティファ……",
+      "ko": "티파…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スパ－ク",
+      "ko": "스파크",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ノイン……！！",
+      "ko": "노인… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ャバ東、",
+      "ko": "자바 동쪽,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "用ュ今キ違",
+      "ko": "용우 지금 키 차이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マリオン",
+      "ko": "마리온",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マウア－……",
+      "ko": "마우아…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド登場",
+      "ko": "Jerid 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－ッ！！",
+      "ko": "갓! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギンガナム隊兵士",
+      "ko": "깅가남대 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……閣下！",
+      "ko": "……각하!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アイン？",
+      "ko": "......아인?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ－ゲット確認。",
+      "ko": "타겟 확인.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デラ－ズ",
+      "ko": "델라-즈",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミアン……",
+      "ko": "미안…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機セド",
+      "ko": "기계 세드",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間地何",
+      "ko": "간지 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "屋俵",
+      "ko": "야옥",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ",
+      "ko": "로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "女三人",
+      "ko": "여자 3명",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！キ",
+      "ko": "! 키",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "歴史ミ",
+      "ko": "역사 미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "時択",
+      "ko": "시택",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "陰謀",
+      "ko": "음모",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "疑惑",
+      "ko": "의혹",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐勅",
+      "ko": "사가이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロレソ",
+      "ko": "로레소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…プ",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現同校取デギン",
+      "ko": "현동교취데긴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－マ撒退",
+      "ko": "시-마 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……フォウ？",
+      "ko": "......포우?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ参入",
+      "ko": "우소 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン撃破",
+      "ko": "여 주인공 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "第３機動艦隊登場",
+      "ko": "제3기동함대 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン４",
+      "ko": "도몬 4",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モノアイ",
+      "ko": "모노아이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウ上ベ",
+      "ko": "우우상베",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウィンドウ",
+      "ko": "윈도우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キンケドゥ",
+      "ko": "킨케두",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "尉。撃",
+      "ko": "尉. 쏘다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "見",
+      "ko": "보기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネダ",
+      "ko": "네다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド少ニ",
+      "ko": "드소니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ヤ",
+      "ko": ", 야",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "様",
+      "ko": "님",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ行",
+      "ko": "후행",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ェ捜索",
+      "ko": "! 예수색",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リ中気",
+      "ko": "리 중기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ』人",
+      "ko": "다」인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "決着",
+      "ko": "결착",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "決定",
+      "ko": "결정",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ現ソ",
+      "ko": "Lo현소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ現レ",
+      "ko": "로현레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現闘ッ",
+      "ko": "현투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　。。……",
+      "ko": "아니요. . ……",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ャバ東ー",
+      "ko": "야바 동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ッ！！",
+      "ko": "… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死…戻…",
+      "ko": "죽음…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キャアッ！！",
+      "ko": "캐어! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド特攻",
+      "ko": "Jerid 특공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。開",
+      "ko": ". 오픈",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体体",
+      "ko": "몸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リィニ",
+      "ko": "리니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戦…！",
+      "ko": "전...!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワィ…",
+      "ko": "와이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気　！",
+      "ko": "기분!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ勅",
+      "ko": "로 칙",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？　…",
+      "ko": "?　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ール",
+      "ko": "르",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "々ッレ",
+      "ko": "들레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ルカ",
+      "ko": "루카",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クソッ！",
+      "ko": "빌어 먹을!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "メガ粒子砲Ａ",
+      "ko": "메가 입자포 A",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……『カラバ』？",
+      "ko": "… … 「칼라바」?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公撃破",
+      "ko": "주인공 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン……",
+      "ko": "하마-…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！デエ背ー",
+      "ko": "! 데에 등",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウ見",
+      "ko": ", 우미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ西",
+      "ko": "파서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "輩君",
+      "ko": "배군",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ…様",
+      "ko": "후…님",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "コ・",
+      "ko": "Ko ·",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネオ・ジオン士官",
+      "ko": "네오 지온 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハヤト撃破",
+      "ko": "하야토 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハヤト２",
+      "ko": "하야토 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……アイン！！",
+      "ko": "......아인! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "攻撃ダウン",
+      "ko": "공격 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……地球！！",
+      "ko": "...... 지구! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……クッ！",
+      "ko": "……쿡!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死ド…",
+      "ko": "죽음 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中タ",
+      "ko": "중타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "無人",
+      "ko": "무인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少『機",
+      "ko": "소규모",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウ不",
+      "ko": ", 우불",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カイ撃破",
+      "ko": "카이 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連射小ダメ－ジ",
+      "ko": "연사 소 데미지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ン　　　！",
+      "ko": "응　　！",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "暗殺失敗",
+      "ko": "암살 실패",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤザン２",
+      "ko": "야잔 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "完全命中",
+      "ko": "완전 명중",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガンダム……！？",
+      "ko": "건담… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……セラ！！",
+      "ko": "……세라! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タイトル未定",
+      "ko": "제목 미정",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ツ手",
+      "ko": "투수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ズ！！",
+      "ko": "즈! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "下ィ…",
+      "ko": "하...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "太手長",
+      "ko": "태수장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃了<FF>",
+      "ko": "격료<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死",
+      "ko": "죽음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動何ー",
+      "ko": "동무",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動貴・貴動貴",
+      "ko": "동귀・귀동귀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＺＺ発動",
+      "ko": "ZZ 발동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "友軍ムサイ撒退",
+      "ko": "우군 무사이 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ム－ンレィス……",
+      "ko": "문-레이스…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バスク２",
+      "ko": "바스크 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャマイカン１",
+      "ko": "자메이칸 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヘンケン",
+      "ko": "헨켄",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クワトロ２",
+      "ko": "크와트로 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレレレ体体レレ",
+      "ko": "레렐레레 바디 레렐",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エマ説得：交信",
+      "ko": "엠마 설득: 교신",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バコ何地『ボ貴・",
+      "ko": "바코 무지 「보귀・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ノイン……？",
+      "ko": "노인......?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マウア－登場",
+      "ko": "마우아 - 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ！？",
+      "ko": "......시그! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サイコ変形",
+      "ko": "사이코 변형",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "海兵隊撒退",
+      "ko": "해병대 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……キンケドゥ！",
+      "ko": "……킨케두!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "テルウム",
+      "ko": "텔럼",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギンガナム登場",
+      "ko": "깅가남 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル撒退",
+      "ko": "라이벌 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "テ",
+      "ko": "테",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動ミ",
+      "ko": "동미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウュ少",
+      "ko": "음소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "言",
+      "ko": "단어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ",
+      "ko": "서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現ァ何",
+      "ko": "현아 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死動意意動意",
+      "ko": "사동의의 동의",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任務……了解。",
+      "ko": "임무… … 이해.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ブライト！",
+      "ko": "...... 밝은!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ャ…『…",
+      "ko": "야…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "対空機銃",
+      "ko": "대공기 총",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワッケイン",
+      "ko": "와케인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ！！",
+      "ko": "......시그! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐、！",
+      "ko": "사,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少勅",
+      "ko": "소 칙",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "今サ人",
+      "ko": "지금 사인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "目未確認",
+      "ko": "눈 미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "目標正面！",
+      "ko": "목표 정면!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ムラサメ……？",
+      "ko": "얼룩 상어 ......?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自軍全滅",
+      "ko": "자군 전멸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン……",
+      "ko": "도몬…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中継　　！",
+      "ko": "중계!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パイロットグ",
+      "ko": "파일럿",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "攻ィ…",
+      "ko": "공이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ機隊",
+      "ko": "라 기대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "言生",
+      "ko": "언어",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "今",
+      "ko": "지금",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レトタ",
+      "ko": "레토타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼　』",
+      "ko": "그」",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビプ",
+      "ko": "비프",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド尉－",
+      "ko": "드위-",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ユレ",
+      "ko": "! 유레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エゥ－ゴ士官",
+      "ko": "에고 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バズ－カ",
+      "ko": "바즈카",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウウウウウ",
+      "ko": "우우우우우우우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間ウウウ",
+      "ko": "사이 우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事了",
+      "ko": "사료",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ信念",
+      "ko": "아 신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ少",
+      "ko": "우소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "部ィ…",
+      "ko": "부이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "同",
+      "ko": "동일",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デガ…",
+      "ko": "데가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カイ１",
+      "ko": "카이 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ！",
+      "ko": "포우!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "先制攻撃",
+      "ko": "선제 공격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "似カ－ソル",
+      "ko": "유사카솔",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "取　　　！",
+      "ko": "취해!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－１",
+      "ko": "시로-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！君",
+      "ko": "! 너",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵戦力、沈黙！！",
+      "ko": "적 전력, 침묵! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少",
+      "ko": "소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギヨ",
+      "ko": "기요",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドガニ",
+      "ko": "도가니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ－ニィ１",
+      "ko": "바니1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ…パ…動…事",
+      "ko": "아…파…동…사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ……",
+      "ko": "우소…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア……",
+      "ko": "샤아......",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来同校現デギン",
+      "ko": "내동교현 데긴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ－トナ－２",
+      "ko": "파트나-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "停戦命令（タ－ン",
+      "ko": "정전 명령(탄",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "増援２登場",
+      "ko": "증원 2 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "用－、",
+      "ko": "용-,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間間間",
+      "ko": "사이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "無",
+      "ko": "없음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウ間",
+      "ko": ", 우간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キ",
+      "ko": "키",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "事　撃　、－",
+      "ko": "일격, -",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ４",
+      "ko": "카미유4",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "………！！",
+      "ko": "………! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビリビリ",
+      "ko": "빌리빌리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト！",
+      "ko": "Bright!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤ",
+      "ko": "야",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドド",
+      "ko": "도도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ現ソ",
+      "ko": "레현소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "生総員",
+      "ko": "생총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力　・",
+      "ko": "힘・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タャギ",
+      "ko": "타기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動気",
+      "ko": "동기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウ",
+      "ko": "우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気　ォ",
+      "ko": "기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レクタ",
+      "ko": "렉터",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サラ",
+      "ko": "사라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』ダ人",
+      "ko": "』 다인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ツ王家",
+      "ko": "츠 왕가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間時全",
+      "ko": "간시전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…　…",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "・　。－！…",
+      "ko": "·. -! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自ロラ",
+      "ko": "자로라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネオ・ジオン兵士",
+      "ko": "네오지온 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リィナ！",
+      "ko": "리나!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロッコ登場",
+      "ko": "시로코 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サォ…機…",
+      "ko": "사...기...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア大佐！",
+      "ko": "……샤아 대령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アクシズ兵士",
+      "ko": "액시즈 군인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア大佐！",
+      "ko": "샤아 대령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ……",
+      "ko": "카미유…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヘンケン艦長。",
+      "ko": "헨켄 함장.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト艦長！！",
+      "ko": "밝은 함장! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不",
+      "ko": "불",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "停戦命令（敵全滅",
+      "ko": "정전 명령(적 전멸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ウッソ君！！",
+      "ko": "… … 우소군! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ救出",
+      "ko": "포우 구출",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゲ－ムオ－バ－",
+      "ko": "게임무바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "時未確認",
+      "ko": "시 미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ッ",
+      "ko": "! 오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少全",
+      "ko": "소전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼",
+      "ko": "그",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "作<FF>",
+      "ko": "작<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何動事",
+      "ko": "무엇 동사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オ",
+      "ko": "오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビャ",
+      "ko": "비야",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プル",
+      "ko": "풀",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "再会",
+      "ko": "재회",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ズ　ガ",
+      "ko": "즈가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違",
+      "ko": "차이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイン……",
+      "ko": "레인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バックアップ？",
+      "ko": "백업?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "師匠……！！",
+      "ko": "스승… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……キャアッ！！",
+      "ko": "...... 캐어! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ゴメン。",
+      "ko": "...... 고멘.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガロ－ド２",
+      "ko": "갈로-드 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邦　　　！　…",
+      "ko": "일본 　 　 !　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－登場",
+      "ko": "플루츠－등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ……。",
+      "ko": "포우…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "大尉……",
+      "ko": "대위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン撒退",
+      "ko": "하만 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公必殺技",
+      "ko": "주인공 필살기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァウウバザバ",
+      "ko": "아우우바자바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気意違死気違",
+      "ko": "죽음의 뜻",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死意動",
+      "ko": "사의동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カ信念",
+      "ko": "카 신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ隊連",
+      "ko": "다대련",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃ガ…",
+      "ko": "격가 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "上本",
+      "ko": "카미모토",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サダダ",
+      "ko": "사다다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発大",
+      "ko": "폭발대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…機！",
+      "ko": "... 기계!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド",
+      "ko": "드",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ル　！",
+      "ko": "르!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダッ－",
+      "ko": "닷",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ッ！？",
+      "ko": "… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドクタ－Ｊ？",
+      "ko": "닥터 J?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウォン・リ－！！",
+      "ko": "원리-! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "伏兵……！？",
+      "ko": "복병… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アクシズ登場",
+      "ko": "액시즈 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "………………。",
+      "ko": "……………….",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミアン……！！",
+      "ko": "미안… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カツ……！！",
+      "ko": "카츠… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン……！！",
+      "ko": "하마-… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動<EE>違機",
+      "ko": "동 <EE>위기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ覚醒",
+      "ko": "카미유 각성",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン１",
+      "ko": "도몬 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "政府高官Ｂ",
+      "ko": "정부 고관 B",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－……？",
+      "ko": "가토-…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ドモン！？",
+      "ko": "…… 도몬! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自",
+      "ko": "자체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ポゥ２",
+      "ko": "포2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何我",
+      "ko": "무엇아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邦同",
+      "ko": "일본",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レレ",
+      "ko": "렐레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気。",
+      "ko": "죽음.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "球",
+      "ko": "구",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ元気",
+      "ko": "타 건강",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不動",
+      "ko": "부동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "題！",
+      "ko": "제목!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロ　、",
+      "ko": "로,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ィ私－",
+      "ko": "이나－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "軍ガ…",
+      "ko": "군 가…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "生",
+      "ko": "원시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…ォ…",
+      "ko": "… 워…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "球ド…",
+      "ko": "구드…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドド機",
+      "ko": "도도 기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間何気",
+      "ko": "얼마간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼ガ…",
+      "ko": "그가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "対空レ－ザ－",
+      "ko": "대공 레자",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ、シグ……！",
+      "ko": "시, 시그…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－死亡",
+      "ko": "가토-사망",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連邦兵士",
+      "ko": "연방 군인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オ－ラＡ",
+      "ko": "오라A",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ニュ－タイプ",
+      "ko": "뉴 타입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "出ォ…機…",
+      "ko": "나오...기...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』機ィ",
+      "ko": "』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、不間",
+      "ko": ", 불간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダダ人",
+      "ko": "다다인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。取買ガ辿",
+      "ko": ". 구매 가패",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スタックチェック",
+      "ko": "스택 체크",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト２",
+      "ko": "브라이트 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サラ……",
+      "ko": "사라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－登場",
+      "ko": "쥬도 - 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オルバ２",
+      "ko": "올바 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リ、リィナ……！",
+      "ko": "리, 리나…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト艦長。",
+      "ko": "밝은 함장.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディアナ収容",
+      "ko": "디아나 수용",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディアナ",
+      "ko": "디아나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド……！？",
+      "ko": "제리드… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！時",
+      "ko": "! 시간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウ少",
+      "ko": "우우 소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体闘",
+      "ko": "체투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワ機…",
+      "ko": "와기 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クロレ",
+      "ko": "클로레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダダダ",
+      "ko": "다다다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プル！！",
+      "ko": "풀! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ隊",
+      "ko": "타대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意意同",
+      "ko": "의의동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "読。",
+      "ko": "읽기.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オー",
+      "ko": "O",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プルツ－１",
+      "ko": "플루츠-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "追撃中止",
+      "ko": "추격 중지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ド　　　！",
+      "ko": "드　　！",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "激突戦宙域",
+      "ko": "격돌 전주역",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…違<E7E2>",
+      "ko": "…위 <E7E2>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "闘",
+      "ko": "투투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ポゥ１",
+      "ko": "포1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "警報",
+      "ko": "알람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "以ィ…",
+      "ko": "이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！グ",
+      "ko": "! 구",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……マスタ－？",
+      "ko": "… … 마스터-?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド撃破",
+      "ko": "Jerid 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戦艦１撃破",
+      "ko": "전함 1 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "回避ダウン",
+      "ko": "회피 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意死気。",
+      "ko": "의사기.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ・ユイ！",
+      "ko": "히이로 유이!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アクシズ先遣艦隊",
+      "ko": "액시즈 선견 함대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "駡",
+      "ko": "駡",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…<EE>",
+      "ko": "...<EE>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中デ",
+      "ko": "중간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方…ニ",
+      "ko": "쪽…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キシリア閣下。",
+      "ko": "자일리아 각하.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カツ君！",
+      "ko": "카츠군!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティタ－ンズ兵士",
+      "ko": "티탄즈 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン２",
+      "ko": "도몬 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－敗北",
+      "ko": "쥬도 - 패배",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ……",
+      "ko": "시그…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "移動ダウン",
+      "ko": "이동 다운",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン様。",
+      "ko": "하만 님.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト！！",
+      "ko": "Bright! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ト",
+      "ko": "! 트",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "∀ｖｓ　タ－ン",
+      "ko": "∀vs　탄",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ナンバ－４……",
+      "ko": "넘버-4…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了　、、！…",
+      "ko": "OK,,! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイン２",
+      "ko": "레인 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……パパ。",
+      "ko": "......아빠.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公１",
+      "ko": "주인공 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャトル発進",
+      "ko": "셔틀 발진",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウィルゲム撒退",
+      "ko": "윌젬 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意意』意』不動",
+      "ko": "의의」의」부동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "照準固定！",
+      "ko": "조준 고정!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "（ハマ－ン！？）",
+      "ko": "(하만!?)",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "君",
+      "ko": "너",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マ…",
+      "ko": "마…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ…",
+      "ko": "시…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "トビア",
+      "ko": "토비아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "艦",
+      "ko": "함",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…意",
+      "ko": "...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "密談",
+      "ko": "밀담",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』サダ",
+      "ko": "』 사다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "合",
+      "ko": "합",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マ会",
+      "ko": "마회",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マ",
+      "ko": "마",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任",
+      "ko": "임",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダエィ",
+      "ko": "다이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ",
+      "ko": "다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "大気圏突入",
+      "ko": "대기권 돌입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カクリコン",
+      "ko": "카크리콘",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連続戦闘",
+      "ko": "연속 전투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "スエッソン",
+      "ko": "스에손",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "システム発動",
+      "ko": "시스템 발동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ現現ソソ！ソ",
+      "ko": "레현현 소소! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……レコア少尉？",
+      "ko": "……레코어 소위?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レ－ザ－",
+      "ko": "레-자-",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユ！エ",
+      "ko": "유! E",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジ王家",
+      "ko": "지왕가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意違",
+      "ko": "의도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、闘<EF>",
+      "ko": ", 투투 <EF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "メ惹",
+      "ko": "메 게",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地惹",
+      "ko": "지창",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジオンＮＴ",
+      "ko": "지온 NT",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ララァｖｓアムロ",
+      "ko": "라라아 vs 아무로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……大尉？",
+      "ko": "……대위?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャミトフ１",
+      "ko": "자미토프 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ……",
+      "ko": "아무로…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少尉……。",
+      "ko": "소위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……クソッ！",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "月光蝶発動",
+      "ko": "달빛 나비 발동",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワ機！",
+      "ko": "와 기계!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ我",
+      "ko": "라아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パィ…",
+      "ko": "파이...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "隊",
+      "ko": "대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラドト",
+      "ko": "Radoto",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－マ",
+      "ko": "시마",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……爆発！？",
+      "ko": "……폭발! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……コッセル！！",
+      "ko": "……코셀! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジオン海兵隊員",
+      "ko": "지온 해병대원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤツラ……！？",
+      "ko": "야츠라… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ出撃",
+      "ko": "우소 출격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－軍兵士",
+      "ko": "그레미 - 군 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シ－マ！？",
+      "ko": "… … 시마! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "『ダメ……！！』",
+      "ko": "『안돼… ! 』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "艦隊突撃",
+      "ko": "함대 돌격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ待買力辿",
+      "ko": "타대매력 추적",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リリ－ナ",
+      "ko": "릴리-나",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャミトフ暗殺",
+      "ko": "자미토프 암살",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイラ……",
+      "ko": "레이라…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "思未確認",
+      "ko": "미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エゥ－ゴ登場",
+      "ko": "에고 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ…ララァ……",
+      "ko": "라...라라아......",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタ！現ロ現ソ",
+      "ko": "로타! 현재현재",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "長",
+      "ko": "길이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ク　『",
+      "ko": "쿠 『",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "貴隊・",
+      "ko": "귀대・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機。",
+      "ko": "기계.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウォン",
+      "ko": "원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ！ソ",
+      "ko": "타! 서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "解長解",
+      "ko": "해장해",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "々ガ…",
+      "ko": "들...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少ィ…",
+      "ko": "소…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "場",
+      "ko": "장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "尉",
+      "ko": "위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ノイン",
+      "ko": "노인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タトタ",
+      "ko": "타토타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……サラ！",
+      "ko": "......사라!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "任務了解",
+      "ko": "임무 이해",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン４",
+      "ko": "여 주인공 4",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リィナ！！",
+      "ko": "리나! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼惹",
+      "ko": "그 매력",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間動間",
+      "ko": "간동간",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "行良",
+      "ko": "행양",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "………？",
+      "ko": "………?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア……！！",
+      "ko": "샤아… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ル作テトゥ",
+      "ko": "르작 테투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－１",
+      "ko": "쥬드-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン君……",
+      "ko": "하마-군군…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ１",
+      "ko": "포우1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "隊ド",
+      "ko": "대도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ",
+      "ko": "보",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "違　。！！…",
+      "ko": "아니요. ! ! …",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アグリッパ－",
+      "ko": "아그리퍼－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死意違死。違",
+      "ko": "사의 위사. 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！　分　契　…",
+      "ko": "!　분　계계…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……セラ！？",
+      "ko": "……세라! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オ－ラＢ",
+      "ko": "오라 B",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ何動ウウウウ",
+      "ko": "우무동 우우우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ登場",
+      "ko": "아무로 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォ、フォウ！？",
+      "ko": "포, 포우! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "マウア－",
+      "ko": "마우아",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ＷＢ脱出開始",
+      "ko": "WB 탈출 개시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－参入",
+      "ko": "가토-참가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "識",
+      "ko": "식",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵全滅",
+      "ko": "적 전멸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パド",
+      "ko": "Pad",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "桿…",
+      "ko": "간…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "攻",
+      "ko": "공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "思キ…",
+      "ko": "생각...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レッ－",
+      "ko": "레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミアン……！？",
+      "ko": "미안… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……バスク大佐！",
+      "ko": "……바스크 대령!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間　　…",
+      "ko": "간　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カ－ソル移動ＳＥ",
+      "ko": "카솔 이동 SE",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ－ンＸ？",
+      "ko": "탄 X?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連邦エリ－ト兵",
+      "ko": "연방 엘리트 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ュ…不…言…撃",
+      "ko": "u...불...언...격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガロ－ド",
+      "ko": "갈로도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザビ－ネ",
+      "ko": "자비네",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動連",
+      "ko": "동련",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ソ分",
+      "ko": "! 서분",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ッ！",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "移動アップ",
+      "ko": "이동 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "艦－チクショウ…",
+      "ko": "함-치쿠쇼우…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "クッ…クリス！？",
+      "ko": "쿠... 크리스! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ザビ－ネ。",
+      "ko": "… …자비네.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…………………",
+      "ko": "…………………",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "使　　！",
+      "ko": "사용!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティファ",
+      "ko": "티파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "意意動意違",
+      "ko": "의의동의위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "人…ッ…中",
+      "ko": "사람…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－軍士官",
+      "ko": "그레미 - 군사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……彼？",
+      "ko": "...... 그?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何　塞。！",
+      "ko": "무슨 색. !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プ、プルツ－！！",
+      "ko": "프, 플루츠-! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－軍ＮＴ",
+      "ko": "그레미-군 NT",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ユウ？",
+      "ko": "… …유우?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタ！",
+      "ko": "로타!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！行",
+      "ko": "! 행",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間気",
+      "ko": "간기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体現ォ",
+      "ko": "체현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ヤ了",
+      "ko": ", 야료",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "パ連",
+      "ko": "파련",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気死",
+      "ko": "죽음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体ミ",
+      "ko": "체미",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フ人",
+      "ko": "후인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "放電",
+      "ko": "방전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、様",
+      "ko": ", 님",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間ワブ",
+      "ko": "사이 와브",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵－オ",
+      "ko": "적-오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "中気",
+      "ko": "중기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "分",
+      "ko": "분",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！躍",
+      "ko": "! 약",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グ……ウゥ……",
+      "ko": "구……우…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "今』ラチャ今",
+      "ko": "지금」라차지금",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了。今",
+      "ko": "OK. 지금",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少機",
+      "ko": "소기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ズル、",
+      "ko": "줄,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゥ惹",
+      "ko": "울창",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウッ",
+      "ko": "우우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ッド！",
+      "ko": "드!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来ォ",
+      "ko": "와오",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ァ　ル",
+      "ko": "아　르",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブ",
+      "ko": "B",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ララァッ！！",
+      "ko": "라라! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セラ！？",
+      "ko": "세라! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウバ",
+      "ko": "우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "々ィ…",
+      "ko": "들…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "－、！",
+      "ko": "-,!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃体",
+      "ko": "격체",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間",
+      "ko": "사이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間ギワ",
+      "ko": "사이 기와",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "君信念",
+      "ko": "너 신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何闘",
+      "ko": "몇투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃",
+      "ko": "촬영",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "待",
+      "ko": "대기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "軍",
+      "ko": "군",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現備レ",
+      "ko": "현비 레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "無今",
+      "ko": "무지금",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動西",
+      "ko": "동서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。機…",
+      "ko": ". 기계…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ－トン財団兵士",
+      "ko": "배턴 재단 병사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ－ゲット出現",
+      "ko": "타겟 출현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ、シグ……！！",
+      "ko": "시, 시그… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！　タ　！！",
+      "ko": "!　타　! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、何",
+      "ko": ", 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…連",
+      "ko": "...연",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リ",
+      "ko": "리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ",
+      "ko": "라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "遭遇",
+      "ko": "조우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ツ現",
+      "ko": "투현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ々レ",
+      "ko": "우울레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "買",
+      "ko": "구매",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザウ",
+      "ko": "자우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シャア！？",
+      "ko": "......샤아! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デビルＧ触手",
+      "ko": "악마 G 촉수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミアン少尉！！",
+      "ko": "미안 소위! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "自ゥ少前",
+      "ko": "자우 소전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ノイン……",
+      "ko": "노인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジッ",
+      "ko": "지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "備ュ全",
+      "ko": "뷰 전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガド！",
+      "ko": "갓!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "プ<EB>ジ",
+      "ko": "프<EB>지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フィル",
+      "ko": "채우기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サ、サラ……！？",
+      "ko": "사, 사라… ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "格闘ダメ－ジ",
+      "ko": "격투 데미지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発ＳＥ",
+      "ko": "폭발 SE",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "コロニ－撃沈",
+      "ko": "콜로니-격침",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワッケイン撒退",
+      "ko": "와케인 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒイロ登場",
+      "ko": "히로 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジャミトフ２",
+      "ko": "자미토프 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セレイ……",
+      "ko": "셀레이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウ少何",
+      "ko": ", 우소 무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動動動動レレレレ",
+      "ko": "동동 동동 레렐레레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "レイラ２",
+      "ko": "레이라 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト中佐……",
+      "ko": "브라이트 중령…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディアナ様！",
+      "ko": "디아나님!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キ、キャプテン！",
+      "ko": "키, 캡틴!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼクス……。",
+      "ko": "젝스…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン３",
+      "ko": "하마-3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タプ今攻機",
+      "ko": "탭 지금 공기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－２",
+      "ko": "그레미-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン８",
+      "ko": "하마-8",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……神？",
+      "ko": "......신?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方－間人…",
+      "ko": "분-간인…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイン！！",
+      "ko": "아인! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドクタ－Ｊ！！",
+      "ko": "닥터 J! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハリ－中尉？",
+      "ko": "하리-중위?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地",
+      "ko": "지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "隊<FF>",
+      "ko": "대 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヤ択",
+      "ko": "야택",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ミアン！",
+      "ko": "...... 미안!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ミアン！？",
+      "ko": "...... 미안! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モィ！",
+      "ko": "모이!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ケリィ",
+      "ko": "케리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ギセ",
+      "ko": "기세",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐隊ド",
+      "ko": "사대도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネィ…",
+      "ko": "네이...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不生<FF>",
+      "ko": "불생 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不場",
+      "ko": "불장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "跳タ",
+      "ko": "점프",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "佐ィ…",
+      "ko": "사이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間人",
+      "ko": "간인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ー　！！",
+      "ko": "ー! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ』サ",
+      "ko": "우」사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死死",
+      "ko": "죽음",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "邦　タ　　　　…",
+      "ko": "쿠니타타　　　…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現現レ現ソ",
+      "ko": "현현 레현소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－反乱",
+      "ko": "그레미 - 반란",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロレ現現レ現",
+      "ko": "로레현현 레현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト参入",
+      "ko": "밝은 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ア－ガマ登場",
+      "ko": "아-가마 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バルカン",
+      "ko": "발칸",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……代理？",
+      "ko": "……대리?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ン貴ビカ言",
+      "ko": "엔키비카언",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "主人公３",
+      "ko": "주인공 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セ、セラ！？",
+      "ko": "세, 세라! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オセ前カ",
+      "ko": "오세 전카",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アイン・レヴィ。",
+      "ko": "아인 레비.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ撃破",
+      "ko": "아무로 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少エ",
+      "ko": "소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "輩』",
+      "ko": "배』",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼ計",
+      "ko": "제계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シグ中尉！？",
+      "ko": "시그 중위! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？。ニ",
+      "ko": "? . 니",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ォ総員",
+      "ko": "o 총원",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グ－－",
+      "ko": "그－－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "少全場",
+      "ko": "소전장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウ邦ベ",
+      "ko": "우방베",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ンッ！！",
+      "ko": "하마 흠! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "王城侵入",
+      "ko": "왕성 침입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャトル撒退",
+      "ko": "셔틀 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロラン撃破",
+      "ko": "로랑 격파",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドモン５",
+      "ko": "도몬 5",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウッソ２",
+      "ko": "우소 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サ",
+      "ko": "사",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ミォ後",
+      "ko": "미오 후",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不邦",
+      "ko": "불방",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ククタ",
+      "ko": "쿠쿠타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ア機攻",
+      "ko": "아기공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "績。！！",
+      "ko": "성적. ! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バ－トン財団。",
+      "ko": "배턴 재단.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "気　　　！",
+      "ko": "기분!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オ機我ガ",
+      "ko": "오기아가",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネオ・ジオン撒退",
+      "ko": "네오지온 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ参入",
+      "ko": "아무로 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "文字表示",
+      "ko": "문자 표시",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティタ－ンズ撒退",
+      "ko": "티탄즈 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "突破成功",
+      "ko": "돌파 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャア２",
+      "ko": "샤아 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "大コ人ト",
+      "ko": "대코인트",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ティタ－ンズ士官",
+      "ko": "티탄즈 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵増援登場１",
+      "ko": "적 증원 등장 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……了解。",
+      "ko": "...... 이해.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディアナ様。",
+      "ko": "디아나님.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "反応アップ",
+      "ko": "반응 업",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タ－ンＸ登場",
+      "ko": "탄X 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…見未確認",
+      "ko": "... 미확인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "通通",
+      "ko": "통통",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハリ－",
+      "ko": "하리－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サダ",
+      "ko": "사다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』択",
+      "ko": "'선택",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！ソ！",
+      "ko": "! 서!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "現",
+      "ko": "현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "セ闘",
+      "ko": "세투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウバ",
+      "ko": "우우바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "備　・",
+      "ko": "비・・",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザ少",
+      "ko": "더 적은",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼。前人！",
+      "ko": "그. 전인!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ソ賛",
+      "ko": "서찬",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザィ…",
+      "ko": "자이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ラ気",
+      "ko": "라기",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サイド６潜入",
+      "ko": "사이드 6 잠입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハリ－中尉！",
+      "ko": "하리-중위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東方不敗２",
+      "ko": "동방 불패 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エマ中尉……",
+      "ko": "엠마 중위…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジェリド２",
+      "ko": "Jerid 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネオ・ジオン出現",
+      "ko": "네오지온 출현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ドクタ－Ｊ",
+      "ko": "닥터 J",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "目標……",
+      "ko": "목표…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シ－マ登場",
+      "ko": "시마 등장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シャギア２",
+      "ko": "샤기아2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エゥ－ゴ兵士",
+      "ko": "에고 군인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウウウウザ",
+      "ko": "우우우우자",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "！窟",
+      "ko": "! 굴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン撃破２",
+      "ko": "히로인 격파 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "アムロ…レイ……",
+      "ko": "아무로… 레이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ハリ－！",
+      "ko": "……하리－!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "大ダメ－ジ",
+      "ko": "대미지",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "。隊",
+      "ko": ". 대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』ダ",
+      "ko": "』 다",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "手…少",
+      "ko": "손 ... 작은",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "子計",
+      "ko": "자계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "何ギ",
+      "ko": "무엇",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "様西",
+      "ko": "양서",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボバ",
+      "ko": "보바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライラ",
+      "ko": "라일라",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "卑怯",
+      "ko": "비옥",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "不解<FF>",
+      "ko": "알 수 없는 <FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ユ",
+      "ko": "유",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "大",
+      "ko": "대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "標－",
+      "ko": "표-",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "了",
+      "ko": "OK",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体長",
+      "ko": "몸길이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "戸",
+      "ko": "문",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ル",
+      "ko": "Le",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウィ…",
+      "ko": "위...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "復活",
+      "ko": "부활",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "以ガ…",
+      "ko": "이후…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ネガ…",
+      "ko": "네거티브...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "体体タ",
+      "ko": "체체 타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ！",
+      "ko": "......시그!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "？。艦",
+      "ko": "? . 함",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ヒロイン２",
+      "ko": "여 주인공 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ー大現合",
+      "ko": "-대현합",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－！",
+      "ko": "쥬드－!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "補給終了",
+      "ko": "보급 종료",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "全ニオ前",
+      "ko": "전 니오 전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "連邦兵士・狂",
+      "ko": "연방 병사·광",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バリア－",
+      "ko": "배리어－",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ…知ィ…",
+      "ko": "보…지…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガト－２",
+      "ko": "가토-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……中尉！？",
+      "ko": "......중위! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "リレ",
+      "ko": "릴레",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "オルバ",
+      "ko": "올바",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "撃<E7E6>",
+      "ko": "격 <E7E6>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ヤ<EF>",
+      "ko": ", 야<EF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "部隊長",
+      "ko": "부대장",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ』",
+      "ko": "다」",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ワガ…",
+      "ko": "와가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "来生",
+      "ko": "내생",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "タレタ",
+      "ko": "탈레타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "方…様",
+      "ko": "분…양",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "機",
+      "ko": "기계",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サ人",
+      "ko": "사인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "上…",
+      "ko": "위...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダ隊",
+      "ko": "다대",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "地　ェ　。－",
+      "ko": "땅 　 　. －",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カテジナ２",
+      "ko": "카테지나 2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト中佐。",
+      "ko": "밝은 중령.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "カミ－ユ、",
+      "ko": "카미유,",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブライト１",
+      "ko": "브라이트 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……………！",
+      "ko": "……………!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライバル３",
+      "ko": "라이벌 3",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "動意意違違。違",
+      "ko": "동의의 위반. 다름",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "友尊隊信念",
+      "ko": "우존대 신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "東方不敗撒退",
+      "ko": "동방 불패 철수",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "サイコフレ－ム",
+      "ko": "사이코프레임",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バニング",
+      "ko": "버닝",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ハマ－ン２",
+      "ko": "하마-2",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "敵機…",
+      "ko": "적기 ...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "私ォ",
+      "ko": "우리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゼ",
+      "ko": "제",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "力リ",
+      "ko": "힘 리",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "彼ィ…",
+      "ko": "그...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ュ<FF>",
+      "ko": "u<FF>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ュ闘",
+      "ko": "추투",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』機…",
+      "ko": "』기…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ロタロ",
+      "ko": "로타로",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ信念",
+      "ko": "보 신념",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "、ウュ",
+      "ko": ", 으",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "前",
+      "ko": "이전",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ハマ－ン！？",
+      "ko": "……하만! ?",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ガロ－ド参入",
+      "ko": "갈로드 진입",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "捕獲失敗",
+      "ko": "캡처 실패",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロ－……",
+      "ko": "시로－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ。",
+      "ko": "...... 시그.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ビ－ムマシンガン",
+      "ko": "빔 머신건",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボ…攻ィ…",
+      "ko": "보…공이…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "キャンセル",
+      "ko": "취소",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "バニング大尉！",
+      "ko": "버닝 대위!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "デラ－ズ士官",
+      "ko": "데라-즈 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……シグ中尉。",
+      "ko": "… … 시그 중위.",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "救助成功",
+      "ko": "구조 성공",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グレミ－１",
+      "ko": "그레미-1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "シロッコ",
+      "ko": "시로코",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジュド－……！",
+      "ko": "쥬드－…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死気。意死意違",
+      "ko": "죽음. 의사의위",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死！タ",
+      "ko": "죽음! 타",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダッ",
+      "ko": "닷",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "電撃",
+      "ko": "전격",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "』人",
+      "ko": "』사람",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "死肖",
+      "ko": "사초",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ナォィ",
+      "ko": "나이",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ライデン",
+      "ko": "라이덴",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "分　契！！",
+      "ko": "분계계! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "…………！！",
+      "ko": "…………! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジオン兵士",
+      "ko": "지온 군인",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "グエン１",
+      "ko": "구엔 1",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "フォウ……！！",
+      "ko": "포우… !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ザ不",
+      "ko": "더 불",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ゥ　<EB>",
+      "ko": "<EB>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブドド",
+      "ko": "포도",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ボザウ",
+      "ko": "보자우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "手…『",
+      "ko": "손…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "思",
+      "ko": "생각",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "エゥ－ゴ……",
+      "ko": "에-고…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ジオン士官",
+      "ko": "지온 사관",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ブレックス",
+      "ko": "블랙스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ト－レス",
+      "ko": "트레스",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "爆発アウト",
+      "ko": "폭발 아웃",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "間動動現",
+      "ko": "간동동현",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "汎用オ－ラ発生",
+      "ko": "범용 오라 발생",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ウガ…",
+      "ko": "우가...",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ダウ",
+      "ko": "다우",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "ディ！",
+      "ko": "디!",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "者<E7E5>",
+      "ko": "자 <E7E5>",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "………了解。",
+      "ko": "…",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "……ヒイロ！！",
+      "ko": "......히로! !",
+      "notes": "auto_ui_translated"
+    },
+    {
+      "jp": "モ",
+      "ko": "모",
+      "notes": "auto_ui_translated"
+    }
+  ]
+}

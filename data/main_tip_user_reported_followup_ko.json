@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "2026-08-13 user-reported current main TIP weapon/dialogue/runtime-structure corrections and exact duplicates",
+  "translation_source": "user_correction_with_pristine_japanese_binding",
+  "review_status": "approved_for_main_tip",
+  "glyphs": {
+    "윕": "EC82",
+    "팬": "EC83"
+  },
+  "dictionary_entries": [
+    {"index": "0FF20", "jp": "スクリュ－・ウェッブ", "before": "스크루・웨브", "after": "스크류　윕", "reason": "user weapon-name correction"},
+    {"index": "0FEDC", "jp": "ヒ－トファン", "before": "히트　부채", "after": "히트　팬", "reason": "user weapon-name correction"},
+    {"index": "0FF0A", "jp": "ビ－ムファン", "before": "빔　부채", "after": "빔　팬", "reason": "same ファン weapon-name family"},
+    {"index": "0C70C", "jp": "兵器スクリュ－・ウェッブを", "before": "병기　스크루・웹을", "after": "병기　스크류　윕을", "reason": "same Screw Web encyclopedia occurrence"},
+    {"index": "017A6", "jp": "メン、メン、メェェンっ！！", "before": "면、면、메엥！！", "after": "면、면、며언！！", "reason": "user Domon shout correction"},
+    {"index": "0F4A0", "jp": "貴様ぁぁぁ－っ！！", "before": "이놈아아아！！", "after": "네놈이이！！", "reason": "user 貴様ぁぁ rendering correction"},
+    {"index": "01181", "jp": "キサマぁぁぁ－－っ！！", "before": "네놈아아아！！", "after": "네놈이이！！", "reason": "same キサマぁぁ family"},
+    {"index": "0513F", "jp": "キサマぁぁ－っ！", "before": "네놈아아아！！", "after": "네놈이이！", "reason": "same キサマぁぁ family"},
+    {"index": "061A2", "jp": "キっサマぁぁっ！！", "before": "네놈아아아！！", "after": "네놈이이！！", "reason": "same キサマぁぁ family"},
+    {"index": "040E7", "jp": "き、キサマぁぁぁっ！！", "before": "이、　이놈아아앗！！", "after": "이、　네놈이이！！", "reason": "same キサマぁぁ family with stammer preserved"}
+  ],
+  "record_entries": [
+    {"abs": "5E4477", "jp": "み…みんな！<E62F>退避してください！", "before": "み…모두！<E62F>대피하세요！", "after": "…모두！<E62F>대피하세요！", "strategy": "remove runtime-proven visible 69=み false metadata lead; preserve body token and record extent"},
+    {"abs": "5E4620", "jp": "み…みんな！<E62F>退避してください！", "before": "み…모두！<E62F>대피하세요！", "after": "…모두！<E62F>대피하세요！", "strategy": "exact duplicate of 5E4477"},
+    {"abs": "5D8DFB", "jp": "ジわたくしは", "before": "力", "after": "저는", "strategy": "restore original 45 speaker/sprite metadata before the existing F55A body token within the fixed 3-byte record"},
+    {"abs": "5D8F0A", "jp": "ジわたくしは", "before": "力", "after": "저는", "strategy": "exact duplicate of 5D8DFB"}
+  ]
+}

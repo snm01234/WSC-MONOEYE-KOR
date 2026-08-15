@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "scope": "followup after validated garrod_loran_guen_literal_retranslation_candidate: Garrod 627F98+ Frost MT + Loran/Guen residual JP/mixed",
+  "parent_candidate": "out/patch/garrod_loran_guen_literal_retranslation_candidate.wsc",
+  "provenance": {
+    "translation_source": "llm_from_japanese_original",
+    "review_status": "approved_for_main_candidate",
+    "legacy_machine_translation_used_as_translation_source": false,
+    "legacy_machine_translation_usage": "forensic provenance and defect discovery only",
+    "forensic_sources": [
+      "out/patch/garrod_loran_guen_retranslation_scan.json",
+      "out/script/translations_quality_all.json",
+      "out/script/translation_sheet.csv"
+    ],
+    "canonical_source": "SD Gundam G Generation Mono-Eye Gundams.wsc",
+    "terminology": {
+      "ガロード/ガロ－ド": "가로드",
+      "グエン": "구엔",
+      "フロスト": "프로스트",
+      "ロラン": "로랑",
+      "ローラ/ロ－ラ": "로라",
+      "ティファ": "티파",
+      "ウィルゲム": "윌게임",
+      "マザー・バンガード": "마더・뱅가드"
+    }
+  },
+  "entries": [
+    {
+      "abs": "627F98",
+      "jp": "私の力が必要な時はいつでも言って、",
+      "ko": "내　힘이　필요할　때는　언제든지　말해、",
+      "mode": "portal_retarget",
+      "reason": "clause split invasion; 말하고 was wrongly on next record"
+    },
+    {
+      "abs": "627FAB",
+      "jp": "……ガロ－ド。",
+      "ko": "……가로드。",
+      "mode": "native_restore",
+      "reason": "record-boundary MT 말하고+갈로－도; stock 0AAC=가로드"
+    },
+    {
+      "abs": "627FCD",
+      "jp": "覚悟しろよ、フロスト兄弟！！",
+      "ko": "각오하라、　프로스트　형제！！",
+      "mode": "portal_retarget",
+      "reason": "서리=weather MT; フロスト=Frost brothers"
+    },
+    {
+      "abs": "627FDB",
+      "jp": "ティファの愛のパワ－で",
+      "ko": "티파의　사랑의　파워로",
+      "mode": "portal_retarget",
+      "reason": "missing で→로 particle"
+    },
+    {
+      "abs": "627FE6",
+      "jp": "オマエらなんかぶっとばしてやるからな！",
+      "ko": "너희　따위는　날려　버릴　테니까！",
+      "mode": "portal_retarget",
+      "reason": "literal ぶっとばしてやるからな"
+    },
+    {
+      "abs": "59943F",
+      "jp": "ロ－ラをとりおさえてくれ！",
+      "ko": "로라를　잡아　줘！",
+      "mode": "portal_install",
+      "reason": "still pristine JP after 누구　없어요"
+    },
+    {
+      "abs": "59945D",
+      "jp": "グエン・ラインフォ－ドが裏切っただと！？",
+      "ko": "구엔・라인포드가　배신했다고！？",
+      "mode": "portal_install",
+      "reason": "partial stock KO + JP residual mix"
+    },
+    {
+      "abs": "599480",
+      "jp": "ボクでは止められなくて……。",
+      "ko": "저로서는　막을　수가　없어서……。",
+      "mode": "portal_install",
+      "reason": "still pristine JP Loran apology continuation"
+    },
+    {
+      "abs": "5994B5",
+      "jp": "痛手だな……",
+      "ko": "뼈아픈　일이야……",
+      "mode": "portal_install",
+      "reason": "still pristine JP"
+    },
+    {
+      "abs": "5994CB",
+      "jp": "駆け付けて来てくれたのは幸いでしたね。",
+      "ko": "달려와　준　건　다행이었네요。",
+      "mode": "portal_install",
+      "reason": "still pristine JP"
+    },
+    {
+      "abs": "5994E3",
+      "jp": "ウィルゲムの抜けた穴は",
+      "ko": "윌게임의　빈　구멍은",
+      "mode": "portal_install",
+      "reason": "mixed 윌게임+JP particles"
+    },
+    {
+      "abs": "5994EF",
+      "jp": "マザ－・バンガ－ドに埋めてもらいましょう",
+      "ko": "마더・뱅가드에　메워　달라고　하죠",
+      "mode": "portal_install",
+      "reason": "mixed Mother Vanguard line"
+    }
+  ]
+}

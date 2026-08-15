@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "followup_candidate_spec_pending_runtime_verification",
+  "parent": "out/patch/id_command_residual_plaques_ko_candidate.wsc",
+  "parent_sha256": "3ffbb11f18643ad029dcd869bd26f0b38b6ee2e1274ac489e12f3f4d4e553029",
+  "font": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+  "stroke_width": 1,
+  "targets": [
+    {
+      "logical": "4C4A74",
+      "name": "seal",
+      "jp": "封印!",
+      "ko": "봉인!",
+      "text": "봉인!",
+      "storage": "body_40x16_plus_shared_right_cap",
+      "display_width": 48,
+      "clear_zone": [6, 40],
+      "draw_origin": [8, 1],
+      "font_size": 12,
+      "note": "Keep the validated Korean placement and widen only the clear zone two pixels left so x=6..7 cannot retain Japanese strokes; preserve the rounded left cap x=0..5 and shared right cap x=40..47."
+    },
+    {
+      "logical": "4CC32A",
+      "name": "pursuit",
+      "jp": "追撃!",
+      "ko": "추격!",
+      "text": "추격!",
+      "storage": "sparse_40x16_insert_shared_mid_column",
+      "display_width": 48,
+      "clear_zone": [6, 40],
+      "draw_origin": [8, 1],
+      "font_size": 12,
+      "shared_display_column": 3,
+      "shared_top_logical": "4CB80A",
+      "shared_bottom_logical": "4CB8AA",
+      "note": "Widen only the clear zone. Draw origin stays x=8 so display x=24..31 remains pixel-exact with the already-localized shared 전격 tile pair."
+    },
+    {
+      "logical": "4C4BB4",
+      "name": "shield",
+      "jp": "盾!",
+      "ko": "방패",
+      "text": "방패",
+      "storage": "body_32x16_plus_shared_right_cap",
+      "display_width": 40,
+      "clear_zone": [6, 32],
+      "font_size": 12,
+      "note": "Remove the exclamation mark and use the same Galmuri11-Bold 12 px plaque treatment as 공격/방어/이동. Center the two Hangul glyphs inside the writable body while preserving both rounded edge regions."
+    },
+    {
+      "logical": "4CC52A",
+      "name": "hp_recovery",
+      "jp": "HP回復",
+      "ko": "HP회복",
+      "text": "회복",
+      "storage": "full_48x16",
+      "display_width": 48,
+      "clear_zone": [14, 40],
+      "draw_origin": [14, 1],
+      "font_size": 12,
+      "preserve_stock_through_x": 13,
+      "restore_common_right_cap_from_x": 40,
+      "note": "Reconstruct from the stock HP回復 plaque, keep stock x=0..13 byte/pixel-identical so the original HP remains untouched, clear only the Japanese region, render 회복, and restore the validated clean common right cap at x=40..47."
+    }
+  ]
+}

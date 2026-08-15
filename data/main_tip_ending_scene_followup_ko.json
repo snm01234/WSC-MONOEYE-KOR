@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_status": "user_reported_candidate",
+  "reported_at": "2026-08-15",
+  "targets": [
+    {
+      "abs": "63AE59",
+      "issue": "ending_scene_graphics_glitch",
+      "source_jp": "シグ……！！",
+      "current_ko": "시그……！！",
+      "target_ko": "시그……！！",
+      "strategy": "rehome_visible_body_from_e518_to_native_stock_token",
+      "reason": "The reported screen is the 63AE59 Sera line. Its live body is an E5 18 expansion-dictionary portal while the special ending art is active. Rehome only this line to an ordinary stock dictionary token so rendering no longer remaps ROM1 during this frame; keep prefix, extent, terminator, and neighboring event controls byte-exact."
+    },
+    {
+      "abs": "63B5ED",
+      "issue": "untranslated_ending_dialogue",
+      "source_jp": "彼女の行為を無にしないためにも、",
+      "target_ko": "그녀의　희생을　헛되게　하지　않으려면、",
+      "strategy": "fresh_regular_ext3_token",
+      "reason": "The current main still contains the pristine Japanese body. The Korean line is exactly 20 display cells and leads naturally into the following line about continuing to live."
+    }
+  ]
+}

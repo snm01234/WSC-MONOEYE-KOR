@@ -1,0 +1,136 @@
+{
+  "description": "Third pass: high-confidence UI/battle labels + org terms mined after script/ext3 (exclude dialogue fragments).",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "entries": [
+    {
+      "jp": "ユニット",
+      "ko": "유닛",
+      "cat": "ui"
+    },
+    {
+      "jp": "パイロット",
+      "ko": "파일럿",
+      "cat": "ui"
+    },
+    {
+      "jp": "戦闘不能",
+      "ko": "전투　불능",
+      "cat": "battle"
+    },
+    {
+      "jp": "未確認",
+      "ko": "미확인",
+      "cat": "battle"
+    },
+    {
+      "jp": "強化人間",
+      "ko": "강화　인간",
+      "cat": "battle"
+    },
+    {
+      "jp": "補給物資",
+      "ko": "보급　물자",
+      "cat": "battle"
+    },
+    {
+      "jp": "戦闘継続",
+      "ko": "전투　계속",
+      "cat": "battle"
+    },
+    {
+      "jp": "戦闘能力",
+      "ko": "전투　능력",
+      "cat": "battle"
+    },
+    {
+      "jp": "核攻撃",
+      "ko": "핵　공격",
+      "cat": "battle"
+    },
+    {
+      "jp": "戦闘艦",
+      "ko": "전투함",
+      "cat": "battle"
+    },
+    {
+      "jp": "補給作業",
+      "ko": "보급　작업",
+      "cat": "battle"
+    },
+    {
+      "jp": "宇宙攻撃軍",
+      "ko": "우주　공격군",
+      "cat": "org"
+    },
+    {
+      "jp": "公国",
+      "ko": "공국",
+      "cat": "org"
+    },
+    {
+      "jp": "級戦艦",
+      "ko": "급　전함",
+      "cat": "org"
+    },
+    {
+      "jp": "連邦議会",
+      "ko": "연방　의회",
+      "cat": "org"
+    },
+    {
+      "jp": "地球連邦",
+      "ko": "지구　연방",
+      "cat": "org"
+    },
+    {
+      "jp": "連邦政府",
+      "ko": "연방　정부",
+      "cat": "org"
+    },
+    {
+      "jp": "連邦艦隊",
+      "ko": "연방　함대",
+      "cat": "org"
+    },
+    {
+      "jp": "連邦軍基地",
+      "ko": "연방군　기지",
+      "cat": "org"
+    },
+    {
+      "jp": "地球連邦軍",
+      "ko": "지구　연방군",
+      "cat": "org"
+    },
+    {
+      "jp": "反連邦組織",
+      "ko": "반연방　조직",
+      "cat": "org"
+    },
+    {
+      "jp": "連邦軍情報部",
+      "ko": "연방군　정보부",
+      "cat": "org"
+    },
+    {
+      "jp": "武器",
+      "ko": "무기",
+      "cat": "battle"
+    },
+    {
+      "jp": "兵器",
+      "ko": "병기",
+      "cat": "battle"
+    },
+    {
+      "jp": "機体",
+      "ko": "기체",
+      "cat": "battle"
+    },
+    {
+      "jp": "戦艦",
+      "ko": "전함",
+      "cat": "org"
+    }
+  ]
+}

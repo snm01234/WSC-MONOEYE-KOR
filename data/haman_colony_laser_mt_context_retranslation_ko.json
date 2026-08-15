@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "scope": "Haman/Colony Laser MT residue context clusters around sheet seeds 하만메 + 콜로니-·레-자-",
+  "provenance": {
+    "translation_source": "llm_from_japanese_original",
+    "review_status": "approved_for_main_candidate",
+    "legacy_machine_translation_used_as_translation_source": false,
+    "legacy_machine_translation_usage": "forensic provenance and defect discovery only",
+    "forensic_sources": [
+      "out/script/translation_sheet.csv",
+      "out/script/translations_quality_all.json",
+      "out/script/excel_translate_cache.json",
+      "out/script/haman_colony_laser_context_scan.json"
+    ],
+    "canonical_source": "SD Gundam G Generation Mono-Eye Gundams.wsc",
+    "terminology": {
+      "コロニ－・レ－ザ－": "콜로니　레이저",
+      "ハマ－ンめ": "하만　녀석",
+      "エゥ－ゴ": "에우고",
+      "ネオ・ジオン": "네오　지온",
+      "ディアナ・ソレル": "디아나・소렐"
+    }
+  },
+  "clusters": [
+    {
+      "id": "colony_laser_assault_haman",
+      "seed_sheet_abs": ["629D11", "629D9B", "629DAF", "629FAF", "629FF7"],
+      "note": "시트 시드 하만메/콜로니-·레-자- 주변 bank62 공략·하만 장면"
+    },
+    {
+      "id": "colony_laser_fleet_axis",
+      "seed_sheet_abs": ["6335F9"],
+      "note": "시트 시드 6335F9 주변 bank63 함대 전개·레이저 축 장면"
+    }
+  ],
+  "entries": [
+    {
+      "abs": "629C90",
+      "jp": "ネオ・ジオンも所定の位置で待機中です！！",
+      "ko": "네오　지온도　정위치　대기　중입니다！！",
+      "mode": "portal_retarget",
+      "reason": "네오 누락 MT; 所定の位置→정위치"
+    },
+    {
+      "abs": "629D24",
+      "jp": "この作戦はコロニ－・レ－ザ－を",
+      "ko": "이　작전은　콜로니　레이저를",
+      "mode": "portal_retarget",
+      "reason": "콜로니　－　레　－　더　－ hyphen/boundary MT spill"
+    },
+    {
+      "abs": "629D33",
+      "jp": "封じられるかどうかにかかっている！！",
+      "ko": "봉쇄할　수　있느냐에　달려　있다！！",
+      "mode": "portal_retarget",
+      "reason": "paired clause + 봉인되는지 여부 MT"
+    },
+    {
+      "abs": "629D55",
+      "jp": "こちら、ディアナ・ソレル。",
+      "ko": "여기는、　디아나・소렐。",
+      "mode": "portal_retarget",
+      "reason": "radio ID MT cleanup; middle-dot name"
+    },
+    {
+      "abs": "629D62",
+      "jp": "発進準備整いました。",
+      "ko": "발진　준비　완료했습니다。",
+      "mode": "portal_retarget",
+      "reason": "준비가 되었습니다 polite MT → readiness complete"
+    },
+    {
+      "abs": "629D8B",
+      "jp": "わざわざ攻撃を仕掛けに来るとは……",
+      "ko": "일부러　공격을　걸어　오다니……",
+      "mode": "portal_retarget",
+      "reason": "仕掛けに来る naturalization before 하만メ line"
+    },
+    {
+      "abs": "629D9B",
+      "jp": "……っているな、ハマ－ンめ。",
+      "ko": "……하고　있구나、　하만　녀석。",
+      "mode": "portal_retarget",
+      "reason": "user-reported 하만메 Bing residue → 하만　녀석"
+    },
+    {
+      "abs": "6335D0",
+      "jp": "ネオ・ジオン艦隊はコロニ－・レ－ザ－の",
+      "ko": "네오・지온　함대는　콜로니　레이저의",
+      "mode": "portal_retarget",
+      "reason": "콜로니　－　레　－ hyphen spill into next record"
+    },
+    {
+      "abs": "6335E2",
+      "jp": "周囲に部隊を展開しています。",
+      "ko": "주위에　부대를　전개하고　있습니다。",
+      "mode": "portal_retarget",
+      "reason": "remove spilled 더　－ fragment; restore spacing"
+    },
+    {
+      "abs": "633613",
+      "jp": "正面から挑んでは",
+      "ko": "정면에서　덤벼들어서는",
+      "mode": "portal_retarget",
+      "reason": "incomplete 도전 MT; restore conditional clause"
+    },
+    {
+      "abs": "633620",
+      "jp": "返り討ちにあう危険性が高いな。",
+      "ko": "역습당할　위험이　크다。",
+      "mode": "portal_retarget",
+      "reason": "반환　토벌 Bing calque of 返り討ち"
+    },
+    {
+      "abs": "633648",
+      "jp": "狙いをしぼらせないように",
+      "ko": "조준을　모으지　못하도록",
+      "mode": "portal_retarget",
+      "reason": "record-boundary: 사방에서 leaked from next line"
+    },
+    {
+      "abs": "63365A",
+      "jp": "四方から攻める……それしかないな。",
+      "ko": "사방에서　공격한다……　그것뿐이다。",
+      "mode": "portal_retarget",
+      "reason": "restore 四方から stolen by previous record"
+    },
+    {
+      "abs": "63366A",
+      "jp": "照準を固定される前にコロニ－・レ－ザ－に",
+      "ko": "조준이　고정되기　전에　콜로니　레이저에",
+      "mode": "portal_retarget",
+      "reason": "콜로니　－ truncation; passive 固定される"
+    },
+    {
+      "abs": "63367D",
+      "jp": "とりつければ勝機はある。",
+      "ko": "달라붙으면　승산이　있다。",
+      "mode": "portal_retarget",
+      "reason": "remove spilled 레자　－; 勝機→승산"
+    }
+  ]
+}

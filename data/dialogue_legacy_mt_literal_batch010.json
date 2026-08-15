@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "batch": 10,
+  "translation_source": "llm",
+  "review_status": "approved_for_test_candidate",
+  "policy": "Japanese-source context-pair repair after language-anomaly review; remove remaining literal-MT idioms and unsupported embellishment; fixed record extent; <=20 cells",
+  "legacy_machine_translation_used_as_translation_source": false,
+  "targets": {
+    "6060A7": "철수 타이밍은 잘 알겠지？",
+    "60829D": "모노아이 건담즈 샘플판은",
+    "60B3CA": "아이를 달래는 재주가",
+    "60B3D7": "있을 줄은… 놀랍군……",
+    "60C3F0": "딱히……소위와는",
+    "60C3FD": "상관없는 일이니까요。",
+    "60D278": "거기 자쿠、들리나！？",
+    "611682": "템테이션이 도착하는 곳은",
+    "61168F": "이 도크가 맞죠？",
+    "6118B0": "듣자니、지구의 뉴타입 연구소에서",
+    "61251E": "그런 건 할 수 없어。",
+    "61A5AD": "이제 푹 쉬도록 하지。",
+    "61D7D8": "마침 잘 왔군！",
+    "620689": "티탄즈는 자기들에게 불리한 것을",
+    "631E60": "그 녀석、건담의",
+    "631E6A": "오펜스 모드를 쓸 생각이야！！",
+    "63759C": "각오해라、쥬도 아시타！！",
+    "610B38": "지온 군인의 수치다！！",
+    "63B544": "……시간 참 빠르군、",
+    "63B54F": "벌써 그로부터 １년인가……",
+    "63B7A5": "꽃을 빌려줘、세라。",
+    "63B7B4": "그 녀석에겐 내가 바칠게。"
+  }
+}

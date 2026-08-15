@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "description": "시그 웨드너(Z) 정신기/ID 커맨드 특수 출력 경로에서 E5 18 ext3 포털을 제거하고 일반 2바이트 확장 사전 토큰으로 교체하는 전용 사양",
+  "parent_rom_sha256": "25cedba62ea75021499dc1ad021af88bc5a7be9ad0f323adcddd870fecfe844c",
+  "symptom": {
+    "character": "시그 웨드너(Z)",
+    "trigger": "정신기 사용 시 ID 커맨드 발동",
+    "observed": "도감 영역 대사창이 연속 진행된 뒤 Event Error 12288 / 30804",
+    "root_cause_hypothesis": "특수 ID 커맨드 출력 호출 경로가 E5 18 ext3 문구의 원거리 스트림 복귀 문맥을 안전하게 보존하지 못함"
+  },
+  "records": [
+    {
+      "record_start": "5D0D65",
+      "prefix_hex": "07",
+      "expected_payload_hex": "07E518E18401010101",
+      "body_capacity": 8,
+      "ko": "너에게　볼일은　없어……",
+      "dictionary_index": "0F4D",
+      "category": "sig_wedna_z_id_command_short_variant"
+    },
+    {
+      "record_start": "5D0F38",
+      "prefix_hex": "06",
+      "expected_payload_hex": "06E518E1930101010101010101010101",
+      "body_capacity": 15,
+      "ko": "너에게　볼일은　없어……사라져！！",
+      "dictionary_index": "0FA3",
+      "category": "sig_wedna_z_id_command_full_variant"
+    }
+  ],
+  "policy": {
+    "preserve_prefix": true,
+    "preserve_record_capacity": true,
+    "preserve_terminator": true,
+    "forbid_ext3_token_in_target": true,
+    "forbid_compact3_token_in_target": true,
+    "use_only_union_proven_free_normal_ext_slots": true,
+    "promotion_requires_user_runtime_validation": true
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "purpose": "source-grounded Korean rewrite for 2x20-cell dialogue readability",
+  "rules": [
+    "translate the combined two Japanese source rows as one coherent utterance",
+    "return exactly two Korean rows, each <=20 display cells including spaces",
+    "use readable spacing; do not solve capacity by deleting 3+ spaces",
+    "preserve meaning, names, technical terms, tone, and important punctuation",
+    "prefer natural concise Korean over literal machine-translation wording"
+  ],
+  "groups": [
+    {
+      "group_id": "scenario_63F4E5",
+      "addresses": [
+        "63F4E5",
+        "63F4ED"
+      ],
+      "jp": [
+        "彼の……",
+        "ゼロのことは私に任せてください！"
+      ],
+      "pre20cell_ko": [
+        "그이의……",
+        "제로의　콕핏　무력화　제어　기동만큼은　저　레이라에게　전적으로　승인　위임해　주십시오！"
+      ],
+      "legacy_dense_ko": [
+        "그이의……제로의콕핏무력화제어기동만큼은",
+        "저레이라에게전적으로승인위임해주십시오！"
+      ],
+      "legacy_spaces_removed": 10
+    },
+    {
+      "group_id": "scenario_63F564",
+      "addresses": [
+        "63F564",
+        "63F571"
+      ],
+      "jp": [
+        "ゼロ！　わたしよ！！",
+        "レイラよ！"
+      ],
+      "pre20cell_ko": [
+        "제로！　나예요、　제발　무전을　수신해　줘！！",
+        "당신이　그토록　부르짖던　나　레이라예요！！"
+      ],
+      "legacy_dense_ko": [
+        "제로！　나예요、　제발　무전을　수신해줘",
+        "！！당신이그토록부르짖던나레이라예요！！"
+      ],
+      "legacy_spaces_removed": 5
+    },
+    {
+      "group_id": "scenario_63FB00",
+      "addresses": [
+        "63FB00",
+        "63FB1C"
+      ],
+      "jp": [
+        "……まったくだ。",
+        "セラったらずるい！！"
+      ],
+      "pre20cell_ko": [
+        "……실로　반박　불가한　든든함이구만。",
+        "세라　누나　정말이지　너무나　야비하고　치사해！！"
+      ],
+      "legacy_dense_ko": [
+        "……실로　반박　불가한　든든함이구만。",
+        "세라누나정말이지너무나야비하고치사해！！"
+      ],
+      "legacy_spaces_removed": 5
+    },
+    {
+      "group_id": "scenario_63FC92",
+      "addresses": [
+        "63FC92",
+        "63FC99"
+      ],
+      "jp": [
+        "もちろん！",
+        "私だって負けないわよ！"
+      ],
+      "pre20cell_ko": [
+        "물론！",
+        "나　미안도　세라　누나　전용　쉴드　스펙에　밀려　패배　마크　찍힐　생각　추호도　없으니까요！"
+      ],
+      "legacy_dense_ko": [
+        "물론！",
+        "나도　지지　않을　거야！"
+      ],
+      "legacy_spaces_removed": 10
+    }
+  ]
+}

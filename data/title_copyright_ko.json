@@ -1,0 +1,21 @@
+{
+  "_note": "Title-screen footer is a unique 224x16 packed-4bpp strip at 55:19DC, uploaded as FG tiles 0E3-11A. Keep the original © and the English ©BANDAI 2002 columns; replace only 創通エージェンシー・サン라이즈. Korean uses Galmuri9 Bitmap (native 12 px → ~8-9 px ink) so Hangul cap height/width sit next to BANDAI's 9-10 px letters. Galmuri11 Bitmap 16 and Galmuri14 Bitmap 21 are taller than BANDAI.",
+  "logical": "5519DC",
+  "bytes": 1792,
+  "cols": 28,
+  "rows": 2,
+  "keep_first_copyright_x1": 13,
+  "keep_english_x0": 142,
+  "jp": "創通エージェンシー・サンライズ",
+  "ko": "소츠 에이전시·선라이즈",
+  "english": "©BANDAI 2002",
+  "font": "assets/fonts/galmuri_tmp/Galmuri9Bitmap-Regular-2.40.3.ttf",
+  "size": 12,
+  "stroke_index": 15,
+  "shadow_index": 1,
+  "shadow_delta": [0, 1],
+  "top": 0,
+  "align_stroke_top": 1,
+  "spacing": 0,
+  "space_width": 4
+}

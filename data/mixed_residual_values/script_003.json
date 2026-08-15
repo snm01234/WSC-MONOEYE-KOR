@@ -1,0 +1,670 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual script targets, batch 003 (dialogue band). Feeds tools/build_mixed_residual_catalog.py.",
+  "region": "script",
+  "batch": "script_003",
+  "reviewer": "Kiro",
+  "entries": {
+    "script:618F68": {
+      "ko": "……응。"
+    },
+    "script:61906A": {
+      "ko": "……옛。"
+    },
+    "script:61908B": {
+      "ko": "……윽！？"
+    },
+    "script:6190B1": {
+      "ko": "……옛。"
+    },
+    "script:6191BB": {
+      "ko": "……네！"
+    },
+    "script:6192C6": {
+      "ko": "밀리샤？",
+      "terms": {
+        "ミリシャ": "밀리샤"
+      }
+    },
+    "script:619317": {
+      "ko": "……아、그래。"
+    },
+    "script:61936F": {
+      "ko": "……네！"
+    },
+    "script:619393": {
+      "ko": "……응？"
+    },
+    "script:619450": {
+      "ko": "왜냐고？"
+    },
+    "script:6194B6": {
+      "ko": "……옛。"
+    },
+    "script:6194C8": {
+      "ko": "……윽！？"
+    },
+    "script:6194F2": {
+      "ko": "……크윽！？"
+    },
+    "script:619503": {
+      "ko": "그……우우……",
+      "terms": {
+        "ウゥ": "우우"
+      }
+    },
+    "script:6196FE": {
+      "ko": "……옛。"
+    },
+    "script:619710": {
+      "ko": "……윽！！"
+    },
+    "script:6197EE": {
+      "ko": "윽……！"
+    },
+    "script:619836": {
+      "ko": "……옛！！"
+    },
+    "script:619858": {
+      "ko": "으……"
+    },
+    "script:619868": {
+      "ko": "……옛！？"
+    },
+    "script:6198C6": {
+      "ko": "윽……！"
+    },
+    "script:619912": {
+      "ko": "……윽！"
+    },
+    "script:619956": {
+      "ko": "그런　것인가。"
+    },
+    "script:619990": {
+      "ko": "……윽！"
+    },
+    "script:619DB6": {
+      "ko": "어떻습니까？"
+    },
+    "script:61A450": {
+      "ko": "어떤가？"
+    },
+    "script:61A4F7": {
+      "ko": "카이、반입　지휘를　부탁한다。",
+      "terms": {
+        "カイ": "카이"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の and を wrapped the Korean 지휘 inside a Japanese frame. Rewrote the entire line including the name and the request verb."
+    },
+    "script:61A9AA": {
+      "ko": "……네？"
+    },
+    "script:61AA81": {
+      "ko": "……어？"
+    },
+    "script:61ABC5": {
+      "ko": "……윽！！"
+    },
+    "script:61AC6B": {
+      "ko": "티탄즈가",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: the subject marker が followed the Korean 티탄즈. Replaced the whole phrase with the Korean subject ending 가."
+    },
+    "script:61AC9C": {
+      "ko": "……윽！"
+    },
+    "script:61AD11": {
+      "ko": "아우도무라의",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: the genitive の followed the Korean ship name. Replaced the whole phrase with the Korean genitive 의."
+    },
+    "script:61AE63": {
+      "ko": "옛……"
+    },
+    "script:61AE74": {
+      "ko": "……흥！"
+    },
+    "script:61AF75": {
+      "ko": "칫！"
+    },
+    "script:61AFEC": {
+      "ko": "……윽？"
+    },
+    "script:61B017": {
+      "ko": "……뭐라고！"
+    },
+    "script:61B101": {
+      "ko": "……뭐라고！？"
+    },
+    "script:61B1E0": {
+      "ko": "……앗！！"
+    },
+    "script:61B399": {
+      "ko": "윽……！！"
+    },
+    "script:61B404": {
+      "ko": "신형　모빌슈트를　맡아　왔다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を followed the Korean 모빌슈트 and the verb stayed Japanese. Replaced the complete sentence including 新型 and 預かってきた。"
+    },
+    "script:61B47A": {
+      "ko": "윽……！"
+    },
+    "script:61B83A": {
+      "ko": "……뭐라고！？"
+    },
+    "script:61B8E4": {
+      "ko": "이걸로　이제、"
+    },
+    "script:61B91A": {
+      "ko": "죽어어어어！！"
+    },
+    "script:61B92E": {
+      "ko": "……윽！？"
+    },
+    "script:61BAB9": {
+      "ko": "………윽！！"
+    },
+    "script:61BBF1": {
+      "ko": "마인드컨트롤이",
+      "terms": {
+        "マインドコントロ": "마인드컨트롤"
+      }
+    },
+    "script:61BC90": {
+      "ko": "……앗！"
+    },
+    "script:61BCE8": {
+      "ko": "좋아。"
+    },
+    "script:61BD12": {
+      "ko": "……윽！？"
+    },
+    "script:61BD38": {
+      "ko": "크、윽……"
+    },
+    "script:61BD9E": {
+      "ko": "……윽！！"
+    },
+    "script:61BE24": {
+      "ko": "……윽！！"
+    },
+    "script:61BE80": {
+      "ko": "……그래。"
+    },
+    "script:61BFA7": {
+      "ko": "윽……！"
+    },
+    "script:61BFBD": {
+      "ko": "아앗！"
+    },
+    "script:61C01E": {
+      "ko": "……옛。"
+    },
+    "script:61C169": {
+      "ko": "………다。"
+    },
+    "script:61C175": {
+      "ko": "……엇？"
+    },
+    "script:61C205": {
+      "ko": "……그래。"
+    },
+    "script:61C2B8": {
+      "ko": "……윽！！"
+    },
+    "script:61C2FD": {
+      "ko": "……윽！？"
+    },
+    "script:61C324": {
+      "ko": "……그래。"
+    },
+    "script:61C3E9": {
+      "ko": "……윽！！"
+    },
+    "script:61C4E2": {
+      "ko": "으、응……"
+    },
+    "script:61C4FD": {
+      "ko": "……윽！！"
+    },
+    "script:61C506": {
+      "ko": "、여기는……？"
+    },
+    "script:61C52B": {
+      "ko": "으……"
+    },
+    "script:61C5A9": {
+      "ko": "죄송합니다！"
+    },
+    "script:61C606": {
+      "ko": "윽……！"
+    },
+    "script:61C652": {
+      "ko": "……윽！"
+    },
+    "script:61C696": {
+      "ko": "그런　것인가。"
+    },
+    "script:61C6D0": {
+      "ko": "……윽！"
+    },
+    "script:61C8C2": {
+      "ko": "……어？"
+    },
+    "script:61CD6D": {
+      "ko": "……그래。"
+    },
+    "script:61CED7": {
+      "ko": "……네。"
+    },
+    "script:61CEEA": {
+      "ko": "하지만！"
+    },
+    "script:61D223": {
+      "ko": "그런　모빌슈트가　일부러",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が and わざわざ surrounded the Korean 모빌슈트. Replaced the whole clause including the demonstrative そんな."
+    },
+    "script:61D782": {
+      "ko": "……그래。"
+    },
+    "script:61DB86": {
+      "ko": "………윽！！"
+    },
+    "script:61DD84": {
+      "ko": "가라아아아！！"
+    },
+    "script:61DDA1": {
+      "ko": "……윽！！"
+    },
+    "script:61DE44": {
+      "ko": "앗！！"
+    },
+    "script:61DE60": {
+      "ko": "앗！！"
+    },
+    "script:61DEA6": {
+      "ko": "어이！！"
+    },
+    "script:61DEE6": {
+      "ko": "어이！！"
+    },
+    "script:61DFEA": {
+      "ko": "모빌슈트　부대를　발진시켜라！！"
+    },
+    "script:61E099": {
+      "ko": "……엇？"
+    },
+    "script:61E0F2": {
+      "ko": "……응？"
+    },
+    "script:61E184": {
+      "ko": "그래　그래！"
+    },
+    "script:61E20F": {
+      "ko": "그런　것인가。"
+    },
+    "script:61E4F8": {
+      "ko": "부대장"
+    },
+    "script:61E50A": {
+      "ko": "강"
+    },
+    "script:61E5FF": {
+      "ko": "카이１",
+      "terms": {
+        "カイ": "카이"
+      }
+    },
+    "script:61E635": {
+      "ko": "카츠",
+      "terms": {
+        "カツ": "카츠"
+      }
+    },
+    "script:61E6B4": {
+      "ko": "키스"
+    },
+    "script:61E6FC": {
+      "ko": "킬링",
+      "terms": {
+        "キリング": "킬링"
+      }
+    },
+    "script:61E765": {
+      "ko": "크리스１",
+      "terms": {
+        "クリス": "크리스"
+      }
+    },
+    "script:61E809": {
+      "ko": "키키",
+      "terms": {
+        "キキ": "키키"
+      }
+    },
+    "script:61E82B": {
+      "ko": "사라",
+      "terms": {
+        "サラ": "사라"
+      }
+    },
+    "script:61EB1B": {
+      "ko": "드렌",
+      "terms": {
+        "ドレン": "드렌"
+      }
+    },
+    "script:61ED13": {
+      "ko": "푸루",
+      "terms": {
+        "プル": "푸루"
+      }
+    },
+    "script:61ED5A": {
+      "ko": "베이트",
+      "terms": {
+        "イト": "이트"
+      }
+    },
+    "script:61EDEB": {
+      "ko": "그렇다면"
+    },
+    "script:61EE54": {
+      "ko": "야니"
+    },
+    "script:61EEB6": {
+      "ko": "다。"
+    },
+    "script:61EF77": {
+      "ko": "로베르토",
+      "terms": {
+        "ルト": "르토"
+      }
+    },
+    "script:61F28A": {
+      "ko": "티탄즈사관・광"
+    },
+    "script:61F2C9": {
+      "ko": "티탄즈병사・광"
+    },
+    "script:61F372": {
+      "ko": "네오・지온병사・광"
+    },
+    "script:61F403": {
+      "ko": "연방병사・광"
+    },
+    "script:61F419": {
+      "ko": "무인"
+    },
+    "script:620037": {
+      "ko": "……윽！！"
+    },
+    "script:620080": {
+      "ko": "……윽！！"
+    },
+    "script:6201DD": {
+      "ko": "좋아！"
+    },
+    "script:620297": {
+      "ko": "……옛。"
+    },
+    "script:620488": {
+      "ko": "옛。"
+    },
+    "script:62053D": {
+      "ko": "……엇？"
+    },
+    "script:6205B6": {
+      "ko": "……또、"
+    },
+    "script:62063C": {
+      "ko": "……엇？"
+    },
+    "script:620AD7": {
+      "ko": "이상해！"
+    },
+    "script:620ADC": {
+      "ko": "이상합니다！"
+    },
+    "script:620C24": {
+      "ko": "……윽？"
+    },
+    "script:620CEE": {
+      "ko": "……음。"
+    },
+    "script:620DE8": {
+      "ko": "저　윙・제로라는　모빌슈트는",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: という and は framed the Korean 윙・제로 and 모빌슈트. Replaced the entire noun phrase with 라는 and the Korean topic ending 는."
+    },
+    "script:620EFF": {
+      "ko": "쉿！！"
+    },
+    "script:621374": {
+      "ko": "그래。"
+    },
+    "script:6213CF": {
+      "ko": "글쎄。"
+    },
+    "script:62157F": {
+      "ko": "아하하핫！"
+    },
+    "script:6217B0": {
+      "ko": "……음。"
+    },
+    "script:6217C2": {
+      "ko": "……윽！！"
+    },
+    "script:621887": {
+      "ko": "……윽！！"
+    },
+    "script:621A33": {
+      "ko": "……윽！！"
+    },
+    "script:621AD0": {
+      "ko": "그런　것은"
+    },
+    "script:621B9F": {
+      "ko": "그렇다면！"
+    },
+    "script:621C89": {
+      "ko": "윽……！！"
+    },
+    "script:621CAB": {
+      "ko": "……윽！"
+    },
+    "script:622339": {
+      "ko": "……그래。"
+    },
+    "script:62238F": {
+      "ko": "……음？"
+    },
+    "script:6223DD": {
+      "ko": "으음……"
+    },
+    "script:622488": {
+      "ko": "으음……"
+    },
+    "script:6224CF": {
+      "ko": "호오……역시　마스터・아시아。"
+    },
+    "script:622708": {
+      "ko": "……윽！！"
+    },
+    "script:62271B": {
+      "ko": "……안돼！！",
+      "terms": {
+        "ダメ": "안돼"
+      }
+    },
+    "script:622751": {
+      "ko": "에잇！"
+    },
+    "script:62281E": {
+      "ko": "……윽！！"
+    },
+    "script:622848": {
+      "ko": "흥……"
+    },
+    "script:62288A": {
+      "ko": "……윽！！"
+    },
+    "script:6228D6": {
+      "ko": "레인이라는　여자를　구해　내　보여라！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なる and を wrapped the Korean name 레인. Replaced the complete imperative sentence including 助け出して見せいっ。"
+    },
+    "script:622BF0": {
+      "ko": "……윽！！"
+    },
+    "script:622D74": {
+      "ko": "그런　것이다。"
+    },
+    "script:622ED2": {
+      "ko": "쉿！！"
+    },
+    "script:623228": {
+      "ko": "……훗。"
+    },
+    "script:6232C6": {
+      "ko": "하하하하핫！"
+    },
+    "script:62333D": {
+      "ko": "잘　들어라！"
+    },
+    "script:623415": {
+      "ko": "……윽！！"
+    },
+    "script:62378A": {
+      "ko": "옛。"
+    },
+    "script:623985": {
+      "ko": "뭐라고！"
+    },
+    "script:623BA6": {
+      "ko": "모를　것이다！"
+    },
+    "script:623C03": {
+      "ko": "……윽！！"
+    },
+    "script:623C2D": {
+      "ko": "……윽！！"
+    },
+    "script:623D05": {
+      "ko": "……윽！"
+    },
+    "script:623D55": {
+      "ko": "……뭐라고！？"
+    },
+    "script:623E24": {
+      "ko": "제법　해　주었군。"
+    },
+    "script:623E2E": {
+      "ko": "……그래。"
+    },
+    "script:624325": {
+      "ko": "뭐라고！"
+    },
+    "script:624699": {
+      "ko": "으……"
+    },
+    "script:6246A9": {
+      "ko": "……윽！？"
+    },
+    "script:6248B9": {
+      "ko": "……윽！"
+    },
+    "script:62497D": {
+      "ko": "……윽！！"
+    },
+    "script:6249E7": {
+      "ko": "……윽！！"
+    },
+    "script:624A33": {
+      "ko": "감히　리나를！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: よくも and を wrapped the Korean name 리나. Replaced the whole exclamation with 감히 and the Korean object ending 를."
+    },
+    "script:624A49": {
+      "ko": "……윽！！"
+    },
+    "script:624B07": {
+      "ko": "……윽！？"
+    },
+    "script:625004": {
+      "ko": "……윽！"
+    },
+    "script:62500E": {
+      "ko": "이런　곳에서"
+    },
+    "script:625054": {
+      "ko": "……뭐라고！？"
+    },
+    "script:625103": {
+      "ko": "……바보　같은　놈！",
+      "terms": {
+        "バカ": "바보"
+      }
+    },
+    "script:625112": {
+      "ko": "……윽！！"
+    },
+    "script:62511F": {
+      "ko": "너　따위가",
+      "terms": {
+        "オマエ": "너"
+      }
+    },
+    "script:62519C": {
+      "ko": "포기하지　마라！"
+    },
+    "script:6251D6": {
+      "ko": "……윽！！"
+    },
+    "script:625382": {
+      "ko": "『………윽！！』"
+    },
+    "script:6255F2": {
+      "ko": "포오오옥、열！！"
+    },
+    "script:62569B": {
+      "ko": "으……"
+    },
+    "script:6257C3": {
+      "ko": "……으윽！　그、그만해라！！"
+    },
+    "script:625851": {
+      "ko": "……으윽！　그、그만해라！！"
+    },
+    "script:625878": {
+      "ko": "이　놈！"
+    },
+    "script:62594E": {
+      "ko": "어、그래……"
+    },
+    "script:625980": {
+      "ko": "젠장！"
+    },
+    "script:625D04": {
+      "ko": "네오・지온은　두　쪽으로　갈라졌나。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は followed the Korean 네오・지온 and the predicate stayed Japanese. Replaced the complete sentence including 真っ二つにわかれたか。"
+    },
+    "script:625DA2": {
+      "ko": "뭐라고！"
+    },
+    "script:625E44": {
+      "ko": "……윽！！"
+    },
+    "script:625FC8": {
+      "ko": "건담・파이트오……！",
+      "terms": {
+        "ファイト": "파이트"
+      },
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ファイト sat across the middle dot from the Korean 건담 with a trailing small vowel. Replaced the complete compound 건담・파이트 and its drawn-out ending."
+    }
+  }
+}

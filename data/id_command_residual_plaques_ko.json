@@ -1,0 +1,105 @@
+{
+  "schema_version": 3,
+  "status": "runtime_structure_corrected_test_rom_candidate_pending_user_runtime_verification",
+  "parent_sha256": "cef2d40d7a0568e3add4025d8ebc6f5e6340f0a2b545a5f88decc6d28e3375f5",
+  "font": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+  "stroke_width": 1,
+  "plaques": [
+    {
+      "logical": "4C4A74",
+      "storage": "body_40x16_plus_shared_right_cap",
+      "display_width": 48,
+      "jp": "封印!",
+      "ko": "봉인!",
+      "text": "봉인!",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12
+    },
+    {
+      "logical": "4C4BB4",
+      "storage": "body_32x16_plus_shared_right_cap",
+      "display_width": 40,
+      "jp": "盾!",
+      "ko": "방패!",
+      "text": "방패!",
+      "tone": "bright",
+      "zone": [8, 32],
+      "font_size": 9,
+      "correction": "previously mislabeled as 失敗! and over-read by two tiles; its stored left edge is retained and the external right cap is appended"
+    },
+    {
+      "logical": "4C50F4",
+      "storage": "body_40x16_plus_shared_right_cap",
+      "display_width": 48,
+      "jp": "必中!",
+      "ko": "필중!",
+      "text": "필중!",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12
+    },
+    {
+      "logical": "4C53B4",
+      "storage": "body_40x16_plus_shared_right_cap",
+      "display_width": 48,
+      "jp": "回避!",
+      "ko": "회피!",
+      "text": "회피!",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12
+    },
+    {
+      "logical": "4CBEAA",
+      "storage": "full_48x16",
+      "display_width": 48,
+      "jp": "↓移動",
+      "ko": "↓이동",
+      "text": "이동",
+      "tone": "down",
+      "zone": [13, 40],
+      "font_size": 12,
+      "preserve_arrow_through_x": 12
+    },
+    {
+      "logical": "4CC32A",
+      "storage": "sparse_40x16_insert_shared_mid_column",
+      "display_width": 48,
+      "jp": "追撃!",
+      "ko": "추격!",
+      "text": "추격!",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12,
+      "shared_display_column": 3,
+      "shared_top_logical": "4CB80A",
+      "shared_bottom_logical": "4CB8AA",
+      "private_display_columns": [0, 1, 2, 4, 5],
+      "correction": "user stock/main 6x captures prove a 48x16 runtime plaque: the 10 stored tiles fill display columns 0,1,2,4,5 and column 3 reuses the exact 8x16 撃 slice from the ↑電撃 asset. Main localized ↑電撃 changed that shared pair, causing only display column 3 to mutate. The Korean 추격! layout at font 12, x=8 matches the already-localized shared column byte-exact, so only the 10 private pursuit tiles need redrawing."
+    },
+    {
+      "logical": "4CE86A",
+      "storage": "full_48x16",
+      "display_width": 48,
+      "jp": "貫通!",
+      "ko": "관통!",
+      "text": "관통!",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12
+    },
+    {
+      "logical": "4CE9EA",
+      "storage": "body_32x16_plus_shared_both_caps",
+      "display_width": 48,
+      "jp": "先制",
+      "ko": "선제",
+      "text": "선제",
+      "tone": "bright",
+      "zone": [8, 40],
+      "font_size": 12,
+      "correction": "the glyph is 先制, not 反撃; the exact 32x16 text body ends at 4CEAE9 and is displayed between external left and right cap pairs"
+    }
+  ]
+}

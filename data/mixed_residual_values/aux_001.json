@@ -1,0 +1,552 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual aux targets, batch 001 (bank 59 mission dialogue).",
+  "region": "aux",
+  "batch": "aux_001",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:590252": {"ko": "한　가지　물어보지　못한　것이　있었다。"},
+    "aux:5902CF": {"ko": "그런　게　아니라…아아……"},
+    "aux:590559": {"ko": "『세라』라고　불리고　싶은　여자……", "terms": {"セラ": "세라"}},
+    "aux:590698": {"ko": "라니、마음을　읽은　건가！？"},
+    "aux:5906CC": {"ko": "나에게　호의를　느끼고　있다는　건　알았다。"},
+    "aux:5906E8": {"ko": "미안　아가씨에게　조언을　받아서。"},
+    "aux:59084F": {"ko": "뭐가　뭔지　모르게　됐다……！！"},
+    "aux:590868": {
+      "ko": "나는　시그에게　끌리고　있는　것　같아",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름 시그 뒤에 붙어 있었다. 문장 전체를 한국어 어순으로 다시 써서 조사와 서술어를 함께 교체했다."
+    },
+    "aux:590998": {
+      "ko": "키시리아　각하가　돌아오셨습니다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が가 한국어 이름과 직함 뒤에 붙어 있었다. 경어 서술어까지 포함해 전체 보고문을 교체했다."
+    },
+    "aux:5909E6": {"ko": "건담　１기에　애를　먹는군……"},
+    "aux:590A09": {
+      "ko": "부딪치는　것　외에는、건담을　쓰러뜨릴　수　없습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 건담 뒤에 붙고 서술어가 일본어였다. 앞절 以外까지 포함해 문장 전체를 교체했다."
+    },
+    "aux:590B80": {"ko": "요즘　세상에　날　모른다니……"},
+    "aux:590C19": {"ko": "그　「붉은　혜성」의？"},
+    "aux:590C5B": {"ko": "모르는　자는　없겠지。잘　부탁한다！"},
+    "aux:590DFA": {
+      "ko": "저　건담은、위험합니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 건담 뒤에, です가 위험 뒤에 붙어 있었다. 지시어 あの까지 포함해 전체를 교체했다."
+    },
+    "aux:590E48": {
+      "ko": "라라아　님이　살해당했기　때문인가요？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: さん과 を가 한국어 이름을 감싸고 から가 나요 앞에 붙어 있었다. 문장 전체를 한국어로 다시 썼다."
+    },
+    "aux:590E89": {
+      "ko": "그　이상으로　그　녀석은　위험하다。",
+      "terms": {"ヤツ": "녀석"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 は가 한국어 이상, 위험 주변에 붙어 있었다. ヤツ를 녀석으로 옮기고 문장 전체를 교체했다."
+    },
+    "aux:590E9F": {
+      "ko": "미래를　개척하기　위해서라도……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 미래 뒤에 붙고 뒤가 일본어였다. 절 전체를 교체했다."
+    },
+    "aux:590EC1": {
+      "ko": "뉴타입은　배제해야　한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 せねばならない이 한국어 뉴타입, 배제를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:591015": {
+      "ko": "그렇게　하면　라라아도　기뻐할　것이다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: も가 한국어 이름 뒤에 붙어 있었다. 조건절 そうすれば까지 포함해 전체를 교체했다."
+    },
+    "aux:591690": {
+      "ko": "그　다음에　연방과　함께……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 연방 뒤에 붙어 있었다. その上で까지 포함해 절 전체를 교체했다."
+    },
+    "aux:591820": {
+      "ko": "기렌　각하가　전사하셨다고！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 と가 한국어 이름·직함을 감싸고 있었다. 전체 문장을 교체했다."
+    },
+    "aux:591848": {
+      "ko": "키시리아　각하　쪽으로　이관되었습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 へ가 한국어 이름·직함 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:591862": {"ko": "속였구나、키시리아……！！"},
+    "aux:591C95": {
+      "ko": "긴급　통신입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: です가 한국어 통신 뒤에 붙어 있었다. 緊急까지 포함해 전체를 교체했다."
+    },
+    "aux:591CAD": {
+      "ko": "이건　정전　명령입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: です가 한국어 명령 뒤에 붙어 있었다. これは와 停戦까지 포함해 전체를 교체했다."
+    },
+    "aux:591CD6": {
+      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、は、だと가 한국어 이상·전투계속·불가능 사이에 끼어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:591D5C": {
+      "ko": "긴급　통신입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 591C95와 동일한 대사로, 같은 완성 표현을 적용했다."
+    },
+    "aux:591D74": {
+      "ko": "이건　정전　명령입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 591CAD와 동일한 대사로, 같은 완성 표현을 적용했다."
+    },
+    "aux:591D9D": {
+      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 591CD6과 동일한 대사로, 같은 완성 표현을 적용했다."
+    },
+    "aux:59200B": {
+      "ko": "일찌감치　연방에　항복해　버렸다……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 연방 뒤에, しちまった가 항복 뒤에 붙어 있었다. 부사 さっさと까지 포함해 전체를 교체했다."
+    },
+    "aux:592026": {
+      "ko": "항복은　없다고　생각하지만…실제로　어쩔　거야？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 항복 뒤에 붙어 있었다. 두　절을　모두　한국어로　다시　썼다."
+    },
+    "aux:592057": {
+      "ko": "부대로서　연방에　찍혀　있으니까요。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: として와 に가 한국어 부대·연방 뒤에 붙어 있었다. マ－ク된 상태 표현까지 포함해 전체를 교체했다."
+    },
+    "aux:59216B": {"ko": "갈　곳도　없는　상황이고……"},
+    "aux:592187": {"ko": "갈　곳이라면、일단은　있다。"},
+    "aux:5921AE": {
+      "ko": "액시즈로　도망치려　하는　것　같다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: へ가 한국어 액시즈 뒤에 붙어 있었다. 추정 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:5921EF": {
+      "ko": "액시즈로　향하려　하는데…어떤가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: へ가 한국어 액시즈 뒤에 붙어 있었다. 뒤의 질문절까지 함께 교체했다."
+    },
+    "aux:592234": {"ko": "그런　것이라면、"},
+    "aux:59223B": {"ko": "우리는　여기서　헤어지고　싶습니다。"},
+    "aux:592253": {
+      "ko": "게다가、로베르토　소위도？",
+      "terms": {"ルト": "르토"},
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: ロべルト가 한국어 소위와 맞닿고 も가 뒤에 붙어 있었다. 이름과 조사를 포함한 전체 표현을 교체했다."
+    },
+    "aux:592296": {
+      "ko": "대령을　찾겠다면　저도！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 というなら이 한국어 대좌 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:592303": {
+      "ko": "너희의　이탈을　허가하겠다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 しよう가 한국어 허가를 감싸고 있었다. 앞절까지 포함해 전체를 교체했다."
+    },
+    "aux:592356": {"ko": "향하겠습니다……그럼。"},
+    "aux:592499": {
+      "ko": "정확한　위치는　알아내지　못했지만……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 위치 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:5924D2": {
+      "ko": "한　번　더　콘택트는　안　되는　건가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 콘택트 뒤에 붙어 있었다. もうー度까지 포함해 전체를 교체했다."
+    },
+    "aux:592500": {
+      "ko": "함부로　통신을　보내는　건　위험하겠죠。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 でしょう가 한국어 통신·위험을 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:592565": {
+      "ko": "그　아군부대를　따라잡을　수　있을　것이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 아군부대 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:592580": {
+      "ko": "합류　절차를　갖추고　오겠다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 합류 뒤에 붙어 있었다. 手はず 표현을 절차로 옮기고 전체를 교체했다."
+    },
+    "aux:5925B5": {
+      "ko": "엘메스라면　충분히　도망칠　수　있어。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なら가 한국어 엘메스 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:592620": {
+      "ko": "출격할　수　있도록　해　둬라。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: できるように가 한국어 출격 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:592799": {"ko": "이제　와서　물러날　수　있겠나！！"},
+    "aux:59286A": {"ko": "그리고、저쪽에　있는　게　도몬・캐시"},
+    "aux:59288F": {
+      "ko": "데빌　건담을　추적해　왔습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 데빌　건담 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:5928A6": {
+      "ko": "저　모빌슈트　말인가！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: のこと와 か가 한국어 모빌슈트 뒤에 붙어 있었다. 지시어까지 포함해 전체를 교체했다."
+    },
+    "aux:59290E": {
+      "ko": "상대할　수　있을　리가　없잖아！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 상대 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:592EE2": {
+      "ko": "솔로몬의　악몽　씨　아닌가。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 솔로몬 뒤에 붙어 있었다. 호칭과 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:592F0E": {
+      "ko": "데라즈　각하를　죽여　놓고　감히！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 이름·직함 뒤에 붙어 있었다. よくも까지 포함해 전체를 교체했다."
+    },
+    "aux:59321C": {
+      "ko": "사이코　건담에　맞선다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 사이코　건담 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:59358D": {
+      "ko": "합류하지　않을　셈인가……？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: しない이 한국어 합류 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5935C5": {
+      "ko": "데빌　건담을　들여올　셈이군。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 데빌　건담 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5935F8": {
+      "ko": "데빌　건담을　쫓는　건가……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 데빌　건담 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59366D": {
+      "ko": "도몬・캐시라고　했나……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 뒤에 붙어 있었다. 인용 표현 전체를 교체했다."
+    },
+    "aux:5936BE": {"ko": "함께　할　생각은　없다。"},
+    "aux:5936D5": {"ko": "싸울　거면、너희끼리만……", "terms": {"オマエ": "너"}},
+    "aux:593853": {
+      "ko": "시스템　쪽은　괜찮은　건가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の方は가 한국어 시스템 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5938B0": {
+      "ko": "흡수하는　것으로　능력을　발휘한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 する가 한국어 능력을 감싸고 있었다. 앞절까지 포함해 전체를 교체했다."
+    },
+    "aux:5938FB": {
+      "ko": "설마、플투인가！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: か가 한국어 이름 뒤에 붙어 있었다. まさか까지 포함해 전체를 교체했다."
+    },
+    "aux:593BAA": {
+      "ko": "연방　놈들도　만족할　거야。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 연방 뒤에 붙어 있었다. やつらだって까지 포함해 전체를 교체했다."
+    },
+    "aux:593BC4": {"ko": "어딘가　먼　곳으로　도망쳐서……"},
+    "aux:593BF3": {"ko": "무슨　짓을　했는지　알고　있나！？"},
+    "aux:593CDD": {"ko": "아하하하하핫！！"},
+    "aux:593D61": {"ko": "올드타입에게……！！", "terms": {"ルドタイプ": "올드타입"}},
+    "aux:593E7B": {"ko": "평생　갇혀　썩게　되는　거야！"},
+    "aux:593F34": {"ko": "내　출생？……만들었다！？"},
+    "aux:593F7F": {"ko": "나머지는　우리에게　맡겨　주게。"},
+    "aux:593FA3": {
+      "ko": "상대하기는　힘들　것이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: にする가 한국어 상대 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5940DF": {
+      "ko": "내가　목격했다고！",
+      "terms": {"オレ": "내"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 しているんだぞ가 한국어 목격을 감싸고 있었다. 오레를 포함한 문장 전체를 교체했다."
+    },
+    "aux:5947E6": {
+      "ko": "이번　상대도　또　병원　신세라고？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 も가 한국어 상대 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5948A4": {"ko": "되살아나는　것도　아니다。"},
+    "aux:594A16": {
+      "ko": "연방의　추격을　받아、궁지에　몰려　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 연방 뒤에 붙어 있었다. 두　절을　모두　교체했다."
+    },
+    "aux:594A3A": {"ko": "하만　섭정은　말씀하셨지만、"},
+    "aux:594A78": {
+      "ko": "연방군의　대응에　따라서는、교전도　있을　수　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 も가 한국어 연방군·교전 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:594A99": {
+      "ko": "준비를　갖춰　두기　바란다……이상。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 ておいてほしい가 한국어 준비를 감싸고 있었다. 이상까지 포함해 전체를 교체했다."
+    },
+    "aux:594EE4": {
+      "ko": "연방군에　알린다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に告ぐ가 한국어 연방군 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:594EFE": {
+      "ko": "철수를　허가하라。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 されたし가 한국어 허가를 감싸고 있었다. 撒退까지 포함해 전체를 교체했다."
+    },
+    "aux:594F2C": {
+      "ko": "우리는　신속히　이　공역에서　이탈한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: より와 する가 한국어 공역 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5953A3": {"ko": "……하지만　말이야、중위。"},
+    "aux:59544D": {
+      "ko": "솔로몬에서　재회하게　되다니……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で가 한국어 솔로몬 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595467": {
+      "ko": "도즐　각하의　이끄심이겠지。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름·직함 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595488": {"ko": "싸워　보고　싶군。"},
+    "aux:5956BC": {
+      "ko": "이　정도밖에　해　드리지　못해서。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 정도 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595736": {"ko": "우리는　뒷걱정　없이　싸울　수　있습니다。"},
+    "aux:595756": {
+      "ko": "병사들의　회수는　꼭……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 회수 뒤에 붙어 있었다. 앞절까지 포함해 전체를 교체했다."
+    },
+    "aux:59598E": {
+      "ko": "나도　동행하도록　하겠다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: させてもらおう가 한국어 동행 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595A83": {
+      "ko": "마츠나가　대위까지　와　주시다니！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: まで가 한국어 이름·직함 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595AD1": {
+      "ko": "작전에　대해　설명해　주지　않겠나？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: について가 한국어 작전 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595AEE": {"ko": "한　방　먹이려　한다는　건　알지만……"},
+    "aux:595BD5": {
+      "ko": "별동대의　시마　중령이　확보하고　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 している가 한국어 이름·확보를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595C0A": {
+      "ko": "공격을　시작할　뿐이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 するのみだ가 한국어 공격·시작을 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595C22": {
+      "ko": "연방군은　현재、혼란　상태에　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 にある가 한국어 연방군·상태 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595CDE": {
+      "ko": "시마・가라하우를　아시는　건가。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 이름 뒤에 붙어 있었다. 경어 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:595D2D": {
+      "ko": "혼자서　총괄하던　부대다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: だ가 한국어 부대 뒤에 붙어 있었다. ー手に取りしきっていた까지 포함해 전체를 교체했다."
+    },
+    "aux:595D75": {
+      "ko": "데라즈　각하께　그렇게　말씀하시면……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름·직함 뒤에 붙어 있었다. 경어 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:595EC1": {"ko": "너를　따라온　우리도　마찬가지다。", "terms": {"オレ": "우리"}},
+    "aux:595EF6": {"ko": "너를　책망할　생각은　없다。"},
+    "aux:595F00": {"ko": "라기보다、우리가　멋대로", "terms": {"オレ": "우리"}},
+    "aux:595F2C": {
+      "ko": "그만한　가치는　있는　건가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 가치 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:595FF4": {
+      "ko": "그보다、기관　상태는　어떤가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 기관 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596045": {"ko": "일년전쟁　이래의　인연이니까。"},
+    "aux:596227": {"ko": "『하루살이』같아서는　성립하지　않겠지。"},
+    "aux:596297": {
+      "ko": "콜로니의　궤도　변경을　확인했습니다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 콜로니·확인 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5962EA": {
+      "ko": "합류　준비를　갖춰　둬라！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 とけ가 한국어 합류준비 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596415": {
+      "ko": "전쟁　속에　멋대로의　미의식을　들여왔다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の中に가 한국어 전쟁 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596489": {"ko": "나는　너에게　쓰러질　뿐이다。", "terms": {"キサマ": "너"}},
+    "aux:5966D6": {
+      "ko": "싸울　필요가　있다는　건가요！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 という이 한국어 필요·나요 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596760": {
+      "ko": "젝스・마키스를　쓰러뜨리세요！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 이름 뒤에 붙어 있었다. 명령형 서술어까지 포함해 전체를 교체했다."
+    },
+    "aux:596815": {"ko": "피스크래프트　왕은……"},
+    "aux:59682C": {"ko": "연방　정부의　인간들에게　암살당했습니다。"},
+    "aux:596851": {
+      "ko": "티탄즈에　들어간　것입니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 티탄즈 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59686A": {"ko": "현실적으로、그는　존재　의의를　잃은　것이겠죠"},
+    "aux:59688B": {
+      "ko": "병사로서의　자신을　찾을　수　있습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: としての와 を가 한국어 병사·자신을 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5968BF": {
+      "ko": "대등하게　싸울　수　있는　정신을　가지려　하는　것입니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 持とうとしている이 한국어 정신을 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596C04": {"ko": "응어리라는　것도　있다。"},
+    "aux:596C33": {"ko": "계속　싸우는　것보다는　훨씬　낫다……"},
+    "aux:596CD7": {
+      "ko": "망설임을　떨쳐내는　것도　필요하겠지。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: だろう가 한국어 필요 뒤에 붙어 있었다. 앞절까지 포함해 전체를 교체했다."
+    },
+    "aux:596D02": {
+      "ko": "대위의　말대로다……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の言う通りだ가 한국어 대위 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:596D88": {"ko": "우리에게　도전해　오다니……"},
+    "aux:596E16": {
+      "ko": "바톤　일족의　패권을　인정할　마음이　들도록。",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: ー族이 한국어 이름 바톤과 맞닿아　있었다. 일족을　포함한　전체　표현을　교체했다."
+    },
+    "aux:596E37": {"ko": "보여주는　건　조금　아깝군。"},
+    "aux:596E4E": {"ko": "우리의　힘을　보여줘야　하겠군。"},
+    "aux:596E78": {
+      "ko": "전　세계를　향해　방영하는　거다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に向けて가 한국어 세계 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:597418": {
+      "ko": "이　실드는　파괴할　수　없다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 실드 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5974A9": {"ko": "콤마　２자리까지　오차가　없습니다！！", "terms": {"コンマ": "콤마"}},
+    "aux:597583": {"ko": "완전　평화로　가는　길이다……"},
+    "aux:59759B": {
+      "ko": "병사가　있으면　방해가　될　뿐이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 になる가 한국어 병사·방해를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5975CB": {
+      "ko": "싸움　없는　세계가　찾아오면……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が가 한국어 세계 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59761B": {
+      "ko": "신형기가　완성됐다는　소식이　있어서……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: した와 と가 한국어 완성 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59763F": {
+      "ko": "허가를　받고　싶습니다만。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 いただきたい가 한국어 허가를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59765E": {
+      "ko": "수령은　마더　뱅가드만으로？",
+      "terms": {"マザ": "마더"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 だけで가 한국어 뱅가드 주변에 붙어 있었다. 함명을 마더　뱅가드로 통일하고 전체를 교체했다."
+    },
+    "aux:597678": {"ko": "데려　가려　합니다。"},
+    "aux:5976B2": {
+      "ko": "인간이니까요。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: らね가 한국어 인간나요 뒤에 붙어 있었다. 어미까지 포함해 전체를 교체했다."
+    },
+    "aux:597714": {
+      "ko": "각지에　잠복해　있으니까요。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 각지 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:597742": {"ko": "보급　물자　체크는　끝났나！？", "terms": {"チェック": "체크"}},
+    "aux:597790": {
+      "ko": "언제든　인도할　수　있도록　준비해　둬라。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: しておけよ가 한국어 준비 뒤에 붙어 있었다. 앞절까지 포함해 전체를 교체했다."
+    },
+    "aux:5977C3": {
+      "ko": "모빌슈트인데요……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: ですけど가 한국어 모빌슈트 뒤에 붙어 있었다. 어미 전체를 교체했다."
+    },
+    "aux:5977D1": {
+      "ko": "건담　아닌가요？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なんじゃない이 한국어 건담과 나요 사이에 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5977EB": {
+      "ko": "……그래、확실히　저건　건담이다。",
+      "terms": {"アレ": "저"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 だ가 한국어 건담을 감싸고 있었다. アレ를 저로 옮기고 문장 전체를 교체했다."
+    },
+    "aux:59781C": {
+      "ko": "그쪽은　사나리의　수송　셔틀이죠？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 ですね가 한국어 사나리·셔틀 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:597840": {"ko": "보급　물자를　운반해　왔습니다。"},
+    "aux:597873": {
+      "ko": "마더・뱅가드를　접근시켜……",
+      "terms": {"マザ": "마더"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 뱅가드 뒤에 붙어 있었다. 함명을 마더・뱅가드로 통일하고 전체를 교체했다."
+    }
+  }
+}

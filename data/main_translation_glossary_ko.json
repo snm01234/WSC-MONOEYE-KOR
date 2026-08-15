@@ -1,0 +1,1113 @@
+{
+  "schema_version": 1,
+  "purpose": "메인 번역 시트에 적용할 건담 고유명사 표준 표기",
+  "policy": "한 번 확정한 canonical_ko는 이후 번역 결과에서 동일하게 사용한다.",
+  "updated_at": "2026-08-15",
+  "entries": [
+    {
+      "id": "uc.a_baoa_qu",
+      "jp": "ア・バオア・クー",
+      "canonical_ko": "아 바오아 쿠",
+      "aliases": [
+        "ア・バオア・クー要塞"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/story/bkszobo37q4h1e4f3i2c",
+        "https://www.gundam.info/special-series/gundam-census/01_1699.html"
+      ],
+      "official_ko": "아 바오아 쿠",
+      "official_role": "place",
+      "official_match": "story_text_exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/story/bkszobo37q4h1e4f3i2c",
+      "series_order": 10
+    },
+    {
+      "id": "uc.bright_noa",
+      "jp": "ブライト・ノア",
+      "canonical_ko": "브라이트 노아",
+      "aliases": [
+        "ブライト",
+        "ブライト艦長",
+        "ブライト中佐"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "official_ko": "브라이트 노아",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+      "series_order": 10
+    },
+    {
+      "id": "uc.gihren_zabi",
+      "jp": "ギレン・ザビ",
+      "canonical_ko": "기렌 자비",
+      "aliases": [
+        "ギレン",
+        "ギレン総帥"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+        "https://www.gundam.info/news/video-music/news_video-music_20160923_16507p.html"
+      ],
+      "official_ko": "기렌 자비",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+      "series_order": 10
+    },
+    {
+      "id": "uc.kishiria_zabi",
+      "jp": "キシリア・ザビ",
+      "canonical_ko": "키시리아 자비",
+      "aliases": [
+        "キシリア",
+        "キシリア閣下"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+        "https://www.gundam.info/news/video-music/news_video-music_20160923_16507p.html"
+      ],
+      "official_ko": "키시리아 자비",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+      "series_order": 10
+    },
+    {
+      "id": "uc.lalah_sune",
+      "jp": "ララァ・スン",
+      "canonical_ko": "라라아 슨",
+      "aliases": [
+        "ララァ",
+        "라라아"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+        "https://www.gundam.info/news/publications/01_994.html"
+      ],
+      "official_ko": "라라아 슨",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+      "series_order": 10
+    },
+    {
+      "id": "uc.musai",
+      "jp": "ムサイ",
+      "canonical_ko": "무사이",
+      "aliases": [
+        "ムサイ艦"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/mecha",
+        "https://www.gundam.info/special-series/ms-pb/special-series_ms-pb_20080516_202p.html"
+      ],
+      "official_ko": "무사이",
+      "official_role": "ship",
+      "official_match": "exact",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/mecha",
+      "series_order": 10
+    },
+    {
+      "id": "uc.sayla_mass",
+      "jp": "セイラ",
+      "canonical_ko": "세이라 마스",
+      "aliases": [
+        "セイラ・マス",
+        "세일러"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+        "https://www.gundam.info/news/hot-topics/news_hot-topics_20161111_18p.html"
+      ],
+      "official_ko": "세이라 마스",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/character",
+      "series_order": 10
+    },
+    {
+      "id": "uc.artesia",
+      "jp": "アルテイシア",
+      "canonical_ko": "아르테이시아 솜 다이쿤",
+      "aliases": [
+        "アルテイシア・ソム・ダイクン",
+        "아르테시아"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/origin/character",
+        "https://www.gundam.info/product/book/product_book_20161114_3157p.html"
+      ],
+      "official_ko": "아르테이시아 솜 다이쿤",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_origin",
+      "series_title_ko": "기동전사 건담 디 오리진",
+      "official_index_url": "https://kr.gundam-official.com/series/origin/character",
+      "series_order": 15
+    },
+    {
+      "id": "uc.casval",
+      "jp": "キャスバル",
+      "canonical_ko": "캐스발 렘 다이쿤",
+      "aliases": [
+        "キャスバル兄さん",
+        "캐스발"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/origin/character",
+        "https://www.gundam.info/product/book/product_book_20161114_3157p.html"
+      ],
+      "official_ko": "캐스발 렘 다이쿤",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_origin",
+      "series_title_ko": "기동전사 건담 디 오리진",
+      "official_index_url": "https://kr.gundam-official.com/series/origin/character",
+      "series_order": 15
+    },
+    {
+      "id": "uc.zenna_zabi",
+      "jp": "ゼナ",
+      "canonical_ko": "제나 자비",
+      "aliases": [
+        "ゼナ様",
+        "제나 미아"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/origin/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "official_ko": "제나 자비",
+      "official_role": "character",
+      "official_match": "official_alias_variant",
+      "series_key": "uc_origin",
+      "series_title_ko": "기동전사 건담 디 오리진",
+      "official_index_url": "https://kr.gundam-official.com/series/origin/character",
+      "series_order": 15
+    },
+    {
+      "id": "uc.anavel_gato",
+      "jp": "ガトー",
+      "canonical_ko": "아나벨 가토",
+      "aliases": [
+        "アナベル・ガトー",
+        "가토",
+        "アナべル・ガト－"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/0083/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20110128_476p.html"
+      ],
+      "official_ko": "아나벨 가토",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_0083",
+      "series_title_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "official_index_url": "https://kr.gundam-official.com/series/0083/character",
+      "series_order": 20
+    },
+    {
+      "id": "uc.banning",
+      "jp": "バニング",
+      "canonical_ko": "사우스 버닝",
+      "aliases": [
+        "バニング中尉",
+        "배닝",
+        "버닝"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/0083/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20110128_476p.html"
+      ],
+      "official_ko": "사우스 버닝",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_0083",
+      "series_title_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "official_index_url": "https://kr.gundam-official.com/series/0083/character",
+      "series_order": 20
+    },
+    {
+      "id": "uc.chap_adel",
+      "jp": "チャップ・アデル",
+      "canonical_ko": "챕 아델",
+      "aliases": [
+        "アデル"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/0083/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20110128_476p.html"
+      ],
+      "official_ko": "챕 아델",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_0083",
+      "series_title_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "official_index_url": "https://kr.gundam-official.com/series/0083/character",
+      "series_order": 20
+    },
+    {
+      "id": "uc.kelly_resner",
+      "jp": "ケリィ",
+      "canonical_ko": "케리 레즈너",
+      "aliases": [
+        "ケリィ・レズナー",
+        "케리"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/0083/character",
+        "https://www.gundam.info/special-series/gundam-fashioncheck/16.html"
+      ],
+      "official_ko": "케리 레즈너",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_0083",
+      "series_title_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "official_index_url": "https://kr.gundam-official.com/series/0083/character",
+      "series_order": 20
+    },
+    {
+      "id": "uc.monsia",
+      "jp": "モンシア",
+      "canonical_ko": "베르나르도 몬시아",
+      "aliases": [
+        "ベルナルド・モンシア",
+        "몽시아"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/0083/character",
+        "https://www.gundam.info/special-series/gundam-fashioncheck/16.html"
+      ],
+      "official_ko": "베르나르도 몬시아",
+      "official_role": "character",
+      "official_match": "full_name_for_short_jp",
+      "series_key": "uc_0083",
+      "series_title_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "official_index_url": "https://kr.gundam-official.com/series/0083/character",
+      "series_order": 20
+    },
+    {
+      "id": "uc.apolly_bay",
+      "jp": "アポリー",
+      "canonical_ko": "아폴리",
+      "aliases": [
+        "아볼리",
+        "アポリ－"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/special-series/gundam-power-word/01_2346.html"
+      ],
+      "official_ko": "아볼리",
+      "official_role": "character",
+      "official_match": "user_confirmed_override",
+      "user_confirmed_ko": "아폴리",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "uc.bask_om",
+      "jp": "バスク・オム",
+      "canonical_ko": "바스크 옴",
+      "aliases": [
+        "バスク大佐"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/news/publications/01_4173.html"
+      ],
+      "official_ko": "바스크 옴",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "uc.haman_karn",
+      "jp": "ハマーン・カーン",
+      "canonical_ko": "하만 칸",
+      "aliases": [
+        "ハマーン",
+        "ハマーン様"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "official_ko": "하만 칸",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "z.maua_pharaoh",
+      "jp": "マウアー",
+      "canonical_ko": "마우아",
+      "aliases": [
+        "マウア－",
+        "マウアー・ファラオ",
+        "マウア－・ファラオ",
+        "마우어"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character"
+      ],
+      "official_ko": null,
+      "official_role": "character",
+      "official_match": "user_confirmed",
+      "user_confirmed_ko": "마우아",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "uc.roberto",
+      "jp": "ロベルト",
+      "canonical_ko": "로베르토",
+      "aliases": [
+        "ロべルト"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/special-series/gundam-power-word/01_2346.html"
+      ],
+      "official_ko": "로베르토",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "uc.yazan_gable",
+      "jp": "ヤザン・ゲーブル",
+      "canonical_ko": "야잔 게이블",
+      "aliases": [
+        "ヤザン"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/product/book/product_book_20140326_1713p.html"
+      ],
+      "official_ko": "야잔 게이블",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "z.a_e_u_g_o",
+      "jp": "エゥーゴ",
+      "canonical_ko": "에우고",
+      "aliases": [
+        "エゥ－ゴ"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character",
+        "https://www.gundam.info/special-series/ms-pb/special-series_ms-pb_20071207_64p.html"
+      ],
+      "official_ko": "에우고",
+      "official_role": "organization",
+      "official_match": "group_label_exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "z.henken_bekkener",
+      "jp": "ヘンケン・ベッケナー",
+      "canonical_ko": "헨켄 베케너",
+      "aliases": [
+        "ヘンケン",
+        "ヘンケン・ベッケナ－"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character"
+      ],
+      "official_ko": "헨켄 베케너",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "z.quattro_bajeena",
+      "jp": "クワトロ・バジーナ",
+      "canonical_ko": "크와트로 바지나",
+      "aliases": [
+        "クワトロ",
+        "クワトロ・バジ－ナ",
+        "크와트로"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/character"
+      ],
+      "official_ko": "크와트로 바지나/샤아 아즈나블",
+      "official_role": "character",
+      "official_match": "official_label_compound_short_form",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/character",
+      "series_order": 30
+    },
+    {
+      "id": "z.radish",
+      "jp": "ラーディッシュ",
+      "canonical_ko": "래디시",
+      "aliases": [
+        "ラ－ディッシュ",
+        "라디시"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/z/mecha",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "official_ko": "래디시",
+      "official_role": "ship",
+      "official_match": "official_exact_corrected",
+      "series_key": "uc_z",
+      "series_title_ko": "기동전사 Z건담",
+      "official_index_url": "https://kr.gundam-official.com/series/z/mecha",
+      "series_order": 30
+    },
+    {
+      "id": "uc.neo_zeon",
+      "jp": "ネオ・ジオン",
+      "canonical_ko": "네오 지온",
+      "aliases": [],
+      "sources": [
+        "https://kr.gundam-official.com/series/zz/character",
+        "https://www.gundam.info/special-series/ms-pb/special-series_ms-pb_20071207_64p.html"
+      ],
+      "official_ko": "네오 지온",
+      "official_role": "organization",
+      "official_match": "group_label_exact",
+      "series_key": "uc_zz",
+      "series_title_ko": "기동전사 건담 ZZ",
+      "official_index_url": "https://kr.gundam-official.com/series/zz/character",
+      "series_order": 40
+    },
+    {
+      "id": "uc.nahel_argama",
+      "jp": "ネェル・アーガマ",
+      "canonical_ko": "넬 아가마",
+      "aliases": [
+        "ネェル・ア－ガマ"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/unicorn/mecha",
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "official_ko": "넬 아가마",
+      "official_role": "ship",
+      "official_match": "exact",
+      "series_key": "uc_unicorn",
+      "series_title_ko": "기동전사 건담 UC",
+      "official_index_url": "https://kr.gundam-official.com/series/unicorn/mecha",
+      "series_order": 60
+    },
+    {
+      "id": "turn_a.agrippa_mentener",
+      "jp": "アグリッパ・メンテナー",
+      "canonical_ko": "아그리파 멘테너",
+      "aliases": [
+        "アグリッパ",
+        "アグリッパ・メンテナ－"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a/character",
+        "https://www.gundam-c.com/manual/character/turn-a/agrippa.html"
+      ],
+      "official_ko": "아그리파 멘테너",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a/character",
+      "series_order": 70
+    },
+    {
+      "id": "turn_a.diana_sorel",
+      "jp": "ディアナ・ソレル",
+      "canonical_ko": "디아나 소렐",
+      "aliases": [
+        "ディアナ",
+        "ディアナ女王",
+        "ディアナ陛下"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a/character",
+        "https://www.gundam-c.com/manual/story/turn-a/"
+      ],
+      "official_ko": "디아나 소렐",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a/character",
+      "series_order": 70
+    },
+    {
+      "id": "turn_a.gim_ginganamu",
+      "jp": "ギム・ギンガナム",
+      "canonical_ko": "김 깅가남",
+      "aliases": [
+        "ギンガナム",
+        "긴가남",
+        "김 긴가남"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a/character",
+        "https://www.gundam-c.com/manual/character/turn-a/gym.html"
+      ],
+      "official_ko": "김 깅가남",
+      "official_role": "character",
+      "official_match": "official_exact_corrected",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a/character",
+      "series_order": 70
+    },
+    {
+      "id": "turn_a.harry_ord",
+      "jp": "ハリー・オード",
+      "canonical_ko": "해리 오드",
+      "aliases": [
+        "ハリー",
+        "ハリ－"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a/character",
+        "https://www.turn-a-gundam.net/character/32.html"
+      ],
+      "official_ko": "해리 오드",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a/character",
+      "series_order": 70
+    },
+    {
+      "id": "turn_a.moonrace",
+      "jp": "ムーンレィス",
+      "canonical_ko": "문레이스",
+      "aliases": [
+        "ム－ンレィス"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a",
+        "https://www.gundam-c.com/manual/story/turn-a/"
+      ],
+      "official_ko": "문레이스",
+      "official_role": "organization",
+      "official_match": "story_text_exact",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a",
+      "series_order": 70
+    },
+    {
+      "id": "turn_a.turn_x",
+      "jp": "ターンX",
+      "canonical_ko": "턴X",
+      "aliases": [
+        "タ－ンＸ",
+        "턴 X"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/turn-a/mecha",
+        "https://www.gundam.info/news/publications/01_4014.html"
+      ],
+      "official_ko": "턴X",
+      "official_role": "mecha",
+      "official_match": "official_exact_corrected",
+      "series_key": "turn_a",
+      "series_title_ko": "∀건담",
+      "official_index_url": "https://kr.gundam-official.com/series/turn-a/mecha",
+      "series_order": 70
+    },
+    {
+      "id": "w.zechs_merquise",
+      "jp": "ゼクス・マ－キス",
+      "canonical_ko": "젝스 마키스",
+      "aliases": ["ゼクス", "ゼクス・マキス", "ゼクス・マ－キス特佐"],
+      "sources": [
+        "https://kr.gundam-official.com/news/i/news/video-music/01_18008.html",
+        "https://kr.gundam-official.com/series"
+      ],
+      "official_ko": "젝스 마키스",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.hiiro_yuy",
+      "jp": "ヒイロ・ユイ",
+      "canonical_ko": "히이로 유이",
+      "aliases": ["ヒイロ"],
+      "sources": ["https://kr.gundam-official.com/news/i/news/video-music/01_18008.html"],
+      "official_ko": "히이로 유이",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.relena_dorian",
+      "jp": "リリ－ナ・ドリアン",
+      "canonical_ko": "리리나 도리안",
+      "aliases": ["リリ－ナ", "クイ－ン・リリ－ナ"],
+      "sources": ["https://kr.gundam-official.com/news/i/news/video-music/01_18008.html"],
+      "official_ko": "리리나 도리안",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.relena_peacecraft",
+      "jp": "リリ－ナ・ピ－スクラフト",
+      "canonical_ko": "리리나 피스크래프트",
+      "aliases": ["ピ－スクラフト"],
+      "sources": ["https://kr.gundam-official.com/news/i/news/video-music/01_18008.html"],
+      "official_ko": "리리나 피스크래프트",
+      "official_role": "character_alias",
+      "official_match": "canonical_short_name",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.lucrezia_noin",
+      "jp": "ルクレツィア・ノイン",
+      "canonical_ko": "루크레치아 노인",
+      "aliases": ["ノイン"],
+      "sources": ["https://kr.gundam-official.com/news/i/news/video-music/01_18008.html"],
+      "official_ko": "루크레치아 노인",
+      "official_role": "character",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.doctor_j",
+      "jp": "ドクタ－Ｊ",
+      "canonical_ko": "닥터 J",
+      "aliases": ["ドクタ－J"],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "닥터 J",
+      "official_role": "character",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.wing_zero_custom",
+      "jp": "ウイングゼロカスタム",
+      "canonical_ko": "윙 건담 0(EW)",
+      "aliases": ["ウイングゼロカスタムＨ"],
+      "sources": [
+        "https://kr.gundam-official.com/news/qs9g2k151y7gt4ocmch470j1",
+        "https://kr.gundam-official.com/news/m2moa317pqnidjbx7ghdq0wd"
+      ],
+      "official_ko": "윙 건담 0(EW)",
+      "official_role": "mecha",
+      "official_match": "exact_current_product",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.serpent",
+      "jp": "サ－ぺント",
+      "canonical_ko": "서펜트",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "서펜트",
+      "official_role": "mecha",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.torus",
+      "jp": "ト－ラス",
+      "canonical_ko": "토라스",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "토라스",
+      "official_role": "mecha",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.tallgeese_iii",
+      "jp": "ト－ルギスⅢ",
+      "canonical_ko": "톨기스Ⅲ",
+      "aliases": ["ト－ルギスⅢ█"],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "톨기스Ⅲ",
+      "official_role": "mecha",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.tallgeese",
+      "jp": "ト－ルギス",
+      "canonical_ko": "톨기스",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "톨기스",
+      "official_role": "mecha",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.wing_zero_custom_s",
+      "jp": "ウイングゼロカスタムＳ",
+      "canonical_ko": "윙 건담 0(EW) S",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/news/m2moa317pqnidjbx7ghdq0wd"],
+      "official_ko": "윙 건담 0(EW) S",
+      "official_role": "mecha_variant",
+      "official_match": "canonical_variant",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.treize_khushrenada",
+      "jp": "トレ－ズ・クシュリナ－ダ",
+      "canonical_ko": "트레즈 크슈리나다",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/character/uz6sbbkw7wrfpp5q5t0t3vz1"],
+      "official_ko": "트레즈 크슈리나다",
+      "official_role": "character",
+      "official_match": "exact",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/character/uz6sbbkw7wrfpp5q5t0t3vz1",
+      "series_order": 75
+    },
+    {
+      "id": "w.peace_million",
+      "jp": "ピ－スミリオン",
+      "canonical_ko": "피스 밀리온",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/series"],
+      "official_ko": "피스 밀리온",
+      "official_role": "ship",
+      "official_match": "project_existing_consensus",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "w.endless_waltz",
+      "jp": "エンドレスワルツ",
+      "canonical_ko": "엔드리스 월츠",
+      "aliases": [],
+      "sources": ["https://kr.gundam-official.com/news/m2moa317pqnidjbx7ghdq0wd"],
+      "official_ko": "엔드리스 월츠",
+      "official_role": "title",
+      "official_match": "current_reference",
+      "series_key": "gundam_w",
+      "series_title_ko": "신기동전기 건담 W",
+      "official_index_url": "https://kr.gundam-official.com/series",
+      "series_order": 75
+    },
+    {
+      "id": "monoeye.ain_levi",
+      "jp": "アイン・レヴィ",
+      "canonical_ko": "아인 레비",
+      "aliases": [
+        "アイン"
+      ],
+      "sources": [
+        "https://ggene.fandom.com/ja/wiki/SDガンダム_GGENERATION_モノアイガンダムズ"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": "아인 레비",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "monoeye.blard_fahren",
+      "jp": "ブラード・ファーレン",
+      "canonical_ko": "브라드 파렌",
+      "aliases": [
+        "ブラード",
+        "ブラード中佐",
+        "ブラ－ド",
+        "ブラ－ド中佐",
+        "ブラ－ド・ファ－レン",
+        "브래드 파렌",
+        "브래드"
+      ],
+      "sources": [
+        "https://ggene.fandom.com/ja/wiki/SDガンダム_GGENERATION_モノアイガンダムズ"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": "브라드 파렌",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "uc.flanagan",
+      "jp": "フラナガン",
+      "canonical_ko": "플라나간",
+      "aliases": [
+        "フラナガン機関",
+        "프라나간",
+        "플래나간",
+        "플래너간",
+        "플래너건"
+      ],
+      "sources": [
+        "https://kr.gundam-official.com/series/mobile-suit-gundam/"
+      ],
+      "series_key": "uc_0079",
+      "series_title_ko": "기동전사 건담",
+      "official_ko": "플라나간",
+      "official_role": "proper_noun",
+      "official_match": "user_confirmed_project_canonical",
+      "official_index_url": "https://kr.gundam-official.com/series/mobile-suit-gundam/",
+      "series_order": 10
+    },
+    {
+      "id": "monoeye.mian",
+      "jp": "ミアン",
+      "canonical_ko": "미안",
+      "aliases": [],
+      "sources": [
+        "https://ggene.fandom.com/ja/wiki/SDガンダム_GGENERATION_モノアイガンダムズ"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": "미안",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "monoeye.serein_iksperi",
+      "jp": "セレイン・イクスペリ",
+      "canonical_ko": "세레인 익스페리",
+      "aliases": [
+        "セラ",
+        "セレイン・イクスぺリ"
+      ],
+      "sources": [
+        "https://ggene.fandom.com/ja/wiki/SDガンダム_GGENERATION_モノアイガンダムズ"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": "세레인 익스페리",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "monoeye.serein",
+      "jp": "セレイン",
+      "canonical_ko": "세레인",
+      "aliases": [
+        "셀레인"
+      ],
+      "sources": [
+        "https://ggene.fandom.com/ja/wiki/SDガンダム_GGENERATION_モノアイガンダムズ"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": null,
+      "official_role": "character_short_name",
+      "official_match": "user_confirmed",
+      "user_confirmed_ko": "세레인",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "monoeye.sig_wedner",
+      "jp": "シグ・ウェドナー",
+      "canonical_ko": "시그 웨드너",
+      "aliases": [
+        "シグ",
+        "ウェドナー"
+      ],
+      "sources": [
+        "https://gundam.wiki.cre.jp/wiki/シグ・ウェドナー"
+      ],
+      "series_key": "monoeye",
+      "series_title_ko": "SD Gundam G Generation Mono-Eye Gundams",
+      "official_ko": "시그 웨드너",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 80
+    },
+    {
+      "id": "uc.johnny_raiden",
+      "jp": "ジョニー・ライデン",
+      "canonical_ko": "조니 라이덴",
+      "aliases": [
+        "真紅の稲妻"
+      ],
+      "sources": [
+        "https://www.gundam.info/news/gunpla/01_11070.html"
+      ],
+      "series_key": "unlisted",
+      "series_title_ko": "공식 한국 시리즈 페이지 미등재",
+      "official_ko": "조니 라이덴",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 90
+    },
+    {
+      "id": "uc.maharaja_karn",
+      "jp": "マハラジャ・カーン",
+      "canonical_ko": "마하라자 칸",
+      "aliases": [],
+      "sources": [
+        "https://www.gundam.info/special-series/gundam-works/special-series_gundam-works_20100924_498p.html"
+      ],
+      "series_key": "unlisted",
+      "series_title_ko": "공식 한국 시리즈 페이지 미등재",
+      "official_ko": "마하라자 칸",
+      "official_role": "character",
+      "official_match": "not_listed_on_kr_official_series_pages",
+      "official_index_url": null,
+      "series_order": 90
+    }
+  ],
+  "official_source": {
+    "site": "https://kr.gundam-official.com/series",
+    "crawl_date": "2026-08-13",
+    "scope": "관련 시리즈의 CHARACTER/MECHA 목록과 시리즈 STORY 본문",
+    "note": "공식 한국 시리즈 페이지에 항목이 없는 인물은 기존 외부 출처를 유지하고 official_match로 명시한다."
+  },
+  "series_order": [
+    {
+      "key": "uc_0079",
+      "order": 10,
+      "title_ko": "기동전사 건담"
+    },
+    {
+      "key": "uc_origin",
+      "order": 15,
+      "title_ko": "기동전사 건담 디 오리진"
+    },
+    {
+      "key": "uc_0083",
+      "order": 20,
+      "title_ko": "기동전사 건담 0083 STARDUST MEMORY"
+    },
+    {
+      "key": "uc_z",
+      "order": 30,
+      "title_ko": "기동전사 Z건담"
+    },
+    {
+      "key": "uc_zz",
+      "order": 40,
+      "title_ko": "기동전사 건담 ZZ"
+    },
+    {
+      "key": "uc_cca",
+      "order": 50,
+      "title_ko": "기동전사 건담 역습의 샤아"
+    },
+    {
+      "key": "uc_unicorn",
+      "order": 60,
+      "title_ko": "기동전사 건담 UC"
+    },
+    {
+      "key": "turn_a",
+      "order": 70,
+      "title_ko": "∀건담"
+    },
+    {
+      "key": "gundam_w",
+      "order": 75,
+      "title_ko": "신기동전기 건담 W"
+    },
+    {
+      "key": "monoeye",
+      "order": 80,
+      "title_ko": "SD Gundam G Generation Mono-Eye Gundams"
+    },
+    {
+      "key": "unlisted",
+      "order": 90,
+      "title_ko": "공식 한국 시리즈 페이지 미등재"
+    }
+  ]
+}

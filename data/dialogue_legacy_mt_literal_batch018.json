@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "name": "dialogue_legacy_mt_literal_batch018",
+  "translation_source": "llm",
+  "review_status": "approved_for_test_candidate",
+  "translation_policy": "Japanese original only; UC0079 chronicle neighborhood + clear hyphen MT; fixed-extent retarget; <=20 cells; no legacy KO as translation source",
+  "scope": {
+    "main_tip_sha256": "93de328215eec7d4162279e5956e6cf110741b0ad3a311e9f499019ce6c5f81e",
+    "focus": "6040xx One Year War chronicle / Sig Wedner commission high-confidence literal defects after tip refresh triage",
+    "triage_note": "Mechanical first-120 retarget slice was mostly ellipsis/no-op; this batch keeps JP-grounded non-noop fixes not already claimed by batch001-017",
+    "excluded": "ellipsis-only residuals, face-name digit plaques, garrod anchors, >20-cell lines, abs already targeted in batch005/012"
+  },
+  "source_jp": {
+    "6040B5": "ジオン・ズム・ダイクンの主導により",
+    "6040CB": "コロニ－、サイド３は地球より独立",
+    "6041F0": "電撃的に制圧。",
+    "6041FB": "続く『ルウム戦役』において",
+    "60420E": "連邦軍の宇宙艦隊に圧勝をおさめる。",
+    "604247": "『地球侵攻作戦開始』",
+    "604251": "続く３ヶ月にて、公国軍は",
+    "60427F": "しかし、急速な戦線の拡大により、",
+    "6042D5": "『連邦軍、Ｖ作戦始動』",
+    "60430A": "『連邦軍、オデッサ作戦開始』",
+    "604317": "３日間に渡る激戦の末、連邦軍が勝利。",
+    "6044B2": "本日をもってシグ・ウェドナ－少尉は",
+    "6044C0": "中尉に昇格。",
+    "62BF78": "シロ－……"
+  },
+  "targets": {
+    "6040B5": "지온・즘・다이쿤의　주도로",
+    "6040CB": "콜로니、사이드　３는　지구에서　독립하여",
+    "6041F0": "전격적으로　제압한다。",
+    "6041FB": "이어진　『루움　전역』에서",
+    "60420E": "연방군　우주　함대에　압승을　거둔다。",
+    "604247": "『지구　침공　작전　개시』",
+    "604251": "이어진　３개월　동안、공국군은",
+    "60427F": "그러나　급속한　전선　확대로、",
+    "6042D5": "『연방군、Ｖ작전　시동』",
+    "60430A": "『연방군、오데사　작전　개시』",
+    "604317": "３일간의　격전　끝、연방군이　승리한다。",
+    "6044B2": "오늘부로　시그・웨드너　소위는",
+    "6044C0": "중위로　승진한다。",
+    "62BF78": "시로……"
+  }
+}

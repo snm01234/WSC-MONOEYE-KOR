@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "Runtime-measured follow-up for the 2026-08-09 Touhou Fuhai and nearby dialogue captures; the separate Oita/machine-translation sample is intentionally excluded per user request.",
+  "translation_source": "direct_japanese_retranslation_and_user_runtime_correction",
+  "review_status": "candidate_pending_runtime_validation",
+  "entries": [
+    {"abs":"59976D","jp":"ゴッドぉっ！","ko":"가아앗！","reason":"user runtime capture shows mixed 갓+Japanese shout; replace the whole visible shout","route":"native_stock"},
+    {"abs":"59984F","jp":"最終奥義っ！！","ko":"최종오의！！","reason":"runtime capture shows untranslated Japanese in the Touhou Fuhai technique chain","route":"native_stock"},
+    {"abs":"59987B","jp":"天驚けぇぇぇぇんっ！！","ko":"천경궈어어언！！！","reason":"first static duplicate of the user-requested common shout correction","route":"native_stock"},
+    {"abs":"5999A6","jp":"天驚けぇぇぇぇんっ！！","ko":"천경궈어어언！！！","reason":"runtime-consumed duplicate proven by user test after 59987B-only fix failed","route":"native_stock"},
+    {"abs":"599977","jp":"東方不敗が最終奥義ぃぃ！！","ko":"동방불패！　최종오의이이！！","reason":"runtime capture shows mixed Korean/Japanese technique call"},
+    {"abs":"6226BE","jp":"これ以上の増殖を許すな！！","ko":"더　이상의　증식을　허용하지　마！！","reason":"runtime capture matches an 18-head ext3 route leaking glyphs and losing the portrait","route":"native_stock_2token"},
+    {"abs":"622832","jp":"……はぁぁぁぁっ！！","ko":"……하아앗！！","reason":"Domon record had absorbed the beginning of the next speaker's sentence"},
+    {"abs":"622848","jp":"ふん……","ko":"흥……　이제야　좀　전사의","reason":"move the leaked beginning of the following thought off Domon's portrait and onto Touhou Fuhai's first line"},
+    {"abs":"622850","jp":"ようやくその気になりおったか。","ko":"낯빛으로　각오를　다진　것　같구만。","reason":"keep the second half of the user's captured Touhou Fuhai wording on the bare continuation record"},
+    {"abs":"693D54","jp":"おう！","ko":"오오！","reason":"same-source duplicate family audit found an untranslated sibling of the already localized 611BB7 record","route":"native_stock"},
+    {"abs":"67AF01","jp":"ゲ－ムオ－バ－","ko":"게임　오버","reason":"same-source duplicate family audit found an untranslated sibling while other identical runtime records already render 게임 오버","route":"native_stock"},
+    {"abs":"67C0EC","jp":"ゲ－ムオ－バ－","ko":"게임　오버","reason":"same-source duplicate family audit found a second untranslated sibling while other identical runtime records already render 게임 오버","route":"native_stock"},
+    {"abs":"63E6E4","jp":"いいか！！","ko":"잘　들어！！","reason":"source is exact native two-token grammar but current main collapsed it to one E5 18 portal; restore the source iteration grammar without changing the Korean wording","route":"native_stock_exact_2token"},
+    {"abs":"63EB4A","jp":"すみません……","ko":"죄송합니다……","reason":"source is exact native two-token grammar but current main collapsed it to one E5 18 portal; restore the source iteration grammar without changing the Korean wording","route":"native_stock_exact_2token"},
+    {"abs":"63F0BD","jp":"ふむ……","ko":"흠……","reason":"source is exact native two-token grammar but current main collapsed it to one E5 18 portal; restore the source iteration grammar without changing the Korean wording","route":"native_stock_exact_2token"},
+    {"abs":"63F483","jp":"ゼロ……","ko":"제로……","reason":"source is exact native two-token grammar but current main collapsed it to one E5 18 portal; restore the source iteration grammar without changing the Korean wording","route":"native_stock_exact_2token"},
+    {"abs":"63F67C","jp":"ぐっ……！","ko":"윽……！","reason":"source is exact native two-token grammar but current main collapsed it to one E5 18 portal; restore the source iteration grammar without changing the Korean wording","route":"native_stock_exact_2token"}
+  ],
+  "unchanged_context": [
+    {"abs":"599841","text":"유파、동방불패！"},
+    {"abs":"599864","text":"……석파！！"},
+    {"abs":"59996D","text":"……유파！！"}
+  ]
+}

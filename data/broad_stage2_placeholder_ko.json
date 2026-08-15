@@ -1,0 +1,1355 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/build_stage2_placeholder_catalog.py",
+  "description": "Reviewed semantic replacement of 148 不要 and one 不用 placeholder with 미사용.",
+  "source_audit": "out/patch/broad_stage2_title_ui_residual_audit.json",
+  "counts": {
+    "selected": 149,
+    "fuyou": 148,
+    "fuyou_variant": 1,
+    "unique_korean": 1
+  },
+  "lines": [
+    {
+      "abs": "5CBBDC",
+      "record_id": "aux:5CBBDC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBC0A",
+      "record_id": "aux:5CBC0A",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBC33",
+      "record_id": "aux:5CBC33",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBCC1",
+      "record_id": "aux:5CBCC1",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBD28",
+      "record_id": "aux:5CBD28",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBD4C",
+      "record_id": "aux:5CBD4C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBDAA",
+      "record_id": "aux:5CBDAA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBE31",
+      "record_id": "aux:5CBE31",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBE54",
+      "record_id": "aux:5CBE54",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBE7D",
+      "record_id": "aux:5CBE7D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBEA2",
+      "record_id": "aux:5CBEA2",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBF01",
+      "record_id": "aux:5CBF01",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBFCE",
+      "record_id": "aux:5CBFCE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CBFF9",
+      "record_id": "aux:5CBFF9",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC059",
+      "record_id": "aux:5CC059",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC081",
+      "record_id": "aux:5CC081",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC0A4",
+      "record_id": "aux:5CC0A4",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC119",
+      "record_id": "aux:5CC119",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC17C",
+      "record_id": "aux:5CC17C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC1A7",
+      "record_id": "aux:5CC1A7",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC2FC",
+      "record_id": "aux:5CC2FC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC321",
+      "record_id": "aux:5CC321",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC456",
+      "record_id": "aux:5CC456",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC50C",
+      "record_id": "aux:5CC50C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC533",
+      "record_id": "aux:5CC533",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC58E",
+      "record_id": "aux:5CC58E",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC5BA",
+      "record_id": "aux:5CC5BA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC61F",
+      "record_id": "aux:5CC61F",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC682",
+      "record_id": "aux:5CC682",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC6E1",
+      "record_id": "aux:5CC6E1",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC70D",
+      "record_id": "aux:5CC70D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC7AA",
+      "record_id": "aux:5CC7AA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC7D4",
+      "record_id": "aux:5CC7D4",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC7FF",
+      "record_id": "aux:5CC7FF",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC825",
+      "record_id": "aux:5CC825",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC93D",
+      "record_id": "aux:5CC93D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CC96A",
+      "record_id": "aux:5CC96A",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCA89",
+      "record_id": "aux:5CCA89",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCAEB",
+      "record_id": "aux:5CCAEB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCB50",
+      "record_id": "aux:5CCB50",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCB79",
+      "record_id": "aux:5CCB79",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCBFE",
+      "record_id": "aux:5CCBFE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCC29",
+      "record_id": "aux:5CCC29",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCC55",
+      "record_id": "aux:5CCC55",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCC7E",
+      "record_id": "aux:5CCC7E",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCCD6",
+      "record_id": "aux:5CCCD6",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCD24",
+      "record_id": "aux:5CCD24",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCD4A",
+      "record_id": "aux:5CCD4A",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCDA6",
+      "record_id": "aux:5CCDA6",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCDCC",
+      "record_id": "aux:5CCDCC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCEB5",
+      "record_id": "aux:5CCEB5",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCEDA",
+      "record_id": "aux:5CCEDA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCEFE",
+      "record_id": "aux:5CCEFE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCF27",
+      "record_id": "aux:5CCF27",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCFC7",
+      "record_id": "aux:5CCFC7",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CCFEE",
+      "record_id": "aux:5CCFEE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD041",
+      "record_id": "aux:5CD041",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD068",
+      "record_id": "aux:5CD068",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD0CC",
+      "record_id": "aux:5CD0CC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD15F",
+      "record_id": "aux:5CD15F",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD186",
+      "record_id": "aux:5CD186",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD1AC",
+      "record_id": "aux:5CD1AC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD1D5",
+      "record_id": "aux:5CD1D5",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD256",
+      "record_id": "aux:5CD256",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD2BB",
+      "record_id": "aux:5CD2BB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD2E2",
+      "record_id": "aux:5CD2E2",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD30C",
+      "record_id": "aux:5CD30C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD338",
+      "record_id": "aux:5CD338",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD35D",
+      "record_id": "aux:5CD35D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD383",
+      "record_id": "aux:5CD383",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD3AC",
+      "record_id": "aux:5CD3AC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD3D6",
+      "record_id": "aux:5CD3D6",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD400",
+      "record_id": "aux:5CD400",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD42B",
+      "record_id": "aux:5CD42B",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD489",
+      "record_id": "aux:5CD489",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD4B0",
+      "record_id": "aux:5CD4B0",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD4DB",
+      "record_id": "aux:5CD4DB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD508",
+      "record_id": "aux:5CD508",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD56D",
+      "record_id": "aux:5CD56D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD592",
+      "record_id": "aux:5CD592",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD6E4",
+      "record_id": "aux:5CD6E4",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD709",
+      "record_id": "aux:5CD709",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5CD735",
+      "record_id": "aux:5CD735",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D168D",
+      "record_id": "aux:5D168D",
+      "jp": "不用",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "0B",
+      "body_hex": "79C9"
+    },
+    {
+      "abs": "5D19D4",
+      "record_id": "aux:5D19D4",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "0E",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D1E38",
+      "record_id": "aux:5D1E38",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "0F",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D1FDA",
+      "record_id": "aux:5D1FDA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "10",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D275B",
+      "record_id": "aux:5D275B",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "15",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D28D8",
+      "record_id": "aux:5D28D8",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "16",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D2A64",
+      "record_id": "aux:5D2A64",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "17",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D32AC",
+      "record_id": "aux:5D32AC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "1D",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D3FBE",
+      "record_id": "aux:5D3FBE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "22",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D5816",
+      "record_id": "aux:5D5816",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "2A",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D5963",
+      "record_id": "aux:5D5963",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "2B",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D5B00",
+      "record_id": "aux:5D5B00",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "2B",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D6557",
+      "record_id": "aux:5D6557",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "32",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D6792",
+      "record_id": "aux:5D6792",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "33",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D696E",
+      "record_id": "aux:5D696E",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "33",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D7021",
+      "record_id": "aux:5D7021",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "35",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D75AB",
+      "record_id": "aux:5D75AB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "3A",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D7D5B",
+      "record_id": "aux:5D7D5B",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "3C",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D81AE",
+      "record_id": "aux:5D81AE",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "3E",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D8504",
+      "record_id": "aux:5D8504",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "40",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D8A5C",
+      "record_id": "aux:5D8A5C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "43",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D91DD",
+      "record_id": "aux:5D91DD",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "47",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D9566",
+      "record_id": "aux:5D9566",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4A",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D95DC",
+      "record_id": "aux:5D95DC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4A",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D97B7",
+      "record_id": "aux:5D97B7",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4A",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5D9F04",
+      "record_id": "aux:5D9F04",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4F",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DA22F",
+      "record_id": "aux:5DA22F",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4F",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DA55A",
+      "record_id": "aux:5DA55A",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "4F",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DAA74",
+      "record_id": "aux:5DAA74",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "52",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DAE28",
+      "record_id": "aux:5DAE28",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "53",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DAF86",
+      "record_id": "aux:5DAF86",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "54",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DB0C7",
+      "record_id": "aux:5DB0C7",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "55",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DB482",
+      "record_id": "aux:5DB482",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "57",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DC070",
+      "record_id": "aux:5DC070",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "59",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5DC3DD",
+      "record_id": "aux:5DC3DD",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "5B",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E0455",
+      "record_id": "aux:5E0455",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "5E",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E0AF8",
+      "record_id": "aux:5E0AF8",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "61",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E0BC8",
+      "record_id": "aux:5E0BC8",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "61",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E0D35",
+      "record_id": "aux:5E0D35",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "62",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E15E1",
+      "record_id": "aux:5E15E1",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "66",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E196C",
+      "record_id": "aux:5E196C",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "68",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E1AEA",
+      "record_id": "aux:5E1AEA",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "69",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E22F8",
+      "record_id": "aux:5E22F8",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "6E",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E298D",
+      "record_id": "aux:5E298D",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "71",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E2B55",
+      "record_id": "aux:5E2B55",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "72",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E2D6B",
+      "record_id": "aux:5E2D6B",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "74",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E2DFF",
+      "record_id": "aux:5E2DFF",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "74",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E2F11",
+      "record_id": "aux:5E2F11",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "74",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E2FA5",
+      "record_id": "aux:5E2FA5",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "74",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E3585",
+      "record_id": "aux:5E3585",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "78",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E3EEB",
+      "record_id": "aux:5E3EEB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "80",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E3F95",
+      "record_id": "aux:5E3F95",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "80",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E425E",
+      "record_id": "aux:5E425E",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "82",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E43CC",
+      "record_id": "aux:5E43CC",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "83",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E4575",
+      "record_id": "aux:5E4575",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "83",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E4CFB",
+      "record_id": "aux:5E4CFB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "A0",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E5B87",
+      "record_id": "aux:5E5B87",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "17",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E6686",
+      "record_id": "aux:5E6686",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "90",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E94EB",
+      "record_id": "aux:5E94EB",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "8D",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E9965",
+      "record_id": "aux:5E9965",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "8B",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5E9F2A",
+      "record_id": "aux:5E9F2A",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "91",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5EA5F0",
+      "record_id": "aux:5EA5F0",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "94",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5EB083",
+      "record_id": "aux:5EB083",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "90",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5EBC94",
+      "record_id": "aux:5EBC94",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "98",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5EC037",
+      "record_id": "aux:5EC037",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "9C",
+      "body_hex": "7981"
+    },
+    {
+      "abs": "5EC0BD",
+      "record_id": "aux:5EC0BD",
+      "jp": "不要",
+      "ko": "미사용",
+      "body_capacity": 2,
+      "prefix_hex": "9C",
+      "body_hex": "7981"
+    }
+  ]
+}

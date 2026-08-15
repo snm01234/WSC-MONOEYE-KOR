@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "Current-TIP runtime structural fixes for the two user-reported Domon/Master Asia display leaks only",
+  "provenance": {
+    "translation_source": "current_main_korean_text_with_pristine_japanese_structure",
+    "review_status": "approved_for_runtime_test_candidate",
+    "legacy_machine_translation_used_as_translation_source": false,
+    "canonical_japanese_source": "SD Gundam G Generation Mono-Eye Gundams.wsc",
+    "parent_tip_sha256": "2db6e70feb8925980551e962965fe268c3dbddbc7014e8a0e3fece72a7c3b483"
+  },
+  "entries": [
+    {
+      "abs": "626102",
+      "jp": "この、バカ弟子がぁっ！！",
+      "ko": "이　바보　제자가！！",
+      "issue": "runtime bare-continuation E5 18 leak exposes Japanese こ before the Korean line",
+      "strategy": "restore pristine native code-unit grammar [dict,char1,dict,dict,dict,dict] while preserving the current Korean wording, payload extent, and NUL terminator"
+    },
+    {
+      "abs": "62663E",
+      "jp": "おうっ！！",
+      "ko": "오우！！",
+      "issue": "exact 4-byte E5 18 portal replaces pristine two-native-token body and runtime leaks an extra Japanese second line (がけはう)",
+      "strategy": "restore pristine two-native-dictionary-token iteration grammar while preserving the current Korean wording, payload extent, and NUL terminator"
+    }
+  ],
+  "explicit_exclusion": "The event-error screenshot is from an older TIP and is intentionally ignored per user instruction."
+}

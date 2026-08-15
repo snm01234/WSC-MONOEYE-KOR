@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "description": "Focused runtime-label follow-up for the separately stored ID-command/battle popup labels observed as 回避 and 追撃. The fix deliberately stays on the native two-byte dictionary grammar and does not add E5 18 or compact3 portals to the target labels.",
+  "parent_rom": {
+    "path": "out/patch/monoeye_ko_expanded.wsc",
+    "sha256": "2db6e70feb8925980551e962965fe268c3dbddbc7014e8a0e3fece72a7c3b483"
+  },
+  "targets": [
+    {
+      "abs": "5F4A21",
+      "jp": "回避",
+      "ko": "회피",
+      "parent_payload_hex": "E025E209",
+      "strategy": "existing_native_tokens_preserve_terminator",
+      "primary_slot": "0505",
+      "primary_slot_text": "회피",
+      "filler_slot": "00A9",
+      "filler_slot_text": "",
+      "reason": "The live screenshot is not the bank4C ↑/↓回避 plaque. Reuse the already validated 회피 stock phrase and the existing runtime-used empty filler token so the original 4-byte payload and NUL boundary stay unchanged."
+    },
+    {
+      "abs": "5F38F0",
+      "jp": "追撃",
+      "ko": "추격",
+      "parent_payload_hex": "E02F7B",
+      "strategy": "native_retired_slot_reclaim",
+      "dictionary_owner_slot": "00AE",
+      "replacement_slot": "0093",
+      "old_terminator": "5F38F3",
+      "new_terminator": "5F38F2",
+      "next_dictionary_slot": "00AF",
+      "next_dictionary_pointer": "38F4",
+      "reason": "The 3-byte phrase cannot hold a 4-byte E5 18 portal. Reclaim one independently strong-retired native slot and keep the caller-facing grammar as one ordinary two-byte dictionary token. The old terminator remains as an extra zero byte before the next pointer-addressed dictionary phrase."
+    }
+  ],
+  "reclaim": {
+    "slot": "0093",
+    "current_pointer": "388A",
+    "current_text": "目覚",
+    "next_current_pointer": "3893",
+    "span_start": "388A",
+    "span_end_exclusive": "3893",
+    "orphan_source_slot": "0094",
+    "orphan_original_pointer": "388E",
+    "orphan_current_pointer": "E03A",
+    "orphan_current_text": "수령",
+    "new_text": "추격",
+    "hangul_marker": "EC8D",
+    "reason": "Slot 0093 is in current_strong_retired_slots. Its 9-byte storage span also contains the abandoned original 0094 phrase bytes; current 0094 has already moved to E03A, and no current dictionary pointer targets the interior of 388A-3892."
+  }
+}

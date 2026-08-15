@@ -1,0 +1,69 @@
+{
+  "description": "Proper nouns (people, places, organisations, units, weapons) and unambiguous loanword nouns that the non-dialogue surfaces still render in Japanese. Mined by tools/mine_ui_facing_terms.py against the promoted tip and translated by hand. This is the proper-noun slice of the 489 'safe' candidates; the other 445 are deliberately NOT taken (see _why_only_proper_nouns).",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "_why_only_proper_nouns": [
+    "The 489 'safe' candidates are shared prose vocabulary, so localizing one puts Korean inside an otherwise-Japanese sentence. For grammar words that is strictly worse than leaving it alone, and for verb stems it is broken: 背負 + って -> 짊어って. Those stay Japanese.",
+    "A NAME does not have that problem. 다카르 reads as Dakar wherever it lands, it takes no inflection, and it is the same category the shipped unit_names_ko / weapon_names_ko catalogs already cover. The residual mixed-particle text around it (다카르に) is pre-existing, not caused by this row.",
+    "Pronouns are excluded even though they are the highest-volume candidates (オレ x163, オマエ x81, ボク x67, 貴様 x65, キサマ x51, アタシ x42, アナタ x37, アンタ x14). They are grammar-bearing and compose: オレ inside オレたち gives 나たち. The katakana-glue test does not catch that because たち is hiragana, so it is scored 'particle' rather than 'broken_word'.",
+    "Slang / common nouns excluded for the same reason: アホ ウソ ヒマ ムチャ ブザマ ゴメン タダ マズイ イジメ オタク オッサン オモチャ オサラバ ホント カンタン マネ ハ－ト クセ カギ エサ アゴ パパ カトンボ.",
+    "Shouts and onomatopoeia excluded: フィンガァァァ－－ッ ガトォォ－－ッ ギャンギャン. They are elongation runs, and Korean must never carry the '－' (it is scored broken_word and cannot be told from a truncated katakana word).",
+    "Uncertain referents dropped rather than guessed: フォン (von / phone), イ－ズ, キリング.",
+    "REMOVED after measuring the rendered text: バオア and スオ－ノ. Both are only ever one component of a middle-dot compound name (ア・バオア・ク－ = A Baoa Qu, テラ・スオ－ノ), so localizing the component alone renders ア・바오아・ク－ — a name half in each script. The other components (ア, ク－, テラ) are unsafe fragments, so there is no whole-word fix; leaving them Japanese is correct. scan_fragment_composition_hazard treats U+30FB as a separator on purpose (ハマ－ン・カ－ン really is two words), which is right for personal names and wrong here; scan_mixed_script_artifacts now reports this as severity 'split_compound'."
+  ],
+  "_selection_rules": [
+    "every row was reported 'safe' (not 'glued') by tools/mine_ui_facing_terms.py on the promoted tip, so it is not a mid-word fragment of a longer Japanese word",
+    "no row is on apply_weapon_table.FRAG_BLOCKLIST",
+    "no row duplicates a jp key already shipped in another data/*_ko.json",
+    "every ko was proved encodable against the INSTALLED tbl + marker before this file was written — this is the missing-Hangul-glyph failure class that produced the name75 encode_fail rows, and it cannot be caught by eye",
+    "verify with tools/scan_fragment_composition_hazard.py and tools/scan_mixed_script_artifacts.py after applying"
+  ],
+  "_verified": "44 proposed / 44 passed the pre-write checks / 2 removed afterwards on rendered-text evidence (バオア, スオ－ノ) = 42 shipped",
+  "entries": [
+    { "jp": "ト－レス", "ko": "토레스", "cat": "person" },
+    { "jp": "ミ－シャ", "ko": "미샤", "cat": "person" },
+    { "jp": "アポリ－", "ko": "아폴리", "cat": "person" },
+    { "jp": "ハンゲルグ", "ko": "한겔그", "cat": "person" },
+    { "jp": "マイッツァ－", "ko": "마이처", "cat": "person" },
+    { "jp": "ゼナ", "ko": "제나", "cat": "person" },
+    { "jp": "ドロワ", "ko": "드로와", "cat": "person" },
+    { "jp": "アルマイヤ－", "ko": "알마이어", "cat": "person" },
+    { "jp": "ド－リアン", "ko": "도리안", "cat": "person" },
+    { "jp": "マヒロ－", "ko": "마히로", "cat": "person" },
+
+    { "jp": "ダカ－ル", "ko": "다카르", "cat": "place" },
+    { "jp": "アフリカ", "ko": "아프리카", "cat": "place" },
+    { "jp": "ヨ－ロッパ", "ko": "유럽", "cat": "place" },
+    { "jp": "ルナ", "ko": "루나", "cat": "place" },
+    { "jp": "アイランド", "ko": "아일랜드", "cat": "place" },
+
+    { "jp": "カラバ", "ko": "카라바", "cat": "org" },
+    { "jp": "サナリィ", "ko": "사나리", "cat": "org" },
+    { "jp": "ブッホ", "ko": "부흐", "cat": "org" },
+    { "jp": "コンツェルン", "ko": "콘체른", "cat": "org" },
+    { "jp": "キャメル", "ko": "카멜", "cat": "org" },
+    { "jp": "ソレイユ", "ko": "솔레이유", "cat": "org" },
+
+    { "jp": "ジ－クフリ－ド", "ko": "지크프리트", "cat": "unit" },
+    { "jp": "シスク－ド", "ko": "시스쿠드", "cat": "unit" },
+    { "jp": "デスパ－ダ", "ko": "데스파다", "cat": "unit" },
+    { "jp": "カゲロウ", "ko": "카게로", "cat": "unit" },
+    { "jp": "アサルム", "ko": "아사룸", "cat": "unit" },
+    { "jp": "バタラ", "ko": "바타라", "cat": "unit" },
+    { "jp": "グワリブ", "ko": "그와리브", "cat": "unit" },
+    { "jp": "セイレ－ネ", "ko": "세이레네", "cat": "unit" },
+    { "jp": "サイクロプス", "ko": "사이클롭스", "cat": "unit" },
+    { "jp": "メ－ルシュトロ－ム", "ko": "메일슈트롬", "cat": "weapon" },
+
+    { "jp": "コックピット", "ko": "조종석", "cat": "ui" },
+    { "jp": "バックアップ", "ko": "백업", "cat": "ui" },
+    { "jp": "カテゴリ－", "ko": "카테고리", "cat": "ui" },
+    { "jp": "タイミング", "ko": "타이밍", "cat": "ui" },
+    { "jp": "シンボル", "ko": "심볼", "cat": "ui" },
+    { "jp": "エリア", "ko": "에리어", "cat": "ui" },
+    { "jp": "ク－デタ－", "ko": "쿠데타", "cat": "ui" },
+    { "jp": "ブリ－フィングル－ム", "ko": "브리핑룸", "cat": "ui" },
+    { "jp": "パトロ－ル", "ko": "순찰", "cat": "ui" },
+    { "jp": "モルモット", "ko": "실험체", "cat": "ui" },
+    { "jp": "レッスン", "ko": "레슨", "cat": "ui" }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "description": "System/UI/battle menu dictionary terms (exact 5F slot match → spill). Complements unit_names_ko.json. Shared tokens Koreanize many option/battle help lines.",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "entries": [
+    {
+      "jp": "ＩＤ",
+      "ko": "ID",
+      "cat": "ui"
+    },
+    {
+      "jp": "コマンド",
+      "ko": "커맨드",
+      "cat": "ui"
+    },
+    {
+      "jp": "システム",
+      "ko": "시스템",
+      "cat": "ui"
+    },
+    {
+      "jp": "選択",
+      "ko": "선택",
+      "cat": "ui"
+    },
+    {
+      "jp": "確認",
+      "ko": "확인",
+      "cat": "ui"
+    },
+    {
+      "jp": "終了",
+      "ko": "종료",
+      "cat": "ui"
+    },
+    {
+      "jp": "出撃",
+      "ko": "출격",
+      "cat": "ui"
+    },
+    {
+      "jp": "強化",
+      "ko": "강화",
+      "cat": "ui"
+    },
+    {
+      "jp": "改造",
+      "ko": "개조",
+      "cat": "ui"
+    },
+    {
+      "jp": "配属",
+      "ko": "배치",
+      "cat": "ui"
+    },
+    {
+      "jp": "通信",
+      "ko": "통신",
+      "cat": "ui"
+    },
+    {
+      "jp": "索敵",
+      "ko": "색적",
+      "cat": "ui"
+    },
+    {
+      "jp": "実行",
+      "ko": "실행",
+      "cat": "ui"
+    },
+    {
+      "jp": "反撃",
+      "ko": "반격",
+      "cat": "ui"
+    },
+    {
+      "jp": "配置",
+      "ko": "배치",
+      "cat": "ui"
+    },
+    {
+      "jp": "編成",
+      "ko": "편성",
+      "cat": "ui"
+    },
+    {
+      "jp": "スタック",
+      "ko": "스택",
+      "cat": "ui"
+    },
+    {
+      "jp": "フェイズ",
+      "ko": "페이즈",
+      "cat": "ui"
+    },
+    {
+      "jp": "マップ",
+      "ko": "맵",
+      "cat": "ui"
+    },
+    {
+      "jp": "ＨＰ",
+      "ko": "ＨＰ",
+      "cat": "ui"
+    },
+    {
+      "jp": "移動",
+      "ko": "이동",
+      "cat": "ui"
+    },
+    {
+      "jp": "攻撃",
+      "ko": "공격",
+      "cat": "ui"
+    },
+    {
+      "jp": "防御",
+      "ko": "방어",
+      "cat": "ui"
+    },
+    {
+      "jp": "回避",
+      "ko": "회피",
+      "cat": "ui"
+    },
+    {
+      "jp": "射撃",
+      "ko": "사격",
+      "cat": "ui"
+    },
+    {
+      "jp": "捕獲",
+      "ko": "포획",
+      "cat": "ui"
+    },
+    {
+      "jp": "いいえ",
+      "ko": "아니오",
+      "cat": "ui"
+    },
+    {
+      "jp": "命中率",
+      "ko": "명중률",
+      "cat": "ui"
+    },
+    {
+      "jp": "経験",
+      "ko": "경험",
+      "cat": "ui"
+    },
+    {
+      "jp": "精神",
+      "ko": "정신",
+      "cat": "ui"
+    },
+    {
+      "jp": "補給",
+      "ko": "보급",
+      "cat": "ui"
+    },
+    {
+      "jp": "開発",
+      "ko": "개발",
+      "cat": "ui"
+    },
+    {
+      "jp": "設計",
+      "ko": "설계",
+      "cat": "ui"
+    },
+    {
+      "jp": "名前",
+      "ko": "이름",
+      "cat": "ui"
+    },
+    {
+      "jp": "戦闘",
+      "ko": "전투",
+      "cat": "ui"
+    },
+    {
+      "jp": "クリア",
+      "ko": "클리어",
+      "cat": "ui"
+    },
+    {
+      "jp": "ファイル",
+      "ko": "파일",
+      "cat": "ui"
+    },
+    {
+      "jp": "攻撃力",
+      "ko": "공격력",
+      "cat": "ui"
+    },
+    {
+      "jp": "戦闘開始",
+      "ko": "전투　시작",
+      "cat": "ui"
+    },
+    {
+      "jp": "戦闘中",
+      "ko": "전투　중",
+      "cat": "ui"
+    },
+    {
+      "jp": "戦闘力",
+      "ko": "전투력",
+      "cat": "ui"
+    },
+    {
+      "jp": "総攻撃",
+      "ko": "총공격",
+      "cat": "ui"
+    },
+    {
+      "jp": "直接攻撃",
+      "ko": "직접　공격",
+      "cat": "ui"
+    },
+    {
+      "jp": "ステ－ジクリア",
+      "ko": "스테이지　클리어",
+      "cat": "ui"
+    }
+  ]
+}

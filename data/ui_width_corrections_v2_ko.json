@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "description": "Second screen-verified UI width correction layer. Applies only the four strings that still overlapped after ui_width_correction_candidate.wsc.",
+  "parent_rom": "out/patch/ui_width_correction_candidate.wsc",
+  "records": [
+    {
+      "abs": "75B522",
+      "before": "　덮어쓸까요？",
+      "after": "　덮어쓰기",
+      "max_visual_cells": 5,
+      "dynamic_prefix_cells": 5,
+      "max_combined_cells": 10,
+      "screen": "저장 덮어쓰기 확인",
+      "reason": "DATA1과 결합한 전체 문구를 10셀로 줄이고 물음표 하단과 선택 커서의 간섭 제거"
+    },
+    {
+      "abs": "75B52C",
+      "before": "　불러올까요？",
+      "after": "　불러오기",
+      "max_visual_cells": 5,
+      "dynamic_prefix_cells": 5,
+      "max_combined_cells": 10,
+      "screen": "불러오기 확인",
+      "reason": "DATA1과 결합한 전체 문구를 10셀로 줄여 선택 커서와의 간격 확보"
+    },
+    {
+      "abs": "75B872",
+      "before": "ＭＳ작품별",
+      "after": "ＭＳ작품",
+      "max_visual_cells": 4,
+      "screen": "도감 분류 메뉴",
+      "reason": "실화면에서 5셀 문구의 마지막 글자가 선택 커서 오른쪽 모서리와 겹쳐 4셀로 축약"
+    },
+    {
+      "abs": "75B87A",
+      "before": "캐릭작품별",
+      "after": "캐릭작품",
+      "max_visual_cells": 4,
+      "screen": "도감 분류 메뉴",
+      "reason": "비선택 상태에서도 마지막 글자가 커서 영역에 진입해 4셀로 축약"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "effective_date": "2026-08-03",
+  "revised_date": "2026-08-13",
+  "status": "active",
+  "active_runtime_baseline": "out/patch/monoeye_ko_expanded.wsc",
+  "policy": {
+    "default": "deny_unprovenanced_sheet_or_generated_translation_assets",
+    "new_patch_parent": "always derive candidates from the current promoted main TIP",
+    "legacy_machine_translation": "retain only as quarantined forensic evidence; never merge, apply, or treat as canonical",
+    "approved_translation_sources": [
+      "human",
+      "llm",
+      "user_verified",
+      "curated_project_data"
+    ],
+    "approved_review_status": [
+      "approved",
+      "user_verified"
+    ]
+  },
+  "main_sheet_full_llm_reaudit": {
+    "status": "mandatory_before_future_canonical_rebuild",
+    "selection_operator": "OR",
+    "select_if": [
+      "the exact current Korean wording is not explicitly marked as LLM-generated",
+      "the exact current Korean wording lacks evidence of at least one completed review",
+      "the wording has a legacy-machine-translation or low-quality risk flag"
+    ],
+    "exemption_requires_all": [
+      "exact current wording match",
+      "translation_source=llm",
+      "review_count>=1",
+      "approved review_status",
+      "no quality-risk flag"
+    ],
+    "planning_policy": "data/main_translation_llm_review_policy.json",
+    "prepared_plan": "out/script/main_translation_llm_review/plan.json"
+  },
+  "future_canonical_sheet": {
+    "path": "out/script/translation_sheet_llm_reviewed.csv",
+    "approved_generated_json_prefix": "out/script/translations_llm_reviewed_",
+    "required_columns": [
+      "translation_source",
+      "source_model",
+      "review_status",
+      "review_count",
+      "reviewed_at",
+      "source_body_sha256",
+      "main_tip_sha256"
+    ],
+    "allowed_translation_source_values": [
+      "llm"
+    ],
+    "allowed_review_status_values": [
+      "approved",
+      "user_verified"
+    ],
+    "minimum_review_count": 1,
+    "rule": "every non-empty ko row must be exact-current-wording bound, explicitly LLM-generated, and carry at least one completed approved review"
+  },
+  "trusted_project_data": {
+    "path_rules": [
+      "data/*_ko.json",
+      "data/ko_*_overrides.json",
+      "data/translations_seed*.json"
+    ],
+    "note": "These are narrowly scoped curated specifications or seed data. New files should add source/review metadata where practical."
+  },
+  "blocked_exact_paths": [
+    "out/script/excel_translate_cache.json",
+    "out/script/translation_sheet.csv",
+    "out/script/translation_sheet_partial.csv",
+    "out/script/translation_sheet_probe.csv",
+    "out/script/translations_full.json",
+    "out/script/translations_full_all.json",
+    "out/script/translations_quality.json",
+    "out/script/translations_quality_all.json",
+    "out/script/translations_apply_all.json",
+    "out/script/translations_ep1_3.json",
+    "out/script/translations_Ep1-3.json",
+    "out/script/translations_ep3_window.json",
+    "out/script/translations_ep4.json",
+    "out/script/translations_ep5_8.json",
+    "out/script/translations_Ep5-8.json",
+    "out/script/translations_midgame_607000_62FFFF.json",
+    "out/script/translations_midgame_610000_62FFFF.json",
+    "out/script/_test_retranslate.json"
+  ],
+  "relocated_forensic_assets": {
+    "out/script/translation_sheet_partial.csv": "legacy/out/script/translation_sheet_partial.csv",
+    "out/script/translation_sheet_probe.csv": "legacy/out/script/translation_sheet_probe.csv",
+    "out/script/translations_apply_all.json": "legacy/out/script/translations_apply_all.json",
+    "out/script/translations_ep3_window.json": "legacy/out/script/translations_ep3_window.json",
+    "out/script/translations_quality.json": "legacy/out/script/translations_quality.json"
+  },
+  "blocked_path_prefixes": [
+    "out/script/splits/",
+    "legacy/out/script/splits/",
+    "legacy/out/script/translations_",
+    "legacy/out/script/translation_sheet"
+  ],
+  "blocked_generators": [
+    {
+      "path": "tools/excel_batch_translate.py",
+      "reason": "Excel/Azure/Bing/Google machine-translation generator"
+    },
+    {
+      "path": "tools/translate_splits_llm.py",
+      "reason": "misnamed legacy Google Translate generator; it is not an LLM workflow"
+    },
+    {
+      "path": "tools/apply_translate_cache.py",
+      "reason": "merges legacy Bing/Excel/Google cache into the translation sheet"
+    },
+    {
+      "path": "tools/archive/retranslate_quality_json.py",
+      "reason": "legacy Google Translate retranslation pass"
+    }
+  ],
+  "migration": {
+    "step_1": "keep quarantined files unchanged for address/JP/reference recovery only",
+    "step_2": "create translation_sheet_llm_reviewed.csv from rows retranslated by an LLM or reviewed by a person",
+    "step_3": "populate translation_source and review_status for every non-empty Korean row",
+    "step_4": "run tools/audit_translation_sources.py and require a clean result before any cold rebuild",
+    "step_5": "continue ordinary patch work from the promoted main TIP and narrow data/*_ko.json specifications"
+  }
+}

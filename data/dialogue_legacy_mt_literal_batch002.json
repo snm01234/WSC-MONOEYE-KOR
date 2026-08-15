@@ -1,0 +1,1267 @@
+{
+  "schema_version": 1,
+  "batch": 2,
+  "translation_source": "llm",
+  "review_status": "approved_for_test_candidate",
+  "source_policy": "reuse only a unique approved Korean translation for an exact identical Japanese source",
+  "legacy_machine_translation_used_as_translation_source": false,
+  "targets": {
+    "600581": "ＭＳ　부대가　전개　중！！",
+    "6005A9": "우릴　옭아맬　셈인가……！",
+    "6005B5": "하지만　응전하려　해도",
+    "600661": "브라이트　함장들이",
+    "600669": "회견장에서　탈출했다고！！",
+    "6006B7": "……전　부대、　제１종　전투배치！！",
+    "600706": "여기는　마더　뱅가드！",
+    "60073F": "이　건물까지　전진시켜！",
+    "60076D": "턴　엑스는　자네에게　맡긴다！",
+    "6007C1": "자넨　네오　지온　사람이지？",
+    "6007CF": "왜　우릴　돕는　거지？",
+    "6007DF": "하만　님의　지시다。",
+    "600ABC": "현재　깅가남　함대의",
+    "600D41": "괜찮다……",
+    "601017": "……뭐！？",
+    "601B12": "터、　턴Ｘ의　월광접이……！！",
+    "601D62": "네오　지온은　아니야。",
+    "601D6E": "저건　티탄즈가　한　짓이야。",
+    "601DFE": "콜로니　레이저를　완성했다。",
+    "601E0B": "이에　맞서기　위해、",
+    "601E14": "우린　네오　지온과　손잡는다。",
+    "602171": "싸움에　나선다고　들었습니다。",
+    "602191": "반드시　막아야　합니다。",
+    "602239": "그렇다고　해도",
+    "60226E": "여왕으로서　손놓고",
+    "602478": "……하만인가。　내게　무슨　일이지？",
+    "60249A": "이제　와　과거를　돌아봐도",
+    "6024AE": "옛날로　돌아갈　수는　없어。",
+    "6028B3": "여기는　마더　뱅가드！",
+    "6029F0": "……알겠습니다！！",
+    "602B46": "브라이트　함장！",
+    "602C65": "저건……　김　긴가남인가！！",
+    "603594": "……알겠습니다！！",
+    "603AF3": "내가　그녀를　죽이거나……",
+    "603B12": "……아니면　세라가",
+    "603B1E": "이　나를　죽이거나。",
+    "603B29": "실제로　만나보지　않으면",
+    "603B39": "뭐라　말할　수　없어……。",
+    "6047BE": "……뭐라고！！",
+    "604E06": "그건……",
+    "604EC4": "……무르다！！",
+    "605880": "이건……",
+    "6073B2": "……잠깐만요！",
+    "607580": "아、　아니……　아무것도　아냐。",
+    "60786B": "ＭＳ대는　전력으로",
+    "609DC7": "……용서　못해！！",
+    "60B3E8": "……아니。",
+    "60B83D": "……뭐！？",
+    "60C6EC": "왜　여기에！？",
+    "60D3A0": "하、　하지만……",
+    "60D879": "왜　여기에！？",
+    "60DBE9": "아아、　물론이지。",
+    "60F0DF": "……그렇군。",
+    "612722": "이건……",
+    "6127C8": "호오、　제법이군……",
+    "61387E": "……예！！",
+    "614211": "……？",
+    "61628E": "전개하고　있습니다！！",
+    "61635A": "곤란하군……",
+    "6168BF": "……뭐！？",
+    "61895E": "……？",
+    "619300": "지금　네오　지온을！！",
+    "61932D": "……좋아！",
+    "61935E": "롤라도　나갈　수　있겠지？",
+    "619F4A": "아아、　물론이지。",
+    "61A324": "……좋아！",
+    "61A383": "……네。",
+    "61A3B5": "……알겠습니다！！",
+    "61B350": "브라이트　함장！！",
+    "61B829": "그래……",
+    "61CA61": "……시그！？",
+    "61CE9C": "그럼……",
+    "61D262": "……형！！",
+    "61D450": "……알겠습니다！！",
+    "61D522": "……뭐라고！？",
+    "61DD01": "……뭐지！？",
+    "620519": "……뭐지！？",
+    "620775": "……알겠다。",
+    "6217D1": "……뭐지！？",
+    "622318": "시그……",
+    "622CF2": "……무슨　뜻이지？",
+    "62301E": "……네。",
+    "623061": "……네。",
+    "6237A9": "후후……",
+    "623816": "……네。",
+    "6242B9": "……그래。",
+    "6244E6": "……네。",
+    "6258F5": "……네。",
+    "625D2A": "……네。",
+    "625F3E": "……뭐라고！？",
+    "626C01": "그건……！！",
+    "62762D": "……뭐라고！？",
+    "628E26": "브라이트　함장！！",
+    "62910C": "……뭐라고！？",
+    "629C46": "……그렇군요。",
+    "629CA9": "……좋아！！",
+    "629D44": "각자、　부탁한다！",
+    "629D75": "후후후……",
+    "629E1E": "……핫！！",
+    "62A0A6": "……뭐라고！？",
+    "62ACA7": "……그렇군。",
+    "62ADC8": "후후후……",
+    "62B041": "후후후……",
+    "62C63B": "……뭐라고！？",
+    "62C72C": "……뭐！？",
+    "6306A6": "……핫！！",
+    "631625": "그래……",
+    "6318CF": "……뭐라고！？",
+    "631A12": "카、　카테지나　씨……！？",
+    "631AE2": "사라……　왜！？",
+    "632BCA": "후후후……",
+    "632C5C": "……핫！！",
+    "632F60": "……뭐라고！？",
+    "633112": "……뭐라고！？",
+    "63323E": "……핫！！",
+    "6332FD": "후후후……",
+    "633591": "……그래요。",
+    "63368D": "……그렇군。",
+    "6350A3": "……그렇군。",
+    "6353A9": "……시그！！",
+    "635421": "후후……",
+    "637BE8": "……쥬도！！",
+    "637D1A": "……뭐라고！？",
+    "637DAA": "후후……",
+    "638405": "……뭐라고！？",
+    "638AAD": "……뭐라고！？",
+    "638BA3": "후후후……",
+    "638DE6": "카테지나　씨……",
+    "638F07": "카테지나　씨……",
+    "638FE3": "……형！！",
+    "639311": "……알겠습니다！！",
+    "63948C": "……뭐라고！？",
+    "63A050": "……뭐라고！？",
+    "63A740": "큭……！",
+    "63AE59": "시그……！！",
+    "63B18E": "……시그！！",
+    "63B496": "……그렇군。",
+    "63B5B4": "……세라。",
+    "63B798": "……그렇군。",
+    "63CCE9": "적　목표는　다카르의　연방의회며、",
+    "63CCF8": "이를　막는　게　당면　목표다。",
+    "63CD4F": "각자、　언제든　전투하도록",
+    "63CD5E": "준비해두기　바란다。",
+    "63CD72": "아、　브라이트　함장。",
+    "63CD7D": "하나　걸리는　게　있는데요……",
+    "63CD89": "응、　뭔데、　토레스？",
+    "63CD99": "실은　아프리카에　소속불명의",
+    "63CDA8": "거대　모빌슈트가　나타났답니다……",
+    "63CDC8": "건담　타입이라던데、",
+    "63CDD3": "현재　카라바에　조회중입니다。",
+    "63CDE5": "소속불명의　건담인가……",
+    "63CF5A": "뭐라고！？",
+    "63E376": "……아니。",
+    "63F117": "……그렇군。",
+    "63F282": "……뭐라고！？",
+    "63F3BF": "……그라고？"
+  },
+  "evidence": [
+    {
+      "abs": "600581",
+      "jp": "モビルス－ツ部隊、展開中！！",
+      "before": "모빌슈트　부대、　전개　중！！",
+      "after": "ＭＳ　부대가　전개　중！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6005A9",
+      "jp": "こちらをからめ取るつもりか……！",
+      "before": "이쪽을　옭아맬　셈인가……！",
+      "after": "우릴　옭아맬　셈인가……！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6005B5",
+      "jp": "だが、応戦しようにも",
+      "before": "하지만　응전하려고　해도",
+      "after": "하지만　응전하려　해도",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "600661",
+      "jp": "ブライト艦長たちが",
+      "before": "브라이트　함장　일행이",
+      "after": "브라이트　함장들이",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "600669",
+      "jp": "会見場から脱出したと！！",
+      "before": "회담장에서　탈출했다고　합니다！！",
+      "after": "회견장에서　탈출했다고！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6006B7",
+      "jp": "……全部隊、第１種戦闘配備！！",
+      "before": "……전　부대、　제１종　전투　배치！！",
+      "after": "……전　부대、　제１종　전투배치！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "600706",
+      "jp": "こちらマザ－・バンガ－ド！",
+      "before": "여기　마더　뱅가드！",
+      "after": "여기는　마더　뱅가드！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60073F",
+      "jp": "この建物まで前進させるんだ！",
+      "before": "이　건물까지　전진시키는　거다！",
+      "after": "이　건물까지　전진시켜！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60076D",
+      "jp": "タ－ンＸは君に任せたぞ！",
+      "before": "턴　엑스는　너에게　맡기겠다！",
+      "after": "턴　엑스는　자네에게　맡긴다！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6007C1",
+      "jp": "君はネオ・ジオンの者だろう？",
+      "before": "너는　네오　지온의　사람이겠지？",
+      "after": "자넨　네오　지온　사람이지？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6007CF",
+      "jp": "なぜ、我々を助ける？",
+      "before": "어째서　우리를　돕지？",
+      "after": "왜　우릴　돕는　거지？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6007DF",
+      "jp": "ハマ－ン様のご指示だ。",
+      "before": "하만　님의　지시이다。",
+      "after": "하만　님의　지시다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "600ABC",
+      "jp": "現在、ギンガナム艦隊の",
+      "before": "현재、　깅가남　함대의",
+      "after": "현재　깅가남　함대의",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "600D41",
+      "jp": "なぁに……",
+      "before": "별것　아니야……",
+      "after": "괜찮다……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601017",
+      "jp": "……なっ！？",
+      "before": "……뭐라고！？",
+      "after": "……뭐！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601B12",
+      "jp": "タ、タ－ンＸの月光蝶が……！！",
+      "before": "턴、　턴엑스의　월광접이……！！",
+      "after": "터、　턴Ｘ의　월광접이……！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601D62",
+      "jp": "ネオ・ジオンではない。",
+      "before": "네오　지온이　아닐세。",
+      "after": "네오　지온은　아니야。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601D6E",
+      "jp": "ティタ－ンズの仕業だよ、あれは。",
+      "before": "티탄즈의　짓이야、　저건。",
+      "after": "저건　티탄즈가　한　짓이야。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601DFE",
+      "jp": "コロニ－・レ－ザ－を完成させた。",
+      "before": "콜로니　레이저를　완성시켰다。",
+      "after": "콜로니　레이저를　완성했다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601E0B",
+      "jp": "これに対抗するため、",
+      "before": "이에　대항하기　위해、",
+      "after": "이에　맞서기　위해、",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "601E14",
+      "jp": "我々はネオ・ジオンと手を組む。",
+      "before": "우리는　네오　지온과　손을　잡는다。",
+      "after": "우린　네오　지온과　손잡는다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602171",
+      "jp": "戦いに赴かれるそうですね。",
+      "before": "싸움에　나서시는　모양이군요。",
+      "after": "싸움에　나선다고　들었습니다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602191",
+      "jp": "止めねばなりません。",
+      "before": "막아야만　합니다。",
+      "after": "반드시　막아야　합니다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602239",
+      "jp": "だからといって",
+      "before": "그렇다고　해서",
+      "after": "그렇다고　해도",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60226E",
+      "jp": "女王として手をこまねいて",
+      "before": "여왕으로서　팔짱을　끼고",
+      "after": "여왕으로서　손놓고",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602478",
+      "jp": "……ハマ－ンか。私に何の用だ？",
+      "before": "……하만인가。　내게　무슨　용건이지？",
+      "after": "……하만인가。　내게　무슨　일이지？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60249A",
+      "jp": "今さら過去を振り返ったところで",
+      "before": "이제　와서　과거를　돌아본들",
+      "after": "이제　와　과거를　돌아봐도",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6024AE",
+      "jp": "昔に戻れるわけではない。",
+      "before": "옛날로　돌아갈　수　있는　것은　아니다。",
+      "after": "옛날로　돌아갈　수는　없어。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6028B3",
+      "jp": "こちらマザ－・バンガ－ド！",
+      "before": "여기　마더　뱅가드！",
+      "after": "여기는　마더　뱅가드！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6029F0",
+      "jp": "……了解！！",
+      "before": "……라져！！",
+      "after": "……알겠습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602B46",
+      "jp": "ブライト艦長！",
+      "before": "브라이트　함장님！",
+      "after": "브라이트　함장！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "602C65",
+      "jp": "あれは……ギム・ギンガナムか！！",
+      "before": "저것은……　기임　깅가남인가！！",
+      "after": "저건……　김　긴가남인가！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603594",
+      "jp": "……了解！！",
+      "before": "……라져！！",
+      "after": "……알겠습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603AF3",
+      "jp": "オレがあいつを殺すか……",
+      "before": "내가　그　녀석을　죽이거나……",
+      "after": "내가　그녀를　죽이거나……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603B12",
+      "jp": "……それとも、セラが",
+      "before": "……아니면、　세라가",
+      "after": "……아니면　세라가",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603B1E",
+      "jp": "このオレを手にかけるか。",
+      "before": "이　나를　처치하거나　하겠지。",
+      "after": "이　나를　죽이거나。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603B29",
+      "jp": "実際に出会ってみないことには",
+      "before": "실제로　맞닥뜨려　보기　전에는",
+      "after": "실제로　만나보지　않으면",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "603B39",
+      "jp": "なんとも言えないな……。",
+      "before": "뭐라　말할　수가　없군……。",
+      "after": "뭐라　말할　수　없어……。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6047BE",
+      "jp": "……なにっ！！",
+      "before": "……뭐야！！",
+      "after": "……뭐라고！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "604E06",
+      "jp": "それは……",
+      "before": "그것은……",
+      "after": "그건……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "604EC4",
+      "jp": "……甘いっ！！",
+      "before": "……어설프다！！",
+      "after": "……무르다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "605880",
+      "jp": "これは……",
+      "before": "이것은……",
+      "after": "이건……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6073B2",
+      "jp": "……待ってください！",
+      "before": "……기다려　주십시오！",
+      "after": "……잠깐만요！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "607580",
+      "jp": "あ、いや……なんでもない。",
+      "before": "아、　아니……　아무것도　아니야。",
+      "after": "아、　아니……　아무것도　아냐。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60786B",
+      "jp": "モビルス－ツ隊は",
+      "before": "모빌슈트　부대는",
+      "after": "ＭＳ대는　전력으로",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "609DC7",
+      "jp": "……許さんぞ！！",
+      "before": "……결코　용서치　않겠다！！",
+      "after": "……용서　못해！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60B3E8",
+      "jp": "……いや。",
+      "before": "…　…　아니。",
+      "after": "……아니。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60B83D",
+      "jp": "……なっ！？",
+      "before": "……뭐라고요！？",
+      "after": "……뭐！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60C6EC",
+      "jp": "どうしてここに！？",
+      "before": "어째서　이곳에　있는　거냐！？",
+      "after": "왜　여기에！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60D3A0",
+      "jp": "し、しかし……",
+      "before": "하지만、……",
+      "after": "하、　하지만……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60D879",
+      "jp": "どうしてここに！？",
+      "before": "어째서　이곳에　계신　겁니까！？",
+      "after": "왜　여기에！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60DBE9",
+      "jp": "ああ、もちろんだとも。",
+      "before": "아아、　물론이고말고。",
+      "after": "아아、　물론이지。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "60F0DF",
+      "jp": "……そうだな。",
+      "before": "…　…　그렇구나。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "612722",
+      "jp": "これは……",
+      "before": "이것은……",
+      "after": "이건……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6127C8",
+      "jp": "ほう、やるものだな……",
+      "before": "호오、　제법이로군……",
+      "after": "호오、　제법이군……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61387E",
+      "jp": "……はっ！！",
+      "before": "……라져！！",
+      "after": "……핫！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "614211",
+      "jp": "……っ？",
+      "before": "……어라？",
+      "after": "……？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61628E",
+      "jp": "展開しています！！",
+      "before": "출격시켜　배치하고　있습니다！！",
+      "after": "전개하고　있습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61635A",
+      "jp": "いかんな……",
+      "before": "곤란하게　되었군……",
+      "after": "곤란하군……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6168BF",
+      "jp": "……なっ！？",
+      "before": "……네놈이　기어이！？",
+      "after": "……뭐！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61895E",
+      "jp": "……っ？",
+      "before": "……어라？",
+      "after": "……？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "619300",
+      "jp": "今のうちにネオ・ジオンを！！",
+      "before": "지금　안에　네오　지온을！！",
+      "after": "지금　네오　지온을！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61932D",
+      "jp": "……よし！",
+      "before": "……　좋아！",
+      "after": "……좋아！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61935E",
+      "jp": "ロ－ラも出られるな？",
+      "before": "롤라도　나올　수　있니？",
+      "after": "롤라도　나갈　수　있겠지？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "619F4A",
+      "jp": "ああ、もちろんだとも。",
+      "before": "아아、　말할　필요도　없지。",
+      "after": "아아、　물론이지。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61A324",
+      "jp": "……よし！",
+      "before": "……　좋아！",
+      "after": "……좋아！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61A383",
+      "jp": "……ええ。",
+      "before": "……그래。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61A3B5",
+      "jp": "……了解！！",
+      "before": "……라져！！",
+      "after": "……알겠습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61B350",
+      "jp": "ブライト艦長！！",
+      "before": "브라이트　함장님！！",
+      "after": "브라이트　함장！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61B829",
+      "jp": "そう……",
+      "before": "그렇구나……",
+      "after": "그래……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61CA61",
+      "jp": "……シグ！？",
+      "before": "……시그　중위님！？",
+      "after": "……시그！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61CE9C",
+      "jp": "さて……",
+      "before": "그건　그렇고……",
+      "after": "그럼……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61D262",
+      "jp": "……兄さん！！",
+      "before": "……형님！！",
+      "after": "……형！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61D450",
+      "jp": "……了解！！",
+      "before": "……라져！！",
+      "after": "……알겠습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61D522",
+      "jp": "……なんだとっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "61DD01",
+      "jp": "……なんだっ！？",
+      "before": "……무슨　섬광이지！？",
+      "after": "……뭐지！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "620519",
+      "jp": "……なんだっ！？",
+      "before": "……무슨　일이지！？",
+      "after": "……뭐지！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "620775",
+      "jp": "……了解した。",
+      "before": "……　양해했다。",
+      "after": "……알겠다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6217D1",
+      "jp": "……なんだっ！？",
+      "before": "……대체　무슨　소란이지！？",
+      "after": "……뭐지！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "622318",
+      "jp": "シグ……",
+      "before": "시그…………",
+      "after": "시그……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "622CF2",
+      "jp": "……どういうことだ？",
+      "before": "……그게　무슨　해괴한　소리지？",
+      "after": "……무슨　뜻이지？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62301E",
+      "jp": "……はっ。",
+      "before": "……옛썰。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "623061",
+      "jp": "……はっ。",
+      "before": "……옛썰。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6237A9",
+      "jp": "ふふ……",
+      "before": "후후…",
+      "after": "후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "623816",
+      "jp": "……はっ。",
+      "before": "……옛썰。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6242B9",
+      "jp": "……そう。",
+      "before": "……예、　맞아요。",
+      "after": "……그래。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6244E6",
+      "jp": "……はっ。",
+      "before": "……옛썰。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6258F5",
+      "jp": "……ええ。",
+      "before": "……그래。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "625D2A",
+      "jp": "……ええ。",
+      "before": "……그래。",
+      "after": "……네。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "625F3E",
+      "jp": "……なんだとっ！？",
+      "before": "…………　뭐야！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "626C01",
+      "jp": "それは……！！",
+      "before": "그　말은　설마……！！",
+      "after": "그건……！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62762D",
+      "jp": "……なんだとっ！？",
+      "before": "…………　뭐야！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "628E26",
+      "jp": "ブライト艦長！！",
+      "before": "브라이트　함장님！！",
+      "after": "브라이트　함장！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62910C",
+      "jp": "……なにっ！？",
+      "before": "……뭐、　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "629C46",
+      "jp": "……そうですね。",
+      "before": "…　…　그렇네요。",
+      "after": "……그렇군요。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "629CA9",
+      "jp": "……よし！！",
+      "before": "……　좋아！！",
+      "after": "……좋아！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "629D44",
+      "jp": "各員、たのんだぞ！",
+      "before": "각원、　접어라！",
+      "after": "각자、　부탁한다！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "629D75",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "629E1E",
+      "jp": "……はっ！！",
+      "before": "……옛썰！！",
+      "after": "……핫！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62A0A6",
+      "jp": "……なにっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62ACA7",
+      "jp": "……そうだな。",
+      "before": "……그렇고말고요。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62ADC8",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62B041",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62C63B",
+      "jp": "……なにっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "62C72C",
+      "jp": "……なっ！？",
+      "before": "……어찌　그런　일이！？",
+      "after": "……뭐！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6306A6",
+      "jp": "……はっ！！",
+      "before": "……옛썰！！",
+      "after": "……핫！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "631625",
+      "jp": "そう……",
+      "before": "그렇고말고……",
+      "after": "그래……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6318CF",
+      "jp": "……なにっ！？",
+      "before": "……뭐야！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "631A12",
+      "jp": "カ、カテジナさん……！？",
+      "before": "카、　카테지나씨…　？",
+      "after": "카、　카테지나　씨……！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "631AE2",
+      "jp": "サラ……どうして！？",
+      "before": "사라…　…　왜！　？",
+      "after": "사라……　왜！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "632BCA",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "632C5C",
+      "jp": "……はっ！！",
+      "before": "……옛썰！！",
+      "after": "……핫！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "632F60",
+      "jp": "……なにっ！？",
+      "before": "……뭐야！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "633112",
+      "jp": "……なにっ！？",
+      "before": "……뭐야！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63323E",
+      "jp": "……はっ！！",
+      "before": "……옛썰！！",
+      "after": "……핫！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6332FD",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "633591",
+      "jp": "……そうよ。",
+      "before": "…　…　그래。",
+      "after": "……그래요。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63368D",
+      "jp": "……そうだな。",
+      "before": "…　…　그렇구나。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6350A3",
+      "jp": "……そうだな。",
+      "before": "…　…　그렇구나。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "6353A9",
+      "jp": "……シグ！！",
+      "before": "……시그　중위님！！",
+      "after": "……시그！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "635421",
+      "jp": "ふふ……",
+      "before": "후후…",
+      "after": "후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "637BE8",
+      "jp": "……ジュド－！！",
+      "before": "……쥬도　군！！",
+      "after": "……쥬도！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "637D1A",
+      "jp": "……なにっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "637DAA",
+      "jp": "ふふ……",
+      "before": "후후…",
+      "after": "후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638405",
+      "jp": "……なんだと！？",
+      "before": "…………뭐라고！　？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638AAD",
+      "jp": "……なにっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638BA3",
+      "jp": "ふふふ……",
+      "before": "후후후…",
+      "after": "후후후……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638DE6",
+      "jp": "カテジナさん……",
+      "before": "카테지나　누나……　제발……",
+      "after": "카테지나　씨……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638F07",
+      "jp": "カテジナさん……",
+      "before": "카테지나　누나……",
+      "after": "카테지나　씨……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "638FE3",
+      "jp": "……兄さん！！",
+      "before": "……형님！！",
+      "after": "……형！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "639311",
+      "jp": "……了解！！",
+      "before": "……　양해！！",
+      "after": "……알겠습니다！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63948C",
+      "jp": "……なんだと！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63A050",
+      "jp": "……なんだと！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63A740",
+      "jp": "くっ……！",
+      "before": "크윽……！",
+      "after": "큭……！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63AE59",
+      "jp": "シグ……！！",
+      "before": "시그　…………！！",
+      "after": "시그……！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63B18E",
+      "jp": "……シグ！！",
+      "before": "……　시그！！",
+      "after": "……시그！！",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63B496",
+      "jp": "……そうだな。",
+      "before": "…　…　그렇구나。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63B5B4",
+      "jp": "……セラ。",
+      "before": "…………세라。",
+      "after": "……세라。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63B798",
+      "jp": "……そうだな。",
+      "before": "…　…　그렇구나。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CCE9",
+      "jp": "敵の目標はダカ－ルの連邦議会であり、",
+      "before": "적의　목표는　다카르의　연방　의회이며、",
+      "after": "적　목표는　다카르의　연방의회며、",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CCF8",
+      "jp": "これを阻止するのが当面の目標だ。",
+      "before": "이를　저지하는　것이　당면의　목표다。",
+      "after": "이를　막는　게　당면　목표다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD4F",
+      "jp": "各員、いつでも戦闘に入れるよう",
+      "before": "각원、　언제든지　전투에　넣어",
+      "after": "각자、　언제든　전투하도록",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD5E",
+      "jp": "準備を整えておいてほしい。",
+      "before": "준비를　정돈해　주었으면　한다。",
+      "after": "준비해두기　바란다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD72",
+      "jp": "あ、ブライト艦長。",
+      "before": "아、　밝은　함장。",
+      "after": "아、　브라이트　함장。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD7D",
+      "jp": "ひとつ気にかかることがあるんですが……",
+      "before": "하나　신경이　쓰이는　일이　있습니다만…",
+      "after": "하나　걸리는　게　있는데요……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD89",
+      "jp": "ん、なんだ、ト－レス？",
+      "before": "응、　뭐야、　트레스？",
+      "after": "응、　뭔데、　토레스？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CD99",
+      "jp": "実はアフリカ方面で所属不明の",
+      "before": "사실　아프리카　방면에서　소속　불명의",
+      "after": "실은　아프리카에　소속불명의",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CDA8",
+      "jp": "巨大モビルス－ツが出現したとの情報が……",
+      "before": "거대　모빌스－츠가　출현했다는　정보가…",
+      "after": "거대　모빌슈트가　나타났답니다……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CDC8",
+      "jp": "なんでもガンダムタイプだそうで、",
+      "before": "뭐든지　건담　타입이라고　하고、",
+      "after": "건담　타입이라던데、",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CDD3",
+      "jp": "現在カラバに情報を照会中です。",
+      "before": "현재　카라바에　정보를　조회　중입니다。",
+      "after": "현재　카라바에　조회중입니다。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CDE5",
+      "jp": "所属不明のガンダムか……",
+      "before": "소속　불명의　건담인가…",
+      "after": "소속불명의　건담인가……",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63CF5A",
+      "jp": "なんだとっ！？",
+      "before": "뭐야！　？",
+      "after": "뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63E376",
+      "jp": "……いや。",
+      "before": "……아닐세　중위。",
+      "after": "……아니。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63F117",
+      "jp": "……そうだな。",
+      "before": "……타당한　보안　조치로군。",
+      "after": "……그렇군。",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63F282",
+      "jp": "……なにっ！？",
+      "before": "……대체　뭐라고！？",
+      "after": "……뭐라고！？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    },
+    {
+      "abs": "63F3BF",
+      "jp": "……彼？",
+      "before": "……그이라니？",
+      "after": "……그라고？",
+      "proof": "exact_jp_unique_approved_source_retranslation"
+    }
+  ],
+  "summary": {
+    "targets": 156,
+    "ambiguous_jp_excluded": 10,
+    "same_as_current_noop_excluded": 80,
+    "nonportal_excluded": 32,
+    "over20_excluded": 0
+  }
+}

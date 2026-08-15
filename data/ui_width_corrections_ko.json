@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "description": "Screen-verified UI width corrections for fixed-width and cursor-overlap layouts. This is an override layer on top of broad_stage2_placeholder_candidate.wsc; historical catalogs remain unchanged for audit reproducibility.",
+  "parent_rom": "out/patch/broad_stage2_placeholder_candidate.wsc",
+  "records": [
+    {
+      "abs": "75B339",
+      "before": "공격　방법　확인",
+      "after": "공격방법확인",
+      "max_visual_cells": 6,
+      "screen": "공격 방법 확인 설정",
+      "reason": "선택 커서 오른쪽 모서리와 겹치지 않도록 공백 제거"
+    },
+    {
+      "abs": "75B377",
+      "before": "사용함",
+      "after": "사용",
+      "max_visual_cells": 2,
+      "screen": "공격 방법 확인 설정",
+      "reason": "원문 する의 2셀 선택지 폭에 맞춤"
+    },
+    {
+      "abs": "75B37A",
+      "before": "사용　안　함",
+      "after": "미사용",
+      "max_visual_cells": 3,
+      "screen": "공격 방법 확인 설정",
+      "reason": "선택지 간격 확보"
+    },
+    {
+      "abs": "75B37D",
+      "before": "돌아가기",
+      "after": "뒤로",
+      "max_visual_cells": 2,
+      "screen": "설정 메뉴",
+      "reason": "오른쪽 고정 좌표에서 화면 밖 잘림 방지"
+    },
+    {
+      "abs": "75B522",
+      "before": "덮어쓸까요？",
+      "after": "　덮어쓸까요？",
+      "max_visual_cells": 7,
+      "screen": "저장 덮어쓰기 확인",
+      "reason": "동적 DATA 슬롯명과 질문 사이를 1셀 분리"
+    },
+    {
+      "abs": "75B52C",
+      "before": "불러옵니다。",
+      "after": "　불러올까요？",
+      "max_visual_cells": 7,
+      "screen": "불러오기 확인",
+      "reason": "동적 DATA 슬롯명 분리 및 예/아니오 확인문 문맥 교정"
+    },
+    {
+      "abs": "75B864",
+      "before": "ＭＳ　도감",
+      "after": "ＭＳ도감",
+      "max_visual_cells": 4,
+      "screen": "도감 분류 메뉴",
+      "reason": "커서 내부 안전 폭 확보"
+    },
+    {
+      "abs": "75B86B",
+      "before": "캐릭터　도감",
+      "after": "캐릭터도감",
+      "max_visual_cells": 5,
+      "screen": "도감 분류 메뉴",
+      "reason": "커서 내부 안전 폭 5셀에 맞춤"
+    },
+    {
+      "abs": "75B872",
+      "before": "ＭＳ　작품별",
+      "after": "ＭＳ작품별",
+      "max_visual_cells": 5,
+      "screen": "도감 분류 메뉴",
+      "reason": "커서 오른쪽 모서리와 작품별 문구 겹침 방지"
+    },
+    {
+      "abs": "75B87A",
+      "before": "캐릭터　작품별",
+      "after": "캐릭작품별",
+      "max_visual_cells": 5,
+      "screen": "도감 분류 메뉴",
+      "reason": "7셀 문구를 5셀로 축약해 선택 커서 침범 방지"
+    },
+    {
+      "abs": "75B882",
+      "before": "전함　도감",
+      "after": "전함도감",
+      "max_visual_cells": 4,
+      "screen": "도감 분류 메뉴",
+      "reason": "동일 메뉴의 공백 제거 규칙 통일"
+    },
+    {
+      "abs": "75B8DA",
+      "before": "ＭＳ０８　소대",
+      "after": "ＭＳ０８소대",
+      "max_visual_cells": 6,
+      "screen": "MS 작품별 목록",
+      "reason": "원문과 같은 6셀 폭으로 복원"
+    },
+    {
+      "abs": "75BCF4",
+      "before": "돌아가기",
+      "after": "뒤로",
+      "max_visual_cells": 2,
+      "screen": "작품별/도감 하위 화면",
+      "reason": "오른쪽 고정 좌표에서 화면 밖 잘림 방지"
+    }
+  ]
+}

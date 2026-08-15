@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "Full-body Korean corrections for short/fixed battle-dialogue records whose multi-byte leading unit is visible source text, not speaker metadata.",
+  "provenance": {
+    "translation_source": "llm",
+    "model": "GPT-5.6 Sol",
+    "review_status": "approved_for_candidate",
+    "legacy_machine_translation_used": false
+  },
+  "entries": [
+    {
+      "abs": "5D5C90",
+      "jp": "ブザマな……！",
+      "ko": "꼴사납군……！",
+      "reason": "current Korean was translated from the remainder after a false two-byte text lead"
+    },
+    {
+      "abs": "5E29D7",
+      "jp": "こんなことで！",
+      "ko": "이런 일로！",
+      "reason": "current Korean contains only the tail after a false two-byte text lead"
+    },
+    {
+      "abs": "5E3757",
+      "jp": "なぜなのっ！？",
+      "ko": "왜 그런 거야！？",
+      "reason": "current Korean contains only the tail after a false two-byte text lead"
+    }
+  ]
+}

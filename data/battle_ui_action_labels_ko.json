@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Screen-proven battle UI action label correction. Dedicated stock phrases include one trailing ideographic space to clear a stale third tile after two-cell labels.",
+  "parent_rom": {
+    "path": "out/patch/battle_id_command_followup_candidate.wsc",
+    "sha256": "72d36edf19c06fd6c332e98e9824b93413f8c12819e8b2eb3755607ffb6dcc76"
+  },
+  "evidence": {
+    "screenshot": "bandicam 2026-08-03 13-06-24-964.jpg",
+    "observed": [
+      "The standalone evasion label leaves small black remnants in the third text cell.",
+      "The standalone defense label renders as 옛。 because stock dictionary slot 02FE was repurposed after the original UI patch."
+    ]
+  },
+  "records": [
+    {
+      "record_id": "ui75:75B415",
+      "abs": "75B415",
+      "jp": "回避",
+      "parent_payload_hex": "F505",
+      "parent_render": "회피",
+      "visible_text": "회피",
+      "stored_phrase": "회피　",
+      "clear_cells": 3,
+      "reason": "Use a dedicated stock token and explicitly draw one trailing blank cell to erase the stale third-tile remnant."
+    },
+    {
+      "record_id": "ui75:75B46D",
+      "abs": "75B46D",
+      "jp": "防御",
+      "parent_payload_hex": "F2FE",
+      "parent_render": "옛。",
+      "visible_text": "방어",
+      "stored_phrase": "방어　",
+      "clear_cells": 3,
+      "reason": "Bypass corrupted shared stock slot 02FE without changing its other consumers; draw a trailing blank cell for deterministic field cleanup."
+    }
+  ]
+}

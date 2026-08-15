@@ -1,0 +1,100 @@
+# ------------------------------------------------------------
+# SD Gundam G Generation: Mono-Eye Gundams Korean patch
+# Public repository policy
+# ------------------------------------------------------------
+
+# Never commit game ROMs / patched ROMs / saves.
+*.wsc
+*.ws
+*.rom
+*.bin
+*.sav
+*.srm
+*.eep
+*.state
+*.State
+*.SaveRAM
+
+# Emulator / local runtime folders.
+BizHawk-*/
+retroarch_savestate/
+rom/
+sram/
+savebackup/
+screenshot/
+out/bizhawk_profile/
+out/title_menu_capture/
+out/title_trace6/
+
+# Build, test, probe and forensic outputs are local-only by default.
+out/*
+!out/dist/
+out/dist/*
+
+# Public release assets explicitly allowed from out/dist.
+!out/dist/monoeye_ko_expanded.xdelta
+!out/dist/monoeye_ko_expanded_xdelta.json
+!out/dist/monoeye_ko_expanded_XDELTA_README.md
+!out/dist/SHA256SUMS.txt
+
+# Legacy files are local archives. Keep only policy / manifest text in Git.
+legacy/*
+!legacy/README.md
+!legacy/legacy_asset_manifest.json
+
+# Internal cumulative development log. It contains extensive forensic notes and
+# source-text excerpts and is not required to reproduce a release build.
+PATCH_PROGRESS.md
+
+# Generated review/export folders.
+outputs/
+reference/
+tools/out/
+
+# Historical/local-only tool archive. Keep only its README in Git.
+tools/archive/*
+!tools/archive/README.md
+
+# Accidental/local helper files.
+NUL
+tools/devscpace restart 절차 .txt
+
+# Local emulator binaries and logs.
+Oswan.exe
+Oswan.ini
+OSwan.log
+zlib.dll
+*.log
+
+# Vendored executable binaries are not required by patch users.
+tools/vendor/*.exe
+
+# Local fonts and licensed assets should not be redistributed accidentally.
+assets/fonts/
+
+# Python / tooling caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / assistant local state.
+.cursor/
+.kiro/
+.vscode/
+.idea/
+
+# OS junk.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files.
+*.tmp
+*.bak
+*.orig
+*.rej
+~$*

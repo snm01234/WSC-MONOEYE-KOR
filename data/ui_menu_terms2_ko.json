@@ -1,0 +1,356 @@
+{
+  "description": "Second pass: battle/org/rank/UI nouns + a few proper names (non-dialogue-sheet).",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "entries": [
+    {
+      "jp": "士官",
+      "ko": "사관",
+      "cat": "rank"
+    },
+    {
+      "jp": "部隊",
+      "ko": "부대",
+      "cat": "battle"
+    },
+    {
+      "jp": "中継",
+      "ko": "중계",
+      "cat": "ui"
+    },
+    {
+      "jp": "簡単",
+      "ko": "간단",
+      "cat": "ui"
+    },
+    {
+      "jp": "問題",
+      "ko": "문제",
+      "cat": "ui"
+    },
+    {
+      "jp": "砲撃",
+      "ko": "포격",
+      "cat": "battle"
+    },
+    {
+      "jp": "閣下",
+      "ko": "각하",
+      "cat": "rank"
+    },
+    {
+      "jp": "排除",
+      "ko": "배제",
+      "cat": "battle"
+    },
+    {
+      "jp": "搭乗",
+      "ko": "탑승",
+      "cat": "battle"
+    },
+    {
+      "jp": "実戦",
+      "ko": "실전",
+      "cat": "battle"
+    },
+    {
+      "jp": "成功",
+      "ko": "성공",
+      "cat": "ui"
+    },
+    {
+      "jp": "支援",
+      "ko": "지원",
+      "cat": "battle"
+    },
+    {
+      "jp": "作戦",
+      "ko": "작전",
+      "cat": "battle"
+    },
+    {
+      "jp": "危険",
+      "ko": "위험",
+      "cat": "battle"
+    },
+    {
+      "jp": "集中",
+      "ko": "집중",
+      "cat": "battle"
+    },
+    {
+      "jp": "状態",
+      "ko": "상태",
+      "cat": "ui"
+    },
+    {
+      "jp": "運命",
+      "ko": "운명",
+      "cat": "ui"
+    },
+    {
+      "jp": "時代",
+      "ko": "시대",
+      "cat": "ui"
+    },
+    {
+      "jp": "少佐",
+      "ko": "소령",
+      "cat": "rank"
+    },
+    {
+      "jp": "機関",
+      "ko": "기관",
+      "cat": "battle"
+    },
+    {
+      "jp": "カスタム",
+      "ko": "커스텀",
+      "cat": "ui"
+    },
+    {
+      "jp": "効果",
+      "ko": "효과",
+      "cat": "battle"
+    },
+    {
+      "jp": "主武装",
+      "ko": "주무장",
+      "cat": "battle"
+    },
+    {
+      "jp": "許可",
+      "ko": "허가",
+      "cat": "ui"
+    },
+    {
+      "jp": "敵機",
+      "ko": "적기",
+      "cat": "battle"
+    },
+    {
+      "jp": "武装",
+      "ko": "무장",
+      "cat": "battle"
+    },
+    {
+      "jp": "中尉",
+      "ko": "중위",
+      "cat": "rank"
+    },
+    {
+      "jp": "戦隊",
+      "ko": "전대",
+      "cat": "battle"
+    },
+    {
+      "jp": "進路",
+      "ko": "진로",
+      "cat": "battle"
+    },
+    {
+      "jp": "カウンタ－",
+      "ko": "카운터",
+      "cat": "battle"
+    },
+    {
+      "jp": "月光蝶",
+      "ko": "월광접",
+      "cat": "name"
+    },
+    {
+      "jp": "ディアス",
+      "ko": "디아스",
+      "cat": "name"
+    },
+    {
+      "jp": "エルメス",
+      "ko": "엘메스",
+      "cat": "name"
+    },
+    {
+      "jp": "面子",
+      "ko": "체면",
+      "cat": "ui"
+    },
+    {
+      "jp": "通用",
+      "ko": "통용",
+      "cat": "ui"
+    },
+    {
+      "jp": "大尉",
+      "ko": "대위",
+      "cat": "rank"
+    },
+    {
+      "jp": "少尉",
+      "ko": "소위",
+      "cat": "rank"
+    },
+    {
+      "jp": "軍曹",
+      "ko": "군조",
+      "cat": "rank"
+    },
+    {
+      "jp": "司令",
+      "ko": "사령",
+      "cat": "rank"
+    },
+    {
+      "jp": "指令",
+      "ko": "지령",
+      "cat": "battle"
+    },
+    {
+      "jp": "撤退",
+      "ko": "철수",
+      "cat": "battle"
+    },
+    {
+      "jp": "突撃",
+      "ko": "돌격",
+      "cat": "battle"
+    },
+    {
+      "jp": "防衛",
+      "ko": "방어",
+      "cat": "battle"
+    },
+    {
+      "jp": "包囲",
+      "ko": "포위",
+      "cat": "battle"
+    },
+    {
+      "jp": "補給",
+      "ko": "보급",
+      "cat": "battle"
+    },
+    {
+      "jp": "修理",
+      "ko": "수리",
+      "cat": "battle"
+    },
+    {
+      "jp": "撃沈",
+      "ko": "격침",
+      "cat": "battle"
+    },
+    {
+      "jp": "撃墜",
+      "ko": "격추",
+      "cat": "battle"
+    },
+    {
+      "jp": "損傷",
+      "ko": "손상",
+      "cat": "battle"
+    },
+    {
+      "jp": "撃退",
+      "ko": "격퇴",
+      "cat": "battle"
+    },
+    {
+      "jp": "同盟",
+      "ko": "동맹",
+      "cat": "org"
+    },
+    {
+      "jp": "反乱",
+      "ko": "반란",
+      "cat": "org"
+    },
+    {
+      "jp": "革命",
+      "ko": "혁명",
+      "cat": "org"
+    },
+    {
+      "jp": "帝国",
+      "ko": "제국",
+      "cat": "org"
+    },
+    {
+      "jp": "共和国",
+      "ko": "공화국",
+      "cat": "org"
+    },
+    {
+      "jp": "軍港",
+      "ko": "군항",
+      "cat": "place"
+    },
+    {
+      "jp": "工廠",
+      "ko": "공창",
+      "cat": "place"
+    },
+    {
+      "jp": "前線",
+      "ko": "전선",
+      "cat": "battle"
+    },
+    {
+      "jp": "後方",
+      "ko": "후방",
+      "cat": "battle"
+    },
+    {
+      "jp": "軌道",
+      "ko": "궤도",
+      "cat": "battle"
+    },
+    {
+      "jp": "大気圏",
+      "ko": "대기권",
+      "cat": "battle"
+    },
+    {
+      "jp": "重力",
+      "ko": "중력",
+      "cat": "battle"
+    },
+    {
+      "jp": "推進",
+      "ko": "추진",
+      "cat": "battle"
+    },
+    {
+      "jp": "装甲",
+      "ko": "장갑",
+      "cat": "battle"
+    },
+    {
+      "jp": "火力",
+      "ko": "화력",
+      "cat": "battle"
+    },
+    {
+      "jp": "機動",
+      "ko": "기동",
+      "cat": "battle"
+    },
+    {
+      "jp": "命中",
+      "ko": "명중",
+      "cat": "battle"
+    },
+    {
+      "jp": "回避率",
+      "ko": "회피율",
+      "cat": "battle"
+    },
+    {
+      "jp": "ＨＰ",
+      "ko": "ＨＰ",
+      "cat": "ui"
+    },
+    {
+      "jp": "ＥＮ",
+      "ko": "ＥＮ",
+      "cat": "ui"
+    }
+  ]
+}

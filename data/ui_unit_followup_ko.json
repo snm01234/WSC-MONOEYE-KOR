@@ -1,0 +1,41 @@
+{
+  "description": "Follow-up localization for the unit/status UI cluster and the Musai shared dictionary correction.",
+  "shared_dictionary": [
+    {
+      "index": "06C3",
+      "jp": "ムサイ",
+      "current": "무사아",
+      "ko": "무사이",
+      "reason": "reviewed mistranslation correction"
+    }
+  ],
+  "ui_records": [
+    {"abs": "75B2F3", "jp": "変形", "ko": "변형"},
+    {"abs": "75B3A2", "jp": "はい", "ko": "예"},
+    {"abs": "75B3A8", "jp": "搭載中", "ko": "탑재중"},
+    {"abs": "75B3AF", "jp": "破壊", "ko": "파괴"},
+    {"abs": "75B3B2", "jp": "退却", "ko": "퇴각"},
+    {"abs": "75B3B7", "jp": "運動性", "ko": "운동성"},
+    {"abs": "75B3BD", "jp": "移動力", "ko": "이동력"},
+    {"abs": "75B3C1", "jp": "防御力", "ko": "방어력"},
+    {"abs": "75B3C5", "jp": "限界反応", "ko": "한계반응"},
+    {"abs": "75B3CA", "jp": "汎用", "ko": "범용"},
+    {"abs": "75B3D1", "jp": "地上", "ko": "지상"},
+    {"abs": "75B3D4", "jp": "万能", "ko": "만능"},
+    {"abs": "75B3D9", "jp": "水陸", "ko": "수륙"},
+    {"abs": "75B3DE", "jp": "飛行", "ko": "비행"},
+    {"abs": "75B3F1", "jp": "命", "ko": "명"},
+    {"abs": "75B3F4", "jp": "弾", "ko": "탄"},
+    {"abs": "75B411", "jp": "命中", "ko": "명중"},
+    {"abs": "75B421", "jp": "なし", "ko": "없음"},
+    {"abs": "75B424", "jp": "あり", "ko": "있음"}
+  ],
+  "deferred": [
+    {
+      "abs": "75B3EF",
+      "jp": "攻",
+      "desired": "공",
+      "reason": "The record body is one byte. A normal two-byte dictionary token or four-byte ext3 token cannot fit without a separately proven table relocation."
+    }
+  ]
+}

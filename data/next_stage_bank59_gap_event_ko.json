@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "description": "Bank59 event-dialogue records in the previously uncovered 593E8A-593F28 gap, including the user-reported post-A-Baoa-Qu scene.",
+  "parent_tip_sha256": "898f3b820c6ce901d2efcb08cea32151264d3773780a6e39ec94c06354accf62",
+  "provenance": {
+    "translation_source": "llm",
+    "model": "GPT-5.6 Thinking",
+    "review_status": "approved",
+    "legacy_machine_translation_used": false,
+    "runtime_evidence": "uploaded screenshot confirms 593EA2 and 593EB4; remaining rows are the complete natural-language records in the same bounded event gap"
+  },
+  "records": [
+    {
+      "abs": "593E90",
+      "prefix_hex": "173418",
+      "payload_capacity": 11,
+      "body_capacity": 8,
+      "current_payload_hex": "173418090301F5DCF60C03",
+      "jp": "っ！　アイン……！！",
+      "ko": "윽！　아인……！！"
+    },
+    {
+      "abs": "593EA2",
+      "prefix_hex": "173418",
+      "payload_capacity": 17,
+      "body_capacity": 14,
+      "current_payload_hex": "173418F80917F50B15E105F22EB7E11316",
+      "jp": "アナタがシグを選んだ時点で",
+      "ko": "네가　시그를　선택한　순간"
+    },
+    {
+      "abs": "593EB4",
+      "prefix_hex": "",
+      "payload_capacity": 13,
+      "body_capacity": 13,
+      "current_payload_hex": "86F396E019F1990BFAEBF7840A",
+      "jp": "全ては決まってしまったんだよ。",
+      "ko": "모든　건　이미　결정됐어。"
+    },
+    {
+      "abs": "593ECB",
+      "prefix_hex": "173418",
+      "payload_capacity": 8,
+      "body_capacity": 5,
+      "current_payload_hex": "173418F191F4260A",
+      "jp": "……そう。",
+      "ko": "……그래。"
+    },
+    {
+      "abs": "593ED5",
+      "prefix_hex": "18",
+      "payload_capacity": 11,
+      "body_capacity": 10,
+      "current_payload_hex": "18E30FE19708E05AFE590A",
+      "jp": "欠陥は正さねばならない。",
+      "ko": "결함은　바로잡아야　해。"
+    },
+    {
+      "abs": "593EEA",
+      "prefix_hex": "173418",
+      "payload_capacity": 10,
+      "body_capacity": 7,
+      "current_payload_hex": "1734186105CEF1A7F191",
+      "jp": "君の生まれ……",
+      "ko": "네　출생……"
+    },
+    {
+      "abs": "593EF5",
+      "prefix_hex": "",
+      "payload_capacity": 13,
+      "body_capacity": 13,
+      "current_payload_hex": "F78707610568F4E7066657F191",
+      "jp": "そして、君の『特別な』力……",
+      "ko": "그리고、네　『특별한』　힘……"
+    },
+    {
+      "abs": "593F04",
+      "prefix_hex": "18",
+      "payload_capacity": 15,
+      "body_capacity": 14,
+      "current_payload_hex": "18F191E1A88CF5156115B2276FF41B",
+      "jp": "……恨むなら君を作り出した",
+      "ko": "……원망하려면　너를　만들어　낸"
+    },
+    {
+      "abs": "593F14",
+      "prefix_hex": "",
+      "payload_capacity": 10,
+      "body_capacity": 10,
+      "current_payload_hex": "FCFAF3CF15E1A8FA760A",
+      "jp": "フラナガン機関を恨むんだね。",
+      "ko": "플라나간　기관을　원망해。"
+    }
+  ]
+}

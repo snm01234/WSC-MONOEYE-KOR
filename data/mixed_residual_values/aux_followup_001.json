@@ -1,0 +1,20 @@
+{
+  "description": "Reviewed Korean for the four aux prefix-repair targets absent from the earlier value batches.",
+  "region": "aux",
+  "batch": "aux_followup_001",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:5D2A6A": {
+      "ko": "괜찮아、형。"
+    },
+    "aux:5D2AAE": {
+      "ko": "앗、형……！！"
+    },
+    "aux:5E5B8D": {
+      "ko": "괜찮아、형。"
+    },
+    "aux:5E5BD1": {
+      "ko": "앗、형……！！"
+    }
+  }
+}

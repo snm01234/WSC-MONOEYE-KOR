@@ -1,0 +1,76 @@
+{
+  "schema_version": 2,
+  "description": "Runtime-corrected scouting-map first-battle follow-up lines. The previous v1 target set selected the preceding scouting-stage introduction and did not affect the four captured windows. These four experience/capture tutorial records are the actual ext3-backed lines rendered by the legacy post-battle path.",
+  "parent_rom": {
+    "path": "out/patch/battle_ui_action_labels_candidate.wsc",
+    "sha256": "6E63E4830E0391F00E0CCDF7D07C6B3B3309E5E3FB797CD934D20900B050E33F"
+  },
+  "supersedes": {
+    "failed_candidate_sha256": "492A2EF547B2A886CBC998E64E296F0086AFEA9DA79A68864009E75625BBB741",
+    "incorrect_target_addresses": [
+      "60659C",
+      "6065A7",
+      "6065B4",
+      "6065BE"
+    ],
+    "runtime_result": "no visible change because those records are the scouting-stage introduction shown before the first battle"
+  },
+  "records": [
+    {
+      "record_id": "script:6065CE",
+      "abs": "6065CE",
+      "prefix_hex": "18",
+      "parent_payload_hex": "18E518638F0101010101010101010101",
+      "parent_terminator": "6065DE",
+      "original_payload_hex": "18F449E30115E2C5040D27077FFB8A15",
+      "target_body_capacity": 15,
+      "target_terminator": "6065DE",
+      "jp": "経験値を稼いだり、敵ユニットを",
+      "ko": "경험치를　쌓거나、　적　유닛을",
+      "legacy_glitch": "詩フ軍",
+      "reason": "This is the first screen-proven window after the scouting-map battle. Replace the ext3 token with a dedicated legacy stock token while preserving prefix, body capacity, and NUL boundary."
+    },
+    {
+      "record_id": "script:6065DF",
+      "abs": "6065DF",
+      "prefix_hex": "",
+      "parent_payload_hex": "E51863900101010101010101",
+      "parent_terminator": "6065EB",
+      "original_payload_hex": "F4B8FAC1E11406F12BF5490A",
+      "target_body_capacity": 12,
+      "target_terminator": "6065EB",
+      "jp": "捕獲するのが主な目的だな。",
+      "ko": "포획하는　것이　주된　목적일세。",
+      "legacy_glitch": "詩フ連",
+      "reason": "This is the second screen-proven window after the scouting-map battle. Replace the ext3 token with a dedicated legacy stock token while preserving the original boundary."
+    },
+    {
+      "record_id": "script:6065ED",
+      "abs": "6065ED",
+      "prefix_hex": "18",
+      "parent_payload_hex": "18E5186391010101010101",
+      "parent_terminator": "6065F8",
+      "original_payload_hex": "18FD0B05F8C0179D17F03E",
+      "target_body_capacity": 10,
+      "target_terminator": "6065F8",
+      "jp": "パイロットのレべルが上がれば",
+      "ko": "파일럿의　레벨이　상승하면",
+      "legacy_glitch": "詩フへ",
+      "reason": "This is the third screen-proven window after the scouting-map battle. Replace the ext3 token with a dedicated legacy stock token while preserving prefix and boundary."
+    },
+    {
+      "record_id": "script:6065F9",
+      "abs": "6065F9",
+      "prefix_hex": "",
+      "parent_payload_hex": "E518639201010101010101",
+      "parent_terminator": "606604",
+      "original_payload_hex": "390420E1B9F886F5AE1207",
+      "target_body_capacity": 11,
+      "target_terminator": "606604",
+      "jp": "戦いも楽になるだろうし、",
+      "ko": "전투도　수월해질　것이고、",
+      "legacy_glitch": "詩フゥ",
+      "reason": "This is the fourth screen-proven window after the scouting-map battle. Replace the ext3 token with a dedicated legacy stock token while preserving the original boundary."
+    }
+  ]
+}

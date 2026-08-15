@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "description": "First targeted cleanup batch for untranslated ID-command descriptions, indirect/shooting labels, and remaining Minovsky-particle activation variants.",
+  "parent_candidate_sha256": "85010f11e8b3b0bab145fa00fa2c830f862f38a9a87ea165d9f04d283a50858c",
+  "provenance": {
+    "translation_source": "llm",
+    "model": "GPT-5.6 Thinking",
+    "review_status": "approved",
+    "legacy_machine_translation_used": false
+  },
+  "records": [
+    {
+      "abs": "5C95E2",
+      "prefix_hex": "",
+      "payload_capacity": 6,
+      "body_capacity": 6,
+      "current_payload_hex": "FD35F9B20D03",
+      "jp": "ミノフスキ－粒子散布だ！",
+      "ko": "미노프스키　입자　살포다！",
+      "category": "id_command_activation_variant",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5C9B2E",
+      "prefix_hex": "173418",
+      "payload_capacity": 9,
+      "body_capacity": 6,
+      "current_payload_hex": "173418FD35F9B20D03",
+      "jp": "ミノフスキ－粒子散布だ！",
+      "ko": "미노프스키　입자　살포다！",
+      "category": "id_command_activation_variant",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5CA6C1",
+      "prefix_hex": "173418",
+      "payload_capacity": 9,
+      "body_capacity": 6,
+      "current_payload_hex": "173418FD35F9B20D03",
+      "jp": "ミノフスキ－粒子散布だ！",
+      "ko": "미노프스키　입자　살포다！",
+      "category": "id_command_activation_variant",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5F287F",
+      "prefix_hex": "",
+      "payload_capacity": 16,
+      "body_capacity": 16,
+      "current_payload_hex": "F54FFAD7E31605F0AA15E1FDE198F670",
+      "jp": "ＩＤコマンド等の効果を表示します",
+      "ko": "ＩＤ　커맨드　등의　효과를　표시합니다",
+      "category": "id_command_description",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5F2895",
+      "prefix_hex": "",
+      "payload_capacity": 16,
+      "body_capacity": 16,
+      "current_payload_hex": "F54FFAD7E31605F0AA15E1FDE198F670",
+      "jp": "ＩＤコマンド等の効果を表示します",
+      "ko": "ＩＤ　커맨드　등의　효과를　표시합니다",
+      "category": "id_command_description",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5F28AB",
+      "prefix_hex": "",
+      "payload_capacity": 16,
+      "body_capacity": 16,
+      "current_payload_hex": "F54FFAD7E31605F0AA15E1FDE198F670",
+      "jp": "ＩＤコマンド等の効果を表示します",
+      "ko": "ＩＤ　커맨드　등의　효과를　표시합니다",
+      "category": "id_command_description",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5F28C2",
+      "prefix_hex": "",
+      "payload_capacity": 16,
+      "body_capacity": 16,
+      "current_payload_hex": "F54FFAD7E31605F0AA15E1FDE198F670",
+      "jp": "ＩＤコマンド等の効果を表示します",
+      "ko": "ＩＤ　커맨드　등의　효과를　표시합니다",
+      "category": "id_command_description",
+      "strategy": "ext3"
+    },
+    {
+      "abs": "5F36B1",
+      "prefix_hex": "",
+      "payload_capacity": 3,
+      "body_capacity": 3,
+      "current_payload_hex": "99E038",
+      "jp": "間接",
+      "ko": "간접",
+      "category": "indirect_command_label",
+      "strategy": "existing_exact_token",
+      "replacement_hex": "F01401",
+      "source_exact_abs": "752DFA"
+    },
+    {
+      "abs": "5F3B8B",
+      "prefix_hex": "",
+      "payload_capacity": 3,
+      "body_capacity": 3,
+      "current_payload_hex": "E08F7B",
+      "jp": "射撃",
+      "ko": "사격",
+      "category": "shooting_command_label",
+      "strategy": "existing_exact_token",
+      "replacement_hex": "F15C01",
+      "source_exact_abs": "75B3FA"
+    }
+  ]
+}

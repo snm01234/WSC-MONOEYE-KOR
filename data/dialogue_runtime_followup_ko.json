@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "parent_main_sha256": "8e80bc7e722652b9c6b31282c272966ae92f9d3c82975344c577556bf5b9145a",
+  "purpose": "Post-20cell runtime screenshot follow-up: restore curated short opener, improve readability, close speaker-token extraction gaps, and remove remaining 제장 typo residues.",
+  "targets": [
+    {"abs":"6046E4","source_jp":"おいおい。","before":"출자자","after":"어이，","reason":"old mixed-residual retired-slot source overrode the curated translation; ASCII comma is not representable in the game TBL, so use the dedicated fullwidth comma glyph in one proven-unused 2-byte extended dictionary slot without compact3"},
+    {"abs":"604F41","source_jp":"もっとも、必ず成功するわけではないから","before":"다만、반드시성공한다는보장은없으므로지나","after":"다만、　반드시　성공하는　건　아니니","reason":"20-cell space-only reflow became unreadably dense"},
+    {"abs":"604F51","source_jp":"あてにして戦うのは考え物だけどな。","before":"치게신뢰하며싸우는것은곤란하지만말일세。","after":"너무　믿고　싸우는　건　곤란하네。","reason":"20-cell space-only reflow became unreadably dense"},
+
+    {"abs":"60497E","source_jp":"……あっ！？","before":"……あっ！？","after":"……앗！？","reason":"hidden dialogue immediately after 08 F0 00 speaker-control collision"},
+    {"abs":"62A603","source_jp":"ならば、ここでもう１つの大罪を犯し","before":"ならば、ここでもう１つの大罪を犯し","after":"그럼、　여기서　또　대죄를　범하고","reason":"same 08 F0 00 extraction-collision family"},
+    {"abs":"6377B9","source_jp":"その前に人類は地球を食いつぶすよ！","before":"その前に인류は지구を食いつぶすよ！","after":"그전에　인류가　지구를　먹어치울걸！","reason":"same 08 F0 00 extraction-collision family"},
+    {"abs":"63B55E","source_jp":"彼女はずっとこの宇宙で","before":"彼女はずっとこの우주で","after":"그녀는　줄곧　이　우주에서","reason":"same 08 F0 00 extraction-collision family"},
+    {"abs":"63B6EB","source_jp":"……今日はアイツが死んだ日だ。","before":"……今日はアイツが死んだ日だ。","after":"……오늘은　그　녀석이　죽은　날이다。","reason":"same 08 F0 00 extraction-collision family"},
+
+    {"abs":"604996","source_jp":"クソッ！　振り切れんか！！","before":"제장！　따돌릴　수　없는　건가！！","after":"젠장！　따돌릴　수　없는　건가！！","reason":"legacy machine-translation typo"},
+    {"abs":"604D03","source_jp":"クソッ！　やってくれる！！","before":"제장！　잘도　해내는군！！","after":"젠장！　잘도　해내는군！！","reason":"legacy machine-translation typo"},
+    {"abs":"604E70","source_jp":"クソッ！　よくも仲間を！！","before":"제장！　감히　내　동료를！！","after":"젠장！　감히　내　동료를！！","reason":"legacy machine-translation typo"},
+    {"abs":"610487","source_jp":"くっ、くそぉ！……どこだ、ガト－！！","before":"큭、　제장！……　어디냐、　가토！！","after":"큭、　젠장！……　어디냐、　가토！！","reason":"legacy machine-translation typo"},
+    {"abs":"612321","source_jp":"くそっ！　まだ追ってくるのか……","before":"제장！　끝까지　쫓아오는　건가……","after":"젠장！　아직도　쫓아오는　건가……","reason":"legacy typo plus literal source correction"},
+    {"abs":"6126E2","source_jp":"……くそっ！","before":"……제장！","after":"……젠장！","reason":"legacy machine-translation typo"},
+    {"abs":"61B9A9","source_jp":"くそぉ……！！","before":"제장……！！","after":"젠장……！！","reason":"legacy machine-translation typo"},
+    {"abs":"5D84F4","source_jp":"ノシイカにする－－っ！！","before":"오징어포로　만들어　주마！！","after":"납작하게　만들어　주마！！","reason":"runtime report identified the only current '...로 만들어 주마' battle line; literal dried-squid metaphor is lexically possible but reads as a mistranslation in Korean, so localize the threat naturally while preserving the flattening meaning"}
+  ]
+}

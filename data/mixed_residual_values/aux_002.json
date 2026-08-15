@@ -1,0 +1,526 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual aux targets, batch 002 (bank 59 tail and bank 5C encyclopedia lines). Bank 5C pages wrap one sentence across fixed-width records, so each fragment is translated to keep the reading order across records.",
+  "region": "aux",
+  "batch": "aux_002",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:597903": {
+      "ko": "모빌슈트가　없다고！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 無いんだぞ가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59791E": {
+      "ko": "위험하니까。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: だからな가 한국어 위험 뒤에 붙어 있었다. 어미까지 포함해 교체했다."
+    },
+    "aux:597AF6": {"ko": "코스모・바빌로니아의　부활입니다！", "terms": {"コスモ": "코스모", "バビロニア": "바빌로니아"}},
+    "aux:597B2F": {
+      "ko": "크로스본의　이름을　내세워……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 크로스본 뒤에 붙어 있었다. 절 전체를 교체했다."
+    },
+    "aux:597DC1": {"ko": "최대　출력으로도　수신될지　어떨지……"},
+    "aux:597E85": {
+      "ko": "모빌슈트　같은　걸　움직일　수　있는　건가！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なんて가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:597ECE": {"ko": "젠장、무리하게　굴어서……！", "terms": {"ムチャ": "무리"}},
+    "aux:597F74": {
+      "ko": "건담은　같은　편끼리　싸우고……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 건담 뒤에 붙어 있었다. 同士討ち 표현까지 포함해 교체했다."
+    },
+    "aux:59809E": {"ko": "무언가　단서가　될　만한　것은　없나？"},
+    "aux:5980C9": {
+      "ko": "적기에서　회수한　데이터를　종합하면……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: から、した、を가 한국어 적기·회수·데이터 사이에 끼어 있었다. 절 전체를 교체했다."
+    },
+    "aux:5980EA": {"ko": "낼　수　있다고　생각합니다만。"},
+    "aux:598104": {
+      "ko": "곧　작업에　착수해　줘。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 작업 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598121": {
+      "ko": "진로가　판명되는　대로、추격한다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 次第가 한국어 진로·판명 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598139": {"ko": "응……무슨　일이지、토비아　군？"},
+    "aux:598237": {
+      "ko": "너도　병사로서　전투에　나선다는　것이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: として와 に가 한국어 병사·전투 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59826E": {
+      "ko": "그렇다면　너의　동행을　허가하겠다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 しよう가 한국어 동행·허가를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59829C": {
+      "ko": "예상　진로가　판명되었습니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 しました가 한국어 진로·판명 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5982B7": {
+      "ko": "그래서、마더　뱅가드는　어디로？",
+      "terms": {"マザ": "마더"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 へ가 한국어 뱅가드 뒤에 붙어 있었다. 함명을 마더　뱅가드로 통일했다."
+    },
+    "aux:5982D5": {"ko": "향하고　있는　것　같습니다만……"},
+    "aux:598329": {
+      "ko": "시간을　들일　여유는　없다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 시간 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598346": {
+      "ko": "완전히　항적을　놓쳐　버리게　된다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 완전 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59835C": {"ko": "어떻게　하시겠습니까？"},
+    "aux:598372": {"ko": "부대를　둘로　나누자。"},
+    "aux:598395": {
+      "ko": "각각　공역을　수색한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 공역 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5983B0": {"ko": "어쩔　수　없겠지。"},
+    "aux:59864C": {"ko": "우리는　찬동할　수　없습니다。"},
+    "aux:598666": {"ko": "우리와　함께　돌아와　주십시오。"},
+    "aux:5986AA": {
+      "ko": "어떻게　문레이스의　평온이　유지되겠습니까！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 문레이스 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5986CC": {
+      "ko": "우리　깅가남　일문이　계승한다는　것입니다",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: ー門이 한국어 깅가남과 맞닿아 있었다. 일문을 포함한 전체 표현을 교체했다."
+    },
+    "aux:5986EC": {
+      "ko": "지구　따위　순식간에　평정할　수　있겠지요。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: など가 한국어 지구 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598834": {"ko": "맞붙어도　재미없지만……"},
+    "aux:59886E": {"ko": "땅에　기어　엎드려　사라져　줘라！！"},
+    "aux:598B54": {"ko": "나도　어느　정도는　알고　있다。"},
+    "aux:598B6F": {
+      "ko": "반연방조직이었지。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: だったな가 한국어 조직 뒤에 붙어 있었다. 어미까지 포함해 교체했다."
+    },
+    "aux:598BA0": {
+      "ko": "티탄즈나　자비　가문에　가깝다。",
+      "terms": {"ザビ": "자비"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: や가 한국어 티탄즈 뒤에 붙어 있었다. 자비　가문 표현까지 포함해 교체했다."
+    },
+    "aux:598BCC": {
+      "ko": "크로스본・뱅가드는　변했다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 んだ가 한국어 뱅가드를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598D17": {
+      "ko": "완전히　접촉을　끊고　있던　것은　아닙니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 を가 한국어 완전·접촉 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598D32": {
+      "ko": "연락을　주고받고　있었던　것입니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 연락 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598D48": {
+      "ko": "정보를　얻고　있었던　거군요？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 정보 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598DA5": {
+      "ko": "준비를　진행하게　하고　있었습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 준비 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598DDA": {"ko": "우리는　구원받은　셈입니다。"},
+    "aux:598DE4": {"ko": "감사합니다。"},
+    "aux:598E5D": {
+      "ko": "너무　위험하다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: すぎる가 한국어 위험 뒤에 붙어 있었다. 어미까지 포함해 교체했다."
+    },
+    "aux:598E69": {"ko": "저건　대체、"},
+    "aux:598E70": {
+      "ko": "어떤　모빌슈트인　겁니까？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なのです가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598E89": {"ko": "우리도　그다지　잘　모릅니다。"},
+    "aux:598EA4": {
+      "ko": "선인들이　만들어　낸　모빌슈트라고밖에……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: としか가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598ECB": {
+      "ko": "세계에　종말을　가져오기　위한　힘이라고　한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 세계 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598F05": {
+      "ko": "월광접에　대한　대책이　필요하군。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: への와 が가 한국어 월광접·대책 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598F59": {
+      "ko": "깅가남에　반대하는　자도　많이　있습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598F7D": {"ko": "저는　배웠습니다。"},
+    "aux:598FA4": {
+      "ko": "모빌슈트는　１기가　아닙니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:598FF7": {
+      "ko": "그의　∀건담이라는　기체　말인가？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: という와 のこと가 한국어 건담·기체 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:599025": {
+      "ko": "문레이스가　독자적으로　제작한　기체……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 した가 한국어 문레이스·기체 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:599070": {
+      "ko": "잠든　채의　상태가　되어　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 になっている가 한국어 상태를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59908F": {"ko": "프로그램　디스크를　맡아　왔습니다。", "terms": {"プログラムディスク": "프로그램　디스크"}},
+    "aux:5990AE": {
+      "ko": "월광접　시스템을　사용　가능하게　됩니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 になります가 한국어 시스템·사용가능을 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5990E1": {"ko": "혹은　턴Ｘ를　쓰러뜨릴　수　있을지도　모릅니다。"},
+    "aux:59912A": {
+      "ko": "지금　당장이라도　깅가남에게로　향합시다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の元へ가 한국어 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59917C": {
+      "ko": "에우고　여러분과　동행하겠습니다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 に가 한국어 에우고·동행 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:599291": {"ko": "알고　계셨습니까、이　일을！？"},
+    "aux:5992BC": {
+      "ko": "저　턴Ｘ의　압도적인　힘을。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 な가 한국어 압도적 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59930A": {"ko": "우리　밀리샤의　공적은　되지　않는다。", "terms": {"ミリシャ": "밀리샤"}},
+    "aux:599354": {
+      "ko": "우리　밀리샤를　필요로　하지　않게　된다。",
+      "terms": {"ミリシャ": "밀리샤"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 としなくなる가 한국어 필요를 감싸고 있었다. 문장 전체를 교체했다."
+    },
+    "aux:59936E": {
+      "ko": "단순한　민간조직으로　돌아가　버린다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 조직 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5C0019": {"ko": "의　영애。본작에서는　０８소대의"},
+    "aux:5C002C": {
+      "ko": "에피소드　이후、시로와　둘이",
+      "terms": {"エピソ": "에피소"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 시로 뒤에 붙어 있었다. 도감 한 줄 전체를 교체했고 다음 줄로 이어지는 어순을 유지했다."
+    },
+    "aux:5C003A": {"ko": "서　살게　된　이후의"},
+    "aux:5C0046": {
+      "ko": "아이나로서　등장한다。",
+      "terms": {"アイナ": "아이나"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: として와 している가 한국어 등장을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0051": {
+      "ko": "아인・레비",
+      "terms": {"レヴィ": "레비", "レビィ": "레비"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: レビィ가 중점 건너 한국어 아인과 이어져 있었다. 이름 전체를 아인・레비로 교체했다."
+    },
+    "aux:5C0059": {
+      "ko": "블레이드전대에　배치된　파",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 された가 한국어 블레이드전대·배치를 감싸고 있었다. 줄 전체를 교체했고 다음 줄의 일럿으로 이어지도록 파로 끝냈다."
+    },
+    "aux:5C0064": {"ko": "일럿　중　한　명으로、플라나가", "terms": {"イロット": "일럿", "フラナガ": "플라나가"}},
+    "aux:5C0072": {
+      "ko": "간　기관에서　양성된　ＮＴ。",
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: 이전 줄의 フラナガ와 이 줄의 ン이 한 이름이고 で가 한국어 기관 뒤에 붙어 있었다. 두 줄을 함께 검토해 플라나가＋간으로 이어지도록 교체했다."
+    },
+    "aux:5C0080": {"ko": "같은　처지였던　세라에게、마음", "terms": {"セラ": "세라"}},
+    "aux:5C009A": {
+      "ko": "아인・레비（Ｚ）",
+      "terms": {"レヴィ": "레비", "レビィ": "레비"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: 5C0051과 같은 이름이며 같은 완성 표현을 적용했다."
+    },
+    "aux:5C00A8": {
+      "ko": "일년전쟁　이후、시그　일행을　팔아",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: たち와 を가 한국어 이름 시그 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C00B4": {
+      "ko": "넘긴　아인은　공적을　인정받아",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 を가 한국어 아인·공적 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C00C1": {
+      "ko": "티탄즈에　편입되었다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 られた가 한국어 티탄즈를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C00CB": {"ko": "ＭＳ공학　지식과　자신의　ＮＴ"},
+    "aux:5C00DC": {
+      "ko": "능력으로、시그　일행을　몇",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: をもって와 たちを가 한국어 능력·시그 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0218": {"ko": "「별의　부스러기　작전」을　이루려"},
+    "aux:5C0227": {
+      "ko": "코우와　격렬한　싸움을　벌였",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 코우 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0238": {
+      "ko": "다。최후에는　적　함대에　특공해、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 함대 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0258": {
+      "ko": "샤아의　부하로、스스로　말하",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름 샤아 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0266": {"ko": "듯이　베테랑　파일럿", "terms": {"テラン": "테랑", "パイロッ": "파일럿"}},
+    "aux:5C0274": {"ko": "。일년전쟁　이후、로베르토와", "terms": {"ルト": "르토"}},
+    "aux:5C027E": {
+      "ko": "함께　아가마의　ＭＳ대의　한",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 아가마 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0289": {
+      "ko": "축을　맡았지만、제리드와",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 제리드 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0294": {"ko": "싸워　전사했다。"},
+    "aux:5C06F3": {
+      "ko": "하야토의　양자가　되어、에우",
+      "terms": {"エゥ": "에우"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름 하야토 뒤에 붙어 있었다. 줄 전체를 교체하고 다음 줄의 고로 이어지게 했다."
+    },
+    "aux:5C0701": {"ko": "고에　참가。이전으로선　상상도"},
+    "aux:5C0711": {"ko": "못할　「난동」에、어"},
+    "aux:5C0738": {
+      "ko": "웃소가　동경하는　누나。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름 웃소 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0746": {"ko": "잔스칼　제국（본작　미등", "terms": {"ザンスカ": "잔스칼"}},
+    "aux:5C0759": {"ko": "장）의　침공으로　고향을　점령당해"},
+    "aux:5C076A": {
+      "ko": "웃소와　행동을　함께　하게",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と가 한국어 이름 웃소 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0783": {"ko": "다。아이를　싫어하는　듯하다。"},
+    "aux:5C0A41": {
+      "ko": "평소부터　사관답지　않은　언동",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: らしからぬ가 한국어 사관 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0A51": {"ko": "에다가、ＭＳ에　타면　더욱　히"},
+    "aux:5C0A61": {"ko": "트업해서　소리치기　시작한다고", "terms": {"トアップ": "트업"}},
+    "aux:5C0A80": {
+      "ko": "잘도　사관이　되었군……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: になれた가 한국어 사관 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0A8F": {
+      "ko": "캐라・슨（강화인간）",
+      "terms": {"ス": "순"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ス－ン이 중점 건너 한국어 캬라와 이어져 있었다. 이름 전체를 캬라・순으로 교체했다."
+    },
+    "aux:5C0A9C": {"ko": "훗날　강화　처리를　받은　캐라"},
+    "aux:5C0AAC": {
+      "ko": "하만의　충실한　병사로",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 と가 한국어 하만·병사 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0AB8": {
+      "ko": "서　그레미와의　싸움에　출격",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: との와 に가 한국어 그레미·출격 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0AC4": {
+      "ko": "뉴타입부대의　잔당으로부터",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 から가 한국어 뉴타입부대 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0ACE": {
+      "ko": "하만을　감싸고　장렬한　최",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 하만 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0C13": {
+      "ko": "스의　귀환을　맞아　여러　책동",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 に際して가 한국어 귀환 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0C34": {
+      "ko": "했다。로랑에게　뜨거운　애정을　품",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름 로랑 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0C45": {"ko": "지만、호되게　차인다。"},
+    "aux:5C0C5B": {
+      "ko": "라이덴의　부하　２。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 이름 라이덴 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C0C76": {
+      "ko": "짝을　이루는　파일럿이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 である가 한국어 파일럿을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C14BC": {"ko": "일럿이　된　여성。실은", "terms": {"イロット": "일럿"}},
+    "aux:5C14CB": {
+      "ko": "지온・즘・다이쿤의　딸",
+      "terms": {"ズム": "즘"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound와 japanese_particle: ズム가 중점 사이에서 한국어 지온·다이쿤과 이어지고 の가 뒤에 붙어 있었다. 이름과 조사를 함께 교체했다."
+    },
+    "aux:5C14D7": {
+      "ko": "이며　샤아의　여동생。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で와 の가 한국어 샤아 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C14E0": {
+      "ko": "세이라・마스（Ｚ）",
+      "terms": {"マス": "마스"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: マス가 중점 건너 한국어 세이라와 이어져 있었다. 이름 전체를 교체했다."
+    },
+    "aux:5C14ED": {
+      "ko": "자칭　「뉴타입이　될　뻔",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: になりそ가 한국어 뉴타입 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C14F9": {"ko": "했던　여자」。전후에는　에우고"},
+    "aux:5C1506": {
+      "ko": "와　티탄즈의　싸움을　외면",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と와 の가 한국어 티탄즈 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1510": {"ko": "하고　유유자적한　생활을　보냈"},
+    "aux:5C15AA": {
+      "ko": "기관에서　양성된　ＮＴ。성격",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で와 された가 한국어 기관 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C15BB": {"ko": "은　소탈하고　호기롭다（？）。"},
+    "aux:5C15CC": {
+      "ko": "아무래도　시그에게　마음이　끌리는",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름 시그 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C15DA": {"ko": "듯하지만……。"},
+    "aux:5C15F2": {"ko": "죽은　것으로　여겨졌던　세라였", "terms": {"セラ": "세라"}},
+    "aux:5C1600": {
+      "ko": "지만、연방군에　포획되어、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 され가 한국어 연방군·포획을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C160C": {"ko": "콜드　슬리프로　잠들어　있었", "terms": {"ルドスリ": "드　슬리"}},
+    "aux:5C161B": {"ko": "다。ＮＴ연구소에서의　세뇌"},
+    "aux:5C162A": {
+      "ko": "처치를　받아、아인에　대한　충성",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: への가 한국어 이름 아인 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1649": {"ko": "세라（동료）", "terms": {"セラ": "세라"}},
+    "aux:5C1653": {
+      "ko": "시그에게　구출되어、그와　행동을　함",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름 시그 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1662": {"ko": "께　하게　된　세라。", "terms": {"セラ": "세라"}},
+    "aux:5C167A": {"ko": "본질적인　부분은　이전과　다르지"},
+    "aux:5C16A6": {"ko": "무라사메　연구소에　의해　만들"},
+    "aux:5C16AF": {"ko": "어진　사상　최초의　강화인간。"},
+    "aux:5C16BC": {
+      "ko": "정신은　매우　불안정。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 정신 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C16C9": {
+      "ko": "훗날　지온의　강화인간　레이라",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 지온 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C16D3": {"ko": "와　만나、성격이　둥글어졌다"},
+    "aux:5C1886": {"ko": "훗날　마리　메이아를　앞세워", "terms": {"マリ": "마리", "メイア": "메이아"}},
+    "aux:5C1895": {
+      "ko": "서　지구지배를　꾀하지만、히",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 もくろむが가 한국어 지구지배를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C18A4": {"ko": "이로　일행에게　저지된다。", "terms": {"イロ": "이로"}},
+    "aux:5C18B3": {
+      "ko": "데긴・소드・자비",
+      "terms": {"ソド": "소드", "ザビ": "자비"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: ソド와 ザビ가 중점 사이에서 한국어 데긴과 이어져 있었다. 이름 전체를 교체했다."
+    },
+    "aux:5C18BD": {
+      "ko": "지온공국의　공왕。그러나　일",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 지온공국 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C18C9": {
+      "ko": "년전쟁　당시에는　장남　기렌에게　실",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 이름 기렌 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C18EA": {"ko": "권을　빼앗겼고、독단으로　화평　교섭을"},
+    "aux:5C18FD": {
+      "ko": "하려　했다가、기렌에게　모살당했",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: によって가 한국어 이름 기렌 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C19CC": {"ko": "「건담」을　만들어　낸　５"},
+    "aux:5C19DB": {
+      "ko": "박사　중　한　명。ＯＺ에　대항하는",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 する가 한국어 대항을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C19ED": {
+      "ko": "위해、히이로를　병사로　키워",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 に가 한국어 히이로·병사 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C1A0B": {"ko": "니메에라도　나올　듯한　풍모", "terms": {"ニメ": "니메"}}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "followup_v2_candidate_spec_pending_runtime_verification",
+  "parent": "out/patch/id_command_residual_plaques_ko_followup_candidate.wsc",
+  "parent_sha256": "2d03a635b1db344e12f39dc19cf0307c112749870065032aced6593358e507af",
+  "font": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+  "stroke_width": 1,
+  "policy": {
+    "bright_result_left_cap": "use the already-clean current Korean 成功!/성공! left cap from active bank 4C",
+    "bright_result_right_cap": "use the already-clean current Korean 成功!/성공! right cap from active bank 4C",
+    "bright_clear_margin": "clear Korean text surroundings through x=6..41 while preserving/replacing clean rounded caps",
+    "down_move": "preserve arrow x=0..12; clear Korean text through x=41 using down-tone outline",
+    "hp": "stock HP x=0..13 remains pixel-exact; only recovery area is redrawn; clean current right cap is used"
+  },
+  "targets": [
+    {"logical":"4C4A74","name":"seal","text":"봉인!","storage":"body_40x16_plus_shared_right_cap","font_size":12},
+    {"logical":"4C4BB4","name":"shield","text":"방패","storage":"body_32x16_plus_shared_right_cap","font_size":12},
+    {"logical":"4C50F4","name":"sure_hit","text":"필중!","storage":"body_40x16_plus_shared_right_cap","font_size":12},
+    {"logical":"4C53B4","name":"evade","text":"회피!","storage":"body_40x16_plus_shared_right_cap","font_size":12},
+    {"logical":"4CBEAA","name":"move_down","text":"이동","storage":"full_48x16","font_size":12,"tone":"down","preserve_arrow_through_x":12},
+    {"logical":"4CC32A","name":"pursuit","text":"추격!","storage":"sparse_40x16_insert_shared_mid_column","font_size":12,"shared_top_logical":"4CB80A","shared_bottom_logical":"4CB8AA"},
+    {"logical":"4CE86A","name":"penetrate","text":"관통!","storage":"full_48x16","font_size":12},
+    {"logical":"4CE9EA","name":"preemptive","text":"선제","storage":"body_32x16_plus_shared_both_caps","font_size":12},
+    {"logical":"4CC52A","name":"hp_recovery","text":"회복","storage":"full_48x16","font_size":12,"preserve_stock_through_x":13}
+  ]
+}

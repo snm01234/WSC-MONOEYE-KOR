@@ -1,0 +1,616 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual aux targets, batch 009 (bank 5D pilot and captain battle voice). Leading glyphs are speaker/portrait bytes, so the Korean covers the spoken line only; records that continue the previous line are translated to read on from it.",
+  "region": "aux",
+  "batch": "aux_009",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:5D3E90": {
+      "ko": "……회피　성공입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: です가 한국어 회피성공 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D3EA4": {
+      "ko": "대응은　임기응변으로　하도록。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 に、な가 한국어 대응 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D3EB3": {
+      "ko": "뒤는　없다！"
+    },
+    "aux:5D3EC5": {
+      "ko": "모빌슈트　같은　건　싫어！！",
+      "terms": {
+        "キライ": "싫어"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: なんて가 한국어 모빌슈트 뒤에 붙어 있었다. キライ를 싫어로 옮겨 문장 전체를 교체했다."
+    },
+    "aux:5D3EFD": {
+      "ko": "놔！<E62F>놓으라니까！！"
+    },
+    "aux:5D3F3E": {
+      "ko": "자、어서어서～～！"
+    },
+    "aux:5D3F56": {
+      "ko": "아하하、더　더　춤춰라！！"
+    },
+    "aux:5D3F67": {
+      "ko": "몸이　타오른다……"
+    },
+    "aux:5D3F80": {
+      "ko": "너　같은　게　있으니까……！",
+      "terms": {
+        "オマエ": "너"
+      }
+    },
+    "aux:5D3F9E": {
+      "ko": "너도　느끼겠지！？",
+      "terms": {
+        "オマエ": "너"
+      }
+    },
+    "aux:5D3FAB": {
+      "ko": "영혼이　우주를　달리는　느낌을！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 우주 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D3FC4": {
+      "ko": "이　리듬、이　진동……！！",
+      "terms": {
+        "リズム": "리듬"
+      }
+    },
+    "aux:5D3FD4": {
+      "ko": "크으～、느껴진다…느껴져～！！"
+    },
+    "aux:5D3FEE": {
+      "ko": "이제　죽는다……죽어　버린다～！！"
+    },
+    "aux:5D4004": {
+      "ko": "아앗！<E62F>영혼이……"
+    },
+    "aux:5D4028": {
+      "ko": "괴물인가、저건！？",
+      "terms": {
+        "バケモノ": "괴물"
+      }
+    },
+    "aux:5D4035": {
+      "ko": "저、정말로　죽는다……！！",
+      "terms": {
+        "ホント": "정말"
+      }
+    },
+    "aux:5D4041": {
+      "ko": "죽어　버린다！！"
+    },
+    "aux:5D4100": {
+      "ko": "이런、실수했다……！！"
+    },
+    "aux:5D4109": {
+      "ko": "하만　님、죄송합니다……！"
+    },
+    "aux:5D4113": {
+      "ko": "얕보지　마！！"
+    },
+    "aux:5D4120": {
+      "ko": "흥！<E62F>언제까지　도망칠　수　있겠어！！"
+    },
+    "aux:5D4134": {
+      "ko": "웃기지　마！！"
+    },
+    "aux:5D4142": {
+      "ko": "하만　님의　적은……너냐！！",
+      "terms": {
+        "オマエ": "너"
+      }
+    },
+    "aux:5D4153": {
+      "ko": "고양이　눈의　캐라를　얕보지　마！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 이름 캬라 주변에 붙어 있었다. 猫目를 고양이　눈으로 옮겨 문장 전체를 교체했다."
+    },
+    "aux:5D4169": {
+      "ko": "눈앞에　쓰러뜨릴　적이　있다고！！"
+    },
+    "aux:5D417C": {
+      "ko": "하만　님의　방해는　하게　두지　않아！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 は、させない가 한국어 하만·방해 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D418C": {
+      "ko": "가라！<E62F>마더　판넬！！",
+      "terms": {
+        "マザ": "마더"
+      }
+    },
+    "aux:5D41A7": {
+      "ko": "이런　것쯤！<E62F>얕보지　마！！",
+      "terms": {
+        "モン": "것"
+      }
+    },
+    "aux:5D41BB": {
+      "ko": "말이　되지도　않는다고！！"
+    },
+    "aux:5D41CC": {
+      "ko": "이、이　내가……",
+      "terms": {
+        "アタシ": "내"
+      }
+    },
+    "aux:5D41D7": {
+      "ko": "고양이　눈의　캐라가　밀리고　있다！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が가 한국어 이름 캬라 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D41E7": {
+      "ko": "아、아직이다！！"
+    },
+    "aux:5D4202": {
+      "ko": "뭐라고！！<E62F>직격을　받았다고……！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 受けただと가 한국어 직격 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4218": {
+      "ko": "농담　같은　말　하지　마！！"
+    },
+    "aux:5D4227": {
+      "ko": "얕보지　마아아아！！"
+    },
+    "aux:5D4237": {
+      "ko": "그렇게　나오나……하지만！！"
+    },
+    "aux:5D43E1": {
+      "ko": "、이　이상은……！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は가 한국어 이상 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D43EB": {
+      "ko": "무슨　일이　있어도　버텨라！"
+    },
+    "aux:5D4401": {
+      "ko": "흥……이　정도인가",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: か가 한국어 정도 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D440E": {
+      "ko": "……하、회피　성공입니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: です가 한국어 회피성공 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D441E": {
+      "ko": "흥……너희의　실수가"
+    },
+    "aux:5D442B": {
+      "ko": "운에　구원받았다고　할까？",
+      "terms": {
+        "ツキ": "운"
+      }
+    },
+    "aux:5D4442": {
+      "ko": "선제공격을　실시합니다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 行います가 한국어 공격 주변에 붙어 있었다. 先制를 선제로 옮겨 교체했다."
+    },
+    "aux:5D444F": {
+      "ko": "괜찮다……허가한다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: する가 한국어 허가 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D445C": {
+      "ko": "헛된　발버둥이다……",
+      "terms": {
+        "ムダ": "헛"
+      }
+    },
+    "aux:5D4544": {
+      "ko": "기、기렌　각하！！"
+    },
+    "aux:5D454E": {
+      "ko": "이　이상은、아무리　그롬린이라도……",
+      "terms": {
+        "グロムリン": "그롬린"
+      },
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 でも가 한국어 이상·함명 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4569": {
+      "ko": "농담은　그만둬……"
+    },
+    "aux:5D4574": {
+      "ko": "결국은　오합지졸인가……"
+    },
+    "aux:5D4584": {
+      "ko": "……회피　성공입니다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5D3E90과 같은 대사로 같은 완성 표현을 적용했다."
+    },
+    "aux:5D4591": {
+      "ko": "적、포격……옵니다！！"
+    },
+    "aux:5D45AC": {
+      "ko": "……기렌　각하！"
+    },
+    "aux:5D45B5": {
+      "ko": "포격　허가를　부탁드립니다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 お願いいたします가 한국어 포격허가 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D45CB": {
+      "ko": "괜찮다……쏴라。"
+    },
+    "aux:5D46DA": {
+      "ko": "안타깝게도、소생은　무인이다！！"
+    },
+    "aux:5D46ED": {
+      "ko": "하하하하하핫！！"
+    },
+    "aux:5D46F7": {
+      "ko": "소렐　가문이　저지른　불명예는、",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: 家가 한국어 이름 소렐과 맞닿아 있었다. 소렐　가문으로 전체 표현을 교체했다."
+    },
+    "aux:5D4704": {
+      "ko": "우리　깅가남　가문이　씻어야　하는　것이다！"
+    },
+    "aux:5D4717": {
+      "ko": "턴Ｘ의　힘……보아라！！",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: の가 한국어 턴Ｘ와 맞닿아 있었다. 소유격을 한국어 의로 바꿔 표현 전체를 교체했다."
+    },
+    "aux:5D4728": {
+      "ko": "상태는　양호……！！"
+    },
+    "aux:5D4735": {
+      "ko": "이　김・깅가남이",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が가 한국어 이름 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D474C": {
+      "ko": "드디어　우리의　꿈이　이루어진다……"
+    },
+    "aux:5D475B": {
+      "ko": "실전의　시대가　왔다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の가 한국어 실전 뒤에 붙어 있었다. 世를 시대로 옮겨 교체했다."
+    },
+    "aux:5D4769": {
+      "ko": "하하하핫！"
+    },
+    "aux:5D476E": {
+      "ko": "우리　세상의　봄이란　이런　것이다！"
+    },
+    "aux:5D477F": {
+      "ko": "에잇……귀엽지　않은　녀석！",
+      "terms": {
+        "ヤツ": "녀석"
+      }
+    },
+    "aux:5D478E": {
+      "ko": "죽음을　의식하기에、"
+    },
+    "aux:5D4799": {
+      "ko": "살아　있음을　실감할　수　있는　것이다！！"
+    },
+    "aux:5D47AB": {
+      "ko": "시뮬레이션　게임보다",
+      "terms": {
+        "アシミュレ": "시뮬레",
+        "ションゲ": "이션　게"
+      }
+    },
+    "aux:5D47BC": {
+      "ko": "현실이　더　재미있군……하하하하！！"
+    },
+    "aux:5D47CF": {
+      "ko": "호오……제법이군！"
+    },
+    "aux:5D47D9": {
+      "ko": "깅가남대의　대원이　되겠나？<E62F>하하핫！"
+    },
+    "aux:5D47EB": {
+      "ko": "에잇……기능　불량인가！！"
+    },
+    "aux:5D4804": {
+      "ko": "이　턴Ｘ를　잡았다고！？"
+    },
+    "aux:5D4815": {
+      "ko": "시뮬레이션　게임보다",
+      "terms": {
+        "アシミュレ": "시뮬레",
+        "ションゲ": "이션　게"
+      }
+    },
+    "aux:5D4826": {
+      "ko": "실전이　더　재미있군！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の方が가 한국어 실전 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4834": {
+      "ko": "에잇！<E62F>얕보지　마라！！"
+    },
+    "aux:5D4846": {
+      "ko": "건방진　소리를！"
+    },
+    "aux:5D4854": {
+      "ko": "기다리고　기다린　실전이다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: だ가 한국어 실전 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D486A": {
+      "ko": "작전은　Ｅ　마이너다！<E62F>Ｅ　마이너로",
+      "terms": {
+        "マイナ": "마이너"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: は가 한국어 작전 뒤에 붙고 マイナ－가 표기명과 맞닿아 있었다. 표현 전체를 교체했다."
+    },
+    "aux:5D4880": {
+      "ko": "깅가남대의　첫　출전을　장식한다！！"
+    },
+    "aux:5D4893": {
+      "ko": "지금이야말로　연습의　성과를　보여　주어라！！"
+    },
+    "aux:5D48AB": {
+      "ko": "단숨에　끝장을　내겠다！",
+      "terms": {
+        "ケリ": "끝장"
+      }
+    },
+    "aux:5D494C": {
+      "ko": "결국은　시민들의　오합지졸인가！"
+    },
+    "aux:5D496A": {
+      "ko": "적은　가만히　보고　있지　않는다！！"
+    },
+    "aux:5D497D": {
+      "ko": "설령　자신이　하는　일로　지옥에　떨어진다　해도",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 자신 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D49A8": {
+      "ko": "그런　것은　통하지　않는다！"
+    },
+    "aux:5D49B5": {
+      "ko": "너가　가야　할　길은　둘　있다。",
+      "terms": {
+        "オマエ": "너"
+      }
+    },
+    "aux:5D49E6": {
+      "ko": "나는　베라의　힘이　되기로　정했다……",
+      "terms": {
+        "オレ": "나"
+      }
+    },
+    "aux:5D4A1A": {
+      "ko": "방해를　한다면……사라져　줘야　한다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 するなら가 한국어 방해 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4A2C": {
+      "ko": "너희와　놀고　있을　만큼",
+      "terms": {
+        "キサマ": "너"
+      }
+    },
+    "aux:5D4A48": {
+      "ko": "전쟁은　끝내야　한다……！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 終わらせなくちゃいけない이 한국어 전쟁 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4A5E": {
+      "ko": "뭐라고오오！！"
+    },
+    "aux:5D4A89": {
+      "ko": "다　처리할　수　없다……！！"
+    },
+    "aux:5D4A94": {
+      "ko": "젠장！<E62F>아무런　망설임도　없이"
+    },
+    "aux:5D4AA3": {
+      "ko": "공격해　온다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: してきやがる가 한국어 공격 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4AAF": {
+      "ko": "안　되겠나？<E62F>눈으로는　따라가도"
+    },
+    "aux:5D4ABE": {
+      "ko": "몸의　반사가　따라오지　못한다！！"
+    },
+    "aux:5D4ACF": {
+      "ko": "윽！<E62F>파워가　차원이　다르다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 段違いだ가 한국어 파워 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4AE2": {
+      "ko": "우리가　지금까지　싸워　온　것은……",
+      "terms": {
+        "オレ": "우리"
+      }
+    },
+    "aux:5D4B8E": {
+      "ko": "내가　언제나　앞일을　내다보고　있다는　것은"
+    },
+    "aux:5D4B9E": {
+      "ko": "알고　있을　텐데！！"
+    },
+    "aux:5D4BA7": {
+      "ko": "이　블랙　돌에게",
+      "terms": {
+        "ブラックド": "블랙"
+      }
+    },
+    "aux:5D4BB3": {
+      "ko": "그런　것이　통할　거라　생각하나！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 するとお思いか가 한국어 통용 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4BC4": {
+      "ko": "궁지에　몰린　자에게　구원의　손길을"
+    },
+    "aux:5D4BD6": {
+      "ko": "내미는　것이　내　역할입니다。"
+    },
+    "aux:5D4BE6": {
+      "ko": "여기까지　와　놓고……！"
+    },
+    "aux:5D4BF2": {
+      "ko": "흥정을　진행하려　해도"
+    },
+    "aux:5D4C26": {
+      "ko": "나를　가문만　좋은　남자라　생각하나？"
+    },
+    "aux:5D4C3A": {
+      "ko": "마지막에　성공하면　된다……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: すればいい가 한국어 성공 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4C47": {
+      "ko": "싸움이란　그런　것이다！！"
+    },
+    "aux:5D4C72": {
+      "ko": "좋은　야심이　아닌가！！"
+    },
+    "aux:5D4C7E": {
+      "ko": "전쟁을　놀이라고　생각하고　있다……！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 ごっこだと가 한국어 전쟁 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4C8F": {
+      "ko": "너희가　그런　태도이니까、"
+    },
+    "aux:5D4C9B": {
+      "ko": "내가　나서야　했던　것이다！！"
+    },
+    "aux:5D4CAD": {
+      "ko": "너희들……속였구나！！"
+    },
+    "aux:5D4CBB": {
+      "ko": "지금、쓰러질　수는……"
+    },
+    "aux:5D4CD5": {
+      "ko": "전쟁이란　무력만이　아니다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: というのは와 だけではない가 한국어 전쟁·무력 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4CE2": {
+      "ko": "로라　한　사람을　남기고"
+    },
+    "aux:5D4CED": {
+      "ko": "당할　수는　없는　것이다！"
+    },
+    "aux:5D4CFD": {
+      "ko": "내가　그렇게　어리석은가……？"
+    },
+    "aux:5D4D0D": {
+      "ko": "정면의　적에게　포격전을　건다！"
+    },
+    "aux:5D4D21": {
+      "ko": "상관　없다！"
+    },
+    "aux:5D4D2D": {
+      "ko": "계속　퍼부어라！！",
+      "terms": {
+        "ブッ": "퍼"
+      }
+    },
+    "aux:5D4D3C": {
+      "ko": "총원、대기계인형전에　대비하라！"
+    },
+    "aux:5D4D56": {
+      "ko": "전투　지휘는　저에게　맡겨　주십시오！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 は가 한국어 전투·지휘 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4D93": {
+      "ko": "……미하엘　대령！"
+    },
+    "aux:5D4D9C": {
+      "ko": "기총좌는　개별적으로　응전하라！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は와 のこと가 한국어 응전 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4DAE": {
+      "ko": "미하엘　대령！！"
+    },
+    "aux:5D4DB6": {
+      "ko": "적기를　쫓아내지　않으면……",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を가 한국어 적기 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4DC4": {
+      "ko": "지금　하고　있습니다！！"
+    },
+    "aux:5D4DD7": {
+      "ko": "위험한　게　아닌가……이　배？",
+      "terms": {
+        "ヤバ": "위험"
+      }
+    },
+    "aux:5D4DE8": {
+      "ko": "……직격인가！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: か가 한국어 직격 뒤에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4DF2": {
+      "ko": "당황하지　마라、미하엘　대령！"
+    },
+    "aux:5D4E0F": {
+      "ko": "어떻게　된　거냐、미하엘　대령！？"
+    },
+    "aux:5D4E1A": {
+      "ko": "적이　공격하고　있다！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 している가 한국어 공격 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5D4E22": {
+      "ko": "알고　있습니다、도련님！"
+    },
+    "aux:5D4E30": {
+      "ko": "조금　조용히　해　주십시오！"
+    },
+    "aux:5D4E3F": {
+      "ko": "이제　한계다！<E62F>전원　대피！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: っ가 한국어 전원대피 뒤에 붙어 있었다. 명령형까지 포함해 교체했다."
+    },
+    "aux:5D4E55": {
+      "ko": "어떻게　된　거냐、미하엘　대령！！"
+    },
+    "aux:5D4E60": {
+      "ko": "좋아、이　기세다！"
+    },
+    "aux:5D4E88": {
+      "ko": "내가　언제나　앞일을　내다보고　있다는　것은"
+    },
+    "aux:5D4E98": {
+      "ko": "알고　있을　텐데！！"
+    },
+    "aux:5D4EA1": {
+      "ko": "이　블랙　돌에게",
+      "terms": {
+        "ブラックド": "블랙"
+      }
+    },
+    "aux:5D4EAD": {
+      "ko": "그런　것이　통할　거라　생각하나！？",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5D4BB3과 같은 대사로 같은 완성 표현을 적용했다."
+    },
+    "aux:5D4EBE": {
+      "ko": "궁지에　몰린　자에게　구원의　손길을"
+    },
+    "aux:5D4ED0": {
+      "ko": "내미는　것이　내　역할입니다。"
+    },
+    "aux:5D4EE0": {
+      "ko": "여기까지　와　놓고……！"
+    },
+    "aux:5D4EEC": {
+      "ko": "흥정을　진행하려　해도"
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "_note": "엔딩 크레딧 한글화 원천. 역할·회사 약호는 번역, 인명·회사명은 음차. RetroArch Beetle 슬롯 0–21(state5 대사 제외)과 1:1.",
+  "policy": {
+    "roles": "translated_ko",
+    "names": "phonetic_ko",
+    "companies": "phonetic_ko",
+    "latin_handles": "keep"
+  },
+  "pages": [
+    {
+      "slot": 0,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "製作", "ko": "제작", "kind": "role"},
+        {"jp": "(株) ヴァンガード", "ko": "(주) 뱅가드", "kind": "company"}
+      ]
+    },
+    {
+      "slot": 1,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "メインプログラム", "ko": "메인 프로그램", "kind": "role"},
+        {"jp": "福田 正佳", "ko": "후쿠다 마사요시", "kind": "name"}
+      ]
+    },
+    {
+      "slot": 2,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "シナリオ", "ko": "시나리오", "kind": "role"},
+        {"jp": "大田原　一博", "ko": "오오타와라 가즈히로", "kind": "name"}
+      ]
+    },
+    {
+      "slot": 3,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "オリジナルキャラクターデザイン", "ko": "오리지널 캐릭터 디자인", "kind": "role"},
+        {"jp": "内田 順久", "ko": "우치다 노부히사", "kind": "name", "reading_note": "順久=노부히사(のぶひさ). 요리히사 이설 있음"}
+      ]
+    },
+    {
+      "slot": 4,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "オリジナルMSデザイン", "ko": "오리지널 MS 디자인", "kind": "role"},
+        {"jp": "片桐 圭一郎", "ko": "카타기리 케이이치로", "kind": "name"},
+        {"jp": "綾羅木 宏志", "ko": "아야라기 히로시", "kind": "name"},
+        {"jp": "武居 亮", "ko": "타케이 료", "kind": "name"}
+      ]
+    },
+    {
+      "slot": 6,
+      "kind": "two_col",
+      "art": false,
+      "columns": [
+        {
+          "header": {"jp": "ゲームデザイン", "ko": "게임 디자인", "kind": "role"},
+          "names": [{"jp": "杉山 剛", "ko": "스기야마 쓰요시", "kind": "name"}]
+        },
+        {
+          "header": {"jp": "プログラム", "ko": "프로그램", "kind": "role"},
+          "names": [
+            {"jp": "石井 政幸", "ko": "이시이 마사유키", "kind": "name"},
+            {"jp": "斎藤 秀教", "ko": "사이토 히데노리", "kind": "name"},
+            {"jp": "亀尾 司", "ko": "카메오 츠카사", "kind": "name"}
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 7,
+      "kind": "two_col",
+      "art": false,
+      "columns": [
+        {
+          "header": {"jp": "イベント演出", "ko": "이벤트 연출", "kind": "role"},
+          "names": [{"jp": "安倍 政晴", "ko": "아베 마사하루", "kind": "name"}]
+        },
+        {
+          "header": {"jp": "スクリプト作成", "ko": "스크립트 작성", "kind": "role"},
+          "names": [
+            {"jp": "小芦 隆", "ko": "코아시 타카시", "kind": "name"},
+            {"jp": "秋山 靖成", "ko": "아키야마 야스나리", "kind": "name"},
+            {"jp": "星野 英律", "ko": "호시노 히데노리", "kind": "name"}
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 8,
+      "kind": "header_two_col",
+      "art": false,
+      "header": {"jp": "グラフィック", "ko": "그래픽", "kind": "role"},
+      "columns": [
+        [
+          {"jp": "海野 貴明", "ko": "운노 타카아키", "kind": "name"},
+          {"jp": "縄村 竜一", "ko": "나와무라 류이치", "kind": "name"},
+          {"jp": "池谷 俊之", "ko": "이케야 토시유키", "kind": "name"}
+        ],
+        [
+          {"jp": "岡本 篤仁", "ko": "오카모토 아츠히토", "kind": "name"},
+          {"jp": "木村 さとみ", "ko": "키무라 사토미", "kind": "name"},
+          {"jp": "山下 英之", "ko": "야마시타 히데유키", "kind": "name"}
+        ]
+      ]
+    },
+    {
+      "slot": 9,
+      "kind": "header_two_col",
+      "art": false,
+      "header": {"jp": "アシスタント", "ko": "어시스턴트", "kind": "role"},
+      "columns": [
+        [
+          {"jp": "菊地 清香", "ko": "키쿠치 사야카", "kind": "name"},
+          {"jp": "星野 協介", "ko": "호시노 쿄스케", "kind": "name"},
+          {"jp": "永井 良明", "ko": "나가이 요시아키", "kind": "name"}
+        ],
+        [
+          {"jp": "前崎 元宏", "ko": "마에자키 모토히로", "kind": "name"},
+          {"jp": "吉澤 由美", "ko": "요시자와 유미", "kind": "name"},
+          {"jp": "高橋 晋哉", "ko": "타카하시 신야", "kind": "name"}
+        ]
+      ]
+    },
+    {
+      "slot": 10,
+      "kind": "header_two_col",
+      "art": false,
+      "header": {"jp": "スペシャルサンクス", "ko": "스페셜 감사", "kind": "role"},
+      "columns": [
+        [
+          {"jp": "坂入 俊光", "ko": "사카이리 토시미츠", "kind": "name"},
+          {"jp": "タイピン", "ko": "타이핀", "kind": "name"},
+          {"jp": "ドラゴン鈴木", "ko": "드래곤 스즈키", "kind": "name"},
+          {"jp": "ヤンキー田中", "ko": "양키 타나카", "kind": "name"}
+        ],
+        [
+          {"jp": "ちゃちゃ", "ko": "차차", "kind": "name"},
+          {"jp": "丸山 和也", "ko": "마루야마 카즈야", "kind": "name"},
+          {"jp": "青木 武", "ko": "아오키 타케시", "kind": "name"},
+          {"jp": "ナス原田", "ko": "나스 하라다", "kind": "name"}
+        ]
+      ]
+    },
+    {
+      "slot": 11,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "スペシャルサンクス", "ko": "스페셜 감사", "kind": "role"},
+        {"jp": "牛村 憲彦", "ko": "우시무라 노리히코", "kind": "name"}
+      ]
+    },
+    {
+      "slot": 12,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "宣伝", "ko": "홍보", "kind": "role"},
+        {"jp": "笹野井 隆広", "ko": "사사노이 타카히로", "kind": "name"},
+        {"jp": "安子 大樹", "ko": "야스코 다이키", "kind": "name", "reading_note": "安子 성 읽기 불확실. 야스코로 음차"}
+      ]
+    },
+    {
+      "slot": 13,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "テストプレイ", "ko": "테스트 플레이", "kind": "role"},
+        {"jp": "スタジオスタット", "ko": "스튜디오 스탯", "kind": "company"}
+      ]
+    },
+    {
+      "slot": 14,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "音楽", "ko": "음악", "kind": "role"},
+        {"jp": "河西　良", "ko": "카사이 료", "kind": "name"},
+        {"jp": "堀口　比呂志", "ko": "호리구치 히로시", "kind": "name"},
+        {"jp": "(有) ツーファイブ", "ko": "(유) 투파이브", "kind": "company"}
+      ]
+    },
+    {
+      "slot": 15,
+      "kind": "header_two_col_footer",
+      "art": false,
+      "header": {"jp": "制作協力", "ko": "제작 협력", "kind": "role"},
+      "columns": [
+        [
+          {"jp": "堀口 大明神", "ko": "호리구치 다이묘진", "kind": "name"},
+          {"jp": "森田 彰啓", "ko": "모리타 아키히로", "kind": "name"}
+        ],
+        [
+          {"jp": "岡崎 昭行", "ko": "오카자키 아키유키", "kind": "name"}
+        ]
+      ],
+      "footer": {"jp": "サンライズ", "ko": "선라이즈", "kind": "company"}
+    },
+    {
+      "slot": 16,
+      "kind": "center_stack",
+      "art": false,
+      "lines": [
+        {"jp": "制作協力", "ko": "제작 협력", "kind": "role"},
+        {"jp": "MIYA:YOSI", "ko": "MIYA:YOSI", "kind": "latin"},
+        {"jp": "高木 典慶", "ko": "타카기 노리요시", "kind": "name"},
+        {"jp": "(株)トムクリエイト", "ko": "(주) 톰 크리에이트", "kind": "company"}
+      ]
+    },
+    {
+      "slot": 17,
+      "kind": "bar_lr",
+      "art": true,
+      "left": {"jp": "ディレクター", "ko": "디렉터", "kind": "role"},
+      "right": {"jp": "松田　隆", "ko": "마츠다 타카시", "kind": "name"}
+    },
+    {
+      "slot": 18,
+      "kind": "bar_lr",
+      "art": true,
+      "left": {"jp": "プロデューサー", "ko": "프로듀서", "kind": "role"},
+      "right": {"jp": "杉山 智則", "ko": "스기야마 토모노리", "kind": "name"}
+    },
+    {
+      "slot": 19,
+      "kind": "bar_lr",
+      "art": true,
+      "left": {"jp": "プロデューサー", "ko": "프로듀서", "kind": "role"},
+      "right": {"jp": "堀内 美康", "ko": "호리우치 요시야스", "kind": "name"}
+    },
+    {
+      "slot": 20,
+      "kind": "bar_left_right_stack",
+      "art": true,
+      "left": {"jp": "協力", "ko": "협력", "kind": "role"},
+      "right": [
+        {"jp": "創通エージェンシー", "ko": "소츠 에이전시", "kind": "company"},
+        {"jp": "サンライズ", "ko": "선라이즈", "kind": "company"}
+      ]
+    },
+    {
+      "slot": 21,
+      "kind": "bar_lr",
+      "art": true,
+      "left": {"jp": "制作", "ko": "제작", "kind": "role"},
+      "right": {"jp": "バンダイ", "ko": "반다이", "kind": "company"}
+    }
+  ]
+}

@@ -2,11 +2,11 @@
 
 WonderSwan Color용 **SD Gundam G Generation: Mono-Eye Gundams** 비공식 한국어 패치 프로젝트입니다.
 
-이 저장소는 원본 게임 ROM을 포함하지 않습니다. 배포 파일은 사용자가 보유한 정상 원본 ROM에 적용하는 **xdelta 패치**입니다.
+이 저장소는 원본 게임 ROM을 포함하지 않습니다. 배포 파일은 사용자가 **합법적으로 소유한 일본판 원본 ROM**에 적용하는 **xdelta 패치**입니다.
 
 ## 가장 빠른 적용 방법
 
-1. 정상 원본 `.wsc` ROM을 준비합니다.
+1. **합법적으로 소유한 일본판 원본 `.wsc` ROM**을 준비합니다.
 2. 원본 ROM의 SHA-256이 아래 값과 같은지 확인합니다.
    - `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
 3. `out/dist/monoeye_ko_expanded.xdelta`를 받습니다.
@@ -57,11 +57,22 @@ xdelta 생성 후 원본 ROM에 다시 적용하여 **현재 메인 TIP과 byte-
 
 - [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) — 현재 메인TIP 및 빌드/검증 흐름
 - [`docs/REPOSITORY_POLICY.md`](docs/REPOSITORY_POLICY.md) — GitHub에 포함할 파일과 제외할 파일 정책
-- [`PATCH_PROGRESS.md`](PATCH_PROGRESS.md) — 누적 수정 및 원인 분석 기록
 - [`docs/TRANSLATION_SOURCE_POLICY.md`](docs/TRANSLATION_SOURCE_POLICY.md) — 번역 소스 관리 정책
 - [`docs/SAVERAM_POLICY.md`](docs/SAVERAM_POLICY.md) — SaveRAM 취급 정책
+- [`docs/LEGAL_NOTICE.md`](docs/LEGAL_NOTICE.md) — 법적 고지, 권리자 안내 및 공개 범위 원칙
 
-## 저작권 안내
+재현 가능한 빌드를 위해 `data/`의 활성 번역/구조 사양은 공개 저장소에 포함합니다. 일부 사양에는 ROM의 올바른 위치와 버전을 검증하기 위한 일본어 원문 필드가 포함될 수 있습니다. 반면 전체 `PATCH_PROGRESS.md`처럼 빌드에 필요하지 않은 대규모 내부 실측 로그는 공개하지 않습니다. 장기적으로는 불필요한 원문 필드를 해시·길이·주소 기반 검증으로 대체해 공개 원문량을 줄이는 것을 목표로 합니다.
 
-이 프로젝트는 팬 번역/패치 프로젝트이며 원본 게임 ROM을 배포하지 않습니다. 게임 및 관련 저작권은 각 권리자에게 있습니다. 패치는 정당하게 보유한 원본 게임 데이터에 적용하는 용도로만 사용해 주세요.
-"# WSC-MONOEYE-KOR" 
+## 저작권 및 비공식 프로젝트 안내
+
+이 프로젝트는 **비공식·비상업 팬 번역/호환성 연구 프로젝트**이며 게임의 제작사·유통사·플랫폼 권리자와 제휴, 후원 또는 승인 관계가 있음을 주장하지 않습니다. 게임, 등장인물, 기체, 명칭, 상표 및 원저작물에 관한 권리는 각 권리자에게 있습니다.
+
+공개 배포에는 원본 ROM이나 패치 완료 ROM을 포함하지 않으며, 사용자가 **합법적으로 소유한 일본판 원본 ROM**에 적용하는 xdelta 차이 패치만 제공합니다. 다만 **xdelta 형식이라는 이유만으로 모든 저작권 문제가 자동으로 해소되거나 적법성이 보장되는 것은 아닙니다.** 원본 ROM 또는 패치 완료 ROM을 재배포하지 마세요.
+
+이 저장소의 코드·문서 등 프로젝트 작성물에 관한 권리와 제3자 게임 콘텐츠에 관한 권리는 서로 별개입니다. 이 저장소는 제3자 게임 자산, 원문, 상표 또는 그 밖의 권리에 대한 라이선스를 부여하지 않습니다. 자세한 공개 범위, 권리자 요청 및 보증 부인은 [`docs/LEGAL_NOTICE.md`](docs/LEGAL_NOTICE.md)를 확인해 주세요.
+
+## 라이선스
+
+프로젝트가 자체 작성하고 라이선스를 부여할 권한이 있는 코드·도구·문서 등은 [`LICENSE`](LICENSE)의 **MIT License**로 공개합니다. MIT License는 원 게임이나 제3자 게임 콘텐츠에 대한 이용허락으로 확장되지 않습니다.
+
+라이선스 적용 범위와 제3자 권리의 구분은 [`NOTICE.md`](NOTICE.md)를 반드시 함께 확인해 주세요. 특히 `data/`의 번역/검증 데이터에 원 게임의 짧은 원문이나 식별자가 포함되어 있더라도, 그 제3자 원저작물 자체에 MIT License가 부여되는 것은 아닙니다.

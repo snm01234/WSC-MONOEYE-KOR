@@ -1,0 +1,63 @@
+{
+  "description": "Minimal proper-noun spill PoC (14 entries). Full unit/MS/pilot catalog: data/unit_names_ko.json",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "see_also": "data/unit_names_ko.json",
+  "entries": [
+    {
+      "jp": "シグ",
+      "ko": "시그"
+    },
+    {
+      "jp": "サイド",
+      "ko": "사이드"
+    },
+    {
+      "jp": "ジオン",
+      "ko": "지온"
+    },
+    {
+      "jp": "シャア",
+      "ko": "샤아"
+    },
+    {
+      "jp": "アムロ",
+      "ko": "아무로"
+    },
+    {
+      "jp": "ディアナ",
+      "ko": "디아나"
+    },
+    {
+      "jp": "ガンダム",
+      "ko": "건담"
+    },
+    {
+      "jp": "ブライト",
+      "ko": "브라이트"
+    },
+    {
+      "jp": "モノアイ",
+      "ko": "모노아이"
+    },
+    {
+      "jp": "シャアッ",
+      "ko": "샤앗"
+    },
+    {
+      "jp": "ガンダムッ",
+      "ko": "건담"
+    },
+    {
+      "jp": "サイコガンダム",
+      "ko": "사이코　건담"
+    },
+    {
+      "jp": "デビルガンダム",
+      "ko": "데빌　건담"
+    },
+    {
+      "jp": "ガンダムタイプ",
+      "ko": "건담　타입"
+    }
+  ]
+}

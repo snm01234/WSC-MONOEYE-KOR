@@ -1,0 +1,713 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual aux targets, batch 004 (bank 5C encyclopedia tail and skill descriptions). Skill lines are templated, so identical templates get identical Korean.",
+  "region": "aux",
+  "batch": "aux_004",
+  "reviewer": "Kiro",
+  "entries": {
+    "aux:5C629A": {
+      "ko": "서　도몬　일행을　애먹였다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: たちを가 한국어 이름 도몬 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C65DA": {"ko": "지상용으로　개수되어　있기　때문에"},
+    "aux:5C65E7": {
+      "ko": "대기권　내　비행도　가능하다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 内와 も、である가 한국어 대기권·가능 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C65FB": {
+      "ko": "톨기스의　강화형으로、한때",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 톨기스·강화형 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6607": {"ko": "서　트레즈 크슈리나다", "terms": {"トレ": "트레", "クシュリナ": "크슈리나"}},
+    "aux:5C6615": {"ko": "장시켰던　기체。"},
+    "aux:5C6621": {"ko": "메가　캐논과　히트　로드", "terms": {"トロッド": "트　로드"}},
+    "aux:5C6631": {
+      "ko": "를　장비하고、근～원거리까지의",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 し가 한국어 장비를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6644": {
+      "ko": "폭넓은　전투　레인지를　자랑한다。",
+      "terms": {"レンジ": "레인지"},
+      "complete_expression_review": true,
+      "review_notes": "broken_word: レンジ가 한국어 전투와 맞닿아 있었다. 전투　레인지로 전체 표현을 교체했다."
+    },
+    "aux:5C6655": {"ko": "트로이　호스", "terms": {"トロイホ": "트로이　호"}},
+    "aux:5C665E": {
+      "ko": "연방군이　건조한　페가수스급",
+      "terms": {"ガサス": "가수스"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 した가 한국어 연방군·건조를 감싸고 있었다. 함급명 페가수스까지 포함해 교체했다."
+    },
+    "aux:5C666F": {
+      "ko": "전함　１척。작중에서는　그레이",
+      "terms": {"グレイ": "그레이"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 では가 한국어 전함·작중 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C667E": {"ko": "판텀이라　불린다。", "terms": {"ファントム": "판텀"}, "review_notes": "설치된 한글 글리프 집합에 '팬'이 없어 ファントム을 '판텀'으로 음역했다."},
+    "aux:5C6885": {
+      "ko": "를　장비하고　있어　화력은　높다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 は가 한국어 장비·화력 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C68AD": {
+      "ko": "바운드・도크",
+      "terms": {"バウンド": "바운드"},
+      "complete_expression_review": true,
+      "review_notes": "split_compound: バウンド가 중점 건너 한국어 도크와 이어져 있었다. 기체명 전체를 교체했다."
+    },
+    "aux:5C68B6": {
+      "ko": "무라사메　연구소에서　개발된",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: で와 された가 한국어 연구소·개발을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C68CF": {
+      "ko": "파일럿이　나쁜　탓인지、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が가 한국어 파일럿 뒤에 붙어 있었다. 줄 전체를 교체했다. 설치된 한글 글리프 집합에 '빴'이 없어 '나쁜 탓인지'로 풀어 썼다."
+    },
+    "aux:5C68DA": {"ko": "이렇다　할　활약은　없다。"},
+    "aux:5C6F57": {
+      "ko": "한　ＭＳ。색적성능을　중시해",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 し가 한국어 색적성능·중시를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6F67": {
+      "ko": "서　개발되었다。파일럿의",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: された와 の가 한국어 개발·파일럿 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6F71": {"ko": "탓인지、아니면　구상", "terms": {"コンセプト": "구상"}, "review_notes": "설치된 한글 글리프 집합에 '셉'이 없어 コンセプト를 뜻이 같은 '구상'으로 옮겼다. 다음 조각 5C6F7D과 이어지는 한 문장이다."},
+    "aux:5C6F7D": {"ko": "이　나쁜　탓인지、거의　활", "review_notes": "앞 조각 5C6F71의 '구상'에 이어지는 조각이다. 설치된 한글 글리프 집합에 '빴'이 없어 '나쁜 탓인지'로 풀어 썼다."},
+    "aux:5C6F9A": {"ko": "화이트　베이스", "terms": {"ホワイト": "화이트"}},
+    "aux:5C6F9E": {
+      "ko": "연방군이　건조한　페가수스급",
+      "terms": {"ガサス": "가수스"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5C665E와 동일한 줄로, 같은 완성 표현을 적용했다."
+    },
+    "aux:5C6FAF": {
+      "ko": "전함　２번함。그　외형에서",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 から가 한국어 전함 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6FC0": {
+      "ko": "지온에서는　「목마」라　불렸",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: では와 と呼ばれ가 한국어 지온 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C6FD0": {"ko": "다。수많은　무훈을　세우고、"},
+    "aux:5C6FE1": {"ko": "훗날　건담　신화를　만들어"},
+    "aux:5C6FED": {
+      "ko": "낸　전함이다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: である가 한국어 전함 뒤에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C724D": {
+      "ko": "강화가　도모되어　있다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 図られている가 한국어 강화를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C7258": {
+      "ko": "특히、캐터펄트가　장비되어",
+      "terms": {"カタパルト": "캐터펄트"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 され가 한국어 장비를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C7267": {"ko": "있어、ＭＳ를　신속히　전개"},
+    "aux:5C7277": {
+      "ko": "하는　것이　가능해졌다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: することが와 になった가 한국어 가능을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C7285": {
+      "ko": "「Ｚ계획」의　과정에서　개발되",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 で가 한국어 계획·과정 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C7296": {"ko": "었던　가변　ＭＳ。화력・장갑　모두"},
+    "aux:5C72A9": {
+      "ko": "빈약하지만、기동성이　뛰어나다。",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に와 優れる가 한국어 기동성을 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C72B9": {
+      "ko": "아가마에서는　주로　여성　파일로",
+      "terms": {"パイロ": "파일로"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: では가 한국어 아가마 뒤에 붙어 있었다. 파일럿이 다음 줄로 이어지도록 파일로로 끝냈다."
+    },
+    "aux:5C72C6": {
+      "ko": "트용　기체로서　사용되",
+      "terms": {"ット": "트"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 用の와 として가 한국어 기체 주변에 붙어 있었다. 이전 줄의 파일로와 이어지도록 트로 시작했다."
+    },
+    "aux:5C76F4": {
+      "ko": "돔을　우주용으로　개조한　기체",
+      "terms": {"ドム": "돔"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 に、した가 한국어 우주용·개조 주변에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C7702": {"ko": "로、자쿠Ⅱ를　대신하는　우주용　주"},
+    "aux:5C7713": {
+      "ko": "력기로서　배치되었다。베테",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: として와 された가 한국어 배치를 감싸고 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5C772D": {
+      "ko": "구그보다、이쪽을　계속해서",
+      "terms": {"ググ": "구그"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: より가 기체명 뒤에, を가 한국어 계속 앞에 붙어 있었다. 줄 전체를 교체했다."
+    },
+    "aux:5CBBB8": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 스킬 설명 정형문으로 の、と、が、します가 한국어 전투·공격력 사이에 끼어 있었다. 문장 전체를 한국어 정형문으로 통일했다."
+    },
+    "aux:5CBBCD": {
+      "ko": "자신의　ＨＰ를　３０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、を、します가 한국어 자신·회복 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBBDF": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBB8과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBBF4": {
+      "ko": "같은　상대에게　２회　연속으로　공격합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に対して와 で、します가 한국어 상대·공격 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBC0D": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBB8과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBC22": {
+      "ko": "다음　전투에서　스택의　전투력이　증대합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 스택·전투력·증대 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBC36": {
+      "ko": "다음　전투에서　적의　방어력과　특수방어를　무효화",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、を가 한국어 특수방어 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBC4D": {
+      "ko": "같은　상대에게　２회　연속으로　공격합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBF4와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBC63": {
+      "ko": "시스쿠드가　파워　업",
+      "terms": {"アップ": "업"},
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: アップ이 한국어 파워와 맞닿고 が가 이름 뒤에 붙어 있었다. 파워　업으로 전체 표현을 교체했다."
+    },
+    "aux:5CBC6C": {
+      "ko": "다음　전투에서　적의　방어력과　특수방어를　무효화",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBC36과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBC83": {
+      "ko": "다음　전투에서　스택의　전투력이　증대합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBC22와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBC94": {
+      "ko": "시스쿠드가　파워　업",
+      "terms": {"アップ": "업"},
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: 5CBC63과 같은 표현으로 통일했다."
+    },
+    "aux:5CBC9D": {
+      "ko": "자신의　ＨＰ를　３０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBCD와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBCAC": {
+      "ko": "다음　전투에서　자신의　공격이　반드시　명중합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、が、します가 한국어 자신·공격 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBCC4": {
+      "ko": "다음　전투에서　자신의　명중과　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 회피·상승 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBCD9": {
+      "ko": "다음　전투에서　적　스택의　특수방어를　무효화",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 스택·특수방어 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBCEE": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、を、します가 한국어 자신·회복 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBCFF": {
+      "ko": "다음　전투에서　자신의　공격이　반드시　명중합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCAC와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBD14": {
+      "ko": "１Ｔ　동안、자신의　방어와　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、と、が가 한국어 방어·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBD2B": {
+      "ko": "다음　전투에서　적　스택의　반격을　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 스택·반격 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBD3D": {
+      "ko": "자신의　ＨＰ를　３０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBCD와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBD4F": {
+      "ko": "다음　전투에서　자신의　공격력과　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 공격력·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBD63": {
+      "ko": "공격한　상대의　이동과　아이디커맨드를　봉인",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: した와 の、と、を가 한국어 공격·상대·아이디커맨드 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBD75": {
+      "ko": "자신의　ＨＰ를　완전히　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: に가 한국어 완전 뒤에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBD83": {
+      "ko": "다음　전투에서　적　스택의　반격을　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD2B와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBD95": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBB8과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBDAD": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBB8과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBDC2": {
+      "ko": "１Ｔ　동안、스택의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、が가 한국어 스택·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBDD3": {
+      "ko": "스택　전원의　ＨＰ를　３０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 全員の와 を、します가 한국어 스택·회복 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE07": {
+      "ko": "１Ｔ　동안、지휘범위　내의　회피를　상승시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 内の와 を、させます가 한국어 지휘범위·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE1C": {
+      "ko": "１Ｔ　동안、지휘범위　내의　방어를　상승시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE07과 같은 정형문으로, 대상만 방어로 바꿔 통일했다."
+    },
+    "aux:5CBE34": {
+      "ko": "다음　전투에서　상대의　유닛을　격파하지　않습니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、を、しません이 한국어 상대·유닛·격파 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE47": {
+      "ko": "시로와　스택하고　있으면　능력　상승",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と와 していると가 한국어 이름 시로·스택 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5CBE57": {
+      "ko": "다음　전투에서　상대의　산개를　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 を가 한국어 상대·산개 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE68": {
+      "ko": "다음　전투에서　상대를　강제적으로　산개시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を와 に、させます가 한국어 상대·산개 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE80": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 자신·공격력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBE91": {
+      "ko": "다음　전투에서　스택의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が가 한국어 스택·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBEA5": {
+      "ko": "다음　전투에서　적　스택의　전투력이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 스택·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBEB8": {
+      "ko": "１Ｔ　동안、스택의　이동과　반응이　상승",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、と、が가 한국어 이동·반응 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBECA": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBEDB": {
+      "ko": "다음　전투에서　자신의　공격력과　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBB8과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBEF0": {
+      "ko": "다음　전투에서　자신의　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 자신·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBF04": {
+      "ko": "다음　전투에서　상대의　공격을　회피합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: からの와 を、します가 한국어 상대·공격·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBF16": {
+      "ko": "다음　전투에서　자신의　공격이　반드시　명중합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCAC와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBF2B": {
+      "ko": "３Ｔ　동안、자신의　전투력이　대폭　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、が、に가 한국어 전투력·상승 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBF40": {
+      "ko": "다음　전투에서　자신의　전투력이　대폭　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、に가 한국어 전투력·상승 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBF54": {
+      "ko": "다음　전투에서　상대의　산개와　반격을　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、を가 한국어 산개·반격 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBF68": {
+      "ko": "３Ｔ　동안、ν건담의　능력을　전개합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、を、にします가 한국어 건담·능력 주변에 붙어 있었다. 全開를 전개로 옮겨 통일했다."
+    },
+    "aux:5CBF7E": {
+      "ko": "다음　전투에서　상대의　유닛을　격파하지　않습니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE34와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBF91": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBFBB": {
+      "ko": "다음　전투에서　적　스택의　전투력이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBEA5와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CBFD1": {
+      "ko": "자신의　능력을　저하시키고、우군　전원의　ＨＰ　회복",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、を、させ와 全員の가 한국어 능력·저하·우군 주변에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5CBFE6": {
+      "ko": "다음　전투에서　스택의　명중과　회피가　상승",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 스택·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CBFFC": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC00D": {
+      "ko": "공격한　상대의　이동과　아이디커맨드를　봉인",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD63과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC01F": {
+      "ko": "３Ｔ　동안、자신의　전투력이　대폭　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBF2B와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC034": {
+      "ko": "１Ｔ　동안、자신의　방어와　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD14와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC048": {
+      "ko": "다음　전투에서　상대의　산개를　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE57과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC05C": {
+      "ko": "１Ｔ　동안、자신의　방어와　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD14와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC070": {
+      "ko": "다음　전투에서　상대의　산개를　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE57과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC084": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC095": {
+      "ko": "자신의　ＨＰ를　３０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBBCD와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC0A7": {
+      "ko": "자신과　적　스택의　능력을　감소시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: と、の、を、させます가 한국어 자신·스택·능력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC0BD": {
+      "ko": "다음　전투에서　적　스택의　전투력이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBEA5와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC0D0": {
+      "ko": "다음　전투에서　자신의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 자신·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC0E1": {
+      "ko": "다음　전투에서　상대의　산개와　반격을　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBF54와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC0F5": {
+      "ko": "다음　전투에서　적　스택의　반응이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 스택·반응 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC108": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC11C": {
+      "ko": "다음　전투에서　적　스택의　반응이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CC0F5와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC12F": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC140": {
+      "ko": "Ｚ건담이　몸을　통해　나오는　힘을　발휘",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が와 を、して가 한국어 건담 뒤와 서술부에 붙어 있었다. 문장 전체를 교체했다."
+    },
+    "aux:5CC152": {
+      "ko": "다음　전투에서　적　스택의　방어와　반응이　감소",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 스택·방어·반응 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC166": {
+      "ko": "다음　전투에서　자신의　선제와　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 자신·공격력 주변에 붙어 있었다. 先制를 선제로 옮겨 통일했다."
+    },
+    "aux:5CC17F": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC190": {
+      "ko": "１Ｔ　동안、상대의　공격을　모두　자신이　받습니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、を、で、ます가 한국어 상대·자신 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC1AA": {
+      "ko": "다음　전투에서　적　스택의　반격을　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD2B와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC1BC": {
+      "ko": "다음　전투에서　자신의　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 자신·명중 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC268": {
+      "ko": "다음　전투에서　적　스택의　전투력이　감소합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBEA5와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC27B": {
+      "ko": "자신의　ＨＰ를　완전히　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBD75와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC289": {
+      "ko": "３Ｔ　동안、전투력이　대폭　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 が、に가 한국어 전투력·상승 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC29B": {
+      "ko": "다음　전투에서　자신의　공격력이　증대합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 공격력·증대 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC2AC": {
+      "ko": "다음　전투에서　적　스택의　공격력과　방어가　감소",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の、と、が가 한국어 스택·공격력·방어 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC2C0": {
+      "ko": "３Ｔ　동안、Ｘ１의　풀　파워를　끌어냅니다",
+      "terms": {"フル": "풀"},
+      "complete_expression_review": true,
+      "review_notes": "broken_word와 japanese_particle: フル이 한국어 파워와 맞닿고 の、を、ます가 주변에 붙어 있었다. 풀　파워로 전체 표현을 교체했다."
+    },
+    "aux:5CC2D6": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC2E7": {
+      "ko": "１Ｔ　동안、지휘범위　내의　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 内の와 が、します가 한국어 지휘범위·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC2FF": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC310": {
+      "ko": "１Ｔ　동안、스택의　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、が가 한국어 스택·회피 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC324": {
+      "ko": "다음　전투에서　자신의　명중이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CC1BC와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC336": {
+      "ko": "１Ｔ　동안、자신의　공격력과　반응이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、と、が가 한국어 공격력·반응 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC34A": {
+      "ko": "격파된　자군　ＭＳ를　부활시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: された와 を、させます가 한국어 격파 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC358": {
+      "ko": "１Ｔ　동안、지휘범위　내의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 内の와 が、します가 한국어 지휘범위·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC36D": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCEE와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC37E": {
+      "ko": "다음　전투에서　자신의　크리티컬률이　상승",
+      "terms": {"クリティカル": "크리티컬"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が가 한국어 자신·상승 주변에 붙어 있었다. クリティカル率를 크리티컬률로 옮겨 통일했다."
+    },
+    "aux:5CC393": {
+      "ko": "１Ｔ　동안、자신의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の間과 の、が가 한국어 자신·전투력 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC3A4": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCEE와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC3B5": {
+      "ko": "다음　전투에서　자신의　크리티컬률이　상승",
+      "terms": {"クリティカル": "크리티컬"},
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CC37E와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC3CA": {
+      "ko": "다음　전투에서　자신의　반응이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の와 が、します가 한국어 자신·반응 주변에 붙어 있었다. 정형문으로 통일했다."
+    },
+    "aux:5CC3DB": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC3EC": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCEE와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC3FD": {
+      "ko": "１Ｔ　동안、자신의　전투력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CC393과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC40E": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC41F": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCEE와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC430": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC441": {
+      "ko": "다음　전투에서　상대를　강제적으로　산개시킵니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE68과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC459": {
+      "ko": "다음　전투에서　자신의　공격력이　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE80과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC46A": {
+      "ko": "자신의　ＨＰ를　６０％　회복합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCEE와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC47B": {
+      "ko": "다음　전투에서　자신의　명중과　회피가　상승합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBCC4와 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    },
+    "aux:5CC490": {
+      "ko": "다음　전투에서　상대의　산개를　봉인합니다",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: 5CBE57과 같은 정형문으로, 같은 한국어 표현을 적용했다."
+    }
+  }
+}

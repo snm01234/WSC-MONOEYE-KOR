@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "batch_size": 50,
+  "total_groups": 704,
+  "batches": [
+    {
+      "batch": 1,
+      "path": "data/dialogue_readability_batches/input_001.json",
+      "groups": 50,
+      "first_group": "scenario_6000B8",
+      "last_group": "scenario_608EE9"
+    },
+    {
+      "batch": 2,
+      "path": "data/dialogue_readability_batches/input_002.json",
+      "groups": 50,
+      "first_group": "scenario_608F80",
+      "last_group": "scenario_60BBA2"
+    },
+    {
+      "batch": 3,
+      "path": "data/dialogue_readability_batches/input_003.json",
+      "groups": 50,
+      "first_group": "scenario_60BE55",
+      "last_group": "scenario_610940"
+    },
+    {
+      "batch": 4,
+      "path": "data/dialogue_readability_batches/input_004.json",
+      "groups": 50,
+      "first_group": "scenario_610C49",
+      "last_group": "scenario_614CA4"
+    },
+    {
+      "batch": 5,
+      "path": "data/dialogue_readability_batches/input_005.json",
+      "groups": 50,
+      "first_group": "scenario_614F95",
+      "last_group": "scenario_6181DD"
+    },
+    {
+      "batch": 6,
+      "path": "data/dialogue_readability_batches/input_006.json",
+      "groups": 50,
+      "first_group": "scenario_61826F",
+      "last_group": "scenario_61AAFB"
+    },
+    {
+      "batch": 7,
+      "path": "data/dialogue_readability_batches/input_007.json",
+      "groups": 50,
+      "first_group": "scenario_61AC6B",
+      "last_group": "scenario_61D56D"
+    },
+    {
+      "batch": 8,
+      "path": "data/dialogue_readability_batches/input_008.json",
+      "groups": 50,
+      "first_group": "scenario_61D586",
+      "last_group": "scenario_62170D"
+    },
+    {
+      "batch": 9,
+      "path": "data/dialogue_readability_batches/input_009.json",
+      "groups": 50,
+      "first_group": "scenario_6218A3",
+      "last_group": "scenario_6249D3"
+    },
+    {
+      "batch": 10,
+      "path": "data/dialogue_readability_batches/input_010.json",
+      "groups": 50,
+      "first_group": "scenario_624AA6",
+      "last_group": "scenario_6285BC"
+    },
+    {
+      "batch": 11,
+      "path": "data/dialogue_readability_batches/input_011.json",
+      "groups": 50,
+      "first_group": "scenario_628725",
+      "last_group": "scenario_62C4B8"
+    },
+    {
+      "batch": 12,
+      "path": "data/dialogue_readability_batches/input_012.json",
+      "groups": 50,
+      "first_group": "scenario_62C5B8",
+      "last_group": "scenario_633EC0"
+    },
+    {
+      "batch": 13,
+      "path": "data/dialogue_readability_batches/input_013.json",
+      "groups": 50,
+      "first_group": "scenario_634073",
+      "last_group": "scenario_63B9D8"
+    },
+    {
+      "batch": 14,
+      "path": "data/dialogue_readability_batches/input_014.json",
+      "groups": 50,
+      "first_group": "scenario_63BA4E",
+      "last_group": "scenario_63F48C"
+    },
+    {
+      "batch": 15,
+      "path": "data/dialogue_readability_batches/input_015.json",
+      "groups": 4,
+      "first_group": "scenario_63F4E5",
+      "last_group": "scenario_63FC92"
+    }
+  ]
+}

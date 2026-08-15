@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "status": "galmuri11_condensed_test_rom_sample",
+  "font": {
+    "path": "assets/fonts/galmuri_tmp/Galmuri11-Condensed.ttf",
+    "size": 11,
+    "glyph_top": 1,
+    "foreground_index": 3,
+    "shadow_index": 1,
+    "shadow_offset": [1, 0]
+  },
+  "atlas": {
+    "logical_base": "107572",
+    "pool_first_tile_id": "4F",
+    "pool_last_tile_id": "94"
+  },
+  "repartition_lengths": {
+    "i_field": [10],
+    "if_canceller": [1, 11, 2],
+    "f_barrier": [2, 6],
+    "p_defender": [3, 3, 2, 2, 1, 2],
+    "beam_coat": [2, 1, 4, 2],
+    "bio_field": [10, 2, 2],
+    "afterimage": [4],
+    "critical": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "miss": [3, 3],
+    "moonlight_butterfly": [6],
+    "light_activation": [1, 4, 1]
+  },
+  "records": [
+    {
+      "id": "i_field",
+      "record_start": "106458",
+      "record_end_exclusive": "106612",
+      "jp": "Ｉフィールド",
+      "ko": "I-필드",
+      "cells": 6,
+      "cell_tiles": [["4F", "50"], ["51", "52"], [null, "53"], ["54", null], ["55", "56"], ["57", "58"]],
+      "layout": {"mode": "cells", "placements": [[1, "I"], [2, "-", 9], [4, "필"], [5, "드"]]}
+    },
+    {
+      "id": "if_canceller",
+      "record_start": "106612",
+      "record_end_exclusive": "106884",
+      "jp": "ＩＦキャンセラー",
+      "ko": "IF캔슬러",
+      "cells": 8,
+      "cell_tiles": [["4F", "50"], ["59", "5A"], ["5B", "5C"], [null, "5D"], ["5E", "5F"], ["60", "61"], ["62", "63"], ["54", null]],
+      "layout": {"mode": "cells", "placements": [[0, "I"], [1, "F"], [2, "캔"], [4, "슬"], [5, "러"]]}
+    },
+    {
+      "id": "f_barrier",
+      "record_start": "106884",
+      "record_end_exclusive": "1069F0",
+      "jp": "Ｆバリア",
+      "ko": "F배리어",
+      "cells": 4,
+      "cell_tiles": [["59", "5A"], ["64", "65"], ["66", "67"], ["68", "69"]],
+      "layout": {"mode": "cells", "placements": [[0, "F"], [1, "배"], [2, "리"], [3, "어"]]}
+    },
+    {
+      "id": "p_defender",
+      "record_start": "1069F0",
+      "record_end_exclusive": "106C6C",
+      "jp": "Ｐディフェンサー",
+      "ko": "P디펜서",
+      "cells": 8,
+      "cell_tiles": [["6A", "6B"], ["6C", "6D"], [null, "53"], ["51", "52"], [null, "6E"], ["5E", "5F"], ["6F", "70"], ["54", null]],
+      "layout": {"mode": "cells", "placements": [[0, "P"], [1, "디"], [3, "펜"], [5, "서"]]}
+    },
+    {
+      "id": "beam_coat",
+      "record_start": "106C6C",
+      "record_end_exclusive": "106E52",
+      "jp": "ビームコート",
+      "ko": "빔코트",
+      "cells": 6,
+      "cell_tiles": [["71", "72"], ["54", null], ["73", "74"], ["75", "76"], ["54", null], ["77", "58"]],
+      "layout": {"mode": "cells", "placements": [[0, "빔"], [2, "코"], [3, "트"]]}
+    },
+    {
+      "id": "bio_field",
+      "record_start": "106E52",
+      "record_end_exclusive": "107094",
+      "jp": "バイオフィールド",
+      "ko": "바이오필드",
+      "cells": 8,
+      "cell_tiles": [["64", "65"], ["78", "79"], ["7A", "7B"], ["51", "52"], [null, "53"], ["54", null], ["55", "56"], ["57", "58"]],
+      "layout": {"mode": "cells", "placements": [[0, "바"], [1, "이"], [2, "오"], [3, "필"], [6, "드"]]}
+    },
+    {
+      "id": "afterimage",
+      "record_start": "107094",
+      "record_end_exclusive": "107122",
+      "jp": "分身",
+      "ko": "분신",
+      "cells": 2,
+      "cell_tiles": [["7C", "7D"], ["7E", "7F"]],
+      "layout": {"mode": "cells", "placements": [[0, "분"], [1, "신"]]}
+    },
+    {
+      "id": "critical",
+      "record_start": "107122",
+      "record_end_exclusive": "1072FA",
+      "jp": "クリティカル!",
+      "ko": "크리티컬!",
+      "cells": 7,
+      "cell_tiles": [["80", "81"], ["66", "67"], ["82", "6D"], [null, "53"], ["83", "84"], ["55", "56"], ["85", "86"]],
+      "layout": {"mode": "cells", "placements": [[0, "크"], [1, "리"], [2, "티"], [4, "컬"], [5, "!"]]}
+    },
+    {
+      "id": "miss",
+      "record_start": "1072FA",
+      "record_end_exclusive": "107390",
+      "jp": "ミス!",
+      "ko": "미스!",
+      "cells": 3,
+      "cell_tiles": [["87", "88"], ["89", "8A"], ["85", "86"]],
+      "layout": {"mode": "cells", "placements": [[0, "미"], [1, "스"], [2, "!"]]}
+    },
+    {
+      "id": "moonlight_butterfly",
+      "record_start": "107390",
+      "record_end_exclusive": "107470",
+      "jp": "月光蝶",
+      "ko": "월광접",
+      "cells": 3,
+      "cell_tiles": [["8B", "8C"], ["8D", "8E"], ["8F", "90"]],
+      "layout": {"mode": "cells", "placements": [[0, "월"], [1, "광"], [2, "접"]]}
+    },
+    {
+      "id": "light_activation",
+      "record_start": "107470",
+      "record_end_exclusive": "107554",
+      "jp": "光発動",
+      "ko": "빛발동",
+      "cells": 3,
+      "cell_tiles": [["8D", "8E"], ["91", "92"], ["93", "94"]],
+      "layout": {"mode": "cells", "placements": [[0, "빛"], [1, "발"], [2, "동"]]}
+    }
+  ]
+}

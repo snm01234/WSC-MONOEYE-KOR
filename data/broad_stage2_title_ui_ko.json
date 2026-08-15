@@ -1,0 +1,1771 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/build_stage2_title_ui_catalog.py",
+  "description": "Reviewed Korean for 127 complete work/stage/title/map/communication UI records after the 288 dialogue/voice candidate.",
+  "source_audit": "out/patch/broad_stage2_dialogue_voice_residual_audit.json",
+  "counts": {
+    "selected": 128,
+    "unique_korean": 126,
+    "excluded_ui_noise_or_ambiguous": 95
+  },
+  "lines": [
+    {
+      "abs": "75B49E",
+      "record_id": "ui75:75B49E",
+      "jp": "降す",
+      "current": "降す",
+      "ko": "내림",
+      "body_capacity": 3,
+      "prefix_hex": "",
+      "body_hex": "E10A1E",
+      "review_status": "user_verified_screen_2026-08-09"
+    },
+    {
+      "abs": "75B8DA",
+      "record_id": "ui75:75B8DA",
+      "jp": "ＭＳ０８小隊",
+      "current": "ＭＳ０８小隊",
+      "ko": "ＭＳ０８ 소대",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "F3A3E01EE1E0E1A254"
+    },
+    {
+      "abs": "75B8F9",
+      "record_id": "ui75:75B8F9",
+      "jp": "逆襲のシャア",
+      "current": "逆襲の샤아",
+      "ko": "역습의 샤아",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E241E2CF05F7F1"
+    },
+    {
+      "abs": "75B923",
+      "record_id": "ui75:75B923",
+      "jp": "その他",
+      "current": "その他",
+      "ko": "기타",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F423E0ED"
+    },
+    {
+      "abs": "75B92E",
+      "record_id": "ui75:75B92E",
+      "jp": "登場作品",
+      "current": "등장作品",
+      "ko": "등장 작품",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F096B2E2E1"
+    },
+    {
+      "abs": "75B934",
+      "record_id": "ui75:75B934",
+      "jp": "Ｙ３<E62F>ステ－タス画面",
+      "current": "Ｙ３<E62F>ステ－タス画面",
+      "ko": "Ｙ３<E62F>상태 화면",
+      "body_capacity": 15,
+      "prefix_hex": "",
+      "body_hex": "E6A4E071E62F2F4A10302FE359E0B1"
+    },
+    {
+      "abs": "75B949",
+      "record_id": "ui75:75B949",
+      "jp": "赤い彗星",
+      "current": "赤い혜성",
+      "ko": "붉은 혜성",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "E08004F012"
+    },
+    {
+      "abs": "75B94F",
+      "record_id": "ui75:75B94F",
+      "jp": "戦いへの恐怖",
+      "current": "戦いへの恐怖",
+      "ko": "전투에 대한 공포",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "3904F577E163E50F"
+    },
+    {
+      "abs": "75B958",
+      "record_id": "ui75:75B958",
+      "jp": "めぐりあい",
+      "current": "めぐりあい",
+      "ko": "해후",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "47E01D271F04"
+    },
+    {
+      "abs": "75B95F",
+      "record_id": "ui75:75B95F",
+      "jp": "さっそうたるシャア",
+      "current": "さっそうたる샤아",
+      "ko": "늠름한 샤아",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "F340F426F38DF7F1"
+    },
+    {
+      "abs": "75B990",
+      "record_id": "ui75:75B990",
+      "jp": "艦隊戦Ａ（エゥ一ゴ）",
+      "current": "함대戦Ａ（エゥ一ゴ）",
+      "ko": "함대전 Ａ（에우고）",
+      "body_capacity": 14,
+      "prefix_hex": "",
+      "body_hex": "F50139E1C0E10C5892E1BF93E10D"
+    },
+    {
+      "abs": "75B99F",
+      "record_id": "ui75:75B99F",
+      "jp": "艦隊戦Ｂ（戦闘）",
+      "current": "함대戦Ｂ（전투）",
+      "ko": "함대전 Ｂ（전투）",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F50139E668E10CF337E10D"
+    },
+    {
+      "abs": "75B9AB",
+      "record_id": "ui75:75B9AB",
+      "jp": "艦隊戦Ｃ（ティタ－ンズ）",
+      "current": "함대戦Ｃ（티탄즈）",
+      "ko": "함대전 Ｃ（티탄즈）",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F50139E2ACE10CFDC4E10D"
+    },
+    {
+      "abs": "75B9BC",
+      "record_id": "ui75:75B9BC",
+      "jp": "ゼ－タの発動",
+      "current": "제타の발동",
+      "ko": "제타의 발동",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F8A505F0E6"
+    },
+    {
+      "abs": "75B9E6",
+      "record_id": "ui75:75B9E6",
+      "jp": "月のまゆ",
+      "current": "月のまゆ",
+      "ko": "달의 고치",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E0770521E121"
+    },
+    {
+      "abs": "75BA0A",
+      "record_id": "ui75:75BA0A",
+      "jp": "サイレントヴォイス",
+      "current": "サイレントヴォイス",
+      "ko": "사일런트 보이스",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "6529331A3EE053C0292F"
+    },
+    {
+      "abs": "75BA15",
+      "record_id": "ui75:75BA15",
+      "jp": "我が心<E62F>明鏡止水",
+      "current": "我が心<E62F>明鏡止水",
+      "ko": "나의 마음<E62F>명경지수",
+      "body_capacity": 14,
+      "prefix_hex": "",
+      "body_hex": "6A17E00BE62FE060E6CFE027E2EE"
+    },
+    {
+      "abs": "75BA24",
+      "record_id": "ui75:75BA24",
+      "jp": "コミック・ビ－ト",
+      "current": "コミック・ビ－ト",
+      "ko": "코미디・비트",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "5E64513D2A56103E"
+    },
+    {
+      "abs": "75BA2D",
+      "record_id": "ui75:75BA2D",
+      "jp": "互いを想う",
+      "current": "互いを想う",
+      "ko": "서로를 생각하다",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E27FF293E0E114"
+    },
+    {
+      "abs": "75BA39",
+      "record_id": "ui75:75BA39",
+      "jp": "決戦に向けて",
+      "current": "결전に向けて",
+      "ko": "결전을 향해",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F4050CD5F493"
+    },
+    {
+      "abs": "75BA49",
+      "record_id": "ui75:75BA49",
+      "jp": "果てぬ戦略",
+      "current": "果てぬ戦略",
+      "ko": "끝없는 전략",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E0D10BCB39E26D"
+    },
+    {
+      "abs": "75BA51",
+      "record_id": "ui75:75BA51",
+      "jp": "そしてはじまり",
+      "current": "そしてはじまり",
+      "ko": "그리고 시작",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F787084C2127"
+    },
+    {
+      "abs": "75BA58",
+      "record_id": "ui75:75BA58",
+      "jp": "風雲",
+      "current": "風雲",
+      "ko": "풍운",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "E173E54D"
+    },
+    {
+      "abs": "75BA5D",
+      "record_id": "ui75:75BA5D",
+      "jp": "陰謀",
+      "current": "陰謀",
+      "ko": "음모",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "E528E2E3"
+    },
+    {
+      "abs": "75BA62",
+      "record_id": "ui75:75BA62",
+      "jp": "宇宙に還えれ",
+      "current": "우주に還えれ",
+      "ko": "우주로 돌아가라",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F08F0CE1FA2B1B"
+    },
+    {
+      "abs": "75BA6F",
+      "record_id": "ui75:75BA6F",
+      "jp": "ステ－ジタイトル",
+      "current": "스테이지タイトル",
+      "ko": "스테이지 제목",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "FAAB30293E38"
+    },
+    {
+      "abs": "75BA76",
+      "record_id": "ui75:75BA76",
+      "jp": "さまよう武士魂",
+      "current": "さまよう武士魂",
+      "ko": "방황하는 무사혼",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "F34FF49EE11FE067E1FE"
+    },
+    {
+      "abs": "75BA81",
+      "record_id": "ui75:75BA81",
+      "jp": "迫り来る敵",
+      "current": "迫り来る敵",
+      "ko": "다가오는 적",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E280279B0F7F"
+    },
+    {
+      "abs": "75BAA5",
+      "record_id": "ui75:75BAA5",
+      "jp": "そして戦いは始まる",
+      "current": "そして戦いは始まる",
+      "ko": "그리고 전투는 시작된다",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "F78739F27FE02DF1A6"
+    },
+    {
+      "abs": "75BAAF",
+      "record_id": "ui75:75BAAF",
+      "jp": "進軍",
+      "current": "進軍",
+      "ko": "진군",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "F36E"
+    },
+    {
+      "abs": "75BABB",
+      "record_id": "ui75:75BABB",
+      "jp": "ふたり",
+      "current": "ふたり",
+      "ko": "두 사람",
+      "body_capacity": 3,
+      "prefix_hex": "",
+      "body_hex": "5B1127"
+    },
+    {
+      "abs": "75BABF",
+      "record_id": "ui75:75BABF",
+      "jp": "アイン・レヴィ",
+      "current": "아인・レヴィ",
+      "ko": "아인・레비",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F5DC2AF76B"
+    },
+    {
+      "abs": "75BAC5",
+      "record_id": "ui75:75BAC5",
+      "jp": "悲しき戦い",
+      "current": "悲しき戦い",
+      "ko": "슬픈 전투",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E1A4F4203904"
+    },
+    {
+      "abs": "75BACC",
+      "record_id": "ui75:75BACC",
+      "jp": "戦いの時",
+      "current": "戦いの時",
+      "ko": "전투의 때",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "39F27EB7"
+    },
+    {
+      "abs": "75BAD1",
+      "record_id": "ui75:75BAD1",
+      "jp": "悲しみ",
+      "current": "悲しみ",
+      "ko": "슬픔",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "E1A4F3FF"
+    },
+    {
+      "abs": "75BAD6",
+      "record_id": "ui75:75BAD6",
+      "jp": "ロ－ザヴィ",
+      "current": "ロ－ザヴィ",
+      "ko": "로자비",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "3C1087E05346"
+    },
+    {
+      "abs": "75BADD",
+      "record_id": "ui75:75BADD",
+      "jp": "フィナ－レ",
+      "current": "フィナ－レ",
+      "ko": "피날레",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F47D431033"
+    },
+    {
+      "abs": "75BAEC",
+      "record_id": "ui75:75BAEC",
+      "jp": "戦士たち",
+      "current": "戦士たち",
+      "ko": "전사들",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F341F375"
+    },
+    {
+      "abs": "75BAF1",
+      "record_id": "ui75:75BAF1",
+      "jp": "セラとの出会い",
+      "current": "세라との出会い",
+      "ko": "세라와의 만남",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F429F17FF15B04"
+    },
+    {
+      "abs": "75BAF9",
+      "record_id": "ui75:75BAF9",
+      "jp": "ソ－ラ・レイ発射",
+      "current": "ソ－ラ・レイ発射",
+      "ko": "솔라・레이 발사",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F6A32AF138F102"
+    },
+    {
+      "abs": "75BB01",
+      "record_id": "ui75:75BB01",
+      "jp": "ギレンの死",
+      "current": "기렌の死",
+      "ko": "기렌의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F6D705AD"
+    },
+    {
+      "abs": "75BB06",
+      "record_id": "ui75:75BB06",
+      "jp": "第３軌道艦隊登場",
+      "current": "第３軌道함대등장",
+      "ko": "제３궤도 함대 등장",
+      "body_capacity": 12,
+      "prefix_hex": "",
+      "body_hex": "E0A7E071E1EFE0A4F501F096"
+    },
+    {
+      "abs": "75BB13",
+      "record_id": "ui75:75BB13",
+      "jp": "ミアンとの再会",
+      "current": "미안との再会",
+      "ko": "미안과의 재회",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F6DBF17FF321"
+    },
+    {
+      "abs": "75BB1A",
+      "record_id": "ui75:75BB1A",
+      "jp": "アクシズとの会談",
+      "current": "액시즈との会談",
+      "ko": "액시즈와의 회담",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "FB74F17FF2D9"
+    },
+    {
+      "abs": "75BB26",
+      "record_id": "ui75:75BB26",
+      "jp": "セラ、再び",
+      "current": "세라、再び",
+      "ko": "세라、다시",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F42907E0FBE051"
+    },
+    {
+      "abs": "75BB2E",
+      "record_id": "ui75:75BB2E",
+      "jp": "ヒイロとリリ－ナ",
+      "current": "히이로と리리나",
+      "ko": "히이로와 리리나",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F5AF13FB84"
+    },
+    {
+      "abs": "75BB34",
+      "record_id": "ui75:75BB34",
+      "jp": "東方不敗、暁に死す",
+      "current": "동방불패、暁に死す",
+      "ko": "동방불패、새벽에 죽다",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "FA8507E4210CAD1E"
+    },
+    {
+      "abs": "75BB3D",
+      "record_id": "ui75:75BB3D",
+      "jp": "黄金の秋",
+      "current": "黄金の秋",
+      "ko": "황금의 가을",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E4BCE31B05E684"
+    },
+    {
+      "abs": "75BB45",
+      "record_id": "ui75:75BB45",
+      "jp": "掌の上で",
+      "current": "掌の上で",
+      "ko": "손바닥 위에서",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "E3C8059D16"
+    },
+    {
+      "abs": "75BB4B",
+      "record_id": "ui75:75BB4B",
+      "jp": "ハマ－ンの死",
+      "current": "하만の死",
+      "ko": "하만의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FA2905AD"
+    },
+    {
+      "abs": "75BB56",
+      "record_id": "ui75:75BB56",
+      "jp": "シグとセラ<E62F>抱よう",
+      "current": "시그と세라<E62F>抱よう",
+      "ko": "시그와 세라<E62F>포옹",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F50B13F429E62FE233F49E"
+    },
+    {
+      "abs": "75BB62",
+      "record_id": "ui75:75BB62",
+      "jp": "エンディング（セラ死亡）",
+      "current": "エンディング（세라死亡）",
+      "ko": "엔딩（세라 사망）",
+      "body_capacity": 15,
+      "prefix_hex": "",
+      "body_hex": "581A73461A4FE10CF429ADE1E9E10D"
+    },
+    {
+      "abs": "75BB72",
+      "record_id": "ui75:75BB72",
+      "jp": "ハッピ－エンド",
+      "current": "ハッピ－エンド",
+      "ko": "해피 엔드",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "7E51E18D10581A44"
+    },
+    {
+      "abs": "75BB7B",
+      "record_id": "ui75:75BB7B",
+      "jp": "真オ－プニング",
+      "current": "真オ－プニング",
+      "ko": "진 오프닝",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "E0842C106C601A4F"
+    },
+    {
+      "abs": "75BB84",
+      "record_id": "ui75:75BB84",
+      "jp": "エンディング（ミアン死亡）",
+      "current": "エンディング（미안死亡）",
+      "ko": "엔딩（미안 사망）",
+      "body_capacity": 15,
+      "prefix_hex": "",
+      "body_hex": "581A73461A4FE10CF6DBADE1E9E10D"
+    },
+    {
+      "abs": "75BB94",
+      "record_id": "ui75:75BB94",
+      "jp": "セラの危機",
+      "current": "세라の『캘리　베이스　함락』",
+      "ko": "세라의 위기",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F42905F16E"
+    },
+    {
+      "abs": "75BB9A",
+      "record_id": "ui75:75BB9A",
+      "jp": "ケンプファ－ｖｓアレックス",
+      "current": "ケンプファ－ｖｓ알렉스",
+      "ko": "캠퍼ｖｓ알렉스",
+      "body_capacity": 13,
+      "prefix_hex": "",
+      "body_hex": "E0221A6C63A810E5B5E5B2FD0D"
+    },
+    {
+      "abs": "75BBA8",
+      "record_id": "ui75:75BBA8",
+      "jp": "ミ－シャの死",
+      "current": "미샤の死",
+      "ko": "미샤의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FB3305AD"
+    },
+    {
+      "abs": "75BBAD",
+      "record_id": "ui75:75BBAD",
+      "jp": "ララァの死",
+      "current": "라라아の死",
+      "ko": "라라아의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F7F005AD"
+    },
+    {
+      "abs": "75BBB2",
+      "record_id": "ui75:75BBB2",
+      "jp": "ラストシュ－ティング",
+      "current": "ラストシュ－ティング",
+      "ko": "라스트 슈팅",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "2E2F3E2D78104A461A4F"
+    },
+    {
+      "abs": "75BBBD",
+      "record_id": "ui75:75BBBD",
+      "jp": "セラの死",
+      "current": "세라の死",
+      "ko": "세라의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F42905AD"
+    },
+    {
+      "abs": "75BBC2",
+      "record_id": "ui75:75BBC2",
+      "jp": "ガト－とコウ、決着",
+      "current": "가토と코우、決着",
+      "ko": "가토와 코우、결착",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "F58C13F37207F3F6"
+    },
+    {
+      "abs": "75BBE0",
+      "record_id": "ui75:75BBE0",
+      "jp": "フォウ救出",
+      "current": "포우救出",
+      "ko": "포우 구출",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F712F153"
+    },
+    {
+      "abs": "75BBE5",
+      "record_id": "ui75:75BBE5",
+      "jp": "フォウの死",
+      "current": "포우の死",
+      "ko": "포우의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F71205AD"
+    },
+    {
+      "abs": "75BBEA",
+      "record_id": "ui75:75BBEA",
+      "jp": "プルの死（前）",
+      "current": "플の死（前）",
+      "ko": "플의 죽음（전）",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "F1FA05ADE10C96E10D"
+    },
+    {
+      "abs": "75BBF4",
+      "record_id": "ui75:75BBF4",
+      "jp": "プルの死（後）",
+      "current": "플の死（後）",
+      "ko": "플의 죽음（후）",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "F1FA05ADE10CAFE10D"
+    },
+    {
+      "abs": "75BC05",
+      "record_id": "ui75:75BC05",
+      "jp": "石破ラブラブ天驚拳",
+      "current": "石破ラブラブ天驚拳",
+      "ko": "석파 러브러브 천경권",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "F0682E842E84F267E1C1"
+    },
+    {
+      "abs": "75BC17",
+      "record_id": "ui75:75BC17",
+      "jp": "悲しみの拳",
+      "current": "悲しみの拳",
+      "ko": "슬픔의 주먹",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E1A4F3FF05E1C1"
+    },
+    {
+      "abs": "75BC1F",
+      "record_id": "ui75:75BC1F",
+      "jp": "東方不敗死す",
+      "current": "동방불패死す",
+      "ko": "동방불패 죽다",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FA85AD1E"
+    },
+    {
+      "abs": "75BC24",
+      "record_id": "ui75:75BC24",
+      "jp": "マウア－の死",
+      "current": "마우어の死",
+      "ko": "마우아의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FAFC05AD"
+    },
+    {
+      "abs": "75BC29",
+      "record_id": "ui75:75BC29",
+      "jp": "エマとレコア",
+      "current": "에마と레코아",
+      "ko": "에마와 레코아",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F54213F791"
+    },
+    {
+      "abs": "75BC3A",
+      "record_id": "ui75:75BC3A",
+      "jp": "シャイニングフィンガ－対決",
+      "current": "샤이닝　핑거対決",
+      "ko": "샤이닝 핑거 대결",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "FEE8E01BE019"
+    },
+    {
+      "abs": "75BC41",
+      "record_id": "ui75:75BC41",
+      "jp": "月光蝶対決",
+      "current": "월광접対決",
+      "ko": "월광접 대결",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F67CE01BE019"
+    },
+    {
+      "abs": "75BC48",
+      "record_id": "ui75:75BC48",
+      "jp": "月光蝶ｖｓ光の翼",
+      "current": "월광접ｖｓ光の翼",
+      "ko": "월광접ｖｓ빛의 날개",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F67CE5B5E5B2E02A05E23E"
+    },
+    {
+      "abs": "75BC54",
+      "record_id": "ui75:75BC54",
+      "jp": "カツの死",
+      "current": "카츠の死",
+      "ko": "카츠의 죽음",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F1E905AD"
+    },
+    {
+      "abs": "75BC59",
+      "record_id": "ui75:75BC59",
+      "jp": "カミ－ユの怒り",
+      "current": "카미유の怒り",
+      "ko": "카미유의 분노",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F8FB05E15727"
+    },
+    {
+      "abs": "75BC60",
+      "record_id": "ui75:75BC60",
+      "jp": "フロスト兄弟の策謀",
+      "current": "프로스트兄弟の策謀",
+      "ko": "프로스트 형제의 책모",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "F99BF1B905E1D1E2E3"
+    },
+    {
+      "abs": "75BC6A",
+      "record_id": "ui75:75BC6A",
+      "jp": "ハリ－奮戦",
+      "current": "해리奮戦",
+      "ko": "해리 분전",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F7BBE2B239"
+    },
+    {
+      "abs": "75BC70",
+      "record_id": "ui75:75BC70",
+      "jp": "ディアナ奮戦（ソレイユ）",
+      "current": "디아나奮戦（솔레이유）",
+      "ko": "디아나 분전（솔레이유）",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F8E7E2B239E10CF9E9E10D"
+    },
+    {
+      "abs": "75BC7C",
+      "record_id": "ui75:75BC7C",
+      "jp": "ディアナ奮戦（アルマイヤ－）",
+      "current": "디아나奮戦（알마이어）",
+      "ko": "디아나 분전（알마이어）",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F8E7E2B239E10CFD53E10D"
+    },
+    {
+      "abs": "75BC88",
+      "record_id": "ui75:75BC88",
+      "jp": "黄金の秋",
+      "current": "黄金の秋",
+      "ko": "황금의 가을",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "E4BCE31B05E684"
+    },
+    {
+      "abs": "75BC90",
+      "record_id": "ui75:75BC90",
+      "jp": "ジェリドの最期",
+      "current": "제리드の最期",
+      "ko": "제리드의 최후",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F9BF05F43F"
+    },
+    {
+      "abs": "75BC9B",
+      "record_id": "ui75:75BC9B",
+      "jp": "クワトロ散る",
+      "current": "콰트로散る",
+      "ko": "크와트로 산화",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "FB96E09D0F"
+    },
+    {
+      "abs": "75BCA1",
+      "record_id": "ui75:75BCA1",
+      "jp": "サザビ－の力",
+      "current": "サザビ－の力",
+      "ko": "사자비의 힘",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "65F055100557"
+    },
+    {
+      "abs": "75BCA8",
+      "record_id": "ui75:75BCA8",
+      "jp": "ハマ－ンの最期",
+      "current": "하만の最期",
+      "ko": "하만의 최후",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "FA2905F43F"
+    },
+    {
+      "abs": "75BCAE",
+      "record_id": "ui75:75BCAE",
+      "jp": "フロスト兄弟の最期",
+      "current": "프로스트兄弟の最期",
+      "ko": "프로스트 형제의 최후",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F99BF1B905F43F"
+    },
+    {
+      "abs": "75BCB6",
+      "record_id": "ui75:75BCB6",
+      "jp": "カテジナとの決着",
+      "current": "카테지나との決着",
+      "ko": "카테지나와의 결착",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "F9CDF17FF3F6"
+    },
+    {
+      "abs": "75BCBD",
+      "record_id": "ui75:75BCBD",
+      "jp": "アインの最期",
+      "current": "아인の最期",
+      "ko": "아인의 최후",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F5DC05F43F"
+    },
+    {
+      "abs": "75BCC3",
+      "record_id": "ui75:75BCC3",
+      "jp": "セラの最期",
+      "current": "세라の最期",
+      "ko": "세라의 최후",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F42905F43F"
+    },
+    {
+      "abs": "75BCC9",
+      "record_id": "ui75:75BCC9",
+      "jp": "ミアン散る",
+      "current": "미안散る",
+      "ko": "미안 산화",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F6DBE09D0F"
+    },
+    {
+      "abs": "75BCD4",
+      "record_id": "ui75:75BCD4",
+      "jp": "最後の戦い",
+      "current": "最後の戦い",
+      "ko": "최후의 전투",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F409053904"
+    },
+    {
+      "abs": "75BD0F",
+      "record_id": "ui75:75BD0F",
+      "jp": "と<E62F><E62F><E62F><E62F><E62F>を交換します",
+      "current": "と<E62F><E62F><E62F><E62F><E62F>を交換します",
+      "ko": "와<E62F><E62F><E62F><E62F><E62F>를 교환합니다",
+      "body_capacity": 18,
+      "prefix_hex": "",
+      "body_hex": "13E62FE62FE62FE62FE62F15E145E37EF670"
+    },
+    {
+      "abs": "75BD22",
+      "record_id": "ui75:75BD22",
+      "jp": "交換が中断されました",
+      "current": "交換が中断されました",
+      "ko": "교환이 중단되었습니다",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "E145E37E1752E128FC59"
+    },
+    {
+      "abs": "75BD2D",
+      "record_id": "ui75:75BD2D",
+      "jp": "交換が完了しました",
+      "current": "交換が완료しました",
+      "ko": "교환이 완료되었습니다",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "E145E37E17F108F8E1"
+    },
+    {
+      "abs": "75BD37",
+      "record_id": "ui75:75BD37",
+      "jp": "通信に失敗しました",
+      "current": "통신に실패しました",
+      "ko": "통신에 실패했습니다",
+      "body_capacity": 7,
+      "prefix_hex": "",
+      "body_hex": "F15E0CF43EF8E1"
+    },
+    {
+      "abs": "75BD3F",
+      "record_id": "ui75:75BD3F",
+      "jp": "交換可能なアイテムがありません",
+      "current": "交換가능なアイテムがありません",
+      "ko": "교환 가능한 아이템이 없습니다",
+      "body_capacity": 14,
+      "prefix_hex": "",
+      "body_hex": "E145E37EF4F30626294A3F17FBB9"
+    },
+    {
+      "abs": "75BD4E",
+      "record_id": "ui75:75BD4E",
+      "jp": "宇宙<E62F>警戒エリア",
+      "current": "우주<E62F>警戒에리어",
+      "ko": "우주<E62F>경계 구역",
+      "body_capacity": 8,
+      "prefix_hex": "",
+      "body_hex": "F08FE62FF3F0F6DE"
+    },
+    {
+      "abs": "75BD57",
+      "record_id": "ui75:75BD57",
+      "jp": "月航路",
+      "current": "月航路",
+      "ko": "달 항로",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E077E2B0E16C"
+    },
+    {
+      "abs": "75BD5E",
+      "record_id": "ui75:75BD5E",
+      "jp": "テキサス宙域",
+      "current": "テキサス공역",
+      "ko": "텍사스 공역",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "4A62652FF208"
+    },
+    {
+      "abs": "75BD74",
+      "record_id": "ui75:75BD74",
+      "jp": "暗礁宙域",
+      "current": "暗礁공역",
+      "ko": "암초 공역",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "F905"
+    },
+    {
+      "abs": "75BD7F",
+      "record_id": "ui75:75BD7F",
+      "jp": "会合ポイント",
+      "current": "会合포인트",
+      "ko": "회합 포인트",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "C1B4F8CA"
+    },
+    {
+      "abs": "75BD87",
+      "record_id": "ui75:75BD87",
+      "jp": "地球衛星軌道上",
+      "current": "지구衛星軌道上",
+      "ko": "지구 위성 궤도상",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F570FBD6"
+    },
+    {
+      "abs": "75BD8C",
+      "record_id": "ui75:75BD8C",
+      "jp": "グリ－ン・ノア２",
+      "current": "グリ－ン・노아２",
+      "ko": "그린・노아２",
+      "body_capacity": 9,
+      "prefix_hex": "",
+      "body_hex": "4FF4D91A2AF4F0E026"
+    },
+    {
+      "abs": "75BD9D",
+      "record_id": "ui75:75BD9D",
+      "jp": "会合ポイント",
+      "current": "会合포인트",
+      "ko": "회합 포인트",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "C1B4F8CA"
+    },
+    {
+      "abs": "75BDA2",
+      "record_id": "ui75:75BDA2",
+      "jp": "ホンコン・シティ",
+      "current": "ホンコン・シティ",
+      "ko": "홍콩・시티",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F9F12AF894"
+    },
+    {
+      "abs": "75BDA8",
+      "record_id": "ui75:75BDA8",
+      "jp": "ニュ－タイプ研究所",
+      "current": "뉴타입研究所",
+      "ko": "뉴타입 연구소",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FD6CF836"
+    },
+    {
+      "abs": "75BDAD",
+      "record_id": "ui75:75BDAD",
+      "jp": "キリマンジャロ基地",
+      "current": "キリマンジャロ기지",
+      "ko": "킬리만자로 기지",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "FE05F335"
+    },
+    {
+      "abs": "75BDB2",
+      "record_id": "ui75:75BDB2",
+      "jp": "サハラ砂漠",
+      "current": "サハラ사막",
+      "ko": "사하라 사막",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "657E2EF4D1"
+    },
+    {
+      "abs": "75BDB8",
+      "record_id": "ui75:75BDB8",
+      "jp": "サンクキングダム",
+      "current": "サンクキングダム",
+      "ko": "상크 킹덤",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "FEA0"
+    },
+    {
+      "abs": "75BDBB",
+      "record_id": "ui75:75BDBB",
+      "jp": "旧ジオン鉱山基地",
+      "current": "旧지온鉱山기지",
+      "ko": "구 지온 광산 기지",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "E28BF7ABE670E667F335"
+    },
+    {
+      "abs": "75BDC9",
+      "record_id": "ui75:75BDC9",
+      "jp": "ダカ－ル郊外",
+      "current": "다카르郊外",
+      "ko": "다카르 교외",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "FB32E66CE0D8"
+    },
+    {
+      "abs": "75BDD0",
+      "record_id": "ui75:75BDD0",
+      "jp": "地球軌道航路",
+      "current": "지구軌道航路",
+      "ko": "지구 궤도 항로",
+      "body_capacity": 10,
+      "prefix_hex": "",
+      "body_hex": "F570E1EFE0A4E2B0E16C"
+    },
+    {
+      "abs": "75BDDB",
+      "record_id": "ui75:75BDDB",
+      "jp": "フォン・シティ",
+      "current": "フォン・シティ",
+      "ko": "폰・시티",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F7042AF894"
+    },
+    {
+      "abs": "75BDEE",
+      "record_id": "ui75:75BDEE",
+      "jp": "突入ポイント",
+      "current": "突入포인트",
+      "ko": "돌입 포인트",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F411F8CA"
+    },
+    {
+      "abs": "75BDF3",
+      "record_id": "ui75:75BDF3",
+      "jp": "サイコウェ－ブ中心域",
+      "current": "사이코　웨이브중심域",
+      "ko": "사이코 웨이브 중심역",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "FE4CF3DEE103"
+    },
+    {
+      "abs": "75BDFA",
+      "record_id": "ui75:75BDFA",
+      "jp": "ゼダンの門",
+      "current": "ゼダンの門",
+      "ko": "제단의 문",
+      "body_capacity": 5,
+      "prefix_hex": "",
+      "body_hex": "F5EE05E1E8"
+    },
+    {
+      "abs": "75BE00",
+      "record_id": "ui75:75BE00",
+      "jp": "ホンコン",
+      "current": "ホンコン",
+      "ko": "홍콩",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "F9F1"
+    },
+    {
+      "abs": "75BE03",
+      "record_id": "ui75:75BE03",
+      "jp": "月面都市周辺",
+      "current": "月面都市周辺",
+      "ko": "월면 도시 주변",
+      "body_capacity": 12,
+      "prefix_hex": "",
+      "body_hex": "E077E0B1E16BE3C4E1D3E2ED"
+    },
+    {
+      "abs": "75BE10",
+      "record_id": "ui75:75BE10",
+      "jp": "地球衛星軌道",
+      "current": "지구衛星軌道",
+      "ko": "지구 위성 궤도",
+      "body_capacity": 4,
+      "prefix_hex": "",
+      "body_hex": "F570FB8B"
+    },
+    {
+      "abs": "75BE15",
+      "record_id": "ui75:75BE15",
+      "jp": "キリマンジャロ",
+      "current": "キリマンジャロ",
+      "ko": "킬리만자로",
+      "body_capacity": 2,
+      "prefix_hex": "",
+      "body_hex": "FE05"
+    },
+    {
+      "abs": "75BE18",
+      "record_id": "ui75:75BE18",
+      "jp": "観測基地",
+      "current": "観測기지",
+      "ko": "관측 기지",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E25FE33CF335"
+    },
+    {
+      "abs": "75BE1F",
+      "record_id": "ui75:75BE1F",
+      "jp": "月軌道",
+      "current": "月軌道",
+      "ko": "달 궤도",
+      "body_capacity": 6,
+      "prefix_hex": "",
+      "body_hex": "E077E1EFE0A4"
+    },
+    {
+      "abs": "75BE35",
+      "record_id": "ui75:75BE35",
+      "jp": "通信モ－ドを利用するにはＡＬＬクリアした",
+      "current": "통신モ－ドを利用するにはＡＬＬ클리어した",
+      "ko": "통신 모드를 이용하려면 ＡＬＬ 클리어한",
+      "body_capacity": 20,
+      "prefix_hex": "",
+      "body_hex": "F15E5D104415F40FFB2EE1C0E3E8E3E8F685F41B"
+    },
+    {
+      "abs": "75BE4A",
+      "record_id": "ui75:75BE4A",
+      "jp": "バックステ－ジのデ－タが必要です。",
+      "current": "백스테이지の데이터が필요です。",
+      "ko": "백스테이지 데이터가 필요합니다。",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "FE3505F5D217F4F6F27D0A"
+    },
+    {
+      "abs": "75BE56",
+      "record_id": "ui75:75BE56",
+      "jp": "所有ユニット数が２００機を越えています。",
+      "current": "所有유닛数が２００機を越토레스、。",
+      "ko": "보유 유닛 수가 ２００기를 넘었습니다。",
+      "body_capacity": 22,
+      "prefix_hex": "",
+      "body_hex": "E018E1E3FB8AE0D617E026E01EE01E8015E2C8FBF40A"
+    },
+    {
+      "abs": "75BE6D",
+      "record_id": "ui75:75BE6D",
+      "jp": "処分しないと出動できません。",
+      "current": "처분しないと出動できません。",
+      "ko": "처분하지 않으면 출동할 수 없습니다。",
+      "body_capacity": 13,
+      "prefix_hex": "",
+      "body_hex": "F48BF74E136FAA163221F5510A"
+    },
+    {
+      "abs": "75BE7B",
+      "record_id": "ui75:75BE7B",
+      "jp": "ＡＬＬクリアしたバックステ－ジの",
+      "current": "ＡＬＬ클리어した백스테이지の",
+      "ko": "ＡＬＬ 클리어한 백스테이지의",
+      "body_capacity": 13,
+      "prefix_hex": "",
+      "body_hex": "E1C0E3E8E3E8F685F41BFE3505"
+    },
+    {
+      "abs": "75BEA0",
+      "record_id": "ui75:75BEA0",
+      "jp": "通信対戦が中断されました",
+      "current": "통신対戦が中断されました",
+      "ko": "통신 대전이 중단되었습니다",
+      "body_capacity": 11,
+      "prefix_hex": "",
+      "body_hex": "F15EE01B391752E128FC59"
+    }
+  ],
+  "excluded": [
+    {
+      "abs": "75B001",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B003",
+      "text": "のパ",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B00A",
+      "text": "セをの…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B012",
+      "text": "『　も",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B016",
+      "text": "軍",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B018",
+      "text": "ス機に無し",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B01E",
+      "text": "の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B021",
+      "text": "ベ！な。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B02C",
+      "text": "々も…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B032",
+      "text": "攻…フう",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B05F",
+      "text": "で",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B061",
+      "text": "　々　動",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B068",
+      "text": "なんですよ",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B06B",
+      "text": "な",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B06E",
+      "text": "動",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0CB",
+      "text": "　手　事",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0D5",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0D7",
+      "text": "の事",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0DE",
+      "text": "少とのい",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0E6",
+      "text": "コ　ま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0EA",
+      "text": "思",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0EC",
+      "text": "ラ。る<EF20>",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0F2",
+      "text": "の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B0F5",
+      "text": "ほ！な。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B100",
+      "text": "無し…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B106",
+      "text": "自！こ。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B117",
+      "text": "思…フう",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B122",
+      "text": "！か！",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B128",
+      "text": "ト！フるる",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B133",
+      "text": "す",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B135",
+      "text": "　デ　邦",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B13C",
+      "text": "もそうです",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B13F",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B141",
+      "text": "の邦",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B148",
+      "text": "少とのい",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B150",
+      "text": "コ　ま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B154",
+      "text": "軍",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B156",
+      "text": "ラ全てろかいの",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B15F",
+      "text": "ほ！な。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B16B",
+      "text": "ま…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B170",
+      "text": "思…フう",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B19D",
+      "text": "ン",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B19F",
+      "text": "　ず　死",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1A6",
+      "text": "っま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1A9",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1AB",
+      "text": "の死",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1B2",
+      "text": "少とのい",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1BA",
+      "text": "コ　ま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1BE",
+      "text": "ゥ",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1C0",
+      "text": "ラ。るにま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1C6",
+      "text": "の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1C9",
+      "text": "ほ！な。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1D4",
+      "text": "をまい",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1DA",
+      "text": "』！に。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1E5",
+      "text": "長－…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B1EB",
+      "text": "思…フう",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B209",
+      "text": "　ネ　通",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B210",
+      "text": "らま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B213",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B216",
+      "text": "通",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B21C",
+      "text": "少と！…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B224",
+      "text": "尊の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B228",
+      "text": "撃",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B22A",
+      "text": "の気る",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B273",
+      "text": "　今　後",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B27A",
+      "text": "あま",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B27D",
+      "text": "は",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B27F",
+      "text": "の彼",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B286",
+      "text": "九いい",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B28E",
+      "text": "知",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B290",
+      "text": "か",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B294",
+      "text": "ら手なナも",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B29A",
+      "text": "の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B29D",
+      "text": "見…な。の",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2A8",
+      "text": "ねも…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2AE",
+      "text": "地…この",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2B9",
+      "text": "長－…",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2BF",
+      "text": "깊フう",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2DB",
+      "text": "っ",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B2DD",
+      "text": "　ウ　移動",
+      "reason": "walker_noise"
+    },
+    {
+      "abs": "75B3EF",
+      "text": "攻",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B3FD",
+      "text": "近全",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B401",
+      "text": "射全",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B41E",
+      "text": "一",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B48A",
+      "text": "一一一一一",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B559",
+      "text": "分",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B889",
+      "text": "アイウエオ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B88F",
+      "text": "カキクケコ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B896",
+      "text": "サシスセソ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B89C",
+      "text": "タチツテト",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B8A3",
+      "text": "ナニヌネノ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B8AB",
+      "text": "ハヒフヘホ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B8B4",
+      "text": "マミムメモ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B8BA",
+      "text": "ヤユヨ",
+      "reason": "ambiguous_system_or_kana_index"
+    },
+    {
+      "abs": "75B8BF",
+      "text": "ラ～ロ、ワ",
+      "reason": "ambiguous_system_or_kana_index"
+    }
+  ]
+}

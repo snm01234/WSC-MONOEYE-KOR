@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "selected_bold14_runtime_candidate",
+  "font": {
+    "path": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+    "size": 14,
+    "letter_spacing": 0,
+    "line_gap": 4,
+    "vertical_offset": 0
+  },
+  "packages": [
+    {
+      "header": "4ABD0C",
+      "titles": [
+        {"index": 0, "stage_id": "STAGE01", "jp": "出会い", "ko_lines": ["만남"]},
+        {"index": 1, "stage_id": "STAGE02", "jp": "ホワイトベース追撃", "ko_lines": ["화이트 베이스 추격"]},
+        {"index": 2, "stage_id": "STAGE03", "jp": "覚醒", "ko_lines": ["각성"]},
+        {"index": 3, "stage_id": "STAGE04", "jp": "ソロモン撤退戦", "ko_lines": ["솔로몬 철수전"]},
+        {"index": 4, "stage_id": "STAGE EX01", "jp": "ポケットの中の戦争 / 前編", "ko_lines": ["주머니 속의 전쟁", "전편"]},
+        {"index": 5, "stage_id": "STAGE EX02", "jp": "ポケットの中の戦争 / 後編", "ko_lines": ["주머니 속의 전쟁", "후편"]},
+        {"index": 6, "stage_id": "STAGE05", "jp": "光る宇宙", "ko_lines": ["빛나는 우주"]},
+        {"index": 7, "stage_id": "STAGE06", "jp": "宇宙要塞ア・バオア・クー", "ko_lines": ["우주 요새 아·바오아·쿠"]},
+        {"index": 8, "stage_id": "STAGE07", "jp": "裏切りの宇宙", "ko_lines": ["배신의 우주"]},
+        {"index": 9, "stage_id": "STAGE08", "jp": "ジオンの残光", "ko_lines": ["지온의 잔광"]},
+        {"index": 10, "stage_id": "STAGE09", "jp": "駆け抜ける嵐", "ko_lines": ["질주하는 폭풍"]},
+        {"index": 11, "stage_id": "STAGE10", "jp": "黒いガンダム", "ko_lines": ["검은 건담"]},
+        {"index": 12, "stage_id": "STAGE11", "jp": "再会", "ko_lines": ["재회"]},
+        {"index": 13, "stage_id": "STAGE12", "jp": "アクシズからの使者", "ko_lines": ["액시즈에서 온 사자"]},
+        {"index": 14, "stage_id": "STAGE13t", "jp": "ホンコン・シティ", "ko_lines": ["홍콩 시티"]}
+      ]
+    },
+    {
+      "header": "4DB4B8",
+      "titles": [
+        {"index": 0, "stage_id": "STAGE13n", "jp": "プルとアクシズと", "ko_lines": ["플과 액시즈"]},
+        {"index": 1, "stage_id": "STAGE EX03", "jp": "「ガンダムX起動！」", "ko_lines": ["「건담 X 기동!」"]},
+        {"index": 2, "stage_id": "STAGE14t", "jp": "永遠のフォウ", "ko_lines": ["영원한 포우"]},
+        {"index": 3, "stage_id": "STAGE14n", "jp": "落ちてきた空", "ko_lines": ["떨어져 온 하늘"]},
+        {"index": 4, "stage_id": "STAGE15t", "jp": "ガラスの王国", "ko_lines": ["유리의 왕국"]},
+        {"index": 5, "stage_id": "STAGE15n", "jp": "石破天驚拳！ / 決闘マスター・アジア", "ko_lines": ["석파천경권!", "결투 마스터 아시아"]},
+        {"index": 6, "stage_id": "STAGE16t", "jp": "ダカールの日", "ko_lines": ["다카르의 날"]},
+        {"index": 7, "stage_id": "STAGE16n", "jp": "ダカールの灯火", "ko_lines": ["다카르의 등불"]},
+        {"index": 8, "stage_id": "STAGE EX04t", "jp": "最後の勝利者", "ko_lines": ["최후의 승리자"]},
+        {"index": 9, "stage_id": "STAGE EX04n", "jp": "東方不敗暁に死す", "ko_lines": ["동방불패 새벽에 죽다"]},
+        {"index": 10, "stage_id": "STAGE17t・17n", "jp": "敵、新たなり", "ko_lines": ["적, 새로이"]},
+        {"index": 11, "stage_id": "STAGE18t・18n", "jp": "月光蝶", "ko_lines": ["월광접"]},
+        {"index": 12, "stage_id": "STAGE19n", "jp": "宇宙の渦", "ko_lines": ["우주의 소용돌이"]},
+        {"index": 13, "stage_id": "STAGE19t", "jp": "宇宙の渦（前）", "ko_lines": ["우주의 소용돌이 (전)"]},
+        {"index": 14, "stage_id": "STAGE20t", "jp": "宇宙の渦（後）", "ko_lines": ["우주의 소용돌이 (후)"]}
+      ]
+    },
+    {
+      "header": "53B9F4",
+      "titles": [
+        {"index": 0, "stage_id": "STAGE21t", "jp": "宇宙を駆ける", "ko_lines": ["우주를 달리다"]},
+        {"index": 1, "stage_id": "STAGE20n", "jp": "バイブレーション（前）", "ko_lines": ["바이브레이션 (전)"]},
+        {"index": 2, "stage_id": "STAGE21n", "jp": "バイブレーション（後）", "ko_lines": ["바이브레이션 (후)"]},
+        {"index": 3, "stage_id": "STAGE22t", "jp": "終末への序曲", "ko_lines": ["종말의 서곡"]},
+        {"index": 4, "stage_id": "STAGE22n", "jp": "終末への序曲", "ko_lines": ["종말의 서곡"]},
+        {"index": 5, "stage_id": "STAGE23", "jp": "そして、悲劇は終わる……", "ko_lines": ["그리고, 비극은 끝난다……"]},
+        {"index": 6, "stage_id": "SPECIAL01", "jp": "ラストリゾート", "ko_lines": ["라스트 리조트"]},
+        {"index": 7, "stage_id": "SPECIAL04", "jp": "静かなる軌跡", "ko_lines": ["고요한 궤적"]},
+        {"index": 8, "stage_id": "SPECIAL05", "jp": "エンドレスワルツ", "ko_lines": ["엔드리스 월츠"]},
+        {"index": 9, "stage_id": "SPECIAL06", "jp": "碧き惑星に沈む", "ko_lines": ["푸른 행성에 잠기다"]},
+        {"index": 10, "stage_id": "SPECIAL07", "jp": "敵意という名の隣人", "ko_lines": ["적의라는 이름의 이웃"]},
+        {"index": 11, "stage_id": "SPECIAL03", "jp": "蒼を継ぐ者", "ko_lines": ["블루를 계승하는 자"]},
+        {"index": 12, "stage_id": "SPECIAL02", "jp": "二人の強化人間", "ko_lines": ["두 강화인간"]}
+      ]
+    }
+  ]
+}

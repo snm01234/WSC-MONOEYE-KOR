@@ -1,0 +1,140 @@
+{
+  "_note": "Mid-word kana fragments removed from the UI catalogs. Not deleted: reinstate a row only together with whole-word entries for every parent slot that composes it.",
+  "generated_by": "tools/quarantine_fragment_entries.py",
+  "removed_count": 19,
+  "removed": [
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "レイ",
+      "ko": "레이",
+      "reason": "inside プレイヤ－ / レイラ / レイン → プ레이ヤ－ (13 measured hits)"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "ラン",
+      "ko": "란",
+      "reason": "inside ロラン / ダカラン / ランチャ－ → メガバズ－カ란チャ－"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "カイ",
+      "ko": "카이",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "ザビ",
+      "ko": "자비",
+      "reason": "inside サザビ－ / ザビ－ネ / ザビアロフ → 사자비－"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "ス－ン",
+      "ko": "순",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "ロナ",
+      "ko": "로나",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "リ－",
+      "ko": "리",
+      "reason": "inside ジ－クフリ－ド / フリ－ト / ハリ－ → ジ－クフ리ド"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "サラ",
+      "ko": "사라",
+      "reason": "inside longer names / サダラ－ン family"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "マス",
+      "ko": "마스",
+      "reason": "inside longer katakana runs"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "カツ",
+      "ko": "카츠",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "ステロ",
+      "ko": "스테로",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "シャル",
+      "ko": "샤를",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "コア",
+      "ko": "코어",
+      "reason": "inside longer katakana runs"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "セロ",
+      "ko": "세로",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "スン",
+      "ko": "순",
+      "reason": "inside レッスン"
+    },
+    {
+      "catalog": "unit_names_ko",
+      "section": "entries",
+      "jp": "オム",
+      "ko": "옴",
+      "reason": "inside longer names"
+    },
+    {
+      "catalog": "ui_system_ko",
+      "section": "entries",
+      "jp": "はい",
+      "ko": "네",
+      "reason": "used as は+い characters in シグはいいの → シグ네いの"
+    },
+    {
+      "catalog": "ui_battle_terms_ko",
+      "section": "entries",
+      "jp": "ダメ",
+      "ko": "불가",
+      "reason": "first half of ダメ－ジ → 불가－ジ (38 measured hits)"
+    },
+    {
+      "catalog": "ui_menu_terms_ko",
+      "section": "entries",
+      "jp": "クリス",
+      "ko": "크리스",
+      "reason": "inside イクリス / クリスチ－ナ → イ크리스 (33 measured hits)"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "scope": "627F00+ Garrod/Tifa MT residue + Loran/Guen bank59 untranslated/mixed + microwave JP",
+  "provenance": {
+    "translation_source": "llm_from_japanese_original",
+    "review_status": "approved_for_main_candidate",
+    "legacy_machine_translation_used_as_translation_source": false,
+    "legacy_machine_translation_usage": "forensic provenance and defect discovery only",
+    "forensic_sources": [
+      "out/patch/garrod_loran_guen_retranslation_scan.json",
+      "out/script/translations_quality_all.json",
+      "out/script/translation_sheet.csv"
+    ],
+    "canonical_source": "SD Gundam G Generation Mono-Eye Gundams.wsc",
+    "terminology": {
+      "ガロード/ガロ－ド": "가로드",
+      "グエン": "구엔",
+      "ロラン": "로랑",
+      "ローラ/ロ－ラ": "로라",
+      "ティファ": "티파",
+      "ハリー": "해리",
+      "アーガマ/ア－ガマ": "아르가마"
+    }
+  },
+  "entries": [
+    {
+      "abs": "627F00",
+      "jp": "……ガロ－ド！！",
+      "ko": "……가로드！！",
+      "mode": "native_restore",
+      "reason": "quality/sheet hyphen MT 갈로－도; stock 0AAC already 가로드"
+    },
+    {
+      "abs": "627F13",
+      "jp": "……ティファ！？",
+      "ko": "……티파！？",
+      "mode": "native_restore",
+      "reason": "spaced punctuation MT; stock 08EE already 티파"
+    },
+    {
+      "abs": "627FB5",
+      "jp": "ティファ……",
+      "ko": "티파……",
+      "mode": "native_restore",
+      "reason": "E518C4F2 leaf overshare → control leak; native 2-token like 62663E"
+    },
+    {
+      "abs": "627F26",
+      "jp": "アナタに力を……",
+      "ko": "당신에게　힘을……",
+      "mode": "portal_retarget",
+      "reason": "ellipsis truncated by quality MT"
+    },
+    {
+      "abs": "627F87",
+      "jp": "ガロ－ドは……私が守るから。",
+      "ko": "가로드는……　내가　지킬게。",
+      "mode": "portal_retarget",
+      "reason": "갈로드→가로드 terminology + literal protect clause"
+    },
+    {
+      "abs": "628126",
+      "jp": "さあ、ハリ－中尉、ア－ガマへ！！",
+      "ko": "자、　해리　중위、　아르가마로！！",
+      "mode": "portal_retarget",
+      "reason": "hyphen MT 하리－/아－가마 → Harry / Argama"
+    },
+    {
+      "abs": "599404",
+      "jp": "グエン卿のやろうとしていることは",
+      "ko": "구엔　경이　하려는　일은",
+      "mode": "portal_retarget",
+      "reason": "그웬→구엔 terminology; Loran line 1"
+    },
+    {
+      "abs": "599416",
+      "jp": "間違っています！",
+      "ko": "틀렸습니다！",
+      "mode": "portal_install",
+      "reason": "never localized; Loran line 2 still pristine JP"
+    },
+    {
+      "abs": "5993D0",
+      "jp": "君には私の副官として……",
+      "ko": "너에게는　내　부관으로서……",
+      "mode": "portal_install",
+      "reason": "stock 00CC=부관 mixed into JP bare record; full-line KO"
+    },
+    {
+      "abs": "599A3D",
+      "jp": "マイクロウェ－ブ……来るっ！！",
+      "ko": "마이크로웨이브……온다！！",
+      "mode": "portal_install",
+      "reason": "microwave line still full JP after laser KO"
+    }
+  ]
+}

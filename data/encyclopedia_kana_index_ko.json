@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "description": "Encyclopedia gojuon index labels on the 도감 category screen (UI75 75B889–75B8BF). Katakana rows become Hangul readings of the same Japanese groups. Fullwidth Ａ～Ｚ、∀ at 75B8C6 is kept. Payload length and NULs stay fixed via private ext3 portals. Parent is the current main TIP.",
+  "parent_tip_sha256": "0ff2bc7398c5b677d02bc1d81df21d12dc7731d2d16d62c3cc7cd25b1c74ca11",
+  "screen": "도감 가나 색인",
+  "kept": [
+    {
+      "abs": "75B8C6",
+      "jp": "Ａ～Ｚ、∀",
+      "reason": "latin_index_row_not_katakana"
+    }
+  ],
+  "records": [
+    {
+      "abs": "75B889",
+      "jp": "アイウエオ",
+      "ko": "아이우에오",
+      "max_visual_cells": 5,
+      "payload_len": 5,
+      "current_payload_hex": "262977582C"
+    },
+    {
+      "abs": "75B88F",
+      "jp": "カキクケコ",
+      "ko": "카키쿠케코",
+      "max_visual_cells": 5,
+      "payload_len": 6,
+      "current_payload_hex": "5A623DE0225E"
+    },
+    {
+      "abs": "75B896",
+      "jp": "サシスセソ",
+      "ko": "사시스세소",
+      "max_visual_cells": 5,
+      "payload_len": 5,
+      "current_payload_hex": "652D2F7CC3"
+    },
+    {
+      "abs": "75B89C",
+      "jp": "タチツテト",
+      "ko": "타치츠테토",
+      "max_visual_cells": 5,
+      "payload_len": 6,
+      "current_payload_hex": "30E03F4B4A3E"
+    },
+    {
+      "abs": "75B8A3",
+      "jp": "ナニヌネノ",
+      "ko": "나니누네노",
+      "max_visual_cells": 5,
+      "payload_len": 7,
+      "current_payload_hex": "4360E40775E007"
+    },
+    {
+      "abs": "75B8AB",
+      "jp": "ハヒフヘホ",
+      "ko": "하히후헤호",
+      "max_visual_cells": 5,
+      "payload_len": 8,
+      "current_payload_hex": "7EE09563E0D3E092"
+    },
+    {
+      "abs": "75B8B4",
+      "jp": "マミムメモ",
+      "ko": "마미무메모",
+      "max_visual_cells": 5,
+      "payload_len": 5,
+      "current_payload_hex": "37643FB95D"
+    },
+    {
+      "abs": "75B8BA",
+      "jp": "ヤユヨ",
+      "ko": "야유요",
+      "max_visual_cells": 3,
+      "payload_len": 4,
+      "current_payload_hex": "9CB3E2E7"
+    },
+    {
+      "abs": "75B8BF",
+      "jp": "ラ～ロ、ワ",
+      "ko": "라～로、와",
+      "max_visual_cells": 5,
+      "payload_len": 6,
+      "current_payload_hex": "2EE0F53C07A7"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "translation_source": "llm_manual_source_grounded",
+  "groups": [
+    {"group_id":"scenario_63F4E5","rows":["그의……","제로는　제게　맡겨주세요！"],"change_summary":"콕핏 무력화/제어 기동/승인 위임 같은 원문 밖 기술·행정 표현을 제거"},
+    {"group_id":"scenario_63F564","rows":["제로！　나예요！！","레이라예요！"],"change_summary":"무전 수신/부르짖다 같은 원문 밖 상황 설명을 제거"},
+    {"group_id":"scenario_63FB00","rows":["……정말이지。","세라는　치사해！！"],"change_summary":"반박 불가한 든든함/누나/야비하다 같은 원문 밖 수식을 제거"},
+    {"group_id":"scenario_63FC92","rows":["물론！","나도　지지　않을　거야！"],"change_summary":"미안 자기호칭/세라 누나/쉴드 스펙/패배 마크 같은 원문 밖 표현을 제거"}
+  ]
+}

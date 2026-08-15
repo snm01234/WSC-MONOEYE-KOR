@@ -1,0 +1,391 @@
+{
+  "description": "P3 KO quality overrides (opening/stage1 priority + curated scene batches). Applied by audit_ko_quality / translate merge.",
+  "priority": "overrides win over Bing cache/sheet drafts",
+  "line_count": 64,
+  "lines": [
+    {
+      "abs": "6040A5",
+      "jp": "『サイド３、独立宣言』",
+      "ko": "『사이드　３、독립　선언』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6040CB",
+      "jp": "コロニ－、サイド３は地球より独立",
+      "ko": "콜로니、사이드　３는　지구에서　독립",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604116",
+      "jp": "『ジオン公国宣言』",
+      "ko": "『지온　공국　선언』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60413D",
+      "jp": "ジオン共和国、公国へと移行。",
+      "ko": "지온　공화국에서　공국으로。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60416E",
+      "jp": "『ジオン公国、国家総動員令を発令』",
+      "ko": "『지온　공국、총동원령』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6041AC",
+      "jp": "『ー年戦争勃発』",
+      "ko": "『１년　전쟁』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6041C2",
+      "jp": "地球連邦政府に対して宣戦を布告。",
+      "ko": "지구　연방에　선전　포고。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6041F0",
+      "jp": "電撃的に制圧。",
+      "ko": "전격으로　제압。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60420E",
+      "jp": "連邦軍の宇宙艦隊に圧勝をおさめる。",
+      "ko": "연방군의　우주　함대에　압승。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604247",
+      "jp": "『地球侵攻作戦開始』",
+      "ko": "『지구　침공　작전　시작』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604268",
+      "jp": "全大陸の３分の２を制圧することに成功。",
+      "ko": "대륙의　３분의　２를　제압。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604296",
+      "jp": "進撃速度は低下。戦いは膠着状態に陥る。",
+      "ko": "싸움이　오래간다。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6042D5",
+      "jp": "『連邦軍、Ｖ作戦始動』",
+      "ko": "『연방군、Ｖ작전　시작』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60430A",
+      "jp": "『連邦軍、オデッサ作戦開始』",
+      "ko": "『연방군、오데사　작전　시작』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604333",
+      "jp": "戦局はー気に連邦有利へと傾く。",
+      "ko": "연방에　기운다。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604362",
+      "jp": "『ジオン軍、ジャブロ－急襲に失敗』",
+      "ko": "『지온군、자브로　실패』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60438E",
+      "jp": "『連邦軍ソロモン攻略艦隊が発進』",
+      "ko": "『연방군　솔로몬　출격』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6043B8",
+      "jp": "『キャリフォルニアべ－ス陥落』",
+      "ko": "『캘리　베이스　함락』",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6043E1",
+      "jp": "時に宇宙世紀００７９、１２月半ば。",
+      "ko": "우주세기　００７９、１２월。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604401",
+      "jp": "落日の時を迎えようとしていた……",
+      "ko": "그　무렵이었다……",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604421",
+      "jp": "……………。",
+      "ko": "……………。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604435",
+      "jp": "シグ・ウェドナ－少尉、入ります。",
+      "ko": "시그　웨드너　소위、들어갑니다。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604466",
+      "jp": "おお、よく来たなシグ中尉。",
+      "ko": "오、잘　왔구나　시그　중위。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "60447D",
+      "jp": "ブラ－ド中佐。",
+      "ko": "브라드　중령。",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604486",
+      "jp": "自分に用件というのは……",
+      "ko": "내게　할　말은……",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "604492",
+      "jp": "……ん、『中尉』？",
+      "ko": "……응、중위？",
+      "notes": "seed_hook96 curated opening"
+    },
+    {
+      "abs": "6045D2",
+      "jp": "そのー環として、ニュ－タイプ用兵器の",
+      "ko": "그　일환으로、　뉴타입용　무기의",
+      "notes": "manual: 一環 misread as 環境"
+    },
+    {
+      "abs": "6046E4",
+      "jp": "おいおい。",
+      "ko": "어이，",
+      "notes": "manual: user-approved comma opener; ASCII comma is unavailable in TBL, so use fullwidth comma via dedicated 2-byte extended dictionary slot"
+    },
+    {
+      "abs": "6047BE",
+      "jp": "……なにっ！！",
+      "ko": "……뭐야！！",
+      "notes": "manual: short opener"
+    },
+    {
+      "abs": "604887",
+      "jp": "あっ！　おい……！！",
+      "ko": "앗！　이봐……！！",
+      "notes": "manual: short opener"
+    },
+    {
+      "abs": "604ED9",
+      "jp": "……なっ！？",
+      "ko": "……뭐！？",
+      "notes": "manual: short opener"
+    },
+    {
+      "abs": "605294",
+      "jp": "なるほど……カンタンなもんだな。",
+      "ko": "그렇군……간단한　거구나。",
+      "notes": "manual: strip leftover kana"
+    },
+    {
+      "abs": "617F66",
+      "jp": "まあ、態度を保留してるところもあるから",
+      "ko": "뭐、　아직　태도를　유보한　쪽도　있으니까",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617F7C",
+      "jp": "完全に掌握するのはまだ少し先かな？",
+      "ko": "완전히　장악하려면　아직　조금　더　걸리려나？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617F93",
+      "jp": "……おおむね、予想通りだな。",
+      "ko": "……대체로、　예상대로군。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FA5",
+      "jp": "ジャミトフの死で",
+      "ko": "자미토프의　죽음으로",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FAC",
+      "jp": "ティタ－ンズは揺れている……。",
+      "ko": "티탄즈는　흔들리고　있다……。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FBB",
+      "jp": "ー部は分裂して、",
+      "ko": "일부는　분열하고、",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FC8",
+      "jp": "実質的な戦力は低下している。",
+      "ko": "실질　전력은　떨어지고　있다。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FE3",
+      "jp": "……ティタ－ンズの圧倒的な優位は",
+      "ko": "……티탄즈의　압도적　우위는",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "617FF2",
+      "jp": "もはや消え去ったと見るベきだな。",
+      "ko": "이제　사라졌다고　봐야겠군。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618004",
+      "jp": "後はネオ・ジオンだが……",
+      "ko": "남은　건　네오　지온인데……",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618015",
+      "jp": "……そちらはアイン・レヴィが",
+      "ko": "……그쪽은　아인　레비가",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618023",
+      "jp": "うまくやってくれているよ。",
+      "ko": "잘　처리해　주고　있지。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61802F",
+      "jp": "ふふふふ……",
+      "ko": "후후후후……",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61803F",
+      "jp": "ん、船が接近中？",
+      "ko": "응、　함이　접근　중？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61804C",
+      "jp": "いったい、どこのだ？",
+      "ko": "도대체、　어디　함이지？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61805B",
+      "jp": "おっ、ついに来たか！",
+      "ko": "오、　드디어　왔군！",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618068",
+      "jp": "だいじょうぶだ、あれは味方さ。",
+      "ko": "괜찮아、　저건　아군이야。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618076",
+      "jp": "えっ？",
+      "ko": "에？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61807D",
+      "jp": "知ってるんですか、アストナ－ジさん？",
+      "ko": "알고　계세요、　아스트나쥬　씨？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61808F",
+      "jp": "アナハイムから、新型機が届いたのさ。",
+      "ko": "애나하임에서　신형기가　왔어。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180A2",
+      "jp": "『Ｚ（ゼ－タ）ガンダム』だ。",
+      "ko": "『Ｚ（제타）　건담』이다。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180B5",
+      "jp": "『Ｚガンダム』って……あの、前に",
+      "ko": "『Ｚ건담』이라……　그、　전에",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180C8",
+      "jp": "カミ－ユが設計したってヤツですか？",
+      "ko": "카미유가　설계했다는　그거죠？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180D9",
+      "jp": "そうそう。",
+      "ko": "그렇지。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180E0",
+      "jp": "その、Ｚガンダムさ。",
+      "ko": "그　Ｚ건담　말이야。",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180EB",
+      "jp": "さぁて、さっそくカミ－ユに教えて",
+      "ko": "자、　바로　카미유에게　알려서",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "6180F9",
+      "jp": "ビックリさせてやるか！！",
+      "ko": "깜짝　놀라게　해줄까！！",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61810F",
+      "jp": "……なにぃっ！？",
+      "ko": "……뭐라고！？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618119",
+      "jp": "Ｚガンダムが無いだってぇ！？",
+      "ko": "Ｚ건담이　없다고！？",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618131",
+      "jp": "先ほどそちらのパイロットがテスト飛行だと",
+      "ko": "아까　그쪽　파일럿이　테스트　비행이라며",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "618146",
+      "jp": "言って持ち出したんですが……",
+      "ko": "가져갔다고　합니다만……",
+      "notes": "manual: bank61 post-617F4F batch"
+    },
+    {
+      "abs": "61815A",
+      "jp": "そんな指示、誰にも出しちゃいないぞ！",
+      "ko": "그런　지시는　아무에게도　내린　적　없어！",
+      "notes": "manual: bank61 post-617F4F batch"
+    }
+  ]
+}

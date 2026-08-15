@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "test_rom_candidate_v2_user_feedback",
+  "font": {
+    "path": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+    "readability_path": "assets/fonts/galmuri_tmp/Galmuri11.ttf",
+    "directional_size": 12,
+    "result_size": 12,
+    "three_hangul_size": 11,
+    "mixed_ascii_size": 10,
+    "stroke_width": 1
+  },
+  "palette": {
+    "background": "C",
+    "ink": "E",
+    "bright_outline": "F",
+    "down_outline": "A"
+  },
+  "plaques": [
+    {"logical": "4C44D4", "storage": "full_48x16", "jp": "↑LEVEL", "ko": "↑LEVEL", "text": "LEVEL", "layout": "directional", "tone": "bright", "action": "preserve_source"},
+    {"logical": "4C4654", "storage": "full_48x16", "jp": "成功!", "ko": "성공!", "text": "성공!", "layout": "result", "tone": "bright"},
+    {"logical": "4C48F4", "storage": "full_48x16", "jp": "撃破!", "ko": "격파!", "text": "격파!", "layout": "result", "tone": "bright"},
+    {"logical": "4C5234", "storage": "full_48x16", "jp": "捨て身!", "ko": "육탄!", "text": "육탄!", "layout": "result", "tone": "bright", "term_basis": "name75 捨て身攻撃→육탄 공격"},
+    {"logical": "4C54F4", "storage": "body_plus_shared_cap", "jp": "↑命中", "ko": "↑명중", "text": "명중", "layout": "directional", "tone": "bright"},
+    {"logical": "4C5634", "storage": "full_48x16", "jp": "↓命中", "ko": "↓명중", "text": "명중", "layout": "directional", "tone": "down"},
+    {"logical": "4C57B4", "storage": "body_plus_shared_cap", "jp": "↑回避", "ko": "↑회피", "text": "회피", "layout": "directional", "tone": "bright"},
+    {"logical": "4C5914", "storage": "body_plus_shared_cap", "jp": "↓回避", "ko": "↓회피", "text": "회피", "layout": "directional", "tone": "down"},
+    {"logical": "4C5A54", "storage": "full_48x16", "jp": "↑機動", "ko": "↑기동", "text": "기동", "layout": "directional", "tone": "bright"},
+    {"logical": "4C5BD4", "storage": "full_48x16", "jp": "↓機動", "ko": "↓기동", "text": "기동", "layout": "directional", "tone": "down"},
+    {"logical": "4C5D54", "storage": "body_plus_shared_cap", "jp": "↑攻撃", "ko": "↑공격", "text": "공격", "layout": "directional", "tone": "bright"},
+    {"logical": "4C5E94", "storage": "body_plus_shared_cap", "jp": "↓攻撃", "ko": "↓공격", "text": "공격", "layout": "directional", "tone": "down"},
+    {"logical": "4CB38A", "storage": "full_48x16", "jp": "↑防御", "ko": "↑방어", "text": "방어", "layout": "directional", "tone": "bright"},
+    {"logical": "4CB62A", "storage": "full_48x16", "jp": "↓防御", "ko": "↓방어", "text": "방어", "layout": "directional", "tone": "down"},
+    {"logical": "4CB7AA", "storage": "body_plus_shared_cap", "jp": "↑電撃", "ko": "↑전격", "text": "전격", "layout": "directional", "tone": "bright"},
+    {"logical": "4CB8EA", "storage": "body_plus_shared_cap", "jp": "↓電撃", "ko": "↓전격", "text": "전격", "layout": "directional", "tone": "down"},
+    {"logical": "4CBA2A", "storage": "full_48x16", "jp": "↑反応", "ko": "↑반응", "text": "반응", "layout": "directional", "tone": "bright"},
+    {"logical": "4CBBAA", "storage": "full_48x16", "jp": "↓反応", "ko": "↓반응", "text": "반응", "layout": "directional", "tone": "down"},
+    {"logical": "4CBD2A", "storage": "full_48x16", "jp": "↑移動", "ko": "↑이동", "text": "이동", "layout": "directional", "tone": "bright"},
+    {"logical": "4CC02A", "storage": "full_48x16", "jp": "手加減", "ko": "봐주기", "text": "봐주기", "layout": "three_hangul", "tone": "bright"},
+    {"logical": "4CC1AA", "storage": "full_48x16", "jp": "足止め", "ko": "발묶기", "text": "발묶기", "layout": "three_hangul", "tone": "bright", "font_role": "readability", "font_size": 10, "letter_spacing": 1},
+    {"logical": "4CC52A", "storage": "full_48x16", "jp": "HP回復", "ko": "HP회복", "text": "HP회복", "layout": "mixed_ascii", "tone": "bright", "font_role": "readability", "font_size": 9, "letter_spacing": 1},
+    {"logical": "4CE56A", "storage": "full_48x16", "jp": "ID消去", "ko": "ID소거", "text": "ID소거", "layout": "mixed_ascii", "tone": "bright", "term_basis": "name75 全軍回復＆ＩＤ消→전군 회복＆ID 소거"},
+    {"logical": "4CE6EA", "storage": "full_48x16", "jp": "散開!", "ko": "산개!", "text": "산개!", "layout": "result", "tone": "bright"}
+  ]
+}

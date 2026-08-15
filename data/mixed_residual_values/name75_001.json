@@ -1,0 +1,17 @@
+{
+  "description": "Reviewed Korean for the two genuine Name75 residual targets. The remaining Name75 targets reference FF-page dictionary indices that do not resolve in the Original ROM and are held back pending an exclusion decision.",
+  "region": "name75",
+  "batch": "name75_001",
+  "reviewer": "Kiro",
+  "entries": {
+    "name75:75C198": {
+      "ko": "지옹",
+      "complete_expression_review": true,
+      "review_notes": "broken_word: the unit name ジオング was half localized, leaving グ glued to the Korean 지온. The Original record is ジオング and out/patch/name75_ko_report.json lists this address as skipped with reason no_translation, so the complete name is replaced with 지옹."
+    },
+    "name75:75E597": {
+      "ko": "암초　공역",
+      "review_notes": "The Original record is 暗礁宙域; 宙域 was already localized to 공역 through the shared dictionary, leaving 暗礁 in Japanese. Replaced the complete term."
+    }
+  }
+}

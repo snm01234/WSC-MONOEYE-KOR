@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "batch": 13,
+  "translation_source": "llm",
+  "review_status": "approved_for_test_candidate",
+  "policy": "Japanese-source final context-pair cleanup after exhaustive heuristic review; fixed record extent; <=20 cells",
+  "legacy_machine_translation_used_as_translation_source": false,
+  "targets": {
+    "605EF0": "무슨 얼빠진 얼굴이야？",
+    "609B4A": "그렇게 말해 죄송했습니다。",
+    "609B66": "별로 신경 쓸 일도 아니야。",
+    "60BC74": "저런 건『젊어서 좋구나』하며",
+    "60BC87": "웃어넘기는 거 아냐？",
+    "60C992": "좋아、바라던 바야。",
+    "60D1D3": "아직 모빌슈트가 있었다니……",
+    "60D1E6": "대장、미샤……지켜봐 주세요。",
+    "60D204": "건담을 쓰러뜨리겠습니다！！",
+    "60F0CC": "그리고 전쟁을 끝내고……",
+    "6113B2": "큭！ 한심하군……！！",
+    "6113E9": "진정하게、가토 소령。",
+    "611420": "해야 할 일……이라고？",
+    "62071B": "……눈앞의 사람과조차",
+    "62072A": "같은 생각을 할 수 없다니、",
+    "6222D3": "더 이상 마스터께",
+    "6222DC": "폐를 끼치게 된다면……",
+    "6280A0": "여기까지 몰아붙이다니……",
+    "62BD5F": "시로！！",
+    "62BD6B": "……시로도 무사했군요！",
+    "62BD82": "시로……？",
+    "6372AA": "대체 어디로 간 거냐！？"
+  }
+}

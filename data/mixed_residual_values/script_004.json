@@ -1,0 +1,289 @@
+{
+  "description": "Reviewed Korean for mixed/Japanese residual script targets, batch 004 (dialogue band, up to 62D49A). Records from 62D650 are held back pending the non-dialogue data-region decision.",
+  "region": "script",
+  "batch": "script_004",
+  "reviewer": "Kiro",
+  "entries": {
+    "script:62604C": {
+      "ko": "윽……！！"
+    },
+    "script:62605E": {
+      "ko": "동방불패　마스터・아시아！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: the emphatic っ trailed the Korean title and name. Replaced the complete vocative, keeping 동방불패 as the established title."
+    },
+    "script:62606B": {
+      "ko": "각오해라아앗！！"
+    },
+    "script:62607C": {
+      "ko": "……멍청한　놈이　감히！！"
+    },
+    "script:6260A3": {
+      "ko": "십이왕방패！　대차병！！"
+    },
+    "script:6260D7": {
+      "ko": "윽！"
+    },
+    "script:6260EE": {
+      "ko": "에잇……！"
+    },
+    "script:626102": {
+      "ko": "이　바보　제자가！！",
+      "terms": {
+        "バカ": "바보"
+      }
+    },
+    "script:626148": {
+      "ko": "……윽！！"
+    },
+    "script:6264E3": {
+      "ko": "그래！"
+    },
+    "script:626501": {
+      "ko": "……윽！"
+    },
+    "script:6265EE": {
+      "ko": "흥……！"
+    },
+    "script:626726": {
+      "ko": "그런　것으로는"
+    },
+    "script:6268A2": {
+      "ko": "……윽！？"
+    },
+    "script:626E1D": {
+      "ko": "……윽！！"
+    },
+    "script:626FF9": {
+      "ko": "윽……！！"
+    },
+    "script:62730B": {
+      "ko": "……그렇다。　부탁한다。"
+    },
+    "script:627320": {
+      "ko": "……흥！"
+    },
+    "script:627673": {
+      "ko": "……윽！！"
+    },
+    "script:62779C": {
+      "ko": "……윽！！"
+    },
+    "script:62782A": {
+      "ko": "……타인의　간섭　따위！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の preceded and など followed the Korean 간섭. Replaced the whole phrase with the Korean genitive 의 and 따위."
+    },
+    "script:627844": {
+      "ko": "……윽！！"
+    },
+    "script:627C91": {
+      "ko": "훗……"
+    },
+    "script:627CA7": {
+      "ko": "덤벼　오겠다는　거냐……재미있군！！"
+    },
+    "script:627EAC": {
+      "ko": "……윽！！"
+    },
+    "script:627F58": {
+      "ko": "윽……！"
+    },
+    "script:627F60": {
+      "ko": "또、티파・아딜인가……！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: か followed the Korean name as a Japanese sentence ending. Replaced the complete line including また and the trailing question."
+    },
+    "script:627FFE": {
+      "ko": "……윽！！"
+    },
+    "script:628054": {
+      "ko": "아、그래……"
+    },
+    "script:628086": {
+      "ko": "……뭐라고！？"
+    },
+    "script:628524": {
+      "ko": "감사합니다。"
+    },
+    "script:6285A9": {
+      "ko": "저건　대체、"
+    },
+    "script:62866C": {
+      "ko": "……윽！？"
+    },
+    "script:628AE7": {
+      "ko": "……윽！！"
+    },
+    "script:628BE6": {
+      "ko": "아가마는",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: は followed the Korean ship name. Replaced the whole phrase with the Korean topic ending 는."
+    },
+    "script:628C54": {
+      "ko": "아가마를",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を followed the Korean ship name. Replaced the whole phrase with the Korean object ending 를."
+    },
+    "script:6290AA": {
+      "ko": "……건담！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: the emphatic っ trailed the Korean 건담. Replaced the complete exclamation."
+    },
+    "script:6292CD": {
+      "ko": "티탄즈가",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: が followed the Korean 티탄즈. Replaced the whole phrase with the Korean subject ending 가."
+    },
+    "script:6292FE": {
+      "ko": "……윽！！"
+    },
+    "script:62938C": {
+      "ko": "티탄즈가",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: duplicate of 6292CD; replaced with the same complete Korean phrase."
+    },
+    "script:6293BD": {
+      "ko": "……윽！！"
+    },
+    "script:629879": {
+      "ko": "네。"
+    },
+    "script:629A52": {
+      "ko": "……음？"
+    },
+    "script:629BC6": {
+      "ko": "뭐라고！？"
+    },
+    "script:629BDF": {
+      "ko": "아니。"
+    },
+    "script:629C72": {
+      "ko": "고맙게　받아　두겠습니다。"
+    },
+    "script:629CB4": {
+      "ko": "지금부터　콜로니・레이저　공략작전을",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: これより and を wrapped the Korean 콜로니・레이저 and 작전. Replaced the whole clause with 지금부터 and the Korean object ending 을."
+    },
+    "script:629CDA": {
+      "ko": "콜로니・레이저를　목표로　해라！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を and 目指せ followed the Korean weapon name. Replaced the complete imperative sentence."
+    },
+    "script:629D11": {
+      "ko": "콜로니・레이저를　파괴하는　거다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を and 破壊するんだ followed the Korean weapon name. Replaced the complete sentence."
+    },
+    "script:629DAF": {
+      "ko": "콜로니・레이저의　발사　준비、",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の and 発射 sat between the Korean weapon name and 준비. Replaced the whole clause with the Korean genitive 의."
+    },
+    "script:629F6E": {
+      "ko": "좋아！"
+    },
+    "script:629F8E": {
+      "ko": "안　되겠군！"
+    },
+    "script:629FAF": {
+      "ko": "콜로니・레이저를　파괴하는　거다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: duplicate of 629D11; replaced with the same complete Korean sentence."
+    },
+    "script:629FF7": {
+      "ko": "콜로니・레이저를　파괴하는　거다！！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: duplicate of 629D11; replaced with the same complete Korean sentence."
+    },
+    "script:62A218": {
+      "ko": "훗……"
+    },
+    "script:62A32E": {
+      "ko": "턴Ｘ를　어어어！"
+    },
+    "script:62A4CB": {
+      "ko": "윽！"
+    },
+    "script:62ABB6": {
+      "ko": "윽……"
+    },
+    "script:62AE84": {
+      "ko": "흥……！"
+    },
+    "script:62B3C8": {
+      "ko": "소속　불명　모빌슈트가　２기！",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: の preceded and が followed the Korean 모빌슈트. Replaced the complete report line including 所属不明 and the unit counter."
+    },
+    "script:62B74F": {
+      "ko": "그렇다！"
+    },
+    "script:62BB1E": {
+      "ko": "저는　포우……포우・무라사메。"
+    },
+    "script:62BC2F": {
+      "ko": "ＮＴ－００１호！！",
+      "review_notes": "The source ＮＴ一００１っ uses the kanji 一 as the hyphen, so the line counts as Japanese-bearing. Rendered the designation with the Korean counter 호 so the localized body carries Hangul."
+    },
+    "script:62BCB7": {
+      "ko": "아……"
+    },
+    "script:62BCBE": {
+      "ko": "나、나……！！"
+    },
+    "script:62BCFB": {
+      "ko": "좋아！"
+    },
+    "script:62BF64": {
+      "ko": "……응？"
+    },
+    "script:62C1B6": {
+      "ko": "으、응……"
+    },
+    "script:62C49B": {
+      "ko": "레이라・레이몬드　양이었지。"
+    },
+    "script:62C6EA": {
+      "ko": "……윽！"
+    },
+    "script:62C7B8": {
+      "ko": "어떻게　하시겠습니까？"
+    },
+    "script:62CE34": {
+      "ko": "있었다！"
+    },
+    "script:62CEC5": {
+      "ko": "적　모빌슈트　출현！！"
+    },
+    "script:62CF9F": {
+      "ko": "안　되겠어！"
+    },
+    "script:62CFEE": {
+      "ko": "좋아！"
+    },
+    "script:62D133": {
+      "ko": "핫、하핫、아하하핫！！"
+    },
+    "script:62D15C": {
+      "ko": "킨케두우우！！",
+      "terms": {
+        "ゥゥ": "우우"
+      },
+      "complete_expression_review": true,
+      "review_notes": "broken_word: the small ゥゥ and closing っ were glued to the Korean name 킨케두 as a drawn-out shout. Replaced the whole cry with Korean vowel elongation."
+    },
+    "script:62D438": {
+      "ko": "좋아！"
+    },
+    "script:62D483": {
+      "ko": "좋아！"
+    },
+    "script:62D49A": {
+      "ko": "아가마를",
+      "complete_expression_review": true,
+      "review_notes": "japanese_particle: を followed the Korean ship name. Replaced the whole phrase with the Korean object ending 를."
+    }
+  }
+}

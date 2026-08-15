@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "test_rom_candidate_v3_user_feedback",
+  "parent_sha256": "9ba9804dac603d84efe75bff6efecfebd2b55ef7bd602671c375f97791f61d75",
+  "font": "assets/fonts/galmuri_tmp/Galmuri11-Bold.ttf",
+  "adjustments": [
+    {"logical": "4C5234", "label": "육탄!", "mode": "edge_cleanup", "reason": "left residual at x=4"},
+    {"logical": "4C5A54", "label": "↑기동", "mode": "directional_redraw", "text": "기동", "tone": "bright", "zone": [13, 44]},
+    {"logical": "4C5BD4", "label": "↓기동", "mode": "directional_redraw", "text": "기동", "tone": "down", "zone": [13, 44]},
+    {"logical": "4CBA2A", "label": "↑반응", "mode": "directional_redraw", "text": "반응", "tone": "bright", "zone": [13, 44]},
+    {"logical": "4CBBAA", "label": "↓반응", "mode": "directional_redraw", "text": "반응", "tone": "down", "zone": [13, 44]},
+    {"logical": "4CBD2A", "label": "↑이동", "mode": "directional_redraw", "text": "이동", "tone": "bright", "zone": [13, 44]},
+    {"logical": "4CE56A", "label": "ID소거", "mode": "bold_redraw", "text": "ID소거", "layout": "mixed_ascii", "font_size": 11, "letter_spacing": 0, "edge_cleanup": true, "reason": "wider text plus both-side residual cleanup"}
+  ]
+}

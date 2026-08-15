@@ -1,0 +1,321 @@
+{
+  "description": "Battle/HUD/menu shared dictionary terms (exact 5F slot match → spill). Complements ui_system_ko.json. Short KO for high-visibility repeated UI.",
+  "_marker_note": "marker is not declared here on purpose: the installed Hangul run marker is read from tools/hangul_marker.py (out/patch/hangul_char_map.json). A frozen value here goes stale on retarget and writes a real character instead.",
+  "entries": [
+    {
+      "jp": "結果",
+      "ko": "결과",
+      "cat": "hud"
+    },
+    {
+      "jp": "中止",
+      "ko": "중지",
+      "cat": "hud"
+    },
+    {
+      "jp": "待機中",
+      "ko": "대기중",
+      "cat": "hud"
+    },
+    {
+      "jp": "イべント",
+      "ko": "이벤트",
+      "cat": "hud"
+    },
+    {
+      "jp": "開始",
+      "ko": "시작",
+      "cat": "hud"
+    },
+    {
+      "jp": "デ－タ",
+      "ko": "데이터",
+      "cat": "hud"
+    },
+    {
+      "jp": "返事",
+      "ko": "회신",
+      "cat": "hud"
+    },
+    {
+      "jp": "到着",
+      "ko": "도착",
+      "cat": "hud"
+    },
+    {
+      "jp": "発動",
+      "ko": "발동",
+      "cat": "hud"
+    },
+    {
+      "jp": "完了",
+      "ko": "완료",
+      "cat": "hud"
+    },
+    {
+      "jp": "艦隊",
+      "ko": "함대",
+      "cat": "hud"
+    },
+    {
+      "jp": "戦艦",
+      "ko": "전함",
+      "cat": "hud"
+    },
+    {
+      "jp": "機体",
+      "ko": "기체",
+      "cat": "hud"
+    },
+    {
+      "jp": "基地",
+      "ko": "기지",
+      "cat": "hud"
+    },
+    {
+      "jp": "宇宙",
+      "ko": "우주",
+      "cat": "hud"
+    },
+    {
+      "jp": "地球",
+      "ko": "지구",
+      "cat": "hud"
+    },
+    {
+      "jp": "宙域",
+      "ko": "공역",
+      "cat": "hud"
+    },
+    {
+      "jp": "タ－ン",
+      "ko": "턴",
+      "cat": "hud"
+    },
+    {
+      "jp": "ポイント",
+      "ko": "포인트",
+      "cat": "hud"
+    },
+    {
+      "jp": "バックステ－ジ",
+      "ko": "백스테이지",
+      "cat": "hud"
+    },
+    {
+      "jp": "よろしい",
+      "ko": "괜찮",
+      "cat": "hud"
+    },
+    {
+      "jp": "ですか",
+      "ko": "나요",
+      "cat": "hud"
+    },
+    {
+      "jp": "艦長",
+      "ko": "함장",
+      "cat": "ui"
+    },
+    {
+      "jp": "上昇",
+      "ko": "상승",
+      "cat": "ui"
+    },
+    {
+      "jp": "自分",
+      "ko": "자신",
+      "cat": "ui"
+    },
+    {
+      "jp": "東方不敗",
+      "ko": "동방불패",
+      "cat": "name"
+    },
+    {
+      "jp": "登録",
+      "ko": "등록",
+      "cat": "hud"
+    },
+    {
+      "jp": "解除",
+      "ko": "해제",
+      "cat": "hud"
+    },
+    {
+      "jp": "送信",
+      "ko": "송신",
+      "cat": "hud"
+    },
+    {
+      "jp": "補修",
+      "ko": "보수",
+      "cat": "hud"
+    },
+    {
+      "jp": "費用",
+      "ko": "비용",
+      "cat": "hud"
+    },
+    {
+      "jp": "入手",
+      "ko": "입수",
+      "cat": "hud"
+    },
+    {
+      "jp": "アイテム",
+      "ko": "아이템",
+      "cat": "hud"
+    },
+    {
+      "jp": "レべル",
+      "ko": "레벨",
+      "cat": "hud"
+    },
+    {
+      "jp": "アップ",
+      "ko": "업",
+      "cat": "hud"
+    },
+    {
+      "jp": "対象",
+      "ko": "대상",
+      "cat": "hud"
+    },
+    {
+      "jp": "所有",
+      "ko": "소유",
+      "cat": "hud"
+    },
+    {
+      "jp": "使用",
+      "ko": "사용",
+      "cat": "hud"
+    },
+    {
+      "jp": "パ－ツ",
+      "ko": "파츠",
+      "cat": "hud"
+    },
+    {
+      "jp": "掃討",
+      "ko": "소탕",
+      "cat": "hud"
+    },
+    {
+      "jp": "残存",
+      "ko": "잔존",
+      "cat": "hud"
+    },
+    {
+      "jp": "勢力",
+      "ko": "세력",
+      "cat": "hud"
+    },
+    {
+      "jp": "報告",
+      "ko": "보고",
+      "cat": "hud"
+    },
+    {
+      "jp": "不具合",
+      "ko": "오류",
+      "cat": "hud"
+    },
+    {
+      "jp": "発生",
+      "ko": "발생",
+      "cat": "hud"
+    },
+    {
+      "jp": "ボ－ナス",
+      "ko": "보너스",
+      "cat": "hud"
+    },
+    {
+      "jp": "ＥＸＰ",
+      "ko": "ＥＸＰ",
+      "cat": "hud"
+    },
+    {
+      "jp": "チーム",
+      "ko": "팀",
+      "cat": "hud"
+    },
+    {
+      "jp": "チ－ム",
+      "ko": "팀",
+      "cat": "hud"
+    },
+    {
+      "jp": "降ろ",
+      "ko": "내림",
+      "cat": "hud"
+    },
+    {
+      "jp": "勝",
+      "ko": "승",
+      "cat": "hud"
+    },
+    {
+      "jp": "負",
+      "ko": "패",
+      "cat": "hud"
+    },
+    {
+      "jp": "引分",
+      "ko": "무승부",
+      "cat": "hud"
+    },
+    {
+      "jp": "対戦",
+      "ko": "대전",
+      "cat": "hud"
+    },
+    {
+      "jp": "デフォルト",
+      "ko": "기본",
+      "cat": "hud"
+    },
+    {
+      "jp": "ライト",
+      "ko": "라이트",
+      "cat": "hud"
+    },
+    {
+      "jp": "ノ－マル",
+      "ko": "노멀",
+      "cat": "hud"
+    },
+    {
+      "jp": "ステ－ジ",
+      "ko": "스테이지",
+      "cat": "hud"
+    },
+    {
+      "jp": "ビュ－",
+      "ko": "뷰",
+      "cat": "hud"
+    },
+    {
+      "jp": "図鑑",
+      "ko": "도감",
+      "cat": "hud"
+    },
+    {
+      "jp": "おまけ",
+      "ko": "보너스",
+      "cat": "hud"
+    },
+    {
+      "jp": "しあわせ",
+      "ko": "행복",
+      "cat": "hud"
+    },
+    {
+      "jp": "ダメ－ジ",
+      "ko": "데미지",
+      "cat": "hud"
+    }
+  ]
+}

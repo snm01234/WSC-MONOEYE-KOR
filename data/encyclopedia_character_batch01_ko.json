@@ -1,0 +1,6262 @@
+{
+  "schema_version": 1,
+  "description": "Approved Korean character-encyclopedia localization for the front bank-5C character catalog.",
+  "scope": {
+    "start": "5C0000",
+    "end_exclusive": "5C2E62",
+    "expected_records": 693
+  },
+  "provenance": {
+    "translation_source": "llm",
+    "model": "GPT-5.6 Thinking",
+    "review_status": "approved",
+    "legacy_machine_translation_used": false,
+    "notes": "Translated directly from the audited Japanese character encyclopedia records; legacy spreadsheet machine-translation caches were neither read as translation sources nor reused."
+  },
+  "source_worklist": "D:\\monoeye\\out\\patch\\encyclopedia_character_batch01_worklist.json",
+  "counts": {
+    "lines": 693,
+    "unique_addresses": 693,
+    "max_visual_cells": 13,
+    "total_encoded_phrase_bytes": 17551
+  },
+  "lines": [
+    {
+      "abs": "5C0000",
+      "jp": "アイナ・サハリン",
+      "ko": "아이나・사할린",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0009",
+      "jp": "ジオン公国の名門サハリン家",
+      "ko": "지온　명문　사할린가",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C00F8",
+      "jp": "アグリッパ・メンテナ－",
+      "ko": "아그리파・멘테너",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C00FF",
+      "jp": "ム－ンレィスの政務を司る。",
+      "ko": "문레이스　정무　담당。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C010C",
+      "jp": "ディアナ暗殺を目論んだ挙句",
+      "ko": "디아나　암살을　꾀하고",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0118",
+      "jp": "ギンガナムを呼び込んで地球",
+      "ko": "깅가남까지　불러　지구에",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0126",
+      "jp": "に混乱をまき散らした。最期",
+      "ko": "혼란을　퍼뜨렸다。　최후엔",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0135",
+      "jp": "は部下の手にかかって死亡。",
+      "ko": "부하의　손에　죽었다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0144",
+      "jp": "小心者、かつ典型的なバカ殿",
+      "ko": "소심한　전형적　바보　군주",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0159",
+      "jp": "アストナ－ジ・メドッソ",
+      "ko": "아스토나지・메도소",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0162",
+      "jp": "エゥ－ゴの整備士。ア－ガマ",
+      "ko": "에우고　정비사。　아가마와",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C016D",
+      "jp": "ラ－・カイラム等のチ－フメ",
+      "ko": "라　카이람　등의　수석",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C017B",
+      "jp": "カニックを務めた腕利き。",
+      "ko": "정비를　맡은　실력자。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C018B",
+      "jp": "シャアの反乱のさい、ＭＳの",
+      "ko": "샤아의　반란　때　ＭＳ",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C019A",
+      "jp": "爆発に巻き込まれて死亡した",
+      "ko": "폭발에　휘말려　사망했다",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01AC",
+      "jp": "アナべル・ガト－（ＦＧ）",
+      "ko": "애너벨・가토（ＦＧ）",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01BB",
+      "jp": "ジオン軍のＭＳパイロット。",
+      "ko": "지온군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01C5",
+      "jp": "ソロモンを巡る戦いで鬼神の",
+      "ko": "솔로몬　전투에서　귀신같은",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01D4",
+      "jp": "ごとき戦いぶりを発揮し、連",
+      "ko": "활약을　펼쳐　연방군",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01E1",
+      "jp": "邦軍将兵から「ソロモンの悪",
+      "ko": "장병들에게　솔로몬의　악몽",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01F1",
+      "jp": "夢」として恐れられた。",
+      "ko": "으로　두려움을　샀다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C01FF",
+      "jp": "アナべル・ガト－",
+      "ko": "애너벨・가토",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0206",
+      "jp": "ー年戦争後のガト－。",
+      "ko": "１년전쟁　이후의　가토。",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C020E",
+      "jp": "デラ－ズフリ－トに参加し、",
+      "ko": "데라즈　플리트에　참가해",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C029E",
+      "jp": "アムロ・レイ",
+      "ko": "아무로・레이",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02A5",
+      "jp": "「機動戦士ガンダム」の主人",
+      "ko": "기동전사　건담의　주인공",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02B4",
+      "jp": "公。内向的な少年だったが、",
+      "ko": "내성적　소년이었지만",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02C4",
+      "jp": "偶然ガンダムに乗りこんだ事",
+      "ko": "우연히　건담에　탄　일을",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02D1",
+      "jp": "をきっかけにそのパイロット",
+      "ko": "계기로　그　파일럿이　되어",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02DC",
+      "jp": "となり、戦いを通じてニュ－",
+      "ko": "싸우며　뉴타입으로",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02EA",
+      "jp": "タイプへと覚醒していった。",
+      "ko": "각성해　갔다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C02F9",
+      "jp": "アムロ・レイ（Ｚ）",
+      "ko": "아무로・레이（Ｚ）",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0306",
+      "jp": "Ｚガンダム時代のアムロ。",
+      "ko": "Ｚ건담　시절의　아무로。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0311",
+      "jp": "さすがに元主人公を活躍させ",
+      "ko": "전　주인공을　활약시킬　수",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0320",
+      "jp": "るわけにはいかなかったのか",
+      "ko": "없었던　탓인지",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C032D",
+      "jp": "良い所が少なく、影も薄い。",
+      "ko": "활약도　존재감도　적다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C033E",
+      "jp": "ついにガンダムにも乗れなか",
+      "ko": "끝내　건담에도　못　탔고",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C034A",
+      "jp": "ったし……。",
+      "ko": "말이다……。",
+      "visual_cells": 6,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0352",
+      "jp": "アルファ・Ａ・べイト",
+      "ko": "알파・Ａ・베이트",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C035E",
+      "jp": "モンシア、アデルと共にアル",
+      "ko": "몬시아、　아델과　함께",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C036A",
+      "jp": "ビオンに配備されたパイロッ",
+      "ko": "알비온에　배치된",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0377",
+      "jp": "ト。初めは意地の悪いところ",
+      "ko": "파일럿。　처음엔　심술궂은",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0387",
+      "jp": "を見せていたが、バニングの",
+      "ko": "면을　보였으나　버닝",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0393",
+      "jp": "死後、新たに隊長となったこ",
+      "ko": "사후　새　대장이　되며",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03A2",
+      "jp": "とで落ち着いた（？）。",
+      "ko": "차분해졌다（？）。",
+      "visual_cells": 9,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03BA",
+      "jp": "アナハイム・エレクトロニク",
+      "ko": "애너하임　일렉트로닉스",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03C5",
+      "jp": "スの重役で、エゥ－ゴのスポ",
+      "ko": "중역이자　에우고　후원자",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03D4",
+      "jp": "ンサ－代表。得意技は修正。",
+      "ko": "대표。　특기는　수정。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03E4",
+      "jp": "空手をやっていたカミ－ユを",
+      "ko": "공수도　경험자　카미유를",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C03F1",
+      "jp": "たやすくあしらい、顔面にパ",
+      "ko": "가볍게　제압하고　얼굴에",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0401",
+      "jp": "ンチをいれたのはさすが？",
+      "ko": "주먹을　날린　건　역시？",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0417",
+      "jp": "「Ｖガンダム」の主人公。",
+      "ko": "Ｖ건담의　주인공。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0427",
+      "jp": "片想いのお姉さんにハッキン",
+      "ko": "짝사랑한　누나를　해킹한",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0437",
+      "jp": "グをしかけた挙句、最終回に",
+      "ko": "끝에　최종화에서는",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0448",
+      "jp": "はナイフで刺されるなど、と",
+      "ko": "칼에　찔리기까지　하는　등",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0456",
+      "jp": "ても「１３才の少年」とは思",
+      "ko": "도저히　１３세　소년이라",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0467",
+      "jp": "えぬ波乱万丈な経歴の持ち主",
+      "ko": "보기힘든파란만장한경력",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0487",
+      "jp": "連邦軍の艦長。デラ－ズ紛争",
+      "ko": "연방군함장。데라즈분쟁",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0494",
+      "jp": "においては新鋭艦アルビオン",
+      "ko": "때　신예함　알비온을",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C049F",
+      "jp": "を指揮して各地を転戦したが",
+      "ko": "지휘하며각지를전전했지만",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04AE",
+      "jp": "事件が決着した後、責任を取",
+      "ko": "사건　종결　뒤　책임을",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04BC",
+      "jp": "らされて銃殺刑に処された。",
+      "ko": "지고　총살형에　처해졌다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04CC",
+      "jp": "良い人は長生きできない？",
+      "ko": "좋은　사람은　단명한다？",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04E1",
+      "jp": "デラ－ズ・フリ－ト総帥。",
+      "ko": "데라즈　플리트　총수。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04EA",
+      "jp": "艦長室にギレンの胸像を飾る",
+      "ko": "함장실에　기렌　흉상을　둘",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C04FB",
+      "jp": "ほどの熱烈なギレン信奉者。",
+      "ko": "만큼열렬한기렌추종자。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C050B",
+      "jp": "地球にコロニ－落としをしか",
+      "ko": "지구에　콜로니　낙하를",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0518",
+      "jp": "けるなど、考え方もギレンに",
+      "ko": "시도하는　등　사고방식도",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0526",
+      "jp": "似ていたようだ。",
+      "ko": "기렌과　비슷한　듯하다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0538",
+      "jp": "エゥ－ゴのＭＳパイロット。",
+      "ko": "에우고　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0541",
+      "jp": "かつてはティタ－ンズのー員",
+      "ko": "과거　티탄즈　대원이었으나",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C054B",
+      "jp": "だったが、ティタ－ンズの非",
+      "ko": "티탄즈의　비도덕성에",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0555",
+      "jp": "道に反感を抱いてエゥ－ゴに",
+      "ko": "반감을　품고　에우고에",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0565",
+      "jp": "身を投じた。",
+      "ko": "몸을　던졌다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0576",
+      "jp": "政府再建委員会のエ－ジェン",
+      "ko": "정부재건위　요원",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C058A",
+      "jp": "トで、シャギアとは双子。",
+      "ko": "이며　샤기아의　쌍둥이。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0596",
+      "jp": "なにかにつけて「兄さん」と",
+      "ko": "무슨　일마다　형이라고",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05A5",
+      "jp": "口にするブラコンぶりが印象",
+      "ko": "부르는　형　사랑이　인상적",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05B5",
+      "jp": "的。兄とはテレパシ－で会話",
+      "ko": "형과는　텔레파시로　대화",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05C6",
+      "jp": "ができるらしい。",
+      "ko": "할　수　있다고　한다。",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05CE",
+      "jp": "カイ・シデン",
+      "ko": "카이・시덴",
+      "visual_cells": 5,
+      "encoded_bytes": 13,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05D6",
+      "jp": "連邦軍のＭＳパイロット。",
+      "ko": "연방군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05DF",
+      "jp": "ガンキャノンを操縦する。",
+      "ko": "건캐논을　조종한다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05ED",
+      "jp": "はじめは単なるひねくれ者だ",
+      "ko": "처음엔비뚤어진성격이었지만",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C05FD",
+      "jp": "ったが、戦いを通じて成長し",
+      "ko": "전투를　거치며　성장해",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C060B",
+      "jp": "ー人前の兵士となっていった",
+      "ko": "한사람몫의병사가됐다",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0618",
+      "jp": "カイ・シデン（Ｚ）",
+      "ko": "카이・시덴（Ｚ）",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0626",
+      "jp": "ー年戦争終結後のカイ。",
+      "ko": "１년전쟁종전후의카이。",
+      "visual_cells": 11,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0630",
+      "jp": "フリ－のジャ－ナリスト。",
+      "ko": "프리랜서　기자。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C063D",
+      "jp": "レコアさんとはいい感じにな",
+      "ko": "레코아와좋은분위기였지만",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C064B",
+      "jp": "っていたが、その後の発展は",
+      "ko": "그　뒤　관계의　진전은",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0658",
+      "jp": "全くなし。「Ｚガンダム」で",
+      "ko": "전혀　없었다。　Ｚ건담에선",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0667",
+      "jp": "は、ただのチョイ役だった。",
+      "ko": "그저　단역이었다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0677",
+      "jp": "カクリコン・カク－ラ－",
+      "ko": "카크리콘・카쿠라",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0681",
+      "jp": "ティタ－ンズのパイロット。",
+      "ko": "티탄즈　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0688",
+      "jp": "相棒のジェリドと共に何度も",
+      "ko": "파트너제리드와몇번이나",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0697",
+      "jp": "ア－ガマを襲うが失敗続き。",
+      "ko": "아가마를습격하나계속실패",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C06A5",
+      "jp": "最期は大気圏で燃え尽きた。",
+      "ko": "최후엔대기권에서불탔다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C06B4",
+      "jp": "死の間際に愛人の名を叫んだ",
+      "ko": "죽기　직전　연인의　이름을",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C06C6",
+      "jp": "ところが唯ーの見せ場？",
+      "ko": "외친것이유일한명장면？",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C06D3",
+      "jp": "カツ・コバヤシ",
+      "ko": "카츠・코바야시",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C06DC",
+      "jp": "１年戦争時ホワイトべ－スに",
+      "ko": "１년전쟁때화이트베이스에",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0791",
+      "jp": "カテジナ・ル－ス（敵）",
+      "ko": "카테지나・루스（적）",
+      "visual_cells": 10,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C079D",
+      "jp": "後にザンスカ－ル帝国の兵士",
+      "ko": "이후　잔스칼　제국　병사가",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C07AD",
+      "jp": "としてウッソの前に立ちふさ",
+      "ko": "되어웃소의앞을가로막은",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C07BA",
+      "jp": "がることになったカテジナ。",
+      "ko": "카테지나의　모습。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C07C4",
+      "jp": "性格の変ぼうぶりが印象的。",
+      "ko": "성격의　급변이　인상적。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C07D9",
+      "jp": "小説版では「洗脳を受けた」",
+      "ko": "소설판에서는　세뇌를",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C07EF",
+      "jp": "という設定になっていた。",
+      "ko": "받았다는　설정이었다。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0803",
+      "jp": "「機動戦士Ｚガンダム」の主",
+      "ko": "기동전사　Ｚ건담의",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0813",
+      "jp": "人公。キレやすい性格の持ち",
+      "ko": "주인공。　쉽게　흥분하는",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0825",
+      "jp": "主で、怒って他人をなぐるこ",
+      "ko": "성격이라남을때리는일도",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0836",
+      "jp": "ともしばしば。作中ではジェ",
+      "ko": "많았다。작중　제리드와",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0844",
+      "jp": "リドとクワトロが鉄拳制裁の",
+      "ko": "크와트로가　주먹질의",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0854",
+      "jp": "タ－ゲットになっていた。",
+      "ko": "표적이　되었다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C085D",
+      "jp": "ガロ－ド・ラン",
+      "ko": "가로드・란",
+      "visual_cells": 5,
+      "encoded_bytes": 13,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0864",
+      "jp": "「ガンダムＸ」の主人公。",
+      "ko": "건담　Ｘ의　주인공。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0874",
+      "jp": "ガンダムシリ－ズでは珍しい",
+      "ko": "건담　시리즈에선　드문",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0881",
+      "jp": "オ－ルドタイプの主人公で、",
+      "ko": "올드타입　주인공으로",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C088C",
+      "jp": "ニュ－タイプ少女ティファを",
+      "ko": "뉴타입　소녀　티파를",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0894",
+      "jp": "守るため戦いに身を投じた。",
+      "ko": "지키려싸움에뛰어들었다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08A5",
+      "jp": "知名度が低いのが欠点（？）",
+      "ko": "낮은인지도가단점（？）。",
+      "visual_cells": 12,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08BA",
+      "jp": "キキ",
+      "ko": "키키",
+      "visual_cells": 2,
+      "encoded_bytes": 6,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08BE",
+      "jp": "ＯＶＡ「ラストリゾ－ト」に",
+      "ko": "ＯＶＡ　라스트　리조트에",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08D2",
+      "jp": "登場。フラナガン機関に育て",
+      "ko": "등장。　플라나간　기관에서",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08DE",
+      "jp": "られていたニュ－タイプ。",
+      "ko": "길러진　뉴타입。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08E6",
+      "jp": "シロ－と出会い、彼と知り合",
+      "ko": "시로와만나그의지인이던",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C08F3",
+      "jp": "いだった少女キキの名をもら",
+      "ko": "소녀　키키의　이름을　받게",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0901",
+      "jp": "った。",
+      "ko": "됐다。",
+      "visual_cells": 3,
+      "encoded_bytes": 7,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0906",
+      "jp": "キシリア・ザビ",
+      "ko": "키시리아・자비",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C090D",
+      "jp": "ザビ家の長女。兄ギレンに匹",
+      "ko": "자비가장녀。오빠기렌에",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C091D",
+      "jp": "敵するほど有能な人物だった",
+      "ko": "필적할　만큼　유능했지만",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C092C",
+      "jp": "が、結局その有能さ故に確執",
+      "ko": "결국그능력탓에갈등을",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C093F",
+      "jp": "を起こし、最期は自らの手で",
+      "ko": "빚어　마지막엔　직접",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C094E",
+      "jp": "ギレンを殺した。設定では年",
+      "ko": "기렌을죽였다。설정나이",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C095F",
+      "jp": "齢２４才……ホントに？",
+      "ko": "２４세……정말로？",
+      "visual_cells": 9,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C096F",
+      "jp": "キム",
+      "ko": "킴",
+      "visual_cells": 1,
+      "encoded_bytes": 4,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0973",
+      "jp": "ー年戦争初期にジョニ－・ラ",
+      "ko": "１년전쟁초조니라이덴이",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C097F",
+      "jp": "イデンが小隊を組んでいた時",
+      "ko": "소대를　꾸렸을　때의",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C098F",
+      "jp": "の部下。名称が記録に残され",
+      "ko": "부하。　이름만　기록에",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09A0",
+      "jp": "ているのみで、キマイラ隊ま",
+      "ko": "남아　키마이라대까지",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09AD",
+      "jp": "でついていったのかどうかは",
+      "ko": "따라갔는지는",
+      "visual_cells": 6,
+      "encoded_bytes": 14,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09B9",
+      "jp": "不明である。",
+      "ko": "불명이다。",
+      "visual_cells": 5,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09C8",
+      "jp": "ム－ンレィスの武門の長。",
+      "ko": "문레이스　무문의　수장。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09D3",
+      "jp": "傲岸不遜かつ好戦的な性格の",
+      "ko": "오만불손하고　호전적인",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09E8",
+      "jp": "持ち主で月と地球の内紛に乗",
+      "ko": "성격으로달과지구내전에",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C09FC",
+      "jp": "じて戦火を拡大していった。",
+      "ko": "편승해　전화를　확대했다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0A0B",
+      "jp": "最終回で主人公とチャンバラ",
+      "ko": "최종화에서　주인공과",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0A1F",
+      "jp": "をした２人目の男。",
+      "ko": "검투를한두번째남자。",
+      "visual_cells": 10,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0A32",
+      "jp": "ネオ・ジオンの騎士（士官）",
+      "ko": "네오　지온의　기사（장교）",
+      "visual_cells": 13,
+      "encoded_bytes": 32,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0AEE",
+      "jp": "ジオン突撃機動軍の将校。",
+      "ko": "지온　돌격기동군　장교。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0AF9",
+      "jp": "「サイクロプス隊」の上司で",
+      "ko": "사이클롭스대의　상관으로",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B06",
+      "jp": "ガンダムＮＴ一１奪取作戦を",
+      "ko": "건담ＮＴ－１탈취작전을",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B13",
+      "jp": "指揮した。無能な上に非道な",
+      "ko": "지휘했다。무능하고잔혹한",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B21",
+      "jp": "人物で、サイド６への核攻撃",
+      "ko": "인물로사이드６에핵공격을",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B2E",
+      "jp": "を行おうとした。",
+      "ko": "가하려　했다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B37",
+      "jp": "ギレン・ザビ",
+      "ko": "기렌・자비",
+      "visual_cells": 5,
+      "encoded_bytes": 13,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B3E",
+      "jp": "ジオン公国の総帥。",
+      "ko": "지온　공국　총수。",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B47",
+      "jp": "選民思想の持ち主で、公国の",
+      "ko": "선민사상을　지녔고　공국의",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B59",
+      "jp": "実権を掌握してー年戦争を引",
+      "ko": "실권을　장악해　１년전쟁을",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B68",
+      "jp": "き起こした。しかし父デギン",
+      "ko": "일으켰다。　하지만　아버지",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B76",
+      "jp": "を謀殺したことが原因で、妹",
+      "ko": "데긴을모살한탓에여동생",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B85",
+      "jp": "キシリアに殺害されている。",
+      "ko": "키시리아에게　살해됐다。",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0B98",
+      "jp": "新クロスボ－ン・バンガ－ド",
+      "ko": "신　크로스본　뱅가드",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BA0",
+      "jp": "のー員で、ガンダムＸ１のパ",
+      "ko": "일원이며　건담　Ｘ１의",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BAD",
+      "jp": "イロット。その正体は「ガン",
+      "ko": "파일럿。　정체는　건담",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BBD",
+      "jp": "ダムＦ９１」主人公シ－ブッ",
+      "ko": "Ｆ９１　주인공　시북",
+      "visual_cells": 10,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BD0",
+      "jp": "ク・アノ－。よりアグレッシ",
+      "ko": "아노。　더욱　적극적이고",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BDE",
+      "jp": "ブで主人公らしくなった…？",
+      "ko": "주인공다워졌다……？",
+      "visual_cells": 10,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0BF5",
+      "jp": "イングレッサの指導者。",
+      "ko": "잉그렛사의　지도자。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0C00",
+      "jp": "産業革命を志し、ム－ンレィ",
+      "ko": "산업혁명을꿈꾸며문레이스",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0C88",
+      "jp": "連邦軍のテストパイロット。",
+      "ko": "연방군　테스트　파일럿。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0C91",
+      "jp": "故郷サイド６でガンダムＮＴ",
+      "ko": "고향　사이드６에서　건담",
+      "visual_cells": 12,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0C9F",
+      "jp": "一１の最終調整にあたってい",
+      "ko": "ＮＴ－１　최종　조정　중",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CB0",
+      "jp": "たが、ジオン軍による奪取作",
+      "ko": "지온군의　탈취　작전에",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CBD",
+      "jp": "戦にまきこまれてしまう。",
+      "ko": "휘말리고　말았다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CD2",
+      "jp": "ネオ・ジオンの士官で、ザビ",
+      "ko": "네오　지온　장교로　자비가",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CDF",
+      "jp": "家の血を引いていた。後に、",
+      "ko": "혈통을　이었다。　훗날",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CF0",
+      "jp": "己の血を自覚してハマ－ンに",
+      "ko": "자신의피를자각해하만에게",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0CFF",
+      "jp": "対して反旗をひるがえす。",
+      "ko": "반기를　들었다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D10",
+      "jp": "ギレンのクロ－ンとも言われ",
+      "ko": "기렌의　클론이라고도　하나",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D1D",
+      "jp": "るが、その真相は不明。",
+      "ko": "진상은　불명이다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D34",
+      "jp": "シャア・アズナブルが正体を",
+      "ko": "샤아・아즈나블이　정체를",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D3F",
+      "jp": "隠し、エゥ－ゴで活動してい",
+      "ko": "숨기고　에우고에서　활동할",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D4C",
+      "jp": "たときの姿……なのだが、会",
+      "ko": "때의　모습……이나　만나는",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D5A",
+      "jp": "う人ごとに「シャア」と呼ば",
+      "ko": "사람마다　샤아라　불렀던",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D6A",
+      "jp": "れていたところをみると、変",
+      "ko": "것을　보면　변장　재주는",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D79",
+      "jp": "装の才能はないようだ。",
+      "ko": "없는　듯하다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D8F",
+      "jp": "ジオン軍のＭＡパイロット。",
+      "ko": "지온군　ＭＡ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0D9B",
+      "jp": "ガト－の旧友。ー年戦争で片",
+      "ko": "가토의옛친구。１년전쟁",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0DA9",
+      "jp": "腕を失い、月でジャンク屋を",
+      "ko": "때한쪽팔을잃고달에서",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0DBB",
+      "jp": "いとなむ。再起の夢がすてら",
+      "ko": "고물상을했다。재기의꿈을",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0DCC",
+      "jp": "れず、ＭＡヴァル・ヴァロで",
+      "ko": "버리지못해ＭＡ발바로로",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0DDE",
+      "jp": "コウに戦いを挑み、散った。",
+      "ko": "코우에게도전해산화했다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0DF6",
+      "jp": "「００８３」の主人公。",
+      "ko": "００８３의　주인공。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E0A",
+      "jp": "トリントン基地所属の新米テ",
+      "ko": "트링턴　기지　소속　신참",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E1A",
+      "jp": "ストパイロットであったが、",
+      "ko": "테스트　파일럿이었지만",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E25",
+      "jp": "ＧＰ０１のパイロットとなり",
+      "ko": "ＧＰ０１의　파일럿이　되어",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E33",
+      "jp": "デラ－ズ紛争を戦った。",
+      "ko": "데라즈　분쟁을　싸웠다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E3F",
+      "jp": "大のニンジン嫌いである。",
+      "ko": "당근을　아주　싫어한다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E4E",
+      "jp": "サウス・バニング",
+      "ko": "사우스・버닝",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E56",
+      "jp": "連邦軍のＭＳパイロット。",
+      "ko": "연방군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E5F",
+      "jp": "ー年戦争を戦ったべテランで",
+      "ko": "１년전쟁을겪은베테랑으로",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E6B",
+      "jp": "戦後は後進の指導に当たって",
+      "ko": "전후후진양성을맡았다。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E7D",
+      "jp": "いた。コウの無茶をフォロ－",
+      "ko": "코우의　무모함을　돕고자",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E8B",
+      "jp": "しようと負傷をおして出撃し",
+      "ko": "부상을　무릅쓰고　출격해",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0E97",
+      "jp": "機関の爆発で亡くなった。",
+      "ko": "기관　폭발로　숨졌다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EA4",
+      "jp": "ザビ－ネ・シャル",
+      "ko": "자비네・샤르",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EAB",
+      "jp": "新生クロスボ－ン・バンガ－",
+      "ko": "신생　크로스본　뱅가드",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EB6",
+      "jp": "ドのパイロット。貴族主義の",
+      "ko": "파일럿。　귀족주의　부활을",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EBF",
+      "jp": "復活を腹の奥底に隠しながら",
+      "ko": "속내에　감춘　채",
+      "visual_cells": 8,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0ED1",
+      "jp": "べラ・ロナに仕える。最後は",
+      "ko": "베라로나를섬긴다。끝엔",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EE0",
+      "jp": "仲間を裏切り、キンケドゥと",
+      "ko": "동료를　배신하고　킨케두와",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0EEB",
+      "jp": "壮絶な戦いを繰り広げた。",
+      "ko": "치열한　싸움을　벌였다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F04",
+      "jp": "ティタ－ンズのパイロット。",
+      "ko": "티탄즈　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F0B",
+      "jp": "グリプスのＮＴ研究所で訓練",
+      "ko": "그리프스　ＮＴ　연구소에서",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F18",
+      "jp": "を受けた強化人間で、精神的",
+      "ko": "훈련받은강화인간으로정신이",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F26",
+      "jp": "に安定している分、実力は今",
+      "ko": "안정적인　만큼　실력은",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F34",
+      "jp": "ーつ。シロッコを敬愛し彼の",
+      "ko": "평범하다。시로코를경애해",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F42",
+      "jp": "盾となって死んでいった。",
+      "ko": "그의방패가되어죽었다。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F4F",
+      "jp": "ジェリド・メサ",
+      "ko": "제리드・메사",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F56",
+      "jp": "ティタ－ンズのパイロット。",
+      "ko": "티탄즈　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F5D",
+      "jp": "カミ－ユの前に何度も立ちふ",
+      "ko": "카미유　앞을　몇　번이나",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F6A",
+      "jp": "さがる、ライバル的な役割を",
+      "ko": "가로막는　라이벌　역할의",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F77",
+      "jp": "もったキャラのはずなのだが",
+      "ko": "캐릭터였을　텐데",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F83",
+      "jp": "どちらかといえば「負けっぷ",
+      "ko": "오히려　지는　모습이",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0F94",
+      "jp": "り」が印象的。",
+      "ko": "더　인상적이다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FA8",
+      "jp": "本名ジ－クフリ－ド・ウェド",
+      "ko": "본명　지크프리트　웨드너",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FB1",
+      "jp": "ナ－、通称「シグ」。本作の",
+      "ko": "통칭　시그。　본작의",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FC2",
+      "jp": "主人公で、ブラ－ド戦隊のＭ",
+      "ko": "주인공이며브라드전대의ＭＳ",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FD1",
+      "jp": "Ｓ隊隊長を任される。",
+      "ko": "부대　대장을　맡는다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FDC",
+      "jp": "若いながら、腕は確か。",
+      "ko": "젊지만　실력은　확실하다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C0FF9",
+      "jp": "ー年戦争後のシグ。アインの",
+      "ko": "１년전쟁후의시그。아인의",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1004",
+      "jp": "裏切りによって恋人のセラを",
+      "ko": "배신으로　연인　세라를",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1013",
+      "jp": "殺された。エゥ－ゴに身を投",
+      "ko": "잃었다。　에우고에　들어가",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1021",
+      "jp": "じ、仇であるアインを追い求",
+      "ko": "원수인아인을계속쫓는다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1030",
+      "jp": "める。顔の傷はアインと戦っ",
+      "ko": "얼굴의　상처는　아인과",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C103F",
+      "jp": "た時にできたもの。",
+      "ko": "싸울　때　생긴　것。",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1051",
+      "jp": "ジオン海兵隊の指揮官。",
+      "ko": "지온　해병대　지휘관。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C105A",
+      "jp": "上官から污れ仕事を引き受け",
+      "ko": "상관에게더러운일을떠맡고",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C106C",
+      "jp": "させられた挙句、友軍から見",
+      "ko": "결국　아군에게도　버림받은",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1079",
+      "jp": "捨てられた過去を持つ。",
+      "ko": "과거가　있다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1086",
+      "jp": "だからといって、彼女の非道",
+      "ko": "그렇다해도그녀의악행이",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1093",
+      "jp": "が許されるわけではないが…",
+      "ko": "용서되는　것은　아니지만…",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10A7",
+      "jp": "ジオン軍のＭＳパイロット。",
+      "ko": "지온군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10B1",
+      "jp": "「赤い彗星」の異名を取るエ",
+      "ko": "붉은　혜성이라　불린",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10C4",
+      "jp": "－スにして有能な指揮官。",
+      "ko": "에이스이자유능한지휘관。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10D1",
+      "jp": "その正体はザビ家への復讐を",
+      "ko": "정체는　자비가에　복수를",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10E1",
+      "jp": "誓った「亡国の王子」……と",
+      "ko": "맹세한　망국의　왕자……",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C10F5",
+      "jp": "エピソ－ドに事欠かない。",
+      "ko": "일화가　끊이지　않는다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C110B",
+      "jp": "オルバの双子の兄で、政府再",
+      "ko": "올바의　쌍둥이　형이며",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C111D",
+      "jp": "建委員会のエ－ジェント。",
+      "ko": "정부재건위　요원。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C112D",
+      "jp": "各勢力の背後で暗躍しつつ、",
+      "ko": "각　세력　뒤에서　암약하며",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C113C",
+      "jp": "世界の破滅を画策していた。",
+      "ko": "세계　멸망을　꾀했다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C114B",
+      "jp": "ジャマイカン・ダニンガン",
+      "ko": "자마이칸・다니건",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1155",
+      "jp": "ティタ－ンズの指揮官。",
+      "ko": "티탄즈　지휘관。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C115C",
+      "jp": "高圧的で口うるさい性格のた",
+      "ko": "고압적이고　잔소리가　많아",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C116E",
+      "jp": "め人望は薄く、最後はヤザン",
+      "ko": "인망이없었고끝에는야잔의",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C117D",
+      "jp": "の陰謀によって死亡した。",
+      "ko": "음모로　죽었다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C118B",
+      "jp": "それにしてもティタ－ンズに",
+      "ko": "그나저나　티탄즈에는",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1191",
+      "jp": "はロクな人材がいない。",
+      "ko": "쓸　만한　인재가　없다。",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11AA",
+      "jp": "連邦軍の准将。デラ－ズ紛争",
+      "ko": "연방군준장。데라즈분쟁을",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11B7",
+      "jp": "を陰から演出した人物でもあ",
+      "ko": "뒤에서　연출한　인물이기도",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11C7",
+      "jp": "る。後にティタ－ンズを結成",
+      "ko": "하다。훗날티탄즈를결성해",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11D3",
+      "jp": "し、スぺ－スノイド弾圧を行",
+      "ko": "스페이스노이드를　탄압하게",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11DE",
+      "jp": "うことになる。",
+      "ko": "된다。",
+      "visual_cells": 3,
+      "encoded_bytes": 7,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11ED",
+      "jp": "ティタ－ンズの総帥。",
+      "ko": "티탄즈　총수。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C11F4",
+      "jp": "ティタ－ンズの勢力を背景に",
+      "ko": "티탄즈　세력을　배경　삼아",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1200",
+      "jp": "連邦政府の実権を握るのだが",
+      "ko": "연방정부　실권을　잡았지만",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C120E",
+      "jp": "シロッコの裏切りにあって、",
+      "ko": "시로코의　배신을　당해",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C121A",
+      "jp": "あっけない最期をむかえた。",
+      "ko": "허무한　최후를　맞았다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1228",
+      "jp": "シュタイナ－・ハ－ディ",
+      "ko": "슈타이너・하디",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1235",
+      "jp": "ジオン軍の特殊部隊「サイク",
+      "ko": "지온　특수부대　사이클롭스",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1243",
+      "jp": "ロプス隊」の隊長にして叩き",
+      "ko": "대의　대장이자　밑바닥부터",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1252",
+      "jp": "上げの職業軍人。ガンダムＮ",
+      "ko": "올라온　직업군인。　건담",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1261",
+      "jp": "Ｔ一１を追って部下と共に転",
+      "ko": "ＮＴ－１을　쫓아　부하들과",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1274",
+      "jp": "戦したが、連邦軍基地での銃",
+      "ko": "전전했으나　연방　기지에서",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1280",
+      "jp": "撃戦で死亡した。",
+      "ko": "총격전　중　사망했다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1292",
+      "jp": "「ガンダムＺＺ」の主人公。",
+      "ko": "건담　ＺＺ의　주인공。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12A4",
+      "jp": "行動力にあふれた明るい少年",
+      "ko": "행동력넘치는밝은소년으로",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12B3",
+      "jp": "で、成り行きからエゥ－ゴの",
+      "ko": "어쩌다　에우고의",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12C0",
+      "jp": "パイロットとなった。ガンダ",
+      "ko": "파일럿이　됐다。　건담에는",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12CB",
+      "jp": "ムには珍しい、明るく前向き",
+      "ko": "드문　밝고　긍정적인",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12DB",
+      "jp": "なタイプの主人公。",
+      "ko": "유형의　주인공。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12EF",
+      "jp": "ジオン軍のＭＳパイロット。",
+      "ko": "지온군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C12F9",
+      "jp": "「真紅の稲妻」の異名を取る",
+      "ko": "진홍의　번개라　불린",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C130B",
+      "jp": "エ－スで、シャアと同様赤い",
+      "ko": "에이스로　샤아처럼　붉은",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1319",
+      "jp": "ＭＳを駆る。キシリア・ザビ",
+      "ko": "ＭＳ를탄다。키시리아에게",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1326",
+      "jp": "には個人的な忠誠を誓ってい",
+      "ko": "개인적인　충성을　맹세했던",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1337",
+      "jp": "たらしい。",
+      "ko": "듯하다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1344",
+      "jp": "「第０８ＭＳ小隊」の主人公",
+      "ko": "제０８　ＭＳ소대　주인공",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C135A",
+      "jp": "０８小隊を率いてジオン軍と",
+      "ko": "０８소대를이끌고지온군과",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C136B",
+      "jp": "戦うが、行方不明となる。",
+      "ko": "싸우다　행방불명된다。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1375",
+      "jp": "本作に登場する彼はその後を",
+      "ko": "본작의　그는　그　이후를",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1382",
+      "jp": "扱ったＯＶＡ「ラストリゾ－",
+      "ko": "다룬ＯＶＡ라스트리조트가",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1396",
+      "jp": "ト」がモチ－フ。",
+      "ko": "모티브다。",
+      "visual_cells": 5,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13A6",
+      "jp": "ＯＶＡ「ラストリゾ－ト」に",
+      "ko": "ＯＶＡ　라스트　리조트에",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13BA",
+      "jp": "登場。フラナガン機関に育て",
+      "ko": "등장。　플라나간　기관에서",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13C6",
+      "jp": "られていたニュ－タイプ。",
+      "ko": "길러진　뉴타입。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13CE",
+      "jp": "シロ－と出会い、彼の名前を",
+      "ko": "시로를　만나　그의　이름을",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13DB",
+      "jp": "もらった。",
+      "ko": "받았다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13E9",
+      "jp": "ジオン軍のＭＳパイロット。",
+      "ko": "지온군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C13F3",
+      "jp": "「白狼」の異名を取るエ－ス",
+      "ko": "백랑이라　불린　에이스로",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1405",
+      "jp": "で、ドズルの忠実な部下。",
+      "ko": "도즐의　충실한　부하。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1411",
+      "jp": "名家の嫡男にふさわしい厳格",
+      "ko": "명문가　적자다운　엄격한",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1425",
+      "jp": "な武人で、ソリの合わない相",
+      "ko": "무인으로　마음에　안　드는",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1434",
+      "jp": "手には気難しい。",
+      "ko": "상대에겐　까다롭다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C143F",
+      "jp": "スエッソン・ステロ",
+      "ko": "스웨슨・스테로",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1446",
+      "jp": "ギンガナム艦隊のＭＳパイロ",
+      "ko": "깅가남　함대　ＭＳ",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1451",
+      "jp": "ットで、マヒロ－隊の隊長。",
+      "ko": "파일럿이며마히로대대장。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C145D",
+      "jp": "何かと「ＤＮＡが…」と口走",
+      "ko": "툭하면　ＤＮＡ가…라고",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1472",
+      "jp": "る様が印象的。作戦中に部下",
+      "ko": "말하는모습이인상적。작전중",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1483",
+      "jp": "を買い出しに走らせるほどの",
+      "ko": "부하에게장을보게할만큼",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1491",
+      "jp": "大のケ－キ好き。",
+      "ko": "케이크를　아주　좋아한다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C149D",
+      "jp": "セイラ・マス",
+      "ko": "세이라・마스",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C14A4",
+      "jp": "ホワイトべ－スのクル－で、",
+      "ko": "화이트　베이스　승무원으로",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1523",
+      "jp": "ていた……。",
+      "ko": "있었다……。",
+      "visual_cells": 6,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1532",
+      "jp": "ＯＺのＭＳパイロットにして",
+      "ko": "ＯＺ의　ＭＳ　파일럿이자",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C153E",
+      "jp": "有能な指揮官。その正体は元",
+      "ko": "유능한지휘관。정체는옛",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C154F",
+      "jp": "ピ－スクラフト王家の王子で",
+      "ko": "피스크래프트왕가의왕자이며",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1559",
+      "jp": "リリ－ナの兄。シャアに続い",
+      "ko": "리리나의오빠。샤아에이은",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1566",
+      "jp": "て「仮面の人」第２号。その",
+      "ko": "가면남　２호。　존재감도",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C157B",
+      "jp": "存在感もシャアに匹敵する。",
+      "ko": "샤아에　필적한다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1592",
+      "jp": "本名セレイン・イクスぺリ、",
+      "ko": "본명　세레인　익스페리",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C159B",
+      "jp": "愛称は「セラ」。フラナガン",
+      "ko": "애칭　세라。　플라나간",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C16E9",
+      "jp": "チャック・キ－ス",
+      "ko": "척・키스",
+      "visual_cells": 4,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C16F4",
+      "jp": "アルビオンのパイロットで、",
+      "ko": "알비온　파일럿이며",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C16FC",
+      "jp": "コウの同僚。軟派でお調子者",
+      "ko": "코우의동료。가볍고촐싹대며",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C170E",
+      "jp": "おまけに腕は頼りない。",
+      "ko": "실력도　믿음직하지　않다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C171C",
+      "jp": "ー度くらい見せ場があるかと",
+      "ko": "한번쯤활약할줄알았지만",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1729",
+      "jp": "思ったが、ほとんど良いとこ",
+      "ko": "거의　좋은　모습　없이",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1736",
+      "jp": "ろがないまま終わった。",
+      "ko": "끝나　버렸다。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1743",
+      "jp": "チャップ・アデル",
+      "ko": "챕・아델",
+      "visual_cells": 5,
+      "encoded_bytes": 13,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C174D",
+      "jp": "連邦軍のＭＳパイロット。",
+      "ko": "연방군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1756",
+      "jp": "モンシア、べイトと共にアル",
+      "ko": "몬시아、　베이트와　함께",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1762",
+      "jp": "ビオンに配備され、デラ－ズ",
+      "ko": "알비온에　배치되어　데라즈",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C176E",
+      "jp": "紛争を戦った。温厚な性格が",
+      "ko": "분쟁을　싸웠다。　온화한",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1782",
+      "jp": "わざわいして、影は薄い。",
+      "ko": "성격탓에존재감은적다。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1792",
+      "jp": "愛機はジムキャノンⅡ。",
+      "ko": "애기는　짐　캐논Ⅱ。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17A9",
+      "jp": "ム－ンレィスの女王。",
+      "ko": "문레이스의　여왕。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17B0",
+      "jp": "冷凍睡眠を繰り返して千年の",
+      "ko": "냉동수면을거듭해천년을",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17C6",
+      "jp": "時を生きてきた。地球への帰",
+      "ko": "살았다。　지구　귀환",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17D5",
+      "jp": "還作戦を実行に移すが、その",
+      "ko": "작전을　실행에　옮겼지만",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17E5",
+      "jp": "ためー連の戦乱を引き起こす",
+      "ko": "그로　인해　일련의　전란을",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C17F5",
+      "jp": "ことになってしまった。",
+      "ko": "일으키고　말았다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1805",
+      "jp": "ニュ－タイプの少女。",
+      "ko": "뉴타입　소녀。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C180C",
+      "jp": "予知や遠隔感応などの能力を",
+      "ko": "예지와　원격감응　능력을",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C181F",
+      "jp": "持ち、そのため様々な勢力に",
+      "ko": "지녀　여러　세력에게",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C182E",
+      "jp": "狙われて性格も内向的になっ",
+      "ko": "노려져　성격도　내성적으로",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1841",
+      "jp": "ていたが、ガロ－ドとの交流",
+      "ko": "변했지만가로드와교류하며",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C184F",
+      "jp": "を通じて心を開いていった。",
+      "ko": "마음을　열어　갔다。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1866",
+      "jp": "バ－トン財団の総帥。",
+      "ko": "바튼　재단　총수。",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C186F",
+      "jp": "「オぺレ－ションメテオ」を",
+      "ko": "오퍼레이션　메테오를",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C190A",
+      "jp": "れた。",
+      "ko": "받았다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C191B",
+      "jp": "元ジオン軍海兵隊員で、シ－",
+      "ko": "전　지온군　해병대원으로",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1929",
+      "jp": "マの腹心の部下。シ－マがＭ",
+      "ko": "시마의심복。시마가ＭＳ로",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1939",
+      "jp": "Ｓで出撃する際には、代わっ",
+      "ko": "출격할　때　대신",
+      "visual_cells": 8,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C194A",
+      "jp": "てリリ－マルレ－ンの指揮を",
+      "ko": "릴리　마를렌을　지휘한다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1952",
+      "jp": "取る。外見はほとんど海賊で",
+      "ko": "외모는　거의　해적이고",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1961",
+      "jp": "ある。",
+      "ko": "말이다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1971",
+      "jp": "ネオホンコン代表のガンダム",
+      "ko": "네오　홍콩　대표　건담",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C197B",
+      "jp": "ファイタ－にして「マスタ－",
+      "ko": "파이터이자　마스터",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1987",
+      "jp": "アジア」の名を持つ最強の格",
+      "ko": "아시아의이름을지닌최강",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1998",
+      "jp": "闘家。ドモンの師匠である。",
+      "ko": "격투가。도몬의스승이다。",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C19A5",
+      "jp": "Ｇガンダムの中にあってさえ",
+      "ko": "Ｇ건담　안에서도",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C19B2",
+      "jp": "抜群の存在感を誇る大人物。",
+      "ko": "압도적존재감을보인거물。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A21",
+      "jp": "トビア・アロナクス",
+      "ko": "토비아・아로낙스",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A2B",
+      "jp": "コミック「クロスボ－ンガン",
+      "ko": "만화　크로스본　건담의",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A36",
+      "jp": "ダム」の主人公。木星への留",
+      "ko": "주인공。　목성　유학길에",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A4A",
+      "jp": "学へ向かう途中、キンケドゥ",
+      "ko": "킨케두와　만나　함께",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A56",
+      "jp": "と出会い、共に戦うことにな",
+      "ko": "싸우게　된다。　ＮＴ로서는",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A65",
+      "jp": "る。ＮＴとしては珍しい、行",
+      "ko": "드문　행동력　넘치는",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A72",
+      "jp": "動力にあふれた熱血少年。",
+      "ko": "열혈　소년。",
+      "visual_cells": 6,
+      "encoded_bytes": 14,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A89",
+      "jp": "「Ｇガンダム」の主人公。",
+      "ko": "Ｇ건담의　주인공。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1A99",
+      "jp": "ネオジャパン代表のガンダム",
+      "ko": "네오　일본　대표　건담",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AA5",
+      "jp": "ファイタ－にしてコロニ－格",
+      "ko": "파이터이자　콜로니",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AB1",
+      "jp": "闘技の覇者、キング・オブ・",
+      "ko": "격투기　패자　킹　오브",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AC0",
+      "jp": "ハ－ト。語尾を力強く伸ばす",
+      "ko": "하트。말끝을힘차게늘이는",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AD1",
+      "jp": "セリフが非常に印象的。",
+      "ko": "대사가　매우　인상적。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AE5",
+      "jp": "ア－ガマのブリッジ要員。",
+      "ko": "아가마　함교　요원。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1AEF",
+      "jp": "通信・索敵・管制などを担当",
+      "ko": "통신、　색적、　관제　등을",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B01",
+      "jp": "した。若いせいかカミ－ユや",
+      "ko": "담당했다。젊은　카미유와",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B0E",
+      "jp": "ジュド－らとも上手く付き合",
+      "ko": "쥬도와도　잘　어울려",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B1B",
+      "jp": "っていた。",
+      "ko": "지냈다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B24",
+      "jp": "元シャアの副官。",
+      "ko": "전　샤아의　부관。",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B2D",
+      "jp": "シャアの素性を知っている風",
+      "ko": "샤아의　정체를　아는　듯한",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B39",
+      "jp": "な言動など、ー癖も二癖もあ",
+      "ko": "언행　등　보통이　아닌",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B4A",
+      "jp": "りそうな人物だったが、最期",
+      "ko": "인물이었으나　마지막엔",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B57",
+      "jp": "はあっけなくガンダムに艦を",
+      "ko": "허무하게　건담에게　함선을",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B63",
+      "jp": "落とされて死亡した。",
+      "ko": "잃고　사망했다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B70",
+      "jp": "バスク・オム（ＦＧ）",
+      "ko": "바스크・옴（ＦＧ）",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B7F",
+      "jp": "連邦軍の軍人で、ジャミトフ",
+      "ko": "연방군　군인이며　자미토프",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B89",
+      "jp": "・ハイマン子飼いの部下。",
+      "ko": "하이만의　직속　부하。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1B95",
+      "jp": "軍人としての能力はそれなり",
+      "ko": "군인으로서능력은그럭저럭",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BA1",
+      "jp": "にあるのだろうが、性格は粗",
+      "ko": "있는듯하나성격은난폭。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BAF",
+      "jp": "暴。後にティタ－ンズの総指",
+      "ko": "훗날　티탄즈　총지휘관이",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BBC",
+      "jp": "揮官となる。",
+      "ko": "된다。",
+      "visual_cells": 3,
+      "encoded_bytes": 7,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BCC",
+      "jp": "ティタ－ンズの総指揮官。",
+      "ko": "티탄즈　총지휘관。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BD5",
+      "jp": "常にゴ－グルをかけているの",
+      "ko": "늘　고글을　쓰는　이유는",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BE2",
+      "jp": "は、ー年戦争で捕虜になって",
+      "ko": "１년전쟁　때　포로가　되어",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BEE",
+      "jp": "いたときにジオン軍からごう",
+      "ko": "지온군에게　고문을",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1BFB",
+      "jp": "問を受けたためだという。",
+      "ko": "받았기　때문이라고　한다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C10",
+      "jp": "ジオン軍の学徒パイロット。",
+      "ko": "지온군　학도병　파일럿。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C1C",
+      "jp": "自らの意地をかけてアレック",
+      "ko": "자존심을　걸고　알렉스에",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C28",
+      "jp": "スに挑み、相打ちとなった。",
+      "ko": "도전해　서로　쓰러졌다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C37",
+      "jp": "史上数少ない、ガンダムを破",
+      "ko": "역사상　드물게　건담을",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C46",
+      "jp": "壊したパイロット。",
+      "ko": "파괴한　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C4E",
+      "jp": "……相打ちだったけど。",
+      "ko": "……동귀어진이었지만。",
+      "visual_cells": 11,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1C61",
+      "jp": "木星帰りのニュ－タイプ。",
+      "ko": "목성　귀환　뉴타입。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D12",
+      "jp": "アクシズの実権を握り、ネオ",
+      "ko": "액시즈　실권을　잡고　네오",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D21",
+      "jp": "ジオンを名乗るようになった",
+      "ko": "지온을　자칭하게　된",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D2C",
+      "jp": "ころのハマ－ン・カ－ン。",
+      "ko": "시기의　하만　칸。",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D36",
+      "jp": "ジュド－と壮絶な戦いを繰り",
+      "ko": "쥬도와　치열한　싸움을",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D45",
+      "jp": "広げ、散って行った。",
+      "ko": "벌인　끝에　산화했다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D62",
+      "jp": "少女時代のハマ－ン。",
+      "ko": "소녀　시절의　하만。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D6B",
+      "jp": "ー年戦争に参加するのはゲ－",
+      "ko": "１년전쟁　참전은　게임의",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D78",
+      "jp": "ムのオリジナル設定（正史で",
+      "ko": "독자설정이다。정사에서는",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D8B",
+      "jp": "はこの時期わずか１２才）。",
+      "ko": "이때　겨우　１２세。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1D9B",
+      "jp": "それにしても、人間変われば",
+      "ko": "그나저나　사람은　변하면",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DA5",
+      "jp": "変わるものである……。",
+      "ko": "참　크게　변한다……。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DB2",
+      "jp": "ハヤト・コバヤシ",
+      "ko": "하야토・코바야시",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DBB",
+      "jp": "ホワイトべ－スのクル－。",
+      "ko": "화이트　베이스　승무원。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DC2",
+      "jp": "サイド７の難民の１人で、ガ",
+      "ko": "사이드７난민중한명으로",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DD2",
+      "jp": "ンタンクに乗って戦うことに",
+      "ko": "건탱크를　타고　싸우게",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DE1",
+      "jp": "なる。アムロに対抗意識をも",
+      "ko": "된다。아무로를경쟁상대로",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DEE",
+      "jp": "っていたらしい。",
+      "ko": "여겼던　듯하다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1DF5",
+      "jp": "ハヤト・コバヤシ（Ｚ）",
+      "ko": "하야토・코바야시（Ｚ）",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E04",
+      "jp": "Ｚガンダム時代のハヤト。",
+      "ko": "Ｚ건담　시절　하야토。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E0F",
+      "jp": "カラバのー員で、有能な指揮",
+      "ko": "카라바　대원이며　유능한",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E1F",
+      "jp": "官であったが、養子のカツは",
+      "ko": "지휘관이었으나양자카츠는",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E2F",
+      "jp": "「アレ」な性格に育ってしま",
+      "ko": "그런성격으로자라버리는",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E42",
+      "jp": "うなど、家庭人としての才能",
+      "ko": "등　가장으로서의　재능은",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E52",
+      "jp": "には恵まれなかったようだ。",
+      "ko": "없었던　듯하다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E67",
+      "jp": "ディアナ親衛隊の隊長。",
+      "ko": "디아나　친위대　대장。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E73",
+      "jp": "金色のスモ－を駆る、ディア",
+      "ko": "금빛　스모를　모는　디아나",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E83",
+      "jp": "ナ女王への忠誠心厚き青年。",
+      "ko": "여왕에게충성깊은청년。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1E95",
+      "jp": "妙な形をした赤いサングラス",
+      "ko": "묘한모양의붉은선글라스가",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EA5",
+      "jp": "が特徵。なんでも女性に気付",
+      "ko": "특징。여자에게들키지않고",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EB1",
+      "jp": "かれずに見つめるためだとか",
+      "ko": "바라보기　위한　것이라나。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EBF",
+      "jp": "ハンゲルク・エヴィン",
+      "ko": "항게르그・에빈",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EC9",
+      "jp": "リガ・ミリティアのリ－ダ－",
+      "ko": "리가밀리티어의지도자이며",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1ED7",
+      "jp": "でウッソの父親。有能な指導",
+      "ko": "웃소의　아버지。　유능한",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EEA",
+      "jp": "者だが、わずか１３才の息子",
+      "ko": "지도자지만１３세아들에게",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1EFA",
+      "jp": "に戦闘やらモビルス－ツの操",
+      "ko": "전투와　모빌슈트　조종을",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F05",
+      "jp": "縦を習わせるなど、父親とし",
+      "ko": "가르치는　등　아버지로서는",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F17",
+      "jp": "てはどうも……。",
+      "ko": "글쎄……。",
+      "visual_cells": 5,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F28",
+      "jp": "「ガンダムＷ」の主人公で、",
+      "ko": "건담　Ｗ의　주인공이며",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F39",
+      "jp": "ガンダムパイロットのー人。",
+      "ko": "건담　파일럿　중　한　명。",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F42",
+      "jp": "ＮＴ的な能力は全くもたない",
+      "ko": "ＮＴ　같은　능력은　전혀",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F50",
+      "jp": "が、ビルから飛び降りたり、",
+      "ko": "없지만건물에서뛰어내리고",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F61",
+      "jp": "ＭＳを自爆させても死なない",
+      "ko": "ＭＳ를자폭시켜도안죽는",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F70",
+      "jp": "生命力はある意味ＮＴ以上。",
+      "ko": "생명력은어떤면엔ＮＴ이상。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F86",
+      "jp": "ディアナカウンタ－の将校。",
+      "ko": "디아나　카운터　장교。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F8F",
+      "jp": "根っからの武闘派で、ディア",
+      "ko": "타고난　무투파로　디아나의",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1F9F",
+      "jp": "ナの穏健路線に不満を抱いて",
+      "ko": "온건　노선에　불만을　품고",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1FB3",
+      "jp": "ク－デタ－を起こした。しか",
+      "ko": "쿠데타를일으켰다。하지만",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1FBF",
+      "jp": "しその後が続かず、結局ディ",
+      "ko": "뒷일이이어지지않아결국",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1FCE",
+      "jp": "アナ女王に帰順している。",
+      "ko": "디아나여왕에게귀순했다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C1FE3",
+      "jp": "ムラサメ研究所の強化人間。",
+      "ko": "무라사메연구소강화인간。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20AD",
+      "jp": "士官候補生だったが、上官の",
+      "ko": "사관후보생이었으나　상관의",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20BD",
+      "jp": "戦死によって艦長代理を務め",
+      "ko": "전사로　함장　대리를　맡게",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20CC",
+      "jp": "ることになった。",
+      "ko": "되었다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20D3",
+      "jp": "とても１９才には思えぬ外見",
+      "ko": "도저히１９세로안보이는",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20E3",
+      "jp": "が特徵。実は老け顔？",
+      "ko": "외모가　특징。　노안인가？",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C20FF",
+      "jp": "ア－ガマ艦長。戦後は閑職に",
+      "ko": "아가마함장。전후한직으로",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C210D",
+      "jp": "追われていたが後にエゥ－ゴ",
+      "ko": "밀려났으나　훗날　에우고에",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C211A",
+      "jp": "に合流し、旗艦ア－ガマの指",
+      "ko": "합류해　기함　아가마를",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2127",
+      "jp": "揮をとることになった。",
+      "ko": "지휘하게　되었다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2132",
+      "jp": "名セリフ「弾幕薄いぞ！」と",
+      "ko": "명대사탄막이얇다！하면",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2142",
+      "jp": "言えばやっぱりこの人。",
+      "ko": "역시　이　사람。",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2154",
+      "jp": "ブラ－ド戦隊の指揮官。",
+      "ko": "브라드　전대　지휘관。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C215D",
+      "jp": "妻はドズルに縁があったが、",
+      "ko": "아내는도즐과연이있었지만",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C216A",
+      "jp": "それに頼ることを潔しとせず",
+      "ko": "그것에기대는것을거부하고",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2179",
+      "jp": "にキシリアの下についた硬骨",
+      "ko": "키시리아밑으로간강직한",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2187",
+      "jp": "の武人。叩き上げの軍人で、",
+      "ko": "무인。밑바닥출신군인으로",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2197",
+      "jp": "部下からの信頼も厚い。",
+      "ko": "부하의　신뢰도　깊다。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21A6",
+      "jp": "プリべンタ－・ウィンド",
+      "ko": "프리벤터・윈드",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21B3",
+      "jp": "「エンドレスワルツ」に登場",
+      "ko": "엔드리스 월츠에　등장한",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21C3",
+      "jp": "した時のゼクス・マ－キス。",
+      "ko": "시기의　젝스　마키스。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21CE",
+      "jp": "「火消しの風」という意味合",
+      "ko": "불　끄는　바람이란　뜻으로",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21DE",
+      "jp": "いでついた名前だが、自分か",
+      "ko": "붙은　이름이나　스스로",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21EC",
+      "jp": "らそう名乗ってしまうあたり",
+      "ko": "그렇게　부르는　점이",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C21F6",
+      "jp": "がウィングテイスト。",
+      "ko": "윙다운　감성이다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2206",
+      "jp": "ネオ・ジオンのＮＴ少女。",
+      "ko": "네오　지온의　ＮＴ　소녀。",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2212",
+      "jp": "アクシズで強化処理を受けた",
+      "ko": "액시즈에서강화처리를받은",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2221",
+      "jp": "少女で、ジュド－を気に入っ",
+      "ko": "소녀로쥬도를마음에들어",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C222D",
+      "jp": "て彼と行動を共にした。",
+      "ko": "그와　행동을　함께했다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C223A",
+      "jp": "ー部ファンの間で絶大な人気",
+      "ko": "일부지지층에절대적인기를",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2248",
+      "jp": "を誇っている。",
+      "ko": "자랑한다。",
+      "visual_cells": 5,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2254",
+      "jp": "ネオ・ジオンの強化人間。",
+      "ko": "네오　지온　강화인간。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C225E",
+      "jp": "エルピ－・プルのクロ－ンで",
+      "ko": "엘피　플의　클론이며",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C226A",
+      "jp": "性格は攻撃的。グレミ－の手",
+      "ko": "성격은　공격적。　그레미의",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2279",
+      "jp": "駒となって戦っていたが、最",
+      "ko": "말로　싸웠으나　마지막에는",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2285",
+      "jp": "後はジュド－の元へ走った。",
+      "ko": "쥬도에게　달려갔다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2294",
+      "jp": "ブレックス・フォ－ラ",
+      "ko": "블랙스・포라",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C229D",
+      "jp": "エゥ－ゴの指導者。",
+      "ko": "에우고　지도자。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22A4",
+      "jp": "ティタ－ンズの専横に対抗し",
+      "ko": "티탄즈의　전횡에　맞서",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22B0",
+      "jp": "エゥ－ゴを結成する。",
+      "ko": "에우고를　결성했다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22BB",
+      "jp": "志半ばで凶弾に倒れ、クワト",
+      "ko": "뜻을이루기전총탄에쓰러져",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22CE",
+      "jp": "ロに後事を託した。",
+      "ko": "크와트로에게　뒤를　맡겼다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22E1",
+      "jp": "新生クロスボ－ン・バンガ－",
+      "ko": "신생　크로스본　뱅가드",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22EC",
+      "jp": "ドの指導者。キンケドゥらを",
+      "ko": "지도자。　킨케두　등을",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C22F6",
+      "jp": "率いて木星帝国と戦う。",
+      "ko": "이끌고목성제국과싸운다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2307",
+      "jp": "その正体はキンケドゥ（シ－",
+      "ko": "정체는　킨케두（시북",
+      "visual_cells": 10,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2314",
+      "jp": "ブック・アノ－）の恋人、",
+      "ko": "아노）의　연인인",
+      "visual_cells": 8,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2323",
+      "jp": "セシリ－・フェアチャイルド",
+      "ko": "세실리・페어차일드",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2333",
+      "jp": "べルナルド・モンシア",
+      "ko": "베르나르도・몬시아",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C233D",
+      "jp": "連邦軍のＭＳパイロット。",
+      "ko": "연방군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2346",
+      "jp": "べイト、アデルと共にアルビ",
+      "ko": "베이트、　아델과　알비온에",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2353",
+      "jp": "オンに配備され、デラ－ズ紛",
+      "ko": "배치되어　데라즈　분쟁을",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2360",
+      "jp": "争を戦った。腕は立つのだが",
+      "ko": "싸웠다。　실력은　있지만",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2370",
+      "jp": "性格だけ見るとタダの意地悪",
+      "ko": "성격만　보면　심술궂은",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2381",
+      "jp": "なオッサンである。",
+      "ko": "아저씨일　뿐이다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2389",
+      "jp": "ヘンケン・べッケナ－",
+      "ko": "헨켄・베케너",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2394",
+      "jp": "エゥ－ゴの士官。ラ－ディッ",
+      "ko": "에우고　장교。　라디슈의",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23A0",
+      "jp": "シュの艦長を務めた。ティタ",
+      "ko": "함장을　맡았다。　티탄즈와",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23AF",
+      "jp": "－ンズとの決戦ではエマをか",
+      "ko": "결전에서　에마를　감싸다",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23BD",
+      "jp": "ばって戦死している。見かけ",
+      "ko": "전사했다。　외모와　달리",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23C9",
+      "jp": "に似合わず、女性に対しては",
+      "ko": "여성에게는　상당히",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23D8",
+      "jp": "かなり奥手だった。",
+      "ko": "숙맥이었다。",
+      "visual_cells": 6,
+      "encoded_bytes": 13,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23E2",
+      "jp": "ポゥ・エイジ",
+      "ko": "포우・에이지",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23EA",
+      "jp": "ディアナカウンタ－のパイロ",
+      "ko": "디아나　카운터　파일럿。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C23F1",
+      "jp": "ット。感情の起伏が激しく、",
+      "ko": "감정　기복이　심해",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2402",
+      "jp": "作中でもなにかにつけてよく",
+      "ko": "작중　무슨　일만　있으면",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C240E",
+      "jp": "泣いていた。その泣きっぷり",
+      "ko": "자주　울었다。　그　울음은",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C241F",
+      "jp": "はタイトルにまでなってしま",
+      "ko": "제목에까지　들어갈",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C242C",
+      "jp": "うほど。",
+      "ko": "정도였다。",
+      "visual_cells": 5,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2439",
+      "jp": "ティタ－ンズのパイロット。",
+      "ko": "티탄즈　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2440",
+      "jp": "ジェリドと出会って以降、常",
+      "ko": "제리드를　만난　뒤　늘",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C244E",
+      "jp": "に彼と行動を共にし、支え導",
+      "ko": "그와함께행동하며이끌고",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C245F",
+      "jp": "いた女性。ＮＴの素養はあっ",
+      "ko": "지지한여성。ＮＴ소질은",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C246F",
+      "jp": "たようだが、男を見る目には",
+      "ko": "있었던듯하나남자보는눈은",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C247E",
+      "jp": "かなり疑問が……。",
+      "ko": "상당히　의문이다……。",
+      "visual_cells": 11,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C248A",
+      "jp": "マシュマ－・セロ",
+      "ko": "마슈마・세로",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2491",
+      "jp": "ネオ・ジオンのパイロット。",
+      "ko": "네오　지온　파일럿。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C249B",
+      "jp": "ハマ－ンの信奉者で、騎士道",
+      "ko": "하만의　추종자이며　기사도",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24AA",
+      "jp": "精神の権化。胸にハマ－ンか",
+      "ko": "정신의화신。가슴에하만이",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24B9",
+      "jp": "らもらったバラを差す。コ－",
+      "ko": "준장미를꽂는다。코팅해",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24C8",
+      "jp": "ティングしてかれないように",
+      "ko": "시들지　않게　처리했다고",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24D5",
+      "jp": "処理してあるらしい。",
+      "ko": "한다。",
+      "visual_cells": 3,
+      "encoded_bytes": 7,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24E0",
+      "jp": "マシュマ－・セロ（強化）",
+      "ko": "마슈마・세로（강화）",
+      "visual_cells": 10,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24ED",
+      "jp": "後に強化人間として調整され",
+      "ko": "후에　강화인간으로　조정된",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C24F8",
+      "jp": "たマシュマ－・セロ。",
+      "ko": "마슈마　세로。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2500",
+      "jp": "ラカン率いるド－べン・ウル",
+      "ko": "라칸이　이끈　도벤　울프",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C250E",
+      "jp": "フ隊との戦いで壮絶な最期を",
+      "ko": "부대와싸워장렬한최후를",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C251E",
+      "jp": "遂げた。",
+      "ko": "맞았다。",
+      "visual_cells": 4,
+      "encoded_bytes": 9,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2525",
+      "jp": "マリオン・ウェルチ",
+      "ko": "마리온・웰치",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C252F",
+      "jp": "フラナガン機関で育てられた",
+      "ko": "플라나간　기관에서　길러진",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C253A",
+      "jp": "ＮＴ少女。ＥＸＡＭ開発実験",
+      "ko": "ＮＴ소녀。ＥＸＡＭ개발",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2548",
+      "jp": "中、事故により精神がシステ",
+      "ko": "실험　중　사고로　정신이",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2556",
+      "jp": "ムに取りこまれてしまった。",
+      "ko": "시스템에흡수되고말았다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2562",
+      "jp": "ＥＸＡＭ搭載機が全壊した際",
+      "ko": "ＥＸＡＭ탑재기가전부파괴될",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2570",
+      "jp": "に意識を取り戻したという。",
+      "ko": "때의식을되찾았다고한다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2586",
+      "jp": "戦隊の指揮官ブラ－ド中佐の",
+      "ko": "전대지휘관브라드중령의",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2591",
+      "jp": "娘。母はゼナ・ザビ（ドズル",
+      "ko": "딸。　어머니는　제나　자비",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25A1",
+      "jp": "・ザビ夫人）の侍女をしてい",
+      "ko": "（도즐자비부인）의시녀를",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25B0",
+      "jp": "る。戦隊が再編される以前か",
+      "ko": "맡고있다。전대재편전부터",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25BD",
+      "jp": "らシグとはちょくちょく会っ",
+      "ko": "시그와　종종　만나",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25CB",
+      "jp": "て遊んでもらっていた。",
+      "ko": "함께　놀곤　했다。",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25E4",
+      "jp": "戦後エゥ－ゴのパイロットと",
+      "ko": "전후　에우고　파일럿이　된",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25ED",
+      "jp": "なったミアンは、ティタ－ン",
+      "ko": "미안은　티탄즈와의",
+      "visual_cells": 9,
+      "encoded_bytes": 21,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C25F9",
+      "jp": "ズとの戦いの過程で再びシグ",
+      "ko": "싸움과정에서다시시그와",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2609",
+      "jp": "と再会。ともすれば恨みに押",
+      "ko": "재회한다。　자칫　원한에",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2618",
+      "jp": "しつぶされそうになるシグを",
+      "ko": "짓눌릴　듯한　시그를",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2625",
+      "jp": "支え、共に戦う。",
+      "ko": "지탱하며　함께　싸운다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2631",
+      "jp": "ミネバ・ラオ・ザビ",
+      "ko": "미네바・라오・자비",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C263B",
+      "jp": "本名ミネバ・ラオ・ザビ。",
+      "ko": "본명　미네바　라오　자비。",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2647",
+      "jp": "ドズルの忘れ形見で、名目上",
+      "ko": "도즐의　유복녀로　명목상",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2657",
+      "jp": "アクシズの指導者の座につい",
+      "ko": "액시즈　지도자　자리에",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2663",
+      "jp": "ていたがグリプス戦争で行方",
+      "ko": "있었으나그리프스전쟁중",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C266F",
+      "jp": "不明になる。ＺＺ時代のミネ",
+      "ko": "행방불명된다。ＺＺ시기의",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C267F",
+      "jp": "バは影武者だった。",
+      "ko": "미네바는　대역이었다。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C268B",
+      "jp": "ミハイル・カミンスキ－",
+      "ko": "미하일・카민스키",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2698",
+      "jp": "ジオン軍の特殊部隊「サイク",
+      "ko": "지온　특수부대　사이클롭스",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26A6",
+      "jp": "ロプス隊」のー員で、酒好き",
+      "ko": "대의일원이며술을좋아하는",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26B8",
+      "jp": "の巨漢。ケンプファ－を駆っ",
+      "ko": "거한。　캠퍼를　몰고",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26CA",
+      "jp": "てガンダムＮＴ一１に挑んだ",
+      "ko": "건담ＮＴ－１에도전했지만",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26D8",
+      "jp": "が、隠し武器による掃射を受",
+      "ko": "숨겨진무기의사격을받아",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26EA",
+      "jp": "けて戦死している。",
+      "ko": "전사했다。",
+      "visual_cells": 5,
+      "encoded_bytes": 11,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26F3",
+      "jp": "ミハエル・ゲルン",
+      "ko": "미하엘・게른",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C26FB",
+      "jp": "ミリシャの司令官。ム－ンレ",
+      "ko": "밀리샤사령관。문레이스를",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2708",
+      "jp": "ィスに独断で攻撃を仕掛ける",
+      "ko": "독단으로　공격하는　등",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2718",
+      "jp": "など無謀な行動が目立った。",
+      "ko": "무모한행동이두드러졌다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2728",
+      "jp": "最終回近くで子供の写真を見",
+      "ko": "최종화근처에서아이사진을",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C273C",
+      "jp": "ていたが、セオリ－に反して",
+      "ko": "보고있었지만정석을깨고",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C274B",
+      "jp": "無事生き残った。",
+      "ko": "무사히　살아남았다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2756",
+      "jp": "メリ－べル・ガジェット",
+      "ko": "메리벨・가제트",
+      "visual_cells": 7,
+      "encoded_bytes": 17,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2760",
+      "jp": "ギンガナム艦隊のＭＳパイロ",
+      "ko": "깅가남　함대　ＭＳ",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C276B",
+      "jp": "ット。奔放気ままな性格で、",
+      "ko": "파일럿。자유분방한성격으로",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C277D",
+      "jp": "主であるギンガナムですら、",
+      "ko": "주군　깅가남조차",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2788",
+      "jp": "からかう相手としてみなして",
+      "ko": "놀리는　대상으로　보았다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2795",
+      "jp": "いた。後にからかいの対象を",
+      "ko": "훗날　놀림　대상을",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C27A3",
+      "jp": "グエンに乗りかえた（？）。",
+      "ko": "그웬으로　바꿨다（？）。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C27B4",
+      "jp": "ヤザン・ゲ－ブル",
+      "ko": "야잔・게이블",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C27BE",
+      "jp": "ティタ－ンズのパイロット。",
+      "ko": "티탄즈　파일럿。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2868",
+      "jp": "ヤ－ニ・オビュス",
+      "ko": "야니・오뷔스",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2872",
+      "jp": "ミリシャの兵士。",
+      "ko": "밀리샤　병사。",
+      "visual_cells": 7,
+      "encoded_bytes": 16,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2879",
+      "jp": "ミハエルの腹心の部下で、勇",
+      "ko": "미하엘의심복으로용감하며",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2888",
+      "jp": "敢かつ、無謀な性格の人物。",
+      "ko": "무모한　성격의　인물。",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C289A",
+      "jp": "酔っ払った挙句に、酒ダルに",
+      "ko": "술에　취한　끝에　술통을",
+      "visual_cells": 12,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28AB",
+      "jp": "乗って宇宙を漂流したことも",
+      "ko": "타고　우주를　표류한　적도",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28BA",
+      "jp": "ある。",
+      "ko": "있다。",
+      "visual_cells": 3,
+      "encoded_bytes": 7,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28C6",
+      "jp": "ゲ－ム「ガンダム外伝」の",
+      "ko": "게임　건담　외전의",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28D6",
+      "jp": "主人公で腕はー流だが極端な",
+      "ko": "주인공。실력은일류지만매우",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28EA",
+      "jp": "無口。ＩＤコマンドのセリフ",
+      "ko": "과묵하다。ＩＤ명령대사는",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C28F6",
+      "jp": "は小説版が元になっている。",
+      "ko": "소설판을　바탕으로　한다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2906",
+      "jp": "なお、ヒイロとの交信はギャ",
+      "ko": "히이로와　교신은　개더비트",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2913",
+      "jp": "ザ－ビ－ト１からの再録。",
+      "ko": "１에서　다시　수록했다。",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C292C",
+      "jp": "アクシズの提督で、先遣艦隊",
+      "ko": "액시즈제독으로선견함대를",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2938",
+      "jp": "を指揮して地球圏に帰還。",
+      "ko": "지휘해지구권에귀환했다。",
+      "visual_cells": 12,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2944",
+      "jp": "デラ－ズフリ－トの最期を見",
+      "ko": "데라즈　플리트의　최후를",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C294E",
+      "jp": "届けた。デラ－ズとは親交が",
+      "ko": "지켜봤다。데라즈와친분이",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C295D",
+      "jp": "あったらしい。",
+      "ko": "있었던　듯하다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2965",
+      "jp": "ライラ・ミラ・ライラ",
+      "ko": "라이라・미라・라이라",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C296F",
+      "jp": "連邦軍のＭＳパイロット。",
+      "ko": "연방군　ＭＳ　파일럿。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2978",
+      "jp": "ー流と呼ぶにふさわしい腕前",
+      "ko": "일류라　부를　만한　실력을",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2989",
+      "jp": "をもっていたが、ＮＴにはか",
+      "ko": "가졌으나　ＮＴ에게는",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2995",
+      "jp": "なわず、あえなくカミ－ユに",
+      "ko": "못　미쳐　카미유에게",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C29A1",
+      "jp": "敗北した。後に背後霊として",
+      "ko": "패했다。　훗날　배후령으로",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C29AF",
+      "jp": "最終回にも登場。",
+      "ko": "최종화에도　등장。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C29C3",
+      "jp": "ネオ・ジオンのパイロット。",
+      "ko": "네오　지온　파일럿。",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A5A",
+      "jp": "ジュド－の妹。",
+      "ko": "쥬도의　여동생。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A61",
+      "jp": "兄がふらふらしていたせいか",
+      "ko": "오빠가　철없었던　탓인지",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A6E",
+      "jp": "その分、しっかりした性格の",
+      "ko": "그만큼　야무진　성격의",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A7C",
+      "jp": "持ち主。ー時行方不明になっ",
+      "ko": "소유자。　한때　행방불명이",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A8A",
+      "jp": "ていたが、セイラに保護され",
+      "ko": "됐으나세이라에게보호되어",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2A97",
+      "jp": "最終回で兄と再会した。",
+      "ko": "최종화에서오빠와재회했다。",
+      "visual_cells": 13,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2AAF",
+      "jp": "ド－リアン外務次官の娘で、",
+      "ko": "도리안　외무차관의　딸이며",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2ABF",
+      "jp": "実はピ－スクラフト王家の王",
+      "ko": "사실　피스크래프트　왕가의",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2ACA",
+      "jp": "女さま。ヒイロを「星の王子",
+      "ko": "공주。히이로를별의왕자",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2ADA",
+      "jp": "さま」と言ってしまうなど、",
+      "ko": "님이라　부르는　등",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2AE6",
+      "jp": "浮世離れした感性の持ち主。",
+      "ko": "세상물정과먼감성의소유자。",
+      "visual_cells": 13,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2AFC",
+      "jp": "ルクレツィア・ノイン",
+      "ko": "루크레치아・노인",
+      "visual_cells": 8,
+      "encoded_bytes": 19,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B07",
+      "jp": "元ＯＺのパイロット教官。",
+      "ko": "전　ＯＺ　파일럿　교관。",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B16",
+      "jp": "ゼクスとは旧知の仲で、彼を",
+      "ko": "젝스와는오랜사이로그를",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B25",
+      "jp": "愛し、慕っていた。行動力に",
+      "ko": "사랑하고따랐다。행동력도",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B33",
+      "jp": "もあふれた女性で、最後はゼ",
+      "ko": "넘치는여성으로마지막에는",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B41",
+      "jp": "クスと共に火星ヘ向かうとい",
+      "ko": "젝스와함께화성으로가는",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B53",
+      "jp": "うハッピ－エンドを勝ち得た",
+      "ko": "해피엔딩을　얻었다。",
+      "visual_cells": 10,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B6C",
+      "jp": "ジオン系のＮＴ研究所で育成",
+      "ko": "지온계　ＮＴ　연구소에서",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B7B",
+      "jp": "された強化人間。戦闘時と通",
+      "ko": "육성된강화인간。전투때와",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B86",
+      "jp": "常時の性格が分裂している。",
+      "ko": "평소성격이분열돼있다。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2B96",
+      "jp": "同じ強化人間のゼロとは親密",
+      "ko": "같은　강화인간　제로와는",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BA4",
+      "jp": "な関係にあるらしい。",
+      "ko": "친밀한　관계인　듯하다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BB5",
+      "jp": "ネオジャパンのメカニックク",
+      "ko": "네오　일본의　정비　크루。",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BC3",
+      "jp": "ル－。ドモンとは幼なじみで",
+      "ko": "도몬과는　소꿉친구이며",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BD1",
+      "jp": "彼に好意を寄せているのだが",
+      "ko": "그에게　호감을　품지만",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BE0",
+      "jp": "その思いになかなか気付いて",
+      "ko": "그마음을좀처럼알아주지",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2BEE",
+      "jp": "もらえず、最終回を迎えるま",
+      "ko": "않아최종화를맞을때까지",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C00",
+      "jp": "で待たなければならなかった",
+      "ko": "기다려야　했다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C0D",
+      "jp": "レイン・ミカムラ（コア）",
+      "ko": "레인・미카무라（코어）",
+      "visual_cells": 11,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C1A",
+      "jp": "デビルガンダムは女性を中枢",
+      "ko": "데빌건담은여성을중추에",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C24",
+      "jp": "に取り込むことで真の力を発",
+      "ko": "흡수해진정한힘을발휘한다。",
+      "visual_cells": 13,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C34",
+      "jp": "揮する。そのコアとして取り",
+      "ko": "그　코어로　흡수된",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C42",
+      "jp": "込まれたレイン。ドモンに対",
+      "ko": "레인。　도몬에게　완고한",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C50",
+      "jp": "して頑なな態度をとるが、最",
+      "ko": "태도를　보이나　마지막엔",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C60",
+      "jp": "後は彼の告白で心を開いた。",
+      "ko": "그의고백으로마음을열었다。",
+      "visual_cells": 13,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C79",
+      "jp": "エゥ－ゴのメンバ－で、パイ",
+      "ko": "에우고　대원으로　파일럿과",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C83",
+      "jp": "ロットや工作員として活躍し",
+      "ko": "공작원으로　활약했다。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2C92",
+      "jp": "た。クワトロ（シャア）に惹",
+      "ko": "크와트로（샤아）에게끌렸으나",
+      "visual_cells": 13,
+      "encoded_bytes": 32,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CA0",
+      "jp": "かれていたが、彼が常に１人",
+      "ko": "그가　늘　혼자임을",
+      "visual_cells": 9,
+      "encoded_bytes": 22,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CAF",
+      "jp": "であることを思い知らされ、",
+      "ko": "깨닫고는",
+      "visual_cells": 4,
+      "encoded_bytes": 10,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CBC",
+      "jp": "シロッコになびいた。",
+      "ko": "시로코에게　넘어갔다。",
+      "visual_cells": 11,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CC7",
+      "jp": "レコア・ロンド（敵）",
+      "ko": "레코아・론도（적）",
+      "visual_cells": 9,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CD3",
+      "jp": "元エゥ－ゴのメンバ－で、シ",
+      "ko": "전　에우고　대원으로",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CDE",
+      "jp": "ロッコに惹かれてティタ－ン",
+      "ko": "시로코에게　끌려　티탄즈에",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CEC",
+      "jp": "ズ入りした。グリプス攻防戦",
+      "ko": "들어갔다。그리프스공방전",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2CF9",
+      "jp": "においてエマと激しい戦いを",
+      "ko": "에서　에마와　격전을",
+      "visual_cells": 10,
+      "encoded_bytes": 24,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D06",
+      "jp": "演じ、互いに相打ちという形",
+      "ko": "벌여　서로　동귀어진하는",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D16",
+      "jp": "で散っていった。",
+      "ko": "형태로　산화했다。",
+      "visual_cells": 9,
+      "encoded_bytes": 20,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D25",
+      "jp": "連邦軍の将軍で、実質的な最",
+      "ko": "연방군　장군이며　사실상",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D37",
+      "jp": "高指揮官。逆境の連邦軍をま",
+      "ko": "최고지휘관。역경속연방군을",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D46",
+      "jp": "とめて勝利へ導いたが、ソ－",
+      "ko": "모아　승리로　이끌었으나",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D55",
+      "jp": "ラ－レイによって死亡。彼の",
+      "ko": "솔라레이에죽었다。그의",
+      "visual_cells": 11,
+      "encoded_bytes": 25,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D62",
+      "jp": "死は連邦にとって大きな痛手",
+      "ko": "죽음은　연방에　큰　타격이",
+      "visual_cells": 13,
+      "encoded_bytes": 31,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D6F",
+      "jp": "だったといえよう。",
+      "ko": "됐다고　할　수　있다。",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D7C",
+      "jp": "シャアの部下でアポリ－の相",
+      "ko": "샤아의　부하로　아폴리의",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D88",
+      "jp": "棒。ー年戦争後、クワトロと",
+      "ko": "파트너。１년전쟁뒤크와트로와",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D93",
+      "jp": "共にエゥ－ゴのパイロットに",
+      "ko": "함께　에우고　파일럿이",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2D9D",
+      "jp": "なっている。後にクワトロが",
+      "ko": "된다。　훗날　크와트로가　탄",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DA9",
+      "jp": "乗るシャトルを守って戦死。",
+      "ko": "셔틀을　지키다　전사했다。",
+      "visual_cells": 13,
+      "encoded_bytes": 29,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DB8",
+      "jp": "ロラン・セアック",
+      "ko": "로랑・세아크",
+      "visual_cells": 6,
+      "encoded_bytes": 15,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DC1",
+      "jp": "「∀ガンダム」の主人公。",
+      "ko": "턴에이　건담의　주인공。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DD1",
+      "jp": "地球の住人とム－ンレィスの",
+      "ko": "지구인과　문레이스의",
+      "visual_cells": 10,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DDC",
+      "jp": "共存を願う、心優しい少年で",
+      "ko": "공존을바라는마음착한소년",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DEF",
+      "jp": "ある。戦いの後は、ひそかに",
+      "ko": "이다。　전쟁　뒤　몰래",
+      "visual_cells": 11,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2DFE",
+      "jp": "女王の座を降りたディアナと",
+      "ko": "왕위를　내려놓은　디아나와",
+      "visual_cells": 13,
+      "encoded_bytes": 30,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E0C",
+      "jp": "共に隠棲した。",
+      "ko": "함께　은거했다。",
+      "visual_cells": 8,
+      "encoded_bytes": 18,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E1C",
+      "jp": "ルナ２司令。初めは高圧的な",
+      "ko": "루나２　사령관。　처음엔",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E2F",
+      "jp": "態度でブライトたちに接して",
+      "ko": "고압적으로브라이트일행을",
+      "visual_cells": 12,
+      "encoded_bytes": 26,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E3B",
+      "jp": "いたが、パオロ艦長の説得で",
+      "ko": "대했으나파올로함장의설득에",
+      "visual_cells": 13,
+      "encoded_bytes": 28,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E49",
+      "jp": "彼らの理解者となる。",
+      "ko": "그들의　이해자가　된다。",
+      "visual_cells": 12,
+      "encoded_bytes": 27,
+      "translation_source": "llm",
+      "review_status": "approved"
+    },
+    {
+      "abs": "5C2E53",
+      "jp": "後に、シャアと戦って死亡。",
+      "ko": "훗날샤아와싸우다사망。",
+      "visual_cells": 11,
+      "encoded_bytes": 23,
+      "translation_source": "llm",
+      "review_status": "approved"
+    }
+  ]
+}
