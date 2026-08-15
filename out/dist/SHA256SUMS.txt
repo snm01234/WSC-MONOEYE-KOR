@@ -1,8 +1,0 @@
-# Legally owned Japanese original source ROM (not distributed)
-376e4c6b4b81cc3a7dceb15dc4b7d0af04d3e6c8b81e8572569c39d3394870a0  SD Gundam G Generation Mono-Eye Gundams.wsc
-
-# Public patch asset
-ae70f4beee218bed3d571592076828dec87dc76dabc3bee68c54cf95231a39b6  monoeye_ko_expanded.xdelta
-
-# Expected patched ROM (not distributed)
-d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9  monoeye_ko_expanded.wsc

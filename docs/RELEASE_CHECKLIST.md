@@ -6,25 +6,28 @@
 - [ ] `tools/make_main_tip_xdelta.py`로 xdelta를 다시 생성했다.
 - [ ] xdelta round-trip 결과가 메인TIP과 byte-exact다.
 - [ ] VCDIFF header indicator에 `VCD_SECONDARY`가 없고 xdeltaUI/구버전 호환 형식이다.
-- [ ] `out/dist/SHA256SUMS.txt`의 해시를 갱신했다.
+- [ ] `out/dist/SHA256SUMS_v1.0.1_hotfix.txt`의 해시를 갱신했다.
 
 현재 기준:
 
+- 릴리스: **v1.0.1 (hotfix)** · 기준 버전 v1.0.0
 - 합법적으로 소유한 일본판 원본 ROM: `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
-- 메인TIP: `D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
-- xdelta: `AE70F4BEEE218BED3D571592076828DEC87DC76DABC3BEE68C54CF95231A39B6`
+- 메인TIP: `C8EE51BE9C5E33DFD88E7565453FF031A931AAF4948D9CD4AEE35A7EC6892E86`
+- xdelta: `2213A9AF504CF5273535BCA8C23BA998C9592D210ECBDBEDB02068B149B73F59`
 
 ## 공개 파일
 
 - [ ] `README.md`
 - [ ] `PATCH_GUIDE.md`
+- [ ] `VERSION` (`1.0.1`)
 - [ ] `LICENSE` (MIT)
 - [ ] `NOTICE.md`
 - [ ] `data/README.md` 및 빌드에 필요한 `data/` 활성 사양
 - [ ] `docs/LEGAL_NOTICE.md`
-- [ ] `out/dist/monoeye_ko_expanded.xdelta`
-- [ ] `out/dist/monoeye_ko_expanded_xdelta.json`
-- [ ] `out/dist/SHA256SUMS.txt`
+- [ ] `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
+- [ ] `out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json`
+- [ ] `out/dist/SHA256SUMS_v1.0.1_hotfix.txt`
+- [ ] `RELEASE_NOTES_v1.0.1.md`
 
 ## 공개 금지 확인
 
@@ -48,7 +51,7 @@
 
 - [ ] 첫 커밋 전에 `git status --short`로 전체 staging 목록을 직접 확인한다.
 - [ ] README와 적용 가이드가 패치 입력을 **합법적으로 소유한 일본판 원본 ROM**으로 명확히 안내한다.
-- [ ] README의 입력/출력 SHA가 `SHA256SUMS.txt`와 일치한다.
+- [ ] README의 입력/출력 SHA가 `SHA256SUMS_v1.0.1_hotfix.txt`와 일치한다.
 - [ ] 릴리스 첨부 파일은 xdelta를 우선 사용한다.
 - [ ] ROM이나 SaveRAM을 GitHub Release asset에 첨부하지 않는다.
 - [ ] 저장소 설명/README가 비공식·비제휴 프로젝트임을 명확히 표시한다.

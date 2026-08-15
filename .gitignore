@@ -32,10 +32,10 @@ out/*
 out/dist/*
 
 # Public release assets explicitly allowed from out/dist.
-!out/dist/monoeye_ko_expanded.xdelta
-!out/dist/monoeye_ko_expanded_xdelta.json
-!out/dist/monoeye_ko_expanded_XDELTA_README.md
-!out/dist/SHA256SUMS.txt
+!out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta
+!out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.0.1_hotfix_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.0.1_hotfix.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*

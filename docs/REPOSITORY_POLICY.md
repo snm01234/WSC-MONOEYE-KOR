@@ -4,14 +4,15 @@
 
 ## 공개 저장소에 포함
 
-- 패치 사용 안내: `README.md`, `PATCH_GUIDE.md`
+- 패치 사용 안내: `README.md`, `PATCH_GUIDE.md`, `VERSION`
 - 라이선스/권리 고지: `LICENSE`, `NOTICE.md`, `docs/LEGAL_NOTICE.md`
 - 공개 검토를 마친 개발 문서: `docs/*.md`
 - README 소개용 한글패치 적용 화면 캡처: `docs/images/title_screen_ko.png`처럼 소수의 선별 스크린샷만 허용
 - 패치 빌드/검증 도구: `tools/*.py`
 - 재현 가능한 빌드에 필요한 활성 번역/구조 사양: `data/`
-- 배포용 xdelta: `out/dist/monoeye_ko_expanded.xdelta`
-- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_xdelta.json`, `out/dist/SHA256SUMS.txt`
+- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
+- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json`, `out/dist/SHA256SUMS_v1.0.1_hotfix.txt`
+- 릴리스 변경 사항: `RELEASE_NOTES_v1.0.1.md`
 
 루트 `LICENSE`의 MIT License는 프로젝트가 실제로 라이선스를 부여할 권한이 있는 자체 작성 코드·도구·문서 등에 적용합니다. 제3자 게임 콘텐츠와 원작 권리는 `NOTICE.md`에서 명시적으로 분리합니다.
 

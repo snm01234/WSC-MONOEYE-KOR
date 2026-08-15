@@ -8,6 +8,8 @@ WonderSwan Color용 **SD Gundam G Generation: Mono-Eye Gundams** 비공식 한�
 
 이 저장소는 원본 게임 ROM을 포함하지 않습니다. 배포 파일은 사용자가 **합법적으로 소유한 일본판 원본 ROM**에 적용하는 **xdelta 패치**입니다.
 
+현재 릴리스는 **v1.0.1 (hotfix)** 입니다. v1.0.0 이후 실플레이에서 확인된 이벤트 진행 오류, 전투대사 초상/스프라이트 구조 회귀, 장면 전환 직후 일본어 `な` 노출을 수정했습니다. 자세한 변경 사항은 [`RELEASE_NOTES_v1.0.1.md`](RELEASE_NOTES_v1.0.1.md)를 확인해 주세요.
+
 ## 한글화 진행 현황
 
 **현재 식별된 사용자 가시 번역 대상 기준 완료도: 100%**
@@ -30,24 +32,25 @@ WonderSwan Color용 **SD Gundam G Generation: Mono-Eye Gundams** 비공식 한�
 1. **합법적으로 소유한 일본판 원본 `.wsc` ROM**을 준비합니다.
 2. 원본 ROM의 SHA-256이 아래 값과 같은지 확인합니다.
    - `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
-3. `out/dist/monoeye_ko_expanded.xdelta`를 받습니다.
+3. `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`를 받습니다.
 4. Delta Patcher 같은 xdelta 호환 프로그램에서 원본 ROM에 패치를 적용합니다.
 5. 결과 ROM은 **16 MiB (16,777,216 bytes)** 가 되어야 합니다.
 6. 패치된 ROM의 SHA-256이 아래 값이면 정상입니다.
-   - `D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
+   - `C8EE51BE9C5E33DFD88E7565453FF031A931AAF4948D9CD4AEE35A7EC6892E86`
 
 처음 적용하거나 오류가 발생한다면 [`PATCH_GUIDE.md`](PATCH_GUIDE.md)를 확인해 주세요.
 
 ## 현재 배포 파일
 
-- `out/dist/monoeye_ko_expanded.xdelta` — 실제 배포용 패치
-- `out/dist/monoeye_ko_expanded_xdelta.json` — 원본/출력/xdelta 해시와 빌드 정보
-- `out/dist/monoeye_ko_expanded_XDELTA_README.md` — 자동 생성된 xdelta 기술 정보
-- `out/dist/SHA256SUMS.txt` — 확인용 SHA-256 목록
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta` — **v1.0.1 hotfix** 실제 배포용 패치
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json` — 버전/원본/출력/xdelta 해시와 빌드 정보
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix_XDELTA_README.md` — 자동 생성된 xdelta 기술 정보
+- `out/dist/SHA256SUMS_v1.0.1_hotfix.txt` — 확인용 SHA-256 목록
+- `RELEASE_NOTES_v1.0.1.md` — v1.0.1 hotfix 변경 사항
 
 현재 xdelta 자체의 SHA-256:
 
-`AE70F4BEEE218BED3D571592076828DEC87DC76DABC3BEE68C54CF95231A39B6`
+`2213A9AF504CF5273535BCA8C23BA998C9592D210ECBDBEDB02068B149B73F59`
 
 xdelta 생성 후 원본 ROM에 다시 적용하여 **현재 메인 TIP과 byte-exact로 동일한 결과가 나오는 것까지 검증**합니다. 현재 배포 xdelta는 xdeltaUI/구버전 xdelta3 호환을 위해 VCDIFF secondary compression(LZMA)을 사용하지 않습니다.
 

@@ -1,11 +1,11 @@
 # 한글패치 적용 가이드
 
-이 문서는 `monoeye_ko_expanded.xdelta`를 원본 WonderSwan Color ROM에 적용하는 방법을 설명합니다.
+이 문서는 **v1.0.1 (hotfix)** `monoeye_ko_expanded_v1.0.1_hotfix.xdelta`를 원본 WonderSwan Color ROM에 적용하는 방법을 설명합니다.
 
 ## 1. 준비물
 
 - **합법적으로 소유한 일본판 원본 ROM**: `SD Gundam G Generation Mono-Eye Gundams.wsc`
-- 패치 파일: `out/dist/monoeye_ko_expanded.xdelta`
+- 패치 파일: `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
 - xdelta 패치를 적용할 프로그램
   - GUI: Delta Patcher 등 xdelta3 호환 프론트엔드
   - CLI: xdelta3
@@ -33,7 +33,7 @@ Get-FileHash ".\SD Gundam G Generation Mono-Eye Gundams.wsc" -Algorithm SHA256
 Delta Patcher/xdeltaUI 계열 프로그램에서는 보통 다음과 같이 지정합니다. 현재 배포 xdelta는 구버전 호환을 위해 VCDIFF secondary compression(LZMA)을 사용하지 않습니다.
 
 - **Original file / Source**: **합법적으로 소유한 일본판 원본 `.wsc`**
-- **XDelta patch**: `monoeye_ko_expanded.xdelta`
+- **XDelta patch**: `monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
 - **Output file**: 새 파일 이름의 `.wsc`
 
 원본 파일 자체를 덮어쓰기보다 새 출력 파일을 만드는 것을 권장합니다.
@@ -41,7 +41,7 @@ Delta Patcher/xdeltaUI 계열 프로그램에서는 보통 다음과 같이 지�
 정상 적용 후 결과 ROM은 다음 조건을 만족해야 합니다.
 
 - 크기: **16 MiB (16,777,216 bytes)**
-- SHA-256: `D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
+- SHA-256: `C8EE51BE9C5E33DFD88E7565453FF031A931AAF4948D9CD4AEE35A7EC6892E86`
 
 ## 4. CLI로 적용
 
@@ -49,7 +49,7 @@ xdelta3를 직접 사용하는 경우:
 
 ```bash
 xdelta3 -d -f -s "SD Gundam G Generation Mono-Eye Gundams.wsc" \
-  "monoeye_ko_expanded.xdelta" \
+  "monoeye_ko_expanded_v1.0.1_hotfix.xdelta" \
   "monoeye_ko_expanded.wsc"
 ```
 
@@ -58,7 +58,7 @@ xdelta3 -d -f -s "SD Gundam G Generation Mono-Eye Gundams.wsc" \
 ```bash
 python tools/apply_main_tip_xdelta.py \
   --original "SD Gundam G Generation Mono-Eye Gundams.wsc" \
-  --xdelta out/dist/monoeye_ko_expanded.xdelta \
+  --xdelta out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta \
   --out monoeye_ko_expanded.wsc
 ```
 
@@ -72,11 +72,11 @@ Get-FileHash ".\monoeye_ko_expanded.wsc" -Algorithm SHA256
 
 정상 결과:
 
-`D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
+`C8EE51BE9C5E33DFD88E7565453FF031A931AAF4948D9CD4AEE35A7EC6892E86`
 
 xdelta 파일 자체의 SHA-256:
 
-`AE70F4BEEE218BED3D571592076828DEC87DC76DABC3BEE68C54CF95231A39B6`
+`2213A9AF504CF5273535BCA8C23BA998C9592D210ECBDBEDB02068B149B73F59`
 
 ## 6. 에뮬레이터에서 실행
 

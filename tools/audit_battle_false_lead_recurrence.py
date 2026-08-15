@@ -24,6 +24,11 @@ from monoeye_rom import stock_base
 
 SAFE = ROOT / "out/script/battle_dialogue_false_lead_safe_targets.csv"
 DUPLICATE = ROOT / "out/script/battle_dialogue_duplicate_lead_stock_rehome_targets.csv"
+ARCHIVE_SCRIPT = ROOT / "legacy/release_core_20260815/out/script"
+if not SAFE.is_file():
+    SAFE = ARCHIVE_SCRIPT / "battle_dialogue_false_lead_safe_targets.csv"
+if not DUPLICATE.is_file():
+    DUPLICATE = ARCHIVE_SCRIPT / "battle_dialogue_duplicate_lead_stock_rehome_targets.csv"
 PORTRAIT_REPORT = ROOT / "out/patch/dialogue_runtime_followup_portrait_report.json"
 DEFAULT_TARGET = ROOT / "out/patch/dialogue_readability_candidate.wsc"
 EXPECTED_SAFE = 264
@@ -35,6 +40,9 @@ EXPECTED_DUPLICATE = 70
 RUNTIME_OVERRIDES = {
     "5D5982": bytes.fromhex("82"),
     "5D5B1F": bytes.fromhex("82"),
+    # Screen-proven indirect-fire line: 86=全 is visible text in
+    # 全砲門……撃てっ！！, not speaker/portrait metadata.
+    "5E4F43": bytes.fromhex("86"),
     "5EB3AA": bytes.fromhex("82"),
     "5EAB36": bytes.fromhex("AD"),
     "5EB6B2": bytes.fromhex("AD"),

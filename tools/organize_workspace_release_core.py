@@ -32,7 +32,7 @@ MANIFEST = LEGACY_ROOT / "manifest.json"
 PATCH = ROOT / "out" / "patch"
 SCRIPT = ROOT / "out" / "script"
 MAIN = PATCH / "monoeye_ko_expanded.wsc"
-EXPECTED_MAIN_SHA256 = "d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9"
+EXPECTED_MAIN_SHA256 = "c8ee51be9c5e33dfd88e7565453ff031a931aaf4948d9cd4aee35a7ec6892e86"
 EXPECTED_MAIN_SIZE = 16_777_216
 
 KEEP_PATCH_FILES = {
@@ -45,11 +45,13 @@ KEEP_PATCH_FILES = {
     "dialogue_runtime_safety_gate.json",
     "lalah_sune_postpromotion_terminology_audit.json",
     "lalah_sune_postpromotion_mapping_audit.json",
-    "lalah_sune_postpromotion_false_segptr.json",
-    "lalah_sune_terminology_followup_promotion_report.json",
+    "event_cleanup_hotfix_1_0_1_postpromotion_audit.json",
+    "event_cleanup_hotfix_1_0_1_postpromotion_false_lead.json",
+    "event_cleanup_hotfix_1_0_1_postpromotion_false_segptr.json",
+    "event_cleanup_hotfix_1_0_1_promotion_report.json",
 }
 KEEP_PATCH_PREFIXES = {
-    "backup/20260815_173517_pre_lalah_sune_terminology_followup/",
+    "backup/20260815_235351_pre_v1.0.1_hotfix/",
 }
 KEEP_SCRIPT_FILES = {
     "translation_sheet.csv",

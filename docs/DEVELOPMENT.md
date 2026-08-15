@@ -4,9 +4,10 @@
 
 ## 현재 정본
 
+- 릴리스: **v1.0.1 (hotfix)** · 기준 버전 v1.0.0
 - 메인 TIP: `out/patch/monoeye_ko_expanded.wsc`
 - 크기: 16,777,216 bytes
-- SHA-256: `D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
+- SHA-256: `C8EE51BE9C5E33DFD88E7565453FF031A931AAF4948D9CD4AEE35A7EC6892E86`
 - 일본판 원본 ROM: `SD Gundam G Generation Mono-Eye Gundams.wsc`
 - 원본 크기: 8,388,608 bytes
 - 원본 SHA-256: `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
@@ -22,7 +23,7 @@ python tools/make_main_tip_xdelta.py \
   --original "SD Gundam G Generation Mono-Eye Gundams.wsc" \
   --tip out/patch/monoeye_ko_expanded.wsc \
   --out-dir out/dist \
-  --name monoeye_ko_expanded \
+  --name monoeye_ko_expanded_v1.0.1_hotfix \
   --xdelta3 tools/vendor/xdelta3.exe
 ```
 
@@ -30,9 +31,9 @@ python tools/make_main_tip_xdelta.py \
 
 현재 배포 xdelta:
 
-- `out/dist/monoeye_ko_expanded.xdelta`
-- SHA-256: `AE70F4BEEE218BED3D571592076828DEC87DC76DABC3BEE68C54CF95231A39B6`
-- 크기: 1,600,564 bytes
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
+- SHA-256: `2213A9AF504CF5273535BCA8C23BA998C9592D210ECBDBEDB02068B149B73F59`
+- 크기: 1,600,785 bytes
 - VCDIFF secondary compression: disabled (xdeltaUI/구버전 xdelta3 호환)
 - round-trip: PASS
 
@@ -78,8 +79,9 @@ python tools/organize_current_tip_legacy_assets.py
 
 - `README.md`
 - `PATCH_GUIDE.md`
-- `out/dist/monoeye_ko_expanded.xdelta`
-- `out/dist/monoeye_ko_expanded_xdelta.json`
-- `out/dist/SHA256SUMS.txt`
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
+- `out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json`
+- `out/dist/SHA256SUMS_v1.0.1_hotfix.txt`
+- `RELEASE_NOTES_v1.0.1.md`
 
 개발 소스를 공개할 경우 `tools/`, `data/`, `docs/`를 추가로 포함하되 원본/패치 완료 ROM, SaveRAM, emulator binary, candidate/test ROM은 포함하지 않습니다.

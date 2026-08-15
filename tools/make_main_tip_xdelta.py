@@ -36,10 +36,13 @@ from xdelta3_tool import (  # noqa: E402
 
 DEFAULT_TIP = ROOT / "out/patch/monoeye_ko_expanded.wsc"
 DEFAULT_OUT_DIR = ROOT / "out/dist"
-DEFAULT_NAME = "monoeye_ko_expanded"
+DEFAULT_NAME = "monoeye_ko_expanded_v1.0.1_hotfix"
 DEFAULT_IPS = ROOT / "out/dist/monoeye_ko_expanded.ips"
 # Fail closed if the encoder forgot ``-s`` and compressed the whole TIP.
 MAX_PATCH_BYTES = 2 * 1024 * 1024
+RELEASE_VERSION = "1.0.1"
+RELEASE_TYPE = "hotfix"
+RELEASE_BASE_VERSION = "1.0.0"
 
 
 def _rel(path: Path) -> str:
@@ -176,6 +179,11 @@ def main() -> int:
         "schema_version": 1,
         "generated_by": "tools/make_main_tip_xdelta.py",
         "name": args.name,
+        "release": {
+            "version": RELEASE_VERSION,
+            "type": RELEASE_TYPE,
+            "base_version": RELEASE_BASE_VERSION,
+        },
         "method": "xdelta3_vcdiff_from_8mib_original_to_16mib_tip",
         "xdelta3": {
             "path": _rel(xdelta3) if xdelta3.resolve().is_relative_to(ROOT.resolve()) else str(xdelta3),
@@ -227,6 +235,9 @@ def main() -> int:
         "\n".join(
             [
                 f"# {args.name} xdelta",
+                "",
+                f"- 릴리스: **v{RELEASE_VERSION} ({RELEASE_TYPE})**",
+                f"- 기준 버전: **v{RELEASE_BASE_VERSION}**",
                 "",
                 "**합법적으로 소유한 일본판 원본 8 MiB WonderSwan ROM**에 적용하면 **16 MiB** 메인 TIP이 됩니다.",
                 "",

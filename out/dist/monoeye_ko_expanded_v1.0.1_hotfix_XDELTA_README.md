@@ -1,4 +1,7 @@
-# monoeye_ko_expanded xdelta
+# monoeye_ko_expanded_v1.0.1_hotfix xdelta
+
+- 릴리스: **v1.0.1 (hotfix)**
+- 기준 버전: **v1.0.0**
 
 **합법적으로 소유한 일본판 원본 8 MiB WonderSwan ROM**에 적용하면 **16 MiB** 메인 TIP이 됩니다.
 
@@ -10,13 +13,13 @@
 ## 입력
 
 - 원본: `SD Gundam G Generation Mono-Eye Gundams.wsc` · SHA-256 `376e4c6b4b81cc3a7dceb15dc4b7d0af04d3e6c8b81e8572569c39d3394870a0`
-- 메인 TIP: `monoeye_ko_expanded.wsc` · SHA-256 `d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9`
+- 메인 TIP: `monoeye_ko_expanded.wsc` · SHA-256 `c8ee51be9c5e33dfd88e7565453ff031a931aaf4948d9cd4aee35a7ec6892e86`
 
 ## 패치
 
-- 파일: `monoeye_ko_expanded.xdelta`
-- xdelta SHA-256: `ae70f4beee218bed3d571592076828dec87dc76dabc3bee68c54cf95231a39b6`
-- 크기: **1600564** bytes
+- 파일: `monoeye_ko_expanded_v1.0.1_hotfix.xdelta`
+- xdelta SHA-256: `2213a9af504cf5273535bca8c23ba998c9592d210ecbdbedb02068b149b73f59`
+- 크기: **1600785** bytes
 - 원본 ROM 포함: **아니오** (`embeds_original_rom: false`)
 - 8 MiB→16 MiB 라운드트립: **True**
 
@@ -25,8 +28,8 @@
 ### GUI (Delta Patcher 등 xdelta3 프론트엔드)
 
 1. 합법적으로 소유한 일본판 원본 8 MiB ROM 준비 및 백업
-2. Original file = 합법적으로 소유한 일본판 원본 `.wsc`, XDelta patch = `monoeye_ko_expanded.xdelta`, Output = 새 16 MiB `.wsc`
-3. 결과 SHA-256이 `d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9`인지 확인
+2. Original file = 합법적으로 소유한 일본판 원본 `.wsc`, XDelta patch = `monoeye_ko_expanded_v1.0.1_hotfix.xdelta`, Output = 새 16 MiB `.wsc`
+3. 결과 SHA-256이 `c8ee51be9c5e33dfd88e7565453ff031a931aaf4948d9cd4aee35a7ec6892e86`인지 확인
 
 xdelta **3.2 armor(BLAKE3)**, **VCDIFF secondary compression**,
 **application header**를 모두 끄고 plain VCDIFF로 인코딩했습니다. xdeltaUI 및
@@ -35,12 +38,12 @@ xdelta **3.2 armor(BLAKE3)**, **VCDIFF secondary compression**,
 ### CLI
 
 ```bash
-python tools/apply_main_tip_xdelta.py --original "SD Gundam G Generation Mono-Eye Gundams.wsc" --xdelta out/dist/monoeye_ko_expanded.xdelta --out out/dist/monoeye_ko_from_xdelta.wsc
+python tools/apply_main_tip_xdelta.py --original "SD Gundam G Generation Mono-Eye Gundams.wsc" --xdelta out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta --out out/dist/monoeye_ko_from_xdelta.wsc
 ```
 
 또는:
 
 ```bash
-xdelta3 -d -f -s "SD Gundam G Generation Mono-Eye Gundams.wsc" out/dist/monoeye_ko_expanded.xdelta out/dist/monoeye_ko_from_xdelta.wsc
+xdelta3 -d -f -s "SD Gundam G Generation Mono-Eye Gundams.wsc" out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta out/dist/monoeye_ko_from_xdelta.wsc
 ```
 

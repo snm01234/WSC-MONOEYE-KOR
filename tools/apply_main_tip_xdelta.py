@@ -25,8 +25,8 @@ from xdelta3_tool import (  # noqa: E402
 )
 
 DEFAULT_TIP = ROOT / "out/patch/monoeye_ko_expanded.wsc"
-DEFAULT_XDELTA = ROOT / "out/dist/monoeye_ko_expanded.xdelta"
-DEFAULT_META = ROOT / "out/dist/monoeye_ko_expanded_xdelta.json"
+DEFAULT_XDELTA = ROOT / "out/dist/monoeye_ko_expanded_v1.0.1_hotfix.xdelta"
+DEFAULT_META = ROOT / "out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json"
 
 
 def main() -> int:

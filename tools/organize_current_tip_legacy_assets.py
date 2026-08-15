@@ -49,7 +49,7 @@ MANIFEST = LEGACY / "legacy_asset_manifest.json"
 TIP = PATCH / "monoeye_ko_expanded.wsc"
 LIVE_SAVE = SRAM / "monoeye_ko_expanded.sav"
 EXPECTED_TIP_SHA256 = (
-    "d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9"
+    "c8ee51be9c5e33dfd88e7565453ff031a931aaf4948d9cd4aee35a7ec6892e86"
 )
 EXPECTED_TIP_SIZE = 16_777_216
 EXPECTED_SAVE_SIZE = 32_768
