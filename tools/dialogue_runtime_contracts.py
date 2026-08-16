@@ -108,9 +108,12 @@ SCENARIO_CONTINUATION_EXT3_PROVEN = {0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS
 # safe here even though the surrounding 17 xx 18 first-line grammar is valid.
 #
 # 61E234: native two-token predecessor is required for the following page group.
+# 623DC6: STAGE16t Bright first line leaked the following 17 28 01 06 control row.
+# 623DD7: STAGE16t citizen first line left the event state able to replay the dialogue block.
+# 624271: STAGE16t Scirocco short line leaked text and corrupted the following Katejina portrait state.
 # 62663E: E5 18 conversion reintroduces bogus follow line `がけはう`.
 # 627FB5: E5 18 leaf was previously observed to leak follow/control text.
-SCENARIO_FIRST_NATIVE_ONLY = {0x61E234, 0x62663E, 0x627FB5}
+SCENARIO_FIRST_NATIVE_ONLY = {0x61E234, 0x623DC6, 0x623DD7, 0x624271, 0x62663E, 0x627FB5}
 ENFORCED_REPAIR_ADDRESSES = (
     ACTIVE_VISIBLE_ANCHORS
     | ACTIVE_ID_CONTINUATIONS

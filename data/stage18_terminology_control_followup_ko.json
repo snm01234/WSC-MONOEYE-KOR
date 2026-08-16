@@ -1,0 +1,32 @@
+{
+  "stage": "STAGE18 월광접",
+  "parent_main_sha256": "d6b3caa433f174348e885c1eced9dae64a5ac8976a67ae0363a31d5cbe541f2e",
+  "cell_limit": 20,
+  "scenario_rewrite": {
+    "abs": "6002F1",
+    "original_japanese": "ことはそなたも承知しているであろうに！？",
+    "before_payload_hex": "18E518B0EB01010101010101010101010101",
+    "before_render": "こ것은　그대도　잘　알고　있을　터인데！？",
+    "after": "그것은　그대도　잘　알고　있을　터인데！",
+    "terminator": "600303",
+    "next_address": "600305",
+    "next_control_hex": "080C"
+  },
+  "dictionary_rewrites": [
+    {"index": "015D5", "before": "납치된　벨라　로나의　구출이다。", "after": "납치된　베라　로나의　구출이다。"},
+    {"index": "02429", "before": "벨라　로나", "after": "베라　로나"},
+    {"index": "033DD", "before": "그리고　벨라　로나　씨。", "after": "그리고　베라　로나　씨。"},
+    {"index": "0407C", "before": "……아아、　벨라　로나。", "after": "……아아、　베라　로나。"},
+    {"index": "06010", "before": "마이츠아　로나는　제　할아버지였습니다。", "after": "마이처　로나는　제　할아버지였습니다。"},
+    {"index": "0C3DB", "before": "베라・로나", "after": "베라　로나"},
+    {"index": "0D4FE", "before": "……벨라　로나입니다。", "after": "……베라　로나입니다。"},
+    {"index": "0FCBA", "before": "베라・로나", "after": "베라　로나"},
+    {"index": "10BCE", "before": "마이처・로나라는　인물을　중심으로", "after": "마이처　로나라는　인물을　중심으로"},
+    {"index": "10F71", "before": "그리고　베라・로나　씨。", "after": "그리고　베라　로나　씨。"}
+  ],
+  "alias_dictionary_rewrites": [
+    {"segment": "21", "local": "0277", "expected_pointer": "5EDE", "before": "마더・뱅가드와　베라・로나가", "after": "마더・뱅가드와　베라　로나가", "mode": "in_place"},
+    {"segment": "22", "local": "03D7", "expected_pointer": "872B", "before": "마이처・로나는　제　할아버지였습니다。", "after": "마이처　로나는　제　할아버지였습니다。", "mode": "in_place"},
+    {"segment": "24", "local": "0019", "expected_pointer": "2264", "before": "베라로나를섬긴다。끝엔", "after": "베라　로나를섬긴다。끝엔", "mode": "repoint"}
+  ]
+}

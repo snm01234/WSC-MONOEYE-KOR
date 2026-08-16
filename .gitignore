@@ -87,6 +87,13 @@ htmlcov/
 .vscode/
 .idea/
 
+# Local ChatGPT / DevSpace / Codex automation helpers.
+# These may contain machine-specific paths, hostnames, or local harness setup.
+.devspace/
+.codex/
+codexpro-automation/
+tools/restart_devspace.ps1
+
 # OS junk.
 .DS_Store
 Thumbs.db

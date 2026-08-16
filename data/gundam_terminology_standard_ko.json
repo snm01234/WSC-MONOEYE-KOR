@@ -348,20 +348,157 @@
       "decision": "official_current_reference"
     },
     {
+      "id": "bera_rona",
+      "category": "character",
+      "jp": ["べラ・ロナ", "ベラ・ロナ"],
+      "canonical_ko": "베라 로나",
+      "forbidden_ko": ["벨라 로나", "벨라　로나", "벨라・로나", "베라・로나", "베라로나"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "bera_component",
+      "category": "character_name_component",
+      "jp": ["べラ", "ベラ"],
+      "canonical_ko": "베라",
+      "forbidden_ko": ["벨라"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "maitza_rona",
+      "category": "character",
+      "jp": ["マイッツァ－・ロナ", "マイッツァー・ロナ", "マイツァ－・ロナ", "マイツァー・ロナ"],
+      "canonical_ko": "마이처 로나",
+      "forbidden_ko": ["마이자 로나", "마이자　로나", "마이자　－　로나", "마이자 - 로나", "마이츠아 로나", "마이츠아　로나", "마이처・로나"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "maitza_component",
+      "category": "character_name_component",
+      "jp": ["マイッツァ－", "マイッツァー", "マイツァ－", "マイツァー"],
+      "canonical_ko": "마이처",
+      "forbidden_ko": ["마이자", "마이츠아"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "hamma_hamma",
+      "category": "unit",
+      "jp": ["ハンマ・ハンマ"],
+      "canonical_ko": "햄머 햄머",
+      "forbidden_ko": ["함마 함마", "함마　함마", "함마・함마", "햄머・햄머"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "kakricon_full_name",
+      "category": "character",
+      "jp": ["カクリコン・カク－ラ－", "カクリコン・カクーラー"],
+      "canonical_ko": "카크리콘 카크라",
+      "forbidden_ko": ["카크리콘 카쿠라", "카크리콘　카쿠라", "카크리콘・카쿠라"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "kakra_component",
+      "category": "character_name_component",
+      "jp": ["カク－ラ－", "カクーラー"],
+      "canonical_ko": "카크라",
+      "forbidden_ko": ["카쿠라"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "sarah_zabiarov",
+      "category": "character",
+      "jp": ["サラ・ザビアロフ"],
+      "canonical_ko": "사라 자비아로프",
+      "forbidden_ko": ["사라 자비알로프", "사라　자비알로프", "사라・자비알로프", "사라・자비아로프"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "zabiarov_component",
+      "category": "character_name_component",
+      "jp": ["ザビアロフ"],
+      "canonical_ko": "자비아로프",
+      "forbidden_ko": ["자비알로프"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "jamaican_daninghan",
+      "category": "character",
+      "jp": ["ジャマイカン・ダニンガン"],
+      "canonical_ko": "자마이칸 다닝간",
+      "forbidden_ko": ["자마이칸 다니건", "자마이칸　다니건", "자마이칸・다니건"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "daninghan_component",
+      "category": "character_name_component",
+      "jp": ["ダニンガン"],
+      "canonical_ko": "다닝간",
+      "forbidden_ko": ["다니건"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "v2_assault_buster",
+      "category": "unit",
+      "jp": ["Ｖ２アサルトバスタ－", "Ｖ２アサルトバスター", "アサルトバスタ－", "アサルトバスター"],
+      "canonical_ko": "V2 어설트 버스터",
+      "forbidden_ko": ["V2 어썰트 버스터", "V2　어썰트　버스터", "Ｖ２ 어썰트 버스터", "Ｖ２　어썰트　버스터", "어썰트 버스터", "어썰트　버스터", "어썰트버스터"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "vesbar",
+      "category": "weapon",
+      "jp": ["ヴェスバ－", "ヴェスバー"],
+      "canonical_ko": "베스바",
+      "forbidden_ko": ["베스버"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "harry_ord",
+      "category": "character",
+      "jp": ["ハリー・オード", "ハリ－・オ－ド", "ハリー", "ハリ－"],
+      "canonical_ko": "해리 오드",
+      "forbidden_ko": ["하리 중위", "하리　중위", "하리-중위", "하리－중위", "하리 오드", "하리　오드", "하리・오드", "하리－", "하리！", "……하리！"],
+      "component_ko": {"ハリー": "해리", "ハリ－": "해리", "オード": "오드", "オ－ド": "오드"},
+      "decision": "user_project_standard_20260816"
+    },
+    {
       "id": "radish",
       "category": "ship",
-      "jp": ["ラ－ディッシュ", "ラーディッシュ"],
-      "canonical_ko": "래디시",
-      "forbidden_ko": ["라디시", "라　디슈", "라 디슈"],
-      "decision": "official_current_reference"
+      "jp": ["ラ－ディッシュ", "ラーディッシュ", "ラ－ディシュ"],
+      "canonical_ko": "라디쉬",
+      "forbidden_ko": ["래디시", "라디시", "라디슈", "래디슈", "라　디슈", "라 디슈"],
+      "decision": "user_project_standard_20260816"
     },
     {
       "id": "ginganamu_component",
       "category": "character",
-      "jp": ["ギンガナム", "ギム・ギンガナム"],
+      "jp": ["ギンガナム"],
       "canonical_ko": "깅가남",
       "forbidden_ko": ["긴가남"],
       "decision": "official_current_reference"
+    },
+    {
+      "id": "gim_ginganamu_full",
+      "category": "character",
+      "jp": ["ギム・ギンガナム"],
+      "canonical_ko": "김 깅가남",
+      "forbidden_ko": ["기임 깅가남", "기임　깅가남", "기암 깅가남", "기암　깅가남", "김・깅가남"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "hangerg_evin",
+      "category": "character",
+      "jp": ["ハンゲルグ・エヴィン", "ハンゲルク・エヴィン"],
+      "canonical_ko": "한겔그 에빈",
+      "forbidden_ko": ["항게르그 에빈", "항게르그・에빈", "한겔구 에빈", "한겔구　에빈", "한겔구・에빈", "한게르그 에빈", "한게르그・에빈"],
+      "decision": "user_project_standard_20260816"
+    },
+    {
+      "id": "hangerg_component",
+      "category": "character_name_component",
+      "jp": ["ハンゲルグ", "ハンゲルク"],
+      "canonical_ko": "한겔그",
+      "forbidden_ko": ["항게르그", "한겔구", "한게르그"],
+      "decision": "user_project_standard_20260816"
     },
     {
       "id": "turn_x_spacing",
@@ -474,6 +611,45 @@
       },
       "decision": "official_current_reference",
       "notes": "메인 번역 용어집의 현행 한국 공식 표기와 도감 표기를 일치시킨다."
+    },
+    {
+      "id": "sanc_kingdom",
+      "category": "place",
+      "jp": ["サンクキングダム", "サンク・キングダム"],
+      "canonical_ko": "생크 킹덤",
+      "forbidden_ko": ["상크 킹덤", "상크　킹덤", "상크킹덤", "샹크 킹덤", "샹크　킹덤", "샹크킹덤", "샹킹덤", "샌크 킹덤", "샌크　킹덤", "샌크킹덤", "샌킹덤", "썬크 킹덤", "썬크　킹덤", "썬크킹덤", "썽크 킹덤", "썽크　킹덤", "썽크킹덤", "만산국 킹덤", "만산국　킹덤"],
+      "decision": "user_confirmed",
+      "notes": "표시 폭 때문에 공백을 생략한 생크킹덤은 허용하되 상크 표기는 사용하지 않는다."
+    },
+    {
+      "id": "paptimus_scirocco",
+      "category": "character",
+      "jp": ["パプテマス・シロッコ", "パプテマス", "シロッコ"],
+      "canonical_ko": "팝티머스 시로코",
+      "forbidden_ko": ["파프테마스 시로코", "파프테마스　시로코", "파프테마스", "파푸테마스 시로코", "파푸테마스　시로코", "파푸테마스", "파브테마스 시로코", "파브테마스　시로코", "파브테마스", "Papthemas"],
+      "component_ko": {
+        "パプテマス": "팝티머스",
+        "シロッコ": "시로코"
+      },
+      "decision": "user_confirmed",
+      "notes": "전체 이름은 팝티머스 시로코, 단독 パプテマス는 팝티머스로 통일한다."
+    },
+    {
+      "id": "dren",
+      "category": "character",
+      "jp": ["ドレン"],
+      "canonical_ko": "드렌",
+      "forbidden_ko": ["도렌", "드레인"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "sea_serpent_weapon",
+      "category": "weapon",
+      "jp": ["海ヘビ"],
+      "canonical_ko": "바다뱀",
+      "forbidden_ko": ["바다구렁이"],
+      "decision": "user_confirmed",
+      "notes": "무장명 海ヘビ는 바다뱀으로 통일한다."
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "parent_candidate": "out/patch/stage18_terminology_control_followup_candidate.wsc",
+  "parent_sha256": "2ecc78d7da4e508e050de91737c7898818d3b3d2286b49b6366a7541ed7112c4",
+  "cell_limit": 20,
+  "new_glyphs": {
+    "햄": "EC85"
+  },
+  "dictionary_rewrites": [
+    {"index":"033A8","before":"그래……맡겨 줘、 벨라！！","after":"그래……맡겨 줘、 베라！！"},
+    {"index":"033F1","before":"벨라 씨의 마더 뱅가드에","after":"베라 씨의 마더 뱅가드에"},
+    {"index":"0A465","before":"벨라가 지도자가 된 후","after":"베라가 지도자가 된 후"},
+    {"index":"00C6B","before":"자비알로프","after":"자비아로프"},
+    {"index":"00E9F","before":"어썰트버스터","after":"어설트버스터"},
+    {"index":"0C426","before":"함마・함마","after":"햄머 햄머"},
+    {"index":"0D504","before":"마이자 － 로나라는 인물을 중심으로","after":"마이처 로나라는 인물을 중심으로"},
+    {"index":"0FE3F","before":"Ｖ２ 어썰트 버스터█Ｈ","after":"Ｖ２ 어설트 버스터█Ｈ"},
+    {"index":"0FE40","before":"Ｖ２ 어썰트 버스터█","after":"Ｖ２ 어설트 버스터█"},
+    {"index":"0FE58","before":"함마・함마█","after":"햄머 햄머█"},
+    {"index":"0FF13","before":"Ｖ２ 어썰트 버스터<E62F>Ｈ","after":"Ｖ２ 어설트 버스터<E62F>Ｈ"},
+    {"index":"0FF16","before":"베스버","after":"베스바"},
+    {"index":"0FF17","before":"Ｖ２ 어썰트 버스터","after":"Ｖ２ 어설트 버스터"},
+    {"index":"0FF43","before":"함마・함마","after":"햄머 햄머"}
+  ],
+  "direct_record_byte_rewrites": [
+    {"abs":"5C0EFF","before":"2A","after":"01","reason":"사라・자비아로프 구분점을 프로젝트 표준 공백형 사라 자비아로프로 통일"}
+  ],
+  "alias_dictionary_rewrites": [
+    {"segment":"21","local":"0137","expected_pointer":"40D1","before":"……말씀대로、 벨라 님。","after":"……말씀대로、 베라 님。"},
+    {"segment":"21","local":"0183","expected_pointer":"47ED","before":"미안하지만、벨라 님께 상처를 입히면","after":"미안하지만、베라 님께 상처를 입히면"},
+    {"segment":"22","local":"011D","expected_pointer":"3E34","before":"벨라……！！","after":"베라……！！"},
+    {"segment":"22","local":"0464","expected_pointer":"A57E","before":"벨라가 지도자가 된 뒤","after":"베라가 지도자가 된 뒤"},
+    {"segment":"23","local":"0123","expected_pointer":"4011","before":"벨라라는 사람이 끌려가고、건담이","after":"베라라는 사람이 끌려가고、건담이"},
+    {"segment":"24","local":"0001","expected_pointer":"2020","before":"카크리콘・카쿠라","after":"카크리콘 카크라"},
+    {"segment":"25","local":"0021","expected_pointer":"2322","before":"자마이칸・다니건","after":"자마이칸 다닝간"}
+  ],
+  "runtime_display_guards": [
+    {"abs":"6002F1","expected":"그것은 그대도 잘 알고 있을 터인데！","note":"직전 사용자 실측 승인 STAGE18 디아나 대사 유지"},
+    {"abs":"628299","expected_body":"마이처 로나라는 인물을 중심으로","preserve_leading_18":true,"note":"크와트로 대사; 런타임에서 선두 18은 화면 제어 경로이므로 레코드 구조는 보존"},
+    {"abs":"6282E2","expected_runtime_alias":"베라가 지도자가 된 뒤","note":"킨케두 대사 첫 행"},
+    {"abs":"6282EF","expected":"크로스본 뱅가드는 변했어。","note":"킨케두 대사 둘째 행은 변경하지 않음"}
+  ],
+  "requested_standards": {
+    "bera_rona":"베라 로나",
+    "bera_component":"베라",
+    "maitza_rona":"마이처 로나",
+    "hamma_hamma":"햄머 햄머",
+    "kakricon_full_name":"카크리콘 카크라",
+    "sarah_zabiarov":"사라 자비아로프",
+    "jamaican_daninghan":"자마이칸 다닝간",
+    "v2_assault_buster":"V2 어설트 버스터",
+    "vesbar":"베스바"
+  }
+}

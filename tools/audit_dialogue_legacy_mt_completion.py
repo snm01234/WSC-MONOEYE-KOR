@@ -24,7 +24,7 @@ OUT = ROOT / "out/script/dialogue_legacy_mt_completion_audit.json"
 
 FACE_START = 0x61E400
 FACE_END = 0x61F500
-CORRUPT_SPECIAL = {"603F33", "603F3D", "603F57", "603F72", "603F7C", "603F84", "603F91"}
+CORRUPT_SPECIAL = {"603F33", "603F3D", "603F45", "603F57", "603F72", "603F7C", "603F84", "603F91"}
 KNOWN_SHORT_DEFERRED = {"6116F3", "613317", "6192C6", "631E7B"}
 JP_CONTENT_RE = re.compile(r"[ぁ-んァ-ン一-龥A-Za-zＡ-Ｚ０-９0-9]")
 PUNCT_ONLY_RE = re.compile(r"[………。！？？「」『』（）\s　]+")

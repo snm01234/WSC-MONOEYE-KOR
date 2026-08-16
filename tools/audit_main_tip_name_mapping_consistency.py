@@ -216,12 +216,13 @@ def untranslated_standard_dictionary(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tip", type=Path, default=MAIN)
+    parser.add_argument("--tbl", type=Path, default=TBL_PATH)
     parser.add_argument("--out", type=Path, default=OUT)
     args = parser.parse_args()
 
     tip = bytes(load_rom(args.tip))
     original = bytes(load_rom(ORIGINAL))
-    tbl = Tbl.load(TBL_PATH)
+    tbl = Tbl.load(args.tbl)
     original_dictionary = Dictionary(original)
     dictionary = make_dictionary_ext3(
         tip, load_ext_meta(EXT_META), load_ext_meta(EXT3_META)
@@ -248,6 +249,7 @@ def main() -> int:
         "generated_by": "tools/audit_main_tip_name_mapping_consistency.py",
         "read_only_rom_audit": True,
         "tip": {"path": str(args.tip.resolve()), "size": len(tip), "sha256": sha(tip)},
+        "tbl": {"path": str(args.tbl.resolve()), "sha256": sha(args.tbl.read_bytes())},
         "catalog_scope": list(PAIR_FILES)
         + [
             "data/name75_base_ko.json",

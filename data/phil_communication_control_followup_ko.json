@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "runtime_failed_retired",
+  "superseded_by": "data/phil_communication_page_boundary_followup_ko.json",
+  "failure_reason": "Removing the leading 18 at 6017FC/601826 merged the page after 디아나 님！; keep this file only as failed-hypothesis evidence.",
+  "parent_candidate": "out/patch/stage18_extended_terminology_followup_candidate.wsc",
+  "parent_sha256": "a5ba7d566cfdfc20ae55177c2a3849aa2dc08b080cc6c87f745ae8d254a83f4a",
+  "parent_tbl": "out/patch/stage18_extended_terminology_followup_candidate.tbl",
+  "parent_tbl_sha256": "9d31d1fd1a5022b54f83866d285f4d656461b30d4046ef2b6261a9441abca914",
+  "control_rewrites": [
+    {
+      "abs": "6017FC",
+      "before_payload_hex": "18E518B1FE0101010101010101010101010101010101",
+      "after_payload_hex": "E518B1FE010101010101010101010101010101010101",
+      "terminator": "601812",
+      "before_render": "こ저희들은　지구만을　생각하고、　달의",
+      "after_render": "저희들은　지구만을　생각하고、　달의",
+      "reason": "Phil communication continuation: raw 18 is structural in this Korean ext3 route and leaks as visible こ"
+    },
+    {
+      "abs": "601826",
+      "before_payload_hex": "18E5183BDF01010101010101010101010101",
+      "after_payload_hex": "E5183BDF0101010101010101010101010101",
+      "terminator": "601838",
+      "before_render": "こ따라갈　수　없다고　말씀드렸습니다！！",
+      "after_render": "따라갈　수　없다고　말씀드렸습니다！！",
+      "reason": "Phil communication continuation: raw 18 is structural in this Korean ext3 route and leaks as visible こ"
+    }
+  ],
+  "preserve_records": [
+    {"abs": "6017F3", "payload_hex": "173418E518B1FD", "terminator": "6017FA", "render": "디아나　님！"},
+    {"abs": "601813", "payload_hex": "E51829FF01010101010101010101010101", "terminator": "601824", "render": "등한시하는　폐하의　뜻에는……"},
+    {"abs": "60183D", "payload_hex": "173418F617F617", "terminator": "601844", "render": "………………"},
+    {"abs": "601849", "payload_hex": "172A18E5180C3C0101010101010101", "terminator": "601858", "render": "그렇게까지　고민하고　있었나……！"},
+    {"abs": "601864", "payload_hex": "173418E518328401010101010101", "terminator": "601872", "render": "필　소령에게　뭐라고　사과해야　할지……"}
+  ],
+  "preserve_bytes": [
+    {"start": "60183A", "end_exclusive": "601864", "sha256": "36114c53967205a3aa96b452dd471d25f88f820498906bd85334e3bde62e215d", "note": "following controls and dialogue until Phil apology line must remain byte-exact"}
+  ],
+  "dictionary_rewrites": [
+    {"index": "04159", "before": "토레스、　하리　중위　기체를　회수해！", "after": "토레스、　해리　중위　기체를　회수해！"},
+    {"index": "0D4F8", "before": "자、　하리－중위、　아－가마에！！", "after": "자、　해리　중위、　아－가마에！！"},
+    {"index": "0D501", "before": "트레스、　하리－중위기의　회수를！", "after": "트레스、　해리　중위기의　회수를！"},
+    {"index": "0E2CD", "before": "달빛　나비　해제　（하리－）", "after": "달빛　나비　해제　（해리）"}
+  ],
+  "alias_dictionary_rewrites": [
+    {"segment": "22", "local": "0704", "expected_pointer": "F0A1", "before": "하리　중위가　모르는　기체？", "after": "해리　중위가　모르는　기체？"},
+    {"segment": "22", "local": "0742", "expected_pointer": "F5FE", "before": "자、　하리　중위、　아가마로！！", "after": "자、　해리　중위、　아가마로！！"},
+    {"segment": "23", "local": "03EF", "expected_pointer": "9434", "before": "트레스、　하리－중위기의　회수를！　적이", "after": "트레스、　해리　중위기의　회수를！　적이"},
+    {"segment": "24", "local": "06C2", "expected_pointer": "E9C1", "before": "……하리！", "after": "……해리！"},
+    {"segment": "24", "local": "070C", "expected_pointer": "F04E", "before": "하리　중위！", "after": "해리　중위！"}
+  ]
+}

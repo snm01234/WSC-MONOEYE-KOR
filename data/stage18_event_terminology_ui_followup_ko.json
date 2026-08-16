@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "parent_candidate": "out/patch/phil_communication_page_boundary_followup_candidate.wsc",
+  "parent_sha256": "62ec37d288cbd85e06dad96af2fd6f4d40db23dbf3f5484007679c61f54eadd4",
+  "dialogue_phrase_rewrites": [
+    {"index":"0C1FE","before":"저희들은　지구만을　생각하고、　달의","after":"저희들은　지구만을　생각하고、　달을"}
+  ],
+  "native_page_repairs": [
+    {"abs":"6019B7","before_payload_hex":"173418E518B215010101","after_payload_hex":"173418F8E7F2D6F60C03","terminator":"6019C1","render":"디아나　님……！！","grammar":"17 34 18 + stock 08E7 + stock 02D6 + stock 060C + 03"}
+  ],
+  "dictionary_rewrites": [
+    {"index":"00FE5","before":"기암　깅가남　네놈！！","after":"김　깅가남　네놈！！"},
+    {"index":"033CB","before":"한겔구　에빈이라고　합니다。","after":"한겔그　에빈이라고　합니다。"},
+    {"index":"033CD","before":"한겔구　에빈……","after":"한겔그　에빈……"},
+    {"index":"033DC","before":"한겔구　씨。","after":"한겔그　씨。"},
+    {"index":"0C20D","before":"기임　깅가남은　턴　엑스를　들고나가、","after":"김　깅가남은　턴　엑스를　들고나가、"},
+    {"index":"0C2F6","before":"저것은……　기임　깅가남인가！！","after":"저것은……　김　깅가남인가！！"}
+  ],
+  "dictionary_dot_to_space": [
+    {"index":"10073","before":"이　김・깅가남이","after":"이　김　깅가남이"},
+    {"index":"10B9E","before":"김・깅가남과　손을　잡기로　했다。","after":"김　깅가남과　손을　잡기로　했다。"},
+    {"index":"10BB9","before":"김・깅가남을　어떻게든　하려면","after":"김　깅가남을　어떻게든　하려면"}
+  ],
+  "alias_rewrites": [
+    {"segment":"23","local":"03F1","expected_pointer":"948E","before":"한겔구　에빈이라고　합니다。　본래연방군","after":"한겔그　에빈이라고　합니다。　본래연방군"},
+    {"segment":"25","local":"0044","expected_pointer":"26A1","before":"항게르그・에빈","after":"한겔그　에빈"}
+  ],
+  "alias_dot_to_space": [
+    {"segment":"21","local":"0420","expected_pointer":"90DB","before":"이　김・깅가남이","after":"이　김　깅가남이"},
+    {"segment":"23","local":"0137","expected_pointer":"42B1","before":"우선　김・깅가남에　대처하는　것이","after":"우선　김　깅가남에　대처하는　것이"}
+  ],
+  "direct_name_dot_to_space": [
+    {"abs":"5C09C1","before_payload_hex":"F1B82AFCD5","after_payload_hex":"F1B801FCD5","terminator":"5C09C6","before":"김・깅가남","after":"김　깅가남"}
+  ],
+  "raw_tile_restores": [
+    {"index":"0FE3F","offset":22,"before":"E6C5","after":"E736"},
+    {"index":"0FE40","offset":22,"before":"E6C5","after":"E736"},
+    {"index":"0FE58","offset":13,"before":"E6C5","after":"E736"}
+  ],
+  "short_ui": {
+    "abs":"75B401",
+    "before_payload_hex":"E08F86",
+    "after_text":"사전",
+    "retired_slot":"0C47",
+    "retired_slot_before":"F47D1A4810",
+    "new_compact_code":"E51C",
+    "reuse_compact_code":"E51B",
+    "source_hangul_code":"E751"
+  }
+}

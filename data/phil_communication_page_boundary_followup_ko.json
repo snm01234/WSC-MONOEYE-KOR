@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "purpose": "Repair Phil communication event page boundary after runtime proof that removing continuation lead 18 incorrectly merges '디아나 님!' with the following sentence.",
+  "parent_candidate": "out/patch/phil_communication_control_followup_candidate.wsc",
+  "reference_parent_before_bad_shift": "out/patch/stage18_extended_terminology_followup_candidate.wsc",
+  "targets": {
+    "6017F3": {
+      "jp": "ディアナ様！",
+      "ko": "디아나　님！",
+      "strategy": "replace one E5 18 portal with exactly two ordinary native stock dictionary tokens so the predecessor is no longer a single synthetic ext3 iteration before the double-NUL page boundary"
+    },
+    "6017FC": {
+      "ko": "저희들은　지구만을　생각하고、　달을",
+      "strategy": "restore the leading 18/page-head byte exactly as it existed before the failed shift candidate"
+    },
+    "601826": {
+      "ko": "따라갈　수　없다고　말씀드렸습니다！！",
+      "strategy": "restore the leading 18/page-head byte exactly as it existed before the failed shift candidate"
+    }
+  },
+  "native_phrase": {
+    "existing_stock_index": "08E7",
+    "existing_stock_text": "디아나",
+    "new_fragment": "　님！",
+    "new_fragment_slot": "0DB4"
+  },
+  "guards": [
+    "6017FA/6017FB double-NUL remains byte-exact",
+    "601813 remains byte-exact",
+    "60183A and following 08 45 control remain byte-exact",
+    "record extents and terminators remain unchanged",
+    "Harry terminology fixes from parent remain intact"
+  ]
+}
