@@ -101,7 +101,21 @@ SEMANTIC_SCENARIO_CONTINUATIONS = {
     0x61C463,
     0x61C506,
 }
-ACTIVE_SCENARIO_CONTINUATIONS = {0x61E23D, 0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS
+# User-runtime-proven continuation records where a leading 0x18 is a parser/control
+# prefix, not visible `こ`, and the following body must stay on native stock-token
+# grammar.  Direct E5 18 portals at these anchors leak/corrupt the following row.
+SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY = {0x63449B, 0x635855, 0x635BFB}
+# Runtime-proven native-only continuation records that have no leading 0x18.
+# STAGE21t Doctor J's `그건 아니지만。` follow-up used a mixed Hangul-marker
+# stock wrapper and corrupted at runtime; preserve ordinary stock-token +
+# punctuation grammar at both duplicated scenario copies.
+SCENARIO_CONTINUATION_NATIVE_ONLY = {0x635866, 0x635C0C}
+ACTIVE_SCENARIO_CONTINUATIONS = (
+    {0x61E23D, 0x626509}
+    | SEMANTIC_SCENARIO_CONTINUATIONS
+    | SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
+    | SCENARIO_CONTINUATION_NATIVE_ONLY
+)
 SCENARIO_CONTINUATION_EXT3_PROVEN = {0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS
 # User-runtime-proven scenario-first records whose parser state depends on the
 # promoted native token grammar.  A generic scenario-first E5 18 portal is not
@@ -113,11 +127,42 @@ SCENARIO_CONTINUATION_EXT3_PROVEN = {0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS
 # 624271: STAGE16t Scirocco short line leaked text and corrupted the following Katejina portrait state.
 # 62663E: E5 18 conversion reintroduces bogus follow line `がけはう`.
 # 627FB5: E5 18 leaf was previously observed to leak follow/control text.
-SCENARIO_FIRST_NATIVE_ONLY = {0x61E234, 0x623DC6, 0x623DD7, 0x624271, 0x62663E, 0x627FB5}
+# 638CD5 is runtime-proven on the event-safe 2-byte E51D native-loop portal.
+# It is classified here with native-only first-line routes because direct E5 18
+# is forbidden for this caller; the special portal still enters the ordinary
+# native dictionary phrase loop and preserves the original 4-byte body extent.
+EVENT_SAFE_PORTAL_ANCHORS = {0x638CD5}
+# Promoted STAGE22t event-safe two-byte portal. E51D had zero semantic
+# ownership across script/aux/name75/native-dictionary/ext3 phrases before the
+# portal was installed. Runtime maps it to expansion bank26:2000 whose payload
+# is nested-native-only F36A F16E = `어？`.
+EVENT_SAFE_NATIVE2_MAGIC = bytes.fromhex("E51D")
+EVENT_SAFE_NATIVE2_HELPER = bytes.fromhex("F36AF16E")
+# Whole-game exact4 rehome candidates extend the proven two-byte portal with a
+# four-byte parameter form: E5 1D <helper_id> 01.  The helper id is resolved by
+# a bank26 pointer table; id 0 remains the promoted fixed `어？` helper.
+EVENT_SAFE_NATIVE2_PARAM_SEG = 0x26
+EVENT_SAFE_NATIVE2_PARAM_PTR_TABLE = 0x2100
+EVENT_SAFE_NATIVE2_PARAM_DATA_MIN = 0x2200
+EVENT_SAFE_NATIVE2_PARAM_DATA_MAX = 0x2600
+# User-runtime representative anchor for the promoted parameterized form.
+# 61035E is the first `가토오오오！！` record in the user-confirmed Gato scene.
+EVENT_SAFE_NATIVE2_PARAM_RUNTIME_ANCHORS = {0x61035E}
+# Scalable continuation-safe probe namespace. E504 is semantic-zero across
+# script/aux/name75/native-dictionary/ext3 phrase ownership on the promoted
+# parent main. The four-byte form E5 04 <lo+1> <hi+1> carries a base-255
+# nonzero 16-bit helper index so no NUL can truncate the zstring. Helpers are
+# fixed-stride five-byte records in expansion bank27: E5 18 xx yy 00.
+CONTROL18_PORTAL16_MAGIC = bytes.fromhex("E504")
+CONTROL18_PORTAL16_SEG = 0x27
+CONTROL18_PORTAL16_HELPER_BASE = 0x2000
+CONTROL18_PORTAL16_HELPER_STRIDE = 5
+SCENARIO_FIRST_NATIVE_ONLY = {0x61E234, 0x623DC6, 0x623DD7, 0x624271, 0x62663E, 0x627FB5, 0x63463A} | EVENT_SAFE_PORTAL_ANCHORS
 ENFORCED_REPAIR_ADDRESSES = (
     ACTIVE_VISIBLE_ANCHORS
     | ACTIVE_ID_CONTINUATIONS
     | ACTIVE_SCENARIO_CONTINUATIONS
+    | EVENT_SAFE_PORTAL_ANCHORS
     | set(EXPLICIT_METADATA_ANCHORS)
 )
 
@@ -356,6 +401,32 @@ def scan_portals(payload: bytes) -> list[dict[str, Any]]:
     i = 0
     while i < len(payload):
         lead = payload[i]
+        if i + 1 < len(payload) and payload[i:i + 2] == EVENT_SAFE_NATIVE2_MAGIC:
+            param = (
+                i + 3 < len(payload)
+                and payload[i + 2] != 0
+                and payload[i + 3] == 0x01
+            )
+            take = 4 if param else 2
+            out.append({
+                "kind": "event_safe_native2_param" if param else "event_safe_native2",
+                "offset": i,
+                "raw": payload[i:i + take].hex().upper(),
+            })
+            i += take
+            continue
+        if i + 3 < len(payload) and payload[i:i + 2] == CONTROL18_PORTAL16_MAGIC:
+            lo, hi = payload[i + 2], payload[i + 3]
+            valid = lo != 0 and hi != 0
+            index = ((hi - 1) * 255 + (lo - 1)) if valid else None
+            out.append({
+                "kind": "control18_portal16" if valid else "invalid_control18_portal16",
+                "offset": i,
+                "raw": payload[i:i + 4].hex().upper(),
+                "helper_index": index,
+            })
+            i += 4
+            continue
         if i + 1 < len(payload) and is_ext3_magic(lead, payload[i + 1]):
             raw = payload[i:i + 4]
             out.append({
@@ -394,7 +465,108 @@ def has_japanese(text: str) -> bool:
     return any(is_japanese_character(ch) for ch in text)
 
 
-def _decode(dictionary: Any, payload: bytes, tbl: Tbl) -> str:
+def _event_safe_native2_helper(dictionary: Any, index: int) -> bytes:
+    """Resolve a promoted/candidate E51D helper payload.
+
+    Index 0 is the promoted STAGE22t fixed helper.  Non-zero indices exist only
+    on the whole-game exact4 candidate family and are stored in expansion bank26.
+    """
+    if index == 0:
+        return EVENT_SAFE_NATIVE2_HELPER
+    rom = dictionary.rom
+    base = EVENT_SAFE_NATIVE2_PARAM_SEG << 16
+    ptr_at = base + EVENT_SAFE_NATIVE2_PARAM_PTR_TABLE + index * 2
+    if ptr_at + 1 >= len(rom):
+        raise ContractError(f"E51D helper pointer out of range: {index}")
+    off = int(rom[ptr_at]) | (int(rom[ptr_at + 1]) << 8)
+    if not EVENT_SAFE_NATIVE2_PARAM_DATA_MIN <= off < EVENT_SAFE_NATIVE2_PARAM_DATA_MAX:
+        raise ContractError(f"E51D helper pointer invalid: {index} -> {off:04X}")
+    got = read_encoded_z_safe(rom, base + off, max_len=256)
+    if got is None:
+        raise ContractError(f"E51D helper unterminated: {index} -> {off:04X}")
+    return bytes(got[0])
+
+
+def _control18_portal16_helper(dictionary: Any, lo: int, hi: int) -> bytes:
+    if lo == 0 or hi == 0:
+        raise ContractError(f"E504 portal16 contains NUL digit: {lo:02X} {hi:02X}")
+    index = (hi - 1) * 255 + (lo - 1)
+    base = CONTROL18_PORTAL16_SEG << 16
+    off = CONTROL18_PORTAL16_HELPER_BASE + index * CONTROL18_PORTAL16_HELPER_STRIDE
+    if off < CONTROL18_PORTAL16_HELPER_BASE or off + CONTROL18_PORTAL16_HELPER_STRIDE > 0x10000:
+        raise ContractError(f"E504 portal16 helper out of range: {index} -> {off:04X}")
+    got = read_encoded_z_safe(dictionary.rom, base + off, max_len=16)
+    if got is None:
+        raise ContractError(f"E504 portal16 helper unterminated: {index} -> {off:04X}")
+    payload = bytes(got[0])
+    if len(payload) != 4 or not payload.startswith(b"\xE5\x18"):
+        raise ContractError(f"E504 portal16 helper malformed: {index} -> {payload.hex().upper()}")
+    return payload
+
+
+def _is_event_safe_native2_param(payload: bytes) -> bool:
+    return (
+        len(payload) >= 4
+        and payload[:2] == EVENT_SAFE_NATIVE2_MAGIC
+        and payload[2] != 0
+        and payload[3] == 0x01
+    )
+
+
+def _expand_event_safe_native2(payload: bytes, dictionary: Any | None = None) -> bytes:
+    """Apply E51D runtime semantics without touching Original decode.
+
+    The walk is encoded-unit aware, so E51D occurring as bytes inside an E518
+    four-byte token cannot be mistaken for the special portal.  Parameterized
+    E51D consumes exactly four bytes, matching the candidate runtime walker.
+    """
+    out = bytearray()
+    i = 0
+    while i < len(payload):
+        lead = payload[i]
+        if i + 1 < len(payload) and payload[i:i + 2] == EVENT_SAFE_NATIVE2_MAGIC:
+            if (
+                dictionary is not None
+                and i + 3 < len(payload)
+                and payload[i + 2] != 0
+                and payload[i + 3] == 0x01
+            ):
+                out += _event_safe_native2_helper(dictionary, payload[i + 2])
+                i += 4
+            else:
+                out += EVENT_SAFE_NATIVE2_HELPER
+                i += 2
+            continue
+        if i + 3 < len(payload) and payload[i:i + 2] == CONTROL18_PORTAL16_MAGIC:
+            if dictionary is None:
+                out += payload[i:i + 4]
+            else:
+                out += _control18_portal16_helper(dictionary, payload[i + 2], payload[i + 3])
+            i += 4
+            continue
+        if i + 1 < len(payload) and is_ext3_magic(lead, payload[i + 1]):
+            take = min(4, len(payload) - i)
+            out += payload[i:i + take]
+            i += take
+            continue
+        if i + 1 < len(payload) and is_compact3_magic(lead, payload[i + 1]):
+            take = min(3, len(payload) - i)
+            out += payload[i:i + take]
+            i += take
+            continue
+        if is_dict_token(lead) or is_kanji_lead(lead):
+            take = 2 if i + 1 < len(payload) else 1
+            out += payload[i:i + take]
+            i += take
+            continue
+        out.append(lead)
+        i += 1
+    return bytes(out)
+
+
+def _decode(dictionary: Any, payload: bytes, tbl: Tbl, *, target: bool = False) -> str:
+    if target:
+        payload = _expand_event_safe_native2(payload, dictionary)
     return dictionary.expand(payload, tbl)
 
 
@@ -436,7 +608,7 @@ def _record_contract(
     except Exception as exc:  # noqa: BLE001
         original_text = f"<decode-error:{type(exc).__name__}>"
     try:
-        current_text = _decode(dictionary, current_body, tbl)
+        current_text = _decode(dictionary, current_body, tbl, target=True)
     except Exception as exc:  # noqa: BLE001
         current_text = f"<decode-error:{type(exc).__name__}>"
     contract = {
@@ -520,6 +692,41 @@ def _quality_rows() -> dict[int, dict[str, Any]]:
     return out
 
 
+def _source_proves_continuation_control18(
+    *,
+    logical: int,
+    source_payload: bytes,
+    quality: dict[int, dict[str, Any]],
+    jp_dictionary: Dictionary,
+    jp_tbl: Tbl,
+    predecessor_nul_run: int,
+) -> bool:
+    """Return True when Original provenance proves a leading 0x18 is structural.
+
+    The authoritative translation/extraction row stores the Japanese body
+    without a continuation prefix.  If Original starts with 0x18 and decoding
+    Original after that byte reproduces the catalog Japanese exactly, 0x18 is
+    not visible `こ`; it is the continuation marker.  This is stronger than a
+    caller-only heuristic and preserves genuine text-initial `こ` rows because
+    those fail the body-equality test.
+    """
+    if not source_payload.startswith(b"\x18"):
+        return False
+    # Runtime/original evidence now shows a hard page-boundary distinction:
+    # single-NUL predecessor => the leading 0x18 is the visible Japanese glyph `こ`;
+    # double-NUL predecessor => 0x18 is the structural continuation/page-head prefix.
+    if predecessor_nul_run < 2:
+        return False
+    catalog = str((quality.get(logical) or {}).get("jp") or "").rstrip("\u3000 \t")
+    if not catalog:
+        return False
+    try:
+        decoded = _decode(jp_dictionary, source_payload[1:], jp_tbl).rstrip("\u3000 \t")
+    except Exception:  # noqa: BLE001
+        return False
+    return decoded == catalog
+
+
 def _scenario_contracts(
     original: bytes,
     target: bytes,
@@ -572,14 +779,50 @@ def _scenario_contracts(
                 raise ContractError(f"scenario record vanished at {logical:06X}")
             source_payload, _source_term = source_record
             target_payload, target_term = target_record
+            control18_native = (
+                index > 0 and logical in SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
+            )
+            predecessor_nul_run = 0
+            if index > 0:
+                previous_record = read_record(original, chain[index - 1])
+                if previous_record is not None:
+                    predecessor_nul_run = int(boundary_signature(original, previous_record[1]).get("nul_run") or 0)
+            source_control18_proven = (
+                index > 0
+                and _source_proves_continuation_control18(
+                    logical=logical,
+                    source_payload=source_payload,
+                    quality=quality,
+                    jp_dictionary=jp_dictionary,
+                    jp_tbl=jp_tbl,
+                    predecessor_nul_run=predecessor_nul_run,
+                )
+            )
+            source_visible_ko_proven = (
+                index > 0
+                and source_payload.startswith(b"\x18")
+                and predecessor_nul_run == 1
+            )
             src_decision = structural_prefix(
                 source_payload,
                 role="scenario_first" if index == 0 else "scenario_continuation",
+                explicit_prefix=b"\x18" if control18_native or source_control18_proven else None,
+            )
+            # A repaired target may intentionally remove the physical 0x18
+            # while preserving the source semantic contract.  Consume it from
+            # the target only when it is still physically present.
+            target_keeps_source_prefix = (
+                bool(src_decision.prefix)
+                and target_payload.startswith(src_decision.prefix)
             )
             target_decision = structural_prefix(
                 target_payload,
                 role="scenario_first" if index == 0 else "scenario_continuation",
-                explicit_prefix=src_decision.prefix if index == 0 else None,
+                explicit_prefix=(
+                    src_decision.prefix
+                    if index == 0 or control18_native or (source_control18_proven and target_keeps_source_prefix)
+                    else None
+                ),
             )
             if index == 0:
                 double_nul_native_iteration_guard = (
@@ -587,14 +830,26 @@ def _scenario_contracts(
                     and _exact_native_two_dict(src_decision.body)
                     and _native_two_dict_with_padding(target_decision.body)
                 )
+                event_safe_param = _is_event_safe_native2_param(target_decision.body)
                 native_only = (
                     logical in SCENARIO_FIRST_NATIVE_ONLY
                     or double_nul_native_iteration_guard
+                    or event_safe_param
                 )
                 status = "active"
-                confidence = "runtime-proven" if native_only else "explicit-grammar"
+                confidence = (
+                    "runtime-proven"
+                    if event_safe_param and logical in EVENT_SAFE_NATIVE2_PARAM_RUNTIME_ANCHORS
+                    else "promoted-static"
+                    if event_safe_param
+                    else "runtime-proven" if native_only else "explicit-grammar"
+                )
                 evidence = (
-                    "double-NUL page boundary requires promoted native two-token iteration grammar"
+                    "user-runtime-proven parameterized E51D event-safe native-loop portal (Gato representative anchor)"
+                    if event_safe_param and logical in EVENT_SAFE_NATIVE2_PARAM_RUNTIME_ANCHORS
+                    else "promoted parameterized E51D event-safe native-loop portal; representative 61035E runtime gate PASS"
+                    if event_safe_param
+                    else "double-NUL page boundary requires promoted native two-token iteration grammar"
                     if double_nul_native_iteration_guard
                     else (
                         "user-runtime-proven native-only scenario-first grammar"
@@ -607,23 +862,47 @@ def _scenario_contracts(
                 width = False
             else:
                 explicit = logical in ACTIVE_SCENARIO_CONTINUATIONS
+                direct_ext3_after_control18 = (
+                    source_control18_proven
+                    and target_keeps_source_prefix
+                    and target_decision.body.startswith(b"\xE5\x18")
+                )
+                visible_source_ko_leak = (
+                    source_visible_ko_proven
+                    and target_payload.startswith(b"\x18")
+                )
                 status = "active" if explicit else "quarantine"
                 confidence = (
                     "user-confirmed-semantic"
                     if logical in SEMANTIC_SCENARIO_CONTINUATIONS
-                    else "runtime-proven" if explicit else "unresolved"
+                    else "runtime-proven"
+                    if logical in SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
+                    else "runtime-proven" if explicit
+                    else "source-proven" if source_control18_proven
+                    else "unresolved"
                 )
                 evidence = (
                     "user-confirmed visible Japanese false lead; original semantic boundary proves text-initial こ"
                     if logical in SEMANTIC_SCENARIO_CONTINUATIONS
+                    else "user-runtime-proven control-18 continuation; native stock grammar required"
+                    if logical in SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
                     else "explicit continuation regression anchor"
                     if explicit
+                    else "Original payload + catalog Japanese prove leading 18 is a structural continuation prefix"
+                    if source_control18_proven
                     else "physical adjacency proves continuation; byte-18 text/control meaning awaits caller trace"
                 )
                 route = "scenario_continuation"
                 ext3 = logical in SCENARIO_CONTINUATION_EXT3_PROVEN
                 width = explicit
-            rows.append(_record_contract(
+                conflict = (
+                    "source-proven structural 18 prefix followed by current direct E518 storage; runtime-safe rehome required"
+                    if direct_ext3_after_control18 and not explicit
+                    else "source-visible Japanese こ byte remains physically present in translated continuation"
+                    if visible_source_ko_leak
+                    else ""
+                )
+            contract = _record_contract(
                 original=original,
                 target=target,
                 logical=logical,
@@ -642,8 +921,17 @@ def _scenario_contracts(
                 dictionary=dictionary,
                 jp_tbl=jp_tbl,
                 tbl=tbl,
+                conflict=conflict if index > 0 else "",
                 catalog_jp=bundle_jp,
-            ))
+            )
+            if index > 0:
+                contract["predecessor_source_nul_run"] = int(predecessor_nul_run)
+                contract["source_structural_prefix_proven"] = bool(source_control18_proven)
+                contract["source_visible_ko_proven"] = bool(source_visible_ko_proven)
+                contract["control18_storage_risk"] = bool(direct_ext3_after_control18)
+                contract["visible_source_ko_leak_risk"] = bool(visible_source_ko_leak)
+                contract["target_physically_keeps_source_prefix"] = bool(target_keeps_source_prefix)
+            rows.append(contract)
     return rows
 
 
@@ -839,6 +1127,10 @@ def build_manifest(original: bytes, target: bytes, *, target_path: Path) -> dict
 def _payload_marker_recursive(payload: bytes, dictionary: Any, depth: int = 0) -> bool:
     if payload_has_hangul_marker(payload):
         return True
+    if EVENT_SAFE_NATIVE2_MAGIC in payload:
+        expanded = _expand_event_safe_native2(payload, dictionary)
+        if expanded != payload and _payload_marker_recursive(expanded, dictionary, depth + 1):
+            return True
     if depth >= 6:
         return False
     i = 0
@@ -915,7 +1207,7 @@ def audit_manifest(target: bytes, manifest: dict[str, Any], *, target_path: Path
         if ext3 and not bool((row.get("decoder") or {}).get("ext3")):
             fail(row, "unproven_ext3_on_special_route", portals=ext3)
         try:
-            rendered = dictionary.expand(body, tbl)
+            rendered = _decode(dictionary, body, tbl, target=True)
         except Exception as exc:  # noqa: BLE001
             fail(row, "body_decode_failed", error=type(exc).__name__)
             continue

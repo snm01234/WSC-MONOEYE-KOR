@@ -227,13 +227,12 @@ def detect_ext3_alias_page_count(rom: bytes | bytearray) -> int:
     if (
         len(five) == EXT3_FIVE_BANK_LEAF_LEN
         and hashlib.sha256(five).hexdigest() == EXT3_FIVE_BANK_LEAF_SHA256
-        and bytes(
-            rom[
-                start + EXT3_FIVE_BANK_LEAF_LEN:
-                start + EXT3_ONE_BANK_LEAF_LEN
-            ]
-        ) == b"\xFF" * (EXT3_ONE_BANK_LEAF_LEN - EXT3_FIVE_BANK_LEAF_LEN)
     ):
+        # The 123-byte five-bank leaf is the complete executable identity.
+        # Later runtime patches are allowed to reuse the following three bytes
+        # of the old 126-byte one-bank cave.  Requiring those bytes to remain
+        # FF made valid promoted ROMs report alias_page_count=0 and caused
+        # offline battle-voice audits to see only the preserved lead byte.
         return 5
     if (
         len(one) == EXT3_ONE_BANK_LEAF_LEN

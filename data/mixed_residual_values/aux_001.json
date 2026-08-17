@@ -8,7 +8,7 @@
     "aux:5902CF": {"ko": "그런　게　아니라…아아……"},
     "aux:590559": {"ko": "『세라』라고　불리고　싶은　여자……", "terms": {"セラ": "세라"}},
     "aux:590698": {"ko": "라니、마음을　읽은　건가！？"},
-    "aux:5906CC": {"ko": "나에게　호의를　느끼고　있다는　건　알았다。"},
+    "aux:5906CC": {"ko": "내게　호감을　품었다는　건　알았다。"},
     "aux:5906E8": {"ko": "미안　아가씨에게　조언을　받아서。"},
     "aux:59084F": {"ko": "뭐가　뭔지　모르게　됐다……！！"},
     "aux:590868": {
@@ -23,7 +23,7 @@
     },
     "aux:5909E6": {"ko": "건담　１기에　애를　먹는군……"},
     "aux:590A09": {
-      "ko": "부딪치는　것　외에는、건담을　쓰러뜨릴　수　없습니다。",
+      "ko": "충돌해야　건담을　쓰러뜨릴　수　있어요。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: は가 건담 뒤에 붙고 서술어가 일본어였다. 앞절 以外까지 포함해 문장 전체를 교체했다."
     },
@@ -88,7 +88,7 @@
       "review_notes": "japanese_particle: です가 한국어 명령 뒤에 붙어 있었다. これは와 停戦까지 포함해 전체를 교체했다."
     },
     "aux:591CD6": {
-      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "ko": "더　이상　전투를　계속할　수　없다고……",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: の、は、だと가 한국어 이상·전투계속·불가능 사이에 끼어 있었다. 문장 전체를 교체했다."
     },
@@ -103,7 +103,7 @@
       "review_notes": "japanese_particle: 591CAD와 동일한 대사로, 같은 완성 표현을 적용했다."
     },
     "aux:591D9D": {
-      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "ko": "더　이상　전투를　계속할　수　없다고……",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: 591CD6과 동일한 대사로, 같은 완성 표현을 적용했다."
     },
@@ -113,7 +113,7 @@
       "review_notes": "japanese_particle: に가 한국어 연방 뒤에, しちまった가 항복 뒤에 붙어 있었다. 부사 さっさと까지 포함해 전체를 교체했다."
     },
     "aux:592026": {
-      "ko": "항복은　없다고　생각하지만…실제로　어쩔　거야？",
+      "ko": "항복은　없겠지만…실제로　어쩔　거야？",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: は가 한국어 항복 뒤에 붙어 있었다. 두　절을　모두　한국어로　다시　썼다."
     },
@@ -169,7 +169,7 @@
       "review_notes": "japanese_particle: を와 でしょう가 한국어 통신·위험을 감싸고 있었다. 문장 전체를 교체했다."
     },
     "aux:592565": {
-      "ko": "그　아군부대를　따라잡을　수　있을　것이다。",
+      "ko": "그　아군부대를　따라잡을　수　있다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: に가 한국어 아군부대 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다."
     },
@@ -287,13 +287,13 @@
     },
     "aux:5948A4": {"ko": "되살아나는　것도　아니다。"},
     "aux:594A16": {
-      "ko": "연방의　추격을　받아、궁지에　몰려　있다。",
+      "ko": "연방의　추격으로　궁지에　몰렸다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: の가 한국어 연방 뒤에 붙어 있었다. 두　절을　모두　교체했다."
     },
     "aux:594A3A": {"ko": "하만　섭정은　말씀하셨지만、"},
     "aux:594A78": {
-      "ko": "연방군의　대응에　따라서는、교전도　있을　수　있다。",
+      "ko": "연방군　대응에　따라　교전도　가능하다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: の와 も가 한국어 연방군·교전 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -334,7 +334,7 @@
       "complete_expression_review": true,
       "review_notes": "japanese_particle: の가 한국어 정도 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
-    "aux:595736": {"ko": "우리는　뒷걱정　없이　싸울　수　있습니다。"},
+    "aux:595736": {"ko": "우린　뒷걱정　없이　싸울　수　있습니다。"},
     "aux:595756": {
       "ko": "병사들의　회수는　꼭……",
       "complete_expression_review": true,
@@ -516,7 +516,7 @@
     },
     "aux:597742": {"ko": "보급　물자　체크는　끝났나！？", "terms": {"チェック": "체크"}},
     "aux:597790": {
-      "ko": "언제든　인도할　수　있도록　준비해　둬라。",
+      "ko": "언제든　인도할　수　있게　준비해　둬라。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: しておけよ가 한국어 준비 뒤에 붙어 있었다. 앞절까지 포함해 전체를 교체했다."
     },

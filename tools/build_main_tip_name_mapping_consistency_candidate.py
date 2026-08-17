@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import struct
 import sys
 from pathlib import Path
 from typing import Any
@@ -40,8 +41,20 @@ from build_terminology_consistency_followup_candidate import (
     semantic_norm,
 )
 from build_gundam_terminology_candidate import preserve_ambiguous_direct_codes
+from build_hangul_font import render_compact_glyph
+from font_pipeline import find_system_font
 from hangul_marker import marker_code
-from monoeye_rom import Tbl, load_rom, token_from_dict_index, update_ws_checksum
+from monoeye_rom import (
+    COMPACT_FONT_RECORD_SIZE,
+    Tbl,
+    encode_compact_font_record,
+    load_rom,
+    stock_base,
+    token_from_dict_index,
+    update_ws_checksum,
+)
+from patch_font_hangul_hook import STORE_SITE, build_store_cave
+from patch_pad3_expansion import PAD12_SLOTS
 
 PATCH = ROOT / "out/patch"
 MAIN = PATCH / "monoeye_ko_expanded.wsc"
@@ -52,15 +65,36 @@ EXT_META = PATCH / "exp_dictionary_meta.json"
 EXT3_META = PATCH / "ext3_dictionary_meta.json"
 OUT_ROM = PATCH / "main_tip_name_mapping_consistency_candidate.wsc"
 OUT_SAVE = ROOT / "sram/main_tip_name_mapping_consistency_candidate.sav"
+OUT_TBL = PATCH / "main_tip_name_mapping_consistency_candidate.tbl"
 REPORT = PATCH / "main_tip_name_mapping_consistency_candidate_report.json"
 
-EXPECTED_MAIN_SHA = "d7543ad4a62d9e7a9687583e85005dc4ca137e6fa62238eb70e58492248985c9"
+EXPECTED_MAIN_SHA = "4033c2bdc8f9d627beabaae65e69c43010f0523448ba30ec08f610529e0feb33"
 EXPECTED_TBL_SHA = "cbeafbe074015bc79ad0dce1ade3be57a4d56bb1e5bf46102097cc6f0e17261c"
 ROM_SIZE = 16_777_216
 SAVE_SIZE = 32_768
 MARKER = 0xEC8D
+GLYPH_BASE = 0xE740
+OLD_STICKY_COUNT = 1348
+NEW_STICKY_COUNT = 1349
+NEW_GLYPHS = {"뱀": 0xEC84}
 
 REPLACEMENTS = [
+    ("만산국　킹덤", "생크　킹덤", "sanc_kingdom"),
+    ("만산국 킹덤", "생크 킹덤", "sanc_kingdom"),
+    ("샹킹덤", "생크킹덤", "sanc_kingdom"),
+    ("샌킹덤", "생크킹덤", "sanc_kingdom"),
+    ("파프테마스", "팝티머스", "paptimus_scirocco"),
+    ("파푸테마스", "팝티머스", "paptimus_scirocco"),
+    ("파브테마스", "팝티머스", "paptimus_scirocco"),
+    ("Papthemas", "팝티머스", "paptimus_scirocco"),
+    ("바다구렁이", "바다뱀", "sea_serpent_weapon"),
+    ("상크", "생크", "sanc_kingdom"),
+    ("샹크", "생크", "sanc_kingdom"),
+    ("샌크", "생크", "sanc_kingdom"),
+    ("썬크", "생크", "sanc_kingdom"),
+    ("썽크", "생크", "sanc_kingdom"),
+    ("도렌", "드렌", "dren"),
+    ("드레인", "드렌", "dren"),
     ("프라나간", "플라나간", "flanagan"),
     ("플래나간", "플라나간", "flanagan"),
     ("플래너간", "플라나간", "flanagan"),
@@ -119,6 +153,53 @@ def atomic_json(path: Path, value: dict[str, Any]) -> None:
         newline="\n",
     )
     os.replace(temp, path)
+
+
+def atomic_text(path: Path, value: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_name(f".{path.name}.{os.getpid()}.tmp")
+    temp.write_text(value, encoding="utf-8", newline="\n")
+    os.replace(temp, path)
+
+
+def candidate_tbl(base: Tbl, text: str) -> tuple[Tbl, str]:
+    if marker_code() != MARKER or base.code_to_char.get(MARKER) != "":
+        raise BuildError("installed EC8D marker contract drifted")
+    for ch, code in NEW_GLYPHS.items():
+        if ch in base.char_to_code or code in base.code_to_char:
+            raise BuildError(f"new glyph slot is not free: {ch}={code:04X}")
+
+    codes = dict(base.code_to_char)
+    codes.update({code: ch for ch, code in NEW_GLYPHS.items()})
+    char_to_code: dict[str, int] = {}
+    for code, ch in codes.items():
+        if ch and ch not in char_to_code:
+            char_to_code[ch] = code
+    built = Tbl(codes, char_to_code)
+
+    lines = text.splitlines()
+    marker_line = next((i for i, line in enumerate(lines) if line == "EC8D="), None)
+    if marker_line is None or any(line.startswith("EC84=") for line in lines):
+        raise BuildError("TBL tail contract drifted")
+    lines[marker_line:marker_line] = ["EC84=뱀"]
+    for i, line in enumerate(lines):
+        if line.startswith("# Hangul marker EC8D;"):
+            lines[i] = (
+                "# Hangul marker EC8D; EC80/EC81 are terminology glyphs, "
+                "EC82/EC83 are user-follow-up glyphs, and EC84 is the sea-serpent terminology glyph."
+            )
+            break
+    return built, "\n".join(lines) + "\n"
+
+
+def locate_store_cave(rom: bytes | bytearray) -> int:
+    sb = stock_base(rom)
+    site = sb + STORE_SITE
+    if rom[site] != 0xE8:
+        raise BuildError("installed glyph store hook is missing")
+    rel = struct.unpack_from("<H", rom, site + 1)[0]
+    store_ip = (STORE_SITE + 3 + rel) & 0xFFFF
+    return sb + ((STORE_SITE & 0xFF0000) | store_ip)
 
 
 def patch_direct_standard(
@@ -245,7 +326,9 @@ def main() -> int:
     if marker_code() != MARKER:
         raise BuildError(f"installed marker drifted: {marker_code():04X}")
 
-    tbl = Tbl.load(TBL_PATH)
+    base_tbl = Tbl.load(TBL_PATH)
+    tbl_text = tbl_bytes.decode("utf-8")
+    tbl, candidate_tbl_text = candidate_tbl(base_tbl, tbl_text)
     ext_meta = load_ext_meta(EXT_META)
     ext3_meta = load_ext_meta(EXT3_META)
     bad_index = forbidden_index(standard_entries())
@@ -258,21 +341,60 @@ def main() -> int:
     original_dictionary = __import__("monoeye_rom").Dictionary(original)
     before_dictionary = make_dictionary_ext3(parent, ext_meta, ext3_meta)
     before_source_hits = source_hits(bad_index)
-    before_dict_hits = dictionary_hits(parent, tbl, before_dictionary, bad_index)
+    before_dict_hits = dictionary_hits(parent, base_tbl, before_dictionary, bad_index)
     before_five_bank_hits = five_bank_dictionary_hits(
-        parent, tbl, before_dictionary, bad_index
+        parent, base_tbl, before_dictionary, bad_index
     )
-    before_inventory_hits = rendered_record_hits(parent, tbl, before_dictionary, bad_index)
+    before_inventory_hits = rendered_record_hits(parent, base_tbl, before_dictionary, bad_index)
     before_bank5c_hits = bank5c_hits(
-        original, parent, tbl, original_dictionary, before_dictionary, bad_index
+        original, parent, base_tbl, original_dictionary, before_dictionary, bad_index
     )
     before_untranslated = untranslated_standard_dictionary(
-        original_dictionary, before_dictionary, tbl
+        original_dictionary, before_dictionary, base_tbl
     )
     if before_source_hits:
         raise BuildError(f"active source terminology is not clean: {len(before_source_hits)}")
 
     candidate = bytearray(parent)
+    allowed: list[tuple[int, int]] = []
+
+    # Add the one missing compact Hangul glyph required by 바다뱀.
+    font_path = find_system_font()
+    if not font_path:
+        raise BuildError("no system/project font available for the 뱀 glyph")
+    glyph_rows: list[dict[str, Any]] = []
+    for ch, code in NEW_GLYPHS.items():
+        slot = code - GLYPH_BASE
+        offset = (slot - PAD12_SLOTS) * COMPACT_FONT_RECORD_SIZE
+        old = bytes(candidate[offset : offset + COMPACT_FONT_RECORD_SIZE])
+        if old != b"\xFF" * COMPACT_FONT_RECORD_SIZE:
+            raise BuildError(f"pad3 glyph slot is not pristine: {ch}={code:04X}")
+        record = encode_compact_font_record(render_compact_glyph(ch, font_path))
+        if len(record) != COMPACT_FONT_RECORD_SIZE:
+            raise BuildError(f"invalid rendered glyph size for {ch}")
+        candidate[offset : offset + COMPACT_FONT_RECORD_SIZE] = record
+        allowed.append((offset, offset + COMPACT_FONT_RECORD_SIZE))
+        glyph_rows.append(
+            {
+                "char": ch,
+                "code": f"{code:04X}",
+                "slot": slot,
+                "file_offset": f"{offset:06X}",
+                "font": font_path,
+                "before_sha256": sha(old),
+                "after_sha256": sha(record),
+            }
+        )
+
+    # The installed compact-font store currently ends at EC83; extend it by one.
+    store_abs = locate_store_cave(candidate)
+    old_store = build_store_cave(GLYPH_BASE - 0xDF20, OLD_STICKY_COUNT)
+    new_store = build_store_cave(GLYPH_BASE - 0xDF20, NEW_STICKY_COUNT)
+    if len(old_store) != len(new_store) or bytes(candidate[store_abs : store_abs + len(old_store)]) != old_store:
+        raise BuildError("installed 1348-slot sticky glyph store drifted")
+    candidate[store_abs : store_abs + len(new_store)] = new_store
+    allowed.append((store_abs, store_abs + len(new_store)))
+
     stock_rows, stock_allowed = patch_stock(
         candidate, tbl, ext_meta, ext3_meta, rom_bad_index, REPLACEMENTS
     )
@@ -288,7 +410,7 @@ def main() -> int:
     five_bank_rows, five_bank_allowed = patch_five_bank_phrases(
         candidate, tbl, candidate_dictionary, bad_index
     )
-    allowed = stock_allowed + ext3_allowed + five_bank_allowed
+    allowed.extend(stock_allowed + ext3_allowed + five_bank_allowed)
 
     final_dictionary = make_dictionary_ext3(candidate, ext_meta, ext3_meta)
     after_dict_hits = dictionary_hits(bytes(candidate), tbl, final_dictionary, rom_bad_index)
@@ -324,6 +446,7 @@ def main() -> int:
 
     atomic_bytes(OUT_ROM, result)
     atomic_bytes(OUT_SAVE, save)
+    atomic_text(OUT_TBL, candidate_tbl_text)
     report = {
         "schema_version": 1,
         "generated_by": "tools/build_main_tip_name_mapping_consistency_candidate.py",
@@ -338,6 +461,7 @@ def main() -> int:
         "outputs": {
             "candidate_rom": identity(OUT_ROM, result),
             "candidate_saveram": identity(OUT_SAVE, save),
+            "candidate_tbl": identity(OUT_TBL, candidate_tbl_text.encode("utf-8")),
         },
         "before": {
             "active_source_forbidden_hits": len(before_source_hits),
@@ -348,6 +472,12 @@ def main() -> int:
             "untranslated_standard_dictionary_entries": len(before_untranslated),
         },
         "patches": {
+            "new_glyphs": glyph_rows,
+            "sticky_glyph_store": {
+                "store_abs": f"{store_abs:07X}",
+                "old_count": OLD_STICKY_COUNT,
+                "new_count": NEW_STICKY_COUNT,
+            },
             "stock_forbidden_groups": stock_rows,
             "direct_standard_slots": direct_rows,
             "ext3_forbidden_groups": ext3_rows,
@@ -366,6 +496,7 @@ def main() -> int:
         "checks": {
             "main_tip_unchanged": MAIN.read_bytes() == parent,
             "active_tbl_unchanged": TBL_PATH.read_bytes() == tbl_bytes,
+            "candidate_tbl_maps_new_glyph": Tbl.load(OUT_TBL).char_to_code.get("뱀") == 0xEC84,
             "candidate_saveram_exact_live": OUT_SAVE.read_bytes() == save,
             "marker_unchanged": marker_code() == MARKER,
             "source_terminology_clean": not source_hits(bad_index),

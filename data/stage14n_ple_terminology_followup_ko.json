@@ -1,0 +1,28 @@
+{
+  "review_status": "user_confirmed",
+  "scene": "stage14n Ple / Ple Two dialogue",
+  "untranslated_dialogue": {
+    "abs": "5933AE",
+    "jp": "でもね……どんなに不愉快でも、",
+    "ko": "하지만……아무리　불쾌해도、",
+    "next_abs": "5933BD",
+    "next_current_ko": "아무리　미워도……"
+  },
+  "terminology": {
+    "ple": {
+      "canonical_ko": "플",
+      "context_only_bad": ["풀"],
+      "known_ext3_indices": ["016DD", "036BA", "046BA", "046C3", "056B9"]
+    },
+    "ple_two": {
+      "canonical_ko": "플투",
+      "bad": ["풀투", "풀츠", "풀츠－", "플루츠", "플루츠－", "플루츠-", "푸루투", "푸르츠", "플 투", "플　투"]
+    },
+    "judau_fragment": {
+      "abs": "636C68",
+      "before": "주、　도……？",
+      "after": "쥬、　도……？",
+      "ext3_index": "06017"
+    }
+  }
+}

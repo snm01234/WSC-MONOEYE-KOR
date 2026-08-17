@@ -36,6 +36,14 @@ out/dist/*
 !out/dist/monoeye_ko_expanded_v1.0.1_hotfix_xdelta.json
 !out/dist/monoeye_ko_expanded_v1.0.1_hotfix_XDELTA_README.md
 !out/dist/SHA256SUMS_v1.0.1_hotfix.txt
+!out/dist/monoeye_ko_expanded_v1.1.xdelta
+!out/dist/monoeye_ko_expanded_v1.1_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.1_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.1.txt
+!out/dist/monoeye_ko_expanded_v1.2.xdelta
+!out/dist/monoeye_ko_expanded_v1.2_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.2_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.2.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*

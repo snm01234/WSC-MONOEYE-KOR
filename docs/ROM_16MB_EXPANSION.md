@@ -121,6 +121,20 @@ WonderSwan 비2의제곱 ROM도 “앞쪽 패딩”이 정석이다 ([ROM header
 주의: `apply_ext_dict_unit --force-format`은 bank10을 비우고 재할당한다.  
 이미 스크립트가 가리키는 migrate 문구를 유지하려면 **재포맷 없이** 쓰거나, 토큰·문구를 함께 재패치해야 한다.
 
+### 8a. 2026-08-17 bank10 native helper 용량 재확인
+
+STAGE21t continuation parser 회귀 분석 과정에서 확장영역의 실제 여유를 현재 메인 TIP 기준으로 다시 계측했다.
+
+- expansion `00–7F` 전체 사용률: 약 **15.78%**
+- expansion 영역 `FF` 잔여: 약 **6.74MiB**
+- 완전 `FF` 64KiB bank: **103개**
+- bank10 현재 phrase tail: `0x123B`
+- bank10 `0x123B–0xFFFF`: 연속 `FF`, **60,869 bytes (약 59.4KiB)**
+
+따라서 짧은 native helper phrase 추가에서 병목은 **payload 공간이 아니라 2바이트 dictionary token ID 수**다. exact continuation 잔여 9건은 `E5 18` portal 대신 원본과 같은 `18 + 2-byte dict + 2-byte dict` 문법으로 복구하는 방향을 우선한다.
+
+현재 계획과 ID 회수 가드는 [`EXACT_CONTINUATION_NATIVE_RECOVERY_PLAN.md`](EXACT_CONTINUATION_NATIVE_RECOVERY_PLAN.md)를 정본으로 한다. 특히 bank10은 충분히 비어 있어도 기존 ext dictionary를 `--force-format`하거나 ID를 무검증 재사용해서는 안 된다.
+
 ## 9. 확장 스크립트 spill (bank 0x30+)
 
 | 항목 | 내용 |

@@ -1,9 +1,13 @@
 # legacy
 
-현재 메인 TIP 적용 경로에서 쓰이지 않는 과거 번역 시트·테스트 ROM·후보 JSON을 삭제하지 않고 원래 상대 경로를 유지한 채 보관한다.
+현재 메인 TIP 적용 경로에서 쓰이지 않는 과거 후보 ROM, 테스트 JSON, 감사 스냅샷 등은 삭제하지 않고 `legacy/` 아래 로컬 보관합니다.
 
+- 현재 릴리스 기준: **v1.2**
 - 기준 TIP: `out/patch/monoeye_ko_expanded.wsc`
-- 기준 SHA-256: `D7543AD4A62D9E7A9687583E85005DC4CA137E6FA62238EB70E58492248985C9`
-- 매니페스트: `legacy/legacy_asset_manifest.json`
-- 복원: 매니페스트의 `archive_path`를 `path`로 되돌린다.
-- `out/script/translation_sheet.csv`, `excel_translate_cache.json`, `translations_quality_all.json`은 계약/리뷰 forensic 입력이라 활성 경로에 남긴다. 적용(apply/merge/rebuild) 입력으로는 계속 차단된다.
+- 기준 SHA-256: `C7BB4B5C936653888062F2389351C586FC483DEDACDBA209918B327E440E2131`
+- 공개 요약 매니페스트: `legacy/legacy_asset_manifest.json`
+- v1.2 테스트 산출물 상세 매니페스트: `legacy/v1_2_test_artifacts_20260817/manifest.json` (Git 제외)
+- v1.2 생성 감사/런타임 계약 상세 매니페스트: `legacy/v1_2_generated_reports_20260817/manifest.json` (Git 제외)
+- 복원: 각 상세 매니페스트의 archive/target 경로를 원래 source 경로로 되돌립니다.
+
+실제 ROM/SaveRAM/대형 진단 산출물은 `.gitignore`에 의해 공개 저장소에서 제외합니다. Git에는 이 README와 요약 매니페스트만 남깁니다.

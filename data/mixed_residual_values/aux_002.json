@@ -22,7 +22,7 @@
     },
     "aux:597DC1": {"ko": "최대　출력으로도　수신될지　어떨지……"},
     "aux:597E85": {
-      "ko": "모빌슈트　같은　걸　움직일　수　있는　건가！？",
+      "ko": "모빌슈트　따위를　움직일　수　있는가！？",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: なんて가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -51,7 +51,7 @@
     },
     "aux:598139": {"ko": "응……무슨　일이지、토비아　군？"},
     "aux:598237": {
-      "ko": "너도　병사로서　전투에　나선다는　것이다。",
+      "ko": "너도　병사로　전투에　나선다는　뜻이다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: として와 に가 한국어 병사·전투 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -93,17 +93,17 @@
     "aux:59864C": {"ko": "우리는　찬동할　수　없습니다。"},
     "aux:598666": {"ko": "우리와　함께　돌아와　주십시오。"},
     "aux:5986AA": {
-      "ko": "어떻게　문레이스의　평온이　유지되겠습니까！",
+      "ko": "어찌　문레이스의　평온을　지키겠습니까！",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: の가 한국어 문레이스 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
     "aux:5986CC": {
-      "ko": "우리　깅가남　일문이　계승한다는　것입니다",
+      "ko": "우리　깅가남　일문이　계승하는　것입니다",
       "complete_expression_review": true,
       "review_notes": "broken_word: ー門이 한국어 깅가남과 맞닿아 있었다. 일문을 포함한 전체 표현을 교체했다."
     },
     "aux:5986EC": {
-      "ko": "지구　따위　순식간에　평정할　수　있겠지요。",
+      "ko": "지구　따윈　순식간에　평정할　수　있죠。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: など가 한국어 지구 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -127,7 +127,7 @@
       "review_notes": "japanese_particle: は와 んだ가 한국어 뱅가드를 감싸고 있었다. 문장 전체를 교체했다."
     },
     "aux:598D17": {
-      "ko": "완전히　접촉을　끊고　있던　것은　아닙니다",
+      "ko": "완전히　접촉을　끊었던　건　아닙니다",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: に와 を가 한국어 완전·접촉 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -161,12 +161,12 @@
     },
     "aux:598E89": {"ko": "우리도　그다지　잘　모릅니다。"},
     "aux:598EA4": {
-      "ko": "선인들이　만들어　낸　모빌슈트라고밖에……",
+      "ko": "선인들이　만든　모빌슈트라고밖에……",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: としか가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
     "aux:598ECB": {
-      "ko": "세계에　종말을　가져오기　위한　힘이라고　한다。",
+      "ko": "세계를　종말로　이끄는　힘이라고　한다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: に가 한국어 세계 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -176,7 +176,7 @@
       "review_notes": "japanese_particle: への와 が가 한국어 월광접·대책 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
     "aux:598F59": {
-      "ko": "깅가남에　반대하는　자도　많이　있습니다。",
+      "ko": "깅가남에　반대하는　자도　많습니다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: に가 한국어 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다."
     },
@@ -203,11 +203,11 @@
     },
     "aux:59908F": {"ko": "프로그램　디스크를　맡아　왔습니다。", "terms": {"プログラムディスク": "프로그램　디스크"}},
     "aux:5990AE": {
-      "ko": "월광접　시스템을　사용　가능하게　됩니다。",
+      "ko": "월광접　시스템을　쓸　수　있게　됩니다。",
       "complete_expression_review": true,
       "review_notes": "japanese_particle: を와 になります가 한국어 시스템·사용가능을 감싸고 있었다. 문장 전체를 교체했다."
     },
-    "aux:5990E1": {"ko": "혹은　턴Ｘ를　쓰러뜨릴　수　있을지도　모릅니다。"},
+    "aux:5990E1": {"ko": "혹은　턴Ｘ를　쓰러뜨릴지도　모릅니다。"},
     "aux:59912A": {
       "ko": "지금　당장이라도　깅가남에게로　향합시다",
       "complete_expression_review": true,
@@ -226,7 +226,7 @@
     },
     "aux:59930A": {"ko": "우리　밀리샤의　공적은　되지　않는다。", "terms": {"ミリシャ": "밀리샤"}},
     "aux:599354": {
-      "ko": "우리　밀리샤를　필요로　하지　않게　된다。",
+      "ko": "우리　밀리샤가　필요　없게　된다。",
       "terms": {"ミリシャ": "밀리샤"},
       "complete_expression_review": true,
       "review_notes": "japanese_particle: を와 としなくなる가 한국어 필요를 감싸고 있었다. 문장 전체를 교체했다."

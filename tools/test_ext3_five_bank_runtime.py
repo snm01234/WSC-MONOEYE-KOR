@@ -65,6 +65,17 @@ class FiveBankRuntimeTests(unittest.TestCase):
         self.assertEqual(bank[build.EMPTY_AT + 4], 0)
         self.assertEqual(meta["local"], "0005")
 
+    def test_current_main_detects_five_bank_leaf_with_reused_tail(self) -> None:
+        main = bytes(load_rom(build.MAIN))
+        leaf = five.build_five_bank_leaf()
+        start = stock_base(main) + five.FREE_CAVE_START
+        self.assertEqual(main[start:start + len(leaf)], leaf)
+        # The three bytes after the 123-byte leaf are now occupied by another
+        # promoted runtime patch.  They are not part of the five-bank leaf and
+        # must not disable offline alias detection.
+        self.assertNotEqual(main[start + len(leaf):start + 126], b"\xFF" * 3)
+        self.assertEqual(detect_ext3_alias_page_count(main), 5)
+
     def test_offline_decoder_detects_runtime_aliases(self) -> None:
         main = bytes(load_rom(build.MAIN))
         candidate = bytes(load_rom(build.OUT_ROM))

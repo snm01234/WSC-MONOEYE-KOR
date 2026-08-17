@@ -250,7 +250,7 @@
     {
       "abs": "591CD6",
       "complete_expression_review": true,
-      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "ko": "더　이상　전투를　계속할　수　없다고……",
       "record_id": "aux:591CD6",
       "region": "aux",
       "review_notes": "japanese_particle: の、は、だと가 한국어 이상·전투계속·불가능 사이에 끼어 있었다. 문장 전체를 교체했다.",
@@ -292,7 +292,7 @@
     {
       "abs": "591D9D",
       "complete_expression_review": true,
-      "ko": "이　이상의　전투　계속은　불가능하다고……",
+      "ko": "더　이상　전투를　계속할　수　없다고……",
       "record_id": "aux:591D9D",
       "region": "aux",
       "review_notes": "japanese_particle: 591CD6과 동일한 대사로, 같은 완성 표현을 적용했다.",
@@ -320,7 +320,7 @@
     {
       "abs": "592026",
       "complete_expression_review": true,
-      "ko": "항복은　없다고　생각하지만…실제로　어쩔　거야？",
+      "ko": "항복은　없겠지만…실제로　어쩔　거야？",
       "record_id": "aux:592026",
       "region": "aux",
       "review_notes": "japanese_particle: は가 한국어 항복 뒤에 붙어 있었다. 두　절을　모두　한국어로　다시　썼다.",
@@ -448,7 +448,7 @@
     {
       "abs": "592565",
       "complete_expression_review": true,
-      "ko": "그　아군부대를　따라잡을　수　있을　것이다。",
+      "ko": "그　아군부대를　따라잡을　수　있다。",
       "record_id": "aux:592565",
       "region": "aux",
       "review_notes": "japanese_particle: に가 한국어 아군부대 뒤에 붙어 있었다. 서술어까지 포함해 전체를 교체했다.",
@@ -774,7 +774,7 @@
     {
       "abs": "594A16",
       "complete_expression_review": true,
-      "ko": "연방의　추격을　받아、궁지에　몰려　있다。",
+      "ko": "연방의　추격으로　궁지에　몰렸다。",
       "record_id": "aux:594A16",
       "region": "aux",
       "review_notes": "japanese_particle: の가 한국어 연방 뒤에 붙어 있었다. 두　절을　모두　교체했다.",
@@ -802,7 +802,7 @@
     {
       "abs": "594A78",
       "complete_expression_review": true,
-      "ko": "연방군의　대응에　따라서는、교전도　있을　수　있다。",
+      "ko": "연방군　대응에　따라　교전도　가능하다。",
       "record_id": "aux:594A78",
       "region": "aux",
       "review_notes": "japanese_particle: の와 も가 한국어 연방군·교전 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1410,7 +1410,7 @@
     {
       "abs": "597790",
       "complete_expression_review": true,
-      "ko": "언제든　인도할　수　있도록　준비해　둬라。",
+      "ko": "언제든　인도할　수　있게　준비해　둬라。",
       "record_id": "aux:597790",
       "region": "aux",
       "review_notes": "japanese_particle: しておけよ가 한국어 준비 뒤에 붙어 있었다. 앞절까지 포함해 전체를 교체했다.",
@@ -1568,7 +1568,7 @@
     {
       "abs": "597E85",
       "complete_expression_review": true,
-      "ko": "모빌슈트　같은　걸　움직일　수　있는　건가！？",
+      "ko": "모빌슈트　따위를　움직일　수　있는가！？",
       "record_id": "aux:597E85",
       "region": "aux",
       "review_notes": "japanese_particle: なんて가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1754,7 +1754,7 @@
     {
       "abs": "5986AA",
       "complete_expression_review": true,
-      "ko": "어떻게　문레이스의　평온이　유지되겠습니까！",
+      "ko": "어찌　문레이스의　평온을　지키겠습니까！",
       "record_id": "aux:5986AA",
       "region": "aux",
       "review_notes": "japanese_particle: の가 한국어 문레이스 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1768,7 +1768,7 @@
     {
       "abs": "5986EC",
       "complete_expression_review": true,
-      "ko": "지구　따위　순식간에　평정할　수　있겠지요。",
+      "ko": "지구　따윈　순식간에　평정할　수　있죠。",
       "record_id": "aux:5986EC",
       "region": "aux",
       "review_notes": "japanese_particle: など가 한국어 지구 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1826,7 +1826,7 @@
     {
       "abs": "598D17",
       "complete_expression_review": true,
-      "ko": "완전히　접촉을　끊고　있던　것은　아닙니다",
+      "ko": "완전히　접촉을　끊었던　건　아닙니다",
       "record_id": "aux:598D17",
       "region": "aux",
       "review_notes": "japanese_particle: に와 を가 한국어 완전·접촉 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1910,7 +1910,7 @@
     {
       "abs": "598EA4",
       "complete_expression_review": true,
-      "ko": "선인들이　만들어　낸　모빌슈트라고밖에……",
+      "ko": "선인들이　만든　모빌슈트라고밖에……",
       "record_id": "aux:598EA4",
       "region": "aux",
       "review_notes": "japanese_particle: としか가 한국어 모빌슈트 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1924,7 +1924,7 @@
     {
       "abs": "598ECB",
       "complete_expression_review": true,
-      "ko": "세계에　종말을　가져오기　위한　힘이라고　한다。",
+      "ko": "세계를　종말로　이끄는　힘이라고　한다。",
       "record_id": "aux:598ECB",
       "region": "aux",
       "review_notes": "japanese_particle: に가 한국어 세계 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -1952,7 +1952,7 @@
     {
       "abs": "598F59",
       "complete_expression_review": true,
-      "ko": "깅가남에　반대하는　자도　많이　있습니다。",
+      "ko": "깅가남에　반대하는　자도　많습니다。",
       "record_id": "aux:598F59",
       "region": "aux",
       "review_notes": "japanese_particle: に가 한국어 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -2008,7 +2008,7 @@
     {
       "abs": "5990AE",
       "complete_expression_review": true,
-      "ko": "월광접　시스템을　사용　가능하게　됩니다。",
+      "ko": "월광접　시스템을　쓸　수　있게　됩니다。",
       "record_id": "aux:5990AE",
       "region": "aux",
       "review_notes": "japanese_particle: を와 になります가 한국어 시스템·사용가능을 감싸고 있었다. 문장 전체를 교체했다.",
@@ -2022,7 +2022,7 @@
     {
       "abs": "5990E1",
       "complete_expression_review": false,
-      "ko": "혹은　턴Ｘ를　쓰러뜨릴　수　있을지도　모릅니다。",
+      "ko": "혹은　턴Ｘ를　쓰러뜨릴지도　모릅니다。",
       "record_id": "aux:5990E1",
       "region": "aux",
       "review_notes": "",
@@ -13972,7 +13972,7 @@
     {
       "abs": "5D4735",
       "complete_expression_review": true,
-      "ko": "이　김・깅가남이",
+      "ko": "이　김 깅가남이",
       "record_id": "aux:5D4735",
       "region": "aux",
       "review_notes": "japanese_particle: が가 한국어 이름 깅가남 뒤에 붙어 있었다. 문장 전체를 교체했다.",
@@ -17158,7 +17158,7 @@
     {
       "abs": "5D6364",
       "complete_expression_review": true,
-      "ko": "파프테마스　님의　방해는　하게　두지　않아！！",
+      "ko": "팝티머스　님의　방해는　하게　두지　않아！！",
       "record_id": "aux:5D6364",
       "region": "aux",
       "review_notes": "japanese_particle: 様の와 は、させない가 한국어 이름·방해 주변에 붙어 있었다. 문장 전체를 교체했다.",
@@ -17286,7 +17286,7 @@
     {
       "abs": "5D6405",
       "complete_expression_review": false,
-      "ko": "파프테마스　님……！",
+      "ko": "팝티머스　님……！",
       "record_id": "aux:5D6405",
       "region": "aux",
       "review_notes": "",
@@ -45578,7 +45578,7 @@
     {
       "abs": "63DFE2",
       "complete_expression_review": false,
-      "ko": "각원、무슨　일이　있어도　콜로니・레이저",
+      "ko": "전원、어떻게든　콜로니・레이저를",
       "record_id": "script:63DFE2",
       "region": "script",
       "review_notes": "",

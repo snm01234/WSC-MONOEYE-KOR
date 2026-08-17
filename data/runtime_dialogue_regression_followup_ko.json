@@ -156,7 +156,7 @@
     "619E73": {"source_jp": "ああ、そうだな……アムロ。", "after": "아아、그렇군……아무로。", "reason": "remove invented 그렇고말고"},
     "619F8B": {"source_jp": "……ずいぶん涼しい顔をしてるんだね、", "after": "……꽤나 태연한 얼굴이군、", "reason": "remove next-record semantic spill"},
     "619F9F": {"source_jp": "グレミ－・トト……。", "after": "그레미 토토……。", "reason": "restore source-bound record meaning"},
-    "61A0E4": {"source_jp": "『プルツ……プルツ－！！』", "after": "『플 투……플 투！！』", "reason": "broken spacing/transliteration cleanup"},
+    "61A0E4": {"source_jp": "『プルツ……プルツ－！！』", "after": "『플투……플투！！』", "reason": "broken spacing/transliteration cleanup"},
     "61A1D3": {"source_jp": "じゃあ、どうして", "after": "그럼、왜", "reason": "remove invented semantic expansion"},
     "61A1DC": {"source_jp": "あたしを目覚めさせたんだい？", "after": "날 깨운 거지？", "reason": "remove invented 냉동 수면 장치"},
     "61A343": {"source_jp": "ネオ・ジオン艦隊は", "after": "네오 지온 함대는", "reason": "remove next-record semantic spill"},

@@ -1095,7 +1095,7 @@
       "record_id": "ui75:75BDB8",
       "jp": "サンクキングダム",
       "current": "サンクキングダム",
-      "ko": "상크 킹덤",
+      "ko": "생크 킹덤",
       "body_capacity": 2,
       "prefix_hex": "",
       "body_hex": "FEA0"
@@ -1705,7 +1705,8 @@
     {
       "abs": "75B401",
       "text": "射全",
-      "reason": "ambiguous_system_or_kana_index"
+      "ko": "사전",
+      "reason": "user_confirmed_short_ui_label_20260816"
     },
     {
       "abs": "75B41E",

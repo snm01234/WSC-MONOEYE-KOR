@@ -10,9 +10,9 @@
 - README 소개용 한글패치 적용 화면 캡처: `docs/images/title_screen_ko.png`처럼 소수의 선별 스크린샷만 허용
 - 패치 빌드/검증 도구: `tools/*.py`
 - 재현 가능한 빌드에 필요한 활성 번역/구조 사양: `data/`
-- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.1.xdelta`
-- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.1_xdelta.json`, `out/dist/SHA256SUMS_v1.1.txt`
-- 릴리스 변경 사항: `RELEASE_NOTES_v1.1.md`
+- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.2.xdelta`
+- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.2_xdelta.json`, `out/dist/SHA256SUMS_v1.2.txt`
+- 릴리스 변경 사항: `RELEASE_NOTES_v1.2.md`
 
 루트 `LICENSE`의 MIT License는 프로젝트가 실제로 라이선스를 부여할 권한이 있는 자체 작성 코드·도구·문서 등에 적용합니다. 제3자 게임 콘텐츠와 원작 권리는 `NOTICE.md`에서 명시적으로 분리합니다.
 
@@ -38,7 +38,7 @@
 
 작업이 끝난 테스트 산출물은 삭제하기보다 `legacy/` 아래 원래 상대 경로를 유지해서 로컬 보관합니다. 2026-08-15 GitHub 배포 준비 이후에는 `tools/organize_release_core_assets.py`의 강한 정리 정책을 사용하며, 대상은 `legacy/release_core_20260815/<원래 경로>` 아래에 보존합니다.
 
-로컬 `out/patch`에는 현재 메인TIP 계보와 활성 TBL/사전 메타, 현재 승격의 최종 post-promotion 감사, 최신 직전 롤백 1개만 남기는 것을 원칙으로 합니다. `out/script`에는 `translation_sheet.csv`, `excel_translate_cache.json`, `translations_quality_all.json`, `uncovered_translation_sheet_llm_reviewed.csv`, `dialogue_readability_changes.json`, `dialogue_runtime_safety_gate.json`만 핵심 작업 파일로 남기고 배치·큐·worklist·중간 audit/export는 legacy로 이동합니다.
+로컬 `out/patch` 최상위에는 현재 메인TIP, 활성 TBL/사전 메타와 작은 현재 릴리스 검증 요약만 남기는 것을 원칙으로 합니다. 수십 MB 규모의 runtime-contract 전체 manifest, candidate/probe report, post-promotion audit 같은 재생성 가능한 결과물은 `legacy/`로 보관하고 정본 빌드 입력으로 취급하지 않습니다. 롤백 ROM은 `out/patch/backup/`에 별도 보존합니다. `out/script`에는 `translation_sheet.csv`, `excel_translate_cache.json`, `translations_quality_all.json`, `uncovered_translation_sheet_llm_reviewed.csv`, `dialogue_readability_changes.json`, `dialogue_runtime_safety_gate.json`만 핵심 작업 파일로 남기고 배치·큐·worklist·중간 audit/export는 legacy로 이동합니다.
 
 GitHub에는 `legacy/README.md`와 필요 시 이동 매니페스트만 포함하고, 실제 ROM/SaveRAM/대형 진단 파일은 올리지 않습니다.
 

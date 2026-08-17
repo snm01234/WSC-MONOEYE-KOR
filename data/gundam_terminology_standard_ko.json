@@ -23,7 +23,27 @@
       "category": "character",
       "jp": ["クワトロ", "クワトロ・バジ－ナ", "クワトロ・バジーナ"],
       "canonical_ko": "크와트로",
-      "forbidden_ko": ["콰트로"],
+      "forbidden_ko": ["콰트로", "쿼트로"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "ra_cailum",
+      "category": "unit",
+      "jp": ["ラ－・カイラム", "ラー・カイラム", "ラ・カイラム"],
+      "canonical_ko": "라 카이람",
+      "forbidden_ko": ["라 카일람", "라・카일람", "라카일람"],
+      "decision": "user_confirmed"
+    },
+    {
+      "id": "sweeson_stero",
+      "category": "character",
+      "jp": ["スエッソン", "スエッソン・ステロ"],
+      "canonical_ko": "스에손 스테로",
+      "forbidden_ko": ["스웨손", "스엣손", "스웻손", "스웨슨", "스엣슨", "스웻슨"],
+      "component_ko": {
+        "スエッソン": "스에손",
+        "ステロ": "스테로"
+      },
       "decision": "user_confirmed"
     },
     {
@@ -168,7 +188,7 @@
       "category": "character",
       "jp": ["プルツ－", "プルツー"],
       "canonical_ko": "플투",
-      "forbidden_ko": ["풀투"],
+      "forbidden_ko": ["풀투", "풀츠", "풀츠－", "플루츠", "플루츠－", "플루츠-", "푸루투", "푸르츠", "플 투", "플　투"],
       "decision": "user_confirmed"
     },
     {
@@ -641,6 +661,19 @@
       "canonical_ko": "드렌",
       "forbidden_ko": ["도렌", "드레인"],
       "decision": "user_confirmed"
+    },
+    {
+      "id": "emma_sheen",
+      "category": "character",
+      "jp": ["エマ・シ－ン", "エマ・シーン", "エマ"],
+      "canonical_ko": "에마 신",
+      "forbidden_ko": ["엠마 신", "엠마"],
+      "component_ko": {
+        "エマ": "에마",
+        "シ－ン": "신"
+      },
+      "decision": "user_confirmed",
+      "notes": "에마 신 및 단독 호칭 エマ를 모두 에마로 통일한다."
     },
     {
       "id": "sea_serpent_weapon",

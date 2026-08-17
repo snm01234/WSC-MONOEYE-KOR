@@ -1,0 +1,91 @@
+﻿group,title,check,address,focus,bundle_id,text,route,control_prefix_hex,next_control,nul_run
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BAE0,False,scenario_60BAE0,소위님은　샤아　대령님을　어떻게,scenario_first,170318,,1
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BAF3,False,scenario_60BAE0,생각하십니까？……　들려주세요！,scenario_continuation,,0879,2
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB0A,False,scenario_60BB0A,대령님은　날　거두어　주신　분……,scenario_first,173418,,1
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB20,False,scenario_60BB0A,나는　그분을　위해　싸울　거예요。,scenario_continuation,,0856,2
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB34,False,scenario_60BB34,그건　샤아　대령님을　좋아한다는,scenario_first,173418,,1
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB48,True,scenario_60BB34,뜻입니까！？,scenario_continuation,,,2
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB50,False,scenario_60BB34,그렇다면　당신　마음속에　품고　있는,scenario_continuation,18,,1
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB5E,False,scenario_60BB34,아무로라는　사람은　대체　누구죠！？,scenario_continuation,,0879,2
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB6E,False,scenario_60BB6E,………윽！,scenario_first,173418,0856,2
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB7A,False,scenario_60BB7A,샤아　대령님을　좋아한다고　하면서,scenario_first,173418,,1
+A,single-NUL 실제 こ 제거 / STAGE4 기준점,`그건 샤아 대령님을 좋아한다는` 다음 줄이 `뜻입니까！？`로 나오고 선두 `こ`가 없어야 함.,60BB8C,False,scenario_60BB7A,다른　남자를　품다니、　비겁해요！,scenario_continuation,,,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,63683B,False,scenario_63683B,큭……너냐！！,scenario_first,173418,,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,636849,False,scenario_63683B,아까부터　내,scenario_continuation,18,,1
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,636850,False,scenario_63683B,머릿속에　들어오려는　건！,scenario_continuation,,1728,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,636860,False,scenario_636860,쥬도는　적이　아니야！,scenario_first,173418,,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,63686C,False,scenario_636860,쥬도와　있으면　기분　좋다는　걸,scenario_continuation,18,,1
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,63687C,True,scenario_636860,왜　그걸　모르는　거야！？,scenario_continuation,,1728,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,63688D,False,scenario_63688D,『……안　돼！！』,scenario_first,173418,1728,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,63689F,False,scenario_63689F,큭……너냐！！,scenario_first,173418,,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,6368AD,False,scenario_63689F,아까부터　내,scenario_continuation,18,,1
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,6368B4,False,scenario_63689F,머릿속에　들어오려는　건！,scenario_continuation,,1728,2
+B,single-NUL 실제 こ 제거 + 직후 17 28,선두 `こ` 없이 현재 한글 문장이 출력되고 직후 `17 28` 제어가 노출/중단 없이 처리되어야 함.,6368C4,False,scenario_6368C4,『쥬도는　적이　아니야！』,scenario_first,173418,,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B400,False,scenario_60B400,……네？,scenario_first,173418,0834,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B40C,False,scenario_60B40C,아무리　어리다고　해도,scenario_first,173418,,1
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B419,False,scenario_60B40C,눈도　보이고　생각할　머리도　있지。,scenario_continuation,,,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B42C,False,scenario_60B40C,아이　취급하지　않고　조리를　설하면,scenario_continuation,18,,1
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B43F,False,scenario_60B40C,납득해　주는　법이지。,scenario_continuation,,,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B449,True,scenario_60B40C,과거의　나도　그랬다。,scenario_continuation,18,080A,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B459,False,scenario_60B459,하아、　그런　겁니까……,scenario_first,173418,0834,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B46C,False,scenario_60B46C,나도　어릴　적에는,scenario_first,173418,,1
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B478,False,scenario_60B46C,저렇게　랄을　곤란하게　했지……,scenario_continuation,,080A,2
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B48A,False,scenario_60B48A,랄……？,scenario_first,173418,,1
+C,double-NUL structural 18 + E504 + 08xx,`과거의 나도 그랬다。`가 정상 출력되고 직후 `08 0A`가 글자로 노출되지 않으며 다음 초상/대사가 정상이어야 함.,60B493,False,scenario_60B48A,아버님　이름인가요？,scenario_continuation,,0834,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,60040B,False,scenario_60040B,……뭐라고！！,scenario_first,173418,1728,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,600424,False,scenario_600424,……움직이지　마라！！,scenario_first,173418,0845,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,600434,False,scenario_600434,아그리파！,scenario_first,173418,,1
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,60043C,False,scenario_600434,이게　어떻게　된　일입니까！！,scenario_continuation,,080C,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,60044B,False,scenario_60044B,오오……！！,scenario_first,173418,,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,600455,True,scenario_60044B,이、　이런　짓、　깅가남에게는……！,scenario_continuation,18,1728,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,60046D,False,scenario_60046D,이런　일은　명령하지　않았다！,scenario_first,173418,,1
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,600481,False,scenario_60046D,저、　저자가　멋대로　꾸민　일입니다！！,scenario_continuation,,1728,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,60049F,False,scenario_60049F,이런　자가　문레이스의　지도자라고,scenario_first,173418,,1
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,6004AD,False,scenario_60049F,행세하고　있으니、　웃음이　나지　않나。,scenario_continuation,,1728,2
+D,double-NUL structural 18 + E504 + 17 28,대사 직후 `17 28` page/control 진행이 정상이고 반복·스킵·제어문 노출이 없어야 함.,6004C4,False,scenario_6004C4,……네놈은！！,scenario_first,173418,1728,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017B0,False,scenario_6017B0,………………,scenario_first,173418,1728,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017C1,False,scenario_6017C1,필・아카만！！,scenario_first,173418,,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017CD,False,scenario_6017C1,디아나　이름을　딴　부대　지휘관이,scenario_continuation,18,,1
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017E1,False,scenario_6017C1,왜　깅가남을　따라　날　거역하는가！？,scenario_continuation,,085E,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017F3,False,scenario_6017F3,디아나　님！,scenario_first,173418,,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,6017FC,True,scenario_6017F3,저희들은　지구만을　생각하고、　달을,scenario_continuation,18,,1
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601813,False,scenario_6017F3,등한시하는　폐하의　뜻에는……,scenario_continuation,,,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601826,True,scenario_6017F3,따라갈　수　없다고　말씀드렸습니다！！,scenario_continuation,18,0845,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,60183D,False,scenario_60183D,………………,scenario_first,173418,0828,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601849,False,scenario_601849,그렇게까지　고민하고　있었나……！,scenario_first,172A18,1728,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601864,False,scenario_601864,필　소령에게　뭐라고　사과해야　할지……,scenario_first,173418,,1
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601873,False,scenario_601864,……모르겠군。,scenario_continuation,,085E,2
+E,과거 page-merge 실패 기준 / structural 18 보존,`디아나 님！` 페이지가 독립 유지되고 이어지는 세 문장이 병합/`こ`/`亻` 없이 정상 진행되어야 함.,601883,False,scenario_601883,……폐、　폐하！？,scenario_first,173418,0845,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,6150A3,False,scenario_6150A3,으오옷……！！,scenario_first,173418,0878,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,6150BA,False,scenario_6150BA,……블랙스　준장！！,scenario_first,173418,0896,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,6150D4,False,scenario_6150D4,티탄즈　전력、　침묵！！,scenario_first,173418,1728,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,615103,False,scenario_615103,……앗！,scenario_first,173418,,1
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,61510C,False,scenario_615103,자、　잠깐　기다려　주십시오！！,scenario_continuation,,,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,615115,True,scenario_615103,이건……！！,scenario_continuation,18,1728,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,615125,False,scenario_615125,새　적이라고！？,scenario_first,173418,1728,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,61513B,False,scenario_61513B,아인　레비……큰소리치더니、,scenario_first,173418,,1
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,615150,False,scenario_61513B,이　꼴인가！,scenario_continuation,,,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,61515B,False,scenario_61513B,……바스크　대령님！,scenario_continuation,18,1728,2
+F,ordinary-native 단일 예외,E504가 아닌 기존 native token으로 복구된 유일한 항목. 한글 문구와 직후 `17 28` 진행이 정상이어야 함.,61516D,False,scenario_61516D,……음。,scenario_first,173418,1728,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,6102FA,False,scenario_6102FA,으음！　새로운　적인가……！！,scenario_first,173418,1728,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,610312,False,scenario_610312,가토……！,scenario_first,173418,,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,61031B,False,scenario_610312,이번엔　꼭　네놈을　막겠다！,scenario_continuation,18,1728,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,610335,False,scenario_610335,저지　한계까지　얼마　안　남았다！,scenario_first,173418,,1
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,610345,False,scenario_610335,전　기체、　콜로니를　떨어뜨려라！！,scenario_continuation,,1728,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,61035E,True,scenario_61035E,가토오오오！！,scenario_first,173418,1728,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,61036C,False,scenario_61036C,에잇！　또　네놈이냐！！,scenario_first,173418,082D,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,61037F,False,scenario_61037F,네놈이　살아　있는　한、,scenario_first,173418,,1
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,61038D,False,scenario_61037F,나는　끝까지　널　쫓겠다！！,scenario_continuation,,080F,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,6103A2,False,scenario_6103A2,흥！　헛수고를！！,scenario_first,173418,,2
+G,기존 E51D parameter 회귀,기존 실측 anchor `가토오오오！！` 계열이 그대로 정상이어야 함.,6103B1,False,scenario_6103A2,이제는　그　누구도　저지할　수　없다！！,scenario_continuation,18,1728,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638C6B,False,scenario_638C6B,이제……끝이네。,scenario_first,173418,1728,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638C84,False,scenario_638C84,웃소……,scenario_first,173418,1728,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638C95,False,scenario_638C95,카테지나……씨？,scenario_first,173418,1728,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638CB1,False,scenario_638CB1,날　좋아하는구나、　웃소……？,scenario_first,173418,,1
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638CC1,False,scenario_638CB1,계속　날　사랑했지？,scenario_continuation,,0804,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638CD5,True,scenario_638CD5,……어？,scenario_first,173418,084B,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638CED,False,scenario_638CED,나도　너　같은　소년에게,scenario_first,173418,,1
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638CF9,False,scenario_638CED,이렇게　사랑받아　기뻐。,scenario_continuation,,08D2,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638D0A,False,scenario_638D0A,하지만　난　너와　적대하는,scenario_first,171C18,,1
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638D1A,False,scenario_638D0A,길을　선택해　버렸어……,scenario_continuation,,08D2,2
+H,기존 E51D fixed / STAGE22 회귀,웃소/카테지나 `……어？`와 후속 이벤트가 기존처럼 정상이어야 함.,638D2F,False,scenario_638D2F,……너와　껴안을　수는　없어。,scenario_first,173418,088C,2

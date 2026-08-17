@@ -41,7 +41,7 @@
     {"group_id":"scenario_632FBD","rows":["뭐라고！？","저　빛……　배리어인가！？"],"change_summary":"기형 파일럿 콕핏/사방 호위/장벽 중복 같은 원문 밖 수식을 제거"},
     {"group_id":"scenario_63329E","rows":["이놈、　하만！！","속였군！"],"change_summary":"불여우/계집년 같은 원문 밖 비하 표현을 제거"},
     {"group_id":"scenario_63335D","rows":["이　콜로니　레이저는","자비가　부흥에　쓰겠다。"],"change_summary":"포탑 제어 시스템/결재 권한/오늘부터 같은 원문 밖 행정 세부를 제거"},
-    {"group_id":"scenario_6336D6","rows":["라　카일람　이하　전　함대로","콜로니　레이저　탈취　작전을　한다！"],"change_summary":"탈환 강탈 중복을 제거하고 전 함대 작전 의미를 자연화"},
+    {"group_id":"scenario_6336D6","rows":["라　카이람　이하　전　함대로","콜로니　레이저　탈취　작전을　한다！"],"change_summary":"탈환 강탈 중복을 제거하고 전 함대 작전 의미를 자연화"},
     {"group_id":"scenario_63372F","rows":["건담에　타고　있어도","결국　그저　아이일　뿐……"],"change_summary":"고성능/기형/자아 분열/풋내기 같은 원문 밖 수식을 제거"},
     {"group_id":"scenario_6339F2","rows":["확실히　네게도","동정할　점은　있겠지……"],"change_summary":"신상 내력 검토/불쌍하고 부정하지 않다 같은 중복 수사를 제거"},
     {"group_id":"scenario_633A6F","rows":["끝까지","붙어보자고！！"],"change_summary":"우주 바닥/콕핏 구멍 같은 원문 밖 과격한 수사를 제거"},

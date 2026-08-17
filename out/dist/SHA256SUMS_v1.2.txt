@@ -1,0 +1,11 @@
+# SD Gundam G Generation: Mono-Eye Gundams Korean Patch
+# Release: v1.2, based on v1.1
+
+# Legally owned Japanese original source ROM (not distributed)
+376e4c6b4b81cc3a7dceb15dc4b7d0af04d3e6c8b81e8572569c39d3394870a0  SD Gundam G Generation Mono-Eye Gundams.wsc
+
+# Public patch asset
+c26cf206528e33700aaee81807889ff5eecb9b08367306a6dccd169e19f91f28  monoeye_ko_expanded_v1.2.xdelta
+
+# Expected patched ROM (not distributed)
+c7bb4b5c936653888062f2389351c586fc483dedacdba209918b327e440e2131  monoeye_ko_expanded.wsc

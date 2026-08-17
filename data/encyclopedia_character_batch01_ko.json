@@ -861,7 +861,7 @@
     {
       "abs": "5C0677",
       "jp": "カクリコン・カク－ラ－",
-      "ko": "카크리콘・카쿠라",
+      "ko": "카크리콘 카크라",
       "visual_cells": 8,
       "encoded_bytes": 19,
       "translation_source": "llm",
@@ -1923,9 +1923,9 @@
     {
       "abs": "5C0ED1",
       "jp": "べラ・ロナに仕える。最後は",
-      "ko": "베라로나를섬긴다。끝엔",
-      "visual_cells": 11,
-      "encoded_bytes": 25,
+      "ko": "베라 로나를섬긴다。끝엔",
+      "visual_cells": 12,
+      "encoded_bytes": 28,
       "translation_source": "llm",
       "review_status": "approved"
     },
@@ -2310,7 +2310,7 @@
     {
       "abs": "5C114B",
       "jp": "ジャマイカン・ダニンガン",
-      "ko": "자마이칸・다니건",
+      "ko": "자마이칸 다닝간",
       "visual_cells": 8,
       "encoded_bytes": 19,
       "translation_source": "llm",
@@ -2787,7 +2787,7 @@
     {
       "abs": "5C143F",
       "jp": "スエッソン・ステロ",
-      "ko": "스웨슨・스테로",
+      "ko": "스에손 스테로",
       "visual_cells": 7,
       "encoded_bytes": 17,
       "translation_source": "llm",
@@ -3975,7 +3975,7 @@
     {
       "abs": "5C1EBF",
       "jp": "ハンゲルク・エヴィン",
-      "ko": "항게르그・에빈",
+      "ko": "한겔그 에빈",
       "visual_cells": 7,
       "encoded_bytes": 17,
       "translation_source": "llm",
@@ -4650,7 +4650,7 @@
     {
       "abs": "5C2394",
       "jp": "エゥ－ゴの士官。ラ－ディッ",
-      "ko": "에우고　장교。　라디슈의",
+      "ko": "에우고　장교。　라디쉬의",
       "visual_cells": 12,
       "encoded_bytes": 27,
       "translation_source": "llm",
