@@ -6,31 +6,32 @@
 - [x] `tools/make_main_tip_xdelta.py`로 xdelta를 다시 생성했다.
 - [x] xdelta round-trip 결과가 메인TIP과 byte-exact다.
 - [x] VCDIFF header indicator에 `VCD_SECONDARY`가 없고 xdeltaUI/구버전 호환 형식이다.
-- [x] `out/dist/SHA256SUMS_v1.2.txt`의 해시를 갱신했다.
+- [x] `out/dist/SHA256SUMS_v1.3.txt`의 해시를 갱신했다.
 
 현재 기준:
 
-- 릴리스: **v1.2** · 기준 버전 v1.1
+- 릴리스: **v1.3** · 기준 버전 v1.2
 - 합법적으로 소유한 일본판 원본 ROM: `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
-- 메인TIP: `C7BB4B5C936653888062F2389351C586FC483DEDACDBA209918B327E440E2131`
-- xdelta: `C26CF206528E33700AAEE81807889FF5EECB9B08367306A6DCCD169E19F91F28`
-- xdelta 크기: `1,615,143` bytes
-- 2026-08-17 재검증: 원본→xdelta→메인TIP round-trip PASS, runtime contract 24,925건 hard/review 0, terminology audit clean
+- 메인TIP: `26B780799C3C9CF0A554006C1B778025EC57A6F7C3B8FD7279D2CE654350FBC9`
+- WonderSwan checksum: `AFFB`
+- xdelta: `0471E51F7D1796D840F82B85278F54DAD4A97D833B260A05960CED39C5C15267`
+- xdelta 크기: `1,615,611` bytes
+- 2026-08-19 재검증: 원본→xdelta→메인TIP round-trip PASS, runtime contract 24,925건 hard/review 0, terminology audit clean
 
 ## 공개 파일
 
 - [x] `README.md`
 - [x] `PATCH_GUIDE.md`
-- [x] `VERSION` (`1.2`)
+- [x] `VERSION` (`1.3`)
 - [x] `LICENSE` (MIT)
 - [x] `NOTICE.md`
 - [x] `data/README.md` 및 빌드에 필요한 `data/` 활성 사양
 - [x] `docs/LEGAL_NOTICE.md`
-- [x] `out/dist/monoeye_ko_expanded_v1.2.xdelta`
-- [x] `out/dist/monoeye_ko_expanded_v1.2_xdelta.json`
-- [x] `out/dist/monoeye_ko_expanded_v1.2_XDELTA_README.md`
-- [x] `out/dist/SHA256SUMS_v1.2.txt`
-- [x] `RELEASE_NOTES_v1.2.md`
+- [x] `out/dist/monoeye_ko_expanded_v1.3.xdelta`
+- [x] `out/dist/monoeye_ko_expanded_v1.3_xdelta.json`
+- [x] `out/dist/monoeye_ko_expanded_v1.3_XDELTA_README.md`
+- [x] `out/dist/SHA256SUMS_v1.3.txt`
+- [x] `RELEASE_NOTES_v1.3.md`
 
 ## 공개 금지 확인
 
@@ -46,7 +47,7 @@
 
 ## 레거시 정리
 
-v1.2에서는 `python tools/cleanup_v1_2_test_artifacts.py`로 현재 메인에 불필요한 후보/probe/test 산출물을 먼저 dry-run한 뒤 보존 이동했습니다.
+v1.2에서 대규모 후보/probe/test 산출물을 legacy로 정리한 상태를 유지합니다. v1.3에서 새로 생긴 preemptive/kana/move-icon/후속 대사 계열의 one-off candidate·probe·promote 도구는 최종 정본이 아니므로 `.gitignore`로 공개 소스 대상에서 제외하고 로컬 forensic 이력으로만 보존합니다. 공개 소스 선정 기준은 `docs/RELEASE_SOURCE_SELECTION_v1.3.md`를 따릅니다.
 
 - 정리 완료: 98개 파일 / 1,375,663,628 bytes (1311.9 MiB)
 - WSC/WSC_BAK: 30개
@@ -60,8 +61,9 @@ v1.2에서는 `python tools/cleanup_v1_2_test_artifacts.py`로 현재 메인에 
 
 - [x] 현재 staging 목록이 비어 있음을 확인했다. 실제 커밋 직전에는 `git status --short`를 다시 확인한다.
 - [x] README와 적용 가이드가 패치 입력을 **합법적으로 소유한 일본판 원본 ROM**으로 명확히 안내한다.
-- [x] README의 입력/출력 SHA가 `SHA256SUMS_v1.2.txt`와 일치한다.
-- [x] 릴리스 첨부 파일은 xdelta를 우선 사용한다.
+- [x] README의 입력/출력 SHA가 `SHA256SUMS_v1.3.txt`와 일치한다.
+- [x] GitHub Release asset은 `monoeye_ko_expanded_v1.3.xdelta`와 `SHA256SUMS_v1.3.txt` 두 파일만 사용한다.
+- [x] `_xdelta.json`, `_XDELTA_README.md`, `RELEASE_NOTES_v1.3.md`는 저장소/Release 본문에 두고 asset으로 중복 첨부하지 않는다.
 - [x] ROM이나 SaveRAM을 GitHub Release asset에 첨부하지 않는다.
 - [ ] 저장소 설명/README가 비공식·비제휴 프로젝트임을 명확히 표시한다.
 - [ ] `LICENSE`는 표준 MIT 본문이며 프로젝트가 권리를 가진 작성물에만 적용된다는 범위가 `NOTICE.md`에 명확하다.

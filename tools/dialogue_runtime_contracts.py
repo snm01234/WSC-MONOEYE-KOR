@@ -57,9 +57,19 @@ ROM_SIZE = 16_777_216
 
 # Highest-priority runtime evidence.  These rows were observed as visible text
 # even though an older structure ledger called the same byte metadata.
+# The exact pair below was observed rendering its E5 18 Korean tail correctly
+# while also exposing the stale 86=全 lead.  That runtime capture proves ext3
+# decoder support for these two body-only routes, not merely their lead role.
+RUNTIME_VISIBLE_EXT3_PROVEN = {0x5DC23D, 0x5E9885}
+
 RUNTIME_VISIBLE_OVERRIDES: dict[int, bytes] = {
     0x5D5982: bytes.fromhex("82"),
     0x5D5B1F: bytes.fromhex("82"),
+    # Screen-proven 全 false-lead family.  These records must be treated as
+    # body-only even if the historical first-code-unit ledger is unavailable.
+    0x5DC23D: bytes.fromhex("86"),
+    0x5E4F43: bytes.fromhex("86"),
+    0x5E9885: bytes.fromhex("86"),
     0x5EB3AA: bytes.fromhex("82"),
     0x5EAB36: bytes.fromhex("AD"),
     0x5EB6B2: bytes.fromhex("AD"),
@@ -110,13 +120,20 @@ SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY = {0x63449B, 0x635855, 0x635BFB}
 # stock wrapper and corrupted at runtime; preserve ordinary stock-token +
 # punctuation grammar at both duplicated scenario copies.
 SCENARIO_CONTINUATION_NATIVE_ONLY = {0x635866, 0x635C0C}
+# User screenshots prove these structural-18 continuations execute through the
+# promoted E504 portal16 path.  Their private helper phrases may be retargeted
+# without changing the scenario record or its page/control boundary.
+SCENARIO_CONTINUATION_PORTAL16_RUNTIME = {0x62B839, 0x62BAAE}
 ACTIVE_SCENARIO_CONTINUATIONS = (
     {0x61E23D, 0x626509}
     | SEMANTIC_SCENARIO_CONTINUATIONS
     | SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
     | SCENARIO_CONTINUATION_NATIVE_ONLY
+    | SCENARIO_CONTINUATION_PORTAL16_RUNTIME
 )
-SCENARIO_CONTINUATION_EXT3_PROVEN = {0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS
+SCENARIO_CONTINUATION_EXT3_PROVEN = (
+    {0x626509} | SEMANTIC_SCENARIO_CONTINUATIONS | SCENARIO_CONTINUATION_PORTAL16_RUNTIME
+)
 # User-runtime-proven scenario-first records whose parser state depends on the
 # promoted native token grammar.  A generic scenario-first E5 18 portal is not
 # safe here even though the surrounding 17 xx 18 first-line grammar is valid.
@@ -297,7 +314,8 @@ def voice_decision(payload: bytes, logical: int, evidence: dict[str, Any] | None
             conflict = "runtime-visible evidence overrides stale protected-control ledger"
         return VoiceDecision(
             "continuation", "battle_body_only", b"", "active",
-            "runtime screen/raw-byte visible override", "runtime-proven", False, True, conflict,
+            "runtime screen/raw-byte visible override", "runtime-proven",
+            logical in RUNTIME_VISIBLE_EXT3_PROVEN, True, conflict,
         )
     if logical in safe:
         active = logical in ACTIVE_VISIBLE_ANCHORS
@@ -886,6 +904,8 @@ def _scenario_contracts(
                     if logical in SEMANTIC_SCENARIO_CONTINUATIONS
                     else "user-runtime-proven control-18 continuation; native stock grammar required"
                     if logical in SCENARIO_CONTINUATION_CONTROL18_NATIVE_ONLY
+                    else "user-runtime-proven E504 portal16 continuation with private helper storage"
+                    if logical in SCENARIO_CONTINUATION_PORTAL16_RUNTIME
                     else "explicit continuation regression anchor"
                     if explicit
                     else "Original payload + catalog Japanese prove leading 18 is a structural continuation prefix"
@@ -894,7 +914,7 @@ def _scenario_contracts(
                 )
                 route = "scenario_continuation"
                 ext3 = logical in SCENARIO_CONTINUATION_EXT3_PROVEN
-                width = explicit
+                width = explicit and logical not in SCENARIO_CONTINUATION_PORTAL16_RUNTIME
                 conflict = (
                     "source-proven structural 18 prefix followed by current direct E518 storage; runtime-safe rehome required"
                     if direct_ext3_after_control18 and not explicit
@@ -1136,6 +1156,15 @@ def _payload_marker_recursive(payload: bytes, dictionary: Any, depth: int = 0) -
     i = 0
     while i < len(payload):
         lead = payload[i]
+        if i + 3 < len(payload) and payload[i:i + 2] == CONTROL18_PORTAL16_MAGIC:
+            try:
+                raw = _control18_portal16_helper(dictionary, payload[i + 2], payload[i + 3])
+                if _payload_marker_recursive(raw, dictionary, depth + 1):
+                    return True
+            except Exception:  # noqa: BLE001
+                pass
+            i += 4
+            continue
         if i + 1 < len(payload) and is_ext3_magic(lead, payload[i + 1]):
             if i + 3 < len(payload):
                 try:

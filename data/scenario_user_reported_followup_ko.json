@@ -1,0 +1,26 @@
+{
+  "description": "User-reported exact scenario dialogue corrections that override legacy machine-translated wording.",
+  "entries": [
+    {
+      "abs": "62B839",
+      "jp": "ゼロ・ムラサメのこと？",
+      "before": "바로　자네、　제로　무라사메　자네를　칭",
+      "ko": "제로　무라사메　말인가？",
+      "reason": "The prior long machine translation exceeded the 20-cell semantic limit and was truncated at exactly 20 cells, losing the sentence ending. Use the direct contextual meaning instead."
+    },
+    {
+      "abs": "62BAAE",
+      "jp": "だから、私たちと来い！　レイラ！！",
+      "before": "그래서、　우리와　와라！　라일라！！",
+      "ko": "그러니、　같이　가자！　레이라！！",
+      "reason": "Naturalize the machine-translated command as an invitation that fits the existing private phrase slot, and correct レイラ to the project-standard name 레이라."
+    },
+    {
+      "abs": "62A40C",
+      "jp": "ハリ－・オ－ドォォォォ！",
+      "before": "해리　오드오오오！！",
+      "ko": "해리　오드으으으！",
+      "reason": "User-requested cry correction: keep the character name 해리 오드 and render the prolonged shout as 으으으 with one exclamation mark instead of repeating 오."
+    }
+  ]
+}

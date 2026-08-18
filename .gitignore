@@ -44,6 +44,10 @@ out/dist/*
 !out/dist/monoeye_ko_expanded_v1.2_xdelta.json
 !out/dist/monoeye_ko_expanded_v1.2_XDELTA_README.md
 !out/dist/SHA256SUMS_v1.2.txt
+!out/dist/monoeye_ko_expanded_v1.3.xdelta
+!out/dist/monoeye_ko_expanded_v1.3_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.3_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.3.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*
@@ -62,6 +66,34 @@ tools/out/
 # Historical/local-only tool archive. Keep only its README in Git.
 tools/archive/*
 !tools/archive/README.md
+
+# v1.3 one-off runtime probes / promotion helpers. Final release state is
+# represented by the promoted main TIP, active data specs, and v1.3 xdelta.
+# Keep these local for forensic rollback only; do not add them to public source.
+tools/bizhawk_preemptive_*.lua
+tools/bizhawk_ws_domain_probe.lua
+tools/build_encyclopedia_kana_index_expansion_parser_candidate.py
+tools/build_encyclopedia_kana_index_expansion_render_candidate.py
+tools/build_encyclopedia_kana_render_v2_terra_icon_candidate.py
+tools/build_fire_wind_from_preemptive_test_candidate.py
+tools/build_id_command_preemptive_centered_cleanup_candidate.py
+tools/build_id_command_preemptive_centered_cleanup_state40_probe.py
+tools/build_id_command_preemptive_centered_isolated_cleanup_candidate.py
+tools/build_id_command_preemptive_runtime_fix_candidate.py
+tools/build_id_command_preemptive_style_match_candidate.py
+tools/build_id_command_preemptive_style_match_followup_candidate.py
+tools/build_move_icon_big_zam_candidate.py
+tools/build_move_icon_ko_candidate.py
+tools/build_zero_leila_dialogue_followup_candidate.py
+tools/promote_encyclopedia_kana_v2_terra_icon_candidate.py
+tools/promote_fire_wind_preemptive_test_candidate.py
+tools/promote_harry_ordo_cry_followup.py
+tools/promote_move_icon_big_zam_candidate.py
+tools/promote_neozion_full_battery_false_lead_followup.py
+tools/promote_neozion_full_battery_native_rehome.py
+tools/promote_tobia_battle_voice_followup.py
+tools/promote_zero_leila_dialogue_followup_candidate.py
+tools/verify_id_command_preemptive_state40_video_diff.py
 
 # Accidental/local helper files.
 NUL

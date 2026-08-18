@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "runtime_structure_proven_state40_state41_visual_candidate_pending_user_test",
+  "target": {
+    "jp": "先制",
+    "ko": "선제",
+    "logical_private_range": "4CE9EA-4CEB09",
+    "private_tiles": 9,
+    "private_bytes": 288
+  },
+  "supersedes": {
+    "old_classification": "body_32x16_plus_shared_both_caps",
+    "old_private_range": "4CE9EA-4CEAE9",
+    "reason": "state40/state41 prove the live renderer uploads and draws nine private tiles, not eight"
+  },
+  "runtime": {
+    "states": [
+      "C:/RetroArch-Win64/states/Beetle WonderSwan/monoeye_ko_expanded.state40",
+      "C:/RetroArch-Win64/states/Beetle WonderSwan/monoeye_ko_expanded.state41"
+    ],
+    "vram_range": "5100-527F",
+    "vram_tiles": ["088", "089", "08A", "08B", "08C", "08D", "08E", "08F", "090", "091", "092", "093"],
+    "composition": {
+      "top": ["private0", "private1", "private2", "private3", "private4", "shared_right_top"],
+      "bottom": ["private5", "private6", "private7", "private8", "shared_bottom_inner", "shared_right_bottom"]
+    },
+    "shared_logicals": {
+      "right_top": "4C46F4",
+      "bottom_inner": "4C4B94",
+      "right_bottom": "4C47B4"
+    }
+  },
+  "drawing": {
+    "font": "assets/fonts/Galmuri7.ttf",
+    "font_size": 8,
+    "stroke_width": 1,
+    "origin": [9, 3],
+    "mask": [18, 9],
+    "policy": "match the user-approved Galmuri7 two-character shield word style; keep all glyph pixels inside x<32, which is private on both tile rows"
+  },
+  "builder": "tools/build_id_command_preemptive_runtime_fix_candidate.py"
+}

@@ -1,0 +1,26 @@
+{
+  "description": "User-reported exact battle-voice corrections that must override generic fragment translation.",
+  "entries": [
+    {
+      "abs": "5D9B96",
+      "jp": "トビアっ！！",
+      "before": "토비아윽！！",
+      "ko": "토비앗！",
+      "reason": "The generic っ！！→윽！！ fragment translation is wrong inside the shouted name トビアっ！！. Treat the whole utterance as one exact phrase instead of composing 토비아 + 윽！！."
+    },
+    {
+      "abs": "5DC23D",
+      "jp": "全砲門開け！！",
+      "before": "全전　포문　개방！！",
+      "ko": "전　포문　개방！！",
+      "reason": "Runtime evidence proves the leading 86=全 is visible sentence text here, not battle metadata. The translated ext3 tail already contains the complete Korean line, so retaining 86 duplicates the first word as 全전."
+    },
+    {
+      "abs": "5E9885",
+      "jp": "全砲門開け！！",
+      "before": "全전　포문　개방！！",
+      "ko": "전　포문　개방！！",
+      "reason": "Byte-identical duplicate of 5DC23D in the alternate battle-voice bank; apply the same screen-proven visible-lead correction so runtime routing cannot reintroduce 全전."
+    }
+  ]
+}
