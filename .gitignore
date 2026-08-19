@@ -48,6 +48,10 @@ out/dist/*
 !out/dist/monoeye_ko_expanded_v1.3_xdelta.json
 !out/dist/monoeye_ko_expanded_v1.3_XDELTA_README.md
 !out/dist/SHA256SUMS_v1.3.txt
+!out/dist/monoeye_ko_expanded_v1.3.1.xdelta
+!out/dist/monoeye_ko_expanded_v1.3.1_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.3.1_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.3.1.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*
@@ -68,7 +72,7 @@ tools/archive/*
 !tools/archive/README.md
 
 # v1.3 one-off runtime probes / promotion helpers. Final release state is
-# represented by the promoted main TIP, active data specs, and v1.3 xdelta.
+# represented by the promoted main TIP, active data specs, and release xdelta.
 # Keep these local for forensic rollback only; do not add them to public source.
 tools/bizhawk_preemptive_*.lua
 tools/bizhawk_ws_domain_probe.lua
@@ -94,6 +98,18 @@ tools/promote_neozion_full_battery_native_rehome.py
 tools/promote_tobia_battle_voice_followup.py
 tools/promote_zero_leila_dialogue_followup_candidate.py
 tools/verify_id_command_preemptive_state40_video_diff.py
+
+# v1.3.1 one-off dialogue/runtime candidate, promotion and review artifacts.
+# The public release state is represented by the v1.3.1 xdelta, release notes,
+# current common validation tools, and concise release/source-selection docs.
+tools/build_sera_sig_followup_glyph_reset_candidate.py
+tools/build_dialogue_hangul_marker_runtime_fix_candidate.py
+tools/build_dialogue_structural_followup_candidate.py
+tools/build_stage3_reflow_idhelp_followup_candidate.py
+tools/promote_v1_3_1_dialogue_followup_candidate.py
+docs/BROTHER_TERM_CONTEXT_REVIEW_20260820.md
+docs/DIALOGUE_BOUNDARY_DUPLICATION_AUDIT_20260820.md
+docs/DIALOGUE_TWO_LINE_TRUNCATION_REFLOW_20260820.md
 
 # Accidental/local helper files.
 NUL

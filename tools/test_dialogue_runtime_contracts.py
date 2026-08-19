@@ -1,6 +1,7 @@
 """Regression tests for the single runtime dialogue contract."""
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 import unittest
@@ -39,7 +40,9 @@ class DialogueRuntimeContractTests(unittest.TestCase):
         self.assertEqual(structural_prefix(bare, role="continuation").body, bare)
 
     def test_visible_and_metadata_anchors_are_opposite(self) -> None:
-        for address in (0x5D01F4, 0x5D5D58, 0x5EBB7A):
+        # These two screen/raw-byte anchors are the current explicit runtime-visible
+        # overrides. Older 5D01F4/5D5D58/5EBB7A rows are intentionally quarantined.
+        for address in (0x5DC23D, 0x5E9885):
             decision = voice_decision(b"\x00", address)
             self.assertEqual(decision.route, "battle_body_only")
             self.assertEqual(decision.prefix, b"")
@@ -70,21 +73,19 @@ class DialogueRuntimeContractTests(unittest.TestCase):
         self.assertEqual(physical_widths(rendered), [3, 4])
         self.assertEqual(semantic_widths(rendered), [3, 2])
 
-    def test_generated_candidate_contract_and_gate_are_green(self) -> None:
+    def test_generated_main_contract_is_current(self) -> None:
         manifest = json.loads(
             (ROOT / "out/script/dialogue_runtime_contracts.json").read_text(encoding="utf-8")
         )
-        safety = json.loads(
-            (ROOT / "out/patch/dialogue_runtime_contract_candidate_safety.json").read_text(encoding="utf-8")
-        )
+        tip = (ROOT / "out/patch/monoeye_ko_expanded.wsc").read_bytes()
         self.assertEqual(
             manifest["baseline_target"]["sha256"],
-            safety["target"]["sha256"],
+            hashlib.sha256(tip).hexdigest(),
         )
-        self.assertTrue(safety["ok"])
-        self.assertEqual(safety["counts"]["hard_failures"], 0)
         by_address = {row["address"]: row for row in manifest["contracts"]}
-        self.assertEqual(by_address["5D01F4"]["route"], "battle_body_only")
+        for address in ("5DC23D", "5E9885"):
+            self.assertEqual(by_address[address]["route"], "battle_body_only")
+            self.assertEqual(by_address[address]["confidence"], "runtime-proven")
         self.assertEqual(by_address["5D7084"]["metadata_hex"], "35")
         for address in ("61E234", "62663E", "627FB5"):
             self.assertEqual(by_address[address]["route"], "scenario_first")

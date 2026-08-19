@@ -10,10 +10,10 @@
 - README 소개용 한글패치 적용 화면 캡처: `docs/images/title_screen_ko.png`처럼 소수의 선별 스크린샷만 허용
 - 패치 빌드/검증 도구: `tools/*.py`
 - 재현 가능한 빌드에 필요한 활성 번역/구조 사양: `data/`
-- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.3.xdelta`
-- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.3_xdelta.json`, `out/dist/SHA256SUMS_v1.3.txt`
-- 릴리스 변경 사항: `RELEASE_NOTES_v1.3.md`
-- v1.3 공개 소스/Release asset 선정표: `docs/RELEASE_SOURCE_SELECTION_v1.3.md`
+- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.3.1.xdelta`
+- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.3.1_xdelta.json`, `out/dist/SHA256SUMS_v1.3.1.txt`
+- 릴리스 변경 사항: `RELEASE_NOTES_v1.3.1.md`
+- v1.3.1 공개 소스/Release asset 선정표: `docs/RELEASE_SOURCE_SELECTION_v1.3.1.md`
 
 루트 `LICENSE`의 MIT License는 프로젝트가 실제로 라이선스를 부여할 권한이 있는 자체 작성 코드·도구·문서 등에 적용합니다. 제3자 게임 콘텐츠와 원작 권리는 `NOTICE.md`에서 명시적으로 분리합니다.
 
@@ -47,7 +47,7 @@ GitHub에는 `legacy/README.md`와 필요 시 이동 매니페스트만 포함�
 
 ## GitHub Release asset 정책
 
-현재 v1.3 Release에는 `monoeye_ko_expanded_v1.3.xdelta`와 `SHA256SUMS_v1.3.txt`만 첨부합니다. `_xdelta.json`과 `_XDELTA_README.md`는 저장소의 재현/검증 자료로 유지하고, `RELEASE_NOTES_v1.3.md`는 Release 본문으로 사용하므로 asset으로 중복 업로드하지 않습니다.
+현재 v1.3.1 Release에는 `monoeye_ko_expanded_v1.3.1.xdelta`와 `SHA256SUMS_v1.3.1.txt`만 첨부합니다. `_xdelta.json`과 `_XDELTA_README.md`는 저장소의 재현/검증 자료로 유지하고, `RELEASE_NOTES_v1.3.1.md`는 Release 본문으로 사용하므로 asset으로 중복 업로드하지 않습니다.
 
 ## 메인TIP 정책
 

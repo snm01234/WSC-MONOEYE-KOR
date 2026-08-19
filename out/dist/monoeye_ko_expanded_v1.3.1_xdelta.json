@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/make_main_tip_xdelta.py",
+  "name": "monoeye_ko_expanded_v1.3.1",
+  "release": {
+    "version": "1.3.1",
+    "type": "release",
+    "base_version": "1.3"
+  },
+  "method": "xdelta3_vcdiff_from_8mib_original_to_16mib_tip",
+  "xdelta3": {
+    "path": "tools/vendor/xdelta3.exe",
+    "armor": false,
+    "app_header": null,
+    "secondary": "disabled",
+    "vcd_header_indicator": "0x00",
+    "compatibility": "plain VCDIFF: no secondary compression and no application header; xdeltaUI/older xdelta3 friendly",
+    "level": 9,
+    "source_window": 8388608,
+    "target_window": 16777216,
+    "legacy_app_header": false
+  },
+  "original": {
+    "path": "SD Gundam G Generation Mono-Eye Gundams.wsc",
+    "size": 8388608,
+    "sha256": "376e4c6b4b81cc3a7dceb15dc4b7d0af04d3e6c8b81e8572569c39d3394870a0"
+  },
+  "main_tip": {
+    "path": "out/patch/monoeye_ko_expanded.wsc",
+    "size": 16777216,
+    "sha256": "8cdc239822b82db874eeefccfd7aebeef67ae318b2ce32d1b1d69d6cb8c02a2c"
+  },
+  "xdelta": {
+    "path": "out/dist/monoeye_ko_expanded_v1.3.1.xdelta",
+    "size": 1616690,
+    "sha256": "cc456dace99f2f25b7b2aeecd835f64f04af12aa1e0e96e944f14b2c334a078f"
+  },
+  "embeds_original_rom": false,
+  "roundtrip_matches_main_tip": true,
+  "comparison_with_ips": null,
+  "printhdrs": "VCDIFF version:               0\nVCDIFF header size:           5\nVCDIFF header indicator:      none\nVCDIFF secondary compressor:  lzma\nVCDIFF window number:         0\nVCDIFF window indicator:      VCD_SOURCE VCD_ADLER32 \nVCDIFF adler32 checksum:      3D1C9D4A\nVCDIFF copy window length:    7602315\nVCDIFF copy window offset:    786293\nVCDIFF delta encoding length: 1616674\nVCDIFF target window length:  16777216\nVCDIFF data section length:   879431\nVCDIFF inst section length:   281153\nVCDIFF addr section length:   456072",
+  "apply": [
+    "Use only a legally owned Japanese original 8 MiB ROM, and keep a clean backup.",
+    "Verify original SHA-256 == 376e4c6b4b81cc3a7dceb15dc4b7d0af04d3e6c8b81e8572569c39d3394870a0",
+    "Apply with Delta Patcher (xdelta3) or:",
+    "python tools/apply_main_tip_xdelta.py --original <original.wsc> --xdelta out/dist/monoeye_ko_expanded_v1.3.1.xdelta --out <output.wsc>",
+    "Expected output SHA-256 == 8cdc239822b82db874eeefccfd7aebeef67ae318b2ce32d1b1d69d6cb8c02a2c"
+  ]
+}

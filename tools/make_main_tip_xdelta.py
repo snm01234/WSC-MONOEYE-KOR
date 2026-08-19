@@ -36,13 +36,13 @@ from xdelta3_tool import (  # noqa: E402
 
 DEFAULT_TIP = ROOT / "out/patch/monoeye_ko_expanded.wsc"
 DEFAULT_OUT_DIR = ROOT / "out/dist"
-DEFAULT_NAME = "monoeye_ko_expanded_v1.3"
+DEFAULT_NAME = "monoeye_ko_expanded_v1.3.1"
 DEFAULT_IPS = ROOT / "out/dist/monoeye_ko_expanded.ips"
 # Fail closed if the encoder forgot ``-s`` and compressed the whole TIP.
 MAX_PATCH_BYTES = 2 * 1024 * 1024
-RELEASE_VERSION = "1.3"
+RELEASE_VERSION = "1.3.1"
 RELEASE_TYPE = "release"
-RELEASE_BASE_VERSION = "1.2"
+RELEASE_BASE_VERSION = "1.3"
 
 
 def _rel(path: Path) -> str:

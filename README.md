@@ -8,7 +8,7 @@ WonderSwan Color용 **SD Gundam G Generation: Mono-Eye Gundams** 비공식 한�
 
 이 저장소는 원본 게임 ROM을 포함하지 않습니다. 배포 파일은 사용자가 **합법적으로 소유한 일본판 원본 ROM**에 적용하는 **xdelta 패치**입니다.
 
-현재 릴리스는 **v1.3** 입니다. v1.2 이후 실플레이에서 확인된 기체 스테이터스 `이동` 그래픽, `빅 잠` 명칭, 전투대사 false lead/외침, 제로·레이라 및 해리 오드 시나리오 문장, ID 커맨드 `선제`, 도감 가나 색인과 `테라・스오노` MA 아이콘 문제를 추가 수정했습니다. 자세한 변경 사항은 [`RELEASE_NOTES_v1.3.md`](RELEASE_NOTES_v1.3.md)를 확인해 주세요.
+현재 릴리스는 **v1.3.1** 입니다. v1.3 이후 실플레이에서 확인된 시나리오 글리프 손상, 2행 대사 20셀 경계 잘림, 인접 행 중복, Stage 1~3 말투·용어, ID 커맨드 도움말 잔여 일본어를 추가 수정했습니다. 자세한 변경 사항은 [`RELEASE_NOTES_v1.3.1.md`](RELEASE_NOTES_v1.3.1.md)를 확인해 주세요.
 
 ## 한글화 진행 현황
 
@@ -32,25 +32,25 @@ WonderSwan Color용 **SD Gundam G Generation: Mono-Eye Gundams** 비공식 한�
 1. **합법적으로 소유한 일본판 원본 `.wsc` ROM**을 준비합니다.
 2. 원본 ROM의 SHA-256이 아래 값과 같은지 확인합니다.
    - `376E4C6B4B81CC3A7DCEB15DC4B7D0AF04D3E6C8B81E8572569C39D3394870A0`
-3. `out/dist/monoeye_ko_expanded_v1.3.xdelta`를 받습니다.
+3. `out/dist/monoeye_ko_expanded_v1.3.1.xdelta`를 받습니다.
 4. Delta Patcher 같은 xdelta 호환 프로그램에서 원본 ROM에 패치를 적용합니다.
 5. 결과 ROM은 **16 MiB (16,777,216 bytes)** 가 되어야 합니다.
 6. 패치된 ROM의 SHA-256이 아래 값이면 정상입니다.
-   - `26B780799C3C9CF0A554006C1B778025EC57A6F7C3B8FD7279D2CE654350FBC9`
+   - `8CDC239822B82DB874EEFCCFD7AEBEEF67AE318B2CE32D1B1D69D6CB8C02A2C`
 
 처음 적용하거나 오류가 발생한다면 [`PATCH_GUIDE.md`](PATCH_GUIDE.md)를 확인해 주세요.
 
 ## 현재 배포 파일
 
-- `out/dist/monoeye_ko_expanded_v1.3.xdelta` — **v1.3** 실제 배포용 패치
-- `out/dist/monoeye_ko_expanded_v1.3_xdelta.json` — 버전/원본/출력/xdelta 해시와 빌드 정보
-- `out/dist/monoeye_ko_expanded_v1.3_XDELTA_README.md` — 자동 생성된 xdelta 기술 정보
-- `out/dist/SHA256SUMS_v1.3.txt` — 확인용 SHA-256 목록
-- `RELEASE_NOTES_v1.3.md` — v1.2 이후 누적 변경 사항
+- `out/dist/monoeye_ko_expanded_v1.3.1.xdelta` — **v1.3.1** 실제 배포용 패치
+- `out/dist/monoeye_ko_expanded_v1.3.1_xdelta.json` — 버전/원본/출력/xdelta 해시와 빌드 정보
+- `out/dist/monoeye_ko_expanded_v1.3.1_XDELTA_README.md` — 자동 생성된 xdelta 기술 정보
+- `out/dist/SHA256SUMS_v1.3.1.txt` — 확인용 SHA-256 목록
+- `RELEASE_NOTES_v1.3.1.md` — v1.3 이후 변경 사항
 
 현재 xdelta 자체의 SHA-256:
 
-`0471E51F7D1796D840F82B85278F54DAD4A97D833B260A05960CED39C5C15267`
+`CC456DACE99F2F25B7B2AEECD835F64F04AF12AA1E0E96E944F14B2C334A078F`
 
 xdelta 생성 후 원본 ROM에 다시 적용하여 **현재 메인 TIP과 byte-exact로 동일한 결과가 나오는 것까지 검증**합니다. 현재 배포 xdelta는 xdeltaUI/구버전 xdelta3 호환을 위해 VCDIFF secondary compression(LZMA)을 사용하지 않습니다.
 
@@ -81,7 +81,7 @@ xdelta 생성 후 원본 ROM에 다시 적용하여 **현재 메인 TIP과 byte-
 
 - [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) — 현재 메인TIP 및 빌드/검증 흐름
 - [`docs/REPOSITORY_POLICY.md`](docs/REPOSITORY_POLICY.md) — GitHub에 포함할 파일과 제외할 파일 정책
-- [`docs/RELEASE_SOURCE_SELECTION_v1.3.md`](docs/RELEASE_SOURCE_SELECTION_v1.3.md) — v1.3 공개 소스와 Release asset 선정표
+- [`docs/RELEASE_SOURCE_SELECTION_v1.3.1.md`](docs/RELEASE_SOURCE_SELECTION_v1.3.1.md) — v1.3.1 공개 소스와 Release asset 선정표
 - [`docs/TRANSLATION_SOURCE_POLICY.md`](docs/TRANSLATION_SOURCE_POLICY.md) — 번역 소스 관리 정책
 - [`docs/SAVERAM_POLICY.md`](docs/SAVERAM_POLICY.md) — SaveRAM 취급 정책
 - [`docs/LEGAL_NOTICE.md`](docs/LEGAL_NOTICE.md) — 법적 고지, 권리자 안내 및 공개 범위 원칙
