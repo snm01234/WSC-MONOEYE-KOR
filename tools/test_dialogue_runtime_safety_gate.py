@@ -14,32 +14,41 @@ sys.path.insert(0, str(ROOT / "tools"))
 from audit_dialogue_runtime_safety_gate import audit  # noqa: E402
 from monoeye_rom import find_rom, load_rom  # noqa: E402
 
+MAIN = ROOT / "out/patch/monoeye_ko_expanded.wsc"
+EXPECTED_CONTRACTS = 24_954
+
 
 class RuntimeSafetyGateTests(unittest.TestCase):
-    def test_candidate_contract_gate_has_no_baseline_failures(self) -> None:
-        gate = json.loads(
-            (ROOT / "out/patch/dialogue_runtime_contract_candidate_safety.json").read_text(
-                encoding="utf-8"
-            )
-        )
-        self.assertTrue(gate["ok"])
-        self.assertEqual(gate["counts"]["hard_failures"], 0)
-
-    def test_entry_point_rebuilds_exact_target_contract(self) -> None:
-        target_path = ROOT / "out/patch/dialogue_runtime_contract_candidate.wsc"
-        target = bytes(load_rom(target_path))
+    def test_current_main_contract_gate_has_no_failures(self) -> None:
+        target = bytes(load_rom(MAIN))
         original = bytes(load_rom(find_rom(ROOT)))
         with tempfile.TemporaryDirectory() as directory:
             manifest_path = Path(directory) / "contract.json"
             report = audit(
                 target,
                 original,
-                target_path=target_path,
+                target_path=MAIN,
+                manifest_path=manifest_path,
+            )
+        self.assertTrue(report["ok"])
+        self.assertEqual(report["counts"]["contracts"], EXPECTED_CONTRACTS)
+        self.assertEqual(report["counts"]["hard_failures"], 0)
+        self.assertEqual(report["counts"]["review_items"], 0)
+
+    def test_entry_point_rebuilds_exact_current_target_contract(self) -> None:
+        target = bytes(load_rom(MAIN))
+        original = bytes(load_rom(find_rom(ROOT)))
+        with tempfile.TemporaryDirectory() as directory:
+            manifest_path = Path(directory) / "contract.json"
+            report = audit(
+                target,
+                original,
+                target_path=MAIN,
                 manifest_path=manifest_path,
             )
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         self.assertTrue(report["ok"])
-        self.assertEqual(report["counts"]["hard_failures"], 0)
+        self.assertEqual(manifest["counts"]["contracts"], EXPECTED_CONTRACTS)
         self.assertEqual(
             manifest["baseline_target"]["sha256"],
             report["target"]["sha256"],

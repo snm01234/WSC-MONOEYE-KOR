@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "scope": "stage4 Johnny Ridden / Char / Gato dialogue follow-up",
+  "parent_main_sha256": "8cdc239822b82db874eeefccfd7aebeef67ae318b2ce32d1b1d69d6cb8c02a2c",
+  "translation_source": "llm",
+  "review_status": "approved",
+  "reviewed_at": "2026-08-20",
+  "review_note": "User approved implementation after source/context review. Runtime verification remains pending.",
+  "targets": [
+    {
+      "abs": "609FFD",
+      "jp": "……それに、高名というならば",
+      "before": "……그리고　명성으로　논하자면、　귀관에",
+      "after": "……그리고、　명성이라면",
+      "reason": "Remove spill into the next row and restore the source meaning."
+    },
+    {
+      "abs": "60A00A",
+      "jp": "貴官にこそ、冠されるベきだろう。",
+      "before": "자네야말로　그　이름을　물려받아야지。",
+      "after": "오히려　귀관에게　어울리겠지。",
+      "reason": "冠される means to be given/bear the epithet, not inherit a name."
+    },
+    {
+      "abs": "60A01C",
+      "jp": "大尉のすさまじい戦いぶり……",
+      "before": "소령의　가공할　만한　전장　장악력……",
+      "after": "대위의　놀라운　전투　솜씨……",
+      "reason": "Restore 大尉 rank and translate 戦いぶり without machine-translation embellishment."
+    },
+    {
+      "abs": "60A22C",
+      "jp": "「赤い彗星」だけでなく「真紅の稲妻」まで",
+      "before": "「붉은　혜성」뿐만　아니라　「진홍의",
+      "after": "붉은　혜성뿐　아니라　진홍의　번개까지",
+      "reason": "Keep 真紅の稲妻 intact on one row instead of splitting the epithet."
+    },
+    {
+      "abs": "60A246",
+      "jp": "駆けつけてくれたとは！！",
+      "before": "번개」마저　달려와　주다니！！",
+      "after": "달려와　주다니！！",
+      "reason": "Remove the duplicated tail of the epithet moved to the previous row."
+    },
+    {
+      "abs": "60A2C7",
+      "jp": "確かに『赤い彗星よりも赤が似合う』",
+      "before": "확실히　붉은　혜성보다　잘　어울린다고",
+      "after": "확실히　붉은　혜성보다　붉은색이",
+      "reason": "Restore the omitted subject 赤 (red color)."
+    },
+    {
+      "abs": "60A2DE",
+      "jp": "かもしれないが、あまり気にしないでくれ。",
+      "before": "모르지만　너무　신경　쓰지　마。",
+      "after": "더　어울릴진　몰라도　신경　쓰지　마。",
+      "reason": "Complete the predicate from the previous row and remove the broken machine-translated continuation."
+    },
+    {
+      "abs": "60A3C9",
+      "jp": "ここでどっちが赤にふさわしいか",
+      "before": "여기서　누가　더　붉은색에",
+      "after": "여기서　누가　더　붉은색이　어울리는지",
+      "reason": "Restore ふさわしいか, which was dropped by the old row translation."
+    },
+    {
+      "abs": "60A3D9",
+      "jp": "勝負するってのは？",
+      "before": "승부해　보는　건？",
+      "after": "승부해　보는　건　어때？",
+      "reason": "Natural completion of Johnny Ridden's joking challenge."
+    },
+    {
+      "abs": "60A422",
+      "jp": "「真紅の稲妻」の手並み……",
+      "before": "「진홍의　번개」의　전장　장악　능력……",
+      "after": "「진홍의　번개」의　솜씨……",
+      "reason": "手並み is skill/ability here; remove machine-translation embellishment."
+    },
+    {
+      "abs": "60A433",
+      "jp": "拝見させてもらうとしよう。",
+      "before": "구경해　보도록　하지。",
+      "after": "한번　지켜보도록　하지。",
+      "reason": "Naturalize 拝見 in the context of observing combat skill."
+    },
+    {
+      "abs": "60A4CB",
+      "jp": "ライデン少佐を見て",
+      "before": "라이덴　소령을　보고",
+      "after": "라이덴　소령을　보고",
+      "reason": "Context anchor; no byte change expected."
+    },
+    {
+      "abs": "60A4D4",
+      "jp": "『赤い彗星と勘違いする』者もいるが……",
+      "before": "붉은　혜성으로　착각하지만……",
+      "after": "붉은　혜성으로　착각하기도　하지만……",
+      "reason": "Restore 者もいる nuance without adding an unnecessary explicit subject."
+    },
+    {
+      "abs": "60A4EA",
+      "jp": "別に『真紅の稲妻がマイナ－だから』と",
+      "before": "『진홍의　번개가　덜　유명해서』가",
+      "after": "「진홍의　번개」가　덜　유명해서",
+      "reason": "Remove the broken quoted-clause particle produced by old machine translation."
+    },
+    {
+      "abs": "60A4FE",
+      "jp": "いうわけではない……気にしないでくれ。",
+      "before": "그런　건　아니니……　신경　쓰지　마。",
+      "after": "그런　건　아니니……　신경　쓰지　마。",
+      "reason": "Context anchor; current wording is already acceptable."
+    }
+  ],
+  "untracked_text_record": {
+    "abs": "60A0BD",
+    "jp": "がんばってくれたまえ……",
+    "source_payload_hex": "171949FA3E11212BF191",
+    "after": "힘내　주게……",
+    "reason": "The leading bytes 17 19 are literal がん here, not a record-control prefix. The legacy extractor skipped the whole record."
+  }
+}

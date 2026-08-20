@@ -50,6 +50,7 @@ SAFE_LEADS = ROOT / "out/script/battle_dialogue_false_lead_safe_targets.csv"
 AMBIGUOUS_LEADS = ROOT / "out/script/battle_dialogue_false_lead_ambiguous.csv"
 DUPLICATE_LEADS = ROOT / "out/script/battle_dialogue_duplicate_lead_stock_rehome_targets.csv"
 QUALITY_SOURCE = ROOT / "out/script/translations_quality_all.json"
+SCENARIO_SUPPLEMENT = ROOT / "data/scenario_runtime_contract_supplement.json"
 BANK5F_SPEC = ROOT / "data/bank5f_runtime_battle_voice_ko.json"
 
 LINE_LIMIT = 20
@@ -955,6 +956,94 @@ def _scenario_contracts(
     return rows
 
 
+def _scenario_supplement_contracts(
+    original: bytes,
+    target: bytes,
+    jp_dictionary: Dictionary,
+    dictionary: Any,
+    jp_tbl: Tbl,
+    tbl: Tbl,
+    scenario_rows: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Add only explicit unambiguous direct zstrings missed by QUALITY_SOURCE.
+
+    The supplement never infers a control-leading record.  Each entry must be
+    the exact ``source_boundary.next_address`` of one already-built scenario
+    contract, must start with no 0x08/0x17/0x18 structural lead in Original,
+    and must decode byte-exactly to the ledger Japanese sentence.
+    """
+    if not SCENARIO_SUPPLEMENT.is_file():
+        return []
+    doc = json.loads(SCENARIO_SUPPLEMENT.read_text(encoding="utf-8"))
+    existing = {int(row["address_int"]): row for row in scenario_rows}
+    out: list[dict[str, Any]] = []
+    for item in doc.get("records") or []:
+        logical = int(str(item["address"]), 16)
+        expected_jp = str(item.get("source_jp") or "")
+        if logical in existing:
+            row = existing[logical]
+            if str(row.get("original_japanese") or "") != expected_jp:
+                raise ContractError(f"scenario supplement source drifted at {logical:06X}")
+            continue
+
+        candidates = scenario_rows + out
+        predecessors = [
+            row
+            for row in candidates
+            if str((row.get("source_boundary") or {}).get("next_address") or "").upper()
+            == f"{logical:06X}"
+        ]
+        if len(predecessors) != 1:
+            raise ContractError(
+                f"scenario supplement predecessor ambiguity at {logical:06X}: {len(predecessors)}"
+            )
+        predecessor = predecessors[0]
+        source = read_record(original, logical)
+        current = read_record(target, logical)
+        if source is None or current is None:
+            raise ContractError(f"scenario supplement record unreadable at {logical:06X}")
+        source_payload, _source_term = source
+        target_payload, _target_term = current
+        if not source_payload or source_payload[0] in {0x08, 0x17, 0x18}:
+            raise ContractError(f"scenario supplement became control-leading at {logical:06X}")
+        try:
+            decoded_jp = _decode(jp_dictionary, source_payload, jp_tbl).rstrip("\u3000 \t")
+        except Exception as exc:  # noqa: BLE001
+            raise ContractError(f"scenario supplement JP decode failed at {logical:06X}: {exc}") from exc
+        if decoded_jp != expected_jp:
+            raise ContractError(
+                f"scenario supplement JP mismatch at {logical:06X}: {decoded_jp!r} != {expected_jp!r}"
+            )
+        # This ledger only supplements direct zstrings.  The target may use a
+        # normal native/ext3 dictionary token, but no structural prefix is
+        # consumed or invented here.
+        contract = _record_contract(
+            original=original,
+            target=target,
+            logical=logical,
+            family="scenario_bundle",
+            bundle_id=str(predecessor.get("bundle_id") or f"scenario_{logical:06X}"),
+            line_role="continuation",
+            route="scenario_continuation",
+            status="quarantine",
+            evidence="explicit direct-zstring supplement + predecessor source_boundary.next_address",
+            confidence="source-proven",
+            source_prefix=b"",
+            target_prefix=b"",
+            ext3_supported=bool(target_payload.startswith(b"\xE5\x18")),
+            width_enforced=False,
+            jp_dictionary=jp_dictionary,
+            dictionary=dictionary,
+            jp_tbl=jp_tbl,
+            tbl=tbl,
+            catalog_jp=expected_jp,
+        )
+        contract["supplemental_direct_record"] = True
+        out.append(contract)
+        existing[logical] = contract
+    return out
+
+
 def build_manifest(original: bytes, target: bytes, *, target_path: Path) -> dict[str, Any]:
     if len(target) != ROM_SIZE:
         raise ContractError(f"target size drifted: {len(target)}")
@@ -1002,7 +1091,19 @@ def build_manifest(original: bytes, target: bytes, *, target_path: Path) -> dict
 
     # Scenario 1/continuation bundles are rebuilt from the latest ROM and
     # Original boundaries, not from the old generated 20-cell snapshot.
-    contracts.extend(_scenario_contracts(original, target, jp_dictionary, dictionary, jp_tbl, tbl))
+    scenario_rows = _scenario_contracts(original, target, jp_dictionary, dictionary, jp_tbl, tbl)
+    scenario_rows.extend(
+        _scenario_supplement_contracts(
+            original,
+            target,
+            jp_dictionary,
+            dictionary,
+            jp_tbl,
+            tbl,
+            scenario_rows,
+        )
+    )
+    contracts.extend(scenario_rows)
 
     # Battle voice rows use only the independent evidence ledgers above.
     voice_rows, voice_runs = enumerate_voice_runs(original, original, jp_dictionary, jp_tbl)
@@ -1129,6 +1230,7 @@ def build_manifest(original: bytes, target: bytes, *, target_path: Path) -> dict
             "safe_visible_leads": str(SAFE_LEADS),
             "ambiguous_leads": str(AMBIGUOUS_LEADS),
             "duplicate_visible_leads": str(DUPLICATE_LEADS),
+            "scenario_supplement": str(SCENARIO_SUPPLEMENT),
             "evidence_counts": evidence["counts"],
         },
         "counts": {

@@ -1,17 +1,26 @@
 #!/usr/bin/env python3
-"""Read-only 20-cell width audit for bank59 event/dialogue records.
+"""Current-ROM 20-cell audit for bank 59 runtime text.
 
-The historical dialogue_20cell audit covered bank59 only through a reviewed
-subset.  This audit instead enumerates every bank59 aux/event address from the
-archived source-bound aux block inventory, plus the explicit prefixed-dialogue
-inventory.  It never writes a ROM and never authorizes structural rewrites.
+This replaces the old snapshot-bound audit.  It does not depend on archived
+``aux_text_blocks.json``, ``aux_prefix_rule.json`` or a generated prefixed
+sheet.  Instead it:
+
+* derives the bank-59 text extent from the maintained curated prefixed-dialogue
+  source in ``data/runtime_text_residual_new_ko_prefixed_dialogue.json``;
+* walks the current target ROM directly inside that text extent;
+* strips only prefixes recognized by the current script grammar;
+* decodes through the current composite ext/ext3 dictionary mapping; and
+* audits every record that actually renders Hangul in the target.
+
+The result is therefore a statement about the ROM being tested now, not about a
+historical translation/apply snapshot.
 """
 from __future__ import annotations
 
 import argparse
-import csv
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -20,6 +29,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
 from apply_ext_dict_unit import load_ext_meta, make_dictionary  # noqa: E402
+from expand_dictionary import _walk_zstring_range  # noqa: E402
+from extract_script import split_prefix_body  # noqa: E402
+from mixed_residual_classification import (  # noqa: E402
+    hangul_character_count,
+    japanese_character_count,
+)
 from monoeye_rom import Dictionary, Tbl, read_encoded_z_safe, stock_base  # noqa: E402
 
 DEFAULT_TARGET = ROOT / "out/patch/monoeye_ko_expanded.wsc"
@@ -28,17 +43,19 @@ TBL = ROOT / "out/patch/hangul_patch_pad3.tbl"
 ORIGINAL_TBL = ROOT / "data/monoeye.tbl"
 EXT_META = ROOT / "out/patch/exp_dictionary_meta.json"
 EXT3_META = ROOT / "out/patch/ext3_dictionary_meta.json"
-AUX_BLOCKS = ROOT / "legacy/release_core_20260815/out/script/aux_text_blocks.json"
-PREFIX_RULE = ROOT / "legacy/release_core_20260815/out/script/aux_prefix_rule.json"
-PREFIXED = ROOT / "legacy/release_core_20260815/out/script/runtime_text_residual_prefixed_dialogue_sheet.csv"
+CURRENT_PREFIXED_SOURCE = ROOT / "data/runtime_text_residual_new_ko_prefixed_dialogue.json"
+PROVEN_PREFIXES = ROOT / "data/bank59_proven_control_prefixes.json"
 DEFAULT_OUT = ROOT / "out/patch/bank59_event_width_audit.json"
 
-# The current composite runtime still applies the promoted five-page E5 18
-# alias mapping even though the old exact-leaf hash detector became stale.
-# Bank59 width must be measured through the same mapping the game executes.
+BANK59_START = 0x590000
+CELL_LIMIT = 20
 RUNTIME_ALIAS_PAGE_COUNT = 5
 RUNTIME_ALIAS_LOCAL_START = 0x0600
 RUNTIME_ALIAS_SEG0 = 0x21
+
+
+class AuditError(RuntimeError):
+    pass
 
 
 def sha(data: bytes) -> str:
@@ -54,69 +71,13 @@ def payload_at(rom: bytes, logical: int) -> bytes | None:
     return None if got is None else bytes(got[0])
 
 
-def prefix_map() -> dict[int, int]:
-    doc = json.loads(PREFIX_RULE.read_text(encoding="utf-8"))
-    result: dict[int, int] = {}
-    for rows in (doc.get("records") or {}).values():
-        for row in rows:
-            result[int(row["abs"], 16)] = int(row["prefix_bytes"])
-    return result
-
-
-def source_addresses() -> dict[int, dict[str, Any]]:
-    result: dict[int, dict[str, Any]] = {}
-    doc = json.loads(AUX_BLOCKS.read_text(encoding="utf-8"))
-    blocks = doc if isinstance(doc, list) else doc.get("blocks", [])
-    for block in blocks:
-        if str(block.get("bank") or "").upper() != "59":
-            continue
-        for row in block.get("targets") or []:
-            logical = int(row["abs"], 16)
-            result[logical] = {
-                "address": f"{logical:06X}",
-                "source": "aux_text_blocks",
-                "inventory_jp": str(row.get("jp") or ""),
-            }
-    if PREFIXED.is_file():
-        with PREFIXED.open(encoding="utf-8-sig", newline="") as handle:
-            for row in csv.DictReader(handle):
-                address = str(row.get("record_start") or row.get("abs") or "").upper()
-                if not address.startswith("59"):
-                    continue
-                logical = int(address, 16)
-                result.setdefault(
-                    logical,
-                    {
-                        "address": address,
-                        "source": "prefixed_dialogue_sheet",
-                        "inventory_jp": str(
-                            row.get("original_body")
-                            or row.get("original_jp")
-                            or row.get("jp")
-                            or ""
-                        ),
-                    },
-                )
-                # Keep the source-bound current snapshot only as a fallback for
-                # old prefixed records whose live ext3 slot now looks empty to
-                # the static dictionary reader.  It is used only when the target
-                # record payload still matches the snapshot byte-exactly.
-                result[logical]["snapshot_current_body"] = str(row.get("current_body") or "")
-                result[logical]["snapshot_current_payload_hex"] = str(
-                    row.get("current_payload_hex") or ""
-                ).upper()
-                if row.get("prefix_hex"):
-                    result[logical]["sheet_prefix_len"] = len(bytes.fromhex(row["prefix_hex"]))
-    return result
-
-
 def active_dictionary(rom: bytes) -> Dictionary:
     ext_meta = load_ext_meta(EXT_META)
     ext3_meta = load_ext_meta(EXT3_META)
     base = make_dictionary(rom, ext_meta)
     num_banks = int(ext3_meta.get("num_banks") or 0)
     if num_banks != 16 or str(ext3_meta.get("exp_seg0") or "11").upper() != "11":
-        raise RuntimeError("current ext3 metadata no longer matches the 16-bank composite runtime")
+        raise AuditError("current ext3 metadata no longer matches the 16-bank composite runtime")
     return Dictionary(
         rom,
         count=base.count,
@@ -133,114 +94,176 @@ def active_dictionary(rom: bytes) -> Dictionary:
     )
 
 
+def proven_prefix_map(target: bytes) -> dict[int, bytes]:
+    """Load and verify address-specific structural prefixes against Original/current ROMs."""
+    doc = json.loads(PROVEN_PREFIXES.read_text(encoding="utf-8"))
+    original = ORIGINAL.read_bytes()
+    original_tbl = Tbl.load(ORIGINAL_TBL)
+    original_dictionary = Dictionary(original)
+    result: dict[int, bytes] = {}
+    for row in doc.get("records") or []:
+        logical = int(str(row["address"]), 16)
+        prefix = bytes.fromhex(str(row["prefix_hex"]))
+        source = read_encoded_z_safe(original, stock_base(original) + logical, max_len=256)
+        current = read_encoded_z_safe(target, stock_base(target) + logical, max_len=256)
+        if source is None or current is None:
+            raise AuditError(f"proven prefix record unreadable: {logical:06X}")
+        source_payload = bytes(source[0])
+        current_payload = bytes(current[0])
+        if not source_payload.startswith(prefix) or not current_payload.startswith(prefix):
+            raise AuditError(f"proven prefix bytes drifted: {logical:06X}")
+        source_text = original_dictionary.expand(source_payload, original_tbl)
+        if source_text != str(row.get("source_with_literal") or ""):
+            raise AuditError(f"proven prefix source text drifted: {logical:06X}")
+        result[logical] = prefix
+    return result
+
+
+def current_bank59_text_end(target: bytes) -> int:
+    """Return the exact exclusive end of the last maintained bank-59 text record.
+
+    The maintained prefixed-dialogue source covers the tail of the bank-59
+    runtime text corpus.  The highest curated address is resolved in the exact
+    target ROM and its NUL terminator becomes the scan boundary, so later
+    bank-59 binary/name tables are never interpreted as dialogue.
+    """
+    doc = json.loads(CURRENT_PREFIXED_SOURCE.read_text(encoding="utf-8"))
+    addresses: list[int] = []
+    for row in doc.get("entries") or []:
+        m = re.search(r"(?:^|:)(59[0-9A-Fa-f]{4})$", str(row.get("queue_id") or ""))
+        if m:
+            addresses.append(int(m.group(1), 16))
+    if not addresses:
+        raise AuditError("maintained bank59 prefixed-dialogue source has no addresses")
+    highest = max(addresses)
+    got = read_encoded_z_safe(target, stock_base(target) + highest, max_len=128)
+    if got is None:
+        raise AuditError(f"cannot resolve final maintained bank59 record: {highest:06X}")
+    payload, _term = got
+    end = highest + len(payload) + 1
+    if not (BANK59_START < end <= 0x5A0000):
+        raise AuditError(f"derived bank59 text end is invalid: {end:06X}")
+    return end
+
+
+def scan_bank59_current(
+    target: bytes,
+    tbl: Tbl | None = None,
+    *,
+    include_japanese_only: bool = False,
+) -> tuple[list[dict[str, Any]], list[str], int]:
+    """Scan current runtime text directly; return (rows, unreadable, end).
+
+    By default only records rendering Hangul are width-audited.  Set
+    ``include_japanese_only`` for the current untranslated-text audit.
+    """
+    tbl = tbl or Tbl.load(TBL)
+    dictionary = active_dictionary(target)
+    proven = proven_prefix_map(target)
+    end = current_bank59_text_end(target)
+    rows: list[dict[str, Any]] = []
+    unreadable: list[str] = []
+
+    for logical, payload, _kind in _walk_zstring_range(
+        target,
+        BANK59_START,
+        end,
+        region="aux",
+        max_len=128,
+    ):
+        if not (BANK59_START <= logical < end):
+            continue
+        if logical in proven:
+            prefix = proven[logical]
+            if not payload.startswith(prefix):
+                unreadable.append(f"{logical:06X}:proven_prefix_drift")
+                continue
+            body = payload[len(prefix):]
+            prefix_kind = "address_proven_control_prefix"
+        else:
+            prefix, body, prefix_kind = split_prefix_body(payload)
+        try:
+            text = strip_pad(dictionary.expand(body, tbl))
+        except Exception:  # noqa: BLE001
+            unreadable.append(f"{logical:06X}:decode")
+            continue
+        hangul = hangul_character_count(text)
+        japanese = japanese_character_count(text)
+        if hangul <= 0 and not (include_japanese_only and japanese > 0):
+            continue
+        rows.append(
+            {
+                "address": f"{logical:06X}",
+                "scope": "bank59_current_runtime_text",
+                "route": "bank59_direct_scan",
+                "prefix_kind": prefix_kind,
+                "prefix_hex": prefix.hex().upper(),
+                "text": text,
+                "cells": len(text),
+                "over_20": len(text) > CELL_LIMIT,
+                "hangul_chars": hangul,
+                "japanese_chars": japanese,
+                "mixed_language": bool(hangul and japanese),
+                "payload_hex": payload.hex().upper(),
+            }
+        )
+    return rows, unreadable, end
+
+
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--target", type=Path, default=DEFAULT_TARGET)
-    parser.add_argument("--start", type=lambda value: int(value, 16), default=0x590000)
-    parser.add_argument("--end", type=lambda value: int(value, 16), default=0x59FFFF)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
 
     target = args.target.read_bytes()
-    original = ORIGINAL.read_bytes()
     tbl = Tbl.load(TBL)
-    original_tbl = Tbl.load(ORIGINAL_TBL)
-    target_dictionary = active_dictionary(target)
-    original_dictionary = Dictionary(original)
-    prefixes = prefix_map()
-    inventory = source_addresses()
-
-    rows: list[dict[str, Any]] = []
-    unreadable: list[str] = []
-    for logical, inv in sorted(inventory.items()):
-        if logical < args.start or logical > args.end:
-            continue
-        source_payload = payload_at(original, logical)
-        target_payload = payload_at(target, logical)
-        if source_payload is None or target_payload is None:
-            unreadable.append(f"{logical:06X}")
-            continue
-        prefix_len = int(inv.get("sheet_prefix_len", prefixes.get(logical, 0)))
-        # Explicit scenario/dialogue first-line control prefix is authoritative
-        # when the archived aux prefix inventory did not include the row.
-        if logical not in prefixes and source_payload.startswith(bytes.fromhex("173418")):
-            prefix_len = 3
-        if prefix_len > len(source_payload) or prefix_len > len(target_payload):
-            unreadable.append(f"{logical:06X}:prefix")
-            continue
-        source_text = original_dictionary.expand(source_payload[prefix_len:], original_tbl)
-        current_text = strip_pad(target_dictionary.expand(target_payload[prefix_len:], tbl))
-        decode_source = "live_ext3_dictionary"
-        snapshot_hex = str(inv.get("snapshot_current_payload_hex") or "")
-        snapshot_body = str(inv.get("snapshot_current_body") or "")
-        if (
-            not current_text
-            and snapshot_body
-            and snapshot_hex
-            and target_payload.hex().upper() == snapshot_hex
-        ):
-            current_text = strip_pad(snapshot_body)
-            decode_source = "byte_bound_prefixed_snapshot_fallback"
-        cells = len(current_text)
-        rows.append(
-            {
-                "address": f"{logical:06X}",
-                "source": inv["source"],
-                "prefix_len": prefix_len,
-                "original_japanese": source_text,
-                "current_text": current_text,
-                "decode_source": decode_source,
-                "cells": cells,
-                "over_20": cells > 20,
-                "record_payload_hex": target_payload.hex().upper(),
-            }
-        )
-
+    rows, unreadable, end = scan_bank59_current(target, tbl)
     offenders = [row for row in rows if row["over_20"]]
+    mixed = [row for row in rows if row["mixed_language"]]
+
     report = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_by": "tools/audit_bank59_event_width.py",
         "status": "pass" if not offenders and not unreadable else "fail",
-        "target": {
-            "path": str(args.target.resolve()),
-            "size": len(target),
-            "sha256": sha(target),
-        },
+        "target": {"path": str(args.target), "size": len(target), "sha256": sha(target)},
         "scope": {
             "bank": "59",
-            "start": f"{args.start:06X}",
-            "end": f"{args.end:06X}",
-            "cell_limit": 20,
-            "inventory": [str(AUX_BLOCKS), str(PREFIXED)],
+            "start": f"{BANK59_START:06X}",
+            "end_exclusive": f"{end:06X}",
+            "cell_limit": CELL_LIMIT,
+            "inventory": "current target ROM direct scan",
+            "extent_source": str(CURRENT_PREFIXED_SOURCE.relative_to(ROOT)).replace("\\", "/"),
+            "historical_generated_inputs": [],
+            "address_proven_prefix_ledger": str(PROVEN_PREFIXES.relative_to(ROOT)).replace("\\", "/"),
         },
         "counts": {
             "records_checked": len(rows),
             "over_20": len(offenders),
+            "mixed_language": len(mixed),
             "unreadable": len(unreadable),
         },
         "offenders": offenders,
+        "mixed_language_records": mixed,
         "unreadable": unreadable,
         "rows": rows,
-        "policy": "read-only; width evidence does not authorize structural rewriting",
+        "policy": "read-only current-ROM audit; no archived aux snapshot is an input",
     }
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(
-        json.dumps(
-            {
-                "status": report["status"],
-                "target_sha256": report["target"]["sha256"],
-                "counts": report["counts"],
-                "offenders": [
-                    {"address": row["address"], "cells": row["cells"], "text": row["current_text"]}
-                    for row in offenders
-                ],
-                "report": str(args.out),
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-    )
+    print(json.dumps({
+        "status": report["status"],
+        "target_sha256": report["target"]["sha256"],
+        "scope_end_exclusive": report["scope"]["end_exclusive"],
+        "counts": report["counts"],
+        "offenders": [
+            {"address": row["address"], "cells": row["cells"], "text": row["text"]}
+            for row in offenders
+        ],
+        "report": str(args.out),
+    }, ensure_ascii=False, indent=2))
     return 0 if report["status"] == "pass" else 1
 
 

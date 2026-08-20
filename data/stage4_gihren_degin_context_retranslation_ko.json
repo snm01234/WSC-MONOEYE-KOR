@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "parent_sha256": "9003cbe4333ac16059afaf0995c98a6aa56711dcf71411cc1b750ec2f7a8e6aa",
+  "scope": "Stage 4 Gihren-Degwin Solar Ray conversation, from Solomon report through Hitler-tail exchange",
+  "policy": {
+    "line_limit": 20,
+    "speaker_register": {
+      "degin_to_gihren": "father/sovereign authoritative plain speech",
+      "gihren_to_degin": "formal respectful speech"
+    },
+    "preserve_record_boundaries": true,
+    "retranslate_by_contiguous_context": true
+  },
+  "scenario": [
+    {"address":"60BD8F","ko":"……솔로몬이 함락됐다지？"},
+    {"address":"60BDA3","ko":"그 일은 걱정 마십시오、 아버님。"},
+    {"address":"60BDB1","ko":"이미 대비는 해 두었습니다。"},
+    {"address":"60BDC6","ko":"……솔라 레이인가？"},
+    {"address":"60BDD7","ko":"……그렇습니다。"},
+    {"address":"60BDE1","ko":"콜로니를 개조해、 직경 ６킬로미터"},
+    {"address":"60BDF3","ko":"레이저로 연방 함대를 섬멸하겠습니다。"},
+    {"address":"60BE01","ko":"이 계획을 재가해 주십시오…… 공왕。"},
+    {"address":"60BE17","ko":"다 해놓고 이제 와서……"},
+    {"address":"60BE26","ko":"흥…… 뭐、 좋다。 허가하마。"},
+    {"address":"60BE37","ko":"하지만 말이다、 기렌……"},
+    {"address":"60BE40","ko":"그렇게 이긴 뒤엔 어쩔 셈이냐？"},
+    {"address":"60BE55","ko":"인구도 줄었으니…… 더 늘리지 않고"},
+    {"address":"60BE6E","ko":"우수한 인종만 남기겠습니다。"},
+    {"address":"60BE92","ko":"귀공은 히틀러라는 인물을"},
+    {"address":"60BE9E","ko":"알고 있는가？"},
+    {"address":"60BEAC","ko":"히틀러요？ 중세 시대의 인물이군요。"},
+    {"address":"60BEC3","ko":"그래、 독재자였지……"},
+    {"address":"60BED3","ko":"세상의 흐름을 읽지 못한 사내다。"},
+    {"address":"60BEEE","ko":"귀공은 그 히틀러의 꼬리로군。"},
+    {"address":"60BF17","ko":"……뭐、 이겨 보이겠습니다。"},
+    {"address":"60BF29","ko":"그 뒤、 진정한 뉴타입이"},
+    {"address":"60BF36","ko":"나타날 때를 기다리도록 하지요……"},
+    {"address":"60BF44","ko":"부디 히틀러의 꼬리가"},
+    {"address":"60BF4E","ko":"싸우는 모습을 지켜봐 주십시오……"}
+  ]
+}

@@ -52,6 +52,10 @@ out/dist/*
 !out/dist/monoeye_ko_expanded_v1.3.1_xdelta.json
 !out/dist/monoeye_ko_expanded_v1.3.1_XDELTA_README.md
 !out/dist/SHA256SUMS_v1.3.1.txt
+!out/dist/monoeye_ko_expanded_v1.3.2.xdelta
+!out/dist/monoeye_ko_expanded_v1.3.2_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.3.2_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.3.2.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*
@@ -110,6 +114,26 @@ tools/promote_v1_3_1_dialogue_followup_candidate.py
 docs/BROTHER_TERM_CONTEXT_REVIEW_20260820.md
 docs/DIALOGUE_BOUNDARY_DUPLICATION_AUDIT_20260820.md
 docs/DIALOGUE_TWO_LINE_TRUNCATION_REFLOW_20260820.md
+
+# v1.3.2 local review / promotion artifacts. The accepted release state is
+# represented by active data specs, public builders/auditors, release metadata,
+# and the generated xdelta. Rejected broad register-review sheets and one-off
+# promotion helpers stay local-only.
+data/dialogue_speaker_register_policy_ko.json
+docs/DIALOGUE_REGISTER_GLOBAL_REVIEW_QUEUE.csv
+docs/DIALOGUE_SPEAKER_TONE_REVIEW_SHEET.csv
+docs/ENCYCLOPEDIA_NAME_AUTO_UNIFY_CANDIDATES.csv
+docs/ENCYCLOPEDIA_NAME_CONSISTENCY_ALL.csv
+docs/ENCYCLOPEDIA_NAME_REVIEW_EXCEPTIONS.csv
+docs/ENCYCLOPEDIA_NAME_UNREFERENCED.csv
+docs/STAGE4_JOHNNY_GATO_DIALOGUE_FOLLOWUP_TEST_MATRIX.md
+tools/audit_dialogue_register_consistency.py
+tools/promote_global_dialogue_boundary_retranslation_candidate.py
+tools/promote_pallas_athene_name_unify_candidate.py
+tools/promote_stage4_epilogue_context_retranslation_candidate.py
+tools/promote_stage4_gihren_degin_context_retranslation_candidate.py
+tools/promote_stage4_johnny_gato_dialogue_followup_candidate.py
+tools/promote_stage4_mian_context_followup_retranslation_candidate.py
 
 # Accidental/local helper files.
 NUL

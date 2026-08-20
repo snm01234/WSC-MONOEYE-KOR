@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "parent_sha256": "173fd84de45929756e56d84a076e33380abd6540a5f5698235e776384013c5cf",
+  "scope": "Stage 4 Mian farewell follow-up: retranslate from ぜったい…… through Brad's final は、はぁ…… response",
+  "policy": {
+    "line_limit": 20,
+    "translate_as_contiguous_scene": true,
+    "speaker_addressee_register": true,
+    "mian_to_brad": "family casual",
+    "brad_to_char": "military polite",
+    "char_to_brad": "superior hake-style",
+    "preserve_record_boundaries": true,
+    "do_not_touch_unrelated_stage4_or_later_briefing": true
+  },
+  "context_only": [
+    {"address":"60B398","jp":"はぁ……","ko":"하아……","reason":"native two-token row already natural; retain byte-exact"}
+  ],
+  "scenario": [
+    {"address":"60B36A","ko":"꼭……"},
+    {"address":"60B370","ko":"꼭 돌아와 줘。"},
+    {"address":"60B37F","ko":"……그래。"},
+    {"address":"60B3A4","ko":"음？ 무슨 일인가、 중령？"},
+    {"address":"60B3B5","ko":"아닙니다……"},
+    {"address":"60B3BD","ko":"설마 대령님께、 그……"},
+    {"address":"60B3CA","ko":"아이를 달래는 재주가"},
+    {"address":"60B3D7","ko":"있으실 줄은…… 참 놀랐습니다……"},
+    {"address":"60B3E8","ko":"……아니。"},
+    {"address":"60B3F1","ko":"달랜 건 아닐세。"},
+    {"address":"60B40C","ko":"아무리 어려도、"},
+    {"address":"60B419","ko":"제 눈으로 보고 생각할 줄은 아네。"},
+    {"address":"60B42C","ko":"아이 취급하지 말고 이치를 설명하면"},
+    {"address":"60B43F","ko":"납득하는 법일세。"},
+    {"address":"60B449","ko":"……나도 어릴 적엔 그랬지。"},
+    {"address":"60B459","ko":"아…… 그런 겁니까……"},
+    {"address":"60B46C","ko":"나도 어릴 적에는"},
+    {"address":"60B478","ko":"저렇게 랄을 애먹이곤 했지……"},
+    {"address":"60B48A","ko":"랄……？"},
+    {"address":"60B493","ko":"아버님 성함입니까？"},
+    {"address":"60B4A1","ko":"아니、 그는 내……"},
+    {"address":"60B4AF","ko":"아、 아니…… 미안하네。"},
+    {"address":"60B4BA","ko":"방금 말은 실언이었네。"},
+    {"address":"60B4C5","ko":"미안하지만、 브라드 중령。"},
+    {"address":"60B4D0","ko":"이 일은 잊어 주게。"},
+    {"address":"60B4E4","ko":"아、 예……"}
+  ],
+  "event_safe_native2_param": [
+    {
+      "address":"60B400",
+      "jp":"……は？",
+      "before":"……네？",
+      "ko":"……예？",
+      "expected_body_hex":"E51D5101",
+      "param_index":"51",
+      "reason":"Brad's surprised polite response; 예? is natural, while 네? reads like a mechanical acknowledgement here"
+    }
+  ]
+}
