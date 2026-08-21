@@ -56,6 +56,10 @@ out/dist/*
 !out/dist/monoeye_ko_expanded_v1.3.2_xdelta.json
 !out/dist/monoeye_ko_expanded_v1.3.2_XDELTA_README.md
 !out/dist/SHA256SUMS_v1.3.2.txt
+!out/dist/monoeye_ko_expanded_v1.4.0.xdelta
+!out/dist/monoeye_ko_expanded_v1.4.0_xdelta.json
+!out/dist/monoeye_ko_expanded_v1.4.0_XDELTA_README.md
+!out/dist/SHA256SUMS_v1.4.0.txt
 
 # Legacy files are local archives. Keep only policy / manifest text in Git.
 legacy/*
@@ -134,6 +138,34 @@ tools/promote_stage4_epilogue_context_retranslation_candidate.py
 tools/promote_stage4_gihren_degin_context_retranslation_candidate.py
 tools/promote_stage4_johnny_gato_dialogue_followup_candidate.py
 tools/promote_stage4_mian_context_followup_retranslation_candidate.py
+
+# v1.4.0 font investigation / rejected POCs / local promotion helpers.
+# Public implementation source is limited to the final 8x16 exact-LUT,
+# stemspace14 and legacy-UI-sync builders documented in RELEASE_SOURCE_SELECTION.
+tools/analyze_condensed_*.py
+tools/analyze_dialogue_8x16_font_candidates.py
+tools/bizhawk_font_lut_runtime_probe.lua
+tools/bizhawk_read_font_lut.lua
+tools/build_dialogue_font_lut_capture_probe.py
+tools/build_dialogue_galmuri11_native8_poc.py
+tools/build_dialogue_galmuri11bitmap_16x16_exactlut_poc.py
+tools/build_dialogue_galmuri11bitmap_16x16_lut_poc.py
+tools/build_dialogue_galmuri11bitmap_16x16_poc.py
+tools/build_dialogue_galmuri11bitmap_bold_16x16_exactlut_poc.py
+tools/build_dialogue_galmuri11bitmap_condensed_bridge14_poc.py
+tools/build_dialogue_galmuri11bitmap_condensed_stemrepeat14_poc.py
+tools/build_dialogue_galmuri11bitmap_condensed_weight_tiers_poc.py
+tools/build_dialogue_galmuri11bitmap_condensed_stemspace14_onebyte_sync_candidate.py
+tools/capture_dialogue_font_poc_libretro.py
+tools/compare_dialogue_font_poc_colors.py
+tools/derive_font_vram_mapping.py
+tools/diag_compact_font_record_format.py
+tools/probe_font_lut_libretro.py
+tools/scan_dialogue_font_poc_states.py
+tools/promote_dialogue_galmuri11bitmap_condensed_stemspace14_candidate.py
+tools/promote_dialogue_galmuri11bitmap_condensed_stemspace14_legacy_ui_sync_candidate.py
+tools/promote_stage5_lalah_amuro_context_retranslation_candidate.py
+tools/rollback_stage5_lalah_60e087_dialogue.py
 
 # Accidental/local helper files.
 NUL

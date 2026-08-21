@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "parent_sha256": "e91cde50cbe15386561495fb53fd51c26a279ad0614aad57811d0169efbc0bdb",
+  "scope": "Stage 5 光る宇宙 / 빛나는 우주: Lalah-Amuro Newtype dialogue register cleanup",
+  "policy": {
+    "line_limit": 20,
+    "translate_as_contiguous_scene": true,
+    "speaker_addressee_register": true,
+    "lalah_to_amuro": "intimate/casual plain speech; preserve アナタ as 당신 but do not use polite endings",
+    "amuro_to_lalah": "young casual plain speech; 君 -> 너, not 자네",
+    "preserve_record_boundaries": true,
+    "preserve_newtype_mutual_understanding_wording": true,
+    "do_not_touch_unrelated_stage5_dialogue": true
+  },
+  "context_only": [
+    {"address":"60E451","jp":"『アムロは信じて……？』","ko":"『아무로는 믿어……？』","reason":"Lalah's intimate direct question is already natural and is retained byte-exact"}
+  ],
+  "scenario": [
+    {"address":"60E076","jp":"アナタはこんなに戦えるじゃない……！！","ko":"당신은 이렇게나 잘 싸우잖아……！！","reason":"match Lalah's surrounding casual speech; remove isolated polite ending"},
+    {"address":"60E46C","jp":"『信じるさ……","ko":"『믿지……","reason":"さ gives Amuro a confident casual assurance; 믿지 is more natural than isolated 믿어"},
+    {"address":"60E478","jp":"　君ともこうしてわかりあえたんだ』","ko":"너와도 이렇게 서로 이해했으니까』","reason":"君 is intimate 너 in this scene; reorder the Korean clause while preserving mutual-understanding meaning"}
+  ],
+  "event_safe_native2_param": [
+    {
+      "address":"60E087",
+      "jp":"なぜなの！？",
+      "before":"그런데 왜！？",
+      "ko":"그런데 왜！？",
+      "expected_body_hex":"E51D0A01",
+      "param_index":"0A",
+      "reason":"user-requested rollback: retain the concise original Korean rendering for this elliptical question"
+    }
+  ]
+}

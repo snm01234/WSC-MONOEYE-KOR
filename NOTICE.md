@@ -32,6 +32,15 @@ MIT License는 다음 제3자 권리에 대한 허락을 부여하지 않습니�
 
 README 등 문서에 포함하는 게임 스크린샷도 원 게임의 화면을 포함한 제3자 콘텐츠이므로 MIT License 적용 대상이 아닙니다. 스크린샷은 한글패치 적용 결과를 설명하는 예시 용도로 필요한 최소 범위에서만 사용합니다.
 
+## Galmuri 폰트
+
+v1.4.0의 주요 한글 렌더링 빌드에는 Lee Minseo가 제작한 **Galmuri** 폰트 소프트웨어가 사용됩니다. 저장소의 Galmuri 폰트 파일은 프로젝트 MIT License가 아니라 **SIL Open Font License, Version 1.1** 조건을 따릅니다.
+
+- 저작권 표시: `Copyright (c) 2019–2025 Lee Minseo (quiple@quiple.dev)`
+- 라이선스 원문: `assets/fonts/galmuri_tmp/LICENSE.txt`, `assets/fonts/Galmuri_LICENSE.txt`
+
+Galmuri의 명칭과 폰트 파일을 프로젝트가 자체 제작한 것으로 주장하지 않으며, OFL이 요구하는 저작권 고지와 라이선스 조건을 별도로 유지합니다.
+
 ## 제3자 게임 자료
 
 원 게임과 관련된 저작권·상표권 및 기타 지식재산권은 각 권리자에게 있습니다. 게임명과 일부 짧은 원문 또는 식별자는 패치 호환성 식별, ROM 위치 검증, 빌드 재현, 기술 문서화 등의 목적으로 필요한 범위에서 포함될 수 있습니다.

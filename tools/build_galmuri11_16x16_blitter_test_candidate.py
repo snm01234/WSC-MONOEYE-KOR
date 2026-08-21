@@ -67,12 +67,15 @@ GLYPH_BANK1 = 0x02
 SLOTS_PER_BANK = 1024  # 1024 * 64 = 65536
 GLYPH_BYTES = 64
 CELL = 16
+HELPER_BANK = 0x7F
+HELPER_SEG = EXT_CAVE_SEG
 HELPER_OFF = 0xFF18
 HELPER_MAX = 0xFFFF0 - 0xFFF18  # 216
 RESTORE_OFF = 0xFCF1  # existing pad3 bank-restore helper on tip
 GLYPH_END = 0x05BB  # skip doubler; advance VRAM cell
 DMA_COPY_OFF = 0x7C91  # stock far routine: AX=off BX=seg CX=dst DX=len → ports 40-48
 TAG_FLAG = 0x19FE  # WRAM sticky bank-restore flag used by pad2/pad3
+HELPER_COPY_POLICY = "movsw"  # wrappers may select "lut_mask" for runtime style preservation
 
 
 class BuildError(RuntimeError):
@@ -224,14 +227,15 @@ def glyph_file_offset(slot: int) -> int:
     return (bank << 16) | (local * GLYPH_BYTES)
 
 
-def build_primary_cave(helper_off: int) -> bytes:
+def build_primary_cave(helper_off: int, helper_seg: int | None = None) -> bytes:
     """Tagged → 16×16 helper; untagged stock shl/add → 052B. Includes tip restore call."""
+    target_seg = HELPER_SEG if helper_seg is None else helper_seg
     out = bytearray()
     out += b"\x9A" + struct.pack("<HH", RESTORE_OFF, EXT_CAVE_SEG)  # existing restore
     out += b"\xF7\xC3" + struct.pack("<H", TAG_BIT)  # test bx,8000
     jz_at = len(out)
     out += b"\x74\x00"
-    out += far_jmp(helper_off & 0xFFFF, EXT_CAVE_SEG)
+    out += far_jmp(helper_off & 0xFFFF, target_seg)
     normal = len(out)
     out += b"\xC1\xE3\x04"  # shl bx,4
     out += b"\x03\xD3"  # add dx,bx
@@ -359,9 +363,11 @@ def main() -> int:
     primary = build_primary_cave(HELPER_OFF)
 
     # Install helper + primary (do not touch ext_dict at FC8C+).
-    helper_abs = sab(candidate, (0x7F << 16) | HELPER_OFF)
+    helper_abs = sab(candidate, (HELPER_BANK << 16) | HELPER_OFF)
     if not all(b == 0xFF for b in parent[helper_abs : helper_abs + HELPER_MAX]):
-        raise BuildError("helper cave 7F:FF18 is not free FF on tip")
+        raise BuildError(
+            f"helper cave {HELPER_BANK:02X}:{HELPER_OFF:04X} is not free FF on tip"
+        )
     candidate[helper_abs : helper_abs + len(helper)] = helper
     if len(helper) < HELPER_MAX:
         candidate[helper_abs + len(helper) : helper_abs + HELPER_MAX] = b"\xFF" * (
@@ -398,8 +404,16 @@ def main() -> int:
             parent[b << 16 : (b + 1) << 16] == out_bytes[b << 16 : (b + 1) << 16]
             for b in range(0x21, 0x26)
         ),
-        "glyph_banks_are_01_02": GLYPH_BANK0 == 0x01 and GLYPH_BANK1 == 0x02,
-        "helper_uses_cpu_movsw": b"\xF3\xA5" in helper,
+        "glyph_banks_are_adjacent_low_expansion": (
+            0 <= GLYPH_BANK0 <= 0x0E and GLYPH_BANK1 == GLYPH_BANK0 + 1
+        ),
+        "helper_copy_policy_valid": (
+            (HELPER_COPY_POLICY == "movsw" and b"\xF3\xA5" in helper)
+            or (
+                HELPER_COPY_POLICY == "lut_mask"
+                and b"\xAC\x8A\xE0\x22\xC6\xF6\xD4\x22\xE2\x0A\xC4\xAA" in helper
+            )
+        ),
     }
     if not all(checks.values()):
         raise BuildError(json.dumps({"checks": checks}, ensure_ascii=False))
@@ -437,10 +451,11 @@ def main() -> int:
             "primary_site": f"{PRIMARY_SITE:06X}",
             "primary_cave": f"{EXT_CAVE:06X}",
             "primary_len": len(primary),
-            "helper": f"7F{HELPER_OFF:04X}",
+            "helper": f"{HELPER_BANK:02X}{HELPER_OFF:04X}",
             "helper_len": len(helper),
             "skip_doubler_return": f"{GLYPH_END:06X}",
             "base_index": f"{BASE_INDEX:04X}",
+            "copy_policy": HELPER_COPY_POLICY,
         },
         "glyph_pool": {
             "banks": [f"{GLYPH_BANK0:02X}", f"{GLYPH_BANK1:02X}"],

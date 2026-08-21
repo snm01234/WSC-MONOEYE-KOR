@@ -10,10 +10,10 @@
 - README 소개용 한글패치 적용 화면 캡처: `docs/images/title_screen_ko.png`처럼 소수의 선별 스크린샷만 허용
 - 패치 빌드/검증 도구: `tools/*.py`
 - 재현 가능한 빌드에 필요한 활성 번역/구조 사양: `data/`
-- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.3.2.xdelta`
-- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.3.2_xdelta.json`, `out/dist/SHA256SUMS_v1.3.2.txt`
-- 릴리스 변경 사항: `RELEASE_NOTES_v1.3.2.md`
-- v1.3.2 공개 소스/Release asset 선정표: `docs/RELEASE_SOURCE_SELECTION_v1.3.2.md`
+- 배포용 xdelta: `out/dist/monoeye_ko_expanded_v1.4.0.xdelta`
+- xdelta 검증 정보: `out/dist/monoeye_ko_expanded_v1.4.0_xdelta.json`, `out/dist/SHA256SUMS_v1.4.0.txt`
+- 릴리스 변경 사항: `RELEASE_NOTES_v1.4.0.md`
+- v1.4.0 공개 소스/Release asset 선정표: `docs/RELEASE_SOURCE_SELECTION_v1.4.0.md`
 
 루트 `LICENSE`의 MIT License는 프로젝트가 실제로 라이선스를 부여할 권한이 있는 자체 작성 코드·도구·문서 등에 적용합니다. 제3자 게임 콘텐츠와 원작 권리는 `NOTICE.md`에서 명시적으로 분리합니다.
 
@@ -31,7 +31,7 @@
 - 빌드 재현에 필요하지 않은 독립적인 원문 덤프·대규모 검수 worklist·ROM 추출 중간물
 - `PATCH_PROGRESS.md`: 원문 인용과 상세 실측 기록이 누적된 내부 개발 로그
 - `legacy/`의 실제 과거 바이너리/작업 산출물
-- 로컬 폰트 파일 및 라이선스가 명확하지 않은 외부 자산
+- 로컬 폰트 바이너리 및 라이선스가 명확하지 않거나 재배포 조건을 충족하지 못한 외부 자산
 
 `.gitignore`는 이 원칙을 기본적으로 강제하며 `out/dist`에서는 공개할 xdelta 관련 파일만 명시적으로 허용합니다.
 
@@ -43,11 +43,11 @@
 
 GitHub에는 `legacy/README.md`와 필요 시 이동 매니페스트만 포함하고, 실제 ROM/SaveRAM/대형 진단 파일은 올리지 않습니다.
 
-워크스페이스 전체 정리는 `tools/organize_workspace_release_core.py`를 기준으로 합니다. `outputs/`, `reference/`, `retroarch_savestate/`는 정본 빌드와 분리된 로컬 이력으로 보고 legacy에 보존하되, `savebackup/`은 사용자 진행 SaveRAM 보관소이므로 정리·이동 대상에서 제외하고 현재 위치에 그대로 유지합니다. `data/`의 활성 번역/구조 사양은 **다른 사용자가 합법적으로 소유한 일본판 원본 ROM으로 동일한 패치를 재현할 수 있도록 공개 Git 이력에 포함**합니다. 다만 빌드에 필요하지 않은 원문 덤프와 review-only 중간물은 별도 로컬 영역으로 분리하는 것을 원칙으로 합니다. `PATCH_PROGRESS.md`는 내부 개발 로그로만 유지합니다. `docs/`는 현재 구조·정책·최종 승격 문서 중 공개 검토를 마친 것만 Git에 포함합니다. `assets/fonts`와 원본 8 MiB ROM은 현재 빌드/xdelta 생성에 필요하므로 로컬 작업 트리에 유지하되 Git에는 포함하지 않습니다.
+워크스페이스 전체 정리는 `tools/organize_workspace_release_core.py`를 기준으로 합니다. `outputs/`, `reference/`, `retroarch_savestate/`는 정본 빌드와 분리된 로컬 이력으로 보고 legacy에 보존하되, `savebackup/`은 사용자 진행 SaveRAM 보관소이므로 정리·이동 대상에서 제외하고 현재 위치에 그대로 유지합니다. `data/`의 활성 번역/구조 사양은 **다른 사용자가 합법적으로 소유한 일본판 원본 ROM으로 동일한 패치를 재현할 수 있도록 공개 Git 이력에 포함**합니다. 다만 빌드에 필요하지 않은 원문 덤프와 review-only 중간물은 별도 로컬 영역으로 분리하는 것을 원칙으로 합니다. `PATCH_PROGRESS.md`는 내부 개발 로그로만 유지합니다. `docs/`는 현재 구조·정책·최종 승격 문서 중 공개 검토를 마친 것만 Git에 포함합니다. v1.4.0에서 사용하는 Galmuri 폰트는 SIL Open Font License 1.1이 확인된 로컬 빌드 의존성이지만, 현재 저장소 정책상 `assets/fonts/`의 폰트 바이너리는 공개 Git/Release asset에 포함하지 않습니다. 빌드 시 사용한 라이선스와 저작권 고지는 `NOTICE.md`와 로컬 `assets/fonts/*LICENSE*`에서 확인하며 프로젝트 MIT License와 별도로 취급합니다. 원본 8 MiB ROM도 로컬 작업 트리에만 유지하고 Git에는 포함하지 않습니다.
 
 ## GitHub Release asset 정책
 
-현재 v1.3.2 Release에는 `monoeye_ko_expanded_v1.3.2.xdelta`와 `SHA256SUMS_v1.3.2.txt`만 첨부합니다. `_xdelta.json`과 `_XDELTA_README.md`는 저장소의 재현/검증 자료로 유지하고, `RELEASE_NOTES_v1.3.2.md`는 Release 본문으로 사용하므로 asset으로 중복 업로드하지 않습니다.
+현재 v1.4.0 Release에는 `monoeye_ko_expanded_v1.4.0.xdelta`와 `SHA256SUMS_v1.4.0.txt`만 첨부합니다. `_xdelta.json`과 `_XDELTA_README.md`는 저장소의 재현/검증 자료로 유지하고, `RELEASE_NOTES_v1.4.0.md`는 Release 본문으로 사용하므로 asset으로 중복 업로드하지 않습니다.
 
 ## 메인TIP 정책
 
